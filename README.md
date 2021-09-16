@@ -1,0 +1,1 @@
+# Please copy and paste the .mod file and the folder both named EGD to your "documents/paradox interactive/Hearts of Iron IV/mod" folder. Also remember to put that path in the .mod file outside the folder
