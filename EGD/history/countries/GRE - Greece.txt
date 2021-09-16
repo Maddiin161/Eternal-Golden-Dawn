@@ -1,0 +1,125 @@
+﻿capital = 47
+
+#TECH/OOBS
+oob = "GRE_1949"
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = revolutionary_socialism
+	last_election = "1972.4.18"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 30
+	revolutionary_socialism = 70
+}
+
+create_country_leader = {
+	name = "Charilaos Florakis" 
+	desc = ""
+	picture = "Charilaos_Florakis.dds"
+	expire = "2003.3.1"
+	ideology = marxism_leninism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Andreas Papandreou" 
+	desc = ""
+	picture = "Andreas_Papandreou.dds"
+	expire = "2003.3.1"
+	ideology = left_wing_nationalism
+	traits = {
+		
+	}
+}
+
+
+create_field_marshal = {
+	name = "Georgios Kosmas"
+	picture = "Kosmas.dds"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Alexandros Papagos"
+	picture = "AlexandrosPapagos.dds"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Markos Drakos"
+	picture = "Drakos.dds"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Stylianos Pattakos"
+	picture = "Stylianos_Pattakos.dds"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Grigorios Spantidakis"
+	picture = "Portrait_GRE_Grigoris_Spantidakis.dds"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Nikolaos Makarezos"
+	picture = "Portrait_GRE_Nikola_Makarezos.dds"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Nikolaos Plastiras"
+	picture = "NikolaosPlastiras.dds"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
+}
+
+

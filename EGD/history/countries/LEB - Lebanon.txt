@@ -1,0 +1,69 @@
+﻿#########################################################################
+# Lebanon - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 553
+	set_convoys = 5
+	
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+	}
+	
+	
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 23
+		democratic = 74
+		socialist = 3
+		communist = 0
+	}
+	#######################
+	# Leaders
+	#######################
+	create_country_leader = {
+		name = "Pierre Gemayel"
+		desc = ""
+		picture = "gfx/leaders/SAU/Portrait_Europe_Generic_fascist1.dds"
+		ideology = fascism
+		traits = {
+			#
+		}
+	}
+	create_country_leader = {
+		name = "Melick Yarad"
+		desc = ""
+		picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+		ideology = authoritarian_democracy
+		traits = {
+			#
+		}
+	}
+	create_country_leader = {
+		name = "Hashim al-Atassi"
+		desc = ""
+		picture = "P_D_Hashim_AlAtassi.tga"
+		ideology = social_liberalism
+		traits = { POSITION_President SUBIDEOLOGY_Liberalism HoS_Insignificant_Layman }
+	}
+	
+	create_country_leader = {
+		name = "Rami Sarraff"
+		desc = ""
+		picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_2.dds"
+		ideology = trotskyism
+		traits = {
+			#
+		}
+	}

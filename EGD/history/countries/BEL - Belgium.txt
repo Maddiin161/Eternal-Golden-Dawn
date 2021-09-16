@@ -1,0 +1,34 @@
+﻿capital = 126
+	
+set_politics = {
+	ruling_party = market_liberalism
+	last_election = "1978.12.25"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 20
+	market_liberalism = 40
+	social_liberalism = 20
+	social_democracy = 20
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
+}
+
+create_country_leader = {
+	name = "Wilfried Martens"
+	desc = ""
+	picture = "Wilfried_Martens.dds"
+	expire = "1982.1.1"
+	ideology = christian_demorcracy
+	traits = {}
+}

@@ -1,0 +1,335 @@
+﻿#########################################################################
+# Poland - 1933
+#########################################################################
+
+	capital = 10
+	oob = "POL_1933"
+	set_research_slots = 3
+	set_convoys = 10
+
+set_politics = {
+	ruling_party = revolutionary_socialism
+	last_election = "1972.3.28"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 20
+	revolutionary_socialism = 80
+}
+
+create_country_leader = {
+	name = "Henryk Jablonski"
+	desc = ""
+	picture = "Henryk_Jablonski.dds"
+	expire = "1982.1.1"
+	ideology = marxism_leninism
+	traits = {}
+}
+
+	create_field_marshal = {
+		name = "Józef Piłsudski"
+		picture = "M_Josef_Pilsudski_MILITARY.tga"
+		traits = { media_personality offensive_doctrine inspirational_leader }
+		id = 3150
+		skill = 2
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Kazimierz Sosnkowski"
+		picture = "M_Kazimierz_Sosnowski.tga"
+		traits = { old_guard organizer }
+		id = 3151
+		skill = 3
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 4
+    }
+
+    create_corps_commander = {
+		name = "Edward Rydz-Śmigły"
+		picture = "M_Edward_Rydz_Smigly.tga"
+		traits = {  politically_connected war_hero media_personality skilled_staffer  }
+		id = 3152
+		skill = 2
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 1
+		logistics_skill = 2
+    }
+
+    create_corps_commander = {
+		name = "Leon Berbecki"
+		picture = "M_Leon_Berbecki.tga"
+		traits = {  old_guard infantry_officer politically_connected }
+		id = 3153
+		skill = 2
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 2
+    }
+
+    create_corps_commander = {
+		name = "Jan Kruszewski"
+		picture = "M_Jan_Kruszewski.tga"
+		traits = {  politically_connected infantry_officer }
+		id = 3154
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 1
+    }
+    
+    create_corps_commander = {
+		name = "Juliusz Rómmel"
+		picture = "M_Juliusz_Rommel.tga"
+		traits = {  old_guard war_hero trait_cautious cavalry_officer cavalry_leader }
+		id = 3155
+		skill = 2
+		attack_skill = 4
+		defense_skill = 1
+		planning_skill = 2
+		logistics_skill = 1
+    }
+    
+    create_corps_commander = {
+		name = "Tadeusz Piskor"
+		picture = "M_Tadeusz_Piskor.tga"
+		traits = {  infantry_officer trait_engineer }
+		id = 3156
+		skill = 2
+		attack_skill = 1
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 3
+    }
+    
+    create_corps_commander = {
+		name = "Stefan Dąb-Biernacki"
+		picture = "M_Stefan_Dab_Biernacki.tga"
+		traits = {  old_guard politically_connected harsh_leader substance_abuser }
+		id = 3157
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+    }
+    
+    create_corps_commander = {
+		name = "Kazimierz Fabrycy"
+		picture = "M_Kazimierz_Fabrycy.tga"
+		traits = {  politically_connected }
+		id = 3158
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 2
+		logistics_skill = 1
+    }
+    
+    create_corps_commander = {
+		name = "Gustaw Orlicz-Dreszer"
+		picture = "M_Gustaw_Orlicz_Dreszer.tga"
+		traits = {  politically_connected }
+		id = 3159
+		skill = 1
+		attack_skill = 2
+		defense_skill = 1
+		planning_skill = 2
+		logistics_skill = 2
+    }
+
+    create_corps_commander = {
+		name = "Antoni Szyling"
+		picture = "M_Antoni_Szyling.tga"
+		traits = { inflexible_strategist old_guard trickster }
+		id = 3160
+		skill = 4
+		attack_skill = 2
+		defense_skill = 5
+		planning_skill = 4
+		logistics_skill = 2
+    }
+    
+    create_corps_commander = {
+		name = "Wiktor Thomée"
+		picture = "M_Wiktor_Thomee.tga"
+		traits = {  harsh_leader organizer commando }
+		id = 3161
+		skill = 4
+		attack_skill = 2
+		defense_skill = 5
+		planning_skill = 3
+		logistics_skill = 3
+    }
+    
+    create_corps_commander = {
+		name = "Franciszek Kleeberg"
+		picture = "M_Franciszek_Kleeberg.tga"
+		traits = {  infantry_officer infantry_leader swamp_fox }
+		id = 3162
+		skill = 3
+		attack_skill = 3
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 4
+    }
+    
+    create_corps_commander = {
+		name = "Tadeusz Kutrzeba"
+		picture = "M_Tadeusz_Kutrzeba.tga"
+		traits = {  brilliant_strategist career_officer skilled_staffer trait_engineer }
+		id = 3163
+		skill = 3
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 4
+		logistics_skill = 4
+    }
+    
+    create_corps_commander = {
+		name = "Władysław Bortnowski"
+		picture = "M_Wladyslaw_Bortnowski.tga"
+		traits = {  media_personality politically_connected organizer }
+		id = 3164
+		skill = 2
+		attack_skill = 3
+		defense_skill = 1
+		planning_skill = 2
+		logistics_skill = 2
+    }
+    
+    create_corps_commander = {
+		name = "Janusz Gąsiorowski"
+		picture = "M_Janusz_Gasiorowski.tga"
+		traits = {  trickster }
+		id = 3165
+		skill = 2
+		attack_skill = 1
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Władysław Anders"
+		gfx = "M_Wladyslaw_Anders.tga"
+		traits = {  media_personality cavalry_leader war_hero }
+		id = 3166
+		skill = 2
+		attack_skill = 4
+		defense_skill = 1
+		planning_skill = 2
+		logistics_skill = 1
+    }
+
+    create_corps_commander = {
+		name = "Wilhelm Orlik-Rückemann"
+		picture = "M_Ruckemann.tga"
+		traits = {  panzer_leader commando }
+		id = 3167
+		skill = 3
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+    }
+    
+    create_corps_commander = {
+		name = "Emil Krukowicz-Przedrzymirski"
+		picture = "M_Krukowicz.tga"
+		traits = {  organizer inflexible_strategist }
+		id = 3168
+		skill = 2
+		attack_skill = 1
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 2
+    }
+
+    create_corps_commander = {
+		name = "Mieczysław Boruta-Spiechowicz"
+		picture = "M_Mieczyslaw_Boruta_Spiechowicz.tga"
+		traits = {  trait_mountaineer }
+		id = 3169
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+}	
+
+	remove_unit_leader = 3159
+	remove_unit_leader = 3153
+  
+    create_corps_commander = {
+		name = "Roman Abraham"
+		picture = "M_Roman_Abraham.tga"
+		traits = { brilliant_strategist cavalry_officer cavalry_leader trickster }
+		id = 3170
+		skill = 4
+		attack_skill = 4
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 4
+    }
+    
+    create_corps_commander = {
+		name = "Mikołaj Bołtuć"
+		picture = "M_Mikolaj_Boltuc.tga"
+		traits = {  trait_reckless ranger }
+		id = 3171
+		skill = 2
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 1
+    }
+    
+    create_corps_commander = {
+		name = "Zygmunt Podhorski"
+		picture = "M_Zygmunt_Podhorski.tga"
+		traits = {  cavalry_officer organizer swamp_fox }
+		id = 3172
+		skill = 3
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 3
+    }
+    
+    create_corps_commander = {
+		name = "Wincenty Kowalski"
+		picture = "M_Wincenty_Kowalski.tga"
+		traits = {  infantry_leader trickster }
+		id = 3173
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+}

@@ -1,0 +1,39 @@
+﻿capital = 476
+
+set_stability = 0.2
+set_war_support = 0.8
+
+set_politics = {
+	ruling_party = revolutionary_socialism
+	last_election = "1976.12.4"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 20
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 10
+	revolutionary_socialism = 70
+}
+
+create_country_leader = {
+	name = "Thuingaleng Muivah" 
+	desc = ""
+	picture = "Thuingaleng_Muivah.dds"
+	expire = "1992.3.1"
+	ideology = maoism
+	traits = {
+		
+	}
+}

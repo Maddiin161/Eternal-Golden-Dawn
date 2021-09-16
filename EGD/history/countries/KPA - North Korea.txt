@@ -1,0 +1,38 @@
+﻿	capital = 745
+	set_convoys = 5
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Mass_Assault = 1
+	}
+
+set_politics = {
+	ruling_party = revolutionary_socialism
+	last_election = "1969.1.7"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 100
+}
+	
+	create_country_leader = {
+		name = "Kim Il-sung"
+		desc = ""
+		picture = "Kim_Il_Sung.dds"
+		expire = "1994.7.8"
+		ideology = juche
+		traits = {}
+	}

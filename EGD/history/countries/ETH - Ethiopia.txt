@@ -1,0 +1,44 @@
+﻿#################################
+# Ethiopia - 1933
+#################################
+capital = 271
+set_convoys = 5
+oob = "ETH_1933"
+	
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "1974.1.7"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	authoritarian_democracy = 60
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 10
+	revolutionary_socialism = 30
+}
+
+create_country_leader = {
+	name = "Mengistu Haile Mariam"
+	desc = ""
+	picture = "Mengistu_Haile_Mariam.dds"
+	expire = "1992.1.1"
+	ideology = military_junta
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Mengistu Haile Mariam"
+	desc = ""
+	picture = "Mengistu_Haile_Mariam.dds"
+	expire = "1992.1.1"
+	ideology = marxism_leninism
+	traits = {}
+}

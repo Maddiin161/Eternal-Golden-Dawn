@@ -1,0 +1,36 @@
+﻿capital = 1126
+
+set_politics = {
+	ruling_party = social_democracy
+	last_election = "1978.1.2"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 7
+	social_democracy = 90
+	libertarian_socialism = 0
+	revolutionary_socialism = 3
+}
+
+create_country_leader = {
+	name = "Juan Francisco Luis" 
+	desc = ""
+	picture = "Juan_Francisco_Luis.dds"
+	expire = "1991.3.1"
+	ideology = social_democracy_ideology
+	traits = {
+		
+	}
+}

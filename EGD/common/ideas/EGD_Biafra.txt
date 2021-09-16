@@ -1,0 +1,10 @@
+ideas = {
+	country = {
+		BFR_national_resistance = {
+			picture = BFR_national_resistance
+			modifier = {
+				add_war_support= 5
+			}
+		}
+	}
+}

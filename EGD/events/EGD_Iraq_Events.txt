@@ -1,0 +1,16 @@
+add_namespace = iraq
+
+##Event: Hind Sales
+country_event = {
+	id = iraq.60
+	title = iraq.60.t
+	desc = iraq.60.d
+	picture = GFX_event_iraqi_hind_sales
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = iraq.60.a
+	}	
+}

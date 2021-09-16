@@ -1,0 +1,30 @@
+﻿capital = 398
+
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "1979.3.8"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	authoritarian_democracy = 30
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 40
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 30
+}
+
+create_country_leader = {
+	name = "Supreme Military Council"
+	desc = ""
+	picture = "P_A_D_Supreme_Military_Council.tga"
+	expire = "2000.1.1"
+	ideology = military_junta
+	traits = {}
+}

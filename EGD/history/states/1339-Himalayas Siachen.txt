@@ -1,0 +1,30 @@
+
+state={
+	id=1339
+	name="STATE_1339" # NWFP Himalayas
+	manpower = 1
+	
+	state_category = wasteland
+
+	history={
+		set_state_flag = mountains
+		set_state_flag = basic
+		set_state_flag = small
+		set_state_flag = poor
+		owner = PAK
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = PAK
+        add_core_of = RAJ
+		add_core_of = KAS
+        1984.1.1 = {
+            owner = RAJ
+        }
+		set_variable = { show_demographics_disabled = 1 }
+	}
+
+	provinces={
+		13986
+	}
+}

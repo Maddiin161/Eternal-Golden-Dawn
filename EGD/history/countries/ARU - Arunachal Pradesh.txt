@@ -1,0 +1,43 @@
+﻿add_puppet_of = PRC
+
+capital = 434
+
+add_puppet_of = PRC
+
+set_stability = 0.1
+set_war_support = 0.2
+
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "1963.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 10
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 90
+	revolutionary_socialism = 0
+}
+
+create_country_leader = {
+	name = "PLA South Tibet Administration" 
+	desc = ""
+	picture = "PLA_South_Tibet_Administration.dds"
+	expire = "1992.3.1"
+	ideology = military_junta
+	traits = {
+		
+	}
+}

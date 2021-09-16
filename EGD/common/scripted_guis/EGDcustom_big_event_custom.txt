@@ -1,0 +1,192 @@
+scripted_gui = {	
+
+	EGD_SG_big_event_iran_victory_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "EGD_SG_big_event_iran_victory_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_iran_victory ### this country flag triggers the #superevent
+		}
+		
+		effects = {
+			Super_Event_Close_click = {
+				clr_country_flag = big_event_custom_iran_victory ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+	}
+	
+	EGD_SG_big_event_iraq_victory_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "EGD_SG_big_event_iraq_victory_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_iraq_victory ### this country flag triggers the #superevent
+		}
+		
+		effects = {
+			Super_Event_Close_click = {
+				clr_country_flag = big_event_custom_iraq_victory ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+	}
+	
+	EGD_SG_big_event_the_dust_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "EGD_SG_big_event_the_dust_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_the_dust ### this country flag triggers the #superevent
+		}
+		
+		effects = {
+			Super_Event_Close_click = {
+				clr_country_flag = big_event_custom_the_dust ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+	}
+	
+	EGD_SG_big_event_aleph_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "EGD_SG_big_event_aleph_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_aleph ### this country flag triggers the #superevent
+		}
+		
+		effects = {
+			Super_Event_Close_click = {
+				clr_country_flag = big_event_custom_aleph ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+	}	
+	
+	EGD_SG_big_event_living_heaven_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "EGD_SG_big_event_living_heaven_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_living_heaven ### this country flag triggers the #superevent
+		}
+		
+		effects = {
+			Super_Event_Close_click = {
+				clr_country_flag = big_event_custom_living_heaven ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+	}	
+	
+	EGD_SG_big_event_chinese_collapse_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "EGD_SG_big_event_chinese_collapse_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_chinese_collapse ### this country flag triggers the #superevent
+		}
+		
+		effects = {
+			Super_Event_Close_click = {
+				clr_country_flag = big_event_custom_chinese_collapse ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+	}
+	
+	EGD_SG_big_event_saf_civil_war_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "EGD_SG_big_event_saf_civil_war_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_saf_civil_war ### this country flag triggers the #superevent
+		}
+		
+		effects = {
+			Super_Event_Close_click = {
+				clr_country_flag = big_event_custom_saf_civil_war ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+	}
+	
+	EGD_SG_big_event_gmu_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "EGD_SG_big_event_gmu_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_gmu ### this country flag triggers the #superevent
+		}
+		
+		effects = {
+			Super_Event_Close_click = {
+				clr_country_flag = big_event_custom_gmu ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+	}
+
+	EGD_SG_big_event_europe_united_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "EGD_SG_big_event_europe_united_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_europe_united ### this country flag triggers the #superevent
+		}
+		
+		effects = {
+			Super_Event_Close_click = {
+				clr_country_flag = big_event_custom_europe_united ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+	}
+	
+	EGD_SG_big_event_yugoslav_wars_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "EGD_SG_big_event_yugoslav_wars_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_yugoslav_wars ### this country flag triggers the #superevent
+		}
+		
+		effects = {
+			Super_Event_Close_click = {
+				clr_country_flag = big_event_custom_yugoslav_wars ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+	}
+
+	EGD_SG_big_event_1982_recession_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "EGD_SG_big_event_1982_recession_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_1982_recession ### this country flag triggers the #superevent
+		}
+		
+		effects = {
+			Super_Event_Close_click = {
+				clr_country_flag = big_event_custom_1982_recession ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+	}	
+	
+	EGD_SG_big_event_australia_hegemony_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "EGD_SG_big_event_australia_hegemony_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_australia_hegemony ### this country flag triggers the #superevent
+		}
+		
+		effects = {
+			Super_Event_Close_click = {
+				clr_country_flag = big_event_custom_australia_hegemony ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+	}	
+
+	EGD_SG_big_event_frame_iran_victory_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "EGD_SG_big_event_frame_iran_victory_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_latin_wars
+		}
+	}
+}
+#set_country_flag big_event_custom_iran_victory ## quick command for testing

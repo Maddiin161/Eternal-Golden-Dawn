@@ -1,0 +1,90 @@
+spriteTypes = {
+
+# Rev soc
+
+	spriteType = {
+		name = "GFX_ideology_marxism_leninism"
+		texturefile = "gfx/interface/ideologies/marxism_leninism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_marxism_leninism_maoism"
+		texturefile = "gfx/interface/ideologies/marxism_leninism_maoism.dds"
+	}
+	
+# ind soc
+
+	spriteType = {
+		name = "GFX_ideology_baathism"
+		texturefile = "gfx/interface/ideologies/baathism.dds"
+	}
+
+# islamism
+
+	spriteType = {
+		name = "GFX_ideology_khomeinism"
+		texturefile = "gfx/interface/ideologies/khomeinism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_salafi_jihadism"
+		texturefile = "gfx/interface/ideologies/salafi_jihadism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_islamic_nationalism"
+		texturefile = "gfx/interface/ideologies/islamic_nationalism.dds"
+	}
+
+# autocracy
+
+	spriteType = {
+		name = "GFX_ideology_baathism_iraqi"
+		texturefile = "gfx/interface/ideologies/baathism_iraqi.dds"
+	}	
+	
+# Transhumanism
+
+	spriteType = {
+		name = "GFX_ideology_singularitarianism"
+		texturefile = "gfx/interface/ideologies/singularitarianism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_techno_tribalism"
+		texturefile = "gfx/interface/ideologies/techno_tribalism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_technocracy"
+		texturefile = "gfx/interface/ideologies/technocracy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_religious_transhumanism"
+		texturefile = "gfx/interface/ideologies/religious_transhumanism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_deng_xiaoping_transhumanist"
+		texturefile = "gfx/interface/ideologies/deng_xiaoping_transhumanist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_larouchism"
+		texturefile = "gfx/interface/ideologies/larouchism.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_ideology_socialist_transhumanism"
+		texturefile = "gfx/interface/ideologies/socialist_transhumanism.dds"
+	}		
+	
+# annihlialtiosm
+
+	spriteType = {
+		name = "GFX_ideology_living_heaven"
+		texturefile = "gfx/interface/ideologies/living_heaven.dds"
+	}		
+	
+}

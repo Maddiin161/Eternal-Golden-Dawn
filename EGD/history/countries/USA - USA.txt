@@ -1,0 +1,51 @@
+﻿create_faction = nato
+	add_to_faction = UKK
+	add_to_faction = FRA
+	add_to_faction = ITA
+	add_to_faction = WGR
+	add_to_faction = CAN
+	add_to_faction = DEN
+	add_to_faction = BEL
+	add_to_faction = LUX
+	add_to_faction = HOL
+	add_to_faction = ICE
+	add_to_faction = NOR
+	add_to_faction = AUS
+	add_to_faction = TUR
+
+capital = 1200
+
+oob = "USA_1949"
+
+
+set_popularities = {
+	transhumanism = 0
+	ultranationalism = 2
+	despotism = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 48
+	market_liberalism = 0
+	social_liberalism = 50
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
+}
+	
+set_politics = {
+	ruling_party = social_liberalism
+		last_election = "1976.8.2"
+		election_frequency = 48
+		elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Jimmy Carter"
+	desc = ""
+	picture = "Jimmy_Carter.dds"
+	expire = "1987.1.1"
+	ideology = social_liberalism_ideology
+	traits = {
+		#
+	}
+}

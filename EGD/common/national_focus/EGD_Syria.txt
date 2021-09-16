@@ -1,0 +1,494 @@
+focus_tree = {
+	id = syria
+	continuous_focus_position = { x = 0 y = 1000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SYR
+		}
+	}
+	#Long Live the Arab Ba'ath!
+	focus = {
+		id = SYR_long_live_the_arab_baath
+		icon = GFX_SYR_long_live_the_arab_baath-445
+		x = 14
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			add_political_power = 50
+			
+		}
+	}
+
+	#The Syrian Arab Army
+	focus = {
+		id = SYR_the_syrian_arab_army
+		icon = GFX_SYR_the_syrian_arab_army-445
+		x = 5
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SYR_modernize_the_syrian_arab_armed_forces  }
+		completion_reward = {
+			army_experience = 10
+			
+		}
+	}
+
+	#Modernize the Syrian Arab Armed Forces
+	focus = {
+		id = SYR_modernize_the_syrian_arab_armed_forces
+		icon = GFX_SYR_modernize_the_syrian_arab_armed_forces-445
+		x = 4
+		y = 0
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+	#The Syrian Arab Air Force
+	focus = {
+		id = SYR_the_syrian_arab_air_force
+		icon = GFX_SYR_the_syrian_arab_air_force-445
+		x = 1
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SYR_modernize_the_syrian_arab_armed_forces  }
+	}
+
+	#The Syrian Arab Navy
+	focus = {
+		id = SYR_the_syrian_arab_navy
+		icon = GFX_SYR_the_syrian_arab_navy-445
+		x = 8
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SYR_modernize_the_syrian_arab_armed_forces  }
+	}
+
+	#Prodigal Son
+	focus = {
+		id = SYR_prodigal_son
+		available = { has_country_flag = leader_1 }
+		icon = GFX_SYR_prodigal_son-445
+		x = 10
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SYR_sibling_rivalry  }
+		mutually_exclusive = { focus = SYR_a_level_hand  focus = SYR_an_unlikely_choice  }
+	}
+
+	#Old Face, New Change
+	focus = {
+		id = SYR_old_face_new_change
+		icon = GFX_SYR_old_face_new_change-445
+		x = 19
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SYR_the_old_guard  }
+		available = { has_country_flag = leader_5 }
+		mutually_exclusive = { focus = SYR_guardians_of_the_homeland }
+	}
+
+	#Sibling Rivalry
+	focus = {
+		id = SYR_sibling_rivalry
+		icon = GFX_SYR_sibling_rivalry-445
+		x = 13
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SYR_struggles_in_damascus }
+				available = { 
+		               OR = {
+                       has_country_flag = leader_1					   
+					   has_country_flag = leader_2 
+					   has_country_flag = leader_3 }
+					   }
+		mutually_exclusive = { focus = SYR_the_old_guard  }
+				completion_reward = { 
+		                   hidden_effect = { 
+						   country_event = { id = syria.103 }
+						   }
+	                       }
+	}
+
+	#The Old Guard
+	focus = {
+		id = SYR_the_old_guard
+		icon = GFX_SYR_the_old_guard-445
+		x = 18
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SYR_struggles_in_damascus }
+		available = { 
+		               OR = {
+                       has_country_flag = leader_4					   
+					   has_country_flag = leader_5 }
+					   }
+		mutually_exclusive = { focus = SYR_sibling_rivalry  }
+						completion_reward = { 
+		                   hidden_effect = { 
+						   country_event = { id = syria.103 }
+			              }
+	}
+	}
+
+	#A Level Hand
+	focus = {
+		id = SYR_a_level_hand
+		icon = GFX_SYR_a_level_hand-445
+		x = 13
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SYR_sibling_rivalry  }
+		available = { has_country_flag = leader_2 }
+		mutually_exclusive = { focus = SYR_prodigal_son  focus = SYR_an_unlikely_choice  }
+	}
+
+	#An Unlikely Choice
+	focus = {
+		id = SYR_an_unlikely_choice
+		icon = GFX_SYR_an_unlikely_choice-445
+		x = 15
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SYR_sibling_rivalry  }
+		available = { has_country_flag = leader_3 }
+		mutually_exclusive = { focus = SYR_prodigal_son  focus = SYR_a_level_hand  }
+	}
+
+	#Guardians of the Homeland
+	focus = {
+		id = SYR_guardians_of_the_homeland
+		icon = GFX_SYR_guardians_of_the_homeland-445
+		x = 17
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SYR_the_old_guard  }
+		available = { has_country_flag = leader_4 }
+		mutually_exclusive = { focus = SYR_old_face_new_change  }
+	}
+
+	#Struggles in Damascus
+	focus = {
+		id = SYR_struggles_in_damascus
+		icon = GFX_SYR_struggles_in_damascus-445
+		x = 15
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SYR_death_has_taken_away_from_syria_a_leader  }
+				completion_reward = { 
+		                   hidden_effect = { 
+						   country_event = { id = syria.102 }
+			              }
+	}
+	}
+	
+	
+
+	#Death Has Taken Away from Syria a Leader...
+	focus = {
+		id = SYR_death_has_taken_away_from_syria_a_leader
+		icon = GFX_SYR_death_has_taken_away_from_syria_a_leader-445
+		x = 15
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = { has_country_flag = dead_leader } 
+		completion_reward = { 
+		                   hidden_effect = { 
+						   country_event = { id = syria.101 }
+			               clr_country_flag = dead_leader
+						   }
+	}
+	}
+
+	#Farming Production
+	focus = {
+		id = SYR_farming_production
+		icon = GFX_SYR_farming_production-445
+		x = 11
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SYR_cotton_from_homs  }
+	}
+
+	#Petroleum from Rmelan
+	focus = {
+		id = SYR_petroleum_from_rmelan
+		icon = GFX_SYR_petroleum_from_rmelan-445
+		x = 13
+		y = 4
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SYR_continue_nationalization  }
+		mutually_exclusive = { focus = SYR_cotton_from_homs  }
+	}
+
+	#Continue Nationalization
+	focus = {
+		id = SYR_continue_nationalization
+		icon = GFX_SYR_continue_nationalization-445
+		x = 12
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SYR_digging_ourselves_out  }
+	}
+
+	#Cotton from Homs
+	focus = {
+		id = SYR_cotton_from_homs
+		icon = GFX_SYR_cotton_from_homs-445
+		x = 11
+		y = 4
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SYR_continue_nationalization  }
+		mutually_exclusive = { focus = SYR_petroleum_from_rmelan  }
+	}
+
+	#Coastline Protection
+	focus = {
+		id = SYR_coastline_protection
+		icon = GFX_SYR_coastline_protection-445
+		x = 8
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SYR_the_syrian_arab_navy  }
+	}
+
+	#Ground Organization
+	focus = {
+		id = SYR_ground_organization
+		icon = GFX_SYR_ground_organization-445
+		x = 4
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SYR_the_syrian_arab_army  }
+	}
+
+	#Weapons for a New Age
+	focus = {
+		id = SYR_weapons_for_a_new_age
+		icon = GFX_SYR_weapons_for_a_new_age-445
+		x = 6
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SYR_the_syrian_arab_army  }
+	}
+
+	#Gunships from Russia
+	focus = {
+		id = SYR_gunships_from_russia
+		icon = GFX_SYR_gunships_from_russia-445
+		x = 0
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SYR_the_syrian_arab_air_force  }
+	}
+
+	#Eagles in the Sky
+	focus = {
+		id = SYR_eagles_in_the_sky
+		icon = GFX_SYR_eagles_in_the_sky-445
+		x = 2
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SYR_the_syrian_arab_air_force  }
+	}
+
+	#Suppress the Campaign of Terror
+	focus = {
+		id = SYR_suppress_the_campaign_of_terror
+		icon = GFX_SYR_suppress_the_campaign_of_terror-445
+		x = 2
+		y = 4
+		cost = 14
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = SYR_the_islamist_threat  }
+	}
+
+	#3 Weeks in Hama
+	focus = {
+		id = SYR_3_weeks_in_hama
+		icon = GFX_SYR_3_weeks_in_hama-445
+		x = 2
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = SYR_suppress_the_campaign_of_terror  }
+	}
+
+	#Industrialization Efforts
+	focus = {
+		id = SYR_industrialization_efforts
+		icon = GFX_SYR_industrialization_efforts-445
+		x = 13
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SYR_petroleum_from_rmelan  }
+	}
+
+	#A Modern Power
+	focus = {
+		id = SYR_a_modern_power
+		icon = GFX_SYR_a_modern_power-445
+		x = 13
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SYR_industrialization_efforts  }
+	}
+
+	#Zionist Threat in Lebanon
+	focus = {
+		id = SYR_zionist_threat_in_lebanon
+		icon = GFX_SYR_zionist_threat_in_lebanon-445
+		x = 5
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = SYR_coastline_protection  focus = SYR_ground_organization  focus = SYR_weapons_for_a_new_age  focus = SYR_gunships_from_russia  focus = SYR_eagles_in_the_sky  }
+	}
+
+	#A New Syria?
+	focus = {
+		id = SYR_a_new_syria
+		icon = GFX_SYR_a_new_syria-445
+		x = 13
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SYR_a_level_hand  }
+	}
+
+	#The Islamist Threat
+	focus = {
+		id = SYR_the_islamist_threat
+		icon = GFX_SYR_the_islamist_threat-445
+		x = 2
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SYR_coastline_protection  focus = SYR_ground_organization  focus = SYR_weapons_for_a_new_age  focus = SYR_gunships_from_russia  focus = SYR_eagles_in_the_sky  }
+	}
+
+	#Reaffirm the Ba'ath, Reaffirm the Alawites
+	focus = {
+		id = SYR_reaffirm_the_baath_reaffirm_the_alawites
+		icon = GFX_SYR_reaffirm_the_baath_reaffirm_the_alawites-445
+		x = 14
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SYR_long_live_the_arab_baath  }
+	}
+
+	#Pick up the Slack, Quickly
+	focus = {
+		id = SYR_pick_up_the_slack_quickly
+		icon = GFX_SYR_pick_up_the_slack_quickly-445
+		x = 15
+		y = 11
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SYR_an_unlikely_choice  }
+	}
+
+	#Continue His Legacy
+	focus = {
+		id = SYR_continue_his_legacy
+		icon = GFX_SYR_continue_his_legacy-445
+		x = 11
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SYR_prodigal_son  }
+	}
+
+	#Digging Ourselves Out
+	focus = {
+		id = SYR_digging_ourselves_out
+		icon = GFX_SYR_digging_ourselves_out-445
+		x = 12
+		y = 2
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SYR_reaffirm_the_baath_reaffirm_the_alawites  }
+	}
+
+	#An Agrarian Power
+	focus = {
+		id = SYR_an_agrarian_power
+		icon = GFX_SYR_an_agrarian_power-445
+		x = 11
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SYR_farming_production  }
+	}
+
+}

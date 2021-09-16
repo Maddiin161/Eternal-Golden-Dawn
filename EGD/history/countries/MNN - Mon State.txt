@@ -1,0 +1,45 @@
+﻿#########################################################################
+# Burma
+#########################################################################
+capital = 501
+#######################
+# Research
+#######################
+set_technology = {
+	Small_Arms_1916 = 1
+	tech_mountaineers = 1
+}
+#######################
+# Politics
+#######################
+set_politics = {
+	ruling_party = social_conservatism
+	last_election = "1976.1.7"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	transhumanism = 0
+	ultranationalism = 10
+	despotism = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 60
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 30
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
+}
+
+#######################
+# Leaders
+#######################
+create_country_leader = {
+	name = "Naing Ngwe Thein"
+	desc = ""
+	picture = "Naing_Ngwe_Thein.dds"
+	expire = "2000.1.1"
+	ideology = social_conservatism_ideology
+	traits = {}
+}

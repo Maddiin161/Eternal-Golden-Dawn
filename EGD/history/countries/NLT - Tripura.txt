@@ -1,0 +1,49 @@
+﻿capital = 870
+
+set_stability = 0.2
+set_war_support = 0.8
+
+set_politics = {
+	ruling_party = ultranationalism
+	last_election = "1976.12.4"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 10
+	ultranationalism = 65
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 20
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 5
+}
+
+create_country_leader = {
+	name = "Nayanbasi Jamatiya" 
+	desc = ""
+	picture = "Nayanbasi_Jamatiya.dds"
+	expire = "1992.3.1"
+	ideology = ethnic_nationalism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Bijoy Kumar Hrangkhawl" 
+	desc = ""
+	picture = "Bijoy_Kumar_Hrangkhawl.dds"
+	expire = "1992.3.1"
+	ideology = social_conservatism_ideology
+	traits = {
+		
+	}
+}

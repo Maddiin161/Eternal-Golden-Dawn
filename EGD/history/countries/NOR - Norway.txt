@@ -1,0 +1,38 @@
+﻿#########################################################################
+# United Kingdom - 1933
+#########################################################################
+
+	capital = 126
+	
+set_politics = {
+	ruling_party = social_democracy
+	last_election = "1977.9.12"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 20
+	market_liberalism = 20
+	social_liberalism = 20
+	social_democracy = 40
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
+}
+
+create_country_leader = {
+	name = "Odvar Nordli"
+	desc = ""
+	picture = "Odvar_Nordli.dds"
+	expire = "1982.1.1"
+	ideology = social_democracy_ideology
+	traits = {}
+}

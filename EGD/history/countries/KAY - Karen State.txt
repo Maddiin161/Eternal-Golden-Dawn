@@ -1,0 +1,94 @@
+﻿capital = 1264
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 30
+	despotism = 15
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 55
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
+}
+	
+set_politics = {
+	ruling_party = authoritarian_democracy
+		last_election = "1976.1.7"
+		election_frequency = 48
+		elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Bo Mya"
+	desc = ""
+	picture = "Bo_Mya.dds"
+	expire = "2000.1.1"
+	ideology = military_junta
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Bo Mya"
+	desc = ""
+	picture = "Bo_Mya.dds"
+	expire = "2000.1.1"
+	ideology = social_democracy_ideology
+	traits = {}
+}
+
+create_country_leader = {
+	name = "U Thuzana"
+	desc = ""
+	picture = "U_Thuzana.dds"
+	expire = "2000.1.1"
+	ideology = theocracy
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Bo Nat Khann Mway"
+	desc = ""
+	picture = "Bo_Nat_Khann_Mway.dds"
+	expire = "2000.1.1"
+	ideology = ethnic_nationalism
+	traits = {}
+}
+
+create_field_marshal = {
+	name = "Bo Mya"
+	picture = "Bo_Mya_General.dds"
+	traits = { career_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Mahn Ba Zan"
+	picture = "Mahn_Ba_Zan.dds"
+	traits = { engineer }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Dave Everett"
+	picture = "Dave_Everett.dds"
+	traits = { jungle_rat }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}

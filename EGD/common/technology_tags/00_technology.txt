@@ -1,0 +1,436 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+technology_categories = {
+	
+	
+	motorized_equipment
+	cat_mechanized_equipment
+	naval_equipment
+	land_doctrine
+	naval_doctrine
+	jet_technology
+	trade_interdiction_tree
+	convoy_defense_tree
+	
+	naval_equipment
+	rhib_launch
+	screen_aviation
+	carrier_tech
+	carrier_tech_hull
+	carrier_tech_deck
+	carrier_hull
+	carrier_hull_super
+	supercarrier_tech
+	amphibious_tech
+	helicarrier_tech
+	mediumcarrier_tech
+	capital_tech
+	capital_tech_hull
+	capital_tech_weapon
+	battle_hull_medium
+	fleet_in_being_tree
+	encryption_tech
+	decryption_tech
+	computing_tech
+	radar_tech
+	infantry_tech
+	marine_tech
+	construction_tech
+	submarine_doctrine
+	night_vision
+	base_strike_main
+	mot_rockets
+	icbm
+	missle
+	transport_air
+	sf_forces
+	cavarly_tech
+	asw_tech
+	nuclear_reactor
+	battle_hull_medium
+	battle_hull_light
+	
+###CIVILIAN RESEARCH###
+
+##INDUSTRY##
+	industry
+#FACTORY#
+	production
+	logistics
+	management
+	manufacturing
+	safety
+#INFRASTRUCTURE#
+	infrastructure
+	inframanagement
+	infrastate
+	inframunicipal
+	altvehicles
+#ENERGY#
+	energy
+	grid
+	renewables
+	gas
+	ecoenergy
+#ENGINEERING#
+	rgo
+	construction_tech
+#MATERIAL SCIENCES#
+	synth_resources
+	plastics
+	chemistry
+	materials
+	material_sciences_materials
+#AGRI-INDUSTRIAL#
+	agriculture
+	water
+	organic
+	agriculture
+	biofuels
+	agri_tech
+	
+##ELECTRONICS##
+	electronics
+#COMPUTING#
+	hardware_tech
+	software_tech
+	interwebs_tech
+	transistor_tech
+	supercomputer_tech
+#APPLICATIONS#
+	radio_tech
+	coms_tech
+	consumer_electronics
+	consumer_electronics_tech
+
+##SPACE##
+	space_research
+	space_project
+	space_rockets
+	space_research
+	space_research
+	space_lunar
+	space_shuttle
+	space_mars
+	space_venus
+	space_mercury
+	space_jupiter
+	space_saturn
+	space_colonization
+	space_station
+
+###MILITARY RESEARCH###
+
+##AIR TECHS##
+	air_equipment
+	naval_air
+	air_stealth
+	air_recon
+#SINGLE ENGINE#
+	air_single_engine
+	fighter_multirole
+	fighter_vtol
+	fighter_light
+	cas_cas
+	cas_light
+#TWIN ENGINE#
+	air_twin_engine
+	bomber_naval
+	bomber_interdictor
+	fighter_interceptor
+	fighter_interceptor_highmach
+#QUAD+ ENGINE#
+	air_quad_engine
+	bomber_stratego
+	bomber_nuclear
+	bomber_high_mach
+	bomber_stealth
+	air_logistics
+#HELICOPTER#
+	helicopter
+	helicopter_utility
+	helicopter_naval
+	helicopter_logistic
+	helicopter_attack
+	helicopter_recon
+#DRONE (UAV)#
+	drone_uav
+	drone_uav_mp
+	drone_uav_cas
+	drone_uav_naval
+	
+##NAVAL TECHS###
+#SUBMARINES#
+	torpedo
+	slbm
+	sub_hull_large_double
+	sub_hull_large_single
+	sub_hull_small_single
+	submarine_tech
+	submarine_tech_hull
+	submarine_hull_attack
+	submarine_hull_ballistic
+#SCREENS#
+	screen_tech
+	screen_tech_hull
+	battle_hull_light
+	screen_hull_heavy
+	screen_hull_medium
+	screen_tech_weapon
+#MODULES#
+	naval_modules_general
+	naval_countermeasures
+	maritime_sonar
+	naval_antisub
+	naval_subkiller
+	ciws
+	naval_weapon
+	naval_ship_armament_light
+	naval_ship_armament_medium
+	naval_ship_armament_heavy
+	naval_sensors
+	naval_maritime_ta_fcs
+	naval_maritime_ew_ss
+	naval_maritime_navigation
+	
+##ARMY TECHS##
+	weapon_upgrades
+	ammunition_upgrades
+#INFANTRY#
+	infantry_weapons
+	infantry_sir
+	infantry_team
+	infantry_specialist
+	infantry_squad
+	infantry_ammo
+	infantry_manpats
+	infantry_manpads
+	infantry_uniforms
+	uniforms_tank
+	uniforms_power
+#VEHICLES#
+	vehicles
+	armor
+	armor_light
+	armor_medium
+	armor_heavy
+	armor_superheavy
+	armor_nuclear
+	infantry_vehicles
+	infantry_vehicles_apc
+	infantry_vehicles_ifv
+	infantry_vehicles_truck
+	infantry_vehicles_marine
+#SUPPORT WEAPONS#
+	support_weapons
+	support_artillery
+	artillery_light
+	artillery_medium
+	artillery_heavy
+	artillery_rocket
+	support_anti_air
+	support_autocannon
+	support_anti_tank
+#SUPPORT#
+	support_tech
+	para_tech
+	engineers_tech
+	recon_tech
+	mountaineers_tech
+	military_police_tech
+	hospital_tech
+	logistics_tech
+	signal_company_tech
+	maintenance_company_tech
+	
+	support_engineering
+	support_recon
+	support_coms
+	support_military_police
+	support_logistics
+	support_maintenance
+	support_military_medicine
+	
+##OTHER##
+#MISSILE#
+	rocketry
+	rocketry_agm
+	rocketry_asm
+	rocketry_aam
+	rocketry_atgm
+	rocketry_sam
+	rocketry_missile
+	asm_medium
+	asm_heavy
+	sam_short_range
+	sam_long_range
+	aam_short_range
+	aam_long_range
+	missile_conventional
+	missile_nuclear
+
+###DOCTRINES###
+	category_doctrine
+##MILITARY##
+	military_doctrine
+#AIR DOCTRINE#
+	air_doctrine
+	air_doctrine_versatile
+	air_doctrine_systemic
+	air_doctrine_integral
+	
+###WMD###
+	nuclear
+	nuclear_weapons
+	nuclear_reactor
+	nuclear_reactor_naval
+	nuclear_fission
+	nuclear_fusion
+	nbc
+	nbc_chemical
+	nbc_nerve
+	nbc_biological
+	nbc_radiological
+	
+###APOCALYPTIC###
+	apocalyptic
+	
+##### LEGACY TAGS #####
+#OLD ARMY (TRASH!)
+	cat_mechanized_equipment
+	cat_heavy_armor
+	cat_medium_armor
+	cat_light_armor
+	mechanized_tech
+	motorized_tech
+	motorized_equipment
+	cat_anti_tank
+	artillery
+#OLD DOCTRINES (TRASH!)
+	cat_mobile_warfare
+	cat_superior_firepower
+	cat_grand_battle_plan
+	cat_mass_assault
+	cat_base_strike
+	cat_trade_interdiction
+	cat_fleet_in_being
+	cat_strategic_destruction
+	cat_battlefield_support
+	cat_operational_integrity
+	strategic_destruction_tree
+	battlefield_support_tree
+	operational_integrity_tree
+#OLD NAVY (TRASH!)
+	cv_tech
+	bc_tech
+	bb_tech
+	fg_tech
+	dd_tech
+	cl_tech
+	ca_tech
+	naval_minesweeping
+	naval_minelaying
+	naval_mines
+	shbb_tech
+	ss_tech
+	ss_tech_hull
+	ss_tech_weapon
+	tp_tech
+#OLD AIR#
+	medium_air
+	category_tac_bomber
+	category_nav_bomber #NEEDS REPLACEMENT#
+	light_fighter
+	cat_heavy_fighter
+	cat_mr_fighter
+	cat_vtol_fighter
+	cat_int_fighter
+	cat_drone
+	cat_light_jet
+	cat_strategic_bomber
+	naval_bomber
+	cas_bomber
+	light_air #NEEDS REPLACEMENT#
+#UNSORTED#
+	apotheosis
+}
+
+technology_folders = {
+	infantry_folder = {
+		ledger = army
+	}
+	support_folder = {
+		ledger = army
+	}
+	armour_folder = {
+		ledger = army
+	}
+	artillery_folder = {
+		ledger = army
+	}
+	air_techs_folder = {
+		ledger = air
+	}
+	light_air_techs_folder = {
+		ledger = air
+	}
+	naval_folder = {
+		available = {
+			not = { has_dlc = "Man the Guns" }
+		}
+		ledger = navy
+	}
+	mtgnavalfolder = {
+		available = {
+			has_dlc = "Man the Guns"
+		}
+		ledger = navy
+	}
+	mtgnavallargefolder = {
+		available = {
+			has_dlc = "Man the Guns"
+		}
+		ledger = navy
+	}
+	mtgnavalmodulefolder = {
+		available = {
+			has_dlc = "Man the Guns"
+		}
+		ledger = navy
+	}
+	industry_folder = {
+		ledger = civilian
+	}
+	land_doctrine_folder = {
+		ledger = army
+		doctrine = yes
+	}
+	naval_doctrine_folder = {
+		ledger = navy
+		doctrine = yes
+	}
+	air_doctrine_folder = {
+		ledger = air
+		doctrine = yes
+	}
+	electronics_folder = {
+		ledger = civilian
+	}
+	#secret_weapons_folder
+	wmd_folder = {
+		ledger = air
+	}
+	helicopter_folder = {
+		ledger = air
+	}
+	space_folder = {
+		ledger = civilian
+	}
+	rocket_folder = {
+		ledger = air
+	}
+	#apotheosis_folder
+}
+
+ 

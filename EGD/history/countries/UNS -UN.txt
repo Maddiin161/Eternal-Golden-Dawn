@@ -1,0 +1,52 @@
+﻿capital = 1506
+
+oob = "ABK_1949"
+
+set_politics = {
+	ruling_party = social_liberalism
+	last_election = "1991.1.28"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 100
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
+}
+
+create_country_leader = {
+	name = "United Nations Peacekeeping Authority" 
+	desc = ""
+	picture = "Peacekeeping_Authority.dds"
+	expire = "1991.3.1"
+	ideology = social_liberalism_ideology
+	traits = {
+		
+	}
+}
+
+1949.1.1 = {
+	add_to_array = { UNS.un_nation_proposal_historical = FRA.id }
+	add_to_array = { UNS.un_state_target_owner_historical = 0 }
+	add_to_array = { UNS.un_action_set_historical = 0 }	#Human Rights Abuses
+	add_to_array = { UNS.un_nation_target_historical = SPR.id }	
+
+	add_to_array = { un_temp_seats = BRA }
+	add_to_array = { un_temp_seats = MEX }
+	add_to_array = { un_temp_seats = AST }
+	add_to_array = { un_temp_seats = POL }
+	add_to_array = { un_temp_seats = EGY }
+	add_to_array = { un_temp_seats = HOL }
+}

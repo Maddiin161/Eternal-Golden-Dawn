@@ -1,0 +1,36 @@
+﻿capital = 659
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 20
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 10
+	revolutionary_socialism = 70
+}
+	
+set_politics = {
+	ruling_party = revolutionary_socialism
+		last_election = "1977.12.10"
+		election_frequency = 48
+		elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Bong Kee Chok"
+	desc = ""
+	picture = "Bong_Kee_Chok.dds"
+	expire = "1987.1.1"
+	ideology = marxism_leninism
+	traits = {
+		#
+	}
+}

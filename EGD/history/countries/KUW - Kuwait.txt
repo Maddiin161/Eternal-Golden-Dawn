@@ -1,0 +1,48 @@
+﻿#########################################################################
+# Libya
+#########################################################################
+capital = 656
+set_convoys = 20
+#######################
+# Research
+#######################
+set_politics = {
+	ruling_party = despotism
+	last_election = "1977.31.12"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	transhumanism = 0
+	ultranationalism = 5
+	despotism = 60
+	authoritarian_democracy = 5
+	corporate_oligarchy = 0
+	social_conservatism = 30
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
+}
+create_country_leader = {
+	name = "Jaber Al-Ahmad Al-Sabah" 
+	desc = ""
+	picture = "Jaber_Al-Sabah.dds"
+	expire = "1992.3.1"
+	ideology = monarchism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Norman Schwarzkopf Jr" 
+	desc = ""
+	picture = "Norman_Schwarzkopf.dds"
+	expire = "2000.3.1"
+	ideology = military_junta
+	traits = {
+		
+	}
+}

@@ -1,0 +1,35 @@
+﻿capital = 1488
+
+oob = "CRO_2000"
+
+set_politics = {
+	ruling_party = islamism
+	last_election = "1991.8.18"
+	election_frequency = 36
+	elections_allowed = no
+}
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 5
+	despotism = 0
+	islamism = 90
+	autocracy = 5
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
+}
+
+create_country_leader = {
+	name = "Abdelkader Mokhtari"
+	desc = ""
+	picture = "Abdelkader_Mokhtari.dds"
+	expire = "2000.1.1"
+	ideology = salafi_jihadism
+	traits = {}
+}

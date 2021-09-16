@@ -1,0 +1,8 @@
+spriteTypes = { 
+
+	SpriteType = { 
+		name = "GFX_idea_BFR_national_resistance"
+		texturefile = "gfx/interface/ideas/idea_BFR_national_resistance.dds"
+	}
+	
+ }

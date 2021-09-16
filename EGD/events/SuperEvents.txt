@@ -1,0 +1,339 @@
+﻿add_namespace = super
+
+news_event = {
+	id = super.1
+	title = super.1.t
+	desc = super.1.d
+	picture = GFX_news_event_iran_victory
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = super.1.a
+		set_country_flag = big_event_custom_iran_victory
+		IRQ = {
+			set_cosmetic_tag = IRQ_ISL
+			add_popularity = { ideology = islamism popularity = .25 } 
+			set_politics = {
+				ruling_party = islamism
+			}
+			create_country_leader = {
+				name = "Islamic Supreme Council" 
+				desc = ""
+				picture = "Islamic_Supreme_Council.dds"
+				expire = "1992.3.1"
+				ideology = khomeinism
+				traits = {
+				}
+			}	
+		}	
+	}
+}
+
+
+news_event = {
+	id = super.2
+	title = super.2.t
+	desc = super.2.d
+	picture = GFX_news_event_iraq_victory
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = super.2.a
+        set_country_flag = big_event_custom_iraq_victory
+		IRQ = {
+			transfer_state = 417 
+			transfer_state = 413 
+		}
+		PER = {
+			add_popularity = { ideology = ultranationalism popularity = .2 } 
+			set_politics = {
+				ruling_party = ultranationalism
+			}
+		}	
+	}
+}
+
+news_event = {
+	id = super.3
+	title = super.3.t
+	desc = super.3.d
+	picture = GFX_news_event_dust_event
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = super.3.a
+        set_country_flag = big_event_custom_the_dust
+		DUS = {
+			transfer_state = 675 
+			transfer_state = 812 
+			transfer_state = 946 
+			transfer_state = 1120 
+			transfer_state = 944 
+		}
+	}
+}
+
+country_event = {
+	id = super.4
+	title = super.4.t
+	desc = super.4.d
+	picture = GFX_event_aleph_election
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = super.4.a
+        set_country_flag = big_event_custom_aleph
+		JAP = {
+			set_cosmetic_tag = JAP_AUM
+			set_politics = {
+				ruling_party = annihilationism
+			}
+			
+			}	
+		}
+	}
+
+country_event = {
+	id = super.5
+	title = super.5.t
+	desc = super.5.d
+	picture = GFX_event_hallelujah
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = "Ascension, Hallelujah!"
+        set_country_flag = big_event_custom_living_heaven
+		USA = {
+		set_cosmetic_tag = LIV_HEV
+		set_party_name = {
+			ideology = annihilationism
+			name = "CLHCL"
+			long_name = "Church of the Living Heaven, Children of the Lamb"
+			}
+			set_politics = {
+				ruling_party = annihilationism
+			}
+			create_country_leader = {
+				name = "Our Father, Gene Savoy" 
+				desc = ""
+				picture = "Gene_Savoy.dds"
+				expire = "1992.3.1"
+				ideology = living_heaven
+				traits = {
+				}
+			}	
+			
+		}	
+	}
+}
+
+news_event = {
+	id = super.6
+	title = super.6.t
+	desc = super.6.d
+	picture = GFX_news_event_gmu_established
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = "A new Pax Mongolica?"
+        set_country_flag = big_event_custom_gmu
+		MON = {
+		annex_country = { target = ALT transfer_troops = yes }
+		annex_country = { target = BRY transfer_troops = yes }
+		annex_country = { target = MEN transfer_troops = yes }
+		annex_country = { target = TAN transfer_troops = yes }
+		set_cosmetic_tag = GMU
+		set_party_name = {
+			ideology = revolutionary_socialism
+			name = "AMPRU"
+			long_name = "All-Mongolia People's Revolutionary Union"
+			}
+			create_country_leader = {
+				name = "Yumjaagiin Tsedenbal" 
+				desc = ""
+				picture = "Yumjaagiin_Tsedenbal_GMU.dds"
+				expire = "1992.3.1"
+				ideology = marxism_leninism
+				traits = {
+				}
+			}	
+			
+		}	
+	}
+}
+
+news_event = {
+	id = super.7
+	title = super.7.t
+	desc = super.7.d
+	picture = GFX_news_event_beijing_nukes
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = "Dear God..."
+        set_country_flag = big_event_custom_chinese_collapse
+		PRC = {
+		release = MEN
+		release = MAN
+		release = SIK
+		release = TIB
+		release = XSM
+		set_politics = {
+				ruling_party = annihilationism
+			}
+			
+		}
+		KPA = {
+			transfer_state = 1326 
+			transfer_state = 1325 
+		}	
+	}
+}
+
+news_event = {
+	id = super.8
+	title = super.8.t
+	desc = super.8.d
+	picture = GFX_news_event_south_african_civil_war
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = "Another nightmare in Africa."
+        set_country_flag = big_event_custom_saf_civil_war
+		SAF = {
+		release = ZAR
+		release = KWA
+		release = ORJ
+		release = NMB
+		}
+	}
+}
+
+news_event = {
+	id = super.9
+	title = super.9.t
+	desc = super.9.d
+	picture = GFX_news_event_paneuropean_union
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = "Pax Europa?"
+        set_country_flag = big_event_custom_europe_united
+		FRA = {
+			annex_country = { target = ITA transfer_troops = yes }
+			annex_country = { target = BEL transfer_troops = yes }
+			annex_country = { target = LUX transfer_troops = yes }
+			annex_country = { target = HOL transfer_troops = yes }
+			annex_country = { target = WGR transfer_troops = yes }
+			set_cosmetic_tag = EUR
+			set_party_name = {
+				ideology = social_liberalism
+				name = "ALDE"
+				long_name = "Alliance of Liberals and Democrats for Europe"
+			}
+			set_party_name = {
+				ideology = social_democracy
+				name = "PES"
+				long_name = "Party of European Socialists"
+			}
+			set_party_name = {
+				ideology = social_conservatism
+				name = "EPP-ED"
+				long_name = "European People's Party–European Democrats"
+			}
+			set_party_name = {
+				ideology = libertarian_socialism
+				name = "EUL"
+				long_name = "European United Left"
+			}	
+			set_politics = {
+				ruling_party = social_liberalism
+			}			
+			create_country_leader = {
+				name = "European Parliament" 
+				desc = ""
+				picture = "European_Parliament.dds"
+				expire = "1992.3.1"
+				ideology = social_liberalism_ideology
+				traits = {
+					}
+			}	
+			
+		}	
+	}
+}
+
+news_event = {
+	id = super.10
+	title = super.10.t
+	desc = super.10.d
+	picture = GFX_news_event_yugoslav_wars_start
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = "Concerning."
+        set_country_flag = big_event_custom_yugoslav_wars
+	}
+}
+
+news_event = {
+	id = super.11
+	title = super.11.t
+	desc = super.11.d
+	picture = GFX_news_event_1982_recession
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = "Not again..."
+        set_country_flag = big_event_custom_1982_recession
+	}
+}
+
+news_event = {
+	id = super.12
+	title = super.12.t
+	desc = super.12.d
+	picture = GFX_news_event_australia_hegemony
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = "Pax...Australiaca?"
+        set_country_flag = big_event_custom_australia_hegemony
+	}
+}

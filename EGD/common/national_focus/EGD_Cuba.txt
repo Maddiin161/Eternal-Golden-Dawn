@@ -1,0 +1,153 @@
+focus_tree = {
+	id = cuba-annihilationism
+	continuous_focus_position = { x = 0 y = 1000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CUB
+		}
+	}
+	#Meet with Soviet Arms Dealers
+	focus = {
+		id = CUB_meet_with_soviet_arms_dealers
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CUB_the_final_revolution  }
+		ai_will_do = { factor = 3 }
+	}
+
+	#The Final Revolution
+	focus = {
+		id = CUB_the_final_revolution
+		icon = GFX_CUB_the_final_revolution
+		x = 2
+		y = 0
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 3 }
+		available = {
+			has_government = annihilationism
+			
+		}
+		completion_reward = {
+			add_political_power = 50
+			add_popularity = { 
+			ideology = annihilationism
+			popularity = 0.5 
+			}
+			
+		}
+	}
+
+	#El Observa
+	focus = {
+		id = CUB_el_observa
+		icon = GFX_CUB_el_observa-445
+		x = 3
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CUB_the_final_revolution  }
+	}
+
+	#Secure Nuclear Weapons
+	focus = {
+		id = CUB_secure_nuclear_weapons
+		icon = GFX_CUB_secure_nuclear_weapons-445
+		x = 1
+		y = 2
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = CUB_meet_with_soviet_arms_dealers  }
+	}
+
+	#Sharpen Our Sickles
+	focus = {
+		id = CUB_sharpen_our_sickles
+		icon = GFX_CUB_sharpen_our_sickles-445
+		x = 3
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CUB_el_observa  }
+	}
+
+	#Hold the Eagle Hostage
+	focus = {
+		id = CUB_hold_the_eagle_hostage
+		icon = GFX_CUB_hold_the_eagle_hostage-445
+		x = 2
+		y = 3
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = CUB_secure_nuclear_weapons  focus = CUB_sharpen_our_sickles  }
+	}
+
+	#Retake Guantanamo
+	focus = {
+		id = CUB_retake_guantanamo
+		icon = GFX_CUB_retake_guantanamo-445
+		x = 2
+		y = 4
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_FRA_OCCUPATION_COST
+		}
+		prerequisite = { focus = CUB_hold_the_eagle_hostage  }
+	}
+
+	#Revolución de las Américas
+	focus = {
+		id = CUB_revolucion_de_las_americas
+		icon = GFX_CUB_revolucion_de_las_americas-445
+		x = 1
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = CUB_retake_guantanamo  }
+		mutually_exclusive = { focus = CUB_contacts_in_angola  }
+	}
+
+	#Contacts in Angola
+	focus = {
+		id = CUB_contacts_in_angola
+		icon = GFX_CUB_contacts_in_angola-445
+		x = 3
+		y = 5
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = CUB_retake_guantanamo  }
+		mutually_exclusive = { focus = CUB_revolucion_de_las_americas  }
+	}
+
+	#Guerillas of the World, Unite!
+	focus = {
+		id = CUB_guerillas_of_the_world_unite
+		icon = GFX_CUB_guerillas_of_the_world_unite-445
+		x = 2
+		y = 6
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CUB_revolucion_de_las_americas  }{ focus = CUB_contacts_in_angola  }
+	}
+
+}

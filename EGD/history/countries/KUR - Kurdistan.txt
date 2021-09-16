@@ -1,0 +1,41 @@
+﻿capital = 938
+
+oob = "KUR_1949"
+
+set_politics = {
+	ruling_party = social_conservatism
+	last_election = "1980.1.1"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 50
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 40
+	revolutionary_socialism = 10
+}
+
+create_country_leader = {
+	name = "CPK Congress"
+	picture = "CPK_Congress.dds"
+	ideology = democratic_socialism
+}
+
+create_country_leader = {
+	name = "Abdullah Öcalan"
+	picture = "Abdullah_Ocalan.dds"
+	ideology = democratic_socialism
+}
+
+create_country_leader = {
+	name = "Masoud Barzani"
+	picture = "Masoud_Barzani.dds"
+	ideology = social_conservatism_ideology
+}

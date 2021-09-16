@@ -1,0 +1,100 @@
+add_namespace = burma
+add_namespace = brm
+add_namespace = burmawar
+
+##Event: Burmese Civil War
+news_event = {
+	id = burmawar.10
+	title = burmawar.10.t
+	desc = burmawar.10.d
+	picture = GFX_news_event_burma_civil_war_start
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+		option = {
+			name = "That is our duty for the precious land."
+			BRM = {
+			add_political_power = -100		
+			release = MNN
+			release = ARA
+			release = SHA
+			release = CHN
+		}	
+	}
+}	
+
+##Event: Burmese Federal Victory
+news_event = {
+	id = burmawar.20
+	title = burmawar.20.t
+	desc = burmawar.20.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+		name = "Our land, ours by right."
+		BRM = {
+			set_cosmetic_tag = BRM_ethnic
+			set_politics = {
+				ruling_party = social_democracy
+			}	
+			set_party_name = {
+				ideology = social_democracy
+				name = "UNFC"
+				long_name = "United Nationalities Federal Council"
+			}
+			create_country_leader = {
+				name = "Federal Council" 
+				desc = ""
+				picture = "Federal_Council_BRM.dds"
+				expire = "1992.3.1"
+				ideology = social_democracy_ideology
+				traits = {
+				}
+			}	
+		}	
+	}
+}
+
+##Event: Burmese Independence Victory
+news_event = {
+	id = burmawar.21
+	title = burmawar.21.t
+	desc = burmawar.21.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+		name = "Freedom at last, but at what cost?"
+		BRM = {
+			set_politics = {
+				ruling_party = authoritarian_democracy
+			}		
+		}	
+	}
+}
+
+##Event: Burmese Communist Victory
+news_event = {
+	id = burmawar.22
+	title = burmawar.22.t
+	desc = burmawar.22.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+		name = "The red banner flies!"
+		BRM = {
+			set_politics = {
+				ruling_party = revolutionary_socialism
+			}		
+		}	
+	}
+}

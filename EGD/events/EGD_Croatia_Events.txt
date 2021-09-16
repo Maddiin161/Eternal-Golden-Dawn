@@ -1,0 +1,64 @@
+add_namespace = croatia
+add_namespace = greatercroatia
+
+##Event: Croatian Independence  
+news_event = {
+	id = croatia.1
+	title = croatia.1.t
+	desc = croatia.1.d
+	picture = GFX_news_event_croatia_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = "Shedding blood for homeland!"
+		YUG = {
+			release = CRO
+		}
+	}
+}
+
+##Event: Greater Croatia declared 
+country_event = {
+	id = greatercroatia.1
+	title = greatercroatia.1.t
+	desc = greatercroatia.1.d
+	picture = GFX_event_greater_croatia_declared
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = "Our Beautiful Homeland!"
+		CRO = {
+			set_politics = {
+				ruling_party = ultranationalism
+			}
+			add_state_claim = 1486
+			add_state_claim = 45
+			add_state_claim = 923
+			add_state_claim = 1488
+			add_state_claim = 104
+			add_state_claim = 1487
+			add_state_claim = 1489
+			add_state_claim = 1486
+			add_state_claim = 105
+		}
+	}
+}	
+
+##Event: Greater Croatia Established 
+news_event = {
+	id = greatercroatia.10
+	title = greatercroatia.10.t
+	desc = greatercroatia.10.d
+	picture = GFX_news_event_greater_croatia_established
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+		name = "Our Beautiful Homeland!" 
+	}	
+}

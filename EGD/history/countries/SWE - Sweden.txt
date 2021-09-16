@@ -1,0 +1,51 @@
+﻿#########################################################################
+# Sweden - 1933
+#########################################################################
+
+capital = 141	
+set_stability = 0.9
+
+set_politics = {
+	ruling_party = social_liberalism
+	last_election = "1979.9.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 5
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 20
+	market_liberalism = 10
+	social_liberalism = 20
+	social_democracy = 40
+	libertarian_socialism = 0
+	revolutionary_socialism = 5
+}
+
+create_country_leader = {
+	name = "Thorbjörn Fälldin" 
+	desc = ""
+	picture = "Thorbjorn_Falldin.dds"
+	expire = "1992.3.1"
+	ideology = social_liberalism_ideology
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Olof Palme" 
+	desc = ""
+	picture = "Olof_Palme.dds"
+	expire = "1992.3.1"
+	ideology = social_democracy_ideology
+	traits = {
+		
+	}
+}

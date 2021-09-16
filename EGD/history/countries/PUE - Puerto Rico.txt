@@ -1,0 +1,36 @@
+﻿capital = 686
+
+set_politics = {
+	ruling_party = social_conservatism
+	last_election = "1976.8.2"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 40
+	market_liberalism = 0
+	social_liberalism = 45
+	social_democracy = 8
+	libertarian_socialism = 5
+	revolutionary_socialism = 2
+}
+
+create_country_leader = {
+	name = "Carlos Romero Barceló" 
+	desc = ""
+	picture = "Carlos_Romero_Barcelo.dds"
+	expire = "1991.3.1"
+	ideology = social_conservatism
+	traits = {
+		
+	}
+}

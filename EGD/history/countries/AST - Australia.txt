@@ -1,0 +1,40 @@
+﻿capital = 674
+
+create_faction = pdf
+	add_to_faction = NZL
+	add_to_faction = FIJ
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 20
+	market_liberalism = 20
+	social_liberalism = 0
+	social_democracy = 50
+	libertarian_socialism = 10
+	revolutionary_socialism = 0
+}
+	
+set_politics = {
+	ruling_party = social_democracy
+		last_election = "1977.12.10"
+		election_frequency = 48
+		elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Gough Whitlam"
+	desc = ""
+	picture = "Gough_Whitlam.dds"
+	expire = "1987.1.1"
+	ideology = social_democracy_ideology
+	traits = {
+		#
+	}
+}

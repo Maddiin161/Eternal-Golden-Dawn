@@ -1,0 +1,59 @@
+﻿capital = 1424
+
+#TECH CULTURE#
+set_country_flag = tech_gfx_african
+set_country_flag = tech_alignment_eastern
+
+
+oob = "COG_1949"
+
+if = {
+	limit = { has_dlc = "Man the Guns"}
+	set_technology = {
+		detection_ww = 1
+		ww_armaments = 1
+
+		ww_screens = 1
+	}
+}
+
+add_ideas = {
+}
+
+set_convoys = 0
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 10
+	social_democracy = 80
+	libertarian_socialism = 10
+	revolutionary_socialism = 0
+}
+
+set_politics = {
+	ruling_party = social_democracy
+	last_election = "1978.12.7"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Patrice Lumumba" 
+	desc = ""
+	picture = "Patrice_Lumumba.dds"
+	expire = "1992.3.1"
+	ideology = lumumbism
+	traits = {
+		
+	}
+}
+

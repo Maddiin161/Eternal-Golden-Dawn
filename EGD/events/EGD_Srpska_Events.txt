@@ -1,0 +1,23 @@
+add_namespace = srpska
+
+##Event: Srpska Independence  
+news_event = {
+	id = srpska.1
+	title = srpska.1.t
+	desc = srpska.1.d
+	picture = GFX_news_event_srpska_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = "We have no other land."
+		SRP = {
+			add_state_core = 1487
+			add_state_core = 923
+		}
+		BOS = {
+			release = SRP
+		}
+	}
+}

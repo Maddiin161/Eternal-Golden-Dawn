@@ -1,0 +1,43 @@
+﻿capital = 324
+
+oob = "BHU_1936"
+
+set_technology = {
+	Small_Arms_1916 = 1
+	tech_mountaineers = 1
+}
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1972.1.7"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 60
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 20
+	libertarian_socialism = 0
+	revolutionary_socialism = 20
+}
+
+create_country_leader = {
+	name = "Jigme Singye Wangchuck"
+	desc = ""
+	picture = "Jigme_Singye_Wangchuck.dds"
+	expire = "2001.1.1"
+	ideology = monarchism
+	traits = {
+		#
+	}
+}

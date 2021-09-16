@@ -1,0 +1,46 @@
+add_namespace = ussr
+
+country_event = {
+	id = ussr.20
+	title = ussr.20.t
+	desc = ussr.20.d
+	picture = GFX_event_ayatollahs_letter
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = "Imam Khomeini invited us to Islam; do we have to invite him to our school of thought?"
+	}
+	option = {
+		name = "Perhaps he's right..."
+	}	
+}
+
+news_event = {
+	id = ussr.21
+	title = ussr.21.t
+	desc = ussr.21.d
+	picture = GFX_news_event_supreme_majlis
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = "...suprising."
+	}
+}
+
+news_event = {
+	id = ussr.22
+	title = ussr.22.t
+	desc = ussr.22.d
+	picture = GFX_news_event_usir
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = "Mashallah!"
+	}
+}

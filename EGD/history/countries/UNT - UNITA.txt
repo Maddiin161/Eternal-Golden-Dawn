@@ -1,0 +1,75 @@
+﻿capital = 1195
+
+oob = "UNT_1949"
+
+set_politics = {
+	ruling_party = social_conservatism
+	last_election = "1966.6.13"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 75
+	market_liberalism = 25
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
+}
+
+create_country_leader = {
+	name = "Jonas Savimbi"
+	desc = ""
+	picture = "Jonas_Savimbi.dds"
+	expire = "1984.1.1"
+	ideology = national_conservatism
+	traits = {}
+}
+
+create_field_marshal = {
+	name = "Jonas Savimbi"
+	picture = "Jonas_Savimbi.dds"
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Demostenes Chilungutila"
+	picture = "UNITA_Demostenes_Chilungutila.dds"
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Antonio Dembo"
+	picture = "UNITA_Antonio_Dembo.dds"
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Arlindo Pena Ben Ben"
+	picture = "UNITA_Arlindo_Pena_Ben_Ben.dds"
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+
