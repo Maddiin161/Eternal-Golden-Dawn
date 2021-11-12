@@ -1,6 +1,6 @@
 state = {
 	id = 161
-	name = "STATE_161"
+	name = "Bologna"
 	resources = {
 		aluminium = 16.000
 	}
@@ -93,7 +93,7 @@ state = {
 	}
 
 	provinces = {					
-		782 3773 3976 6606 6790 6793 6985 9752 9924 11734 
+		6606 6793 6985 15963 
 	}
 	manpower = 3452722
 	buildings_max_level_factor = 1.000

@@ -1,7 +1,7 @@
 
 state = {
 	id = 162
-	name = "STATE_162"
+	name = "Firenze"
 
 	history = {
 		owner = ITA
@@ -100,7 +100,7 @@ state = {
 	}
 
 	provinces = {					
-		910 1616 6875 6946 6973 9750 9879 9907 11833 11889 13533 
+		1616 6946 6973 9907 
 	}
 	manpower = 3798327
 	buildings_max_level_factor = 1.000

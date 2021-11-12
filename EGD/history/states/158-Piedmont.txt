@@ -1,6 +1,6 @@
 state = {
 	id = 158
-	name = "STATE_158"
+	name = "Torino"
 	resources = {
 		steel = 48.000
 		aluminium = 28.000
@@ -96,7 +96,7 @@ state = {
 	}					
 
 	provinces = {
-		770 771 776 3782 6635 6780 9738 9741 11721 11723 11726 11730 
+		770 6780 9738 11721 
 	}
 	manpower = 3372920
 	buildings_max_level_factor = 1.000

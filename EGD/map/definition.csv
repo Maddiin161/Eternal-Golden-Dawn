@@ -15961,4 +15961,6 @@
 15960;150;255;255;land;true;jungle;3
 15961;150;159;255;land;false;jungle;3
 15962;190;159;255;land;true;jungle;3
-
+15963;146;205;102;land;false;mountain;1
+15964;167;158;246;land;false;mountain;1
+15965;195;176;115;land;false;mountain;1
