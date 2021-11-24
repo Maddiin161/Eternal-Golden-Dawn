@@ -1,0 +1,58 @@
+﻿capital = 267
+
+oob = "AFG_1949"
+
+set_popularities = {
+	transhumanism = 0
+	ultranationalism = 30
+	despotism = 0
+	authoritarian_democracy = 49
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 20
+	annihilationism = 1
+}
+	
+set_politics = {
+	ruling_party = revolutionary_socialism
+		last_election = "1978.4.28"
+		election_frequency = 48
+		elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Babrak Karmal"
+	desc = ""
+	picture = "Babrak_Karmal.dds"
+	expire = "1987.1.1"
+	ideology = marxism_leninism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mohammad Najibullah"
+	desc = ""
+	picture = "Mohammad_Najibullah.dds"
+	expire = "1987.1.1"
+	ideology = left_wing_nationalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Abdul-Shahed"
+	desc = "abdul_shahed_desc"
+	picture = "Abdul_Shahed.dds"
+	expire = "1987.1.1"
+	ideology = post_jihad
+	traits = {
+		#
+	}
+}

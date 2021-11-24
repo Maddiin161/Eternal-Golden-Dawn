@@ -1,0 +1,37 @@
+
+state = {
+	id = 1053
+	name = "STATE_1053"
+
+	history = {
+		owner = STA
+		set_state_flag = tropical
+		set_state_flag = basic
+		set_state_flag = micro
+		set_state_flag = undeveloped
+		add_core_of = STA
+		buildings = {
+			infrastructure = 2
+			state_infrastructure = 2
+			
+			industrial_complex = 1
+			office_park = 1
+			
+			fossil_fuel_powerplant = 1
+			
+			
+			6841 = {
+				naval_base = 1
+
+			}
+		}
+		set_variable = { show_demographics_disabled = 1 }
+	}
+
+	provinces = {
+		6841 
+	}
+	manpower = 293
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+}

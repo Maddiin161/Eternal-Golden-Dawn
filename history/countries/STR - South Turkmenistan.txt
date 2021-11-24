@@ -1,0 +1,38 @@
+﻿capital = 968
+
+set_convoys = 0
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 90
+	autocracy = 0
+	authoritarian_democracy = 10
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
+}
+
+set_politics = {
+	ruling_party = islamism
+	last_election = "1980.12.7"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "South Turkmenistan Mejilis" 
+	desc = ""
+	picture = "South_Turkmenistan_Mejilis.dds"
+	expire = "1992.3.1"
+	ideology = islamic_nationalism
+	traits = {
+		
+	}
+}

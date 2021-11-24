@@ -1,0 +1,22 @@
+add_namespace = herzegbosnia
+
+##Event: Herzeg Bosnian Independence  
+news_event = {
+	id = herzegbosnia.1
+	title = herzegbosnia.1.t
+	desc = herzegbosnia.1.d
+	picture = GFX_news_event_herzegbosnia_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = "Tell the world that a Croat loves his homeland."
+		ZEG = {
+			add_state_core = 1489
+		}
+		BOS = {
+			release = ZEG
+		}
+	}		
+}

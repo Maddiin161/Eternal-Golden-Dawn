@@ -1,0 +1,50 @@
+﻿capital = 378
+
+oob = "CAL_1949"
+
+set_convoys = 10
+
+set_popularities = { 
+	revolutionary_socialism = 0
+	libertarian_socialism = 0
+	social_democracy = 0
+	social_liberalism = 20
+	market_liberalism = 0
+	social_conservatism = 75
+	corporate_oligarchy = 0
+	despotism = 0
+	islamism = 0
+	authoritarian_democracy = 0
+	autocracy = 0
+	ultranationalism = 5
+	transhumanism = 0
+	annihilationism = 0
+}
+
+	set_politics = {
+	ruling_party = conservative
+	last_election = "1949.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Earl Warren"
+	picture = "Earl_Warren.dds"
+	ideology = republican
+}
+create_country_leader = {
+	name = "Edmund Brown"
+	picture = "Edmund_Brown.dds"
+	ideology = democratic_america
+}
+create_country_leader = {
+	name = "Jim Jones"
+	picture = "Jim_Jones.dds"
+	ideology = fascism_ideology
+}
+
+	init_influence = yes
+set_variable = { var = domestic_influence_amount value = 2000 }
+	
+  

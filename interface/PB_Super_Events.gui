@@ -1,0 +1,26 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "Super_Event_Window"
+		size = { width = 581 height = 427 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+		show_sound = iran_victory_bigevent ### SOUND EFFECT GOES HERE, MAKE SURE YOU'RE USING SOUND #EFFECT AND NOT SOUND!!!!!
+
+		iconType = {
+			name ="GFX_superevent_custom_iran_victory"
+			spriteType = "GFX_superevent_custom_iran_victory"
+			position = { x= 0 y = 0 }
+		}
+
+		buttonType = {
+            name = "Super_Event_Close"
+            position = { x = 510 y = 395 }
+            quadTextureSprite ="closebutton_16"
+            clicksound = click_scroll
+        }
+	}
+	
+}

@@ -1,0 +1,19 @@
+add_namespace = slovenia
+
+##Event: Slovenian Independence  
+news_event = {
+	id = slovenia.1
+	title = slovenia.1.t
+	desc = slovenia.1.d
+	picture = GFX_news_event_slovenia_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = "May all peoples thrive!"
+		YUG = {
+			release = SLV
+		}
+	}
+}

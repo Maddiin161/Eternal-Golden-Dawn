@@ -1,0 +1,29 @@
+﻿capital = 690
+
+set_politics = {
+	ruling_party = social_liberalism
+	last_election = "1977.7.19"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	authoritarian_democracy = 40
+	corporate_oligarchy = 0
+	social_conservatism = 40
+	market_liberalism = 0
+	social_liberalism = 60
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
+}
+create_country_leader = {
+	name = "Lynden Pindling"
+	desc = ""
+	picture = "Lynden_Pindling.dds"
+	expire = "1987.7.19"
+	ideology = social_liberalism_ideology
+	traits = {}
+}

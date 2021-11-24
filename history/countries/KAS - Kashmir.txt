@@ -1,0 +1,38 @@
+﻿capital = 441
+
+oob = "KAS_1949"
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 20
+	autocracy = 0
+	authoritarian_democracy = 80
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
+}
+
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "1979.1.7"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Amanullah Khan"
+	desc = ""
+	picture = "Amanullah_Khan.dds"
+	expire = "2001.1.1"
+	ideology = military_junta
+	traits = {
+		#
+	}
+}

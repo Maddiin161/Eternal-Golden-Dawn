@@ -1,0 +1,63 @@
+﻿division_template = {
+	name = "Infantry Division"		
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery_support = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "778th Division"
+		location = 7909
+		division_template = "Infantry Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "772nd Division"
+		location = 4210
+		division_template = "Infantry Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "775th Division"
+		location = 7400
+		division_template = "Infantry Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "248th Division"
+		location = 7400
+		division_template = "Infantry Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "518th Division"
+		location = 4654
+		division_template = "Infantry Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "318th Division"
+		location = 12317
+		division_template = "Infantry Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}	
+}

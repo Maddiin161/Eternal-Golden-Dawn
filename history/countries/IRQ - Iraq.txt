@@ -1,0 +1,86 @@
+﻿set_convoys = 2
+
+set_politics = {
+	ruling_party = autocracy
+	last_election = "1979.7.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 10
+	autocracy = 40
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 40
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 5
+	revolutionary_socialism = 5
+}
+
+create_country_leader = {
+	name = "Saddam Hussein"
+	desc = ""
+	picture = "Saddam_Hussein.dds"
+	expire = "1981.1.1"
+	ideology = baathism_iraqi
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Fawzi Mutlaq al-Rawi"
+	desc = ""
+	picture = "Fawzi_Rawi.dds"
+	expire = "1981.1.1"
+	ideology = baathism
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Mohammad Baqir al-Hakim" 
+	desc = ""
+	picture = "Mohammad_alHakim.dds"
+	expire = "1992.3.1"
+	ideology = khomeinism
+	traits = {
+	}
+}
+
+create_corps_commander = {
+	name = "Adnan Khairallah"
+	portrait_path = "Adnan_Khairallah.dds"
+	traits = { career_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Hussein Kamel al-Majid"
+	portrait_path = "Hussein_Kamel.dds"
+	traits = { politically_connected }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Maher Abd al-Rashid"
+	portrait_path = "Maher_Abd.dds"
+	traits = { reckless }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}

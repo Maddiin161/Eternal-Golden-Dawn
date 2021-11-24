@@ -1,0 +1,1403 @@
+####################################leader 1##############################################
+CAT_leader_1 = {
+           SYR_dec_led1_start  = {  # start decision
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_1
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_1
+		set_variable = {
+	     var = DEC_var
+	       value = 10
+    }
+}
+	}
+}
+
+CAT_leader_1 = {
+           SYR_dec_led1_positive.1  = {  # Decision 1.1
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_1
+		   has_country_flag = decisions_1
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_2
+	    clr_country_flag = decisions_1
+	    add_stability = 0.10
+		add_to_variable = {
+	     var = DEC_var
+	       value = 5
+    }
+}
+	}
+}
+
+CAT_leader_1 = {
+           SYR_dec_led1_neutral.1  = {  # Decision 2.1
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_1
+		   has_country_flag = decisions_1
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_2
+	    clr_country_flag = decisions_1
+		add_to_variable = {
+	     var = DEC_var
+	       value = 10
+    }
+}
+	}
+}
+
+CAT_leader_1 = {
+           SYR_dec_led1_negative.1  = {  # Decision 3.1
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_1
+		   has_country_flag = decisions_1
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_2
+	    clr_country_flag = decisions_1
+		add_stability = -0.10
+		add_to_variable = {
+	     var = DEC_var
+	       value = 20
+    }
+}
+	}
+}
+
+
+######################################DECISIONS ROUND 2########################################################
+
+
+CAT_leader_1 = {
+           SYR_dec_led1_positive.2  = {  # Decision 1.2
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_1
+		   has_country_flag = decisions_2
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_3
+	    clr_country_flag = decisions_2
+	    add_manpower = 20000
+		add_to_variable = {
+	     var = DEC_var
+	       value = 5
+    }
+}
+	}
+}
+
+CAT_leader_1 = {
+           SYR_dec_led1_neutral.2  = {  # Decision 2.2
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_1
+		   has_country_flag = decisions_2
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_3
+	    clr_country_flag = decisions_2
+		add_to_variable = {
+	     var = DEC_var
+	       value = 10
+    }
+}
+	}
+}
+
+CAT_leader_1 = {
+           SYR_dec_led1_negative.2  = {  # Decision 3.2
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_1
+		   has_country_flag = decisions_2
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_3
+	    clr_country_flag = decisions_2
+		add_manpower = -20000
+		add_to_variable = {
+	     var = DEC_var
+	       value = 20
+    }
+}
+	}
+}
+
+######################################DECISIONS ROUND 3########################################################
+
+
+CAT_leader_1 = {
+           SYR_dec_led1_positive.3  = {  # Decision 1.3
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_1
+		   has_country_flag = decisions_3
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_4
+	    clr_country_flag = decisions_3
+	    add_political_power = 20
+		add_to_variable = {
+	     var = DEC_var
+	       value = 5
+    }
+}
+	}
+}
+
+CAT_leader_1 = {
+           SYR_dec_led1_neutral.3  = {  # Decision 2.3
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_1
+		   has_country_flag = decisions_3
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_4
+	    clr_country_flag = decisions_3	
+		add_to_variable = {
+	     var = DEC_var
+	       value = 10
+    }
+}
+	}
+}
+
+CAT_leader_1 = {
+           SYR_dec_led1_negative.3  = {  # Decision 3.3
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_1
+		   has_country_flag = decisions_3
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_4
+	    clr_country_flag = decisions_3}
+		add_political_power = -20
+		add_to_variable = {
+	     var = DEC_var
+	       value = 20
+    }
+}
+	}
+}
+
+CAT_leader_1 = {
+    SYR_presidential_election_1 = { # Presidential election
+		available = {
+		 check_variable = {
+		 var = DEC_var
+		 value = 1
+		 compare = less_than
+		}
+		}
+		activation = {
+		has_country_flag = DEC_leader_1
+		}
+		selectable_mission = no
+		fire_only_once = yes
+		days_mission_timeout = 60
+		timeout_effect = {
+		hidden_effect = {
+		country_event = {
+		id = syria.leader_election
+        }
+    }
+}
+
+	    complete_effect = {
+		country_event = {
+		id = syria.leader_election_1
+        }
+}
+}
+}
+
+
+
+
+
+
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################leader 2##############################################
+CAT_leader_2 = {
+           SYR_dec_led2_start  = {  # start decision
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_2
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_1
+		set_variable = {
+	     var = DEC_var
+	       value = 10
+    }
+}
+	}
+}
+
+CAT_leader_2 = {
+           SYR_dec_led2_positive.1  = {  # Decision 1.1
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_2
+		   has_country_flag = decisions_1
+		   }
+		fire_only_once = yes
+		complete_effect = {
+	    set_country_flag = decisions_2
+	    clr_country_flag = decisions_1}
+	    add_stability = 0.10
+		add_to_variable = {
+	     var = DEC_var
+	       value = 5
+    }
+}
+	}
+}
+
+CAT_leader_2 = {
+           SYR_dec_led2_neutral.1  = {  # Decision 2.1
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_2
+		   has_country_flag = decisions_1
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_2
+	    clr_country_flag = decisions_1
+		add_to_variable = {
+	     var = DEC_var
+	       value = 10
+    }
+}
+	}
+}
+
+CAT_leader_2 = {
+           SYR_dec_led2_negative.1  = {  # Decision 3.1
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_2
+		   has_country_flag = decisions_1
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_2
+	    clr_country_flag = decisions_1
+		add_stability = -0.10
+		add_to_variable = {
+	     var = DEC_var
+	       value = 20
+    }
+}
+	}
+}
+
+
+
+
+######################################DECISIONS ROUND 2########################################################
+
+
+CAT_leader_2 = {
+           SYR_dec_led2_positive.2  = {  # Decision 1.2
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_2
+		   has_country_flag = decisions_2
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_3
+	    clr_country_flag = decisions_3
+	    add_manpower = 20000
+		add_to_variable = {
+	     var = DEC_var
+	       value = 5
+    }
+}
+	}
+}
+
+CAT_leader_2 = {
+           SYR_dec_led2_neutral.2  = {  # Decision 2.2
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_2
+		   has_country_flag = decisions_2
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_3
+	    clr_country_flag = decisions_3
+		add_to_variable = {
+	     var = DEC_var
+	       value = 10
+    }
+}
+	}
+}
+
+CAT_leader_2 = {
+           SYR_dec_led2_negative.2  = {  # Decision 3.2
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_2
+		   has_country_flag = decisions_2
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_3
+	    clr_country_flag = decisions_3
+		add_manpower = -20000
+		add_to_variable = {
+	     var = DEC_var
+	       value = 20
+    }
+}
+	}
+}
+
+######################################DECISIONS ROUND 3########################################################
+
+
+CAT_leader_2 = {
+           SYR_dec_led2_positive.3  = {  # Decision 1.3
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_2
+		   has_country_flag = decisions_3
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_4
+	    clr_country_flag = decisions_3
+	    add_political_power = 20
+		add_to_variable = {
+	     var = DEC_var
+	       value = 5
+    }
+}
+	}
+}
+
+CAT_leader_2 = {
+           SYR_dec_led2_neutral.3  = {  # Decision 2.3
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_2
+		   has_country_flag = decisions_3
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_4
+	    clr_country_flag = decisions_3
+		add_to_variable = {
+	     var = DEC_var
+	       value = 10
+    }
+}
+	}
+}
+
+CAT_leader_2 = {
+           SYR_dec_led2_negative.3  = {  # Decision 3.3
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_2
+		   has_country_flag = decisions_3
+		   }
+		fire_only_once = yes
+		complete_effect = {
+	    set_country_flag = decisions_4
+	    clr_country_flag = decisions_3
+		add_political_power = -20
+		add_to_variable = {
+	     var = DEC_var
+	       value = 20
+    }
+}
+	}
+}
+
+
+CAT_leader_2 = {
+    SYR_presidential_election.1 = { # Presidential election
+		available = {
+		 check_variable {
+		 var = DEC_var
+		 value = 1
+		 compare = lesser_than
+		}
+		}
+		activation = {
+		has_country_flag = DEC_leader_2
+		}
+		selectable_mission = no
+		fire_only_once = yes
+		days_mission_timeout = 60
+		timeout_effect = {
+		hidden_effect = {
+		country_event = {
+		id = syria.leader_election.2
+        }
+    }
+}
+
+	    complete_effect = {
+		country_event = {
+		id = syria.leader_election.2
+        }
+}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################leader 3##############################################
+CAT_leader_3 = {
+           SYR_dec_led3_start  = {  # start decision
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_3
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_1
+		set_variable = {
+	     var = DEC_var
+	       value = 10
+    }
+}
+	}
+}
+
+CAT_leader_3 = {
+           SYR_dec_led3_positive.1  = {  # Decision 1.1
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_3
+		   has_country_flag = decisions_1
+		   }
+		fire_only_once = yes
+		complete_effect = {
+	    set_country_flag = decisions_2
+	    clr_country_flag = decisions_1
+	    add_stability = 0.10
+		add_to_variable = {
+	     var = DEC_var
+	       value = 5
+    }
+}
+	}
+}
+
+CAT_leader_3 = {
+           SYR_dec_led3_neutral.1  = {  # Decision 2.1
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_3
+		   has_country_flag = decisions_1
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_2
+	    clr_country_flag = decisions_1
+		add_to_variable = {
+	     var = DEC_var
+	       value = 10
+    }
+}
+	}
+}
+
+CAT_leader_3 = {
+           SYR_dec_led3_negative.1  = {  # Decision 3.1
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_3
+		   has_country_flag = decisions_1
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_2
+	    clr_country_flag = decisions_1
+		add_stability = -0.10
+		add_to_variable = {
+	     var = DEC_var
+	       value = 20
+    }
+}
+	}
+}
+
+
+######################################DECISIONS ROUND 2########################################################
+
+
+CAT_leader_3 = {
+           SYR_dec_led3_positive.2  = {  # Decision 1.2
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_3
+		   has_country_flag = decisions_2
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_3
+	    clr_country_flag = decisions_2
+	    add_manpower = 20000
+		add_to_variable = {
+	     var = DEC_var
+	       value = 5
+    }
+}
+	}
+}
+
+CAT_leader_3 = {
+           SYR_dec_led3_neutral.2  = {  # Decision 2.2
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_3
+		   has_country_flag = decisions_2
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_3
+	    clr_country_flag = decisions_2
+		add_to_variable = {
+	     var = DEC_var
+	       value = 10
+    }
+}
+	}
+}
+
+CAT_leader_3 = {
+           SYR_dec_led3_negative.2  = {  # Decision 3.2
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_3
+		   has_country_flag = decisions_2
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_3
+	    clr_country_flag = decisions_2
+		add_manpower = -20000
+		add_to_variable = {
+	     var = DEC_var
+	       value = 20
+    }
+}
+	}
+}
+
+######################################DECISIONS ROUND 3########################################################
+
+
+CAT_leader_3 = {
+           SYR_dec_led3_positive.3  = {  # Decision 1.3
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_3
+		   has_country_flag = decisions_3
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_4
+	    clr_country_flag = decisions_3
+	    add_political_power = 20
+		add_to_variable = {
+	     var = DEC_var
+	       value = 5
+    }
+}
+	}
+}
+
+CAT_leader_3 = {
+           SYR_dec_led3_neutral.3  = {  # Decision 2.3
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_3
+		   has_country_flag = decisions_3
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_4
+	    clr_country_flag = decisions_3
+		add_to_variable = {
+	     var = DEC_var
+	       value = 10
+    }
+}
+	}
+}
+
+CAT_leader_3 = {
+           SYR_dec_led3_negative.3  = {  # Decision 3.3
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_3
+		   has_country_flag = decisions_3
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_4
+	    clr_country_flag = decisions_3
+		add_political_power = -20
+		add_to_variable = {
+	     var = DEC_var
+	       value = 20
+    }
+}
+	}
+}
+
+CAT_leader_3 = {
+    SYR_presidential_election.3 = { # Presidential election
+		available = {
+		 check_variable {
+		 var = DEC_var_3
+		 value = 1
+		 compare = lesser_than
+		}
+		}
+		activation = {
+		has_country_flag = DEC_leader_3
+		}
+		selectable_mission = no
+		fire_only_once = yes
+		days_mission_timeout = 60
+		timeout_effect = {
+		hidden_effect = {
+		country_event = {
+		id = syria.leader_election.3
+        }
+    }
+}
+
+	    complete_effect = {
+		country_event = {
+		id = syria.leader_election.3
+        }
+}
+}
+}
+
+
+
+
+
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################leader 4##############################################
+CAT_leader_4 = {
+           SYR_dec_led4_start  = {  # start decision
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_4
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_1
+		set_variable = {
+	     var = DEC_var
+	       value = 10
+    }
+}
+	}
+}
+
+CAT_leader_4 = {
+           SYR_dec_led4_positive.1  = {  # Decision 1.1
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_4
+		   has_country_flag = decisions_1
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_2
+	    clr_country_flag = decisions_1
+	    add_stability = 0.10
+		add_to_variable = {
+	     var = DEC_var
+	       value = 5
+    }
+}
+	}
+}
+
+CAT_leader_4 = {
+           SYR_dec_led4_neutral.1  = {  # Decision 2.1
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_4
+		   has_country_flag = decisions_1
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_2
+	    clr_country_flag = decisions_1
+		add_to_variable = {
+	     var = DEC_var
+	       value = 10
+    }
+}
+	}
+}
+
+CAT_leader_4 = {
+           SYR_dec_led4_negative.1  = {  # Decision 3.1
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_4
+		   has_country_flag = decisions_1
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_2
+	    clr_country_flag = decisions_1
+		add_stability = -0.10
+		add_to_variable = {
+	     var = DEC_var
+	       value = 20
+    }
+}
+	}
+}
+
+
+######################################DECISIONS ROUND 2########################################################
+
+
+CAT_leader_4 = {
+           SYR_dec_led4_positive.2  = {  # Decision 1.2
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_4
+		   has_country_flag = decisions_2
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_3
+	    clr_country_flag = decisions_2
+	    add_manpower = 20000
+		add_to_variable = {
+	     var = DEC_var
+	       value = 5
+    }
+}
+	}
+}
+
+CAT_leader_4 = {
+           SYR_dec_led4_neutral.2  = {  # Decision 2.2
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_4
+		   has_country_flag = decisions_2
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_3
+	    clr_country_flag = decisions_2
+		add_to_variable = {
+	     var = DEC_var
+	       value = 10
+    }
+}
+	}
+}
+
+CAT_leader_4 = {
+           SYR_dec_led4_negative.2  = {  # Decision 3.2
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_4
+		   has_country_flag = decisions_2
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_3
+	    clr_country_flag = decisions_2
+		add_manpower = -20000
+		add_to_variable = {
+	     var = DEC_var
+	       value = 20
+    }
+}
+	}
+}
+
+######################################DECISIONS ROUND 3########################################################
+
+
+CAT_leader_4 = {
+           SYR_dec_led4_positive.4  = {  # Decision 1.3
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_4
+		   has_country_flag = decisions_3
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_4
+	    clr_country_flag = decisions_3
+	    add_political_power = 20
+		add_to_variable = {
+	     var = DEC_var
+	       value = 5
+    }
+}
+	}
+}
+
+CAT_leader_4 = {
+           SYR_dec_led4_neutral.4  = {  # Decision 2.3
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_4
+		   has_country_flag = decisions_3
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_4
+	    clr_country_flag = decisions_3
+		add_to_variable = {
+	     var = DEC_var
+	       value = 10
+    }
+}
+	}
+}
+
+CAT_leader_4 = {
+           SYR_dec_led4_negative.4  = {  # Decision 3.3
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_4
+		   has_country_flag = decisions_3
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_4
+	    clr_country_flag = decisions_3
+		add_political_power = -20
+		add_to_variable = {
+	     var = DEC_var
+	       value = 20
+    }
+}
+	}
+}
+
+CAT_leader_4 = {
+    SYR_presidential_election.4 = { # Presidential election
+		available = {
+		 check_variable {
+		 var = DEC_var
+		 value = 1
+		 compare = lesser_than
+		}
+		}
+		activation = {
+		has_country_flag = DEC_leader_4
+		}
+		selectable_mission = no
+		fire_only_once = yes
+		days_mission_timeout = 60
+		timeout_effect = {
+		hidden_effect = {
+		country_event = {
+		id = syria.leader_election.4
+        }
+    }
+}
+
+	    complete_effect = {
+		country_event = {
+		id = syria.leader_election.4
+        }
+}
+}
+}
+
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+######################################################################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################leader 5##############################################
+CAT_leader_5 = {
+           SYR_dec_led5_start  = {  # start decision
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_5
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_1
+		set_variable = {
+	     var = DEC_var
+	       value = 10
+    }
+}
+	}
+}
+
+CAT_leader_5 = {
+           SYR_dec_led5_positive.1  = {  # Decision 1.1
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_5
+		   has_country_flag = decisions_1
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_2
+	    clr_country_flag = decisions_1
+	    add_stability = 0.10
+		add_to_variable = {
+	     var = DEC_var
+	       value = 5
+    }
+}
+	}
+}
+
+CAT_leader_5 = {
+           SYR_dec_led5_neutral.1  = {  # Decision 2.1
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_5
+		   has_country_flag = decisions_1
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_2
+	    clr_country_flag = decisions_1
+		add_to_variable = {
+	     var = DEC_var
+	       value = 10
+    }
+}
+	}
+}
+
+CAT_leader_5 = {
+           SYR_dec_led5_negative.1  = {  # Decision 3.1
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_5
+		   has_country_flag = decisions_1
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_2
+	    clr_country_flag = decisions_1
+		add_stability = -0.10
+		add_to_variable = {
+	     var = DEC_var
+	       value = 20
+    }
+}
+	}
+}
+
+
+######################################DECISIONS ROUND 2########################################################
+
+
+CAT_leader_5 = {
+           SYR_dec_led5_positive.2  = {  # Decision 1.2
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_5
+		   has_country_flag = decisions_2
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_3
+	    clr_country_flag = decisions_2
+	    add_manpower = 20000
+		add_to_variable = {
+	     var = DEC_var
+	       value = 5
+    }
+}
+	}
+}
+
+CAT_leader_5 = {
+           SYR_dec_led5_neutral.2  = {  # Decision 2.2
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_5
+		   has_country_flag = decisions_2
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_3
+	    clr_country_flag = decisions_2
+		add_to_variable = {
+	     var = DEC_var
+	       value = 10
+    }
+}
+	}
+}
+
+CAT_leader_5 = {
+           SYR_dec_led5_negative.2  = {  # Decision 3.2
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_5
+		   has_country_flag = decisions_2
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_3
+	    clr_country_flag = decisions_2
+		add_manpower = -20000
+		add_to_variable = {
+	     var = DEC_var
+	       value = 20
+    }
+}
+	}
+}
+
+######################################DECISIONS ROUND 3########################################################
+
+
+CAT_leader_5 = {
+           SYR_dec_led5_positive.5  = {  # Decision 1.3
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_5
+		   has_country_flag = decisions_3
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_4
+	    clr_country_flag = decisions_3
+	    add_political_power = 20
+		add_to_variable = {
+	     var = DEC_var
+	       value = 5
+    }
+}
+	}
+}
+
+CAT_leader_5 = {
+           SYR_dec_led5_neutral.5  = {  # Decision 2.3
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_5
+		   has_country_flag = decisions_3
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_4
+	    clr_country_flag = decisions_3
+		add_to_variable = {
+	     var = DEC_var
+	       value = 10
+    }
+}
+	}
+}
+
+CAT_leader_5 = {
+           SYR_dec_led5_negative.5  = {  # Decision 3.3
+	    available = {
+	     has_political_power > 20
+		 }
+		 visible = {
+		   has_country_flag = DEC_leader_5
+		   has_country_flag = decisions_3
+		   }
+		fire_only_once = yes
+		complete_effect = {
+		set_country_flag = decisions_4
+	    clr_country_flag = decisions_3
+		add_political_power = -20
+		add_to_variable = {
+	     var = DEC_var
+	       value = 20
+    }
+}
+	}
+}
+
+CAT_leader_5 = {
+    SYR_presidential_election.5 = { # Presidential election
+		available = {
+		 check_variable {
+		 var = DEC_var
+		 value = 1
+		 compare = lesser_than
+		}
+		}
+		activation = {
+		has_country_flag = DEC_leader_5
+		}
+		selectable_mission = no
+		fire_only_once = yes
+		days_mission_timeout = 60
+		timeout_effect = {
+		hidden_effect = {
+		country_event = {
+		id = syria.leader_election.5
+        }
+    }
+}
+
+	    complete_effect = {
+		country_event = {
+		id = syria.leader_election.5
+        }
+}
+}
+}

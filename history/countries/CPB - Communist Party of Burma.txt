@@ -1,0 +1,58 @@
+﻿capital = 659
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 10
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 10
+	revolutionary_socialism = 80
+}
+	
+set_politics = {
+	ruling_party = revolutionary_socialism
+		last_election = "1977.12.10"
+		election_frequency = 48
+		elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Ba Thein Tin"
+	desc = ""
+	picture = "Ba_Thein_Tin.dds"
+	expire = "1987.1.1"
+	ideology = marxism_leninism
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Yebaw Tin Yee"
+	picture = "Yebaw_Tin_Yee.dds"
+	traits = { engineer }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Yebaw Khin Maung Gyi"
+	picture = "Yebaw_Khin_Maung_Gyi.dds"
+	traits = { jungle_rat }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}

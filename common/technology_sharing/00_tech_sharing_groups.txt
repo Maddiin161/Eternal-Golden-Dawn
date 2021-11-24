@@ -1,0 +1,65 @@
+technology_sharing_group = {
+
+	id = continuous_tech_share
+	name = continuous_tech_share_group_name
+	desc = continuous_tech_share_group_desc
+	picture = GFX_technology_sharing_default
+	
+	research_sharing_per_country_bonus = 0.1
+	is_faction_sharing = yes
+
+	available = {
+		is_in_faction = yes
+	}
+
+}
+
+technology_sharing_group = {
+
+	id = COMMONWEALTH_NUCLEAR
+	name = COMMONWEALTH_NUKE
+	desc = COMMONWEALTH_NUKE_desc
+	picture = GFX_technology_sharing_default
+  
+	research_sharing_per_country_bonus = 0.15
+	is_faction_sharing = no
+	categories = { nuclear }
+	
+	available = {
+		OR = {
+			tag = ENG
+			tag = SAF
+			tag = CAN
+			tag = NZL
+			tag = AST
+		}
+	}
+}
+
+technology_sharing_group = {
+
+	id = cento_tech
+	name = cento_tech_share_group_name
+	desc = cento_tech_share_group_desc
+	picture = GFX_technology_sharing_default
+	
+	research_sharing_per_country_bonus = 0.1
+	is_faction_sharing = yes
+
+	available = {
+		is_in_faction = yes
+	}
+
+}
+
+technology_sharing_group = {
+
+	id = uar_research
+	name = uar_research_tech_share_group_name
+	desc = uar_research_tech_share_group_desc
+	picture = GFX_technology_sharing_default
+	
+	research_sharing_per_country_bonus = 0.1
+	is_faction_sharing = no
+
+}

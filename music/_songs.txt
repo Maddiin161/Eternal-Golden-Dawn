@@ -1,0 +1,7 @@
+
+music_station = "base_music"
+
+music = {
+	song = "maintheme"
+}
+

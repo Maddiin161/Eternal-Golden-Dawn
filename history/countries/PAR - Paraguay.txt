@@ -1,0 +1,36 @@
+﻿capital = 301
+
+set_politics = {
+	ruling_party = autocracy
+	last_election = "1978.8.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 0
+	autocracy = 40
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 40
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 20
+}
+
+create_country_leader = {
+	name = "Alfredo Stroessner" 
+	desc = "Alfredo_Stroessner"
+	picture = ".dds"
+	expire = "2003.3.1"
+	ideology = personalist_dictatorship
+	traits = {
+		
+	}
+}

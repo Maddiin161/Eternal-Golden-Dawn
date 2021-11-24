@@ -1,0 +1,36 @@
+﻿capital = 43
+
+oob = "HUN_1949"
+
+set_politics = {
+	ruling_party = revolutionary_socialism
+	last_election = "1956.11.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 10
+	market_liberalism = 0
+	social_liberalism = 10
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 80
+}
+
+create_country_leader = {
+	name = "János Kádár"
+	desc = ""
+	picture = "Janos_Kadar.dds"
+	expire = "2000.1.1"
+	ideology = marxism_leninism
+	traits = {}
+}

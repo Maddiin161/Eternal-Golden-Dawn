@@ -1,0 +1,29 @@
+﻿#########################################################################
+# Eritrea
+#########################################################################
+capital = 229
+#######################
+# Research
+#######################
+#######################
+# Politics
+#######################
+set_politics = {
+	ruling_party = revolutionary_socialism
+	last_election = "1970.1.1"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 40
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 60
+}

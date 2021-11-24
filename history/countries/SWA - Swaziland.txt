@@ -1,0 +1,35 @@
+﻿capital = 1456
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1968.9.4"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 20
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 20
+	revolutionary_socialism = 60
+}
+
+create_country_leader = {
+	name = "National Salvation Council"
+	desc = ""
+	picture = "SWA_NSC.dds"
+	expire = "2000.1.1"
+	ideology = monarchism
+	traits = {
+		}
+}

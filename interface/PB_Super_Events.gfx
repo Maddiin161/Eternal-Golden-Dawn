@@ -1,0 +1,14 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "closebutton_16"
+		texturefile = "gfx/interface/closebutton_16.dds"
+	}
+
+	spriteType = {
+		name = "GFX_superevent_custom_iran_victory"
+		texturefile = "gfx/super_events/GFX_superevent_custom_iran_victory.dds"
+		legacy_lazy_load = no
+	}
+	
+}

@@ -1,0 +1,33 @@
+﻿capital = 106
+
+set_politics = {
+	ruling_party = social_democracy
+	last_election = "1994.10.16"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 2
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 20
+	market_liberalism = 0
+	social_liberalism = 1
+	social_democracy = 70
+	libertarian_socialism = 5
+	revolutionary_socialism = 2
+}
+
+create_country_leader = {
+	name = "Kiro Gligorov"
+	desc = ""
+	picture = "Kiro_Gligorov.dds"
+	expire = "1981.1.1"
+	ideology = social_democracy_ideology
+	traits = {}
+}

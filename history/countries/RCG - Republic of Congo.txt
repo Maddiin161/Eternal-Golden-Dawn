@@ -1,0 +1,46 @@
+﻿capital = 769
+
+#TECH CULTURE#
+set_country_flag = tech_gfx_african
+set_country_flag = tech_alignment_eastern
+
+#TECH/OOBS
+
+oob = "RCG_1949"
+
+set_convoys = 7
+
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 20
+	libertarian_socialism = 0
+	revolutionary_socialism = 80
+}
+
+set_politics = {
+	ruling_party = revolutionary_socialism
+		last_election = "1979.2.8"
+		election_frequency = 48
+		elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Denis Sassou Nguesso"
+	desc = ""
+	picture = "Denis_Sassou_Nguesso.dds"
+	expire = "1989.1.1"
+	ideology = marxism_leninism
+	traits = {
+		#
+	}
+}

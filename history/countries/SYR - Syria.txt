@@ -1,0 +1,53 @@
+﻿capital = 554
+
+oob = "SYR_1980"
+
+set_research_slots = 2
+set_convoys = 100
+set_stability = 0.30
+
+set_politics = {
+	ruling_party = libertarian_socialism
+	last_election = "1971.3.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 10
+	despotism = 0
+	islamism = 10
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 
+	libertarian_socialism = 75
+	revolutionary_socialism = 5
+}
+
+create_country_leader = {
+	name = "Hafez al-Assad" 
+	desc = ""
+	picture = "Hafez_al_Assad.dds"
+	expire = "1991.3.1"
+	ideology = baathism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Isam al-Mahayri" 
+	desc = ""
+	picture = "Isam_alMahayri.dds"
+	expire = "1991.3.1"
+	ideology = ultranationalism_ideology
+	traits = {
+		
+	}
+}

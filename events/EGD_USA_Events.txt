@@ -1,0 +1,161 @@
+add_namespace = unitedstates
+
+# Reagan Elected
+news_event = { 
+	id = unitedstates.1
+	title = unitedstates.1.t
+	desc = unitedstates.1.d
+	picture = GFX_news_event_reagan_election
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+
+	option = {
+		name = unitedstates.1.a
+		USA = {
+			set_politics = {
+				ruling_party = social_conservatism
+			}
+			create_country_leader = {
+				name = "Ronald Reagan" 
+				desc = ""
+				picture = "Ronald_Reagan.dds"
+				expire = "1992.3.1"
+				ideology = national_conservatism
+				traits = {
+				}
+			}	
+			
+		}	
+	}
+}
+
+# Carter Reelected
+news_event = {
+	id = unitedstates.2
+	title = unitedstates.2.t
+	desc = unitedstates.2.d
+	picture = GFX_news_event_carter_reelection
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+
+	option = {
+		name = unitedstates.2.a
+		USA = {
+		add_political_power = 25			
+		}	
+	}
+}
+
+# Kennedy Elected
+news_event = {
+	id = unitedstates.3
+	title = unitedstates.3.t
+	desc = unitedstates.3.d
+	picture = GFX_news_event_kennedy_election
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+
+	option = {
+		name = unitedstates.3.a
+		USA = {
+			create_country_leader = {
+				name = "Edward Kennedy" 
+				desc = ""
+				picture = "Edward_Kennedy.dds"
+				expire = "1992.3.1"
+				ideology = social_liberalism_ideology
+				traits = {
+				}
+			}	
+			
+		}	
+	}
+}
+
+# Bush Elected
+news_event = {
+	id = unitedstates.4
+	title = unitedstates.4.t
+	desc = unitedstates.4.d
+	picture = GFX_news_event_bush_election
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+
+	option = {
+		name = unitedstates.4.a
+		USA = {
+			set_politics = {
+				ruling_party = social_conservatism
+			}		
+			create_country_leader = {
+				name = "George Bush" 
+				desc = ""
+				picture = "George_Bush.dds"
+				expire = "1992.3.1"
+				ideology = liberal_conservatism
+				traits = {
+				}
+			}	
+			
+		}	
+	}
+}
+
+country_event = {
+	id = unitedstates.20
+	title = unitedstates.20.t
+	desc = unitedstates.20.d
+	picture = GFX_event_assassination_reagan
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	immediate = {
+		country_event = { id = unitedstates.21 days = 2 } 
+	}
+
+	option = {
+		name = "...he's alive, thank God"
+		USA = {
+		add_political_power = 50			
+		}	
+	}
+	
+	option = {
+		name = "...the President is dead."
+		country_event = { id = unitedstates.21 days = 1 } 		
+		USA = {
+		create_country_leader = {
+				name = "George Bush" 
+				desc = ""
+				picture = "George_Bush.dds"
+				expire = "1992.3.1"
+				ideology = liberal_conservatism
+				traits = {
+				}
+			}				
+		}	
+	}
+}
+
+news_event = {
+	id = unitedstates.21
+	title = unitedstates.21.t
+	desc = unitedstates.21.d
+	picture = GFX_news_assassination_reagan_dead
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+
+	option = {
+		name = unitedstates.21.a
+		USA = {
+		add_political_power = -50			
+		}	
+	}
+	
+}

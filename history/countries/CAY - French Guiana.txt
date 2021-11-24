@@ -1,0 +1,36 @@
+﻿capital = 310
+
+set_politics = {
+	ruling_party = libertarian_socialism
+	last_election = "1974.3.17"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 20
+	libertarian_socialism = 70
+	revolutionary_socialism = 10
+}
+
+create_country_leader = {
+	name = "Fabien Canavy" 
+	desc = ""
+	picture = "Fabien_Canavy.dds"
+	expire = "2003.3.1"
+	ideology = left_wing_nationalism
+	traits = {
+		
+	}
+}

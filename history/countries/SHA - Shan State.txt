@@ -1,0 +1,50 @@
+﻿#########################################################################
+# Burma
+#########################################################################
+capital = 1190
+#######################
+# Research
+#######################
+#######################
+# Politics
+#######################
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "1961.1.7"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	authoritarian_democracy = 70
+	corporate_oligarchy = 0
+	social_conservatism = 30
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
+}
+
+#######################
+# Leaders
+#######################
+create_country_leader = {
+	name = "Khun Sa"
+	desc = ""
+	picture = "Khun_Sa.dds"
+	expire = "2000.1.1"
+	ideology = military_junta
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Khun Sa"
+	desc = ""
+	picture = "Khun_Sa_Kingpin.dds"
+	expire = "2000.1.1"
+	ideology = drug_cartel
+	traits = {}
+}

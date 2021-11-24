@@ -1,0 +1,58 @@
+﻿capital = 659
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 10
+	despotism = 0
+	islamism = 10
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 10
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 70
+}
+	
+set_politics = {
+	ruling_party = revolutionary_socialism
+		last_election = "1977.12.10"
+		election_frequency = 48
+		elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Supreme People's Council"
+	desc = ""
+	picture = "Supreme_Peoples_Council_YEM.dds"
+	expire = "1986.1.1"
+	ideology = marxism_leninism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ali Salem al Beidh"
+	desc = ""
+	picture = "Ali_Salem_Beidh.dds"
+	expire = "1987.1.1"
+	ideology = 
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Haidar Abu Bakr al-Attas"
+	desc = ""
+	picture = "Haidar_Abu_Attas.dds"
+	expire = "1987.1.1"
+	ideology = 
+	traits = {
+		#
+	}
+}

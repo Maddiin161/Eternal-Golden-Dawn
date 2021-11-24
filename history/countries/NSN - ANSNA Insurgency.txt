@@ -1,0 +1,36 @@
+﻿capital = 1075
+
+set_politics = {
+	ruling_party = ultranationalism
+	last_election = "1979.5.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 1
+	transhumanism = 0
+	ultranationalism = 80
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 14
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 5
+}
+
+create_country_leader = {
+	name = "Michael Kühnen" 
+	desc = ""
+	picture = "Michael_Kuhnen.dds"
+	expire = "2003.3.1"
+	ideology = neo_nazism
+	traits = {
+		
+	}
+}

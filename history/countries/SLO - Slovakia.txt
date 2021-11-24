@@ -1,0 +1,94 @@
+﻿capital = 70
+
+oob = "SLO_2000"
+
+set_research_slots = 4
+set_convoys = 15
+set_stability = 0.55
+
+set_country_flag = country_language_slovak
+
+add_opinion_modifier = {
+	target = CZE
+	modifier = visegrad_group
+}
+
+add_opinion_modifier = {
+	target = HUN
+	modifier = visegrad_group
+}
+
+add_opinion_modifier = {
+	target = POL
+	modifier = visegrad_group
+}
+
+add_ideas = {
+#	population_growth_stagnation
+#	visegrad_group_member
+}
+
+set_popularities = {
+	revolutionary_socialism = 60
+	libertarian_socialism = 0
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 0
+	corporate_oligarchy = 40
+	despotism = 0
+	islamism = 0
+	authoritarian_democracy = 0
+	autocracy = 0
+	ultranationalism = 0
+	transhumanism = 0
+	annihilationism = 0
+}
+
+create_country_leader = {
+	name = "Mikuláš Dzurinda"
+	picture = "Mikulas_Dzurinda.dds"
+	ideology = social_conservatism_ideology
+}
+
+create_country_leader = {
+	name = "Robert Fico"
+	picture = "Robert_Fico.dds"
+	ideology = social_democracy_ideology
+}
+
+create_country_leader = {
+	name = "Andrej Danko"
+	picture = "Andrej_Danko.dds"
+	ideology = social_conservatism_ideology
+}
+
+create_country_leader = {
+	name = "Richard Sulik"
+	picture = "Richard_Sulik.dds"
+	ideology = market_liberalism_ideology
+}
+
+create_country_leader = {
+	name = "Peter Pilinský"
+	picture = "Peter_Pilinsky.dds"
+	ideology = social_liberalism_ideology
+}
+
+create_country_leader = {
+	name = "Pavol Hrušovský"
+	picture = "Pavol_Hrusovky.dds"
+	ideology = social_conservatism_ideology
+}
+
+create_country_leader = {
+	name = "Jozef Hrdlička"
+	picture = "Jozef_Hrdlicka.dds"
+	ideology = revolutionary_socialism_ideology
+}
+
+create_country_leader = {
+	name = "Marián Kotleba"
+	picture = "Marian_Kotleba.dds"
+	ideology = ultranationalism_ideology
+}

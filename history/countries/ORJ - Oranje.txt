@@ -1,0 +1,38 @@
+﻿capital = 1231
+
+#TECH CULTURE#
+set_country_flag = tech_gfx_african
+set_country_flag = tech_alignment_western
+
+#TECH/OOBS
+
+oob = "ORJ_1949"
+set_convoys = 0
+
+set_popularities = { 
+	revolutionary_socialism = 25
+	libertarian_socialism = 10
+	social_democracy = 15
+	social_liberalism = 0
+	market_liberalism = 7
+	social_conservatism = 0
+	corporate_oligarchy = 0
+	despotism = 20
+	islamism = 0
+	authoritarian_democracy = 7
+	autocracy = 13
+	ultranationalism = 0
+	transhumanism = 1
+	annihilationism = 2
+}
+
+set_politics = {
+	ruling_party = ultranationalism
+	last_election = "1949.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+init_influence = yes
+set_variable = { var = domestic_influence_amount value = 2000 } 
+  

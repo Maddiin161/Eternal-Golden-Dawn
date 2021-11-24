@@ -1,0 +1,68 @@
+spriteTypes = { ##### THIS FILE DEFINES THE PICTURE FOR EACH SUPER EVENT
+
+spriteType = {
+		name = "closebutton_16"
+		texturefile = "gfx/interface/closebutton_16.dds"
+	}
+ 
+ spriteType = { #START OF 1ST SPRITE
+		name = "GFX_superevent_custom_the_dust"
+		textureFile = "gfx//superevent_pictures//GFX_superevent_custom_the_dust.dds"
+	} # END OF 1ST SPRITE
+	
+spriteType = { #START OF 1ST SPRITE
+		name = "GFX_superevent_custom_iran_victory"
+		textureFile = "gfx//superevent_pictures//GFX_superevent_custom_iran_victory.dds"
+	} # END OF 1ST SPRITE
+	
+spriteType = { #START OF 1ST SPRITE
+		name = "GFX_superevent_custom_iraq_victory"
+		textureFile = "gfx//superevent_pictures//GFX_superevent_custom_iraq_victory.dds"
+	} # END OF 1ST SPRITE
+	
+spriteType = { #START OF 1ST SPRITE
+		name = "GFX_superevent_custom_aleph_victory"
+		textureFile = "gfx//superevent_pictures//GFX_superevent_custom_aleph_victory.dds"
+	} # END OF 1ST SPRITE	
+
+spriteType = { #START OF 1ST SPRITE
+		name = "GFX_superevent_custom_living_heaven_victory"
+		textureFile = "gfx//superevent_pictures//GFX_superevent_custom_living_heaven_victory.dds"
+	} # END OF 1ST SPRITE	
+
+spriteType = { #START OF 1ST SPRITE
+		name = "GFX_superevent_custom_gmu"
+		textureFile = "gfx//superevent_pictures//GFX_superevent_custom_gmu.dds"
+	} # END OF 1ST SPRITE
+
+spriteType = { #START OF 1ST SPRITE
+		name = "GFX_superevent_custom_chinese_collapse"
+		textureFile = "gfx//superevent_pictures//GFX_superevent_custom_chinese_collapse.dds"
+	} # END OF 1ST SPRITE
+	
+spriteType = { #START OF 1ST SPRITE
+		name = "GFX_superevent_custom_saf_civil_war"
+		textureFile = "gfx//superevent_pictures//GFX_superevent_custom_saf_civil_war.dds"
+	} # END OF 1ST SPRITE	
+	
+spriteType = { #START OF 1ST SPRITE
+		name = "GFX_superevent_custom_europe_united"
+		textureFile = "gfx//superevent_pictures//GFX_superevent_custom_europe_united.dds"
+	} # END OF 1ST SPRITE	
+
+spriteType = { #START OF 1ST SPRITE
+		name = "GFX_superevent_custom_yugoslav_wars"
+		textureFile = "gfx//superevent_pictures//GFX_superevent_custom_yugoslav_wars.dds"
+	} # END OF 1ST SPRITE	
+	
+spriteType = { #START OF 1ST SPRITE
+		name = "GFX_superevent_custom_1982_recession"
+		textureFile = "gfx//superevent_pictures//GFX_superevent_custom_1982_recession.dds"
+	} # END OF 1ST SPRITE		
+	
+spriteType = { #START OF 1ST SPRITE
+		name = "GFX_superevent_custom_australia_hegemony"
+		textureFile = "gfx//superevent_pictures//GFX_superevent_custom_australia_hegemony.dds"
+	} # END OF 1ST SPRITE		
+
+}

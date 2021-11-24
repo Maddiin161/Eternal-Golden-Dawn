@@ -1,0 +1,62 @@
+﻿capital = 608
+
+set_stability = 0.4
+set_war_support = 0.3
+
+oob = "PRC_1933"
+set_research_slots = 3
+	
+1963.1.1 = {
+	set_autonomy = { target = ARU autonomy_state = autonomy_associated_state }
+}
+
+set_politics = {
+	ruling_party = revolutionary_socialism
+	last_election = "1978.12.22"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 2
+	ultranationalism = 2
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 1
+	revolutionary_socialism = 95
+}
+
+create_country_leader = {
+	name = "Deng Xiaoping"
+	desc = ""
+	picture = "Deng_Xiaoping.dds"
+	expire = "1989.1.1"
+	ideology = deng_xiaoping_thought
+	traits = { }
+	}
+	
+create_country_leader = {
+	name = "Beijing Council"
+	desc = ""
+	picture = "Beijing_Council.dds"
+	expire = "2000.1.1"
+	ideology = deng_xiaoping_transhumanist
+	traits = {}
+}
+
+create_country_leader = {
+	name = "The Long March"
+	desc = ""
+	picture = "The_Long_March.dds"
+	expire = "2000.1.1"
+	ideology = sentiant_ai
+	traits = {}
+}	

@@ -1,0 +1,9 @@
+
+supply_area={
+	id=84
+	name="SUPPLYAREA_84"
+	value=4
+	states={
+		977 731 184 937 
+	}
+}

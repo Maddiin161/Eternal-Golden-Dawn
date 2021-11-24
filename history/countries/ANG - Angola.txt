@@ -1,0 +1,73 @@
+﻿capital = 540
+
+oob = "ANG_1949"
+
+set_politics = {
+	ruling_party = revolutionary_socialism
+	last_election = "1979.8.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 20
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 80
+}
+
+create_country_leader = {
+	name = "José Eduardo dos Santos"
+	desc = ""
+	picture = "Jose_Eduardo_dos_Santos.dds"
+	expire = "1982.1.1"
+	ideology = marxism_leninism
+	traits = {}
+}
+
+create_country_leader = {
+	name = "José Eduardo dos Santos"
+	desc = ""
+	picture = "Jose_Eduardo_dos_Santos.dds"
+	expire = "1982.1.1"
+	ideology = democratic_socialism
+	traits = {}
+}
+
+create_field_marshal = {
+	name = "Iko Carreira"
+	picture = "MPLA_Iko_Carreira.dds"
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Lucio Lara"
+	picture = "MPLA_Lucio_Lara.dds"
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Tonha Pedale"
+	picture = "MPLA_Pedro_Maria_Tonha_Pedale.dds"
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}

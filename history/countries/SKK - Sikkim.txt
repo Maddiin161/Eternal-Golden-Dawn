@@ -1,0 +1,71 @@
+﻿capital = 868
+
+oob = "SKK_1949"
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1963.12.3"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 50
+	islamism = 0
+	autocracy = 20
+	authoritarian_democracy = 20
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 10
+}
+
+create_country_leader = {
+	name = "Palden Thondup Namgyal" 
+	desc = ""
+	picture = "Palden_Thondup_Namgyal.dds"
+	expire = "1991.3.1"
+	ideology = monarchism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Jeevan Singh" 
+	desc = ""
+	picture = "Jeevan_Singh.dds"
+	expire = "1991.3.1"
+	ideology = military_junta
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Andruk Gonpo Tashi" 
+	desc = ""
+	picture = "Andruk_Gonpo_Tashi.dds"
+	expire = "1991.3.1"
+	ideology = autocracy_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Jaya Tsering" 
+	desc = ""
+	picture = "Jaya_Tsering.dds"
+	expire = "1991.3.1"
+	ideology = marxism_leninism_maoism_prachanda
+	traits = {
+		
+	}
+}

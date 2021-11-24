@@ -1,0 +1,49 @@
+﻿capital = 992
+
+oob = "VTC_1949"
+
+set_convoys = 10
+
+add_ideas = {
+#	closed_economy
+#	disarmed_nation
+#	neutrality_idea
+#	invincible_nation
+#	Major_Power_Spy_Bonus
+}
+
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1978.10.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 100
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
+}
+
+create_country_leader = {
+	name = "Pope John Paul II" 
+	desc = ""
+	picture = "Pope_John_Paul_II.dds"
+	expire = "2003.3.1"
+	ideology = theocracy
+	traits = {
+		
+	}
+}

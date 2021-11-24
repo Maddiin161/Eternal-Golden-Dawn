@@ -1,0 +1,47 @@
+﻿capital = 1554
+
+set_politics = {
+	ruling_party = social_democracy
+	last_election = "1979.10.30"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 20
+	social_democracy = 30
+	libertarian_socialism = 30
+	revolutionary_socialism = 20
+}
+
+create_country_leader = {
+	name = "Johan Ferrier" 
+	desc = ""
+	picture = "Johan_Ferrier.dds"
+	expire = "2003.3.1"
+	ideology = social_democracy_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Henk Chin A Sen" 
+	desc = ""
+	picture = "Henk_Chin_Sen.dds"
+	expire = "2003.3.1"
+	ideology = left_wing_nationalism
+	traits = {
+		
+	}
+}

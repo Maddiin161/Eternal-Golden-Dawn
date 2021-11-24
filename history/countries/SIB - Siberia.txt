@@ -1,0 +1,30 @@
+capital = 617
+
+set_politics = {
+	ruling_party = ultranationalism
+	last_election = "1979.1.7"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	transhumanism = 0
+	ultranationalism = 80
+	despotism = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 20
+}
+
+create_country_leader = {
+	name = "Hasan Mahsum"
+	desc = ""
+	picture = "Hasan_Mahsum.dds"
+	expire = "1982.1.1"
+	ideology = salafi_jihadism
+	traits = {}
+}

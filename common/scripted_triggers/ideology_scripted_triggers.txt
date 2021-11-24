@@ -1,0 +1,66 @@
+
+is_enemy_ideology = {
+	OR = {
+		AND = {
+			OR = {
+				has_government = revolutionary_socialism
+				has_government = libertarian_socialism
+			}
+			ROOT = {
+				OR = {
+					has_government = social_liberalism
+					has_government = market_liberalism
+					has_government = social_conservatism
+					has_government = corporate_oligarchy
+					has_government = despotism
+					has_government = islamism
+					has_government = authoritarian_democracy
+					has_government = autocracy
+					has_government = ultranationalism
+					has_government = transhumanism
+					has_government = annihilationism
+				}
+			}
+		}
+		AND = {
+			OR = {
+				has_government = social_liberalism
+				has_government = market_liberalism
+				has_government = social_conservatism
+				has_government = corporate_oligarchy
+				has_government = social_democracy
+			}
+			ROOT = {
+				OR = {
+					has_government = autocracy
+					has_government = revolutionary_socialism
+					has_government = libertarian_socialism
+					has_government = ultranationalism
+					has_government = transhumanism
+					has_government = annihilationism
+				}
+			}
+		}
+		AND = {
+			has_government = annihilationism
+			ROOT = {
+				OR = {
+					has_government = revolutionary_socialism
+					has_government = libertarian_socialism
+					has_government = social_liberalism
+					has_government = market_liberalism
+					has_government = social_conservatism
+					has_government = corporate_oligarchy
+					has_government = social_democracy
+					has_government = despotism
+					has_government = islamism
+					has_government = authoritarian_democracy
+					has_government = autocracy
+					has_government = ultranationalism
+					has_government = transhumanism
+					has_government = annihilationism
+				}
+			}
+		}
+	}
+}

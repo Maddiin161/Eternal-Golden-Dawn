@@ -1,0 +1,49 @@
+# leader 1
+
+CAT_leader_1 = {
+
+    icon = generic_research
+    visible = {
+	 has_country_flag = DEC_leader_1
+}
+}
+
+# leader 2
+
+CAT_leader_2 = {
+
+    icon = generic_research
+    visible = {
+	 has_country_flag = DEC_leader_2
+}
+}
+
+# leader 3
+
+CAT_leader_3 = {
+
+    icon = generic_research
+    visible = {
+	 has_country_flag = DEC_leader_3
+}
+}
+
+# leader 4 
+
+CAT_leader_4 = {
+
+    icon = generic_research
+    visible = {
+	 has_country_flag = DEC_leader_4
+}
+}
+
+# leader 5
+
+CAT_leader_5 = {
+
+    icon = generic_research
+    visible = {
+	 has_country_flag = DEC_leader_5
+}
+}
