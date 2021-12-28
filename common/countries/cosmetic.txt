@@ -43,7 +43,18 @@ SYR_SSNP = {
 	color = rgb { 41 41 41 }
 	color_ui = rgb { 41 41 41 }
 }
-
+IWR_ANR = {
+	color = rgb { 28 23 23 }
+	color_ui = rgb { 28 23 23 }
+}
+IWR_OPERAIA = {
+	color = rgb { 136 31 25 }
+	color_ui = rgb {136 31 25 }
+}
+BRI_UNITED = {
+	color = rgb { 117  38  50 }
+	color_ui = rgb { 117  38  50 }
+}
  # Annihilationist Tags
 LIV_HEV = {
 	color = rgb { 209 201 184 }
