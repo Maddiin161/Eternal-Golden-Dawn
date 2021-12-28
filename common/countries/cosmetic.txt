@@ -51,10 +51,6 @@ IWR_OPERAIA = {
 	color = rgb { 136 31 25 }
 	color_ui = rgb {136 31 25 }
 }
-BRI_UNITED = {
-	color = rgb { 117  38  50 }
-	color_ui = rgb { 117  38  50 }
-}
  # Annihilationist Tags
 LIV_HEV = {
 	color = rgb { 209 201 184 }

@@ -3,12 +3,14 @@ state = {
 	name = "STATE_1136"
 
 	history = {
-		owner = ITA
+		owner = IWR
 		set_state_flag = temperate
 		set_state_flag = lakes
 		set_state_flag = micro
 		set_state_flag = decent
-		add_core_of = ITA
+
+		add_core_of = IWR
+
 		victory_points = {
 			6788 10 
 		}

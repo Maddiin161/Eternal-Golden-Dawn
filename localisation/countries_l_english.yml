@@ -770,6 +770,7 @@
  AND_revolutionary_socialism:0 "Republic of Andalusia"
  AND_revolutionary_socialism_DEF:0 "The Republic of Andalusia"
  
+ ###ITALY
  ITA_transhumanism:0 "Italian Social Republic"
  ITA_transhumanism_DEF:0 "The Italian Social Republic"
  ITA_ultranationalism:0 "Italian Social Republic"
@@ -792,6 +793,18 @@
  ITA_libertarian_socialism_DEF:0 "The Italian Socialist Republic"
  ITA_revolutionary_socialism:0 "Italian Socialist Republic"
  ITA_revolutionary_socialism_DEF:0 "The Italian Socialist Republic"
+ 
+ ##ITALY BREAKOFFS
+ IWR_libertarian_socialism:0 "Fronte di Liberazione Italiana"
+ IBR_revolutionary_socialism_DEF:0 "The Italian Liberation Front"
+ IBR_revolutionary_socialism:0 "Armata Rossa Italiana"
+ IBR_revolutionary_socialism_DEF:0 "The Italian Red Army
+ IRS_ultranationalism:0 "Movimento Nazionale"
+ IRS_ultranationalism_DEF:0 "The Italian National Movement"
+ IMF_corporate_oligarchy:0 "Lega Siciliano"
+ IMF_corporate_oligarchy_DEF:0 "The Highly Legitimate Italian Government"
+ SRD_authoritarian_democracy:0 "Serie b"
+ SRD_authoritarian_democracy_DEF:0 "The worst team in the league"
 
  VTC_annihilationism:0 "Vatican City State"
  VTC_annihilationism_DEF:0 "The Vatican City State"

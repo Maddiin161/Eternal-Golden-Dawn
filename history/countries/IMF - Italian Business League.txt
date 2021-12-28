@@ -1,0 +1,40 @@
+#########################################################################
+# Italy - 1933
+#########################################################################
+
+capital = 115
+
+set_politics = {
+	ruling_party = corporate_oligarchy
+	last_election = "1978.8.7"
+	election_frequency = 48
+	elections_allowed = no
+	}
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 10
+	market_liberalism = 0
+	social_liberalism = 10
+	social_democracy = 70
+	libertarian_socialism = 5
+	revolutionary_socialism = 5
+}
+
+create_country_leader = {
+	name = "TONY SOPRANO" 
+	desc = ""
+	picture = "ITA/sopprano.dds"
+	expire = "1992.3.1"
+	ideology = drug_cartel
+	traits = {
+		
+	}
+}
