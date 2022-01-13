@@ -1,0 +1,19 @@
+characters = {
+
+	ARU_PLA_South_Tibet_Administration = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ARU/PLA_South_Tibet_Administration.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = { }
+			expire = 1992.3.1
+			id=-1
+		}
+
+	}
+
+
+}

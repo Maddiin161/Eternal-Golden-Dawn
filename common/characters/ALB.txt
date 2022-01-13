@@ -1,0 +1,19 @@
+characters = {
+
+	ALB_Enver_Hoxha = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ALB/Enver_Hoxha.dds"
+			}
+		}
+		country_leader = {
+			ideology = hoxhaism
+			traits = { }
+			expire = 1992.3.1
+			id=-1
+		}
+
+	}
+
+
+}

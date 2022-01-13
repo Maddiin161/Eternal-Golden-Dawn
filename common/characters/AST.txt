@@ -1,0 +1,19 @@
+characters = {
+
+	AST_Gough_Whitlam = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/AST/Gough_Whitlam.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			traits = { }
+			expire = 1987.1.1
+			id=-1
+		}
+
+	}
+
+
+}

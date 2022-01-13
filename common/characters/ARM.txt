@@ -1,0 +1,33 @@
+characters = {
+
+	ARM_Karen_Demirchyan = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ARM/Karen_Demirchyan.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 1992.3.1
+			id=-1
+		}
+
+	}
+
+	ARM_Levon_Ter-Petrosyan = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ARM/Levon_TerPetrosyan.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism_ideology
+			traits = { }
+			expire = 1992.3.1
+			id=-1
+		}
+
+	}
+
+}

@@ -1,0 +1,19 @@
+characters = {
+
+	BMJ_Abdelkader_Mokhtari = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BMJ/Abdelkader_Mokhtari.dds"
+			}
+		}
+		country_leader = {
+			ideology = salafi_jihadism
+			traits = { }
+			expire = 2000.1.1
+			id=-1
+		}
+
+	}
+
+
+}

@@ -1,0 +1,32 @@
+characters = {
+
+	AFG_Babrak_Karmal = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/AFG/Babrak_Karmal.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	AFG_Mohammad_Najibullah = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/AFG/Mohammad_Najibullah.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_wing_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+}

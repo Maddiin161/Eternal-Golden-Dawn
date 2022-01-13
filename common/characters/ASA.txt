@@ -1,0 +1,19 @@
+characters = {
+
+	ASA_Hagop_Hagopian = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ASA/Hagop_Hagopian.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethnic_nationalism
+			traits = { }
+			expire = 1987.1.1
+			id=-1
+		}
+
+	}
+
+
+}

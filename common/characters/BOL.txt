@@ -1,0 +1,19 @@
+characters = {
+
+	BOL_Luis_García_Meza = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BOL/Luis_Garcia_Meza.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_dictatorship
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

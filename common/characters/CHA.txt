@@ -1,0 +1,19 @@
+characters = {
+
+	CHA_Goukouni_Oueddei = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/CHA/Goukouni_Oueddei.dds"
+			}
+		}
+		country_leader = {
+			ideology = islamic_socialism
+			traits = { }
+			expire = 1991.3.1
+			id=-1
+		}
+
+	}
+
+
+}

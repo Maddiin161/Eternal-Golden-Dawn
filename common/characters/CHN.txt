@@ -1,0 +1,19 @@
+characters = {
+
+	CHN_Chin_National_Army_Council = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/CHN/Chin_National_Army_Council.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = { }
+			expire = 2000.1.1
+			id=-1
+		}
+
+	}
+
+
+}

@@ -1,0 +1,19 @@
+characters = {
+
+	CYP_Spyros_Kyprianou = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/CYP/Spyros_Kyprianou.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_liberalism_ideology
+			traits = { }
+			expire = 1992.3.1
+			id=-1
+		}
+
+	}
+
+
+}

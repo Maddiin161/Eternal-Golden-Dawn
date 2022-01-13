@@ -1,0 +1,33 @@
+characters = {
+
+	BHR_Hadi_al-Modarresi = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BHR/Hadi_alModarresi.dds"
+			}
+		}
+		country_leader = {
+			ideology = khomeinism
+			traits = { }
+			expire = 1981.1.1
+			id=-1
+		}
+
+	}
+
+	BHR_Isa_bin_Salman_Al_Khalifa = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BHR/Isa_Khalifa.dds"
+			}
+		}
+		country_leader = {
+			ideology = monarchism
+			traits = { }
+			expire = 1981.1.1
+			id=-1
+		}
+
+	}
+
+}

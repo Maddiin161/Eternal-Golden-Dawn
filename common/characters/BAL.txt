@@ -1,0 +1,49 @@
+characters = {
+
+	BAL_Khair_Bakhsh_Marri = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BAL/Khair_Bakhsh_Marri.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = { }
+			expire = 1992.3.1
+			id=-1
+		}
+
+	}
+
+	BAL_Sher_Mohammad_Marri = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BAL/Sher_Mohammad_Marri.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 1992.3.1
+			id=-1
+		}
+
+	}
+
+	BAL_Riaz_Basra = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BAL/Riaz_Basra.dds"
+			}
+		}
+		country_leader = {
+			ideology = salafi_jihadism
+			traits = { }
+			expire = 1992.3.1
+			id=-1
+		}
+
+	}
+
+
+}

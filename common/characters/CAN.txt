@@ -1,0 +1,19 @@
+characters = {
+
+	CAN_Pierre_Trudeau = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/CAN/Pierre_Trudeau.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism_ideology
+			traits = { }
+			expire = 2000.1.1
+			id=-1
+		}
+
+	}
+
+
+}

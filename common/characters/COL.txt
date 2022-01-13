@@ -1,0 +1,19 @@
+characters = {
+
+	COL_Julio_César_Turbay_Ayala = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/COL/Julio_Cesar_Turbay_Ayala.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}
