@@ -1,0 +1,19 @@
+characters = {
+
+	EAS_Project_Cybersyn_Mainframe = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/EAS/Project_Cybersyn.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialist_transhumanism
+			traits = { }
+			expire = 1987.1.1
+			id=-1
+		}
+
+	}
+
+
+}

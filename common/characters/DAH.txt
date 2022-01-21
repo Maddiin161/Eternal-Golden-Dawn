@@ -1,0 +1,19 @@
+characters = {
+
+	DAH_Mathieu_Kérékou = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/DAH/Mathieu_Kerekou.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

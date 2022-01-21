@@ -1,0 +1,19 @@
+characters = {
+
+	DEN_Anker_Jørgensen = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/DEN/Anker_Jorgensen.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			traits = { }
+			expire = 1982.1.1
+			id=-1
+		}
+
+	}
+
+
+}

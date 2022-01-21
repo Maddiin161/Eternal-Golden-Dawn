@@ -1,0 +1,49 @@
+characters = {
+
+	DRY_Supreme_People's_Council = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/YEM/Supreme_Peoples_Council.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 1986.1.1
+			id=-1
+		}
+
+	}
+
+	DRY_Ali_Salem_al_Beidh = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/DRY/Ali_Salem_Beidh.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_wing_nationalism #placeholder
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	DRY_Haidar_Abu_Bakr_al-Attas = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/DRY/Haidar_Abu_Attas.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_wing_populism #placeholder
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

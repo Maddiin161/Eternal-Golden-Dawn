@@ -1,0 +1,33 @@
+characters = {
+
+	EGY_Muhammad_Anwar_el-Sadat = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/EGY/Anwar_Sadat.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_liberalism_ideology
+			traits = { }
+			expire = 1982.1.1
+			id=-1
+		}
+
+	}
+
+	EGY_People's_Congress = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/EGY/Peoples_Congress_Egypt.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+}
