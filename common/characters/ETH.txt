@@ -1,0 +1,19 @@
+characters = {
+
+	ETH_Mengitsu_Haile_Mariam = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ETH/Mengitsu_Haile_Mariam.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = { }
+			expire = 1992.1.1
+			id=-1
+		}
+
+	}
+
+
+}

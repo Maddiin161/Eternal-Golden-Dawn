@@ -1,0 +1,19 @@
+characters = {
+
+	FER_Erdne_Ombadykow = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/FER/Erdne_Ombadykow.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethnic_nationalism
+			traits = { }
+			expire = 1987.1.1
+			id=-1
+		}
+
+	}
+
+
+}

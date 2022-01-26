@@ -1,0 +1,19 @@
+characters = {
+
+	ENG_Margaret_Thatcher = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ENG/P_S_C_Margarat_Thatcher.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservatism_ideology
+			traits = { }
+			expire = 1990.1.1
+			id=-1
+		}
+
+	}
+
+
+}
