@@ -1,0 +1,107 @@
+characters = {
+
+	KAY_Bo_Mya = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/KAY/Bo_Mya.dds"
+			}
+			army = {
+				large = "gfx/leaders/KAY/Bo_Mya_General.dds"
+			}
+			army = {
+				small = "GFX_idea_Bo_Mya"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+		field_marshal = {
+			traits = { career_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+	KAY_U_Thuzana = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/KAY/U_Thuzana.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocracy
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	KAY_Bo_Nat_Khann_Mway = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/KAY/Bo_Nat_Khann_Mway.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethnic_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	KAY_Mahn_Ba_Zan = {
+		portraits={
+			army = {
+				large = "gfx/leaders/KAY/Mahn_Ba_Zan.dds"
+			}
+			army = {
+				small = "GFX_idea_Ma_Ba_Zan"
+			}
+			
+		}
+		corps_commander = {
+			traits = { engineer }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+	KAY_Dave_Everett = {
+		portraits={
+			army = {
+				large = "gfx/leaders/KAY/Dave_Everett.dds"
+			}
+			army = {
+				small = "GFX_idea_Dave_Everett"
+			}
+			
+		}
+		corps_commander = {
+			traits = { jungle_rat }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+}

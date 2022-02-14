@@ -1,0 +1,34 @@
+characters = {
+
+	LIB_People's_Redemption_Council = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/LIB/Peoples_Redemption_Council.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_dictatorship
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	LIB_Samuel_Doe = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/LIB/Samuel_Doe.dds"
+			}
+		}
+		country_leader = {
+			ideology = juche
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

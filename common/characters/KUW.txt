@@ -1,0 +1,34 @@
+characters = {
+
+	KUW_Jabar_Al-Ahmad_Al-Sabah = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/KUW/Jabar_Al-Sabah.dds"
+			}
+		}
+		country_leader = {
+			ideology = monarchism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	KUW_Norman_Schwarzkopf_Jr = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/KUW/Norman_Schwarzkopf.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

@@ -1,0 +1,19 @@
+characters = {
+
+	JOR_Hussein_bin_Talal = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/JOR/Hussein_bin_Talal.dds"
+			}
+		}
+		country_leader = {
+			ideology = monarchism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

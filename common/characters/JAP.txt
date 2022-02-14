@@ -1,0 +1,49 @@
+characters = {
+
+	JAP_Masayoshi_Ohira = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/JAP/Masayoshi_Ohira.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}	
+	
+	JAP_Shoko_Asahara = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/JAP/Shoko_Asahara.dds"
+			}
+		}
+		country_leader = {
+			ideology = millenarianism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	JAP_Yukio_Mishima = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/JAP/Yukio_Mishima.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

@@ -1,0 +1,19 @@
+characters = {
+
+	KHA_Jagjit_Singh_Chohan = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/KHA/Jagjit_Singh_Chohan.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocracy
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}
