@@ -1,0 +1,19 @@
+characters = {
+
+	HMO_Kong_Le = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/HMO/Kong_Le.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

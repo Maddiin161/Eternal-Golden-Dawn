@@ -1,0 +1,19 @@
+characters = {
+
+	ITA_Alessandro_Pertini = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ITA/Alessandro_Pertini.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

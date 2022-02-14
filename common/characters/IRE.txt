@@ -1,0 +1,19 @@
+characters = {
+
+	IRE_Patrick_Hillery = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/IRE/Patrick_Hillery.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservatism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

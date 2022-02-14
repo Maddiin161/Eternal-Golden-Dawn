@@ -1,0 +1,34 @@
+characters = {
+
+	ISU_Abdelkarim_Hussein_Mohamed_Al-Nasser = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ISU/Abdelkarim_Hussein_Mohamed_Nasser.dds"
+			}
+		}
+		country_leader = {
+			ideology = khomeinism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	ISU_Hassan_al-Saffar = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ISU/Hassan_Saffar.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

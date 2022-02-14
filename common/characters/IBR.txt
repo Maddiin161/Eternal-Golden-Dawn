@@ -1,0 +1,19 @@
+characters = {
+
+	IBR_Spettro_della_Piazza_Fontana = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ITA/spettro.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

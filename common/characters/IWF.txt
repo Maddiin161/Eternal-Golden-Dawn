@@ -1,0 +1,19 @@
+characters = {
+
+	IWF_Liberation_Jones = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ITA/anitaly1.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

@@ -1,0 +1,19 @@
+characters = {
+
+	HAI_Jean-Claude_Duvalier = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/HAI/Jean_Claude_Duvalier.dds"
+			}
+		}
+		country_leader = {
+			ideology = personalist_dictatorship
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

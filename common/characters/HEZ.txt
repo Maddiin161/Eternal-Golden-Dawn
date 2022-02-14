@@ -1,0 +1,34 @@
+characters = {
+
+	HEZ_Abbas_al-Musawi = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/HEZ/Abbas_alMusawi.dds"
+			}
+		}
+		country_leader = {
+			ideology = khomeinism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	HEZ_Hassan_Nasrallah = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/HEZ/Hassan_Nasrallah.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_ideology	#placeholder
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}
