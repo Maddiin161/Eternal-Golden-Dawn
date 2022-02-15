@@ -1,0 +1,19 @@
+characters = {
+
+	PRU_Francisco_Morales-Bermúdez = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/PRU/Fransisco_Morales_Bermudez.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_dictatorship
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

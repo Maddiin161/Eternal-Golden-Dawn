@@ -1,0 +1,19 @@
+characters = {
+
+	PER_Ruhollah_Khomeini = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/PER/Rohollah_Khomeini.dds"
+			}
+		}
+		country_leader = {
+			ideology = khomeinism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

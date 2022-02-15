@@ -1,0 +1,19 @@
+characters = {
+
+	MUJ_Gulbuddin_Hekmatyar = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/MUJ/Gulbuddin_Hekmatyar.dds"
+			}
+		}
+		country_leader = {
+			ideology = islamic_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

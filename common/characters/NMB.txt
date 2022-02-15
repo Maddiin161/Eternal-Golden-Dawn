@@ -1,0 +1,19 @@
+characters = {
+
+	NMB_Sam_Nujoma = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/NMB/Sam_Nujoma.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

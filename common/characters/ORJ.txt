@@ -1,0 +1,19 @@
+characters = {
+
+	ORJ_Eugène_Terre'Blanche = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ORJ/Eugene_TerreBlanche_Commander.dds"
+			}
+		}
+		country_leader = {
+			ideology = neo_nazism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

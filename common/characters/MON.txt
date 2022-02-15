@@ -1,0 +1,19 @@
+characters = {
+
+	MON_Yumjaagiin_Tsedenbal = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/MON/Yumjaagiin_Tsedenbal.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

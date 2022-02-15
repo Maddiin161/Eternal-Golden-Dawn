@@ -1,0 +1,85 @@
+characters = {
+
+	MEX_José_López_Portillo = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/MEX/Jose_Lopez_Portillo.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	MEX_Luis_Farell = {
+		portraits={
+			army = {
+				large = "gfx/leaders/MEX/Luis_Farell.dds"
+			}
+			army = {
+				small = "GFX_idea_Luis_Farell"
+			}
+			
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=0
+		}
+
+	}
+
+	MEX_Gildardo_Magaña = {
+		portraits={
+			army = {
+				large = "gfx/leaders/tag/Gildardo_Magana.dds"
+			}
+			army = {
+				small = "GFX_idea_Gildardo_Magana"
+			}
+			
+		}
+		corps_commander = {
+			traits = { desert_fox }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=0
+		}
+
+	}
+
+	MEX_Paul_Suarez = {
+		portraits={
+			army = {
+				large = "gfx/leaders/MEX/Paul_Suarez.dds"
+			}
+			army = {
+				small = "GFX_idea_Paul_Suarez"
+			}
+			
+		}
+		navy_leader = {
+			traits = { superior_tactician }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=0
+		}
+
+	}
+
+
+}

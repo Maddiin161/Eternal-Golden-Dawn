@@ -1,0 +1,19 @@
+characters = {
+
+	MEG_Julius_K_Dorphang = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/MEG/Julius_Dorphang.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethnic_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

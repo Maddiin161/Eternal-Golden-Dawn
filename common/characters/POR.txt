@@ -1,0 +1,19 @@
+characters = {
+
+	POR_António_Ramalho_Eanes = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/POR/Antonio_Eanes.dds"
+			}
+		}
+		country_leader = {
+			ideology = emergency_government
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

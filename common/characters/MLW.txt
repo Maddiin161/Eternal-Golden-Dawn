@@ -1,0 +1,19 @@
+characters = {
+
+	MLW_Hastings_Banda = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/MLW/Hastings_Banda.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}
