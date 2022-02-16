@@ -1,0 +1,19 @@
+characters = {
+
+	SIA_Bhumibol_Adulyadej = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SIA/Bhumibol_Adulyadej.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservatism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

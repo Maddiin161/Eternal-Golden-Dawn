@@ -1,0 +1,94 @@
+characters = {
+
+	SOV_Leonid_Brezhnev = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SOV/Leonid_Brezhnev.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	SOV_Vasily_Starodubtsev = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SOV/Vasily_Starodubtsev.dds"
+			}
+		}
+		country_leader = {
+			ideology = agrarian_socialism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	SOV_Victor_Glushkov = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SOV/Victor_Glushkov.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialist_transhumanism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	SOV_Dmitry_Yazov = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SOV/Dmitry_Yazov.dds"
+			}
+		}
+		country_leader = {
+			ideology = emergency_government
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	SOV_Konstantin_Petrov = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SOV/Konstatin_Petrov.dds"
+			}
+		}
+		country_leader = {
+			ideology = dead_water
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	SOV_Aleksandr_Dugin = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SOV/Dugin.dds"
+			}
+		}
+		country_leader = {
+			ideology = mystic_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

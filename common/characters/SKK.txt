@@ -1,0 +1,64 @@
+characters = {
+
+	SKK_Palden_Thondup_Namgyal = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SKK/Palden_Thondup_Namgyal.dds"
+			}
+		}
+		country_leader = {
+			ideology = monarchism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	SKK_Jeevan_Singh = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SKK/Jeevan_Singh.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	SKK_Andruk_Gonpo_Tashi = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SKK/Andruk_Gonpo_Tashi.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	SKK_Jaya_Tsering = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SKK/Jaya_Tsering.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism_maoism_prachanda
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

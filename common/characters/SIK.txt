@@ -1,0 +1,19 @@
+characters = {
+
+	SIK_Hasan_Mahsum = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SIK/Hasan_Mahsum.dds"
+			}
+		}
+		country_leader = {
+			ideology = salafi_jihadism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

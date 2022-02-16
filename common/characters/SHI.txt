@@ -1,0 +1,40 @@
+characters = {
+
+	SHI_Abimael_Guzmán = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SHI/Abimael_Guzman.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism_maoism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+SHI_Comrade_Artemio = {
+		portraits={
+			army = {
+				large = "gfx/leaders/SHI/M_Comrade_Artemio.dds"
+			}
+			army = {
+				small = "GFX_idea_Comrade_Artemio"
+			}
+			
+		}
+		corps_commander = {
+			traits = { commando }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+}

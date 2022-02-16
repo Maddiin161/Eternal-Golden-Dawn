@@ -1,0 +1,19 @@
+characters = {
+
+	SWA_National_Salvation_Council = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SWA/SWA_NSC.dds"
+			}
+		}
+		country_leader = {
+			ideology = monarchism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

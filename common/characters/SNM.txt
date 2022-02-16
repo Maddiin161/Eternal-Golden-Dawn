@@ -1,0 +1,19 @@
+characters = {
+
+	SNM_Grand_and_General_Council = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SNM/Grand_General_Council.dds"
+			}
+		}
+		country_leader = {
+			ideology = corporate_oligarchy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

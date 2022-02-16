@@ -1,0 +1,39 @@
+characters = {
+
+	SUR_Johan_Ferrier = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SUR/Johan_Ferrier.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}
+
+characters = {
+
+	SUR_Henk_Chin_A_Sen = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SUR/Henk_Chin_Sen.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_wing_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

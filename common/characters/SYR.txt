@@ -1,0 +1,34 @@
+characters = {
+
+	SYR_Hafez_al-Assad = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SYR/Hafez_al_Assad.dds"
+			}
+		}
+		country_leader = {
+			ideology = baathism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	SYR_Isam_al-Mahayri = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SYR/Isam_alMahayri.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

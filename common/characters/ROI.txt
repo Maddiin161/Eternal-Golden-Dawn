@@ -1,0 +1,34 @@
+characters = {
+
+	ROI_Lotta_Autonomia = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ITA/Alessandro_Pertini.dds"
+			}
+		}
+		country_leader = {
+			ideology = independent_marxism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	ROI_Gruppo_Della_Rivaluzione = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ITA/Anarchists1.dds"
+			}
+		}
+		country_leader = {
+			ideology = baathism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

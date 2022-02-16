@@ -1,0 +1,49 @@
+characters = {
+
+	SUD_Jaafar_Nimeiry = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SUD/Jaafar_Nimeiry.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_wing_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	SUD_Muhammad_Ibrahim_Nugud = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SUD/Muhammad_Ibrahim_Nugud.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	SUD_Abdel_Rahman_Swar_al-Dahab = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SUD/Abdel_al-Dahab.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

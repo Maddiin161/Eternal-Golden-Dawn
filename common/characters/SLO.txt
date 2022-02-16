@@ -1,0 +1,94 @@
+characters = {
+
+	SLO_Andrej_Danko = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SLO/Andrej_Danko.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservatism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	SLO_Robert_Fico = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SLO/Robert_Fico.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	SLO_Richard_Sulik = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SLO/Richard_Sulik.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_liberalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	SLO_Peter_Pilinský = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SLO/Peter_Pilinsky.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	SLO_Jozef_Hrdlička = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SLO/Jozef_Hrdlicka.dds"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_socialism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	SLO_Marián_Kotleba = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SLO/Marian_Kotleba.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

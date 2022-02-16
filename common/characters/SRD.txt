@@ -1,0 +1,19 @@
+characters = {
+
+	SRD_Worst_Serie_A_Team_LMAO = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ITA/serie_b.dds"
+			}
+		}
+		country_leader = {
+			ideology = emergency_government
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

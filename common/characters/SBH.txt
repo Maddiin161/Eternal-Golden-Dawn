@@ -1,0 +1,19 @@
+characters = {
+
+	SBH_Leader_Name = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SBH/Leader_Name.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

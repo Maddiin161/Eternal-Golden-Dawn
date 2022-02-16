@@ -1,0 +1,19 @@
+characters = {
+
+	SPR_Juan_Carlos_I = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SPR/Juan_Carlos_I.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

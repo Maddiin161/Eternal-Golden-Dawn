@@ -1,0 +1,34 @@
+characters = {
+
+	SZR_Piruz_Dilanchi = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SZR/Piruz_Dilanchi.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethnic_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	SZR_Mahmudali_Chehregani = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SZR/Mahmudali_Chehregani.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}
