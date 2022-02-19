@@ -1,0 +1,19 @@
+characters = {
+
+	TUA_Fatafehi_Tu'ipelehake = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/TUA/Fatafehi_Tuipelehake.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberal_conservatism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

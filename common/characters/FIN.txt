@@ -1,0 +1,19 @@
+characters = {
+
+	FIN_Pekka_Vennamo = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/FIN/Pekka_Vennamo.dds"
+			}
+		}
+		country_leader = {
+			ideology = populism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

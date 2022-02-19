@@ -1,0 +1,19 @@
+characters = {
+
+	SOM_Siad_Barre = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SOM/Siad_Barre.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

@@ -1,0 +1,19 @@
+characters = {
+
+	MLT_Anton_Buttgieg = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/MLT/Anton_Buttgieg.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

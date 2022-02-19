@@ -1,0 +1,19 @@
+characters = {
+
+	KMP_Heng_Samrin = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/KMP/Heng_Samrin.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

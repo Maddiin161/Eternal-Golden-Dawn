@@ -1,0 +1,34 @@
+characters = {
+
+	SWE_Thorbjörn_Fälldin = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SWE/Thorbjorn_Falldin.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	SWE_Olof_Palme = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SWE/Olof_Palme.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

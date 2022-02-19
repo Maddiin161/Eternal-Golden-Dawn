@@ -1,0 +1,34 @@
+characters = {
+
+	YEM_Ali_Abdullah_Saleh = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/YEM/Ali_Abdullah_Saleh.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_dictatorship
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	YEM_Supreme_Political_Council = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/YEM/Supreme_Political_Council.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy_ideology #placeholder
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

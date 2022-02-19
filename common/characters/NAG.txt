@@ -1,0 +1,19 @@
+characters = {
+
+	NAG_Thuingaleng_Muivah = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/NAG/Thuingaleng_Muivah.dds"
+			}
+		}
+		country_leader = {
+			ideology = maoism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

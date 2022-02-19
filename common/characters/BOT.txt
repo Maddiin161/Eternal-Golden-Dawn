@@ -1,0 +1,19 @@
+characters = {
+
+	BOT_Seretse_Khama = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BOT/Seretse_Khama.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			traits = { }
+			expire = 2000.1.1
+			id=-1
+		}
+
+	}
+
+
+}

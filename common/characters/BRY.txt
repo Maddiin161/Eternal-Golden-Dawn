@@ -1,0 +1,19 @@
+characters = {
+
+	BRY_Buryat_Supreme_Soviet = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BRY/Buryat_Supreme_Soviet.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 1992.3.1
+			id=-1
+		}
+
+	}
+
+
+}

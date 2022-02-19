@@ -1,0 +1,19 @@
+characters = {
+
+	PUE_Carlos_Romero_Barceló = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/PUE/Carlos_Romero_Barcelo.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservatism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

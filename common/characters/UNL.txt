@@ -1,0 +1,19 @@
+characters = {
+
+	UNL_Nongmaithem_Pahari = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/UNL/Nongmaithem_Pahari.dds"
+			}
+		}
+		country_leader = {
+			ideology = independent_marxism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

@@ -1,0 +1,34 @@
+characters = {
+
+	ULF_Bhimkanta_Buragohain = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ULF/Bhimkanta_Buragohain.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_wing_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	ULF_All_Muslim_United_Forum = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ULF/All_Muslim_United_Forum.dds"
+			}
+		}
+		country_leader = {
+			ideology = islamic_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

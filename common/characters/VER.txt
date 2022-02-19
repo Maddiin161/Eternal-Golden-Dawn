@@ -1,0 +1,19 @@
+characters = {
+
+	VER_Murray_Bookchin = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/VER/Murray_Bookchin.dds"
+			}
+		}
+		country_leader = {
+			ideology = eco_socialism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

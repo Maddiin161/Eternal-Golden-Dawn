@@ -1,0 +1,19 @@
+characters = {
+
+	TIB_14th_Dalai_Lama = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/TIB/14th_Dalai_Lama.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocracy
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

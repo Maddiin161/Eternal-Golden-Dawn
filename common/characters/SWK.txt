@@ -1,0 +1,19 @@
+characters = {
+
+	SWK_Bong_Kee_Chok = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SWK/Bong_Kee_Chok.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

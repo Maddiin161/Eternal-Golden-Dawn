@@ -1,0 +1,49 @@
+characters = {
+
+	PRC_Deng_Xiaopeng = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/PRC/Deng_Xiaopeng.dds"
+			}
+		}
+		country_leader = {
+			ideology = deng_xiaopeng_thought
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	PRC_Beijing_Council = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/PRC/Beijing_Council.dds"
+			}
+		}
+		country_leader = {
+			ideology = deng_xiaopeng_transhumanist
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	PRC_The_Long_March = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/PRC/The_Long_March.dds"
+			}
+		}
+		country_leader = {
+			ideology = sentient_ai
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

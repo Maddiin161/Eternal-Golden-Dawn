@@ -1,0 +1,19 @@
+characters = {
+
+	KRA_Milan_Babić = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/KRA/Milan_Babic.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

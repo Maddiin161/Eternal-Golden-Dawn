@@ -1,0 +1,19 @@
+characters = {
+
+	TZN_Julius_Nyerere = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/TZN/Julius_Nyerere.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

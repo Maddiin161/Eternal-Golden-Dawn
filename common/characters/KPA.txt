@@ -1,0 +1,19 @@
+characters = {
+
+	KPA_Kim_Il-Sung = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/KPA/Kim_Il_Sung.dds"
+			}
+		}
+		country_leader = {
+			ideology = juche
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

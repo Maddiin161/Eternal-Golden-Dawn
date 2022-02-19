@@ -1,0 +1,34 @@
+characters = {
+
+	KAG_Jean_Nguza_Karl-i-Bond = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/KAG/Jean_Nguza.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	KAG_Mining_Union_of_Upper-Katanga = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/KAG/UMHK.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolutist_corporatism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

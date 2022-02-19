@@ -1,0 +1,19 @@
+characters = {
+
+	RUS_Boris_Yeltsin = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/RUS/Boris_Yeltsin.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_liberalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

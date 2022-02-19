@@ -1,0 +1,19 @@
+characters = {
+
+	XSM_Bai_Lichen = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/XSM/Bai_Lichen.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservatism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

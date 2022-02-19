@@ -1,0 +1,34 @@
+characters = {
+
+	PAL_Yasser_Arafat = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/PAL/Yasser_Arafat.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	PAL_Ahmed_Yassin = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/PAL/Ahmed_Yassin.dds"
+			}
+		}
+		country_leader = {
+			ideology = islamic_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

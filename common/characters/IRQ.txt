@@ -1,0 +1,115 @@
+characters = {
+
+	IRQ_Saddam_Hussein = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/IRQ/Saddam_Hussein.dds"
+			}
+		}
+		country_leader = {
+			ideology = baathism_iraqi
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	IRQ_Fawzi_Mutlaq_al-Rawi = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/IRQ/Fawzi_Rawi.dds"
+			}
+		}
+		country_leader = {
+			ideology = baathism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	IRQ_Mohammad_Baqir_al-Hakim = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/IRQ/Mohammad_alHakim.dds"
+			}
+		}
+		country_leader = {
+			ideology = khomeinism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	IRQ_Adnan_Khairallah = {
+		portraits={
+			army = {
+				large = "gfx/leaders/IRQ/Adnan_Khairallah.dds"
+			}
+			army = {
+				small = "GFX_idea_Adnan_Khairallah"
+			}
+			
+		}
+		corps_commander = {
+			traits = { career_officer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=0
+		}
+
+	}
+
+	IRQ_Hussein_Kamel_al-Majid = {
+		portraits={
+			army = {
+				large = "gfx/leaders/IRQ/Hussein_Kamel.dds"
+			}
+			army = {
+				small = "GFX_idea_Hussein_Kamel"
+			}
+			
+		}
+		corps_commander = {
+			traits = { politically_connected }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+	IRQ_Maher_Abd_al-Rashid = {
+		portraits={
+			army = {
+				large = "gfx/leaders/IRQ/Maher_Abd.dds"
+			}
+			army = {
+				small = "GFX_idea_Maher_Abd"
+			}
+			
+		}
+		corps_commander = {
+			traits = { reckless }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+
+}

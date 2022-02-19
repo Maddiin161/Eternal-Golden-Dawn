@@ -1,0 +1,19 @@
+characters = {
+
+	CSD_placeholder = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/CSD/placeholder.dds"
+			}
+		}
+		country_leader = {
+			ideology = eco_socialism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

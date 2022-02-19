@@ -1,0 +1,19 @@
+characters = {
+
+	ISR_Yitzhak_Shamir = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ISR/Yitzhak_Shamir.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservatism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

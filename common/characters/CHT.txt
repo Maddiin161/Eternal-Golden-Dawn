@@ -1,0 +1,19 @@
+characters = {
+
+	CHT_Manabendra_Narayan_Larma = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/CHT/Manabendra_Narayan_Larma.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			traits = { }
+			expire = 1986.3.1
+			id=-1
+		}
+
+	}
+
+
+}

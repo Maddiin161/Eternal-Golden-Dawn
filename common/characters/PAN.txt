@@ -1,0 +1,19 @@
+characters = {
+
+	PAN_Omar_Torrijos = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/PAN/Omar_Torrijos.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_wing_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

@@ -1,0 +1,19 @@
+characters = {
+
+	LES_Moshoeshoe_II = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/LES/Moshoeshoe_II.dds"
+			}
+		}
+		country_leader = {
+			ideology = monarchism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

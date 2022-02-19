@@ -1,0 +1,19 @@
+characters = {
+
+	MRS_Amata_Kabua = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/MRS/Amata_Kabua.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

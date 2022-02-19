@@ -1,0 +1,19 @@
+characters = {
+
+	KOR_Choi_Kyu-Hah = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/KOR/Choi_Kyuhah.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservatism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

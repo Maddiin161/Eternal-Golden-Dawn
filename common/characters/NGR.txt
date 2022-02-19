@@ -1,0 +1,19 @@
+characters = {
+
+	NGR_Seyni_Kountché = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/NGR/Seyni_Kountche.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_dictatorship
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

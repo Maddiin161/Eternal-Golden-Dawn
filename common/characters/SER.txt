@@ -1,0 +1,19 @@
+characters = {
+
+	SER_Slobidan_Milosevic = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SER/Slobidan_Milosevic.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethnic_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

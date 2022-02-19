@@ -1,0 +1,19 @@
+characters = {
+
+	REU_Paul_Vergès = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/REU/Paul_Verges.dds"
+			}
+		}
+		country_leader = {
+			ideology = post_marxism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

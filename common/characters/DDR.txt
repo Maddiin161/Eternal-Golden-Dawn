@@ -1,0 +1,172 @@
+characters = {
+
+	DDR_Erich_Honecker = {
+		portraits={
+			civilian = {
+				large = gfx/leaders/TAG/Erich_Honecker.dds
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 1989.1.1
+			id=-1
+		}
+
+	}
+
+	DDR_Heinz_Hoffmann = {
+		portraits={
+			army = {
+				large = "gfx/leaders/DDR/Heinz_Hoffmann.dds"
+			}
+			army = {
+				small = "GFX_idea_Heinz_Hoffmann"
+			}
+			
+		}
+		field_marshal = {
+			traits = { old_guard offensive_docterine }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+	DDR_Heinz_Klesser = {
+		portraits={
+			army = {
+				large = "gfx/leaders/DDR/Heinz_Klesser.dds"
+			}
+			army = {
+				small = "GFX_idea_Heinz_Klesser"
+			}
+			
+		}
+		field_marshal = {
+			traits = { thorough_planner career_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+	DDR_Horst_Brünner = {
+		portraits={
+			army = {
+				large = "gfx/leaders/DDR/Horst_Brunner.dds"
+			}
+			army = {
+				small = "GFX_idea_Horst_Brunner"
+			}
+			
+		}
+		corps_commander = {
+			traits = { engineer }
+			skill = 2
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+	DDR_Fritz_Streletz = {
+		portraits={
+			army = {
+				large = "gfx/leaders/DDR/Fritz_Streletz.dds"
+			}
+			army = {
+				small = "GFX_idea_Fritz_Streletz"
+			}
+			
+		}
+		corps_commander = {
+			traits = { winter_specialist }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+	DDR_Wolfgang_Reinhold = {
+		portraits={
+			army = {
+				large = "gfx/leaders/DDR/Wolfgang_Reinhold.dds"
+			}
+			army = {
+				small = "GFX_idea_Wolfgang_Reinhold"
+			}
+			
+		}
+		corps_commander = {
+			traits = { winter_specialist }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+	DDR_Friedrich_Dickel = {
+		portraits={
+			army = {
+				large = "gfx/leaders/DDR/Friedrich_Dickel.dds"
+			}
+			army = {
+				small = "GFX_idea_Friedrich_Dickel"
+			}
+			
+		}
+		corps_commander = {
+			traits = { winter_specialist }
+			skill = 1
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+	DDR_Klaus-Dieter_Baumgarten = {
+		portraits={
+			army = {
+				large = "gfx/leaders/DDR/Klaus_Dieter_Baumgarten.dds"
+			}
+			army = {
+				small = "GFX_idea_klaus_Dieter_Baumgarten"
+			}
+			
+		}
+		corps_commander = {
+			traits = { reckless }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+}

@@ -1,0 +1,19 @@
+characters = {
+
+	WGR_Helmut_Schmidt = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/WGR/Helmut_Schmidt.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservatism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

@@ -1,0 +1,19 @@
+characters = {
+
+	CHL_Salvador_Allende = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/CHL/Salvador_Allende.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			traits = { }
+			expire = 1982.1.1
+			id=-1
+		}
+
+	}
+
+
+}

@@ -1,0 +1,19 @@
+characters = {
+
+	PRV_Forgiveness = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/PRV/Forgiveness.dds"
+			}
+		}
+		country_leader = {
+			ideology = hallucinogenism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

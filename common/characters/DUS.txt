@@ -1,0 +1,19 @@
+characters = {
+
+	DUS_The_Dust = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/DUS/The_Dust.dds"
+			}
+		}
+		country_leader = {
+			ideology = old_god
+			traits = { }
+			expire = 2000.1.1
+			id=-1
+		}
+
+	}
+
+
+}

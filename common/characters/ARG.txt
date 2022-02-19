@@ -1,0 +1,19 @@
+characters = {
+
+	ARG_Jorge_Rafael_Videla = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ARG/Jorje_Rafael_Videla.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_dictatorship
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

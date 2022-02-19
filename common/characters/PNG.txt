@@ -1,0 +1,19 @@
+characters = {
+
+	PNG_Michael_Somare = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/PNG/Michael_Somare.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

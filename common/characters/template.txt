@@ -1,0 +1,19 @@
+characters = {
+
+	TAG_Leader_Name = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/TAG/Leader_Name.dds"
+			}
+		}
+		country_leader = {
+			ideology = name_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

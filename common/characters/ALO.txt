@@ -1,0 +1,19 @@
+characters = {
+
+	ALO_Faiz_Ahmad = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ALO/Faiz_Ahmad.dds"
+			}
+		}
+		country_leader = {
+			ideology = maoism
+			traits = { }
+			expire = 1987.1.1
+			id=-1
+		}
+
+	}
+
+
+}

@@ -1,0 +1,48 @@
+characters = {
+
+	ARA_Khaing_Soe_Naing_Aung = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ARA/Khaing_Soe_Naing_Aung.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservatism_ideology
+			traits = { }
+			expire = 2000.1.1
+			id=-1
+		}
+
+	}
+
+	ARA_Arakan_Army_Council = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ARA/Arakan_Army_Council.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = { }
+			expire = 2000.1.1
+			id=-1
+		}
+
+	}
+
+	ARA_Rohingya_Solidarity_Council = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ARA/Rohingya_Solidarity_Council.dds"
+			}
+		}
+		country_leader = {
+			ideology = islamic_nationalism
+			traits = { }
+			expire = 2000.1.1
+			id=-1
+		}
+
+	}
+
+}

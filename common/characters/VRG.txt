@@ -1,0 +1,19 @@
+characters = {
+
+	VRG_Juan_Fransisco_Luis = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/VRG/Juan_Fransisco_Luis.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

@@ -1,0 +1,19 @@
+characters = {
+
+	PAR_Alfredo_Stroessner = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/PAR/Alfredo_Stroessner.dds"
+			}
+		}
+		country_leader = {
+			ideology = personalist_dictatorship
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

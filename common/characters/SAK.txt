@@ -1,0 +1,19 @@
+characters = {
+
+	SAK_Mikhail_Nikolayev = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SAK/Mikhail_Nikolayev.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

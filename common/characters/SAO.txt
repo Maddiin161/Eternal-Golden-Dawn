@@ -1,0 +1,19 @@
+characters = {
+
+	SAO_Manuel_Pinto_da_Costa = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SAO/Manuel_PintodaCosta.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

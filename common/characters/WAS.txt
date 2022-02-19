@@ -1,0 +1,145 @@
+characters = {
+
+	WAS_Chao_Ngi_Lai = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/WAS/Chao_Ngi_Lai.dds"
+			}
+		}
+		country_leader = {
+			ideology = maoism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	WAS_Bao_Youxiang = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/WAS/Bao_Youxiang.dds"
+			}
+			army = {
+				large = "gfx/leaders/WAS/Bao_Youxiang_General.dds"
+			}
+			army = {
+				small = "GFX_idea_Bao_Youxiang"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy_ideology #placeholder
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+		field_marshal = {
+			traits = { career_officer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=0
+		}
+
+	}
+
+	WAS_Maha_Sang = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/WAS/Maha_Sang.dds"
+			}
+		}
+		country_leader = {
+			ideology = central_dictatorship
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	WAS_U_Khun_Htun_Lu = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/WAS/Khun_Htun_Lu.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	WAS_Zhao_Zhongdang = {
+		portraits={
+			army = {
+				large = "gfx/leaders/WAS/Zhao_Zhongdang.dds"
+			}
+			army = {
+				small = "GFX_idea_Zhao_Zhongdang"
+			}
+			
+		}
+		corps_commander = {
+			traits = { career_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+	WAS_Xuexian_Ai = {
+		portraits={
+			army = {
+				large = "gfx/leaders/WAS/Xuexian_Ai.dds"
+			}
+			army = {
+				small = "GFX_idea_Xuexian_Ai"
+			}
+			
+		}
+		corps_commander = {
+			traits = { engineer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+	WAS_Li_Zhao_Guo = {
+		portraits={
+			army = {
+				large = "gfx/leaders/WAS/Li_Zhao_Guo.dds"
+			}
+			army = {
+				small = "GFX_idea_Li_Zhao_Guo"
+			}
+			
+		}
+		corps_commander = {
+			traits = { jungle_rat }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+
+}

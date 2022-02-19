@@ -1,0 +1,19 @@
+characters = {
+
+	NSN_Michael_Kühnen = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/NSN/Michael_Kuhnen.dds"
+			}
+		}
+		country_leader = {
+			ideology = neo_nazism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

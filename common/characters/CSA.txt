@@ -1,0 +1,19 @@
+characters = {
+
+	CSA_placeholder = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/CSA/placeholder.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

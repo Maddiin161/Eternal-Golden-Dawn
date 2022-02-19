@@ -1,0 +1,19 @@
+characters = {
+
+	LUX_Pierre_Werner = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/LUX/Pierre_Werner.dds"
+			}
+		}
+		country_leader = {
+			ideology = christian_democracy
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

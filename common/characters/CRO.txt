@@ -1,0 +1,19 @@
+characters = {
+
+	CRO_Franjo_Tudjman = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/CRO/Franjo_Tudjman.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservatism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

@@ -1,0 +1,19 @@
+characters = {
+
+	RCG_Denis_Sassou_Nguesso = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/RCG/Denis_Sassou_Nguesso.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

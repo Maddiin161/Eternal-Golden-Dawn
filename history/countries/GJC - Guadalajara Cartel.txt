@@ -1,0 +1,34 @@
+﻿capital = 277
+
+set_politics = {
+	ruling_party = corporate_oligarchy
+	last_election = "1962.3.2"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 40
+	corporate_oligarchy = 60
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
+}
+
+create_country_leader = {
+	name = "Miguel Ángel Félix Gallardo"
+	desc = ""
+	picture = "Miguel_Angel_Felix_Gallardo.dds"
+	expire = "1981.1.1"
+	ideology = drug_cartel
+	traits = {}
+}

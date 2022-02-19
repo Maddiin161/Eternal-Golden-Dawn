@@ -1,0 +1,19 @@
+characters = {
+
+	CAB_Henrique_N'zita_Tiago = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/CAB/Henrique_Tiago.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_ideology
+			traits = { }
+			expire = 2000.1.1
+			id=-1
+		}
+
+	}
+
+
+}

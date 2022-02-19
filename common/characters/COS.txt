@@ -1,0 +1,19 @@
+characters = {
+
+	COS_Rodrigo_Carazo_Odio = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/COS/Rodrigo_Carazo_Odio.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

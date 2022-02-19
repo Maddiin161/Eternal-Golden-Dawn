@@ -1,0 +1,19 @@
+characters = {
+
+	NGK_Georgi_Petrosian = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/NGK/Georgi_Petrosian.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_wing_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

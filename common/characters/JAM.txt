@@ -1,0 +1,34 @@
+characters = {
+
+	JAM_Michael_Manley = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/JAM/Michael_Manley.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	JAM_Emmanuel_Charles_I = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/JAM/Emmanuel_Charles.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_transhumanism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

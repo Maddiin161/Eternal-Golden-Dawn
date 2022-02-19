@@ -1,0 +1,36 @@
+﻿capital = 923
+
+set_politics = {
+	ruling_party = social_conservatism
+	last_election = "1992.4.7"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 10
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 70
+	market_liberalism = 0
+	social_liberalism = 20
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
+}
+
+create_country_leader = {
+	name = "Radovan Karadžić" 
+	desc = ""
+	picture = "Radovan_Karadzic.dds"
+	expire = "2003.3.1"
+	ideology = national_conservatism
+	traits = {
+		
+	}
+}

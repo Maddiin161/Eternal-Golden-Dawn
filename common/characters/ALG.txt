@@ -1,0 +1,19 @@
+characters = {
+
+	ALG_Chadli_Bendjedid = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ALG/Chadli_Bendjedid.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_wing_nationalism
+			traits = { }
+			expire = 1991.3.1
+			id=-1
+		}
+
+	}
+
+
+}

@@ -1,0 +1,19 @@
+characters = {
+
+	NPA_Jose_Maria_Sison = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/NPA/Jose_Maria_Sison.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism_maoism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

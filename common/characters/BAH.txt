@@ -1,0 +1,19 @@
+characters = {
+
+	BAH_Lyndon_Pindling = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BAH/Lyndon_Pindling.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism_ideology
+			traits = { }
+			expire = 1987.7.19
+			id=-1
+		}
+
+	}
+
+
+}

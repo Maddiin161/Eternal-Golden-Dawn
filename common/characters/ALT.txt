@@ -1,0 +1,19 @@
+characters = {
+
+	ALT_Valery_Chaptynov = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ALT/Valery_Chaptynov.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 1992.3.1
+			id=-1
+		}
+
+	}
+
+
+}

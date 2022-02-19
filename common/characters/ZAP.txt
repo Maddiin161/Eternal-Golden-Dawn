@@ -1,0 +1,19 @@
+characters = {
+
+	ZAP_Subcomandante_Marcos = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ZAP/Subcomandante_Marcos.dds"
+			}
+		}
+		country_leader = {
+			ideology = neozapatismo
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

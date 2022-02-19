@@ -1,0 +1,19 @@
+characters = {
+
+	NGA_Shehu_Shagari = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/NGA/Shehu_Shagari.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_liberalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

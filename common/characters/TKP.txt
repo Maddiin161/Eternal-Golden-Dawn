@@ -1,0 +1,19 @@
+characters = {
+
+	TKP_İbrahim_Kaypakkaya = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/TKP/Ibrahim_Kaypakkaya.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism_maoism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

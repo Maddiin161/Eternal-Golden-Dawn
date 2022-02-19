@@ -1,0 +1,33 @@
+characters = {
+
+	CMR_Ahmadou_Ahidjo = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/CMR/Ahmadou_Ahidjo.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservatism_ideology
+			traits = { }
+			expire = 1992.3.1
+			id=-1
+		}
+
+	}
+
+	CMR_Paul_Biya = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/CMR/Paul_Biya.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy_ideology
+			traits = { }
+			expire = 1992.3.1
+			id=-1
+		}
+
+	}
+
+}

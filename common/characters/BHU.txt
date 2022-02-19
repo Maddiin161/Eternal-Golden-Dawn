@@ -1,0 +1,19 @@
+characters = {
+
+	BHU_Jigme_Singye_Wangchuck = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BHU/Jigme_Singye_Wangchuck.dds"
+			}
+		}
+		country_leader = {
+			ideology = monarchism
+			traits = { }
+			expire = 2001.1.1
+			id=-1
+		}
+
+	}
+
+
+}

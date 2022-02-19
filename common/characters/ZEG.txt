@@ -1,0 +1,19 @@
+characters = {
+
+	ZEG_Mate_Boban = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ZEG/Mate_Boban.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

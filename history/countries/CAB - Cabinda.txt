@@ -32,4 +32,4 @@ create_country_leader = {
 	ideology = ultranationalism_ideology
 	traits = {
 		}
-}c
+}

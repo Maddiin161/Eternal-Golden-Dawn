@@ -1,0 +1,19 @@
+characters = {
+
+	MLI_Modibo_Keïta = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/MLI/Modibo_Keita.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_wing_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

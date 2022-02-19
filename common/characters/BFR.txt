@@ -1,0 +1,19 @@
+characters = {
+
+	BFR_Odumegwu_Ojukwu = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BFR/Odumegwu_Ojukwu.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = { }
+			expire = 1989.1.1
+			id=-1
+		}
+
+	}
+
+
+}

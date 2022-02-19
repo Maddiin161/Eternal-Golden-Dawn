@@ -1,0 +1,19 @@
+characters = {
+
+	PHI_Ferdinand_Marcos = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/PHI/Ferdinand_Marcos.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

@@ -1,0 +1,34 @@
+characters = {
+
+	NLT_Nayanbasi_Jamatiya = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/NLT/Nayanbasi_Jamatiya.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethnic_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	NLT_Bijoy_Kumar_Hrangkhawl = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/NLT/Bijoy_Kumar_Hrangkhawl.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservatism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

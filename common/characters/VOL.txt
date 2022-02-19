@@ -1,0 +1,34 @@
+characters = {
+
+	VOL_Saye_Zerbo = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/VOL/Saye_Zerbo.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_dictatorship
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	VOL_Thomas_Sankara = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/VOL/Thomas_Sankara.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

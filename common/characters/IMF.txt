@@ -1,0 +1,19 @@
+characters = {
+
+	IMF_Tony_Soprano = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ITA/sopprano.dds"
+			}
+		}
+		country_leader = {
+			ideology = drug_cartel
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

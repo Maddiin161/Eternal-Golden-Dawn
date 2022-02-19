@@ -1,0 +1,19 @@
+characters = {
+
+	MRT_Moktar_Ould_Daddah = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/MRT/Moktar_Ould_Daddah.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_wing_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

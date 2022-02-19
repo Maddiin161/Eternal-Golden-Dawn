@@ -1,0 +1,19 @@
+characters = {
+
+	MNN_Naing_Ngwe_Thein = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/MNN/Naing_Ngwe_Thein.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservatism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

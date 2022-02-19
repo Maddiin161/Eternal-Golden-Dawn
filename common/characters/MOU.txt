@@ -1,0 +1,34 @@
+characters = {
+
+	MOU_Valery_Kokov = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/MOU/Valery_Kokov.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	MOU_Mountainous_People's_Soviet = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/MOU/MRNC_Peoples_Soviet.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

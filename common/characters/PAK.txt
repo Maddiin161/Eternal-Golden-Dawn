@@ -1,0 +1,19 @@
+characters = {
+
+	PAK_Muhammad_Zia-ul-Haq = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/PAK/Muhammad_Zia_ul_Hak.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

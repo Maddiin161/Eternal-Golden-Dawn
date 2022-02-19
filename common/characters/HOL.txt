@@ -1,0 +1,19 @@
+characters = {
+
+	HOL_Dries_van_Agt = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/HOL/Dries_van_Agt.dds"
+			}
+		}
+		country_leader = {
+			ideology = christian_democracy
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

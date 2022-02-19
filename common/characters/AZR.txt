@@ -1,0 +1,19 @@
+characters = {
+
+	AZR_Ayaz_Mutallibov = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/AZR/Ayez_Mutallibov.dds"
+			}
+		}
+		country_leader = {
+			ideology = eco_socialism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

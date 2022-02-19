@@ -1,0 +1,19 @@
+characters = {
+
+	CTL_Heribert_Barrera = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/CTL/Heribert_Barrera.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_wing_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

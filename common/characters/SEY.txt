@@ -1,0 +1,64 @@
+characters = {
+
+	SEY_France-Albert_René = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SEY/France_Rene.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	SEY_Ogilvy_Berlouis = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SEY/Ogilvy_Berlouis.dds"
+			}
+			army = {
+				large = "gfx/leaders/SEY/Ogilvy_Berlouis_General.dds"
+			}
+			army = {
+				small = "GFX_idea_Ogilvy_Berlouis"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+		corps_commander = {
+			traits = { jungle_rat }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+	SEY_Mad_Mike_Hoare = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SEY/Mad_Mike.dds"
+			}
+		}
+		country_leader = {
+			ideology = mercenary_junta
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

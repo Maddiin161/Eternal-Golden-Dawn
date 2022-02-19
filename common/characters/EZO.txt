@@ -1,0 +1,34 @@
+characters = {
+
+	EZO_Shoji_Yuki = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/EZO/Shoji_Yuki.dds"
+			}
+		}
+		country_leader = {
+			ideology = emergency_government
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	EZO_Ryu_Ohta = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/EZO/Ryu_Ohta.dds"
+			}
+		}
+		country_leader = {
+			ideology = techno_tribalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

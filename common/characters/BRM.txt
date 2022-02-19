@@ -1,0 +1,78 @@
+characters = {
+
+	BRM_Ne_Win = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BRM/Ne_Win.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_ideology
+			traits = { }
+			expire = 1988.1.1
+			id=-1
+		}
+
+	}
+
+	BRM_Aung_San_Suu_Kyi = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BRM/Aung_San_Suu_Kyi.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism_ideology
+			traits = { }
+			expire = 2000.1.1
+			id=-1
+		}
+
+	}
+
+	BRM_Tin_Oo = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BRM/Tin_Oo.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservatism_ideology
+			traits = { }
+			expire = 2000.1.1
+			id=-1
+		}
+
+	}
+
+	BRM_Aung_Shwe = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BRM/Aung_Shwe.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			traits = { }
+			expire = 2000.1.1
+			id=-1
+		}
+
+	}
+
+	BRM_Saw_Maung = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BRM/Saw_Maung.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = { }
+			expire = 2000.1.1
+			id=-1
+		}
+
+	}
+
+}

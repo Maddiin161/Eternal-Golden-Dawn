@@ -1,0 +1,35 @@
+characters = {
+
+	DAG_Magomedali_Magomedov = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/DAG/Magomedali_Magomedov.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	DAG_Ibn_al-Khattab = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/DAG/Ibn_alKhattab.dds"
+			}
+		}
+		country_leader = {
+			ideology = salafi_jihadism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+
+}

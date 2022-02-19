@@ -1,0 +1,19 @@
+characters = {
+
+	IDL_Rafis_Kashapov = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/IDL/Kafis_Rashapov.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

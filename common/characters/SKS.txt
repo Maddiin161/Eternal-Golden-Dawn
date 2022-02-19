@@ -1,0 +1,19 @@
+characters = {
+
+	SKS_South_Kasai_National_Liberation_Council = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SKS/South_Kasai_NLC.dds"
+			}
+		}
+		country_leader = {
+			ideology = ethnic_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

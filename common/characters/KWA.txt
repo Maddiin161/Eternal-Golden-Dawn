@@ -1,0 +1,19 @@
+characters = {
+
+	KWA_Chris_Hani = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/KWA/Chris_Hani_Commander.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

@@ -1,0 +1,19 @@
+characters = {
+
+	STR_South_Turkmenistan_Mejilis = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/STR/South_Turkmenistan_Mejilis.dds"
+			}
+		}
+		country_leader = {
+			ideology = islamic_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

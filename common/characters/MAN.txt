@@ -1,0 +1,19 @@
+characters = {
+
+	MAN_Manchukuo_Temporary_Government = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/MAN/Manchukuo_Temporary_Government.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

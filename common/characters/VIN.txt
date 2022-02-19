@@ -1,0 +1,19 @@
+characters = {
+
+	VIN_Le_Duan = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/VIN/Le_Duan.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

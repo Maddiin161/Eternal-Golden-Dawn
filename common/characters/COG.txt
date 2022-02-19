@@ -1,0 +1,19 @@
+characters = {
+
+	COG_Patrice_Lumumba = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/COG/Patrice_Lumumba.dds"
+			}
+		}
+		country_leader = {
+			ideology = lumumbism
+			traits = { }
+			expire = 1992.3.1
+			id=-1
+		}
+
+	}
+
+
+}

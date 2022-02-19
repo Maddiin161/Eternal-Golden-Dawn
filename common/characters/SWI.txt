@@ -1,0 +1,85 @@
+characters = {
+
+	SWI_Federal_Council = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SWI/Federal_Council.dds"
+			}
+		}
+		country_leader = {
+			ideology = corporate_oligarchy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+SWI_Jörg_Zumstein = {
+		portraits={
+			army = {
+				large = "gfx/leaders/SWI/Jorg_Zumstein.dds"
+			}
+			army = {
+				small = "GFX_idea_Jorg_Zumstein"
+			}
+			
+		}
+		corps_commander = {
+			traits = { winter_specialist }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+SWI_Eugen_Lüthy = {
+		portraits={
+			army = {
+				large = "gfx/leaders/SWI/Eugen_Luthy.dds"
+			}
+			army = {
+				small = "GFX_idea_Eugen_Luthy"
+			}
+			
+		}
+		corrps_commander = {
+			traits = { mountaineer }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+SWI_Heinz_Häsler = {
+		portraits={
+			army = {
+				large = "gfx/leaders/SWI/Heinz_Hasler.dds"
+			}
+			army = {
+				small = "GFX_idea_Heinz_Hasler"
+			}
+			
+		}
+		field_marshal = {
+			traits = { thorough_planner career_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+
+}

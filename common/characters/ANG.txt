@@ -1,0 +1,84 @@
+characters = {
+
+	ANG_José_Eduardo_dos_Santos = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ANG/Jose_Eduardo_dos_Santos.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 1982.1.1
+			id=-1
+		}
+
+	}
+
+	ANG_Iko_Carreira = {
+		portraits={
+			army = {
+				large = "gfx/leaders/ANG/MPLA_Iko_Carreira.dds"
+			}
+			army = {
+				small = "GFX_idea_Iko_Correira"
+			}
+			
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=0
+		}
+
+	}
+
+	ANG_Lucio_Lara = {
+		portraits={
+			army = {
+				large = "gfx/leaders/ANG/MPLA_Lucio_Lara.dds"
+			}
+			army = {
+				small = "GFX_idea_Lucio_Lara"
+			}
+			
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=0
+		}
+
+	}
+
+	ANG_Tonha_Pedale = {
+		portraits={
+			army = {
+				large = "gfx/leaders/ANG/MPLA_Pedro_Maria_Tonha_Pedale.dds"
+			}
+			army = {
+				small = "GFX_idea_Pedro_Maria_Tonha_Pedale"
+			}
+			
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=0
+		}
+
+	}
+
+}

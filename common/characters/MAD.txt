@@ -1,0 +1,19 @@
+characters = {
+
+	MAD_Didier_Ratsiraka = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/MAD/Didier_Ratsiraka.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_wing_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

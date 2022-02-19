@@ -1,0 +1,19 @@
+characters = {
+
+	BAN_Ziaur_Rahman = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BAN/Ziaur_Rahman.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservatism_ideology
+			traits = { }
+			expire = 1981.1.1
+			id=-1
+		}
+
+	}
+
+
+}

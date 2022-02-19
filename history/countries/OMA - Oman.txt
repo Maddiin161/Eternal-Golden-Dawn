@@ -1,0 +1,49 @@
+﻿capital = 294
+
+set_cosmetic_tag = OMA_SUL
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1970.7.23"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 30
+	islamism = 25
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 20
+	revolutionary_socialism = 25
+}
+
+create_country_leader = {
+	name = "Said bin Taimur" 
+	desc = ""
+	picture = "Said_bin_Taimur.dds"
+	expire = "2003.3.1"
+	ideology = monarchism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Qaboos bin Said" 
+	desc = ""
+	picture = "Qaboos_bin_Said.dds"
+	expire = "2003.3.1"
+	ideology = 
+	traits = {
+		
+	}
+}

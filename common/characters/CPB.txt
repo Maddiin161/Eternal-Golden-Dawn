@@ -1,0 +1,63 @@
+characters = {
+
+	CPB_Ba_Thein_Tin = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/CPB/Ba_Thein_Tin.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 1987.1.1
+			id=-1
+		}
+
+	}
+
+	CPB_Yebaw_Tin_Yee = {
+		portraits={
+			army = {
+				large = "gfx/leaders/CPB/Yebow_Tin_Yee.dds"
+			}
+			army = {
+				small = "GFX_idea_Yebow_Tin_Yee"
+			}
+			
+		}
+		corps_commander = {
+			traits = { engineer }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+	CPB_Yebaw_Khin_Maung_Gyi = {
+		portraits={
+			army = {
+				large = "gfx/leaders/ANG/Yebaw_Khin_Maung_Gyi.dds"
+			}
+			army = {
+				small = "GFX_idea_Yebaw_Khin_Maung_Gyi"
+			}
+			
+		}
+		corps_commander = {
+			traits = { jungle_rat }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+
+}

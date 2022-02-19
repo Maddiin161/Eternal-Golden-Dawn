@@ -1,0 +1,19 @@
+characters = {
+
+	QAT_Khalifa_bin_Hamad_Al_Thani = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/QAT/Khalifa_Hamad_Thani.dds"
+			}
+		}
+		country_leader = {
+			ideology = monarchism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

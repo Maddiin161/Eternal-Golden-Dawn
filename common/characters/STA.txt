@@ -1,0 +1,19 @@
+characters = {
+
+	STA_International_Liberation_Tigers = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/STA/ILT.dds"
+			}
+		}
+		country_leader = {
+			ideology = neo_guevarism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

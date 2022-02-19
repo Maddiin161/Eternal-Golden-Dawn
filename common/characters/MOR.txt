@@ -1,0 +1,40 @@
+characters = {
+
+	MOR_Hassan_II = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/MOR/Hassan_II.dds"
+			}
+		}
+		country_leader = {
+			ideology = monarchism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	MOR_Mohamed_Medbouh = {
+		portraits={
+			army = {
+				large = "gfx/leaders/MOR/Mohamed_Medbouh.dds"
+			}
+			army = {
+				small = "GFX_idea_Mohamed_Medbouh"
+			}
+			
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=0
+		}
+
+	}
+
+}

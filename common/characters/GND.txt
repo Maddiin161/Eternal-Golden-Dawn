@@ -1,0 +1,19 @@
+characters = {
+
+	GND_Maurice_Bishop = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/GND/Maurice_Bishop.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

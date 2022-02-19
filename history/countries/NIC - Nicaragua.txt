@@ -1,0 +1,47 @@
+﻿capital = 317
+
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "1978.5.2"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 5
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 50
+	corporate_oligarchy = 0
+	social_conservatism = 20
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 25
+}
+
+create_country_leader = {
+	name = "Junta of National Reconstruction" 
+	desc = ""
+	picture = "Junta_of_National_Reconstruction.dds"
+	expire = "2003.3.1"
+	ideology = emergency_government
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Daniel Ortega" 
+	desc = ""
+	picture = "Daniel_Ortega.dds"
+	expire = "2003.3.1"
+	ideology = marxism_leninism
+	traits = {
+		
+	}
+}

@@ -1,0 +1,19 @@
+characters = {
+
+	MTG_Heaven's_Dagger = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/MTG/Heavens_Dagger.dds"
+			}
+		}
+		country_leader = {
+			ideology = religious_transhumanism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

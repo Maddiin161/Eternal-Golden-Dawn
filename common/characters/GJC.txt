@@ -1,0 +1,19 @@
+characters = {
+
+	GJC_Miguel_Ángel_Félix_Gallardo = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/GJC/Miguel_Angel_Felix_Gallardo.dds"
+			}
+		}
+		country_leader = {
+			ideology = drug_cartel
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

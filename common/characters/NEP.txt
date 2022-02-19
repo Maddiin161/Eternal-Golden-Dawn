@@ -1,0 +1,34 @@
+characters = {
+
+	NEP_Birendra_Bir_Bikram_Shah = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/NEP/Birendra_Bir_Bikram_Shah.dds"
+			}
+		}
+		country_leader = {
+			ideology = monarchism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	NEP_Pushpa_Kamal_Dahal = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/NEP/Prachanda.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism_maoism_prachanda
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

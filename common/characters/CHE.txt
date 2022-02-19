@@ -1,0 +1,19 @@
+characters = {
+
+	CHE_Dzhokhar_Dudayev = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/CHE/Dzokhar_Dudayev.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

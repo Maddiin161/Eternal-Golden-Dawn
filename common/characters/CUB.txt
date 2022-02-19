@@ -1,0 +1,33 @@
+characters = {
+
+	CUB_Fidel_Castro = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/CUB/Fidel_Castro.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2000.1.1
+			id=-1
+		}
+
+	}
+
+	CUB_Camilo_Cienfuegos = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/CUB/Camilo_Cienfuegos.dds"
+			}
+		}
+		country_leader = {
+			ideology = neo_guevarism_pwt
+			traits = { }
+			expire = 2000.1.1
+			id=-1
+		}
+
+	}
+
+}

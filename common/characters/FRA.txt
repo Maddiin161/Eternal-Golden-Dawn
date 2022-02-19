@@ -1,0 +1,49 @@
+characters = {
+
+	FRA_Valéry_Giscard_d'Estaing = {
+		portraits={
+			civilian = {
+				large = gfx/leaders/FRA/Valery_Giscard_dEstaing.dds
+			}
+		}
+		country_leader = {
+			ideology = liberal_conservatism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	FRA_Gilles_Delleuze = {
+		portraits={
+			civilian = {
+				large = gfx/leaders/FRA/Gilles_Deleuze.dds
+			}
+		}
+		country_leader = {
+			ideology = socialist_transhumanism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	FRA_François_Mitterrand = {
+		portraits={
+			civilian = {
+				large = gfx/leaders/FRA/Francois_Mitterrand.dds
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

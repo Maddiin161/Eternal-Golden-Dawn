@@ -1,0 +1,19 @@
+characters = {
+
+	VEN_Luis_Herrera_Campins = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/VEN/Luis_Herrera_Campins.dds"
+			}
+		}
+		country_leader = {
+			ideology = christian_democracy
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

@@ -1,0 +1,19 @@
+characters = {
+
+	NJG_Tsugio_Yata = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/NJG/Tsugio_Yata.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_dictatorship
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

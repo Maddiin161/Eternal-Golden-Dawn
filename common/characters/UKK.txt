@@ -1,0 +1,19 @@
+characters = {
+
+	UKK_Margaret_Thatcher = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/UKK/Margaret_Thatcher.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservatism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

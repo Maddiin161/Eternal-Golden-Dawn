@@ -1,0 +1,34 @@
+characters = {
+
+	MZB_Samora_Machel = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/MZB/Samora_Machel.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	MZB_No_Authority = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/MZB/Total_Collapse_MZB.dds"
+			}
+		}
+		country_leader = {
+			ideology = collapse
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

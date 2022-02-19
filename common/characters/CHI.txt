@@ -1,0 +1,19 @@
+characters = {
+
+	CHI_Chiang_Ching-Kuo = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/CHI/Chiang_Ching_Kuo.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservatism_ideology
+			traits = { }
+			expire = 2000.1.1
+			id=-1
+		}
+
+	}
+
+
+}

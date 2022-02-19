@@ -1,0 +1,19 @@
+characters = {
+
+	POL_Henryk_Jablonski = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/POL/Henryk_Jablonski.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

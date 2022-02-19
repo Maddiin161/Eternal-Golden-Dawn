@@ -1,0 +1,107 @@
+characters = {
+
+	NAX_Ganapathy = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/NAX/Ganapathy.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism_maoism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	NAX_Kondapalli_Seetharamaiah = {
+		portraits={
+			army = {
+				large = "gfx/leaders/NAX/Kondapalli_Seetharamaiah.dds"
+			}
+			army = {
+				small = "GFX_idea_Kondapalli_Seetharamaiah"
+			}
+			
+		}
+		field_marshal = {
+			traits = { thorough_planner }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+	NAX_Anand = {
+		portraits={
+			army = {
+				large = "gfx/leaders/NAX/Anand.dds"
+			}
+			army = {
+				small = "GFX_idea_Anand"
+			}
+			
+		}
+		corps_commander = {
+			traits = { commando }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+	NAX_Narmada = {
+		portraits={
+			army = {
+				large = "gfx/leaders/NAX/Narmada.dds"
+			}
+			army = {
+				small = "GFX_idea_Narmada"
+			}
+			
+		}
+		corps_commander = {
+			traits = { hill_fighter }
+			skill = 1
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+	NAX_Sheri = {
+		portraits={
+			army = {
+				large = "gfx/leaders/NAX/Sheri.dds"
+			}
+			army = {
+				small = "GFX_idea_Sheri"
+			}
+			
+		}
+		corps_commander = {
+			traits = { jungle_rat }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=0
+		}
+
+	}
+
+
+}

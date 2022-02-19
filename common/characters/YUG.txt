@@ -1,0 +1,19 @@
+characters = {
+
+	YUG_Josip_Broz_Tito = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/YUG/Josip_Broz_Tito.dds"
+			}
+		}
+		country_leader = {
+			ideology = titoism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

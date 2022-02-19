@@ -1,0 +1,19 @@
+characters = {
+
+	LBA_Muammar_Gaddafi = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/LBA/Muammar_Gaddafi.dds"
+			}
+		}
+		country_leader = {
+			ideology = islamic_socialism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

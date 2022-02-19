@@ -1,0 +1,19 @@
+characters = {
+
+	MHP_Alparslan_Türkeş = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/MHP/Alparslan_Turkes.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

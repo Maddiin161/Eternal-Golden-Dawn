@@ -1,0 +1,19 @@
+characters = {
+
+	EST_Vazgen_Manukyan = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/EST/Vazgen_Manukyan.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

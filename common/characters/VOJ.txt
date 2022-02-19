@@ -1,0 +1,19 @@
+characters = {
+
+	VOJ_Assembly_of_Vojvodina = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/VOJ/Assembly_of_Vojvodina.dds"
+			}
+		}
+		country_leader = {
+			ideology = emergency_government
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}
