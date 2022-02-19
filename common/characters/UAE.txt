@@ -1,13 +1,13 @@
 characters = {
 
-	VEN_Luis_Herrera_Campins = {
+	UAE_Zayed_bin_Sultan_Al_Nahyan = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/VEN/Luis_Herrera_Campins.dds"
+				large = "gfx/leaders/UAE/Zayan_Sultan_Nahyan.dds"
 			}
 		}
 		country_leader = {
-			ideology = christian_democracy
+			ideology = corporate_oligarchy
 			traits = { }
 			expire = 2003.3.1
 			id=-1

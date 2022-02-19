@@ -1,13 +1,13 @@
 characters = {
 
-	VEN_Luis_Herrera_Campins = {
+	YUC_Juan_Arévalo_Gardoqui = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/VEN/Luis_Herrera_Campins.dds"
+				large = "gfx/leaders/YUC/Juan_Arévalo_Gardoqui.dds"
 			}
 		}
 		country_leader = {
-			ideology = christian_democracy
+			ideology = military_dictatorship
 			traits = { }
 			expire = 2003.3.1
 			id=-1

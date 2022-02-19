@@ -1,13 +1,13 @@
 characters = {
 
-	VEN_Luis_Herrera_Campins = {
+	SRP_Radovan_Karadžić = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/VEN/Luis_Herrera_Campins.dds"
+				large = "gfx/leaders/SPR/Radovan_Karadzic.dds"
 			}
 		}
 		country_leader = {
-			ideology = christian_democracy
+			ideology = national_conservatism
 			traits = { }
 			expire = 2003.3.1
 			id=-1

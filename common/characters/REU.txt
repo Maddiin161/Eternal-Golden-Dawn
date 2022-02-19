@@ -1,13 +1,13 @@
 characters = {
 
-	VEN_Luis_Herrera_Campins = {
+	REU_Paul_Vergès = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/VEN/Luis_Herrera_Campins.dds"
+				large = "gfx/leaders/REU/Paul_Verges.dds"
 			}
 		}
 		country_leader = {
-			ideology = christian_democracy
+			ideology = post_marxism
 			traits = { }
 			expire = 2003.3.1
 			id=-1

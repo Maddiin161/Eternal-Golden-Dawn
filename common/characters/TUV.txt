@@ -1,13 +1,13 @@
 characters = {
 
-	VEN_Luis_Herrera_Campins = {
+	TUV_Tomasi_Puapua = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/VEN/Luis_Herrera_Campins.dds"
+				large = "gfx/leaders/TUV/Tomasi_Puapua.dds"
 			}
 		}
 		country_leader = {
-			ideology = christian_democracy
+			ideology = populism
 			traits = { }
 			expire = 2003.3.1
 			id=-1

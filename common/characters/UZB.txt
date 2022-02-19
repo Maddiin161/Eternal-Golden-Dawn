@@ -1,13 +1,13 @@
 characters = {
 
-	VEN_Luis_Herrera_Campins = {
+	UZB_Islam_Karimov = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/VEN/Luis_Herrera_Campins.dds"
+				large = "gfx/leaders/UZB/Islam_Karimov.dds"
 			}
 		}
 		country_leader = {
-			ideology = christian_democracy
+			ideology = authoritarian_democracy_ideology
 			traits = { }
 			expire = 2003.3.1
 			id=-1
