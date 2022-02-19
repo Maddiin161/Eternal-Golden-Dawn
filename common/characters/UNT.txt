@@ -1,0 +1,100 @@
+characters = {
+
+	UNT_Jonas_Savimbi = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/UNT/Jonas_Savimbi.dds"
+			}
+			army = {
+				large = "gfx/leaders/UNT/Jonas_Savimbi.dds"
+			}
+			army = {
+				small = "GFX_idea_Jonas_Savimbi"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=0
+		}
+
+	}
+
+	UNT_Demostenes_Chilungutila = {
+		portraits={
+			army = {
+				large = "gfx/leaders/UNT/UNITA_Demostenes_Chilungutila.dds"
+			}
+			army = {
+				small = "GFX_idea_Demostenes_Chilungutila"
+			}
+			
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=0
+		}
+
+	}
+
+	UNT_Antonio_Dembo = {
+		portraits={
+			army = {
+				large = "gfx/leaders/UNT/UNITA_Antonio_Dembo.dds"
+			}
+			army = {
+				small = "GFX_idea_Antonio_Dembo"
+			}
+			
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=0
+		}
+
+	}
+
+UNT_Arlindo_Pena_Ben_Ben = {
+		portraits={
+			army = {
+				large = "gfx/leaders/UNT/UNITA_Arlindo_Pena_Ben_Ben.dds"
+			}
+			army = {
+				small = "GFX_idea_Arlindo_Pena"
+			}
+			
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=0
+		}
+
+	}
+
+
+}

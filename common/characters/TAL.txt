@@ -1,0 +1,19 @@
+characters = {
+
+	TAL_Mohammed_Omar = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/TAL/Mohammed_Omar.dds"
+			}
+		}
+		country_leader = {
+			ideology = islamic_fundamentalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

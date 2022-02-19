@@ -1,0 +1,19 @@
+characters = {
+
+	UNS_United_Nations_Peacekeeping_Authority = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/UNS/United_Nations_Peacekeeping_Authority.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

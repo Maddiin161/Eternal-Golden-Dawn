@@ -1,0 +1,19 @@
+characters = {
+
+	USA_Jimmy_Carter = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/USA/Jimmy_Carter.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

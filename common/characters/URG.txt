@@ -1,0 +1,19 @@
+characters = {
+
+	URG_Placeholder = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/URG/Placeholder.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_dictatorship
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

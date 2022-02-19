@@ -1,0 +1,19 @@
+characters = {
+
+	TRI_Ellis_Clarke = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/TRI/Ellis_Clarke.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

@@ -1,0 +1,19 @@
+characters = {
+
+	UGA_Milton_Obote = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/UGA/Milton_Obote.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

@@ -1,0 +1,49 @@
+characters = {
+
+	ZIM_Robert_Mugabe = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ZIM/Robert_Mugabe.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_wing_nationalism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	ZIM_Joshua_Nkomo = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ZIM/Joshua_Nkomo.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	ZIM_Canaan_Nanana = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ZIM/Canaan_Banana.dds"
+			}
+		}
+		country_leader = {
+			ideology = emergency_government #lumumbism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

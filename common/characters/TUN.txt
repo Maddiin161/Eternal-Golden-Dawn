@@ -1,0 +1,49 @@
+characters = {
+
+	TUN_Habib_Bourguiba = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/TUN/Habib_Bourguiba.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	TUN_Zine_El_Abidine_Ben_Ali = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/TUN/Zine_Ben_Ali.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	TUN_Mohamed_Harmel = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/TUN/Mohamed_Harmel.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

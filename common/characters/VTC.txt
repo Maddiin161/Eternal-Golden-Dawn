@@ -1,0 +1,19 @@
+characters = {
+
+	VTC_Pope_John_Paul_II = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/VTC/Pope_John_Paul_II.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocracy
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}
