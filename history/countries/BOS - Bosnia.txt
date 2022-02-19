@@ -1,0 +1,36 @@
+﻿capital = 104
+
+set_politics = {
+	ruling_party = social_conservatism
+	last_election = "1992.3.3"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 20
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 40
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 30
+	libertarian_socialism = 0
+	revolutionary_socialism = 10
+}
+
+create_country_leader = {
+	name = "Alija Izetbegović" 
+	desc = ""
+	picture = "Alija_Izetbegovic.dds"
+	expire = "2003.3.1"
+	ideology = social_conservatism_ideology
+	traits = {
+		
+	}
+}

@@ -1,0 +1,34 @@
+﻿capital = 277
+
+set_politics = {
+	ruling_party = autocracy
+	last_election = "1962.3.2"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 10
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 20
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 70
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
+}
+
+create_country_leader = {
+	name = "Juan Arévalo Gardoqui"
+	desc = ""
+	picture = "Juan_Arévalo_Gardoqui.dds"
+	expire = "1981.1.1"
+	ideology = military_dictatorship
+	traits = {}
+}

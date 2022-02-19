@@ -1,0 +1,69 @@
+﻿capital = 830
+
+set_politics = {
+	ruling_party = libertarian_socialism
+	last_election = "1979.5.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 5
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 20
+	libertarian_socialism = 50
+	revolutionary_socialism = 25
+}
+
+create_country_leader = {
+	name = "All-Campus Joint Struggle Committees" 
+	desc = ""
+	picture = "Zenkyoto.dds"
+	expire = "2003.3.1"
+	ideology = independent_marxism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Takaaki Yoshimoto" 
+	desc = ""
+	picture = "Takaaki_Yoshimoto.dds"
+	expire = "2003.3.1"
+	ideology = social_democracy_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Fusako Shigenobu" 
+	desc = ""
+	picture = "Fusako_Shigenobu.dds"
+	expire = "2003.3.1"
+	ideology = marxism_leninism_maoism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Masashi Daidōji" 
+	desc = ""
+	picture = "Masashi_Daidoji.dds"
+	expire = "2003.3.1"
+	ideology = destructionism
+	traits = {
+		
+	}
+}

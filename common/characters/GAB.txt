@@ -1,0 +1,19 @@
+characters = {
+
+	GAB_Omar_Bongo = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/GAB/Omar_Bongo.dds"
+			}
+		}
+		country_leader = {
+			ideology = personalist_dictatorship
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

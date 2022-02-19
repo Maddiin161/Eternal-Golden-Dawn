@@ -1,0 +1,19 @@
+characters = {
+
+	HON_Policarpo_Paz_García = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/HON/Policarpo_Paz_García.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_dictatorship
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

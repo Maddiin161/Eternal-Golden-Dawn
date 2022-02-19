@@ -1,0 +1,49 @@
+characters = {
+
+	FLR_Bob_Graham = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/FLR/Bob_Graham.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	FLR_Andrés_Nazario_Sargen = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/FLR/Andres_Nazario_Sargen.dds"
+			}
+		}
+		country_leader = {
+			ideology = destructionism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	FLR_Revolutionary_People's_Committee_of_Florida = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/FLR/PRC_Florida.dds"
+			}
+		}
+		country_leader = {
+			ideology = neo_guevarism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

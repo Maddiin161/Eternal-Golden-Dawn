@@ -1,0 +1,34 @@
+characters = {
+
+	FRC_Jacobo_Arenas = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/FRC/Jacobo_Arenas.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	FRC_Manuel_Pérez = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/FRC/Manuel_Perez.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberation_theology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

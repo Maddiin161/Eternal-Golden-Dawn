@@ -1,0 +1,19 @@
+characters = {
+
+	BOS_Alija_Izetbegović = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BOS/Alija_Itzbegovic.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservatism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

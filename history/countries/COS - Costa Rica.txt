@@ -1,0 +1,36 @@
+﻿capital = 830
+
+set_politics = {
+	ruling_party = social_conservatism
+	last_election = "1978.5.2"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 5
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 40
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 30
+	libertarian_socialism = 5
+	revolutionary_socialism = 20
+}
+
+create_country_leader = {
+	name = "Rodrigo Carazo Odio" 
+	desc = ""
+	picture = "Rodrigo_Carazo_Odio.dds"
+	expire = "2003.3.1"
+	ideology = national_conservatism
+	traits = {
+		
+	}
+}

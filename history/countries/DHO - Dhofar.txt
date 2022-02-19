@@ -1,0 +1,36 @@
+﻿capital = 830
+
+set_politics = {
+	ruling_party = revolutionary_socialism
+	last_election = "1979.5.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 10
+	autocracy = 0
+	authoritarian_democracy = 10
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 30
+	revolutionary_socialism = 50
+}
+
+create_country_leader = {
+	name = "Dhofar Liberation Council" 
+	desc = ""
+	picture = "Dhofar_Liberation_Council.dds"
+	expire = "2003.3.1"
+	ideology = marxism_leninism
+	traits = {
+		
+	}
+}

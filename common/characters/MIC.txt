@@ -1,0 +1,19 @@
+characters = {
+
+	MIC_Tosiwo_Nakayama = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/MIC/Tosiwo_Nakayama.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_liberalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

@@ -1,0 +1,49 @@
+characters = {
+
+	JSM_All-Campus_Joint_Struggle_Committees = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/JSM/Zenkyoto.dds"
+			}
+		}
+		country_leader = {
+			ideology = independent_marxism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	JSM_Takaaki_Yoshimoto = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/JSM/Takaaki_Yoshimoto.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+	JSM_Fusako_Shigenobu = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/JSM/Fusako_Shigenobu.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism_maoism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+
+}

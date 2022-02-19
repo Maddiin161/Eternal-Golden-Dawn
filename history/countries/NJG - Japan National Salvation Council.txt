@@ -1,0 +1,47 @@
+﻿capital = 830
+
+set_politics = {
+	ruling_party = autocracy
+	last_election = "1979.5.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 30
+	despotism = 0
+	islamism = 0
+	autocracy = 70
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
+}
+
+create_country_leader = {
+	name = "Yasuhiro Nakasone" 
+	desc = ""
+	picture = "Yasuhiro_Nakasone.dds"
+	expire = "2003.3.1"
+	ideology = military_dictatorship
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Yukio Mishima" 
+	desc = ""
+	picture = "Yukio_Mishima.dds"
+	expire = "2003.3.1"
+	ideology = ultranationalism_ideology
+	traits = {
+		
+	}
+}
