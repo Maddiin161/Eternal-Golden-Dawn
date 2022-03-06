@@ -101,6 +101,12 @@ technology_folders = {
 	artillery_folder = {
 		ledger = army
 	}
+	light_air_techs_folder = {
+		ledger = air
+	}
+	helicopter_folder = {
+		ledger = air
+	}
 	air_techs_folder = {
 		ledger = air
 	}
@@ -111,6 +117,18 @@ technology_folders = {
 		ledger = navy
 	}
 	mtgnavalfolder = {
+		available = {
+			has_dlc = "Man the Guns"
+		}
+		ledger = navy
+	}
+	mtgnavalmodulefolder = {
+		available = {
+			has_dlc = "Man the Guns"
+		}
+		ledger = navy
+	}
+	mtgnavallargefolder = {
 		available = {
 			has_dlc = "Man the Guns"
 		}
@@ -132,6 +150,15 @@ technology_folders = {
 		doctrine = yes
 	}
 	electronics_folder = {
+		ledger = civilian
+	}
+	wmd_folder = {
+		ledger = civilian
+	}
+	space_folder = {
+		ledger = civilian
+	}
+	rocket_folder = {
 		ledger = civilian
 	}
 	#secret_weapons_folder

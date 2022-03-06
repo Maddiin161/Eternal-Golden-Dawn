@@ -11495,9 +11495,9 @@ guiTypes = {
 				}
 			}
 		}
-##### APOTHEOSIS #####
+			##### APOTHEOSIS #####
 		
-		containerWindowType = {
+			containerWindowType = {
 			name = "folder_tabs"
 			position = { x=-8 y=7 }
 			size = { width = 100%% height = 30 }

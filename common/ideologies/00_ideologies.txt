@@ -286,7 +286,6 @@ ideologies = {
 			can_force_government = yes
 			can_guarantee_other_ideologies = yes
 		}
-		can_host_government_in_exile = no
 		modifiers = {
 			political_power_factor = -0.1
 			trade_opinion_factor = 0.1
@@ -589,3 +588,4 @@ ideologies = {
 		ai_neutral = yes
 		can_be_boosted = no
 	}
+}
