@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = IRS
+		owner = ITA
 		set_state_flag = temperate
 		set_state_flag = river
 		set_state_flag = small

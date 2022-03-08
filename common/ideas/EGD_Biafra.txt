@@ -3,7 +3,7 @@ ideas = {
 		BFR_national_resistance = {
 			picture = BFR_national_resistance
 			modifier = {
-				war_support_factor = 5
+				war_support_factor = 0.1
 			}
 		}
 	}

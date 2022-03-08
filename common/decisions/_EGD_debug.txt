@@ -1,0 +1,56 @@
+####################################leader 1##############################################
+EGD_debug_decisions = {
+    Debug_italy_trolling  = {
+		complete_effect = {
+			IMF = {
+				add_state_core = 115
+				transfer_state = 115
+			}
+			SRD = {
+				add_state_core = 114
+				transfer_state = 114
+			}
+			IBR = {
+				add_state_core = 161
+				transfer_state = 161
+				add_state_core = 162
+				transfer_state = 162
+				add_state_core = 1564
+				transfer_state = 1564
+				add_state_core = 1257
+				transfer_state = 1257
+				add_state_core = 1048
+				transfer_state = 1048
+			}
+			IWR = {
+				add_state_core = 1189
+				transfer_state = 1189
+				add_state_core = 158
+				transfer_state = 158
+				add_state_core = 1136
+				transfer_state = 1136
+				add_state_core = 1560
+				transfer_state = 1560
+				add_state_core = 159
+				transfer_state = 159
+				add_state_core = 159
+				transfer_state = 1558
+			}
+			IRS = {
+				add_state_core = 1561
+				transfer_state = 1561
+				add_state_core = 1562
+				transfer_state = 1562
+				add_state_core = 160
+				transfer_state = 160
+			}
+		}
+	}
+	Debug_spawn_dust  = {
+		complete_effect = {
+			country_event = {
+				id = super.3
+			}
+		}
+	}
+}

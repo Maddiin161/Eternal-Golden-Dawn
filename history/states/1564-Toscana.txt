@@ -3,7 +3,7 @@ state = {
 	name = "Toscana"
 
 	history = {
-		owner = IBR
+		owner = ITA
 		set_state_flag = temperate
 		set_state_flag = lakes
 		set_state_flag = nominal
@@ -33,7 +33,7 @@ state = {
 			}
 
 		}
-		add_core_of = IBR
+		add_core_of = ITA
 		set_state_flag = HDI5
 		set_variable = { tourism_infrastructure = 0 }
 		
