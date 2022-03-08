@@ -1,0 +1,63 @@
+ideas = {	
+		country = {
+
+		CZE_dissident_movement_idea = {
+				picture = CZE_dissident_movement
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					social_conservative_drift  = 0.02
+					independent_socialist_drift = 0.03
+					stability_factor = -0.1
+				}
+			}
+		CZE_legacy_of_prague_spring_idea = {
+				picture = CZE_legacy_of_prague_spring
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					drift_defence_factor = 0.3
+					army_attack_factor = -0.3
+					conscription = -0.02
+					war_support_factor = -0.4
+				}
+			}
+		CZE_successful_federalization_idea = {
+				picture = CZE_successful_federalization
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					political_power_factor = 0.1
+					research_speed_factor = 0.05
+					production_speed_buildings_factor = 0.1
+				}
+			}
+		}
+	}

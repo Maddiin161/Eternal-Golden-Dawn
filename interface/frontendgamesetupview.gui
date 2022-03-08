@@ -579,7 +579,7 @@ guiTypes = {
 		ButtonType = {
 			name = "back_button"
 			position = { x = 30 y = -57 }
-			quadTextureSprite ="GFX_tno_bookmark_button"
+			quadTextureSprite ="bookmark_button"
 			buttonText = "BACK"
 			buttonFont = "vt323_22_glow"
 			Orientation = "LOWER_LEFT"
@@ -591,7 +591,7 @@ guiTypes = {
 		ButtonType = {
 			name = "select_button"
 			position = { x = -252 y = -57 }
-			quadTextureSprite ="GFX_tno_bookmark_button"
+			quadTextureSprite = "bookmark_button"
 			buttonText = "FE_SELECT_SCENARIO"
 			buttonFont = "aldrich_24_outline"
 			Orientation = "LOWER_RIGHT"
@@ -628,7 +628,7 @@ guiTypes = {
 
 		iconType = {
 			name = "back_button_select_underlay"
-			spriteType ="GFX_tno_button_148x34_underlay"
+			spriteType ="tno_button_148x34_underlay"
 			position = { x = -158 y = -62 }
 			Orientation = "CENTER_DOWN"
 		}
@@ -636,7 +636,7 @@ guiTypes = {
 		ButtonType = {
 			name = "back_button"
 			position = { x = -158 y = -62 }
-			quadTextureSprite ="GFX_tno_button_148x34"
+			quadTextureSprite ="tno_button_148x34"
 			buttonText = "BACK"
 			buttonFont = "Bomb_16"
 			Orientation = "CENTER_DOWN"
@@ -647,7 +647,7 @@ guiTypes = {
 
 		iconType = {
 			name = "select_button_select_underlay"
-			spriteType ="GFX_tno_button_148x34_underlay"
+			spriteType ="tno_button_148x34_underlay"
 			position = { x = 10 y = -62 }
 			Orientation = "CENTER_DOWN"
 		}
@@ -655,7 +655,7 @@ guiTypes = {
 		ButtonType = {
 			name = "select_button"
 			position = { x = 10 y = -62 }
-			quadTextureSprite ="GFX_tno_button_148x34"
+			quadTextureSprite ="tno_button_148x34"
 			buttonText = "FE_SELECT_COUNTRY"
 			buttonFont = "Bomb_16"
 			Orientation = "CENTER_DOWN"
@@ -1145,7 +1145,7 @@ guiTypes = {
 
 		background={
 			name ="background"
-			spriteType = "GFX_TNO_map_select_topright_bg"
+			spriteType = "TNO_map_select_topright_bg"
 		}
 
 		iconType = {
@@ -1885,14 +1885,14 @@ guiTypes = {
 
 		Background = {
 			name = "game_settings_bg"
-			quadTextureSprite = "GFX_TNO_map_select_bottomright_bg"
+			quadTextureSprite = "TNO_map_select_bottomright_bg"
 		}
 
 
 		buttonType = {
 			name = "custom_settings_btn"
 			position = { x = 198 y = 20 }
-			quadTextureSprite ="GFX_TNO_map_select_bottomright_custom_button"
+			quadTextureSprite ="TNO_map_select_bottomright_custom_button"
 			pdx_tooltip = FE_CUSTOM_DIFFUCULTY
 		}
 
@@ -1922,7 +1922,7 @@ guiTypes = {
 		checkboxType = {
 			name = "very_easy_cb"
 			position = { x=17 y=42}
-			quadTextureSprite ="GFX_TNO_map_select_bottomright_defcon_5_button"
+			quadTextureSprite ="TNO_map_select_bottomright_defcon_5_button"
 			buttonText = "FE_DIFFICULTY_VERY_EASY"
 			buttonFont = "hoi_20b"
 			clicksound = click_checkbox
@@ -1931,7 +1931,7 @@ guiTypes = {
 		checkboxType = {
 			name = "easy_cb"
 			position = { x=133 y=42}
-			quadTextureSprite ="GFX_TNO_map_select_bottomright_defcon_4_button"
+			quadTextureSprite ="TNO_map_select_bottomright_defcon_4_button"
 			buttonText = "FE_DIFFICULTY_EASY"
 			buttonFont = "hoi_20b"
 			clicksound = click_checkbox
@@ -1940,7 +1940,7 @@ guiTypes = {
 		checkboxType = {
 			name = "normal_cb"
 			position = { x=249 y=42}
-			quadTextureSprite ="GFX_TNO_map_select_bottomright_defcon_3_button"
+			quadTextureSprite ="TNO_map_select_bottomright_defcon_3_button"
 			clicksound = click_checkbox
 			buttonText = "FE_DIFFICULTY_NORMAL"
 			buttonFont = "hoi_20b"
@@ -1949,7 +1949,7 @@ guiTypes = {
 		checkboxType = {
 			name = "hard_cb"
 			position = { x=365 y=42}
-			quadTextureSprite ="GFX_TNO_map_select_bottomright_defcon_2_button"
+			quadTextureSprite ="TNO_map_select_bottomright_defcon_2_button"
 			buttonText = "FE_DIFFICULTY_HARD"
 			buttonFont = "hoi_20b"
 			clicksound = click_checkbox
@@ -1958,7 +1958,7 @@ guiTypes = {
 		checkboxType = {
 			name = "very_hard_cb"
 			position = { x=481 y=42}
-			quadTextureSprite ="GFX_TNO_map_select_bottomright_defcon_1_button"
+			quadTextureSprite ="TNO_map_select_bottomright_defcon_1_button"
 			buttonText = "FE_DIFFICULTY_VERY_HARD"
 			buttonFont = "hoi_20b"
 			clicksound = click_checkbox
@@ -2302,7 +2302,7 @@ guiTypes = {
 
 			iconType = {
 				name = "ironman_bg_box"
-				spriteType = "GFX_TNO_map_select_ironman_bg"
+				spriteType = "TNO_map_select_ironman_bg"
 				Orientation = "BOTTOM_RIGHT"
 				position = { x = 121 y = -97 }
 				allwaystransparent = yes
@@ -2310,14 +2310,14 @@ guiTypes = {
 
 			iconType = {
 				name ="bottom_bg"
-				spriteType = "GFX_TNO_map_select_bottomleft_bg"
+				spriteType = "TNO_map_select_bottomleft_bg"
 				position = { x = -415 y = -19 }
 				Orientation = "BOTTOM_RIGHT"
 			}
 
 			iconType = {
 				name ="bottom_bg_overlay"
-				spriteType = "GFX_TNO_map_select_bottomleft_bg_overlay"
+				spriteType = "TNO_map_select_bottomleft_bg_overlay"
 				position = { x = -296 y = -15 }
 				Orientation = "BOTTOM_RIGHT"
 			}
@@ -2325,7 +2325,7 @@ guiTypes = {
 			ButtonType = {
 				name = "back_button"
 				position = { x = -403 y = -3 }
-				quadTextureSprite ="GFX_TNO_map_select_menu_button"
+				quadTextureSprite ="TNO_map_select_menu_button"
 				buttonText = ""
 				buttonFont = "aldrich_24_outline"
 				Orientation = "UPPER_LEFT"
@@ -2337,7 +2337,7 @@ guiTypes = {
 			ButtonType = {
 				name = "load_button"
 				position = { x = -403 y = 32 }
-				quadTextureSprite ="GFX_TNO_map_select_load_button"
+				quadTextureSprite ="TNO_map_select_load_button"
 				buttonText = ""
 				buttonFont = "aldrich_24_outline"
 				Orientation = "UPPER_LEFT"
@@ -2349,7 +2349,7 @@ guiTypes = {
 			ButtonType = {
 				name = "options_button"
 				position = { x = -403 y = 67 }
-				quadTextureSprite ="GFX_TNO_map_select_options_button"
+				quadTextureSprite ="TNO_map_select_options_button"
 				buttonText = ""
 				buttonFont = "aldrich_24_outline"
 				Orientation = "UPPER_LEFT"
@@ -2361,21 +2361,21 @@ guiTypes = {
 			iconType = {
 				name = "enabled_achievement_icons_bg"
 				position = { x = -520 y = -101 }
-				quadTextureSprite ="GFX_TNO_map_select_bottomright_achievements_bg"
+				quadTextureSprite ="TNO_map_select_bottomright_achievements_bg"
 				Orientation = "LOWER_RIGHT"
 			}
 
 			iconType = {
 				name = "enabled_achievement_icons"
 				position = { x = -516 y = -110 }
-				quadTextureSprite ="GFX_TNO_map_select_bottomright_achievements_icon"
+				quadTextureSprite ="TNO_map_select_bottomright_achievements_icon"
 				Orientation = "LOWER_RIGHT"
 			}
 
 			ButtonType = {
 				name = "play_button"
 				position = { x = -445 y = -102 }
-				quadTextureSprite ="GFX_TNO_map_select_bottomright_start_button"
+				quadTextureSprite ="TNO_map_select_bottomright_start_button"
 				buttonText = "FE_START"
 				buttonFont = "aldrich_24_outline"
 				Orientation = "LOWER_RIGHT"

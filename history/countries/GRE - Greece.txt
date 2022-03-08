@@ -29,6 +29,12 @@ set_politics = {
 	revolutionary_socialism = 70
 }
 
+add_ideas = {
+	GRE_democratic_experiment_idea
+	GRE_fresh_socialism_idea
+	GRE_recovering_economy_idea
+}
+
 create_country_leader = {
 	name = "Charilaos Florakis" 
 	desc = ""

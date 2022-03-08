@@ -1,0 +1,66 @@
+ideas = {	
+		country = {
+
+		POL_catholic_resistance_idea = {
+				picture = POL_catholic_resistance
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					social_conservatism_drift = 0.02
+					stability_factor = -0.05
+					political_power_gain = -0.2
+				}
+			}
+
+		POL_memories_of_the_gierek_decade_idea = {
+				picture = POL_memories_of_the_gierek_decade
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_lack_of_resource_penalty_factor = -0.10
+					stability_factor = -0.10
+					production_factory_max_efficiency_factor = -0.1
+					production_factory_start_efficiency_factor = -0.1
+					production_factory_efficiency_gain_factor = -0.1
+				}
+			}
+
+		POL_harsh_repression_idea = {
+				picture = POL_harsh_repression
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					compliance_growth_on_our_occupied_states = 0.2
+					required_garrison_factor = 0.2
+					consumer_goods_factor = 0.10
+				}
+			}
+		}
+	}

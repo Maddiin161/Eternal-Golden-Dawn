@@ -26,6 +26,12 @@ set_politics = {
 	revolutionary_socialism = 80
 }
 
+add_ideas = {
+	ROM_industrialization_effort_idea
+	ROM_aggressive_natalism_idea
+	ROM_securiate_idea
+}
+
 create_country_leader = {
 	name = "Nicolae Ceausescu"
 	desc = ""

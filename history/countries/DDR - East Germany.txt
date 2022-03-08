@@ -2,6 +2,7 @@
 
 oob = "DDR_1980"
 
+### POLITICS ###
 set_popularities = {
 	transhumanism = 0
 	ultranationalism = 0
@@ -24,6 +25,19 @@ set_politics = {
 		elections_allowed = no
 }
 
+### IDEAS ###
+	
+add_ideas = { 
+	DDR_jewel_of_the_warsaw_pact_idea
+	DDR_berlin_wall_idea
+	DDR_soviet_military_dependence_idea
+	DDR_stasi_idea
+	DDR_rigid_democratic_centralism_idea
+}
+
+
+
+### LEADERS ###
 create_country_leader = {
 	name = "Erich Honecker"
 	desc = ""

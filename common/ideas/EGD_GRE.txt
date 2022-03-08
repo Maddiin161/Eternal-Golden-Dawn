@@ -1,0 +1,62 @@
+ideas = {	
+		country = {
+
+		GRE_democratic_experiment_idea = {
+				picture = GRE_democratic_experiment
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					independent_socialism_drift = 0.025
+					stability_factor = 0.15
+					conscription_factor = 0.03
+				}
+			}
+		GRE_fresh_socialism_idea = {
+				picture = GRE_fresh_socialism
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					war_support_factor = 0.1
+					army_org_factor = 0.15
+					army_core_defence_factor = 0.1
+				}
+			}
+		GRE_recovering_economy_idea = {
+				picture = GRE_recovering_economy
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_speed_buildings_factor = 0.05
+					repair_speed_industrial_complex_factor = 0.1
+					industrial_capacity_factory = 0.1
+				}
+			}
+		}
+	}

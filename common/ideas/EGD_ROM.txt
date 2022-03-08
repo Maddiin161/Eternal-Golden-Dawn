@@ -1,0 +1,62 @@
+ideas = {	
+		country = {
+
+		ROM_industrialization_effort_idea = {
+				picture = ROM_industrialization_effort
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_speed_buildings_factor = 0.1
+					production_factory_efficiency_gain_factor = 0.07
+					research_speed_factor = 0.1
+				}
+			}
+		ROM_aggressive_natalism_idea = {
+				picture = ROM_aggressive_natalism
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					monthly_population = 0.085
+					consumer_goods_factor = 0.1
+					stability_factor = -0.1
+				}
+			}
+		ROM_securiate_idea = {
+				picture =ROM_securiate
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					revolutionary_socialism_drift = 0.02
+					operative_slot = 1
+					enemy_spy_negative_status_factor = 0.2 
+				}
+			}
+		}
+	}

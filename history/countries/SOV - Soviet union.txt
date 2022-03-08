@@ -13,7 +13,9 @@ add_to_faction = POL
 add_to_faction = CZE
 add_to_faction = ADR
 add_to_faction = MON
+add_to_faction = GRE
 
+#### POLITICS ####
 set_politics = {
 	ruling_party = revolutionary_socialism
 	last_election = "1964.8.14"
@@ -38,6 +40,19 @@ set_popularities = {
 	revolutionary_socialism = 80
 }
 
+### IDEAS ###
+
+add_ideas = {
+	SOV_brezhnev_doctrine
+	SOV_era_of_stagnation
+	SOV_widespread_alcoholism
+	SOV_homeland_of_the_revolution
+	SOV_1977_constitution
+	SOV_bloated_military
+	SOV_kgb
+}
+
+### LEADERS ###
 create_country_leader = {
 	name = "Leonid Brezhnev"
 	desc = "leonid_brezhnev_desc"

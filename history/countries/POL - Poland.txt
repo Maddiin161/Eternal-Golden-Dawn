@@ -31,6 +31,12 @@ set_popularities = {
 	revolutionary_socialism = 80
 }
 
+add_ideas = { 
+	POL_catholic_resistance_idea
+	POL_memories_of_the_gierek_decade_idea
+	POL_harsh_repression_idea
+}
+
 create_country_leader = {
 	name = "Henryk Jablonski"
 	desc = ""

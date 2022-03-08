@@ -26,6 +26,11 @@ set_politics = {
 	revolutionary_socialism = 80
 }
 
+add_ideas = {
+	HUN_new_economic_mechanism_idea
+	HUN_limited_political_liberalization_idea
+}
+
 create_country_leader = {
 	name = "János Kádár"
 	desc = ""

@@ -1,4 +1,33 @@
 spriteTypes = { 
+	
+	#### DDR ####
+
+	SpriteType = { 
+		name = "GFX_idea_DDR_jewel_of_the_warsaw_pact"
+		texturefile = "gfx/interface/ideas/DDR/idea_DDR_jewel_of_the_warsaw_pact.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_DDR_berlin_wall"
+		texturefile = "gfx/interface/ideas/DDR/idea_DDR_berlin_wall.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_idea_DDR_soviet_military_dependence"
+		texturefile = "gfx/interface/ideas/DDR/idea_DDR_soviet_military_dependence.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_DDR_stasi"
+		texturefile = "gfx/interface/ideas/DDR/idea_DDR_stasi.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_idea_DDR_rigid_democratic_centralism"
+		texturefile = "gfx/interface/ideas/DDR/idea_DDR_rigid_democratic_centralism.dds"
+	}
+ 
+	#### BFR ####
 
 	SpriteType = { 
 		name = "GFX_idea_BFR_national_resistance"

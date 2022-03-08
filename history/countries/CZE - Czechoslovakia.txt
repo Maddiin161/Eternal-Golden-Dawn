@@ -28,6 +28,12 @@ set_popularities = {
 	revolutionary_socialism = 90
 }
 
+add_ideas = {
+	CZE_dissident_movement_idea
+	CZE_legacy_of_prague_spring_idea
+	CZE_successful_federalization_idea
+}
+
 create_country_leader = {
 	name = "Gustáv Husák" 
 	desc = ""

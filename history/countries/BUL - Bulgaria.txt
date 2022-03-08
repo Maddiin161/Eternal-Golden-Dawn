@@ -28,6 +28,12 @@ set_popularities = {
 	revolutionary_socialism = 90
 }
 
+add_ideas = {
+	BUL_zhikov_era_idea
+	BUL_economic_stability_idea
+	BUL_tourist_hub_of_the_eastern_bloc_idea
+}
+
 create_country_leader = {
 	name = "Todor Zhivkov" 
 	desc = ""

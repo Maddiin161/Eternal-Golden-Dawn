@@ -1,0 +1,146 @@
+ideas = {	
+		country = {
+
+		SOV_brezhnev_doctrine = {
+				picture = GFX_idea_SOV_brezhnev_doctrine
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					army_org_factor = 0.1
+					war_support_factor = 0.1
+					revolutionary_socialist_drift = 0.01
+				}
+			}
+
+		SOV_era_of_stagnation = {
+				picture = GFX_idea_SOV_era_of_stagnation
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_speed_buildings_factor = -0.1
+					consumer_goods_factor = 0.1
+					production_factory_efficiency_gain_factor = -0.1
+				}
+			}
+
+		SOV_widespread_alcoholism = {
+				picture = GFX_idea_SOV_widespread_alcoholism
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = -0.1
+					consumer_goods_factor = 0.05
+					### ADD SOME SOCIAL DEVELOPMENT MODIFIERS HERE ###
+				}
+			}
+		SOV_homeland_of_the_revolution = {
+				picture = GFX_idea_SOV_homeland_of_the_revolution
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					army_core_defence_factor = 0.2
+					drift_defence_factor = 0.15
+					send_volunteer_size = 5
+				}
+			}
+		SOV_bloated_military = {
+				picture = GFX_idea_bloated_military
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					consumer_goods_factor = 0.10
+					production_speed_industrial_complex_factor = -0.1
+					production_speed_arms_factory_factor = 0.1
+					research_bonus = {
+						infantry_weapons = 0.1
+					}
+					research_bonus = {
+						artillery = 0.1
+					}
+				}
+			}
+		SOV_1977_constitution = {
+				picture = GFX_idea_1977_constitution
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					political_power_gain = 0.1
+					stability_factor = 0.05
+					party_popularity_stability_factor = 0.1
+				}
+			}
+		SOV_kgb = {
+				picture = GFX_idea_kgb
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					intel_from_operatives_factor = 0.1
+					operation_cost = -0.1
+					enemy_operative_capture_chance_factor = 0.1
+				}
+			}
+		}
+	}

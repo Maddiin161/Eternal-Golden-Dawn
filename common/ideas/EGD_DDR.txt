@@ -1,0 +1,105 @@
+ideas = {	
+		country = {
+
+		DDR_jewel_of_the_warsaw_pact_idea = {
+				picture = DDR_jewel_of_the_warsaw_pact
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					revolutionary_socialism_drift = 0.05
+					party_popularity_stability_factor = 0.2
+					production_factory_max_efficiency_factor = 0.1
+				}
+			}
+
+		DDR_berlin_wall_idea = {
+				picture = DDR_berlin_wall
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					social_liberalism_drift = -0.01
+					market_liberalism_drift = -0.01
+					social_conservatism_drift = -0.01
+					research_speed_factor = -0.05
+					war_support_factor = -0.15
+				}
+			}
+
+		DDR_soviet_military_dependence_idea = {
+				picture = DDR_soviet_military_dependence
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					land_doctrine_cost_factor = 0.5
+					army_org_factor = -0.15
+					planning_speed = -0.1
+				}
+			}
+		
+		DDR_stasi_idea = {
+				picture = DDR_stasi
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = 0.05
+					research_speed_factor = -0.1
+					root_out_resistance_effectiveness_factor = 0.1
+					enemy_operative_capture_chance_factor = 0.2
+				}
+			}
+		
+		DDR_rigid_democratic_centralism_idea = {
+				picture = DDR_rigid_democratic_centralism
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					
+				}
+			}
+		}
+	}

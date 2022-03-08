@@ -1,0 +1,43 @@
+ideas = {	
+		country = {
+
+		HUN_new_economic_mechanism_idea = {
+				picture = HUN_new_economic_mechanism
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_factory_max_efficiency_factor = -0.2
+					consumer_goods_factor = 0.25
+					industrial_capacity_factory = -0.2
+				}
+			}
+		HUN_limited_political_liberalization_idea = {
+				picture = HUN_limited_political_liberalization
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					independent_socialist_drift = 0.03
+					stability_factor = 0.15
+					market_liberal_acceptance = 50
+				}
+			}
+		}
+	}
