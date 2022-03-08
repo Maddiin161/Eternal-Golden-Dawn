@@ -27,6 +27,43 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/DDR/idea_DDR_rigid_democratic_centralism.dds"
 	}
  
+	#### USSR ####
+
+	SpriteType = { 
+		name = "GFX_idea_SOV_brezhnev_doctrine"
+		texturefile = "gfx/interface/ideas/SOV/idea_SOV_brezhnev_doctrine.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_SOV_era_of_stagnation"
+		texturefile = "gfx/interface/ideas/SOV/idea_SOV_era_of_stagnation.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_SOV_widespread_alcoholism"
+		texturefile = "gfx/interface/ideas/SOV/idea_SOV_widespread_alcoholism.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_SOV_homeland_of_the_revolution"
+		texturefile = "gfx/interface/ideas/SOV/idea_SOV_homeland_of_the_revolution.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_SOV_bloated_military"
+		texturefile = "gfx/interface/ideas/SOV/idea_SOV_bloated_military.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_SOV_1977_constitution"
+		texturefile = "gfx/interface/ideas/SOV/idea_SOV_1977_constitution.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_SOV_kgb"
+		texturefile = "gfx/interface/ideas/SOV/idea_SOV_kgb.dds"
+	}
+
 	#### BFR ####
 
 	SpriteType = { 

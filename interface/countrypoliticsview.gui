@@ -153,7 +153,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "ideology"
-				position = { x = 32 y = 8 }
+				position = { x = 20 y = 8 }
 				font = "vt323_18_glow"
 				text = "ideology"
 				maxWidth = 155
@@ -359,7 +359,7 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "national_spirit_container"
-				position = { x = 90 y = 19 }
+				position = { x = 100 y = 19 }
 				size = { width = 365 height = 68 }
 				
 				verticalScrollbar = "right_vertical_slider"
@@ -372,15 +372,15 @@ guiTypes = {
 				gridboxtype = {
 					name = "spirit_grid"
 					position = { x = 12 y = 0 }
-					size = { width = 350 height = 100%% }
-					slotsize = { width = 60 height = 68 }
+					size = { width = 500 height = 100%% }
+					slotsize = { width = 64 height = 68 }
 					max_slots = { x = 8 y = 1 }
 					format = "UPPER_LEFT"
 				}
 				gridboxtype = {
 					name = "spirit_grid_over_defined"
 					size = { width = 350 height = 100%% }
-					slotsize = { width = 33 height = 32 }
+					slotsize = { width = 64 height = 32 }
 					max_slots_horizontal = 10
 					format = "UPPER_LEFT"
 				}
@@ -456,7 +456,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "manage_occupied_button"
-			position = { x = 10 y = 550 }
+			position = { x = 10 y = 540 }
 			quadTextureSprite = "GFX_government_button"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
@@ -497,7 +497,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "show_exiles_collaborations_button"
-			position = { x = 190 y = 550 }
+			position = { x = 190 y = 540 }
 			quadTextureSprite = "GFX_government_button"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
@@ -506,7 +506,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "manage_exiled_collaborations_governments"
-			position = { x = 223 y = 398 }
+			position = { x = 220 y = 550 }
 			font = "hoi_16mbs"
 			maxWidth = 130
 			maxHeight = 20

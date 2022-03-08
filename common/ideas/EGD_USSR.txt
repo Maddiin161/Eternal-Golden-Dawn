@@ -2,7 +2,7 @@ ideas = {
 		country = {
 
 		SOV_brezhnev_doctrine = {
-				picture = GFX_idea_SOV_brezhnev_doctrine
+				picture = SOV_brezhnev_doctrine
 
 				allowed = {
 					always = no
@@ -22,7 +22,7 @@ ideas = {
 			}
 
 		SOV_era_of_stagnation = {
-				picture = GFX_idea_SOV_era_of_stagnation
+				picture = SOV_era_of_stagnation
 
 				allowed = {
 					always = no
@@ -42,7 +42,7 @@ ideas = {
 			}
 
 		SOV_widespread_alcoholism = {
-				picture = GFX_idea_SOV_widespread_alcoholism
+				picture = SOV_widespread_alcoholism
 
 				allowed = {
 					always = no
@@ -61,7 +61,7 @@ ideas = {
 				}
 			}
 		SOV_homeland_of_the_revolution = {
-				picture = GFX_idea_SOV_homeland_of_the_revolution
+				picture = SOV_homeland_of_the_revolution
 
 				allowed = {
 					always = no
@@ -80,7 +80,7 @@ ideas = {
 				}
 			}
 		SOV_bloated_military = {
-				picture = GFX_idea_bloated_military
+				picture = GFX_idea_SOV_bloated_military
 
 				allowed = {
 					always = no
@@ -105,7 +105,7 @@ ideas = {
 				}
 			}
 		SOV_1977_constitution = {
-				picture = GFX_idea_1977_constitution
+				picture = GFX_idea_SOV_1977_constitution
 
 				allowed = {
 					always = no
@@ -124,7 +124,7 @@ ideas = {
 				}
 			}
 		SOV_kgb = {
-				picture = GFX_idea_kgb
+				picture = GFX_idea_SOV_kgb
 
 				allowed = {
 					always = no
