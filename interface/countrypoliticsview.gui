@@ -362,7 +362,7 @@ guiTypes = {
 				position = { x = 100 y = 19 }
 				size = { width = 365 height = 68 }
 				
-				verticalScrollbar = "right_vertical_slider"
+				horizontalScrollbar = "bottom_horizontal_slider"
 				
 				background = {
 					name = "Background"

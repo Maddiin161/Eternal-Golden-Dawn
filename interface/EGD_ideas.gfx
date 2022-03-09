@@ -64,6 +64,27 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SOV/idea_SOV_kgb.dds"
 	}
 
+	#### GRE ####
+
+	SpriteType = { 
+		name = "GFX_idea_GRE_recovering_economy"
+		texturefile = "gfx/interface/ideas/GRE/idea_GRE_recovering_economy.dds"
+	}
+
+	#### ROM ####
+
+	SpriteType = { 
+		name = "GFX_idea_ROM_aggressive_natalism"
+		texturefile = "gfx/interface/ideas/ROM/idea_ROM_aggressive_natalism.dds"
+	}
+
+	#### CZE ####
+
+	SpriteType = { 
+		name = "GFX_idea_CZE_dissident_movement"
+		texturefile = "gfx/interface/ideas/CZE/idea_CZE_dissident_movement.dds"
+	}
+
 	#### BFR ####
 
 	SpriteType = { 
