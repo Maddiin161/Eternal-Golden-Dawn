@@ -628,7 +628,7 @@ spriteTypes = {
 	
 	pieChartType = {
 		name = "GFX_political_chart_small"
-		size = 26
+		size = 29
 	}
 
 	circularProgressBarType = {
