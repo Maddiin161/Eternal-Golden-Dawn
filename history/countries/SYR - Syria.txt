@@ -25,7 +25,7 @@ set_politics = {
 	social_conservatism = 0
 	market_liberalism = 0
 	social_liberalism = 0
-	social_democracy = 
+	social_democracy = 0
 	libertarian_socialism = 75
 	revolutionary_socialism = 5
 }
