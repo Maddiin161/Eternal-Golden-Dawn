@@ -11,14 +11,48 @@ spriteTypes = {
 		name = "GFX_ideology_marxism_leninism_maoism"
 		texturefile = "gfx/interface/ideologies/marxism_leninism_maoism.dds"
 	}
-	
+		spriteType = {
+		name = "GFX_ideology_deng_xiaoping_thought"
+		texturefile = "gfx/interface/ideologies/deng_xiaoping_thought.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_hoxhaism"
+		texturefile = "gfx/interface/ideologies/hoxhaism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_maoism"
+		texturefile = "gfx/interface/ideologies/maoism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_juche"
+		texturefile = "gfx/interface/ideologies/juche.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_post_marxism"
+		texturefile = "gfx/interface/ideologies/post_marxism.dds"
+	} 
+	spriteType = {
+		name = "GFX_ideology_neo_guevarism"
+		texturefile = "gfx/interface/ideologies/neo_guevarism.dds"
+	} 
 # ind soc
 
 	spriteType = {
 		name = "GFX_ideology_baathism"
 		texturefile = "gfx/interface/ideologies/baathism.dds"
 	}
-
+	spriteType = {
+		name = "GFX_ideology_titoism"
+		texturefile = "gfx/interface/ideologies/titoism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_left_wing_nationalism"
+		texturefile = "gfx/interface/ideologies/left_wing_nationalism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_agrarian_socialism"
+		texturefile = "gfx/interface/ideologies/agrarian_socialism.dds"
+	}
 # islamism
 
 	spriteType = {
