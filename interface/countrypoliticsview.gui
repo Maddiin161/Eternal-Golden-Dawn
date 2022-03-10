@@ -348,7 +348,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "national_spirit"
 			position = { x = 81 y = 153 }
-			size = { width = 360 height = 50 }
+			size = { width = 340 height = 50 }
 			clipping = no
 						
 			instantTextboxType = {
@@ -368,7 +368,6 @@ guiTypes = {
 				size = { width = 354 height = 79 }
 				
 				horizontalScrollbar = "bottom_horizontal_slider"
-				position = { x = 100 y = 20 }
 				
 				background = {
 					name = "Background"
@@ -378,7 +377,7 @@ guiTypes = {
 				gridboxtype = {
 					name = "spirit_grid"
 					position = { x = 12 y = 0 }
-					size = { width = 500 height = 100%% }
+					size = { width = 200 height = 100%% }
 					slotsize = { width = 64 height = 68 }
 					max_slots = { x = 8 y = 1 }
 					format = "UPPER_LEFT"

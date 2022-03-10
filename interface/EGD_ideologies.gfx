@@ -53,6 +53,15 @@ spriteTypes = {
 		name = "GFX_ideology_agrarian_socialism"
 		texturefile = "gfx/interface/ideologies/agrarian_socialism.dds"
 	}
+	spriteType = {
+		name = "GFX_ideology_eco_socialism"
+		texturefile = "gfx/interface/ideologies/agrarian_socialism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_independent_marxism"
+		texturefile = "gfx/interface/ideologies/independent_marxism.dds"
+	}
+	
 # islamism
 
 	spriteType = {
@@ -119,6 +128,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_living_heaven"
 		texturefile = "gfx/interface/ideologies/living_heaven.dds"
+	}	
+	spriteType = {
+		name = "GFX_ideology_old_god"
+		texturefile = "gfx/interface/ideologies/old_god.dds"
 	}		
-	
+	spriteType = {
+		name = "GFX_ideology_sentiant_ai"
+		texturefile = "gfx/interface/ideologies/sentiant_ai.dds"
+	}		 
 }
