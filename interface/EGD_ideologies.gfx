@@ -21,7 +21,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_ideology_maoism"
-		texturefile = "gfx/interface/ideologies/maoism.dds"
+		texturefile = "gfx/interface/ideologies/mao_zendong_thought.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_juche"
