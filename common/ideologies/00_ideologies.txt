@@ -541,7 +541,10 @@ ideologies = {
 			post_jihad = {
 				can_be_randomly_selected = no			
 			}
-			revelations_theory = {
+			ufo_cult = {
+				can_be_randomly_selected = no			
+			}
+			hallucinogenism = {
 				can_be_randomly_selected = no			
 			}
 			neo_guevarism_pwt = {
@@ -553,7 +556,7 @@ ideologies = {
 			collapse = {
 				can_be_randomly_selected = no			
 			}
-			posadism = {
+			destructionism = {
 				can_be_randomly_selected = no
 			}	
 			dead_water = {

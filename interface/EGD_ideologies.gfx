@@ -130,11 +130,39 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/living_heaven.dds"
 	}	
 	spriteType = {
+		name = "GFX_ideology_post_jihad"
+		texturefile = "gfx/interface/ideologies/post_jihad.dds"
+	}	
+	spriteType = {
+		name = "GFX_ideology_destructionism"
+		texturefile = "gfx/interface/ideologies/destructionism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_collapse"
+		texturefile = "gfx/interface/ideologies/collapse.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_dead_water"
+		texturefile = "gfx/interface/ideologies/dead_water.dds"
+	}	
+	spriteType = {
+		name = "GFX_ideology_neo_guevarism_pwt"
+		texturefile = "gfx/interface/ideologies/neo_guevarism_pwt.dds"
+	}	
+	spriteType = {
+		name = "GFX_ideology_hallucinogenism"
+		texturefile = "gfx/interface/ideologies/hallucinogenism.dds"
+	}	
+	spriteType = {
+		name = "GFX_ideology_ufo_cult"
+		texturefile = "gfx/interface/ideologies/ufo_cult.dds"
+	}	
+	spriteType = {
 		name = "GFX_ideology_old_god"
 		texturefile = "gfx/interface/ideologies/old_god.dds"
 	}		
 	spriteType = {
 		name = "GFX_ideology_sentiant_ai"
 		texturefile = "gfx/interface/ideologies/sentiant_ai.dds"
-	}		 
+	}		
 }

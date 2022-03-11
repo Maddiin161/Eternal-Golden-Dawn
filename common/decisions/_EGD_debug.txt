@@ -68,6 +68,162 @@ EGD_debug_decisions = {
 			}
 		}
 	}
+	Debug_Yugslav_wars_Stage_1  = {
+		complete_effect = {
+	YUG = {
+		release = SLV
+		release = CRO
+		
+	create_country_leader = {
+	    name = "Dobrica Ćosić" 
+	    desc = ""
+	    picture = "Dobrica_Cosic.dds"
+	    expire = "1999.5.4"
+	    ideology = titoism
+	    traits = {
+		
+	    }
+    }
+		
+		}
+			SRP = {
+				add_state_core = 923
+				transfer_state = 923
+				add_state_core = 1487
+				transfer_state = 1487
+			}
+			BOS = {
+				add_state_core = 104
+				transfer_state = 104
+				add_state_core = 1488
+				transfer_state = 1488
+			}
+			ZEG = {
+				add_state_core = 1489
+				transfer_state = 1489
+			}
+			KRA = {
+                add_state_core = 1492
+				transfer_state = 1492
+				add_state_core = 1491
+				transfer_state = 1491
+				
+			}
+			MAC = {
+				add_state_core = 106
+				transfer_state = 106
+				add_state_core = 1484
+				transfer_state = 1484
+				add_state_core = 1483
+				transfer_state = 1483
+			}
+		}
+	}
+	Debug_Yugslav_wars_Stage_2  = {
+		complete_effect = {
+		
+	YUG = {
+		release = SLV
+		release = CRO
+		release = MNT
+		release = VOJ 
+		
+	create_country_leader = {
+	    name = "Dobrica Ćosić" 
+	    desc = ""
+	    picture = "Dobrica_Cosic.dds"
+	    expire = "1999.5.4"
+	    ideology = titoism
+	    traits = {
+		
+	    }
+    }
+		
+		}
+			SRP = {
+				add_state_core = 923
+				transfer_state = 923
+				add_state_core = 1487
+				transfer_state = 1487
+			}
+			BOS = {
+				add_state_core = 104
+				transfer_state = 104
+				add_state_core = 1488
+				transfer_state = 1488
+			}
+			ZEG = {
+				add_state_core = 1489
+				transfer_state = 1489
+			}
+			KRA = {
+                add_state_core = 1492
+				transfer_state = 1492
+				add_state_core = 1491
+				transfer_state = 1491
+				
+			}
+			MAC = {
+				add_state_core = 106
+				transfer_state = 106
+				add_state_core = 1484
+				transfer_state = 1484
+				add_state_core = 1483
+				transfer_state = 1483
+			}
+		}
+	}
+	Debug_Yugslav_wars_Stage_3  = {
+		complete_effect = {
+		
+	YUG = {
+		release = SLV
+		release = CRO
+		release = MNT
+		release = VOJ 
+		release = SER
+			
+		}
+			SRP = {
+				add_state_core = 923
+				transfer_state = 923
+				add_state_core = 1487
+				transfer_state = 1487
+			}
+			BOS = {
+				add_state_core = 104
+				transfer_state = 104
+				add_state_core = 1488
+				transfer_state = 1488
+			}
+			ZEG = {
+				add_state_core = 1489
+				transfer_state = 1489
+			}
+			KRA = {
+                add_state_core = 1492
+				transfer_state = 1492
+				add_state_core = 1491
+				transfer_state = 1491
+				
+			}
+			MAC = {
+				add_state_core = 106
+				transfer_state = 106
+				add_state_core = 1484
+				transfer_state = 1484
+				add_state_core = 1483
+				transfer_state = 1483
+			}
+			KOS = {
+				add_state_core = 1065
+				transfer_state = 1065
+				add_state_core = 1482
+				transfer_state = 1482
+				set_cosmetic_tag = KOS_ALB
+			}
+		}
+	}
 	Debug_spawn_dust  = {
 		complete_effect = {
 			country_event = {
