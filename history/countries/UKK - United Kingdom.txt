@@ -8,23 +8,19 @@ set_politics = {
 }
 set_popularities = {
 	transhumanism = 0
-	ultranationalism = 0
+	ultranationalism = 1
 	despotism = 0
 	authoritarian_democracy = 0
 	corporate_oligarchy = 0
-	social_conservatism = 45
-	market_liberalism = 0
-	social_liberalism = 20
-	social_democracy = 35
-	libertarian_socialism = 0
-	revolutionary_socialism = 0
+	social_conservatism = 42
+	market_liberalism = 5
+	social_liberalism = 14
+	social_democracy = 20
+	libertarian_socialism = 17
+	revolutionary_socialism = 2
 }
-
-create_country_leader = {
-	name = "Margaret Thatcher"
-	desc = ""
-	picture = "Margaret_Thatcher.dds"
-	expire = "1982.1.1"
-	ideology = social_conservatism_ideology
-	traits = {}
+add_ideas = {
+	ENG_80s_recession
+	ENG_rampant_terrorism
+	ENG_overbearing_unions
 }
