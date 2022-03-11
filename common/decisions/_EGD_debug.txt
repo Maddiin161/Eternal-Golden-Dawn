@@ -53,4 +53,11 @@ EGD_debug_decisions = {
 			}
 		}
 	}
+	Debug_The_Long_March_bros  = {
+		complete_effect = {
+			country_event = {
+				id = super.7
+			}
+		}
+	}
 }

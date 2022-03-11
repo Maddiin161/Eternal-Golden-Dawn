@@ -27,3 +27,12 @@ set_popularities = {
 	libertarian_socialism = 0
 	revolutionary_socialism = 60
 }
+create_country_leader = {
+	name = "Isaias Afwerki"
+	desc = ""
+	picture = "Isaias_Afwerki.dds"
+	expire = "1999.1.1"
+	ideology = marxism_leninism_maoism
+	traits = {
+		}
+}
