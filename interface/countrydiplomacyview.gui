@@ -187,17 +187,18 @@ guiTypes = {
 			buttonType = {
 				name = "relations_tab_button"
 				quadTextureSprite = "GFX_tab_intel_ledger"
-				position = { x=15 y=70 }
+				position = { x=15 y=68 }
 				buttonText = "DIPLOMACY_RELATIONS_TAB"
-				font = "hoi_18mbs"
+				font = "vt323_24_glow"
+
 			}
 		
 			buttonType = {
 				name = "info_tab_button"
 				quadTextureSprite = "GFX_tab_intel_ledger"
-				position = { x=275 y= 70 }
+				position = { x=270 y= 68 }
 				buttonText = "DIPLOMACY_INFO_TAB"
-				font = "hoi_18mbs"
+				font = "vt323_24_glow"
 			}
 			
 			#------------------------- END TAB BUTTONS ----------------------------
@@ -211,14 +212,14 @@ guiTypes = {
 					
 				iconType = {
 					name = "leader_portrait"
-					position = { x = 20 y = 10 }
+					position = { x = 22 y = 10 }
 					spriteType = "GFX_leader_unknown"
 					scale = 0.74
 				}
 				
 				iconType = {
 					name = "diplo_leader_frame"
-					position = { x = 13 y = -5 }
+					position = { x = 13 y = -3 }
 					spriteType = "GFX_diplo_leader_frame"
 					alwaystransparent = yes
 				}
@@ -295,6 +296,14 @@ guiTypes = {
 						position = { x = 166 y = 8 }
 						spriteType = "GFX_diplo_goal_button"
 						clicksound = click_default
+					}
+					
+					iconType = {
+						name = "goal_icon"
+						position = { x = 114 y = 35 }
+						spriteType = "GFX_goal_unknown"
+						centerposition = yes					
+						scale = 0.9
 					}
 					
 					instantTextboxType = {
