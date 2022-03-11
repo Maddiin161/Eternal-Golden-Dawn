@@ -39,7 +39,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Henryk Jablonski"
-	desc = ""
+	desc = "POL_Henryk_Jablonski_desc"
 	picture = "Henryk_Jablonski.dds"
 	expire = "1982.1.1"
 	ideology = marxism_leninism
