@@ -25,9 +25,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Yasuhiro Nakasone" 
+	name = "Yukio Mishima" 
 	desc = ""
-	picture = "Yasuhiro_Nakasone.dds"
+	picture = "gfx/Leaders/NJG/Yukio_Mishima.dds"
 	expire = "2003.3.1"
 	ideology = military_dictatorship
 	traits = {

@@ -46,6 +46,28 @@ EGD_debug_decisions = {
 			}
 		}
 	}
+	Debug_Japan_trolling  = {
+		complete_effect = {
+			JSM = {
+				add_state_core = 534
+				transfer_state = 534
+				add_state_core = 533
+				transfer_state = 533
+				add_state_core = 536
+				transfer_state = 536
+			}
+			NJG = {
+				add_state_core = 532
+				transfer_state = 532
+				add_state_core = 531
+				transfer_state = 531
+				add_state_core = 529
+				transfer_state = 529
+				add_state_core = 530
+				transfer_state = 530
+			}
+		}
+	}
 	Debug_spawn_dust  = {
 		complete_effect = {
 			country_event = {
