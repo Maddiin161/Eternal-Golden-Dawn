@@ -94,7 +94,7 @@
  juche_desc:0 "§RJuche§!, or "self-reliance", is the official ideology of the DPRK, developed by leader Kim Il-sung. The ideology, which was originally viewed as a variant of Marxism–Leninism until it became distinctly Korean in character incorporates the historical materialist ideas of Marxism–Leninism and strongly emphasizes the individual, the nation state and its sovereignty. Consequently, the North Korean government adopted Juche into a set of principles and it has used these principles to justify its policy decisions from the 1950s onwards. Such principles include moving the nation towards claimed jaju ("independence"), through the construction of a jarip ("national economy") and an emphasis upon jawi ("self-defence") in order to establish socialism. The practice of Juche is firmly rooted in the ideals of sustainability through agricultural independence and a lack of dependency."
 
  trotskyism:0 "Trotskyism"
- trotskyism_desc:0 "§RTrotskyism§! is the common name given to the beliefs developed by Leon Trotsky. Trotskyism involves mass industrialization, communism in all countries, the “World Revolution”, as Trotsky put it. Trotskyism also supported the Permanent Revolution and the International Revolution. Trotskyists were massive critics of Joseph Stalin’s leadership, calling the Soviet Union under Stalin either a “deformed workers state or a form of state capitalism itself."
+ trotskyism_desc:0 "§RTrotskyism§! is the common name given to the beliefs developed by Leon Trotsky. Trotskyism involves mass industrialization, communism in all countries, the “World Revolution”, as Trotsky put it. Trotskyism also supported the Permanent Revolution and the International Revolution. Trotskyists were massive critics of Joseph Stalin's leadership, calling the Soviet Union under Stalin either a “deformed workers state or a form of state capitalism itself."
 
  deng_xiaoping_thought:0 "Deng Xiaoping Thought"
  deng_xiaoping_thought_desc:0 "§RDeng Xiaoping Thought§! is the series of political and economic ideologies first developed by Chinese leader Deng Xiaoping. The theory does not claim to reject Marxism-Leninism or Maoism but instead seeks to adapt them to the existing socio-economic conditions of China. The theory promotes incorporating capitalism into central planning to increase productivity, advance Chinese culture, and enhance the interests of the Chinese people."
@@ -149,7 +149,7 @@
 # Islamism
 
  khomeinism:0 "Khomeinism"
- khomeinism_desc:0 "§GKhomeinism§!\n§GKhomeinism§! or §GIslamic Republicanism§! is a Shi’a Islamist ideology that balances a secular, national republic and an Islamic caliphate. Originating with Iranian revolutionary leader Ruhollah Khomeini, it advocates for utilizing the principle of velayat-e faqih (guardianship of the Islamic jurist) to endow a learned Islamic jurist with the role of supreme leader who holds religious and political authority over all affairs of the state. A socially conservative ideology which promotes a traditionalist view of women and repression of sexual minorities, §GKhomeinism§ is economically centralized with many aspects of the economy being state-owned."
+ khomeinism_desc:0 "§GKhomeinism§!\n§GKhomeinism§! or §GIslamic Republicanism§! is a Shi'a Islamist ideology that balances a secular, national republic and an Islamic caliphate. Originating with Iranian revolutionary leader Ruhollah Khomeini, it advocates for utilizing the principle of velayat-e faqih (guardianship of the Islamic jurist) to endow a learned Islamic jurist with the role of supreme leader who holds religious and political authority over all affairs of the state. A socially conservative ideology which promotes a traditionalist view of women and repression of sexual minorities, §GKhomeinism§ is economically centralized with many aspects of the economy being state-owned."
 
  salafi_jihadism:0 "Salafi Jihadism"
  salafi_jihadism_desc:0 "§GSalafi Jihadism§! is a branch of Salafist Islamism, and a transnational religious-political ideology based on a belief in "physical" (as opposed to spiritual) jihadism, and on the Salafist concept of returning to (what adherents believe to be) true Sunni Islam. The ideology was first developed by international Islamist volunteers in the Afghan anti-Soviet jihad who had become isolated from their national and social class origins. §GSalafi Jihadism§! is broadly defined by an emphasis on changing the social and political organization of the state to an Islamic state governed by Sharia law, establishing sovereignty on a territory perceived as occupied or dominated by non-Muslims and defending the Muslim community (ummah) from external non-Muslim perceived threats."
@@ -3371,7 +3371,7 @@
  NMB_libertarian_socialism_party:0 ""
  NMB_libertarian_socialism_party_long:0 ""
  NMB_revolutionary_socialism_party:0 "SWAPO"
- NMB_revolutionary_socialism_party_long:0 "South West Africa People’s Organisation"
+ NMB_revolutionary_socialism_party_long:0 "South West Africa People's Organisation"
 
  LBA_annihilationism_party:0 ""
  LBA_annihilationism_party_long:0 ""

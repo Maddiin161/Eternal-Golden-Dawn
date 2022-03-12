@@ -1421,10 +1421,10 @@
  BUL_social_liberalism_DEF:0 "The Republic of Bulgaria"
  BUL_social_democracy:0 "Republic of Bulgaria"
  BUL_social_democracy_DEF:0 "The Republic of Bulgaria"
- BUL_libertarian_socialism:0 "People’s Republic of Bulgaria"
- BUL_libertarian_socialism_DEF:0 "The People’s Republic of Bulgaria"
- BUL_revolutionary_socialism:0 "People’s Republic of Bulgaria"
- BUL_revolutionary_socialism_DEF:0 "The People’s Republic of Bulgaria"
+ BUL_libertarian_socialism:0 "People's Republic of Bulgaria"
+ BUL_libertarian_socialism_DEF:0 "The People's Republic of Bulgaria"
+ BUL_revolutionary_socialism:0 "People's Republic of Bulgaria"
+ BUL_revolutionary_socialism_DEF:0 "The People's Republic of Bulgaria"
 
 # Portugal
  POR_fascist:0 "Portuguese Empire"
@@ -3021,7 +3021,7 @@
  PHI_libertarian_socialism:0 "Socialist Republic of the Philippines"
  PHI_libertarian_socialism_DEF:0 "The Socialist Republic of the Philippines"
  PHI_revolutionary_socialism:0 "People's Republic of the Philippines"
- PHI_revolutionary_socialism_DEF:0 "The People’s Republic of the Philippines"
+ PHI_revolutionary_socialism_DEF:0 "The People's Republic of the Philippines"
  
  NPA_annihilationism:0 ""
  NPA_annihilationism_DEF:0 ""
@@ -3826,7 +3826,7 @@
  HAI_libertarian_socialism:0 "Republic of Haiti"
  HAI_libertarian_socialism_DEF:0 "The Republic of Haiti"
  HAI_revolutionary_socialism:0 "People's Republic of Haiti"
- HAI_revolutionary_socialism_DEF:0 "The People’s Republic of Haiti"
+ HAI_revolutionary_socialism_DEF:0 "The People's Republic of Haiti"
  
  VEN_annihilationism:0 "Republic of Venezuela"
  VEN_annihilationism_DEF:0 "The Republic of Venezuela"
@@ -7329,7 +7329,7 @@
  BFR_libertarian_socialism:0 "Republic of Biafra"
  BFR_libertarian_socialism_DEF:0 "The Republic of Biafra"
  BFR_revolutionary_socialism:0 "People's Republic of Biafra"
- BFR_revolutionary_socialism_DEF:0 "The People’s Republic of Biafra"
+ BFR_revolutionary_socialism_DEF:0 "The People's Republic of Biafra"
 
  ### Slovenia
  SLV_fascist:1 "Slovenian State"
