@@ -1,5 +1,9 @@
 ﻿l_english:
 
+#### Parties ####
+POL_revolutionary_socialism_party:0 "PZPR"
+POL_revolutionary_socialism_party_long:0 "Polish United Workers' Party"
+
 #### IDEAS ####
 POL_catholic_resistance_idea:0 "Catholic Resistance"
 POL_catholic_resistance_idea_desc:0 "Poland has been traditionally a bastion of Roman Catholicism in Eastern Europe, and the Church plays an outsized role in society. Recently, this has become a greater and greater threat to the Socialist Movement, as Priests and even the Pope has visited his homeland to appeal to the masses to resist Communist rule. This stubbornness will only persist so long as the masses are attached to the opium of religion."

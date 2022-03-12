@@ -1,5 +1,9 @@
 ﻿l_english:
 
+#### Parties ####
+ADR_revolutionary_socialism_party:0 "KPÖ"
+ADR_revolutionary_socialism_party_long:0 "Communist Party of Austria"
+
 #### IDEAS ####
 ADR_brain_drain_idea:0 "Brain Drain"
 ADR_brain_drain_idea_desc:0 "Compared to other countries in the pact, travel outside the bloc has always been an easily acquired privilege that the workers of austria have been allowed. As a result East Austria has been haemorrhaging intellectual talent and skilled labourers in factories. The industry and research will never recover if the brains of Austria keep defecting to the west."

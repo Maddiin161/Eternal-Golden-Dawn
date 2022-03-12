@@ -1,5 +1,9 @@
 ﻿l_english:
 
+#### Parties ####
+HUN_revolutionary_socialism_party:0 "MSZMP"
+HUN_revolutionary_socialism_party_long:0 "Hungarian Socialist Workers' Party"
+
 #### IDEAS ####
 HUN_new_economic_mechanism_idea:0 "New Economic Mechanism"
 HUN_new_economic_mechanism_idea_desc:0 "In light of the Hungarian revolution in 56’, the economic reforms have allowed enterprises the freedom to adjust prices and production to fit market conditions. In addition, rights have been given to buyers allowing them to choose between domestic goods and imported. Foreign trade has also allowed western goods to flow within Hungary. However, problems of mounting foreign debt, combiend with subsidization of unprofitable industries has led to economic slowdown and inefficency. The NEM has been critized for being ineffective due to Hungarian factories churning out low-quality goods that are unsellable on the global market."
