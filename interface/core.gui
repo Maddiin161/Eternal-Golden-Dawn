@@ -495,7 +495,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "slow_text"
 			position = { x= 0 y = 0 }
-			font = "hoi_20b"
+			font = "cg_18b"
 			borderSize = {x = 0 y = 0}
 			text = "SLOW INTERFACE"
 			maxWidth = 200

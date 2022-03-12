@@ -1183,7 +1183,7 @@ bitmapfonts = {
 		fontfiles = {
 			"gfx/fonts/hoi_20b"
 		}
-		color = 0xffffffff
+		color = 0xff93C47D
 
 		textcolors = {
 			G = { 86 172 91 }
@@ -1609,13 +1609,22 @@ bitmapfonts = {
 	}
 
 	bitmapfont = {
-		name = "cg_16b"				####### GENERAL TOOLTIP FONT ########
-#		path = "gfx/fonts/cg_16b"
-		fontfiles = {
-			"gfx/fonts/cg_16b"
-			"gfx/fonts/hoi_16tooltip3"
-		}
+		name = "cg_16b"			####### GENERAL TOOLTIP FONT ########
+		path = "gfx/fonts/vt323_22_glow"
 		color = 0xffffffff
+		textcolors = {
+			M = { 35 206 255 }
+			L = { 250 249 247 }
+			W = { 221 221 221 }
+			B = { 47 138 135 }
+			G = { 76 168 84 }
+			R = { 163 42 31 }
+			b = { 0 0 0 }
+			g = { 176 176 176 }
+			Y = { 220 218 80 }
+			H = { 46 164 27 }
+			T = { 221 221 221 }
+		}
 	}
 
 	bitmapfont_override = {
@@ -1628,8 +1637,21 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "cg_18b"
-		path = "gfx/fonts/cg_18b"
-		color = 0xffffffff
+		path = "gfx/fonts/vt323_22_outline"
+		color = 0xff6AA84F
+		textcolors = {
+			M = { 35 206 255 }
+			L = { 195 176 145 }
+			W = { 47 138 135 }
+			B = { 47 138 135 }
+			G = { 76 168 84 }
+			R = { 163 42 31 }
+			b = { 0 0 0 }
+			g = { 176 176 176 }
+			Y = { 220 218 80 }
+			H = { 220 218 80 }
+			T = { 47 138 135 }
+		}
 	}
 
 	corneredTileSpriteType = {

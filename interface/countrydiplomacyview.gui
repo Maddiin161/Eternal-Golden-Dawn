@@ -392,25 +392,25 @@ guiTypes = {
 				
 				iconType = {
 					name = "diplo_nat_spirits_bg"
-					#spriteType = "GFX_diplo_nat_spirits_bg"
-					position = { x = -2 y = -14 }
+					spriteType = "GFX_diplo_nat_spirits_bg"
+					position = { x = -2 y = -11 }
 				}
 				
 				
-				instantTextBoxType = {
-					name = "spirit_title"
-					position = { x = 0 y = 0 }
-					font = "hoi_18mbs"
-					borderSize = {x = 0 y = 0}
-					text = "FE_COUNTRY_SPIRIT"
-					maxWidth = 240
-					maxHeight = 30	
-				}
+				#instantTextBoxType = {
+					#name = "spirit_title"
+					#position = { x = 20 y = -1 }
+					#font = "vt323_20_glow"
+					#borderSize = {x = 0 y = 0}
+					#text = "FE_COUNTRY_SPIRIT"
+					#maxWidth = 240
+					#maxHeight = 30	
+				#}
 				
 				containerWindowType = {
 					name = "national_spirit_container"
-					position = { x = 127 y = 0 }
-					size = { width = 385 height = 80 }
+					position = { x = 15 y = 3 }
+					size = { width = 500 height = 80 }
 					horizontalScrollbar = "bottom_horizontal_slider"
 					
 					background = {
