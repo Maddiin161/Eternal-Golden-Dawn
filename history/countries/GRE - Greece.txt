@@ -37,7 +37,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Charilaos Florakis" 
-	desc = ""
+	desc = "GRE_Charilaos_Florakis_desc"
 	picture = "Charilaos_Florakis.dds"
 	expire = "2003.3.1"
 	ideology = marxism_leninism

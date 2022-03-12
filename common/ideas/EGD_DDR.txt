@@ -98,7 +98,9 @@ ideas = {
 				removal_cost = -1
 				
 				modifier = {
-					
+					trade_laws_cost_factor = 0.25
+					political_power_gain = -0.20
+					economy_cost_factor = 0.25
 				}
 			}
 		}

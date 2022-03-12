@@ -71,6 +71,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/GRE/idea_GRE_recovering_economy.dds"
 	}
 
+	SpriteType = { 
+		name = "GFX_idea_GRE_democratic_experiment"
+		texturefile = "gfx/interface/ideas/GRE/idea_GRE_democratic_experiment.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_idea_GRE_fresh_socialism_idea"
+		texturefile = "gfx/interface/ideas/GRE/idea_GRE_fresh_socialism.dds"
+	}
+
 	#### ROM ####
 
 	SpriteType = { 
@@ -78,11 +88,95 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ROM/idea_ROM_aggressive_natalism.dds"
 	}
 
+	SpriteType = { 
+		name = "GFX_idea_ROM_industrialization_effort"
+		texturefile = "gfx/interface/ideas/ROM/idea_ROM_industrialization_effort.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_ROM_securiate"
+		texturefile = "gfx/interface/ideas/ROM/idea_ROM_securiate.dds"
+	}
+
+
 	#### CZE ####
 
 	SpriteType = { 
 		name = "GFX_idea_CZE_dissident_movement"
 		texturefile = "gfx/interface/ideas/CZE/idea_CZE_dissident_movement.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_CZE_legacy_of_prague_spring"
+		texturefile = "gfx/interface/ideas/CZE/idea_CZE_legacy_of_prague_spring.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_CZE_successful_federalization"
+		texturefile = "gfx/interface/ideas/CZE/idea_CZE_successful_federalization.dds"
+	}
+
+	#### HUN ####
+
+	SpriteType = { 
+		name = "GFX_idea_HUN_new_economic_mechanism"
+		texturefile = "gfx/interface/ideas/HUN/idea_HUN_new_economic_mechanism.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_HUN_limited_political_liberalization"
+		texturefile = "gfx/interface/ideas/HUN/idea_HUN_limited_political_liberalization.dds"
+	}
+
+	#### BUL ####
+
+	SpriteType = { 
+		name = "GFX_idea_BUL_zhikov_era"
+		texturefile = "gfx/interface/ideas/BUL/idea_BUL_zhikov_era.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_BUL_economic_stability"
+		texturefile = "gfx/interface/ideas/BUL/idea_BUL_economic_stability.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_BUL_tourist_hub_of_the_eastern_bloc"
+		texturefile = "gfx/interface/ideas/BUL/idea_BUL_tourist_hub_of_the_eastern_bloc.dds"
+	}
+
+	#### POL ####
+
+	SpriteType = { 
+		name = "GFX_idea_POL_catholic_resistance"
+		texturefile = "gfx/interface/ideas/POL/idea_POL_catholic_resistance.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_POL_memories_of_the_gierek_decade"
+		texturefile = "gfx/interface/ideas/POL/idea_POL_memories_of_the_gierek_decade.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_POL_harsh_repression"
+		texturefile = "gfx/interface/ideas/POL/idea_POL_harsh_repression.dds"
+	}
+
+	#### ADR ####
+
+	SpriteType = { 
+		name = "GFX_idea_ADR_brain_drain_idea"
+		texturefile = "gfx/interface/ideas/ADR/idea_ADR_brain_drain_idea.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_ADR_nascent_industrial_development_idea"
+		texturefile = "gfx/interface/ideas/ADR/idea_ADR_nascent_industrial_development_idea.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_ADR_identityless_nation_idea"
+		texturefile = "gfx/interface/ideas/ADR/idea_ADR_identityless_nation_idea.dds"
 	}
 
 	#### BFR ####

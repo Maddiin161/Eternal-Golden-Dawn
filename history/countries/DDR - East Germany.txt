@@ -40,7 +40,7 @@ add_ideas = {
 ### LEADERS ###
 create_country_leader = {
 	name = "Erich Honecker"
-	desc = ""
+	desc = "ERICH_HONECKER_DESC"
 	picture = "Erich_Honecker.dds"
 	expire = "1989.1.1"
 	ideology = marxism_leninism

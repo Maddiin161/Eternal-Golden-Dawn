@@ -33,7 +33,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "János Kádár"
-	desc = ""
+	desc = "HUN_Kadar_desc"
 	picture = "Janos_Kadar.dds"
 	expire = "2000.1.1"
 	ideology = marxism_leninism

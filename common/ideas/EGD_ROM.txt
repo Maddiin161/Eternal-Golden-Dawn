@@ -40,7 +40,7 @@ ideas = {
 				}
 			}
 		ROM_securiate_idea = {
-				picture =ROM_securiate
+				picture = ROM_securiate
 
 				allowed = {
 					always = no

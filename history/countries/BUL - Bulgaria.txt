@@ -36,7 +36,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Todor Zhivkov" 
-	desc = ""
+	desc = "ROM_Todor_Zhikov_desc"
 	picture = "Todor_Zhivkov.dds"
 	expire = "1992.3.1"
 	ideology = marxism_leninism

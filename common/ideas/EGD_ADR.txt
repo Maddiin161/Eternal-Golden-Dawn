@@ -1,0 +1,61 @@
+ideas = {	
+		country = {
+
+		ADR_brain_drain_idea = {
+				picture = ADR_brain_drain
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					research_speed_factor = -0.15
+					revolutionary_socialist_drift = 0.01
+					production_factory_max_efficiency_factor = -0.1
+				}
+			}
+		ADR_nascent_industrial_development_idea = {
+				picture = ADR_nascent_industrial_development
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_speed_buildings_factor = -0.1
+					production_factory_efficiency_gain_factor = -0.1
+					production_factory_start_efficiency_factor = -0.15
+				}
+			}
+		ADR_identityless_nation_idea = {
+				picture = ADR_identityless_nation
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = -0.15
+					war_support_factor = -.10
+				}
+			}
+		}
+	}

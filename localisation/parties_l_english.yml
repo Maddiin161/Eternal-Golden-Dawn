@@ -3,58 +3,72 @@
  revolutionary_socialism:0 "Revolutionary Socialism"
  revolutionary_socialism_noun:0 "Revolutionary Socialist"
  revolutionary_socialism_desc:0 "Socialist Regime"
- 
+ revolutionary_socialism_drift: "Drift to Revolutionary Socialism"
+
  libertarian_socialism:0 "Independent Socialism"
  libertarian_socialism_noun:0 "Independent Socialist"
  libertarian_socialism_desc:0 "Socialist Regime"
- 
+ libertarian_socialism_drift: "Drift to Independent Socialism"
+
  social_democracy:0 "Social Democracy"
  social_democracy_noun:0 "Social Democrat"
  social_democracy_desc:0 "Democratic Regime"
+ social_democracy_drift: "Drift to Social Democracy"
  
  social_liberalism:0 "Social Liberalism"
  social_liberalism_noun:0 "Social Liberal"
  social_liberalism_desc:0 "Democratic Regime"
+ social_liberalism_drift: "Drift to Social Liberalism"
  
  market_liberalism:0 "Market Liberalism"
  market_liberalism_noun:0 "Market Liberal"
  market_liberalism_desc:0 "Democratic Regime"
- 
+ market_liberalism_drift: "Drift to Market Liberalism"
+
  social_conservatism:0 "Social Conservatism"
  social_conservatism_noun:0 "Social Conservative"
  social_conservatism_desc:0 "Democratic Regime"
- 
+ social_conservatism_drift: "Drift to Social Conservatism"
+
  corporate_oligarchy:0 "Corporate Oligarchy"
  corporate_oligarchy_noun:0 "Corporate Oligarchy"
  corporate_oligarchy_desc:0 "Corporate Regime"
- 
+ corporate_oligarchy_drift: "Drift to Corporate Oligarchy"
+
  despotism:0 "Despotism"
  despotism_noun:0 "Despot"
  despotism_desc:0 "Authoritarian Regime"
- 
+ despotism_drift: "Drift to Despotism"
+
  authoritarian_democracy:0 "Authoritarian Democracy"
  authoritarian_democracy_noun:0 "Authoritarian Democrat"
  authoritarian_democracy_desc:0 "Authoritarian Regime"
-  
+ authoritarian_democracy_drift: "Drift to Authoritarian Democracy"
+
  islamism:0 "Islamism"
  islamism_noun:0 "Islamist"
  islamism_desc:0 "Islamist Regime" 
-  
+ islamism_drift: "Drift to Islamism"
+
  autocracy:0 "Autocracy"
  autocracy_noun:0 "Autocrat"
  autocracy_desc:0 "Authoritarian Regime"
+ autocracy_drift: "Drift to Autocracy"
 
  ultranationalism:0 "Ultranationalism"
  ultranationalism_noun:0 "Ultranationalist"
  ultranationalism_desc:0 "Authoritarian Regime"
- 
+ ultranationalism_drift: "Drift to Ultranationalism"
+
  tranhumanism:0 "Transhumanism"
  tranhumanism_noun:0 "Transhumanist"
  tranhumanism_desc:0 "Transhumanist Project"
- 
+ tranhumanism_drift: "Drift to Transhumanist"
+
  annihilationism:0 "Annihilationism"
  annihilationism_noun:0 "Annihilationist"
  annihilationism_desc:0 "Annihilationist Zone"
+ annihilationism_drift: "Drift to Annihilationism"
 
 # Revolutionary Socialist Ideologies
 

@@ -36,7 +36,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Gustáv Husák" 
-	desc = ""
+	desc = "CZE_gustav_husak_desc"
 	picture = "Gustav_Husak.dds"
 	expire = "1992.3.1"
 	ideology = marxism_leninism

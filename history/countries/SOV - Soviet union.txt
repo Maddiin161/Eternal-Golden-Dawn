@@ -55,7 +55,7 @@ add_ideas = {
 ### LEADERS ###
 create_country_leader = {
 	name = "Leonid Brezhnev"
-	desc = "leonid_brezhnev_desc"
+	desc = "SOV_leonid_brezhnev_desc"
 	picture = "Leonid_Brezhnev.dds"
 	expire = "1982.1.1"
 	ideology = marxism_leninism
