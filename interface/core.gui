@@ -48,7 +48,7 @@ guiTypes = {
 		
 		# Console entry
 		instantTextBoxType={
-			position = { x=10 y=70 }
+			position = { x=22 y=78 }
 			name = "console_text"
 			#textureFile = "gfx\\interface\\tiles\\tiles_dialog.tga"
 			font = "Arial12"
@@ -75,7 +75,7 @@ guiTypes = {
 		name = "ToolTip"
 		#textureFile = "gfx\\interface\\transparency.tga"
 		textureFile = "gfx\\interface\\tiles\\tiles_dialog.tga"
-		font = "cg_16b"
+		font = "IBM_EGA_18_outline"
 		borderSize = { x=18 y=18 }
 		position = { x= 560 y=10 }
 		maxWidth = 400 #600 #320

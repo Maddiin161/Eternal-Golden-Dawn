@@ -413,7 +413,6 @@ bitmapfonts = {
 			s = { 137 137 137 }
 		}
 	}
-
 	bitmapfont = {
 		name = "Bomb_16"
 		path = "gfx/fonts/Bomb_16"

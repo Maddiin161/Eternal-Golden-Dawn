@@ -55,10 +55,10 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "country_name"
-				position = { x = 220 y = 3 }
-				font = "vt323_20_glow"
+				position = { x = 220 y = 8 }
+				font = "IBM_EGA_16_outline"
 				text = "Germanian"
-				maxWidth = 173
+				maxWidth = 190
 				fixedsize = yes
 				maxHeight = 20
 				format = left
@@ -72,8 +72,8 @@ guiTypes = {
 			
 				instantTextboxType = {
 					name = "faction_name"
-					position = { x = 0 y = 0 }
-					font = "vt323_20_glow"
+					position = { x = 0 y = 2 }
+					font = "IBM_EGA_16_outline"
 					text = "faction"
 					maxWidth = 173
 					maxHeight = 20
@@ -85,7 +85,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "leader_name"
 				position = { x = 220 y = 40 }
-				font = "vt323_20_glow"
+				font = "IBM_EGA_16_outline"
 				text = "Rudolf Kittler"
 				maxWidth = 173
 				maxHeight = 20
@@ -114,8 +114,8 @@ guiTypes = {
 				
 				instantTextboxType = {
 					name = "our_opinion_value"
-					position = { x = 69 y = -5 }
-					font = "vt323_20_glow"
+					position = { x = 69 y = 0 }
+					font = "IBM_EGA_16_outline"
 					text = "+50"
 					maxWidth = 30
 					maxHeight = 20
@@ -131,8 +131,8 @@ guiTypes = {
 				
 				instantTextboxType = {
 					name = "their_opinion_value"
-					position = { x = 37 y = 38 }
-					font = "vt323_20_glow"
+					position = { x = 37 y = 40 }
+					font = "IBM_EGA_16_glow"
 					text = "-100"
 					maxWidth = 30
 					maxHeight = 20
@@ -149,8 +149,8 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "stability_value"
-				position = { x = 460 y = 35 } #position = { x = 369 y = 42 }
-				font = "vt323_20_glow"
+				position = { x = 462 y = 38 } #position = { x = 369 y = 42 }
+				font = "IBM_EGA_16_outline"
 				text = "100%"
 				maxWidth = 44
 				maxHeight = 20
@@ -166,8 +166,8 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "war_support_value"
-				position = { x = 488 y = 35 } #osition = { x = 414 y = 42 }
-				font = "vt323_20_glow"
+				position = { x = 490 y = 38 } #osition = { x = 414 y = 42 }
+				font = "IBM_EGA_16_outline"
 				text = "100%"
 				maxWidth = 44
 				maxHeight = 20
@@ -189,7 +189,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_tab_intel_ledger"
 				position = { x=15 y=68 }
 				buttonText = "DIPLOMACY_RELATIONS_TAB"
-				font = "vt323_24_glow"
+				font = "IBM_EGA_20_outline"
 
 			}
 		
@@ -198,7 +198,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_tab_intel_ledger"
 				position = { x=270 y= 68 }
 				buttonText = "DIPLOMACY_INFO_TAB"
-				font = "vt323_24_glow"
+				font = "IBM_EGA_20_outline"
 			}
 			
 			#------------------------- END TAB BUTTONS ----------------------------
@@ -252,14 +252,14 @@ guiTypes = {
 				
 				containerWindowType = {
 					name = "ruling_party_info"
-					position = { x = 255 y = 20 }
+					position = { x = 255 y = 24 }
 					size = { width = 255 height = 60 }
 					clipping = no
 							
 					instantTextboxType = {
 						name = "party_name"
 						position = { x = 5 y = -5 }
-						font = "vt323_22_glow"
+						font = "IBM_EGA_16_outline"
 						text = "party"
 						maxWidth = 245
 						maxHeight = 20
@@ -268,8 +268,8 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "ideology_name"
-						position = { x = 5 y = 10 }
-						font = "vt323_22_glow"
+						position = { x = 5 y = 12 }
+						font = "IBM_EGA_16_outline"
 						text = "ideology"
 						maxWidth = 245
 						maxHeight = 20
@@ -277,8 +277,8 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "elections"
-						position = { x = 5 y = 25 }
-						font = "vt323_22_glow"
+						position = { x = 5 y = 30 }
+						font = "IBM_EGA_16_outline"
 						text = "elections"
 						maxWidth = 245
 						maxHeight = 20
@@ -308,8 +308,8 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "national_focus_label"
-						position = { x = 161 y = 26 }
-						font = "vt323_18_glow"
+						position = { x = 161 y = 28 }
+						font = "IBM_EGA_16_outline"
 						text = "POLITICS_ACTIVE_GOAL"
 						maxWidth = 200
 						maxHeight = 20
@@ -737,9 +737,9 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "player_name"
-				position = { x = 35 y = 0 }
+				position = { x = 30 y = 6 }
 				textureFile = ""
-				font = "vt323_22_glow"
+				font = "IBM_EGA_18_outline"
 				borderSize = {x = 0 y = 0}
 				text = "Player"
 				maxWidth = 175
@@ -753,9 +753,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "diplomacy_title"
-			position = { x = 45 y = 8 }
+			position = { x = 40 y = 17 }
 			textureFile = ""
-			font = "vt323_22_glow"
+			font = "IBM_EGA_20_outline"
 			borderSize = {x = 0 y = 0}
 			text = "DIPLOMACY_DIPLOMACY"
 			maxWidth = 240

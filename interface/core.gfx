@@ -1183,7 +1183,7 @@ bitmapfonts = {
 		fontfiles = {
 			"gfx/fonts/hoi_20b"
 		}
-		color = 0xff93C47D
+		color = 0xffffffff
 
 		textcolors = {
 			G = { 86 172 91 }

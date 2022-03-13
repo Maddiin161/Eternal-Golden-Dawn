@@ -26,9 +26,9 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "political_title"
-			position = { x = 38 y = 13 }
+			position = { x = 30 y = 17 }
 			textureFile = ""
-			font = "vt323_22_glow"
+			font = "IBM_EGA_20_outline"
 			borderSize = {x = 0 y = 0}
 			text = "Political Status"
 			maxWidth = 400
@@ -153,17 +153,17 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "ideology"
-				position = { x = 20 y = 8 }
-				font = "vt323_18_glow"
+				position = { x = 19 y = 8 }
+				font = "IBM_EGA_16_outline"
 				text = "ideology"
-				maxWidth = 155
+				maxWidth = 150
 				maxHeight = 20
 			}
 			
 			instantTextboxType = {
 				name = "elections"
-				position = { x = 22 y = 34 }
-				font = "vt323_16_glow"
+				position = { x = 19 y = 40 }
+				font = "IBM_EGA_16_outline"
 				text = "elections"
 				maxWidth = 155
 				maxHeight = 20
@@ -329,8 +329,8 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "title"
-				position = { x = 32 y = 34 }
-				font = "vt323_22_glow"
+				position = { x = 30 y = 36 }
+				font = "IBM_EGA_20_outline"
 				text = "POLITICS_ACTIVE_GOAL"
 				maxWidth = 200
 				maxHeight = 20
@@ -353,13 +353,14 @@ guiTypes = {
 						
 			instantTextboxType = {
 				name = "title"
-				position = { x = 108 y = -6 }
-				font = "vt323_18_glow"
+				position = { x = 110 y = -2 }
+				font = "IBM_EGA_18_outline"
 				text = "POLITICS_NATIONAL_SPIRIT"
 				maxWidth = 200
 				maxHeight = 20
 				alwaystransparent = yes
 			}
+			
 			
 			
 			containerWindowType = {
@@ -406,8 +407,8 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "leader_name"
-			position = { x = 18 y = 265 }
-			font = "vt323_18_glow"
+			position = { x = 15 y = 267 }
+			font = "IBM_EGA_18_outline"
 			text = "leader_name"
 			maxWidth = 155
 			maxHeight = 20
@@ -576,7 +577,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "title"
 			position = { x = 0 y = 4 }
-			font = "vt323_18_glow"
+			font = "vt323_18_outline"
 			text = "Economic Laws"
 			maxWidth = 450
 			maxHeight = 20
@@ -1035,7 +1036,7 @@ guiTypes = {
 			}
 			
 			iconType = {
-				name = "next_level_glow"
+				name = "next_level_outline"
 				position = { x = 202 y = -12 }
 				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
 				alwaystransparent = yes				
