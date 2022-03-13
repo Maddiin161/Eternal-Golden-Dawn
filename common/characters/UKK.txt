@@ -1,6 +1,7 @@
 characters = {
 
 	UKK_Margaret_Thatcher = {
+	name = "Margaret Thatcher"
 		portraits={
 			civilian = {
 				large = "gfx/leaders/UKK/Margaret_Thatcher.dds"

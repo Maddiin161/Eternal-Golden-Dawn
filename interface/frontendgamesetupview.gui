@@ -493,7 +493,6 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			clicksound = click_close
 			oversound = ui_menu_over
-			shortcut = "ESCAPE"
 		}
 		
 		buttonType = {
@@ -589,7 +588,6 @@ guiTypes = {
 			Orientation = "LOWER_LEFT"
 			clicksound = click_close
 			oversound = ui_menu_over
-			shortcut = "ESCAPE"
 		}
 
 		ButtonType = {

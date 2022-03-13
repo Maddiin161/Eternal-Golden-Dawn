@@ -186,4 +186,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_BFR_national_resistance.dds"
 	}
 	
+	#### UKK ####
+
+	SpriteType = { 
+		name = "GFX_idea_UKK_IRA_Terrorism"
+		texturefile = "gfx/interface/ideas/UKK/UKK_IRA_Terrorism.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_UKK_Overbearing_Unions"
+		texturefile = "gfx/interface/ideas/UKK/UKK_Overbearing_Unions.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_UKK_Recession"
+		texturefile = "gfx/interface/ideas/UKK/UKK_Recession.dds"
+	}
  }

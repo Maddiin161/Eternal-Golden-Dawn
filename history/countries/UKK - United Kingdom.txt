@@ -1,5 +1,14 @@
 ﻿capital = 126
-	
+
+UKK = {
+recruit_character = UKK_Margaret_Thatcher
+}
+
+add_ideas = {
+    UKK_IRA_Terrorism
+	UKK_Overbearing_Unions
+	UKK_Recession
+}
 set_politics = {
 	ruling_party = social_conservatism
 	last_election = "1979.1.7"
@@ -17,10 +26,6 @@ set_popularities = {
 	social_liberalism = 14
 	social_democracy = 20
 	libertarian_socialism = 17
-	revolutionary_socialism = 2
+	revolutionary_socialism = 1
 }
-add_ideas = {
-	ENG_80s_recession
-	ENG_rampant_terrorism
-	ENG_overbearing_unions
-}
+

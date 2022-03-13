@@ -1,0 +1,58 @@
+ideas = {	
+		country = {
+
+		UKK_IRA_Terrorism = {
+				picture = UKK_IRA_Terrorism
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_weekly = -0.05
+					resistance_growth_on_our_occupied_states = -0.25
+				}
+			}
+		UKK_Overbearing_Unions = {
+				picture = ADR_nascent_industrial_development
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+	                production_speed_buildings_factor = -0.05 
+				}
+			}
+		UKK_Recession = {
+				picture = UKK_Recession
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					political_power_gain = -0.5
+					stability_factor = -0.15
+				}
+			}
+		}
+	}
