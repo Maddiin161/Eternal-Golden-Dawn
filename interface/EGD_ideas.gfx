@@ -202,4 +202,26 @@ spriteTypes = {
 		name = "GFX_idea_UKK_Recession"
 		texturefile = "gfx/interface/ideas/UKK/UKK_Recession.dds"
 	}
+
+	#### SYR ####
+
+	SpriteType = { 
+		name = "GFX_idea_SYR_politburo_of_damascus"
+		texturefile = "gfx/interface/ideas/SYR/SYR_politburo_of_damascus.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_idea_SYR_we_bleed_for_you_golan"
+		texturefile = "gfx/interface/ideas/SYR/SYR_we_bleed_for_you_golan.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_SYR_my_neighbor_is_a_terrorist"
+		texturefile = "gfx/interface/ideas/SYR/SYR_my_neighbor_is_a_terrorist.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_SYR_kata_ib_muhammad"
+		texturefile = "gfx/interface/ideas/SYR/SYR_kata_ib_muhammad.dds"
+	}
  }

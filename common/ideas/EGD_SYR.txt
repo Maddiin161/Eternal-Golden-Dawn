@@ -1,0 +1,78 @@
+ideas = {	
+		country = {
+
+		SYR_kata_ib_muhammad_idea = {
+				picture = SYR_kata_ib_muhammad
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = -0.15
+					political_power_gain = -0.25
+				}
+			}
+
+		SYR_we_bleed_for_you_golan_idea = {
+				picture = SYR_we_bleed_for_you_golan
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					army_core_attack_factor = 0.05
+					army_core_defence_factor = 0.05
+				}
+			}
+		SYR_my_neighbor_is_a_terrorist_idea = {
+				picture = SYR_my_neighbor_is_a_terrorist
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				targeted_modifier = {
+					tag = LEB
+					attack_bonus_against = -0.25
+					defense_bonus_against = 0.25
+				}
+			}
+		SYR_politburo_of_damascus_idea = {
+				picture = SYR_politburo_of_damascus
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					political_power_gain = -0.25
+				}
+			}
+		}
+	}

@@ -30,6 +30,13 @@ set_politics = {
 	revolutionary_socialism = 5
 }
 
+add_ideas = {
+	SYR_kata_ib_muhammad_idea
+	SYR_we_bleed_for_you_golan_idea
+	SYR_my_neighbor_is_a_terrorist_idea
+	SYR_politburo_of_damascus_idea
+}
+
 create_country_leader = {
 	name = "Hafez al-Assad" 
 	desc = ""
