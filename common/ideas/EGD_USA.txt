@@ -1,0 +1,123 @@
+ideas = {	
+		country = {
+
+		USA_the_societal_revolution_idea = {
+				picture = USA_the_societal_revolution
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					monthly_population = 0.20
+					social_conservatism_drift = 0.02
+					stability_factor = -0.05
+				}
+			}
+		USA_decaying_cities_idea = {
+				picture = USA_decaying_cities
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					consumer_goods_factor = 0.15
+					production_speed_industrial_complex_factor = -0.10
+					production_speed_infrastructure_factor = -0.10
+					industrial_capacity_factory = -0.10
+				}
+			}
+		USA_sun_belt_idea = {
+				picture = USA_sun_belt
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					social_conservatism_drift = 0.04
+					###GDP modifiers regarding welfare cost
+					stability_factor = 0.03
+				}
+			}
+		USA_conflicts_in_washington_idea = {
+				picture = USA_conflicts_in_washington
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					political_power_cost = -0.3
+					trade_laws_cost_factor = 0.25
+					economy_cost_factor = 0.25
+				}
+			}
+		USA_american_malaise_idea = {
+				picture = USA_american_malaise
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					### Some GDP modifiers once the econ stuff is in
+					war_support = -0.10
+					stability_factor = -0.10
+					production_factory_max_efficiency_factor = -0.15
+				}
+			}
+		USA_echos_of_the_terrorist_generation_idea = {
+				picture = USA_echos_of_the_terrorist_generation
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					party_popularity_stability_factor = -0.3
+					revolutionary_socialism_drift = 0.01 
+					independent_socialism_drift = 0.01 
+					ultranationalism_drift = 0.01 
+					annihilationism _drift = 0.01 
+				}
+			}
+		}
+	}

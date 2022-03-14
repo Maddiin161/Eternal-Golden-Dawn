@@ -39,6 +39,15 @@ set_politics = {
 		elections_allowed = yes
 }
 
+add_ideas = {
+	USA_the_societal_revolution_idea
+	USA_decaying_cities_idea
+	USA_sun_belt_idea
+	USA_conflicts_in_washington_idea
+	USA_american_malaise_idea
+	USA_echos_of_the_terrorist_generation_idea
+}
+
 create_country_leader = {
 	name = "Jimmy Carter"
 	desc = ""

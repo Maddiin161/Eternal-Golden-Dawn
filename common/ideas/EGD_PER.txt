@@ -1,0 +1,97 @@
+ideas = {	
+		country = {
+
+		PER_banisadr_and_hundred_reasons_of_why_we_hate_him_idea = {
+				picture = PER_banisadr_and_hundred_reasons_of_why_we_hate_him
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = -0.05
+					political_power_gain = -0.25
+				}
+			}
+		PER_brushing_the_peoples_mujahideen_aside_idea = {
+				picture = PER_brushing_the_peoples_mujahideen_aside
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = -0.10
+					independent_socialist_drift = 0.03
+					army_org_factor = -0.10
+				}
+			}
+		PER_consolidating_the_revolution_idea = {
+				picture = PER_consolidating_the_revolution
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = -0.10
+					consumer_goods_factor = 0.10
+					attrition = 0.15
+				}
+			}
+		PER_hostage_crisis_tense_idea = {
+				picture = PER_hostage_crisis_tense
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					war_support_factor = 0.15
+					islamism_drift = 0.10
+					army_morale_factor = 0.15
+				}
+			}
+		PER_oppressed_above_the_arrogant_idea = {
+				picture = PER_oppressed_above_the_arrogant
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					custom_modifier_tooltip = PER_nato_modifier_1
+				}
+			}
+		}
+	}
