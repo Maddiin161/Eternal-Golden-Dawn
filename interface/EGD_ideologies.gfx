@@ -70,6 +70,54 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/eurocommunism.dds"
 	}
 	
+#soc dem
+
+spriteType = {
+		name = "GFX_ideology_left_wing_populism"
+		texturefile = "gfx/interface/ideologies/left_wing_populism.dds"
+	}
+	
+#soc lib
+
+    spriteType = {
+		name = "GFX_ideology_neoliberalism"
+		texturefile = "gfx/interface/ideologies/neoliberalism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_progress_liberalism"
+		texturefile = "gfx/interface/ideologies/progress_liberalism.dds"
+	}
+	
+#market lib
+
+    spriteType = {
+		name = "GFX_ideology_populism"
+		texturefile = "gfx/interface/ideologies/populism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_christian_demorcracy"
+		texturefile = "gfx/interface/ideologies/christian_demorcracy.dds"
+	}
+	
+#conserva
+
+    spriteType = {
+		name = "GFX_ideology_liberal_conservatism"
+		texturefile = "gfx/interface/ideologies/liberal_conservatism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_national_conservatism"
+		texturefile = "gfx/interface/ideologies/national_conservatism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_neoconservatism"
+		texturefile = "gfx/interface/ideologies/neoconservatism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_right_wing_populism"
+		texturefile = "gfx/interface/ideologies/right_wing_populism.dds"
+	}
+	
 # islamism
 
 	spriteType = {
