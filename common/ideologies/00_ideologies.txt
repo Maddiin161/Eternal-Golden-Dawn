@@ -67,6 +67,8 @@ ideologies = {
 			eco_socialism = {
 			}
 			agrarian_socialism = {
+			}
+			eurocommunism = {
 			}			
 			islamic_socialism =  {
 				can_be_randomly_selected = no
@@ -116,6 +118,8 @@ ideologies = {
 			}
 			lumumbism = {
 			}
+			left_wing_populism = {
+			}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_DEMOCRATIC_1"
@@ -152,6 +156,10 @@ ideologies = {
 	social_liberalism = {
 		types = {
 			social_liberalism_ideology = {}
+			neo_liberalism = {
+			}
+			progress_liberalism = {
+			}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_DEMOCRATIC_1"
@@ -191,7 +199,7 @@ ideologies = {
 			}
 			christian_demorcracy = {
 			}
-			centrist_democracy = {
+			populism = {
 			}				
 		}
 		dynamic_faction_names = {
@@ -232,7 +240,9 @@ ideologies = {
 			national_conservatism = {
 			}
 			neoconservatism = {
-			}	
+			}
+			right_wing_populism = {
+			}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_DEMOCRATIC_1"
@@ -265,13 +275,16 @@ ideologies = {
 
 	corporate_oligarchy = {
 		types = {
+			corporate_oligarchy = {
+			}
 			corporatism = {
 			}
 			absolutist_corporatism = {
 			}
-			corporate_oligarchy = {
-			}
 			drug_cartel = {
+				can_be_randomly_selected = no			
+			}		
+			party_despotism = {
 				can_be_randomly_selected = no			
 			}			
 		}
@@ -303,12 +316,6 @@ ideologies = {
 	despotism = {
 		types = {
 			monarchism = {
-			}
-			constitutional_monarchy = {
-			}
-			aristocracy = {
-			}
-			central_dictatorship = {
 			}
 			theocracy = {
 			}			
@@ -342,8 +349,6 @@ ideologies = {
 			}
 			khomeinism = {
 				can_be_randomly_selected = no			
-			}
-			islamic_fundamentalism = {
 			}
 			salafi_jihadism = {
 			}
@@ -415,11 +420,19 @@ ideologies = {
 			}
 			military_dictatorship = {
 			}
+			military_socialism = {
+			    can_be_randomly_selected = no
+			}
 			mercenary_junta = {
+			    can_be_randomly_selected = no
 			}			
 			personalist_dictatorship = {
 			}
+			neo_sovietism = {
+				can_be_randomly_selected = no
+			}
 			baathism_iraqi = {
+			    can_be_randomly_selected = no
 			}				
 		}
 		dynamic_faction_names = {
@@ -450,14 +463,26 @@ ideologies = {
 			ultranationalism_ideology = {
 			}
 			ethnic_nationalism = {
+			}	
+			ecofascism = {
 			}
-			religious_nationalism = {
-			}			
 			neo_fascism = {
 			}	
 			neo_nazism = {
 				can_be_randomly_selected = no			
-			}				
+			}		
+			esoteric_nazism = {
+				can_be_randomly_selected = no			
+			}		
+			ethno_cacerism = {
+				can_be_randomly_selected = no			
+			}	
+			national_bolshevism = {
+				can_be_randomly_selected = no			
+			}
+			mystic_nationalism = {
+				can_be_randomly_selected = no			
+			}							
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_FASCIST_1"

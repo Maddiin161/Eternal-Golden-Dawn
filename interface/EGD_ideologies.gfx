@@ -55,11 +55,19 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_ideology_eco_socialism"
-		texturefile = "gfx/interface/ideologies/agrarian_socialism.dds"
+		texturefile = "gfx/interface/ideologies/eco_socialism.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_independent_marxism"
 		texturefile = "gfx/interface/ideologies/independent_marxism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_islamic_socialism"
+		texturefile = "gfx/interface/ideologies/islamic_socialism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_eurocommunism"
+		texturefile = "gfx/interface/ideologies/eurocommunism.dds"
 	}
 	
 # islamism
@@ -78,9 +86,73 @@ spriteTypes = {
 		name = "GFX_ideology_islamic_nationalism"
 		texturefile = "gfx/interface/ideologies/islamic_nationalism.dds"
 	}
+	
+# auth dem
 
+	spriteType = {
+		name = "GFX_ideology_military_junta"
+		texturefile = "gfx/interface/ideologies/military_junta.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_emergency_government"
+		texturefile = "gfx/interface/ideologies/emergency_government.dds"
+	}
+	
+# despotism
+
+	spriteType = {
+		name = "GFX_ideology_monarchism"
+		texturefile = "gfx/interface/ideologies/monarchism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_theocracy"
+		texturefile = "gfx/interface/ideologies/theocracy.dds"
+	}
+	
+# corporate oligarchy
+
+    spriteType = {
+		name = "GFX_ideology_corporate_oligarchy"
+		texturefile = "gfx/interface/ideologies/corporate_oligarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_corporatism"
+		texturefile = "gfx/interface/ideologies/corporatism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_absolutist_corporatism"
+		texturefile = "gfx/interface/ideologies/absolutist_corporatism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_drug_cartel"
+		texturefile = "gfx/interface/ideologies/drug_cartel.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_party_despotism"
+		texturefile = "gfx/interface/ideologies/party_despotism.dds"
+	}
+	
 # autocracy
-
+	spriteType = {
+		name = "GFX_ideology_military_dictatorship"
+		texturefile = "gfx/interface/ideologies/military_dictatorship.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_military_socialism"
+		texturefile = "gfx/interface/ideologies/military_socialism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_mercenary_junta"
+		texturefile = "gfx/interface/ideologies/merc_junta.dds"
+	}		
+	spriteType = {
+		name = "GFX_ideology_personalist_dictatorship"
+		texturefile = "gfx/interface/ideologies/personalist_dictatorship.dds"
+	}		
+	spriteType = {
+		name = "GFX_ideology_neo_sovietism"
+		texturefile = "gfx/interface/ideologies/neo_sovietism.dds"
+	}	
 	spriteType = {
 		name = "GFX_ideology_baathism_iraqi"
 		texturefile = "gfx/interface/ideologies/baathism_iraqi.dds"
