@@ -159,13 +159,8 @@ spriteType = {
 		texturefile = "gfx/interface/ideologies/theocracy.dds"
 	}
 	
-# corporateoligarchy
+# corporate oligarchy
 
-    spriteType = {
-		name = "GFX_ideology_corporate_oligarchy"
-		texturefile = "gfx/interface/ideologies/corporate_oligarchy.dds"
-	}
-	
 	spriteType = {
 		name = "GFX_ideology_corporatism"
 		texturefile = "gfx/interface/ideologies/corporatism.dds"
@@ -186,15 +181,45 @@ spriteType = {
 		texturefile = "gfx/interface/ideologies/party_despotism.dds"
 	}
 	
-# autocracy
+# UltraNat
 	spriteType = {
-		name = "GFX_ideology_military_dictatorship"
-		texturefile = "gfx/interface/ideologies/military_dictatorship.dds"
+		name = "GFX_ideology_ethnic_nationalism"
+		texturefile = "gfx/interface/ideologies/ethnic_nationalism.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_military_socialism"
-		texturefile = "gfx/interface/ideologies/military_socialism.dds"
+		name = "GFX_ideology_ecofascism"
+		texturefile = "gfx/interface/ideologies/eco_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_neo_fascism"
+		texturefile = "gfx/interface/ideologies/neo_fascism.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_neo_nazism"
+		texturefile = "gfx/interface/ideologies/neo_nazism.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_ideology_esoteric_nazism"
+		texturefile = "gfx/interface/ideologies/esoteric_nazism.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_ethno_cacerism"
+		texturefile = "gfx/interface/ideologies/ethno_cacerism.dds"
+	}	
+	# autocracy
+	spriteType = {
+		name = "GFX_ideology_national_bolshevism"
+		texturefile = "gfx/interface/ideologies/national_bolshevism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_mystic_nationalism"
+		texturefile = "gfx/interface/ideologies/mystic_nationalism.dds"
 	}
 	
 	spriteType = {
