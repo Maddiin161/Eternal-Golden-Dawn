@@ -193,8 +193,6 @@ EGD_debug_decisions = {
 			BOS = {
 				add_state_core = 104
 				transfer_state = 104
-				add_state_core = 1488
-				transfer_state = 1488
 			}
 			ZEG = {
 				add_state_core = 1489
@@ -221,6 +219,10 @@ EGD_debug_decisions = {
 				add_state_core = 1482
 				transfer_state = 1482
 				set_cosmetic_tag = KOS_ALB
+			}
+			BMJ = {
+				add_state_core = 1488
+				transfer_state = 1488
 			}
 		}
 	}
