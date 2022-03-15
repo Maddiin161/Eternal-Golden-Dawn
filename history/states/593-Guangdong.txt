@@ -4,12 +4,12 @@ state={
 	name="STATE_593"
 
 	history={
-		owner = CHI
+		owner = TAI
 		set_state_flag = temperate
 		set_state_flag = basic
 		set_state_flag = nominal
 		set_state_flag = abjectpoor
-		add_core_of = CHI
+		add_core_of = TAI
 		add_core_of = PRC
 		victory_points = {
 			7186 20 

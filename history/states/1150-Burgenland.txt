@@ -4,7 +4,7 @@ state = {
 	name = "STATE_1150"
 
 	history = {
-		owner = NSN
+		owner = ADR
 		set_state_flag = temperate
 		set_state_flag = river
 		set_state_flag = micro
