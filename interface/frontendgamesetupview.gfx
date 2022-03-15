@@ -81,8 +81,8 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_checkbox_small5"
-		texturefile = "gfx/interface/decisionview/checkbox_small4.dds"
-		noOfFrames = 2
+		texturefile = "gfx/interface/decisionview/checkbox_small5.dds"
+		noOfFrames = 3
 	}
 
 	SpriteType = {

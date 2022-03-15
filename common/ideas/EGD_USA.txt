@@ -60,7 +60,7 @@ ideas = {
 				}
 			}
 		USA_conflicts_in_washington_idea = {
-				picture = USA_conflicts_in_washington
+				picture = USA_Conflict_Washington
 
 				allowed = {
 					always = no

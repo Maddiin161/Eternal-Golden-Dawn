@@ -192,7 +192,10 @@ spriteTypes = {
 		name = "GFX_idea_USA_The_Societal_Revolution"
 		texturefile = "gfx/interface/ideas/USA/USA_The_Societal_Revolution.dds"
 	}
-	
+	SpriteType = { 
+		name = "GFX_idea_USA_Conflict_Washington"
+		texturefile = "gfx/interface/ideas/USA/USA_Conflict_Washington.dds"
+	}
 	#### UKK ####
 
 	SpriteType = { 
@@ -219,6 +222,13 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_idea_PER_brushing_the_peoples_mujahideen_aside"
 		texturefile = "gfx/interface/ideas/PER/PER_brushing_the_peoples_mujahideen_aside.dds"
+	}
+	
+	#### UAE ####
+	
+	SpriteType = { 
+		name = "GFX_idea_UAE_Falcon_of_Arabia"
+		texturefile = "gfx/interface/ideas/UAE/UAE_Falcon_of_Arabia.dds"
 	}
 	
 	#### SYR ####
