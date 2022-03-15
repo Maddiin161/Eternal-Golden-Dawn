@@ -252,4 +252,17 @@ spriteTypes = {
 		name = "GFX_idea_SYR_kata_ib_muhammad"
 		texturefile = "gfx/interface/ideas/SYR/SYR_kata_ib_muhammad.dds"
 	}
+
+	#### USA ####
+	
+	SpriteType = { 
+		name = "GFX_idea_USA_the_societal_revolution"
+		texturefile = "gfx/interface/ideas/USA/SEX.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_USA_conflicts_in_washington"
+		texturefile = "gfx/interface/ideas/USA/USA_Conflict_Washington.dds"
+	}
+
  }
