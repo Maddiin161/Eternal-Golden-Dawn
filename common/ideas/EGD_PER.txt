@@ -2,7 +2,7 @@ ideas = {
 		country = {
 
 		PER_banisadr_and_hundred_reasons_of_why_we_hate_him_idea = {
-				picture = PER_banisadr_and_hundred_reasons_of_why_we_hate_him
+				picture = PER_Banisadr_and_Hundred_Reasons_of_Why_We_Hate_Him
 
 				allowed = {
 					always = no

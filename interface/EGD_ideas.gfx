@@ -186,6 +186,13 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_BFR_national_resistance.dds"
 	}
 	
+	#### USA ####
+
+	SpriteType = { 
+		name = "GFX_idea_USA_The_Societal_Revolution"
+		texturefile = "gfx/interface/ideas/USA/USA_The_Societal_Revolution.dds"
+	}
+	
 	#### UKK ####
 
 	SpriteType = { 
@@ -202,7 +209,18 @@ spriteTypes = {
 		name = "GFX_idea_UKK_Recession"
 		texturefile = "gfx/interface/ideas/UKK/UKK_Recession.dds"
 	}
-
+	
+	#### PER ####
+	
+	SpriteType = { 
+		name = "GFX_idea_PER_Banisadr_and_Hundred_Reasons_of_Why_We_Hate_Him"
+		texturefile = "gfx/interface/ideas/PER/PER_Banisadr_and_Hundred_Reasons_of_Why_We_Hate_Him.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_PER_brushing_the_peoples_mujahideen_aside"
+		texturefile = "gfx/interface/ideas/PER/PER_brushing_the_peoples_mujahideen_aside.dds"
+	}
+	
 	#### SYR ####
 
 	SpriteType = { 

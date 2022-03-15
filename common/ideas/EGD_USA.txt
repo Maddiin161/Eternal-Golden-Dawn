@@ -2,7 +2,7 @@ ideas = {
 		country = {
 
 		USA_the_societal_revolution_idea = {
-				picture = USA_the_societal_revolution
+				picture = USA_The_Societal_Revolution
 
 				allowed = {
 					always = no
