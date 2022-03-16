@@ -1,0 +1,196 @@
+ideas = {
+
+	corruption = {
+		law = yes
+		use_list_view = yes
+
+	paralyzing_corruption = {
+			cost = 150
+			removal_cost = -1
+			#level = 1
+
+			picture = corruption_1
+
+			available = {
+				has_idea = paralyzing_corruption
+				has_idea = crippling_corruption
+			}
+
+			modifier = {
+				stability_factor = -0.14 						
+				drift_defence_factor = -0.28 				
+				foreign_subversive_activites = 0.28 				
+				industrial_capacity_factory = -0.28 				
+				research_speed_factor = -0.28				
+				encryption = -1 								
+				army_morale_factor = -0.28
+				army_org_factor = -0.28
+				political_power_gain = 1.00
+				intelligence_agency_defense = -1
+			}
+
+			cancel_if_invalid = no
+		}
+
+	crippling_corruption = {
+			cost = 150
+			removal_cost = -1
+			#level = 2
+
+			picture = corruption_2
+
+			available = {
+				has_idea = paralyzing_corruption
+				has_idea = crippling_corruption
+				has_idea = systemic_corruption
+			}
+
+			modifier = {
+				stability_factor = -0.12	 						
+				drift_defence_factor = -0.24 				
+				foreign_subversive_activites = 0.24 				
+				industrial_capacity_factory = -0.24 				
+				research_speed_factor = -0.24				
+				encryption = -1 								
+				army_morale_factor = -0.24
+				army_org_factor = -0.24
+				political_power_gain = 0.85
+				intelligence_agency_defense = -0.85
+			}
+
+			cancel_if_invalid = no
+		}
+
+	systemic_corruption = {
+			cost = 150
+			removal_cost = -1
+			#level = 3
+
+			picture = corruption_3
+
+			available = {
+				has_idea = crippling_corruption
+				has_idea = rampant_corruption
+				has_idea = systemic_corruption
+			}
+
+			modifier = {
+				stability_factor = -0.10	 						
+				drift_defence_factor = -0.20				
+				foreign_subversive_activites = 0.20 				
+				industrial_capacity_factory = -0.20 				
+				research_speed_factor = -0.20				
+				encryption = -1 								
+				army_morale_factor = -0.20
+				army_org_factor = -0.20
+				political_power_gain = 0.7
+				intelligence_agency_defense = -0.7
+			}
+
+			cancel_if_invalid = no
+		}
+	rampant_corruption = {
+			cost = 150
+			removal_cost = -1
+			#level = 4
+
+			picture = corruption_4
+
+			available = {
+				has_idea = systemic_corruption
+				has_idea = rampant_corruption
+				has_idea = widespread_corruption
+			}
+
+			modifier = {
+				stability_factor = -0.08	 						
+				drift_defence_factor = -0.16				
+				foreign_subversive_activites = 0.16 				
+				industrial_capacity_factory = -0.16 				
+				research_speed_factor = -0.16				
+				encryption = -1 								
+				army_morale_factor = -0.16
+				army_org_factor = -0.16
+				political_power_gain = 0.55
+				intelligence_agency_defense = -0.55
+			}
+
+			cancel_if_invalid = no
+		}
+	widespread_corruption = {
+			cost = 150
+			removal_cost = -1
+			#level = 5
+
+			picture = corruption_5
+
+			available = {
+				has_idea = rampant_corruption
+				has_idea =  widespread_corruption
+				has_idea = moderate_corruption
+			}
+
+			modifier = {
+				stability_factor = -0.06	 						
+				drift_defence_factor = -0.12				
+				foreign_subversive_activites = 0.12 				
+				industrial_capacity_factory = -0.12 				
+				research_speed_factor = -0.12				
+				encryption = -1 								
+				army_morale_factor = -0.12
+				army_org_factor = -0.12
+				political_power_gain = 0.3
+				intelligence_agency_defense = -0.3
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+	moderate_corruption = {
+			cost = 150
+			removal_cost = -1
+			#level = 6
+
+			picture = corruption_6
+
+			available = {
+				has_idea = rampant_corruption
+				has_idea =  moderate_corruption
+				has_idea = negligible_corruption
+			}
+
+			modifier = {
+				stability_factor = -0.03	 						
+				drift_defence_factor = -0.6				
+				foreign_subversive_activites = 0.6 				
+				industrial_capacity_factory = -0.6				
+				research_speed_factor = -0.6			
+				encryption = -1 								
+				army_morale_factor = -0.6
+				army_org_factor = -0.6
+				political_power_gain = 0.15
+				intelligence_agency_defense = -0.15
+			}
+
+			cancel_if_invalid = no
+		}
+	negligible_corruption = {
+			cost = 150
+			removal_cost = -1
+			#level = 7
+
+			picture = corruption_7
+
+			available = {
+				has_idea =  negligible_corruption
+				has_idea = moderate_corruption
+			}
+
+			modifier = {
+
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+}

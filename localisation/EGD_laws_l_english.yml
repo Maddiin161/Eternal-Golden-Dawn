@@ -1,4 +1,6 @@
 ﻿l_english:
+ #### CATEGORIES  ####
+
  national_status:0 "National Status"
  political_advisor:0 "Head of Government"
  mobilization_laws:0 "Mobilization Laws"
@@ -12,3 +14,13 @@
  education_budget:0 "Education Budget"
  health_budget:0 "Health Budget"
  social_budget:0 "Social Budget"
+
+ #### CORRUPTION ####
+
+ paralyzing_corruption:0 "Paralyzing Corruption"
+ crippling_corruption:0 "Crippling Corruption"
+ systemic_corruption:0 "Systemic Corruption"
+ rampant_corruption:0 "Rampant Corruption"
+ widespread_corruption:0 "Widespread Corruption"
+ moderate_corruption:0 "Moderate Corruption"
+ negligible_corruption:0 "Negligible Corruption"

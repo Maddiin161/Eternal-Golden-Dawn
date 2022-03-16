@@ -1,9 +1,18 @@
 idea_categories = {
 
+	hidden_ideas = {
+		hidden = yes
+
+		cost = 0
+		removal_cost = -1
+
+		ledger = hidden
+	}
+
 	national_status = {
 		slot = mobilization_laws
 		slot = trade_laws
-		slot = conscription
+		slot = economy
 		slot = corruption
 		slot = religion
 		slot = press
