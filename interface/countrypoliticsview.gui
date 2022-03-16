@@ -423,7 +423,7 @@ guiTypes = {
 			verticalScrollbar = "right_vertical_slider"
 			scroll_wheel_factor = 40
 			smooth_scrolling = yes
-			margin = { top = 14 bottom = 13}
+			margin = { top = 14 bottom = 2}
 				background = {
 				name = "Background"
 				#quadTextureSprite ="GFX_tiled_window_2b_border"
@@ -432,7 +432,7 @@ guiTypes = {
 			}
 			gridBoxType = {
 				name = "idea_categories_grid"
-				position = { x = 17 y = -200 }
+				position = { x = 17 y = 0 }
 				size = { width = 0 height = 0 }
 				slotsize = { width = 64 height = 106 }
 				max_slots_horizontal = 1
@@ -578,13 +578,18 @@ guiTypes = {
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
-		size = { width=500 height=590 }
+		size = { width=500 height=390 }
 		show_sound = open_sub_window
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_plain_bg"
+		}
 		
 		instantTextboxType = {
 			name = "title"
 			position = { x = 0 y = 4 }
-			font = "vt323_18_outline"
+			font = "hoi_20b"
 			text = "Economic Laws"
 			maxWidth = 450
 			maxHeight = 20
@@ -607,15 +612,28 @@ guiTypes = {
 			containerWindowType = {
 				name = "grid"
 				position = { x = 0 y = -8 }
-				size = { width=500 height=-4 }
+				size = { width=500 height=-1 }
 				verticalScrollbar = "right_vertical_slider"
-				margin = { top = 4 bottom = 12}	
+				scroll_wheel_factor = 37
+				smooth_scrolling = yes
+				margin = { top = 4 bottom = 2}	
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window2_1b_border"
+				}
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_generic_overlay_bg1_small"
+					position = { x = -1 y = 0 }					
+				}
 
 				gridBoxType = {
 					name = "box_grid"
 					position = { x = 10 y = 10 }
-					size = { width = 500 height = 1 }
-					slotsize = { width = 231 height = 75 }
+					size = { width = 500 height = 25 }
+					slotsize = { width = 231 height = 55 }
 					max_slots_horizontal = 2
 					add_horizontal = yes
 					format = "UPPER_LEFT"
@@ -624,8 +642,8 @@ guiTypes = {
 				gridBoxType = {
 					name = "box_list"
 					position = { x = 10 y = 10 }
-					size = { width = 500 height = 1 }
-					slotsize = { width = 462 height = 75 }
+					size = { width = 500 height = 0 }
+					slotsize = { width = 462 height = 74 }
 					add_horizontal = no
 					format = "UPPER_LEFT"
 				}
@@ -725,6 +743,7 @@ guiTypes = {
 		name = "political_selectable_idea_entry_grid"
 		size = { width = 231 height = 74 }
 		clipping = no
+
 			
 		background = {
 			name = "idea_entry_bg"
@@ -752,7 +771,7 @@ guiTypes = {
 		containerWindowType = {
 		    name = "traits_container"
 		    position = { x = 76 y = 0 }	
-		    show_position = { x = 0 y = 0 }
+		    show_position = { x = 0 y = 5 }
 			size = { width=170 height=100%% }
 			
 			instantTextboxType = {
@@ -805,13 +824,13 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "political_selectable_idea_entry_list"
-		size = { width = 462 height = 74 }
+		size = { width = 462 height = 72 }
 		clipping = no
 			
 		background = {
 			name = "idea_entry_bg"
 			position = { x = 3 y = 0 }
-			spriteType = "GFX_idea_entry_bg_3"
+			spriteType = "GFX_tiled_bg"
 		}
 			
 		iconType = {
