@@ -1,0 +1,122 @@
+ideas = {
+
+	press = {
+		law = yes
+		use_list_view = yes
+
+		free_press_absolutism = {
+			cost = 150
+			removal_cost = -1
+			#level = 1
+
+			picture = press_1
+
+			available = {
+				has_idea = free_press_absolutism
+				has_idea = free_press
+			}
+
+			modifier = {
+				research_speed_factor = 0.2
+				stability_factor = -0.2
+				political_power_gain = -0.2
+				consumer_goods_factor = -0.1
+				army_org_factor = -0.1
+				encryption_factor = -0.2
+			}
+
+			cancel_if_invalid = no
+		}
+
+		free_press = {
+			cost = 150
+			removal_cost = -1
+			#level = 1
+
+			picture = press_2
+
+			available = {
+				has_idea = free_press_absolutism
+				has_idea = free_press
+				has_idea = monitored_press
+			}
+
+			modifier = {
+				research_speed_factor = 0.1
+				stability_factor = -0.1
+				political_power_gain = -0.1
+				consumer_goods_factor = -0.05
+				army_org_factor = -0.05
+				encryption_factor = -0.1
+			}
+
+			cancel_if_invalid = no
+		}
+		monitored_press = {
+			cost = 150
+			removal_cost = -1
+			#level = 1
+
+			picture = press_3
+
+			available = {
+				has_idea = heavily_cenosored_press
+				has_idea = free_press
+				has_idea = monitored_press
+			}
+
+			modifier = {
+				stability_factor = 0.05
+			}
+
+			cancel_if_invalid = no
+		}
+		heavily_cenosored_press = {
+			cost = 150
+			removal_cost = -1
+			#level = 1
+
+			picture = press_4
+
+			available = {
+				has_idea = heavily_cenosored_press
+				has_idea = state_press
+				has_idea = monitored_press
+			}
+
+			modifier = {
+				research_speed_factor = -0.1
+				stability_factor = 0.1
+				political_power_gain = 0.1
+				consumer_goods_factor = 0.05
+				army_org_factor = 0.05
+				encryption_factor = 0.1
+			}
+
+			cancel_if_invalid = no
+		}
+		state_press = {
+			cost = 150
+			removal_cost = -1
+			#level = 1
+
+			picture = press_5
+
+			available = {
+				has_idea = heavily_cenosored_press
+				has_idea = state_press
+			}
+
+			modifier = {
+				research_speed_factor = -0.2
+				stability_factor = 0.2
+				political_power_gain = 0.2
+				consumer_goods_factor = 0.1
+				army_org_factor = 0.1
+				encryption_factor = 0.2
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+}

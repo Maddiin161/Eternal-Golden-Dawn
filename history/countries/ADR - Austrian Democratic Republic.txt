@@ -30,6 +30,9 @@ add_ideas = {
 	ADR_brain_drain_idea
 	ADR_nascent_industrial_development_idea
 	ADR_identityless_nation_idea
+	crippling_corruption
+	state_press
+	suppressed_religon
 }
 
 create_country_leader = {

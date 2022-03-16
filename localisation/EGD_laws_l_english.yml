@@ -4,7 +4,7 @@
  national_status:0 "National Status"
  political_advisor:0 "Head of Government"
  mobilization_laws:0 "Mobilization Laws"
- conscription:0 Conscription"
+ conscription:0 "Conscription"
  corruption:0 "Corruption"
  religion:0 "Religious Laws"
  press:0 "Press Laws"
@@ -24,3 +24,20 @@
  widespread_corruption:0 "Widespread Corruption"
  moderate_corruption:0 "Moderate Corruption"
  negligible_corruption:0 "Negligible Corruption"
+
+ ##### RELIGION ####
+
+ theocratic_state:0 "Theocratic State"
+ state_sponsored_religon:0 "State Sponsored Religion"
+ secular_state:0 "Secular State"
+ suppressed_religon:0 "Suppressed Religion"
+ athiest_state:0 "Athiest State"
+
+ #### PRESS ####
+
+ free_press_absolutism:0 "Free Press Absolutism"
+ free_press:0 "Free Press"
+ monitored_press:0 "Monitored Press"
+ heavily_cenosored_press:0 "Heavily Censored Press"
+ state_press:0 "State Press"
+

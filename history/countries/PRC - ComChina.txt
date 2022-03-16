@@ -34,6 +34,11 @@ set_politics = {
 	revolutionary_socialism = 95
 }
 
+add_ideas = {
+	paralyzing_corruption
+	monitored_press
+	secular_state
+}
 create_country_leader = {
 	name = "Deng Xiaoping"
 	desc = ""

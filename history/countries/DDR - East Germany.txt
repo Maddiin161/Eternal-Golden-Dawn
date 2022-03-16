@@ -33,6 +33,9 @@ add_ideas = {
 	DDR_soviet_military_dependence_idea
 	DDR_stasi_idea
 	DDR_rigid_democratic_centralism_idea
+	rampant_corruption
+	heavily_cenosored_press
+	suppressed_religon
 }
 
 

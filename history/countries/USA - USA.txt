@@ -46,6 +46,9 @@ add_ideas = {
 	USA_conflicts_in_washington_idea
 	USA_american_malaise_idea
 	USA_echos_of_the_terrorist_generation_idea
+	moderate_corruption
+	free_press
+	secular_state
 }
 
 create_country_leader = {
