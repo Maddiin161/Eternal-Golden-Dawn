@@ -423,7 +423,7 @@ guiTypes = {
 			verticalScrollbar = "right_vertical_slider"
 			scroll_wheel_factor = 40
 			smooth_scrolling = yes
-			margin = { top = 14 bottom = 2}
+			margin = { top = 14 bottom = 10}
 				background = {
 				name = "Background"
 				#quadTextureSprite ="GFX_tiled_window_2b_border"
@@ -432,7 +432,7 @@ guiTypes = {
 			}
 			gridBoxType = {
 				name = "idea_categories_grid"
-				position = { x = 17 y = 0 }
+				position = { x = 17 y = -30 }
 				size = { width = 0 height = 0 }
 				slotsize = { width = 64 height = 106 }
 				max_slots_horizontal = 1
@@ -583,7 +583,7 @@ guiTypes = {
 		
 		background = {
 			name = "Background"		
-			quadTextureSprite ="GFX_tiled_plain_bg"
+			quadTextureSprite ="GFX_tiled_bg"
 		}
 		
 		instantTextboxType = {
@@ -612,7 +612,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "grid"
 				position = { x = 0 y = -8 }
-				size = { width=500 height=-1 }
+				size = { width=500 height=-8 }
 				verticalScrollbar = "right_vertical_slider"
 				scroll_wheel_factor = 37
 				smooth_scrolling = yes
@@ -620,12 +620,12 @@ guiTypes = {
 
 				background = {
 					name = "Background"
-					quadTextureSprite ="GFX_tiled_window2_1b_border"
+					quadTextureSprite ="GFX_tiled_window_transparent"
 				}
 
 				background = {
 					name = "Background"
-					quadTextureSprite ="GFX_tiled_generic_overlay_bg1_small"
+					#quadTextureSprite ="GFX_tiled_generic_overlay_bg1_small"
 					position = { x = -1 y = 0 }					
 				}
 
@@ -643,7 +643,7 @@ guiTypes = {
 					name = "box_list"
 					position = { x = 10 y = 10 }
 					size = { width = 500 height = 0 }
-					slotsize = { width = 462 height = 74 }
+					slotsize = { width = 462 height = 72 }
 					add_horizontal = no
 					format = "UPPER_LEFT"
 				}
@@ -741,7 +741,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "political_selectable_idea_entry_grid"
-		size = { width = 231 height = 74 }
+		size = { width = 231 height = 72 }
 		clipping = no
 
 			
