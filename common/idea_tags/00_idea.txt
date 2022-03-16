@@ -9,6 +9,15 @@ idea_categories = {
 		ledger = hidden
 	}
 
+	country = {
+		type = national_spirit
+		
+		cost = 0
+		removal_cost = -1
+		
+		ledger = hidden
+	}
+	
 	national_status = {
 		slot = mobilization_laws
 		slot = trade_laws

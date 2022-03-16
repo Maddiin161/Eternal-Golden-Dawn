@@ -187,7 +187,6 @@ spriteTypes = {
 	}
 	
 	#### USA ####
-
 	SpriteType = { 
 		name = "GFX_idea_USA_The_Societal_Revolution"
 		texturefile = "gfx/interface/ideas/USA/USA_The_Societal_Revolution.dds"
@@ -195,6 +194,10 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_idea_USA_Conflict_Washington"
 		texturefile = "gfx/interface/ideas/USA/USA_Conflict_Washington.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_USA_decaying_cities"
+		texturefile = "gfx/interface/ideas/USA/USA_decaying_cities.dds"
 	}
 	#### UKK ####
 
