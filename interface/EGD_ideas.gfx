@@ -203,7 +203,6 @@ spriteTypes = {
 		name = "GFX_idea_USA_echos_of_the_terrorist_generation"
 		texturefile = "gfx/interface/ideas/USA/Echos_of_Terror_Generation.dds"
 	}
-
 	#### UKK ####
 
 	SpriteType = { 

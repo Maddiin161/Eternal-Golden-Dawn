@@ -423,7 +423,7 @@ guiTypes = {
 			verticalScrollbar = "right_vertical_slider"
 			scroll_wheel_factor = 40
 			smooth_scrolling = yes
-			margin = { top = 14 bottom = 10}
+			margin = { top = 14 bottom = 2}
 				background = {
 				name = "Background"
 				#quadTextureSprite ="GFX_tiled_window_2b_border"
@@ -434,7 +434,7 @@ guiTypes = {
 				name = "idea_categories_grid"
 				position = { x = 17 y = -30 }
 				size = { width = 0 height = 0 }
-				slotsize = { width = 64 height = 106 }
+				slotsize = { width = 64 height = 110 }
 				max_slots_horizontal = 1
 				format = "UPPER_LEFT"
 			}

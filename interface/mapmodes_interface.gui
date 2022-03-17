@@ -543,7 +543,7 @@ guiTypes = {
 		# note that all buttons are duplicated so if more added they need to be in both layouts
 		containerWindowType = {
 			name = "4_button_mapmode"
-			size = { width = 50 height = 153 }			
+			size = { width = 50 height = 100%% }			
 
 			# 1st BUTTON (BIG)
 			
