@@ -201,7 +201,15 @@ spriteTypes = {
 	}
 	SpriteType = { 
 		name = "GFX_idea_USA_echos_of_the_terrorist_generation"
-		texturefile = "gfx/interface/ideas/USA/Echos_of_Terror_Generation.dds"
+		texturefile = "gfx/interface/ideas/USA/USA_echos_of_the_terrorist_generation.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_USA_american_malaise"
+		texturefile = "gfx/interface/ideas/USA/USA_American_Malaise.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_USA_sun_belt"
+		texturefile = "gfx/interface/ideas/USA/USA_sun_belt.dds"
 	}
 	#### UKK ####
 

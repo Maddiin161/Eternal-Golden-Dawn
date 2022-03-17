@@ -1,4 +1,4 @@
-ideas = {	
+ideas = {
 		country = {
 
 		USA_the_societal_revolution_idea = {
