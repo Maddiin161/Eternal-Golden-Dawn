@@ -133,7 +133,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "decision_category_desc"
 		position = { x=0 y=0 }
-		size = { width=510 height=8 }
+		size = { width=510 height=5 }
 		clipping = no
 		
 		background = {
@@ -153,7 +153,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "full_text"
-			position = { x = 15 y = 6 }
+			position = { x = 15 y = 2 }
 			textureFile = ""
 			font = "IBM_EGA_16_outline"
 			borderSize = { x = 0 y = 0 }
@@ -163,7 +163,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "short_text"
-			position = { x = 115 y = 7 }
+			position = { x = 115 y = 2 }
 			textureFile = ""
 			font = "IBM_EGA_16_outline"
 			borderSize = { x = 0 y = 13 }

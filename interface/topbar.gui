@@ -608,7 +608,7 @@ guiTypes = {
 			buttonType = {
 				name = "decisionview_button"
 				quadTextureSprite ="GFX_topbar_decisionview_button"
-				position = { x= -104 y = 0 }
+				position = { x = -101 y = -1 }
 				Orientation = "UPPER_LEFT"
 				clicksound = click_close
 				oversound = ui_menu_over
