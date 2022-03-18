@@ -238,7 +238,14 @@ spriteTypes = {
 		name = "GFX_idea_PER_brushing_the_peoples_mujahideen_aside"
 		texturefile = "gfx/interface/ideas/PER/PER_brushing_the_peoples_mujahideen_aside.dds"
 	}
-	
+	SpriteType = { 
+		name = "GFX_idea_PER_consolidating_the_revolution"
+		texturefile = "gfx/interface/ideas/PER/PER_Consolidate_Revolution.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_idea_PER_hostage_crisis_tense"
+		texturefile = "gfx/interface/ideas/PER/USA_Hostage_Crisis.dds"
+	}
 	#### UAE ####
 	
 	SpriteType = { 
