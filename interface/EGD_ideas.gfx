@@ -246,8 +246,11 @@ spriteTypes = {
 		name = "GFX_idea_PER_hostage_crisis_tense"
 		texturefile = "gfx/interface/ideas/PER/USA_Hostage_Crisis.dds"
 	}
+	SpriteType = { 
+		name = "GFX_idea_PER_oppressed_above_the_arrogant"
+		texturefile = "gfx/interface/ideas/PER/PER_Oppressed.dds"
+	}
 	#### UAE ####
-	
 	SpriteType = { 
 		name = "GFX_idea_UAE_Falcon_of_Arabia"
 		texturefile = "gfx/interface/ideas/UAE/UAE_Falcon_of_Arabia.dds"
