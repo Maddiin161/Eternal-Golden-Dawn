@@ -16,7 +16,6 @@ guiTypes = {
 			name = "Background"		
 			quadTextureSprite ="GFX_tiled_plain_bg"
 		}
-
 		iconType ={
 			name ="production_header_bg"
 			spriteType = "GFX_header_bg"
@@ -70,8 +69,6 @@ guiTypes = {
 				format = "UPPER_LEFT"
 			}
 		}
-
-		
 		containerWindowType = {
 			name = "political_pie_chart"
 			position = { x= 22 y = 312 }

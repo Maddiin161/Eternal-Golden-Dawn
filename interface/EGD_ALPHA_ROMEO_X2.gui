@@ -1,0 +1,35 @@
+guiTypes = {
+	containerWindowType = {
+		name = "EGD_GUI_AccessButton_AlphaX1"
+		size = { width = 220 height = 128 }
+		position = { x = 0 y = 0 }
+		buttonType = {
+			name = "EGD_GUI_AlphaX1_OpenButton"
+			spriteType = "GFX_ARX2_CLICK"
+			position = { x = 450 y = 320 }
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "EGD_GUI_AlphaX2_OpenButton"
+			spriteType = "GFX_ARX2_CLICK"
+			position = { x = 190 y = 320 }
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		iconType = {
+			name = "gui_alert"
+			spriteType = "GFX_gui_alert"
+			position = { x=0 y=0 }
+		}
+	}
+	containerWindowType = {
+		name = "EGD_ALPHA_GUI_Window"
+		size = { width = 1063 height = 842 }
+		position = { x = 538 y = 77 }
+		show_sound = open_sub_window
+		background = {
+			name = "ALPHA_BG_X1"
+			spriteType = "GFX_console_win_bg"
+		}
+}
