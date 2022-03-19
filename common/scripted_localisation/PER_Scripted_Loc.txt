@@ -1,0 +1,150 @@
+defined_text = {
+	name = per_hostage_tensions_loc
+	text = {
+		trigger = {
+			check_variable = { PER_hostage_tensions = 3 }
+		}
+		localization_key = PER_hostage_tensions_disastrous
+	}
+	text = {
+		trigger = {
+			check_variable = { PER_hostage_tensions = 2 }
+		}
+		localization_key = PER_hostage_tensions_very_high
+	}
+	text = {
+		trigger = {
+			check_variable = { PER_hostage_tensions = 1 }
+		}
+		localization_key = PER_hostage_tensions_high
+	}
+	text = {
+		trigger = {
+			check_variable = { PER_hostage_tensions = 0 }
+		}
+		localization_key = PER_hostage_tensions_cautious
+	}
+	text = {
+		trigger = {
+			check_variable = { PER_hostage_tensions = -1 }
+		}
+		localization_key = PER_hostage_tensions_moderate
+	}
+	text = {
+		trigger = {
+			check_variable = {PER_hostage_tensions = -2 }
+		}
+		localization_key = PER_hostage_tensions_low
+	}
+	text = {
+		trigger = {
+			check_variable = {PER_hostage_tensions = -3 }
+		}
+		localization_key = PER_hostage_tensions_friendly
+	}
+}
+
+defined_text = {
+	name = per_hostage_american_willingness_loc
+	text = {
+		trigger = {
+			check_variable = { PER_american_willingness = 2 }
+		}
+		localization_key = PER_american_willingness_very_high
+	}
+
+	text = {
+		trigger = {
+			check_variable = { PER_american_willingness = 1 }
+		}
+		localization_key = PER_american_willingness_high
+	}
+	text = {
+		trigger = {
+			check_variable = {  PER_american_willingness = 0 }
+		}
+		localization_key = PER_american_willingness_cautious
+	}
+	text = {
+		trigger = {
+			check_variable = { PER_american_willingness = -1 }
+		}
+		localization_key = PER_american_willingness_moderate
+	}
+	text = {
+		trigger = {
+			check_variable = { PER_american_willingness = -2 }
+		}
+		localization_key = PER_american_willingness_low
+	}
+}
+
+defined_text = {
+	name = per_hostage_iranian_willingness_loc
+	text = {
+		trigger = {
+			check_variable = { PER_iranian_willingness = 2 }
+		}
+		localization_key = PER_iranian_willingness_very_high
+	}
+
+	text = {
+		trigger = {
+			check_variable = { PER_iranian_willingness = 1 }
+		}
+		localization_key = PER_iranian_willingness_high
+	}
+	text = {
+		trigger = {
+			check_variable = {  PER_iranian_willingness = 0 }
+		}
+		localization_key = PER_iranian_willingness_cautious
+	}
+	text = {
+		trigger = {
+			check_variable = { PER_iranian_willingness = -1 }
+		}
+		localization_key = PER_iranian_willingness_moderate
+	}
+	text = {
+		trigger = {
+			check_variable = { PER_iranian_willingness = -2 }
+		}
+		localization_key = PER_iranian_willingness_low
+	}
+}
+
+defined_text = {
+	name = per_hostage_balance_of_power_loc
+	text = {
+		trigger = {
+			check_variable = { PER_balance_of_power = 2 }
+		}
+		localization_key = PER_balance_of_power_very_iran_favored
+	}
+
+	text = {
+		trigger = {
+			check_variable = { PER_balance_of_power = 1 }
+		}
+		localization_key = PER_balance_of_power_iran_favored
+	}
+	text = {
+		trigger = {
+			check_variable = { PER_balance_of_power = 0 }
+		}
+		localization_key = PER_balance_of_power_neutral
+	}
+	text = {
+		trigger = {
+			check_variable = { PER_balance_of_power = -1 }
+		}
+		localization_key = PER_balance_of_power_america_favored
+	}
+	text = {
+		trigger = {
+			check_variable = { PER_balance_of_power = -2 }
+		}
+		localization_key = PER_balance_of_power_very_america_favored
+	}
+}

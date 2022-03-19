@@ -1,0 +1,75 @@
+
+PER_hostage_crisis_category = {
+    per_raise_tensions_test = {
+			icon = generic_industry
+			available = {
+				is_ai = no
+			}
+			visible = {
+				is_debug = yes
+			}
+			fire_only_once = no
+			cost = 0
+		
+			complete_effect = {
+				PER_raise_hostage_tensions = yes
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	per_raise_american_willingness_test = {
+			icon = generic_industry
+			available = {
+				is_ai = no
+			}
+			visible = {
+				is_debug = yes
+			}
+			fire_only_once = no
+			cost = 0
+		
+			complete_effect = {
+				PER_raise_hostage_american_willingness = yes
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	per_raise_iranian_willingness_test = {
+			icon = generic_industry
+			available = {
+				is_ai = no
+			}
+			visible = {
+				is_debug = yes
+			}
+			fire_only_once = no
+			cost = 0
+		
+			complete_effect = {
+				PER_raise_hostage_iranian_willingness = yes
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	per_raise_hostage_balance_of_power_test = {
+			icon = generic_industry
+			available = {
+				is_ai = no
+			}
+			visible = {
+				is_debug = yes
+			}
+			fire_only_once = no
+			cost = 0
+		
+			complete_effect = {
+				PER_raise_hostage_balance_of_power = yes
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+}

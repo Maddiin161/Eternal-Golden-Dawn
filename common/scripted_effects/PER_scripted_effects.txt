@@ -1,0 +1,99 @@
+PER_raise_hostage_tensions = {
+		custom_effect_tooltip = PER_raise_hostage_tensions_tooltip
+		add_to_variable = {
+			var = PER_hostage_tensions
+			value = 1
+		}
+		clamp_variable = {
+			var = PER_hostage_tensions
+			min = -3
+			max = 3
+		}
+	}
+PER_lower_hostage_tensions = {
+		custom_effect_tooltip = PER_lower_hostage_tensions_tooltip
+		add_to_variable = {
+			var = PER_hostage_tensions
+			value = -1
+		}
+		clamp_variable = {
+			var = PER_hostage_tensions
+			min = -3
+			max = 3
+		}
+	}
+PER_raise_hostage_american_willingness = {
+		custom_effect_tooltip = PER_raise_hostage_american_willingness_tooltip
+		add_to_variable = {
+			var =  PER_american_willingness 
+			value = 1
+		}
+		clamp_variable = {
+			var =  PER_american_willingness 
+			min = -2
+			max = 2
+		}
+	}
+PER_lower_hostage_american_willingness = {
+		custom_effect_tooltip = PER_lower_hostage_american_willingness_tooltip
+		add_to_variable = {
+			var = PER_american_willingness 
+			value = -1
+		}
+		clamp_variable = {
+			var = PER_american_willingness 
+			min = -2
+			max = 2
+		}
+	}
+
+PER_raise_hostage_iranian_willingness = {
+		custom_effect_tooltip = PER_raise_hostage_iranian_willingness_tooltip
+		add_to_variable = {
+			var =  PER_iranian_willingness 
+			value = 1
+		}
+		clamp_variable = {
+			var =  PER_iranian_willingness 
+			min = -2
+			max = 2
+		}
+	}
+PER_lower_hostage_iranian_willingness = {
+		custom_effect_tooltip = PER_lower_hostage_iranian_willingness_tooltip
+		add_to_variable = {
+			var = PER_iranian_willingness 
+			value = -1
+		}
+		clamp_variable = {
+			var = PER_iranian_willingness 
+			min = -2
+			max = 2
+		}
+	}
+
+PER_raise_hostage_balance_of_power = {
+		custom_effect_tooltip = PER_raise_hostage_balance_of_power_tooltip
+		add_to_variable = {
+			var =  PER_balance_of_power 
+			value = 1
+		}
+		clamp_variable = {
+			var =  PER_balance_of_power 
+			min = -2
+			max = 2
+		}
+	}
+PER_lower_hostage_balance_of_power = {
+		custom_effect_tooltip = PER_lower_hostage_balance_of_power_tooltip
+		add_to_variable = {
+			var = PER_balance_of_power 
+			value = -1
+		}
+		clamp_variable = {
+			var = PER_balance_of_power 
+			min = -2
+			max = 2
+		}
+	}
+

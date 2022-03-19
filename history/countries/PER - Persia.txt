@@ -40,13 +40,18 @@
 		PER_oppressed_above_the_arrogant_idea
 	}
 
-create_country_leader = {
-	name = "Ruhollah Khomeini" 
-	desc = ""
-	picture = "Ruhollah_Khomeini.dds"
-	expire = "1991.3.1"
-	ideology = khomeinism
-	traits = {
+	set_variable = { PER_hostage_tensions = 1 }
+	set_variable = { PER_american_willingness = 0 }
+	set_variable = { PER_iranian_willingness = 1 }
+	set_variable = { PER_balance_of_power = 1 }
+
+	create_country_leader = {
+		name = "Ruhollah Khomeini" 
+		desc = ""
+		picture = "Ruhollah_Khomeini.dds"
+		expire = "1991.3.1"
+		ideology = khomeinism
+		traits = {
 		
+		}
 	}
-}

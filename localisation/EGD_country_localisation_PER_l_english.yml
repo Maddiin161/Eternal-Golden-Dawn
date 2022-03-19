@@ -20,3 +20,44 @@ PER_oppressed_above_the_arrogant_idea_desc:0 ""
 #### TOOLTIPS ####
 
 PER_nato_modifier_1:0 "Our Current Relations with the West are - §RVery Bad§!"
+PER_raise_hostage_tensions_tooltip:0 "Tensions will §Rrise§!"
+PER_lower_hostage_tensions_tooltip:0 "Tensions will §Gdecrease§!"
+PER_raise_hostage_american_willingness_tooltip:0 "American §YWillingness to Negotiate§! will §Gincrease§!"
+PER_lower_hostage_american_willingness_tooltip:0 "American §YWillingness to Negotiate§! will §Rdecrease§!"
+PER_raise_hostage_iranian_willingness_tooltip:0 "Iranian §YWillingness to Negotiate§! will §Gincrease§!"
+PER_lower_hostage_iranian_willingness_tooltip:0 "Iranian §YWillingness to Negotiate§! will §Rdecrease§!"
+PER_raise_hostage_balance_of_power_tooltip:0 "The Balance of Power will shift in Iran's Favor"
+PER_lower_hostage_balance_of_power_tooltip:0 "The Balance of Power will shift in the United States' Favor"
+
+#### DECISIONS ####
+
+PER_hostage_crisis_category:0 "American Hostage Crisis"
+PER_hostage_crisis_category_desc:0 "\n\n\n\n\n\n\n\n\n\n\nBeginning in the fall of 1978, the U.S. embassy in Tehran had been the scene of frequent demonstrations by Iranians who opposed the American presence in the country, and on February 14, 1979, about a month after the shah had fled Iran, the embassy was attacked and briefly occupied. The embassy weathered this assault, during which several of its personnel were killed or wounded, but Iran was in the throes of enormous revolutionary change, which called for a new U.S. posture in Iran. Consequently, by the start of the hostage crisis, the embassy staff had been cut from more than 1,400 men and women before the revolution to about 70. In addition, attempts had been made to arrive at a modus vivendi with Iran’s provisional government, and during the spring and summer the Iranian authorities sought to strengthen security around the embassy complex.\n\n\nThe Current Tensions are:  [per_hostage_tensions_loc]\n\nThe Americans currently are: [per_hostage_american_willingness_loc]\n\nWe are: [per_hostage_iranian_willingness_loc] \n\nThe Balance of Power is currently: [per_hostage_balance_of_power_loc]\n\n§RIf tensions escalate too far, the consequences will be disasterous for both sides!§!"
+
+##### SCRIPTED LOC ####
+ 
+PER_hostage_tensions_disastrous:0 "§RDisasterous§!"
+PER_hostage_tensions_very_high:0 "§RVery High§!"
+PER_hostage_tensions_high:0 "§OHigh§!"
+PER_hostage_tensions_cautious:0 "§YCautious§!"
+PER_hostage_tensions_moderate:0 "§YModerate§!"
+PER_hostage_tensions_low:0 "§GLow§!"
+PER_hostage_tensions_friendly:0 ""§GFriendly§!"
+
+PER_american_willingness_very_high:0 "§GWilling to Negotiate§!"
+PER_american_willingness_high:0 "§GSlightly Willing to Negotiate§!"
+PER_american_willingness_cautious:0 "§YCautious§!"
+PER_american_willingness_moderate:0 "§OHesitant to Negotiate§!"
+PER_american_willingness_low:0 "§RRefusing the Negotiate§!"
+
+PER_iranian_willingness_very_high:0 "§GWilling to Negotiate§!"
+PER_iranian_willingness_high:0 "§GSlightly Willing to Negotiate§!"
+PER_iranian_willingness_cautious:0 "§YCautious§!"
+PER_iranian_willingness_moderate:0 "§OHesitant to Negotiate§!"
+PER_iranian_willingness_low:0 "§RRefusing the Negotiate§!"
+
+PER_balance_of_power_very_iran_favored:0 "§YHeavily in Iran's Favor§!"
+PER_balance_of_power_iran_favored:0 "§YIn Iran's Favor§!"
+PER_balance_of_power_neutral:0 "§YNeutral§!"
+PER_balance_of_power_america_favored:0 "§YIn the United States' Favor§!"
+PER_balance_of_power_very_america_favored:0 "§YHeavily in the United States' Favor§!"
