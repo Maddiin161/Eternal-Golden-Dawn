@@ -57,6 +57,15 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 
+	corneredTileSpriteType = {
+		name = "GFX_EGD_tiled_window_alpharomeo_border"
+		size= { x=192 y=192 }
+		textureFile = "gfx/interface/tiles/tile.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	
 	textSpriteType = {
 		name = "GFX_sort_up_down_button_83x29"
 		texturefile = "gfx/interface/sort_up_down_button_83x29.dds"

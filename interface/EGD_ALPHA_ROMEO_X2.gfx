@@ -3,4 +3,8 @@ spriteTypes = {
 		name = "GFX_ARX2_CLICK"
 		texturefile = "gfx/interface/alpharomeox2/CLICK.dds"
 	}
+	spriteType = {
+		name = "GFX_ARX2_COLD_DARK_SUN"
+		texturefile = "gfx/interface/alpharomeox2/COLD_DARK_SUN.dds"
+	}
 }

@@ -26,10 +26,11 @@ guiTypes = {
 	containerWindowType = {
 		name = "EGD_ALPHA_GUI_Window"
 		size = { width = 1063 height = 842 }
-		position = { x = 538 y = 77 }
+		position = { x = 541 y = 257 }
 		show_sound = open_sub_window
 		background = {
 			name = "ALPHA_BG_X1"
-			spriteType = "GFX_console_win_bg"
+			spriteType = "GFX_ARX2_COLD_DARK_SUN"
 		}
+	}
 }
