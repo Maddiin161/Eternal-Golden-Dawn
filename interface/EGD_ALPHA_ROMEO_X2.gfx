@@ -4,7 +4,60 @@ spriteTypes = {
 		texturefile = "gfx/interface/alpharomeox2/CLICK.dds"
 	}
 	spriteType = {
+		name = "GFX_ARX2_FUNDING"
+		texturefile = "gfx/interface/alpharomeox2/FUNDING.dds"
+	}
+	spriteType = {
+		name = "GFX_ARX2_MILITARY"
+		texturefile = "gfx/interface/alpharomeox2/MILITARY.dds"
+	}
+	spriteType = {
+		name = "GFX_ARX2_PLOT"
+		texturefile = "gfx/interface/alpharomeox2/PLOT.dds"
+	}
+	spriteType = {
+		name = "GFX_ARX2_STEAL"
+		texturefile = "gfx/interface/alpharomeox2/STEAL.dds"
+	}
+	spriteType = {
+		name = "GFX_ARX2_STRATEGY"
+		texturefile = "gfx/interface/alpharomeox2/STRATEGY.dds"
+	}
+	spriteType = {
+		name = "GFX_ARX2_UNITS"
+		texturefile = "gfx/interface/alpharomeox2/UNITS.dds"
+	}
+	spriteType = {
 		name = "GFX_ARX2_COLD_DARK_SUN"
 		texturefile = "gfx/interface/alpharomeox2/COLD_DARK_SUN.dds"
+	}
+	spriteType = {
+		name = "GFX_ARX2_ESTIMATED_BALANCE"
+		texturefile = "gfx/interface/alpharomeox2/ESTIMATED_BALANCE.dds"
+	}
+	spriteType = {
+		name = "GFX_ARX2_COUNTER_TERRORISM"
+		texturefile = "gfx/interface/alpharomeox2/COUNTER_TERRORISM.dds"
+	}
+	spriteType = {
+		name = "GFX_ARX2_FOREIGN_SUBVERSION"
+		texturefile = "gfx/interface/alpharomeox2/FOREIGN_SUBVERSION.dds"
+	}
+	spriteType = {
+		name = "GFX_ARX2_SEPERATOR"
+		texturefile = "gfx/interface/alpharomeox2/SEPERATOR.dds"
+	}
+	spriteType = {
+		name = "GFX_EGD_INSURGENT"
+		texturefile = "gfx/interface/alpharomeox2/EGD_INSURGENT.dds"
+	}
+	spriteType = {
+		name = "GFX_EGD_ECONOMY"
+		texturefile = "gfx/interface/alpharomeox2/EGD_ECONOMY.dds"
+	}
+	spriteType = {
+		name = "GFX_CHECKBOX_ALPHA_ROMEO_JULIET"
+		texturefile = "gfx//interface//alpharomeox2//CHECKBOX_ALPHA_ROMEO_JULIET.dds"
+		noOfFrames = 4
 	}
 }

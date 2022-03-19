@@ -13,6 +13,7 @@ scripted_gui = {
 					limit = { has_country_flag = EGD_GUI_AlphaX1_Open }
 					clr_country_flag = EGD_GUI_AlphaX1_Open
 				}
+				clr_country_flag = EGD_GUI_ROMEO1_STRATEGY_Open
 				clr_country_flag = gui_alert_visible
 			}
 		}
@@ -28,6 +29,47 @@ scripted_gui = {
 		window_name = "EGD_ALPHA_GUI_Window"
 		visible = { 
 			has_country_flag = EGD_GUI_AlphaX1_Open
+		}
+		effects = {
+			EGD_GUI_ROMEO1_STRATEGY_click = {
+				if = {
+					limit = { NOT = { has_country_flag = EGD_GUI_ROMEO1_STRATEGY_Open } }
+					set_country_flag = EGD_GUI_ROMEO1_STRATEGY_Open
+				}
+				else_if = {
+					limit = { has_country_flag = EGD_GUI_ROMEO1_STRATEGY_Open }
+					clr_country_flag = EGD_GUI_ROMEO1_STRATEGY_Open
+				}
+				clr_country_flag = gui_alert_visible
+			}
+		}
+	}
+	EGD_GUI_INSURGENCY_STRATEGY = {
+		context_type = player_context
+		parent_window_token = "EGD_ALPHA_GUI_Window"
+		window_name = "EGD_GUI_INSURGENCY_STRATEGY"
+		visible = { 
+			has_country_flag = EGD_GUI_ROMEO1_STRATEGY_Open
+		}
+		effects = {
+			EGD_GUI_ROMEO1_HOWMUCH_CT_click = {
+				if = {
+					limit = { check_variable = { ROMEO1_HOWMUCH_CT_CLICK_VAR = 4 } }
+					set_variable = { ROMEO1_HOWMUCH_CT_CLICK_VAR = 1 }
+				}
+				else = { add_to_variable = { ROMEO1_HOWMUCH_CT_CLICK_VAR = 1 } }
+			}
+			EGD_GUI_ROMEO1_HOWMUCH_FS_click = {
+				if = {
+					limit = { check_variable = { ROMEO1_HOWMUCH_FS_CLICK_VAR = 4 } }
+					set_variable = { ROMEO1_HOWMUCH_FS_CLICK_VAR = 1 }
+				}
+				else = { add_to_variable = { ROMEO1_HOWMUCH_FS_CLICK_VAR = 1 } }
+			}
+		}
+		properties = {
+			EGD_GUI_ROMEO1_HOWMUCH_CT = { frame = ROMEO1_HOWMUCH_CT_CLICK_VAR }
+			EGD_GUI_ROMEO1_HOWMUCH_FS = { frame = ROMEO1_HOWMUCH_FS_CLICK_VAR }
 		}
 	}
 }

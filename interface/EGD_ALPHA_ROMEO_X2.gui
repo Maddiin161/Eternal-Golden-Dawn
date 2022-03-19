@@ -5,15 +5,15 @@ guiTypes = {
 		position = { x = 0 y = 0 }
 		buttonType = {
 			name = "EGD_GUI_AlphaX1_OpenButton"
-			spriteType = "GFX_ARX2_CLICK"
-			position = { x = 450 y = 320 }
+			spriteType = "GFX_EGD_INSURGENT"
+			position = { x = 450 y = 280 }
 			clicksound = click_ok
 			oversound = ui_menu_over
 		}
 		buttonType = {
 			name = "EGD_GUI_AlphaX2_OpenButton"
-			spriteType = "GFX_ARX2_CLICK"
-			position = { x = 190 y = 320 }
+			spriteType = "GFX_EGD_ECONOMY"
+			position = { x = 190 y = 280 }
 			clicksound = click_ok
 			oversound = ui_menu_over
 		}
@@ -31,6 +31,92 @@ guiTypes = {
 		background = {
 			name = "ALPHA_BG_X1"
 			spriteType = "GFX_ARX2_COLD_DARK_SUN"
+		}
+		buttonType = {
+			name = "EGD_GUI_ROMEO1_Funding"
+			spriteType = "GFX_ARX2_FUNDING"
+			position = { x=9 y=8 }
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "EGD_GUI_ROMEO1_Military"
+			spriteType = "GFX_ARX2_MILITARY"
+			position = { x=9 y=35 }
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "EGD_GUI_ROMEO1_plot"
+			spriteType = "GFX_ARX2_PLOT"
+			position = { x=9 y=65 }
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "EGD_GUI_ROMEO1_STEAL"
+			spriteType = "GFX_ARX2_STEAL"
+			position = { x=90 y=50 }
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "EGD_GUI_ROMEO1_STRATEGY"
+			spriteType = "GFX_ARX2_STRATEGY"
+			position = { x=90 y=20 }
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "EGD_GUI_ROMEO1_UNITS"
+			spriteType = "GFX_ARX2_UNITS"
+			position = { x=90 y=80 }
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+	}
+	containerWindowType = {
+		name = "EGD_GUI_INSURGENCY_STRATEGY"
+		size = { width = 400 height = 286 }
+		position = { x = 710 y = 254 }
+		show_sound = open_sub_window
+		background = {
+			name = "Background"
+			spriteType = "GFX_EGD_tiled_window_alpharomeo_border"
+		}
+		iconType = {
+			name = "EGD_GUI_ESTIMATED_BALANCE"
+			spriteType = "GFX_ARX2_ESTIMATED_BALANCE"
+			position = { x=320 y=72 }
+		}
+		iconType = {
+			name = "EGD_GUI_SEPERATOR"
+			spriteType = "GFX_ARX2_SEPERATOR"
+			position = { x=18 y=25 }
+		}
+		iconType = {
+			name = "ARX2_COUNTER_TERRORISM"
+			spriteType = "GFX_ARX2_COUNTER_TERRORISM"
+			position = { x=30 y=35 }
+		}
+		iconType = {
+			name = "ARX2_FOREIGN_SUBVERSION"
+			spriteType = "GFX_ARX2_FOREIGN_SUBVERSION"
+			position = { x=217 y=35 }
+		}
+		buttonType = {
+			name = "EGD_GUI_ROMEO1_HOWMUCH_CT"
+			quadTextureSprite = "GFX_CHECKBOX_ALPHA_ROMEO_JULIET"
+			position = { x=31 y=70 }
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "EGD_GUI_ROMEO1_HOWMUCH_FS"
+			quadTextureSprite = "GFX_CHECKBOX_ALPHA_ROMEO_JULIET"
+			position = { x=222 y=70 }
+			clicksound = click_ok
+			oversound = ui_menu_over
 		}
 	}
 }
