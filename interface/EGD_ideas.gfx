@@ -278,5 +278,37 @@ spriteTypes = {
 		name = "GFX_idea_SYR_kata_ib_muhammad"
 		texturefile = "gfx/interface/ideas/SYR/SYR_kata_ib_muhammad.dds"
 	}
+	
+	#### Corruption Levels ####
+
+	SpriteType = { 
+		name = "GFX_idea_paralyzing_corruption"
+		texturefile = "gfx/interface/Corruption_Levels/idea_paralyzing_corruption.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_crippling_corruption"
+		texturefile = "gfx/interface/Corruption_Levels/idea_crippling_corruption.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_systemic_corruption"
+		texturefile = "gfx/interface/Corruption_Levels/idea_systemic_corruption.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_rampant_corruption"
+		texturefile = "gfx/interface/Corruption_Levels/idea_rampant_corruption.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_widespread_corruption"
+		texturefile = "gfx/interface/Corruption_Levels/idea_widespread_corruption.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_moderate_corruption"
+		texturefile = "gfx/interface/Corruption_Levels/idea_moderate_corruption.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_idea_negligible_corruption"
+		texturefile = "gfx/interface/Corruption_Levels/idea_negligible_corruption.dds"
+	}
+
 
  }

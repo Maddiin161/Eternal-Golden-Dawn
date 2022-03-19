@@ -9,8 +9,6 @@ ideas = {
 			removal_cost = -1
 			#level = 1
 
-			picture = corruption_1
-
 			available = {
 				has_idea = paralyzing_corruption
 				has_idea = crippling_corruption
@@ -36,8 +34,6 @@ ideas = {
 			cost = 150
 			removal_cost = -1
 			#level = 2
-
-			picture = corruption_2
 
 			available = {
 				has_idea = paralyzing_corruption
@@ -65,9 +61,7 @@ ideas = {
 			cost = 150
 			removal_cost = -1
 			#level = 3
-
-			picture = corruption_3
-
+			
 			available = {
 				has_idea = crippling_corruption
 				has_idea = rampant_corruption
@@ -94,7 +88,6 @@ ideas = {
 			removal_cost = -1
 			#level = 4
 
-			picture = corruption_4
 
 			available = {
 				has_idea = systemic_corruption
@@ -122,7 +115,6 @@ ideas = {
 			removal_cost = -1
 			#level = 5
 
-			picture = corruption_5
 
 			available = {
 				has_idea = rampant_corruption
@@ -150,7 +142,6 @@ ideas = {
 			removal_cost = -1
 			#level = 6
 
-			picture = corruption_6
 
 			available = {
 				has_idea = rampant_corruption
@@ -178,8 +169,6 @@ ideas = {
 			cost = 150
 			removal_cost = -1
 			#level = 7
-
-			picture = corruption_7
 
 			available = {
 				has_idea =  negligible_corruption
