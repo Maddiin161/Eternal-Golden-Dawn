@@ -416,11 +416,9 @@ guiTypes = {
 		containerWindowType = {
 			name = "ideas"
 			position = { x = 0 y = 540 }
-			size = { width=550 height=465 }
+			size = { width=550 height=100%% }
 			verticalScrollbar = "right_vertical_slider"
-			scroll_wheel_factor = 40
-			smooth_scrolling = yes
-			margin = { top = 14 bottom = 2}
+			margin = { top = 12 bottom = 12}
 				background = {
 				name = "Background"
 				#quadTextureSprite ="GFX_tiled_window_2b_border"
