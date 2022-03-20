@@ -1,0 +1,28 @@
+﻿l_english:
+
+#Party Loc#
+
+#Leader Bios#
+
+#National Spirit Descs#
+
+##Focus Trees##
+ #INTRO#
+ IRQ_lion_of_babylon_roars:0 "Lion of Babylon Roars"
+ IRQ_and_iraq_holds_its_breath:0 "And Iraq Holds It's Breath"
+ IRQ_siege_of_najaf:0 "Siege of Najaf"
+ IRQ_holding_the_arab_banner:0 "Holding the Arab Banner"
+ IRQ_against_those_who_wish_to_harm:0 "Against Those Who Wish to Harm"
+ IRQ_tying_the_loose_end:0 "Tying the Loose End"
+ IRQ_crushing_the_vipers_head:0 "Crushing the Viper's Head"
+ IRQ_aflaq_and_his_word:0 "Aflaq and His Word"
+
+ IRQ_lion_of_babylon_roars_desc:0 ""
+ IRQ_and_iraq_holds_its_breath_desc:0 ""
+ IRQ_siege_of_najaf_desc:0 ""
+ IRQ_holding_the_arab_banner_desc:0 ""
+ IRQ_against_those_who_wish_to_harm_desc:0 ""
+ IRQ_tying_the_loose_end_desc:0 ""
+ IRQ_crushing_the_vipers_head_desc:0 ""
+ IRQ_aflaq_and_his_word_desc:0 ""
+ #Events#

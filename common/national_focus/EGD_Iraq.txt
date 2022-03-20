@@ -1,0 +1,12 @@
+focus_tree = {
+	id = IRQ_Intro
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = IRQ
+		}
+	}
+	default = no
+	shared_focus = IRQ_lion_of_babylon_roars
+}
