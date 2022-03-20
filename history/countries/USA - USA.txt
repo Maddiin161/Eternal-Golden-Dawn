@@ -51,6 +51,11 @@ add_ideas = {
 	secular_state
 }
 
+set_variable = { PER_hostage_tensions = 1 }
+set_variable = { PER_american_willingness = 0 }
+set_variable = { PER_iranian_willingness = 1 }
+set_variable = { PER_balance_of_power = 1 }
+
 create_country_leader = {
 	name = "Jimmy Carter"
 	desc = ""

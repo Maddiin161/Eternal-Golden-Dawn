@@ -1,0 +1,267 @@
+focus_tree = {
+	id = carter1 #Carter 1980 Tree
+	continuous_focus_position = { x = 0 y = 1000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	focus = {
+		id = USA_1980_state_of_the_union
+		icon = GFX_focus_USA_1980_state_of_the_union
+		x = 4
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = USA_anti_inflation_program
+		icon = GFX_focus_USA_anti_inflation_program
+		relative_position_id = USA_1980_state_of_the_union
+		x = -2
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_1980_state_of_the_union
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = USA_condemn_the_soviet_invasion
+		icon = GFX_focus_USA_condemn_the_soviet_invasion
+		relative_position_id = USA_1980_state_of_the_union
+		x = 0
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_1980_state_of_the_union
+		}
+		ai_will_do = {
+			factor = 15
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = USA_freeze_iranian_assets
+		icon = GFX_focus_USA_freeze_iranian_assets
+		relative_position_id = USA_1980_state_of_the_union
+		x = 2
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_1980_state_of_the_union
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = USA_balance_the_budget
+		icon = GFX_focus_USA_balance_the_budget
+		relative_position_id = USA_1980_state_of_the_union
+		x = -3
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_anti_inflation_program
+		}
+		mutually_exclusive = {
+			focus = USA_trust_in_keynesianism
+		}
+		ai_will_do = {
+			factor = 9
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = USA_trust_in_keynesianism
+		icon = GFX_focus_USA_trust_in_keynesianism
+		relative_position_id = USA_1980_state_of_the_union
+		x = -1
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_anti_inflation_program
+		}
+		mutually_exclusive = {
+			focus = USA_balance_the_budget
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = USA_friends_in_baghdad
+		icon = GFX_focus_USA_friends_in_baghdad
+		relative_position_id = USA_1980_state_of_the_union
+		x = 1
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_freeze_iranian_assets
+		}
+		ai_will_do = {
+			factor = 15
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = USA_authorize_operation_eagle_claw
+		icon = GFX_focus_USA_authorize_operation_eagle_claw
+		relative_position_id = USA_1980_state_of_the_union
+		x = 3
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_freeze_iranian_assets
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = USA_address_the_extremism_problem
+		icon = GFX_focus_USA_address_the_extremism_problem
+		relative_position_id = USA_1980_state_of_the_union
+		x = -2
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_trust_in_keynesianism
+			focus = USA_balance_the_budget
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = USA_authorize_operation_cyclone
+		icon = GFX_focus_USA_authorize_operation_cyclone
+		relative_position_id = USA_1980_state_of_the_union
+		x = 0
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_condemn_the_soviet_invasion
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = USA_enforce_the_carter_doctrine
+		icon = GFX_focus_USA_enforce_the_carter_doctrine
+		relative_position_id = USA_1980_state_of_the_union
+		x = 2
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_friends_in_baghdad
+			focus = USA_authorize_operation_eagle_claw
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = USA_ensure_a_smooth_transition_of_power
+		icon = GFX_focus_USA_ensure_a_smooth_transition_of_power
+		relative_position_id = USA_1980_state_of_the_union
+		x = -1
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_address_the_extremism_problem
+		}
+		prerequisite = { 
+			focus = USA_authorize_operation_cyclone
+		}
+		prerequisite = { 
+			focus = USA_enforce_the_carter_doctrine
+		}
+		mutually_exclusive = {
+			focus = USA_4_more_years
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = USA_4_more_years
+		icon = GFX_focus_USA_4_more_years
+		relative_position_id = USA_1980_state_of_the_union
+		x = 1
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_address_the_extremism_problem
+		}
+		prerequisite = { 
+			focus = USA_authorize_operation_cyclone
+		}
+		prerequisite = { 
+			focus = USA_enforce_the_carter_doctrine
+		}
+		mutually_exclusive = {
+			focus = USA_ensure_a_smooth_transition_of_power
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		
+		}
+	}
+}
