@@ -47,7 +47,7 @@
 
 	create_country_leader = {
 		name = "Ruhollah Khomeini" 
-		desc = ""
+		desc = "PER_Ruhollah_Khomeini_desc"
 		picture = "Ruhollah_Khomeini.dds"
 		expire = "1991.3.1"
 		ideology = khomeinism
