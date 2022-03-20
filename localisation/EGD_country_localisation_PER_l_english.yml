@@ -1,11 +1,13 @@
 ﻿l_english:
 
 #### Parties ####
+#### LEADER DESC ####
+
+PER_Ruhollah_Khomeini_desc:0 "Born on September 24, 1902, Ruhollah Mousavi whose given name means "inspired of God" was born into a family of Shi'ite religious scholars in the small Iranian village of Khomein. In 1903, just five months after Khomeini's birth, his father, was murdered.\nBoth Khomeinii and his brother were avid religious scholars like their forefathers, and both attained the status of Ayatollah, which is given only to Shi'ite scholars of the highest knowledge.\nAs a young boy, Khomeini was a great academic, Khomeini's older brother decided to send him to the city of Arak in 1920. There, Khomeini studied with the renowned Islamic scholar Yazdi Ha'iri. Ha'iri left Arak for the city of Qom in 1923, and Khomeini followed. He then committed all of his efforts to furthering his own religious studies.In the 1930s the leader of Iran, Reza Shah, weakened the powers of religious leaders and promoted a more secularized country, the most powerful religious figures in Iran remained silent and encouraged their followers to do the same.\nUnable to speak out against what he saw as a country leaving its Islamic roots and values behind, Khomeini turned his efforts toward teaching. He began to cultivate a group of dedicated pupils who became his staunchest supporters during his days as an Islamic revolutionary. On March 31, 1961, Ayatollah Boroujerdi died and Khomeini was in a position to take up the mantle left by the late religious leader. After publishing his writings on Islamic science and doctrines, many Shi'ite Iranians began to see Khomeini as Marja-e Taqlid (a person to be imitated).\nIn 1962, Khomeini began protesting the intentions of the Iranian government. The Shah continued to cultivate close ties with the United States, and to be what Khomeini considered "soft" on Israel. After delivering another inflammatory speech in the fall of 1964, Khomeini was arrested and deported to Turkey. Prevented by Turkish law from wearing the traditional clothes of a Shi'ite cleric and scholar, Khomeini took up residence in Najaf, Iraq in September 1965. He remained there for 13 years, until the revolution in 1979 which saw him rising in power and becoming Iran’s leader. With the The new Iranian government and the Carter Administration of the US in an ongoing standoff In view of the hostage crisis, Khomeini needs to address the issues hasty if he wants to see an era of progress for the young Islamic republic."
+
 
 #### IDEAS ####
 
-
-#### LEADER DESC ####
 PER_banisadr_and_hundred_reasons_of_why_we_hate_him_idea:0 "Banisadr and Hundred Reasons of Why We Hate Him"
 PER_banisadr_and_hundred_reasons_of_why_we_hate_him_idea_desc:0 ""
 PER_brushing_the_peoples_mujahideen_aside_idea:0 "Brushing the People's Mujahideen Aside"
