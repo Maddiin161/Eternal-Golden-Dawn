@@ -1,0 +1,102 @@
+
+shared_focus = {
+	id = IRQ_lion_of_babylon_roars
+	icon = GFX_goal_unknown
+	cost = 3
+	x = 5
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRQ_lion_of_babylon_roars"
+	}
+}
+
+shared_focus = {
+	id = IRQ_and_iraq_holds_its_breath
+	icon = GFX_goal_unknown
+	cost = 3
+	x = 0
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRQ_and_iraq_holds_its_breath"
+	}
+	relative_position_id = IRQ_lion_of_babylon_roars
+	prerequisite = { focus = IRQ_lion_of_babylon_roars }
+}
+
+shared_focus = {
+	id = IRQ_siege_of_najaf
+	icon = GFX_goal_unknown
+	cost = 3
+	x = -3
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRQ_siege_of_najaf"
+	}
+	relative_position_id = IRQ_and_iraq_holds_its_breath
+	prerequisite = { focus = IRQ_and_iraq_holds_its_breath }
+}
+
+shared_focus = {
+	id = IRQ_holding_the_arab_banner
+	icon = GFX_goal_unknown
+	cost = 3
+	x = 0
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRQ_holding_the_arab_banner"
+	}
+	relative_position_id = IRQ_and_iraq_holds_its_breath
+	prerequisite = { focus = IRQ_and_iraq_holds_its_breath }
+}
+
+shared_focus = {
+	id = IRQ_against_those_who_wish_to_harm
+	icon = GFX_goal_unknown
+	cost = 3
+	x = 0
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRQ_against_those_who_wish_to_harm"
+	}
+	relative_position_id = IRQ_holding_the_arab_banner
+	prerequisite = { focus = IRQ_holding_the_arab_banner }
+}
+
+shared_focus = {
+	id = IRQ_tying_the_loose_end
+	icon = GFX_goal_unknown
+	cost = 3
+	x = 3
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRQ_tying_the_loose_end"
+	}
+	relative_position_id = IRQ_and_iraq_holds_its_breath
+	prerequisite = { focus = IRQ_and_iraq_holds_its_breath }
+}
+
+shared_focus = {
+	id = IRQ_crushing_the_vipers_head
+	icon = GFX_goal_unknown
+	cost = 3
+	x = 0
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRQ_crushing_the_vipers_head"
+	}
+	relative_position_id = IRQ_siege_of_najaf
+	prerequisite = { focus = IRQ_siege_of_najaf }
+}
+
+shared_focus = {
+	id = IRQ_aflaq_and_his_word
+	icon = GFX_goal_unknown
+	cost = 3
+	x = 0
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus IRQ_aflaq_and_his_word"
+	}
+	relative_position_id = IRQ_tying_the_loose_end
+	prerequisite = { focus = IRQ_tying_the_loose_end }
+}
