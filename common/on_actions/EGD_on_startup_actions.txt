@@ -1,0 +1,32 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            every_country = { #CHANGE TO SUITABLE TAG IF NEEDED
+                set_variable = { ROMEO1_HOWMUCH_CT_CLICK_VAR = 1 }
+                clamp_variable = {
+                    var = ROMEO1_HOWMUCH_CT_CLICK_VAR
+                    min = 1
+                    max = 4
+                }
+                set_variable = { ROMEO1_HOWMUCH_FS_CLICK_VAR = 1 }
+                clamp_variable = {
+                    var = ROMEO1_HOWMUCH_FS_CLICK_VAR
+                    min = 1
+                    max = 4
+                }
+                set_variable = { ROMEO1_HOWMUCH_PR_CLICK_VAR = 1 }
+                clamp_variable = {
+                    var = ROMEO1_HOWMUCH_PR_CLICK_VAR
+                    min = 1
+                    max = 4
+                }
+                set_variable = { ROMEO1_HOWMUCH_DG_CLICK_VAR = 1 }
+                clamp_variable = {
+                    var = ROMEO1_HOWMUCH_DG_CLICK_VAR
+                    min = 1
+                    max = 4
+                }
+            }
+        }
+    }
+}
