@@ -54,22 +54,107 @@ scripted_gui = {
 		effects = {
 			EGD_GUI_ROMEO1_HOWMUCH_CT_click = {
 				if = {
-					limit = { check_variable = { ROMEO1_HOWMUCH_CT_CLICK_VAR = 4 } }
-					set_variable = { ROMEO1_HOWMUCH_CT_CLICK_VAR = 1 }
+					limit = {
+						NOT = { 
+							check_variable = { ALPHA_GAMMA = 8 }
+							check_variable = { ROMEO1_HOWMUCH_CT_CLICK_VAR = 4 }
+						}
+					}
+					add_to_variable = { ROMEO1_HOWMUCH_CT_CLICK_VAR = 1 }
+					add_to_variable = { ALPHA_GAMMA = 1 }
 				}
-				else = { add_to_variable = { ROMEO1_HOWMUCH_CT_CLICK_VAR = 1 } }
+			}
+			EGD_GUI_ROMEO1_HOWMUCH_CT_right_click = {
+				if = {
+					limit = {
+						NOT = {
+							check_variable = { ROMEO1_HOWMUCH_CT_CLICK_VAR = 0 }
+							check_variable = { ALPHA_GAMMA = 0 }
+						}
+					}
+					add_to_variable = { ROMEO1_HOWMUCH_CT_CLICK_VAR = -1 }
+					add_to_variable = { ALPHA_GAMMA = -1 }
+				}
 			}
 			EGD_GUI_ROMEO1_HOWMUCH_FS_click = {
 				if = {
-					limit = { check_variable = { ROMEO1_HOWMUCH_FS_CLICK_VAR = 4 } }
-					set_variable = { ROMEO1_HOWMUCH_FS_CLICK_VAR = 1 }
+					limit = {
+						NOT = {
+							check_variable = { ROMEO1_HOWMUCH_FS_CLICK_VAR = 4 }
+							check_variable = { ALPHA_GAMMA = 8 }
+						}
+					}
+					add_to_variable = { ROMEO1_HOWMUCH_FS_CLICK_VAR = 1 }
+					add_to_variable = { ALPHA_GAMMA = 1 }
 				}
-				else = { add_to_variable = { ROMEO1_HOWMUCH_FS_CLICK_VAR = 1 } }
+			}
+			EGD_GUI_ROMEO1_HOWMUCH_FS_right_click = {
+				if = {
+					limit = {
+						NOT = {
+							check_variable = { ROMEO1_HOWMUCH_FS_CLICK_VAR = 0 }
+							check_variable = { ALPHA_GAMMA = 0 }
+						}
+					}
+					add_to_variable = { ROMEO1_HOWMUCH_FS_CLICK_VAR = -1 }
+					add_to_variable = { ALPHA_GAMMA = -1 }
+				}
+			}
+			EGD_GUI_ROMEO1_HOWMUCH_PROPAGANDA_click = {
+				if = {
+					limit = {
+						NOT = {
+							check_variable = { ROMEO1_HOWMUCH_PR_CLICK_VAR = 4 }
+							check_variable = { ALPHA_GAMMA = 8 }
+						}
+					}
+					add_to_variable = { ROMEO1_HOWMUCH_PR_CLICK_VAR = 1 }
+					add_to_variable = { ALPHA_GAMMA = 1 }
+				}
+			}
+			EGD_GUI_ROMEO1_HOWMUCH_PROPAGANDA_right_click = {
+				if = {
+					limit = {
+						NOT = {
+							check_variable = { ROMEO1_HOWMUCH_PR_CLICK_VAR = 0 }
+							check_variable = { ALPHA_GAMMA = 0 }
+						}
+					}
+					add_to_variable = { ROMEO1_HOWMUCH_PR_CLICK_VAR = -1 }
+					add_to_variable = { ALPHA_GAMMA = -1 }
+				}
+			}
+			EGD_GUI_ROMEO1_HOWMUCH_DG_click = {
+				if = {
+					limit = {
+						NOT = {
+							check_variable = { ROMEO1_HOWMUCH_DG_CLICK_VAR = 4 }
+							check_variable = { ALPHA_GAMMA = 8 }
+						}
+					}
+					set_variable = { ROMEO1_HOWMUCH_DG_CLICK_VAR = 1 }
+					add_to_variable = { ROMEO1_HOWMUCH_DG_CLICK_VAR = 1 }
+					add_to_variable = { ALPHA_GAMMA = 1 }
+				}
+			}
+			EGD_GUI_ROMEO1_HOWMUCH_DG_right_click = {
+				if = {
+					limit = {
+						NOT = {
+							check_variable = { ROMEO1_HOWMUCH_DG_CLICK_VAR = 0 }
+							check_variable = { ALPHA_GAMMA = 0 }
+						}
+					}
+					add_to_variable = { ROMEO1_HOWMUCH_DG_CLICK_VAR = -1 }
+					add_to_variable = { ALPHA_GAMMA = -1 }
+				}
 			}
 		}
 		properties = {
 			EGD_GUI_ROMEO1_HOWMUCH_CT = { frame = ROMEO1_HOWMUCH_CT_CLICK_VAR }
 			EGD_GUI_ROMEO1_HOWMUCH_FS = { frame = ROMEO1_HOWMUCH_FS_CLICK_VAR }
+			EGD_GUI_ROMEO1_HOWMUCH_PROPAGANDA = { frame = ROMEO1_HOWMUCH_PR_CLICK_VAR }
+			EGD_GUI_ROMEO1_HOWMUCH_DG = { frame = ROMEO1_HOWMUCH_DG_CLICK_VAR }
 		}
 	}
 }

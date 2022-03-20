@@ -44,6 +44,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/alpharomeox2/FOREIGN_SUBVERSION.dds"
 	}
 	spriteType = {
+		name = "GFX_ARX2_PROPAGANDA"
+		texturefile = "gfx/interface/alpharomeox2/PROPAGANDA.dds"
+	}
+	spriteType = {
+		name = "GFX_ARX2_DISSIDENT_GROUPS"
+		texturefile = "gfx/interface/alpharomeox2/DISSIDENT_GROUPS.dds"
+	}
+	spriteType = {
 		name = "GFX_ARX2_SEPERATOR"
 		texturefile = "gfx/interface/alpharomeox2/SEPERATOR.dds"
 	}

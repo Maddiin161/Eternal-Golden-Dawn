@@ -104,6 +104,16 @@ guiTypes = {
 			spriteType = "GFX_ARX2_FOREIGN_SUBVERSION"
 			position = { x=217 y=35 }
 		}
+		iconType = {
+			name = "ARX2_PROPAGANDA"
+			spriteType = "GFX_ARX2_PROPAGANDA"
+			position = { x=217 y=200 }
+		}
+		iconType = {
+			name = "ARX2_DISSIDENT_GROUPS"
+			spriteType = "GFX_ARX2_DISSIDENT_GROUPS"
+			position = { x=30 y=190 }
+		}
 		buttonType = {
 			name = "EGD_GUI_ROMEO1_HOWMUCH_CT"
 			quadTextureSprite = "GFX_CHECKBOX_ALPHA_ROMEO_JULIET"
@@ -115,6 +125,20 @@ guiTypes = {
 			name = "EGD_GUI_ROMEO1_HOWMUCH_FS"
 			quadTextureSprite = "GFX_CHECKBOX_ALPHA_ROMEO_JULIET"
 			position = { x=222 y=70 }
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "EGD_GUI_ROMEO1_HOWMUCH_PROPAGANDA"
+			quadTextureSprite = "GFX_CHECKBOX_ALPHA_ROMEO_JULIET"
+			position = { x=222 y=220 }
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "EGD_GUI_ROMEO1_HOWMUCH_DG"
+			quadTextureSprite = "GFX_CHECKBOX_ALPHA_ROMEO_JULIET"
+			position = { x=31 y=220 }
 			clicksound = click_ok
 			oversound = ui_menu_over
 		}
