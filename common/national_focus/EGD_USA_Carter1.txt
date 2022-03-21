@@ -10,7 +10,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_1980_state_of_the_union
-		icon = GFX_focus_USA_1980_state_of_the_union
+		icon = GFX_USA_State_of_Union_1980
 		x = 4
 		y = 0
 		cost = 5
@@ -175,7 +175,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_authorize_operation_cyclone
-		icon = GFX_focus_USA_authorize_operation_cyclone
+		icon = GFX_USA_authorize_operation_cyclone
 		relative_position_id = USA_1980_state_of_the_union
 		x = 0
 		y = 3

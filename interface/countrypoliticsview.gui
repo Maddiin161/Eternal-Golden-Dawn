@@ -298,7 +298,7 @@ guiTypes = {
 
 			iconType = {
 				name = "continuous_glow"
-				position = { x = -16 y = -6 }
+				position = { x = 245 y = -6 }
 				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
 				scale = 0.9
 			}

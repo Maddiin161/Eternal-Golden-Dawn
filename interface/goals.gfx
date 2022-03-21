@@ -56,5 +56,23 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GFX_CUB_guerillas_of_the_world_unite.dds"
 	}	
 	
-}
+	#Iraq#
+	SpriteType = { 
+		name = "GFX_IRQ_lion_of_babylon_roars"
+		texturefile = "gfx/interface/goals/IRQ/IRQ_lion_of_babylon_roars.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_IRQ_against_those_who_wish_to_harm"
+		texturefile = "gfx/interface/goals/IRQ/IRQ_against_those_who_wish_to_harm.dds"
+	}	
 	
+	#USA#
+	SpriteType = { 
+		name = "GFX_USA_State_of_Union_1980"
+		texturefile = "gfx/interface/goals/USA/USA_State_of_Union_1980.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_USA_authorize_operation_cyclone"
+		texturefile = "gfx/interface/goals/USA/USA_authorize_operation_cyclone.dds"
+	}
+}

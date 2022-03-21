@@ -50,7 +50,7 @@ guiTypes = {
 				name = "to_find_text"
 				position = { x=41 y=14 }
 				size = { x=150 y=25 }
-				font = "vt323_18_glow"
+				font = "IBM_EGA_18_outline"
 				text = ""
 				tooltip = "FOCUS_SEARCH_TOOLTIP"
 			}
@@ -58,7 +58,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "found_text"
 				position = { x = -155 y = 12 }
-				font = "vt323_18_glow"
+				font = "IBM_EGA_18_outline"
 				borderSize = {x = 0 y = 0}
 				text = ""
 				maxWidth = 150
@@ -69,7 +69,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "type_to_search_text"
 				position = { x = 42 y = 10 }
-				font = "vt323_18_glow"
+				font = "IBM_EGA_18_outline"
 				borderSize = {x = 0 y = 0}
 				text = "FOCUS_SEARCH_TYPE_TEXT"
 				maxWidth = 160
@@ -319,7 +319,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "tooltip_text"
 					position = { x = 13 y = 13 }
-					font = "vt323_18_glow"
+					font = "IBM_EGA_18_outline"
 					text = "Hello world!"
 					maxWidth = 345
 					maxHeight = 20
@@ -433,7 +433,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 15 y = 58 }
-			font = "vt323_18_glow"
+			font = "IBM_EGA_18_outline"
 			text = ""
 			maxWidth = 145
 			maxHeight = 20
@@ -451,7 +451,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "focus_cost"
 			position = { x = 147 y = 27 }
-			font = "vt323_18_glow"
+			font = "IBM_EGA_18_outline"
 			text = "2"
 			maxWidth = 145
 			maxHeight = 20
@@ -504,7 +504,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 15 y = 55 }
-			font = "vt323_18_glow"
+			font = "IBM_EGA_16_outline"
 			text = ""
 			maxWidth = 147
 			maxHeight = 20
