@@ -8,7 +8,7 @@ state = { #NYANza uwu
 		steel = 5.000
 	}
 	history = {
-		owner = KEN
+		owner = EAF
 		set_state_flag = tropical
 		set_state_flag = lakes
 		set_state_flag = small
@@ -23,6 +23,7 @@ state = { #NYANza uwu
 
 		}
 		add_core_of = KEN
+		add_core_of = EAF
 		victory_points = {
 			13796 15
 		}

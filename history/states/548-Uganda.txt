@@ -7,12 +7,13 @@ state = {
 	}
 
 	history = {
-		owner = UGA
+		owner = EAU
 		set_state_flag = temperate
 		set_state_flag = freshwatersea
 		set_state_flag = nominal
 		set_state_flag = verypoor
 		add_core_of = UGA
+		add_core_of = EAU
 		add_core_of = BUG
 		buildings = {
 			infrastructure = 0

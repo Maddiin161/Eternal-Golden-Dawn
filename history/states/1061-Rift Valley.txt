@@ -8,7 +8,7 @@ state = {
 		steel = 18.000
 	}
 	history = {
-		owner = KEN
+		owner = EAF
 		set_state_flag = temperate
 		set_state_flag = lakes
 		set_state_flag = nominal
@@ -24,6 +24,7 @@ state = {
 		}
 		add_core_of = KEN
 		add_core_of = KIK
+		add_core_of = EAF
 		victory_points = {
 			13791 10
 		}

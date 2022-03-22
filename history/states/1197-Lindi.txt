@@ -3,12 +3,13 @@ state = {
 	name = "STATE_1197"
 
 	history = {
-		owner = TZN
+		owner = EAF
 		set_state_flag = temperate
 		set_state_flag = freshwatersea
 		set_state_flag = nominal
 		set_state_flag = verypoor
 		add_core_of = TZN
+		add_core_of = EAF
 		buildings = {
 			infrastructure = 0
 			state_infrastructure = 0

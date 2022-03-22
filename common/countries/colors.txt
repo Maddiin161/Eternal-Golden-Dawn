@@ -1620,3 +1620,11 @@ EZO = {
 	color = rgb { 102 0 0 }
 	color_ui = rgb { 102 0 0 }
 }
+EAF = {
+	color = rgb { 153 41 45 }
+	color_ui = rgb { 153 41 45 }
+}
+EAU = {
+	color = rgb { 153 41 45 }
+	color_ui = rgb { 153 41 45 }
+}

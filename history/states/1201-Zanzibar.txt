@@ -2,12 +2,13 @@ state = {
 	id = 1201
 	name = "STATE_1201"
 	history = {
-		owner = ZAZ
+		owner = EAF
 		set_state_flag = temperate
 		set_state_flag = lakes
 		set_state_flag = micro
 		set_state_flag = verypoor
 		add_core_of = ZAZ
+		add_core_of = EAF
 		add_core_of = TZN
 		victory_points = { 13345 5 }
 		buildings = {
@@ -15,9 +16,6 @@ state = {
 			state_infrastructure = 0
 
 			agri_industrial_complex = 1
-		}
-		1964.1.1 = {
-			owner = TZN
 		}
 		set_state_flag = HDI2
 		set_variable = { tourism_infrastructure = 0 }
