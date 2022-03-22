@@ -3,6 +3,9 @@ PER_hostage_crisis_category = {
 		picture = GFX_decision_cat_PER_hostage_crisis
 		visible_when_empty = yes
 		priority = 4
+		visible = {
+			has_global_flag = PER_hostage_crisis
+		}
 
 		allowed = {
 			original_tag = PER

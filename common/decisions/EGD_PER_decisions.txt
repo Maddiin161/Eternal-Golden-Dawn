@@ -72,4 +72,60 @@ PER_hostage_crisis_category = {
 				factor = 0
 			}
 		}
+	#### ACTUAL DECISIONS - DEADLINE ####
+	PER_end_the_crisis = {                           
+		allowed = { 
+			tag = PER
+		}             
+            available = { 
+			NOT = {                         
+				has_global_flag = PER_hostage_crisis
+			{
+            }
+            is_good = no                           
+            selectable_mission = no               
+            days_mission_timeout = 400             
+            timeout_effect = {                      
+			news_event = {
+				id = iran.6
+				days = 1
+			} 
+			hidden_effect= {
+				clr_global_flag = PER_hostage_crisis
+			}             
+            }
+            complete_effect = {
+			add_stability = 0.05
+            }
+     }
+
+
+	#### HIGH TENSIONS ####
+	PER_release_the_hostages_decision = {
+			icon = generic_industry
+			available = {
+				
+			}
+			visible = {
+				 limit = {
+   					check_variable = { PER_hostage_tensions = 2 }
+  				}	
+			}
+			fire_only_once = yes
+			cost = 100
+		
+			complete_effect = {
+				custom_effect_tooltip = PER_release_hostages_unconditionally_tooltip
+				hidden_effect = {
+					news_event = {
+						id = iran.1
+						days = 1 					
+					}
+					clr_global_flag = PER_hostage_crisis
+				}
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
 }

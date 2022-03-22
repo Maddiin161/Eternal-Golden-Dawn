@@ -30,11 +30,15 @@ PER_raise_hostage_iranian_willingness_tooltip:0 "Iranian §YWillingness to Negot
 PER_lower_hostage_iranian_willingness_tooltip:0 "Iranian §YWillingness to Negotiate§! will §Rdecrease§!"
 PER_raise_hostage_balance_of_power_tooltip:0 "The Balance of Power will shift in Iran's Favor"
 PER_lower_hostage_balance_of_power_tooltip:0 "The Balance of Power will shift in the United States' Favor"
+PER_release_hostages_unconditionally_tooltip:0 "While this ends the crisis, §Rthe backlash against our government could be catastrophic§!"
+
 
 #### DECISIONS ####
 
 PER_hostage_crisis_category:0 "American Hostage Crisis"
 PER_hostage_crisis_category_desc:0 "\n\n\n\n\n\n\n\n\n\n\nBeginning in the fall of 1978, the U.S. embassy in Tehran had been the scene of frequent demonstrations by Iranians who opposed the American presence in the country, and on February 14, 1979, about a month after the shah had fled Iran, the embassy was attacked and briefly occupied. The embassy weathered this assault, during which several of its personnel were killed or wounded, but Iran was in the throes of enormous revolutionary change, which called for a new U.S. posture in Iran. Consequently, by the start of the hostage crisis, the embassy staff had been cut from more than 1,400 men and women before the revolution to about 70. In addition, attempts had been made to arrive at a modus vivendi with Iran’s provisional government, and during the spring and summer the Iranian authorities sought to strengthen security around the embassy complex.\n\n\nThe Current Tensions are:  [per_hostage_tensions_loc]\n\nThe Americans currently are: [per_hostage_american_willingness_loc]\n\nWe are: [per_hostage_iranian_willingness_loc] \n\nThe Balance of Power is currently: [per_hostage_balance_of_power_loc]\n\n§RIf tensions escalate too far, the consequences will be disasterous for both sides!§!"
+PER_release_the_hostages_decision:0 "Release the Hostages Unconditionally"
+PER_end_the_crisis:0 "End the Crisis"
 
 ##### SCRIPTED LOC ####
  
@@ -65,3 +69,8 @@ PER_balance_of_power_america_favored:0 "§YIn the United States' Favor§!"
 PER_balance_of_power_very_america_favored:0 "§YHeavily in the United States' Favor§!"
 
 #### EVENTS ####
+
+iran.1.t:0 "The End of the Iranian Hostage Crisis"
+iran.1.d:0 "After months of tense negotiations, the Iranian Hostage Crisis has finally ended. The international consensus agrees that the signing of the Algiers Accord is heavily in favor of the Americans after repeated concessions on the part of the Khomeini government, caused mainly by economic pressure imposed by the United States. As part of the Algiers Accord, the provisional government in Iran has agreed to release all 53 hostages without harm, as well as pay over 2.5 Billion USD in damages to American nationals who were affected by the hostage crisis. Yet, the failure of the Khomeini government to achieve their policy objectives, such as bringing back the Shah and his assets to Iran, getting their government officially recognized as legitimate, and failing to secure American promises of non-interference in Iranian affairs have cast significant doubt onto them. In America, the [Root.GetName] administration has achieved a massive popularity boost due to their deft diplomatic maneuvering in resolving the crisis."
+iran.1.a:0 "A Blow to American Foreign Policy"
+iran.2.d:0 "After months of tense negotiations, the Iranian Hostage Crisis has finally ended. It seems like a treaty which slightly favors the United States has been signed, although many in Iran are nevertheless satisfied with the Outcome.  As part of the Algiers Accord, the provisional government in Iran has agreed to release all 53 hostages without harm, as well as pay over 2.5 Billion USD in damages to American nationals who were affected by the hostage crisis.  While the Khomeini government has failed to achieve objectives such as bringing back the Shah and his assets to Iran, they have managed to obtain American pledges of non-interference in Iranian affairs, as well as official recognition for their government. With the crisis ending with a whimper, not a bang, the world breathes a sigh of relief as it appears that war and violence in the Middle East has been avoided for now. 

@@ -5,6 +5,10 @@
 	oob = "PER_1933"
 	capital = 266
 	set_convoys = 10
+
+	set_global_flag = PER_hostage_crisis
+	activate_mission = PER_end_the_crisis
+
 	#######################
 	# Research
 	#######################
