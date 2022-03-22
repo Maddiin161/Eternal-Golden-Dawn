@@ -1,0 +1,14 @@
+defined_text = {
+	name = GetHello
+	text = {
+		trigger = {
+			any_neighbor_country = {
+				limit = { is_neighbor_of = FROM }
+				GetTag = {
+					set_country_flag = IS_NEIGHBOUR
+				}
+			}
+		}
+		localization_key = TEST1
+	}
+}

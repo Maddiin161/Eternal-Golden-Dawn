@@ -1,0 +1,6 @@
+﻿l_english:
+
+TEST1:0 "[ROOT.GetFlag]"
+
+foxtrot.1.t:0 "ROGER"
+foxtrot.1.d:0 "[GetHello]"

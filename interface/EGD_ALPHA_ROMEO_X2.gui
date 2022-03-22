@@ -143,4 +143,23 @@ guiTypes = {
 			oversound = ui_menu_over
 		}
 	}
+	containerWindowType = {
+		name = "EGD_GUI_INSURGENCY_PLOTTING"
+		size = { width = 400 height = 286 }
+		position = { x = 710 y = 254 }
+		show_sound = open_sub_window
+		background = {
+			name = "Background"
+			spriteType = "GFX_EGD_tiled_window_alpharomeo_border"
+		}
+		instantTextBoxType = {
+			name = "FOXTROT_SQUAD_5"
+			position = { x = 70 y = 25 }
+			font = "IBM_EGA_22_outline"
+			text = [GetHello]
+			format = left
+			maxWidth = 520
+			alwaystransparent = yes
+		}
+	}
 }

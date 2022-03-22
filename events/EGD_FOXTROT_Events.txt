@@ -1,0 +1,15 @@
+add_namespace = foxtrot
+
+news_event = {
+	id = foxtrot.1
+	title = foxtrot.1.t
+	desc = foxtrot.1.d
+	picture = GFX_news_event_croatia_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = "Shedding blood for homeland!"
+	}
+}
