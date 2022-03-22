@@ -1,5 +1,4 @@
 spriteTypes = { 
-GFX_IRQ_against_those_who_wish_to_harm
 	SpriteType = {
 			name = "GFX_GFX_IRQ_against_those_who_wish_to_harm_shine"
 			texturefile = "gfx/interface/goals/IRQ/GFX_IRQ_against_those_who_wish_to_harm.dds"
