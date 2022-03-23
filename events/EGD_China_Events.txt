@@ -2,17 +2,16 @@ add_namespace = china
 add_namespace = prc
 
 ##Event: Nukes aftermath
-news_event = {
+country_event = {
 	id = prc.20
 	title = prc.20.t
 	desc = prc.20.d
-	picture = GFX_news_event_pla_take_power
 	is_triggered_only = yes
 	fire_only_once = yes
 	major = yes
-	
-option = {
-		name = "Turn it off!"
+	option = {
+		name = prc.20.a
+		hidden_effect = { every_country = { news_event = WorldNews.10 } }
 		PRC = {
 			set_politics = {
 				ruling_party = authoritarian_democracy
@@ -25,8 +24,7 @@ option = {
 				ideology = emergency_government
 				traits = {
 				}
-			}	
-			
-		}	
-	}	
+			}
+		}
+	}
 }

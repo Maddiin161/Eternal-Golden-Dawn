@@ -1,25 +1,23 @@
 add_namespace = assam
 
 # ULF Victory
-news_event = {
+country_event = {
 	id = assam.20
 	title = assam.20.t
 	desc = assam.20.d
-	picture = GFX_news_event_ulf_victory_assam 
 	is_triggered_only = yes
 	fire_only_once = yes
-	major = no
-	
 	option = {
 		name = assam.20.a
 		ULF = {
 			set_cosmetic_tag = ULF_VIC
-		}		
+		}
+		hidden_effect = { every_country = { news_event = WorldNews.6 } }
 	}
 }	
 
 # Elections held
-news_event = {
+country_event = {
 	id = assam.23
 	title = assam.23.t
 	desc = assam.23.d
@@ -27,14 +25,14 @@ news_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 	major = no
-	
 	option = {
 		name = assam.23.a
+		hidden_effect = { every_country = { news_event = WorldNews.7 } }
 	}
 }	
 
 # MULTA Victory
-news_event = {
+country_event = {
 	id = assam.21
 	title = assam.21.t
 	desc = assam.21.d
@@ -50,5 +48,6 @@ news_event = {
 				ruling_party = islamism
 			}
 		}
+		hidden_effect = { every_country = { news_event = WorldNews.8 } }
 	}	
 }
