@@ -136,7 +136,14 @@ spriteType = {
 		name = "GFX_event_iraqi_hind_sales"
 		texturefile = "gfx/event_pictures/GFX_event_iraqi_hind_sales.dds"
 	}	
-		
+spriteType = {
+		name = "GFX_news_event_khomeini"
+		texturefile = "gfx/event_pictures/GFX_news_event_khomeini.dds"
+	}
+spriteType = {
+		name = "GFX_news_event_hostages_return"
+		texturefile = "gfx/event_pictures/GFX_news_event_hostages_return.dds"
+	}
 	
 # Iraq
 

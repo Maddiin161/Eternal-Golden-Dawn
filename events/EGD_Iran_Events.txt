@@ -5,7 +5,7 @@ news_event = {
 	id = iran.1
 	title = iran.1.t
 	desc = iran.1.d
-	picture = GFX_news_event_shah
+	picture = GFX_news_event_hostages_return
 	is_triggered_only = yes
 	fire_only_once = yes
 	major = no
@@ -34,6 +34,53 @@ news_event = {
 		hidden_effect = {
 			USA = {
 				add_stability = 0.05
+			}
+		}
+	}	
+}
+
+#RIP THE HOSTAGES
+news_event = {
+	id = iran.6
+	title = iran.6.t
+	desc = iran.6.d
+	picture = GFX_news_event_khomeini
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = iran.6.a
+		hidden_effect = {
+			USA = {
+				add_stability = -0.05
+			}
+			news_event = {
+				id = iran.7
+				days = 3
+			}
+		}
+	}	
+}
+#American Jets Strike Tehran
+news_event = {
+	id = iran.7
+	title = iran.7.t
+	desc = iran.7.d
+	picture = GFX_news_event_shah
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = iran.6.a
+		hidden_effect = {
+			USA = {
+				add_stability = -0.05
+			}
+			news_event = {
+				id = iran.8
+				days = 18
 			}
 		}
 	}	

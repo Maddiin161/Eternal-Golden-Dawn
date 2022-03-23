@@ -77,15 +77,15 @@ PER_hostage_crisis_category = {
 		allowed = { 
 			tag = PER
 		}             
-            available = { 
+        available = { 
 			NOT = {                         
 				has_global_flag = PER_hostage_crisis
-			{
-            }
-            is_good = no                           
-            selectable_mission = no               
-            days_mission_timeout = 400             
-            timeout_effect = {                      
+			}
+		}
+		is_good = no                           
+		selectable_mission = no               
+		days_mission_timeout = 400             
+		timeout_effect = {                      
 			news_event = {
 				id = iran.6
 				days = 1
@@ -93,15 +93,15 @@ PER_hostage_crisis_category = {
 			hidden_effect= {
 				clr_global_flag = PER_hostage_crisis
 			}             
-            }
-            complete_effect = {
+        }
+        complete_effect = {
 			add_stability = 0.05
-            }
-     }
+		}
+   }
 
 
 	#### HIGH TENSIONS ####
-	PER_release_the_hostages_decision = {
+	PER_release_the_hostages_decision = { #can be taken any time
 			icon = generic_industry
 			available = {
 				
@@ -122,6 +122,244 @@ PER_hostage_crisis_category = {
 						days = 1 					
 					}
 					clr_global_flag = PER_hostage_crisis
+				}
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	PER_execute_the_hostages_decision = { #Has to be at tensions = 2 
+			icon = generic_industry
+			available = {
+				
+			}
+			visible = {
+				 limit = {
+   					check_variable = { PER_hostage_tensions = 2 }
+  				}	
+			}
+			fire_only_once = yes
+			cost = 100
+		
+			complete_effect = {
+				custom_effect_tooltip = PER_execute_hostages_tooltip
+				hidden_effect = {
+					news_event = {
+						id = iran.6
+						days = 1 					
+					}
+					clr_global_flag = PER_hostage_crisis
+				}
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	PER_release_half_the_hostages_decision = { #Has to be at tensions = 2
+			icon = generic_industry
+			available = {
+				
+			}
+			visible = {
+				 limit = {
+   					check_variable = { PER_hostage_tensions = 2 }
+  				}	
+			}
+			fire_only_once = yes
+			cost = 50
+		
+			complete_effect = {
+				PER_drastically_lower_hostage_tensions = yes
+				PER_lower_hostage_balance_of_power = yes
+				PER_raise_hostage_american_willingness = yes
+				add_stability = -0.03
+				hidden_effect = {
+					news_event = {
+						id = iran.6
+						days = 1 					
+					}
+					PER_drastically_lower_hostage_tensions = yes
+					PER_lower_hostage_balance_of_power = yes
+					PER_raise_hostage_american_willingness = yes
+				}
+			}
+			ai_will_do = {
+				factor = 3
+			}
+		}
+	#### MEDIUM TENSION DECISIONS ####
+	PER_hostage_parades_decision = { #Tensions have to be above -1
+			icon = generic_industry
+			available = {
+				
+			}
+			visible = {
+				 	
+			}
+			fire_only_once = no
+			cost = 50
+		
+			complete_effect = {
+				PER_raise_hostage_tensions = yes
+				PER_raise_hostage_balance_of_power = yes
+				PER_raise_hostage_american_willingness = yes
+				add_war_support = 0.03
+				hidden_effect = {
+					USA = {
+						PER_raise_hostage_tensions = yes
+						PER_raise_hostage_balance_of_power = yes
+						PER_raise_hostage_american_willingness = yes
+					}
+				}
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	 PER_award_perpetrators_decision = { #Tensions have to be above -1
+			icon = generic_industry
+			available = {
+				
+			}
+			visible = {
+				 	
+			}
+			fire_only_once = no
+			cost = 50
+		
+			complete_effect = {
+				PER_raise_hostage_tensions = yes
+				PER_raise_hostage_balance_of_power = yes
+				PER_lower_hostage_american_willingness = yes
+				add_war_support = 0.03
+				hidden_effect = {
+					USA = {
+						PER_raise_hostage_tensions = yes
+						PER_raise_hostage_balance_of_power = yes
+						PER_raise_hostage_american_willingness = yes
+					}
+				}
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	PER_send_letters_home_decision = { #Can be taken any time
+			icon = generic_industry
+			available = {
+				
+			}
+			visible = {
+				 	
+			}
+			fire_only_once = no
+			cost = 75
+		
+			complete_effect = {
+				PER_lower_hostage_tensions = yes
+				PER_raise_hostage_american_willingness = yes
+				add_war_support = -0.05
+				hidden_effect = {
+					USA = {
+							PER_lower_hostage_tensions = yes
+							PER_raise_hostage_american_willingness = yes
+					}
+				}
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	PER_algiers_accord_decision = { #Willingness has to be at 1 for both sides, Tensions have to be at less than 1
+			icon = generic_industry
+			available = {
+				
+			}
+			visible = {
+				 	
+			}
+			fire_only_once = no
+			cost = 75
+		
+			complete_effect = {
+				#if balance of power is balanced, launch the OTL event - if balance of powers is pro-USA (1 or higher) launch the USA victory event, if balance of powers is pro-Iran (-1 or lower), fire the Iran victory event
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	PER_conceed_to_shah_items = {  #Tensions have to be at 1 or higher
+			icon = generic_industry
+			available = {
+				
+			}
+			visible = {
+				 	
+			}
+			fire_only_once = no
+			cost = 75
+		
+			complete_effect = {
+				PER_lower_hostage_tensions = yes
+				PER_raise_hostage_american_willingness = yes
+				add_war_support = -0.05
+				hidden_effect = {
+					USA = {
+							PER_lower_hostage_tensions = yes
+							PER_raise_hostage_american_willingness = yes
+					}
+				}
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	PER_pay_reperations = {  #Tensions have to be at 1 or higher
+			icon = generic_industry
+			available = {
+				
+			}
+			visible = {
+				 	
+			}
+			fire_only_once = no
+			cost = 50
+		
+			complete_effect = {
+				PER_lower_hostage_tensions = yes
+				PER_raise_hostage_american_willingness = yes
+				add_war_support = -0.05
+				hidden_effect = {
+					USA = {
+							PER_lower_hostage_tensions = yes
+							PER_raise_hostage_american_willingness = yes
+					}
+				}
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	PER_invite_carter_to_iran = {  #Tensions have to be at 1 or lower
+			icon = generic_industry
+			available = {
+				
+			}
+			visible = {
+				 	
+			}
+			fire_only_once = no
+			cost = 100
+		
+			complete_effect = {
+				PER_lower_hostage_tensions = yes
+				PER_raise_hostage_american_willingness = yes
+				add_war_support = -0.05
+				hidden_effect = {
+					USA = {
+							PER_lower_hostage_tensions = yes
+							PER_raise_hostage_american_willingness = yes
+					}
 				}
 			}
 			ai_will_do = {
