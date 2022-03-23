@@ -3,39 +3,36 @@ add_namespace = brm
 add_namespace = burmawar
 
 ##Event: Burmese Civil War
-news_event = {
+country_event = {
 	id = burmawar.10
 	title = burmawar.10.t
 	desc = burmawar.10.d
-	picture = GFX_news_event_burma_civil_war_start
+	#picture =
 	is_triggered_only = yes
 	fire_only_once = yes
-	major = yes
-	
-		option = {
-			name = "That is our duty for the precious land."
-			BRM = {
+	option = {
+		name = burmawar.10.a
+		BRM = {
 			add_political_power = -100		
 			release = MNN
 			release = ARA
 			release = SHA
 			release = CHN
-		}	
+		}
+		hidden_effect = { every_country = { news_event = WorldNews.2 } }
 	}
 }	
 
 ##Event: Burmese Federal Victory
-news_event = {
+country_event = {
 	id = burmawar.20
 	title = burmawar.20.t
 	desc = burmawar.20.d
-	picture = 
+	#picture = 
 	is_triggered_only = yes
 	fire_only_once = yes
-	major = yes
-	
 	option = {
-		name = "Our land, ours by right."
+		name = burmawar.20.a
 		BRM = {
 			set_cosmetic_tag = BRM_ethnic
 			set_politics = {
@@ -54,47 +51,47 @@ news_event = {
 				ideology = social_democracy_ideology
 				traits = {
 				}
-			}	
-		}	
+			}
+		}
+		hidden_effect = { every_country = { news_event = WorldNews.3 } }
 	}
 }
 
 ##Event: Burmese Independence Victory
-news_event = {
+country_event = {
 	id = burmawar.21
 	title = burmawar.21.t
 	desc = burmawar.21.d
-	picture = 
+	#picture = 
 	is_triggered_only = yes
 	fire_only_once = yes
-	major = yes
 	
 	option = {
-		name = "Freedom at last, but at what cost?"
+		name = burmawar.21.a
 		BRM = {
 			set_politics = {
 				ruling_party = authoritarian_democracy
-			}		
-		}	
+			}
+		}
+		hidden_effect = { every_country = { news_event = WorldNews.4 } }
 	}
 }
 
 ##Event: Burmese Communist Victory
-news_event = {
+country_event = {
 	id = burmawar.22
 	title = burmawar.22.t
 	desc = burmawar.22.d
-	picture = 
+	#picture = 
 	is_triggered_only = yes
 	fire_only_once = yes
-	major = yes
-	
 	option = {
-		name = "The red banner flies!"
+		name = burmawar.22.a
 		BRM = {
 			set_politics = {
 				ruling_party = revolutionary_socialism
 			}		
-		}	
+		}
+		hidden_effect = { every_country = { news_event = WorldNews.5 } }
 	}
 }

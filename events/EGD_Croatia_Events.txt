@@ -2,7 +2,7 @@ add_namespace = croatia
 add_namespace = greatercroatia
 
 ##Event: Croatian Independence  
-news_event = {
+country_event = {
 	id = croatia.1
 	title = croatia.1.t
 	desc = croatia.1.d
@@ -10,9 +10,9 @@ news_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 	major = no
-	
 	option = {
-		name = "Shedding blood for homeland!"
+		name = croatia.1.a
+		hidden_effect = { every_country = { news_event = WorldNews.12 } }
 		YUG = {
 			release = CRO
 		}
@@ -31,6 +31,7 @@ country_event = {
 	
 	option = {
 		name = "Our Beautiful Homeland!"
+		hidden_effect = { every_country = { news_event = WorldNews.11 } }
 		CRO = {
 			set_politics = {
 				ruling_party = ultranationalism
@@ -47,18 +48,3 @@ country_event = {
 		}
 	}
 }	
-
-##Event: Greater Croatia Established 
-news_event = {
-	id = greatercroatia.10
-	title = greatercroatia.10.t
-	desc = greatercroatia.10.d
-	picture = GFX_news_event_greater_croatia_established
-	is_triggered_only = yes
-	fire_only_once = yes
-	major = yes
-	
-	option = {
-		name = "Our Beautiful Homeland!" 
-	}	
-}

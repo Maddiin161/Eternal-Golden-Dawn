@@ -1,0 +1,209 @@
+add_namespace = WorldNews
+
+##Event: Nuclear Detonations Reported in the PRC
+news_event = {
+	id = WorldNews.1
+	title = WorldNews.1.t
+	desc = WorldNews.1.d
+	picture = GFX_news_event_beijing_nukes
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.1.a
+	}	
+}
+
+##Event: Burmese Civil War
+news_event = {
+	id = WorldNews.2
+	title = WorldNews.2.t
+	desc = WorldNews.2.d
+	picture = GFX_news_event_burma_civil_war_start
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.2.a
+	}	
+}
+
+
+##Event: Burmese Federal Victory
+news_event = {
+	id = WorldNews.3
+	title = WorldNews.3.t
+	desc = WorldNews.3.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.3.a
+	}	
+}
+
+##Event: Burmese Independence Victory
+news_event = {
+	id = WorldNews.4
+	title = WorldNews.4.t
+	desc = WorldNews.4.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.4.a
+	}	
+}
+
+##Event: Burmese Communist Victory
+news_event = {
+	id = WorldNews.5
+	title = WorldNews.5.t
+	desc = WorldNews.5.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.5.a
+	}	
+}
+
+##Event: ULF Victory in Assam
+news_event = {
+	id = WorldNews.6
+	title = WorldNews.6.t
+	desc = WorldNews.6.d
+	picture = GFX_news_event_ulf_victory_assam 
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.6.a
+	}	
+}
+
+##Event: Elections in Assam
+news_event = {
+	id = WorldNews.7
+	title = WorldNews.7.t
+	desc = WorldNews.7.d
+	picture = GFX_news_event_assam_first_elections
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.7.a
+	}	
+}
+
+##Event: Elections in Assam
+news_event = {
+	id = WorldNews.8
+	title = WorldNews.8.t
+	desc = WorldNews.8.d
+	picture = GFX_news_event_jihad_victory_assam 
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.8.a
+	}	
+}
+
+##Event: Bosnian Independence  
+news_event = {
+	id = WorldNews.9
+	title = WorldNews.9.t
+	desc = WorldNews.9.d
+	picture = GFX_news_event_bosnia_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.9.a
+	}	
+}
+
+##Event: China / Nukes Aftermath  
+news_event = {
+	id = WorldNews.10
+	title = WorldNews.10.t
+	desc = WorldNews.10.d
+	picture = GFX_news_event_pla_take_power
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.10.a
+	}	
+}
+
+##Event: Greater Croatia Established
+news_event = {
+	id = WorldNews.11
+	title = WorldNews.11.t
+	desc = WorldNews.11.d
+	picture = GFX_news_event_greater_croatia_established
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.11.a
+	}	
+}
+
+##Event: Croatian Independence  
+news_event = {
+	id = WorldNews.12
+	title = WorldNews.12.t
+	desc = WorldNews.12.d
+	picture = GFX_news_event_croatia_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.12.a
+	}	
+}
+
+##Event: 1980 Summer Games Begin
+news_event = {
+	id = WorldNews.13
+	title = WorldNews.13.t
+	desc = WorldNews.13.d
+	picture = GFX_news_event_1980_olympics_start
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.13.a
+	}	
+}
+
+##Event: 1980 Summer Games End
+news_event = {
+	id = WorldNews.14
+	title = WorldNews.14.t
+	desc = WorldNews.14.d
+	picture = GFX_news_event_1980_olympics_end
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.14.a
+	}	
+}
+
+##Event: Communist Party of Cuba - Espectro de Guevara Elected
+news_event = {
+	id = WorldNews.15
+	title = WorldNews.15.t
+	desc = WorldNews.15.d
+	picture = GFX_news_event_cpcgs_take_power
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.15.a
+	}
+}
