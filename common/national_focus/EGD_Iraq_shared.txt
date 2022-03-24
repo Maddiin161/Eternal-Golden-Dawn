@@ -25,7 +25,7 @@ shared_focus = {
 
 shared_focus = {
 	id = IRQ_siege_of_najaf
-	icon = GFX_goal_unknown
+	icon = GFX_IRQ_Siege_of_Najaf
 	cost = 3
 	x = -3
 	y = 1.5
@@ -38,7 +38,7 @@ shared_focus = {
 
 shared_focus = {
 	id = IRQ_holding_the_arab_banner
-	icon = GFX_goal_unknown
+	icon = GFX_IRQ_Holding_Banner_Of_Arabs
 	cost = 3
 	x = 0
 	y = 1.5
@@ -77,7 +77,7 @@ shared_focus = {
 
 shared_focus = {
 	id = IRQ_crushing_the_vipers_head
-	icon = GFX_goal_unknown
+	icon = GFX_IRQ_Crushing_the_Viper_Head
 	cost = 3
 	x = 0
 	y = 1.5

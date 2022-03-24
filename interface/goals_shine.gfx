@@ -1,10 +1,10 @@
-spriteTypes = { 
-	SpriteType = {
-			name = "GFX_GFX_IRQ_against_those_who_wish_to_harm_shine"
-			texturefile = "gfx/interface/goals/IRQ/GFX_IRQ_against_those_who_wish_to_harm.dds"
+spriteTypes = {
+    SpriteType = {
+			name = "GFX_GFX_IRQ_Siege_of_Najaf_shine"
+			texturefile = "gfx/interface/goals/IRQ/IRQ_Siege_of_Najaf.dds"
 					effectFile = "gfx/FX/buttonstate.lua"
 			animation = {
-				animationmaskfile = "gfx/interface/goals/IRQ/GFX_IRQ_against_those_who_wish_to_harm.dds"
+				animationmaskfile = "gfx/interface/goals/IRQ/IRQ_Siege_of_Najaf.dds"
 				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 				animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 				animationlooping = no			# yes or no ;)
@@ -17,7 +17,102 @@ spriteTypes = {
 			}
 
 			animation = {
-				animationmaskfile = "gfx/interface/goals/IRQ/GFX_IRQ_against_those_who_wish_to_harm.dds"
+				animationmaskfile = "gfx/interface/goals/IRQ/IRQ_Siege_of_Najaf.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+		}
+		
+    SpriteType = {
+			name = "GFX_GFX_IRQ_Crushing_the_Viper_Head_shine"
+			texturefile = "gfx/interface/goals/IRQ/IRQ_Crushing_the_Viper_Head.dds"
+					effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/IRQ/IRQ_Crushing_the_Viper_Head.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+
+			animation = {
+				animationmaskfile = "gfx/interface/goals/IRQ/IRQ_Crushing_the_Viper_Head.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+		} 	
+
+    SpriteType = {
+			name = "GFX_GFX_IRQ_Holding_Banner_Of_Arabs_shine"
+			texturefile = "gfx/interface/goals/IRQ/IRQ_Holding_Banner_Of_Arabs.dds"
+					effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/IRQ/IRQ_Holding_Banner_Of_Arabs.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+
+			animation = {
+				animationmaskfile = "gfx/interface/goals/IRQ/IRQ_Holding_Banner_Of_Arabs.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+		}
+	SpriteType = {
+			name = "GFX_GFX_IRQ_against_those_who_wish_to_harm_shine"
+			texturefile = "gfx/interface/goals/IRQ/IRQ_against_those_who_wish_to_harm.dds"
+					effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/IRQ/IRQ_against_those_who_wish_to_harm.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+
+			animation = {
+				animationmaskfile = "gfx/interface/goals/IRQ/IRQ_against_those_who_wish_to_harm.dds"
 				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 				animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 				animationlooping = no			# yes or no ;)
