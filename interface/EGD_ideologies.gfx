@@ -69,7 +69,10 @@ spriteTypes = {
 		name = "GFX_ideology_eurocommunism"
 		texturefile = "gfx/interface/ideologies/eurocommunism.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_ideology_african_socialism"
+		texturefile = "gfx/interface/ideologies/african_socialism.dds"
+	}
 #soc dem
 
 spriteType = {
@@ -277,6 +280,10 @@ spriteType = {
 	spriteType = {
 		name = "GFX_ideology_socialist_transhumanism"
 		texturefile = "gfx/interface/ideologies/socialist_transhumanism.dds"
+	}		
+	spriteType = {
+		name = "GFX_ideology_afro_futurism"
+		texturefile = "gfx/interface/ideologies/afro_futurism.dds"
 	}		
 	
 # annihlialtiosm
