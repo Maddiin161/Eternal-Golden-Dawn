@@ -96,4 +96,8 @@ spriteTypes = {
 		name = "GFX_USA_authorize_operation_cyclone"
 		texturefile = "gfx/interface/goals/USA/USA_authorize_operation_cyclone.dds"
 	}
+	SpriteType = { 
+		name = "GFX_USA_4_more_years"
+		texturefile = "gfx/interface/goals/USA/USA_4_more_years.dds"
+	}
 }
