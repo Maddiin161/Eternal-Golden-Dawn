@@ -1,7 +1,7 @@
 add_namespace = southafrica
 
 ##Event: South African Civil War
-news_event = {
+country_event = {
 	id = southafrica.20
 	title = southafrica.20.t
 	desc = southafrica.20.d
@@ -12,5 +12,6 @@ news_event = {
 	
 	option = {
 		name = southafrica.20.a
+		hidden_effect =  { every_country = { news_event = WorldNews.30 } }
 	}	
 }

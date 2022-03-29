@@ -17,7 +17,7 @@ country_event = {
 	}	
 }
 
-news_event = {
+country_event = {
 	id = ussr.21
 	title = ussr.21.t
 	desc = ussr.21.d
@@ -28,10 +28,11 @@ news_event = {
 	
 	option = {
 		name = "...suprising."
+		hidden_effect =  { every_country = { news_event = WorldNews.41 } }
 	}
 }
 
-news_event = {
+country_event = {
 	id = ussr.22
 	title = ussr.22.t
 	desc = ussr.22.d
@@ -41,6 +42,7 @@ news_event = {
 	major = no
 	
 	option = {
+		hidden_effect =  { every_country = { news_event = WorldNews.42 } }
 		name = "Mashallah!"
 	}
 }

@@ -1,7 +1,7 @@
 add_namespace = kosovo
 
 ##Event: Kosovo Independence  
-news_event = {
+country_event = {
 	id = kosovo.1
 	title = kosovo.1.t
 	desc = kosovo.1.d
@@ -15,5 +15,6 @@ news_event = {
 		YUG = {
 			release = KOS
 		}
+		hidden_effect =  { every_country = { news_event = WorldNews.23 } }
 	}		
 }

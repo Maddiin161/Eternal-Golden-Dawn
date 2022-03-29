@@ -1,7 +1,7 @@
 add_namespace = vojvodina
 
 ##Event: Vojvodina Independence  
-news_event = {
+country_event = {
 	id = vojvodina.1
 	title = vojvodina.1.t
 	desc = vojvodina.1.d
@@ -12,6 +12,7 @@ news_event = {
 	
 	option = {
 		name = "Shedding blood for homeland!"
+		hidden_effect =  { every_country = { news_event = WorldNews.43 } }
 		YUG = {
 			release = VOJ
 		}

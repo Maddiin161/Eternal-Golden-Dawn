@@ -1,7 +1,7 @@
 add_namespace = herzegbosnia
 
 ##Event: Herzeg Bosnian Independence  
-news_event = {
+country_event = {
 	id = herzegbosnia.1
 	title = herzegbosnia.1.t
 	desc = herzegbosnia.1.d
@@ -18,5 +18,6 @@ news_event = {
 		BOS = {
 			release = ZEG
 		}
+		hidden_effect = { every_country = { news_event = WorldNews.17 } }
 	}		
 }

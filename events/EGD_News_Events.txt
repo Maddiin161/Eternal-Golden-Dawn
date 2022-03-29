@@ -207,3 +207,395 @@ news_event = {
 		name = WorldNews.15.a
 	}
 }
+
+##Event: Foxtrot
+news_event = {
+	id = WorldNews.16
+	title = WorldNews.16.t
+	desc = WorldNews.16.d
+	picture = GFX_news_event_croatia_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.16.a
+	}
+}
+
+##Event: Herzeg Bosnia Gains Independence
+news_event = {
+	id = WorldNews.17
+	title = WorldNews.17.t
+	desc = WorldNews.17.d
+	picture = GFX_news_event_herzegbosnia_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.17.a
+	}
+}
+
+##Event: Total USA Victory in Iran
+news_event = {
+	id = WorldNews.18
+	title = WorldNews.18.t
+	desc = WorldNews.18.d
+	picture = GFX_news_event_hostages_return
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.18.a
+	}
+}
+
+##Event: Partial USA Victory in Iran
+news_event = {
+	id = WorldNews.19
+	title = WorldNews.19.t
+	desc = WorldNews.19.d
+	picture = GGFX_news_event_shah
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.19.a
+	}
+}
+
+##Event: Iran hostages get killed
+news_event = {
+	id = WorldNews.20
+	title = WorldNews.20.t
+	desc = WorldNews.20.d
+	picture = GFX_news_event_khomeini
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.20.a
+	}
+}
+
+##Event: American Jets Attack Tehran
+news_event = {
+	id = WorldNews.21
+	title = WorldNews.21.t
+	desc = WorldNews.21.d
+	picture = GFX_news_event_shah
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.21.a
+	}
+}
+
+##Event: Karen Clashes
+news_event = {
+	id = WorldNews.22
+	title = WorldNews.22.t
+	desc = WorldNews.22.d
+	picture = GFX_news_event_karen_clashes
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.22.a
+	}
+}
+
+##Event: Kosovo Independence
+news_event = {
+	id = WorldNews.23
+	title = WorldNews.23.t
+	desc = WorldNews.23.d
+	picture = GFX_news_event_karen_clashes
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.23.a
+	}
+}
+
+##Event: Macedonia Independence
+news_event = {
+	id = WorldNews.24
+	title = WorldNews.24.t
+	desc = WorldNews.24.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.24.a
+	}
+}
+
+##Event: Montenegro Independence  
+news_event = {
+	id = WorldNews.25
+	title = WorldNews.25.t
+	desc = WorldNews.25.d
+	picture = GFX_news_event_montenegro_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.25.a
+	}
+}
+
+##Event: Palestine Independence  
+news_event = {
+	id = WorldNews.26
+	title = WorldNews.26.t
+	desc = WorldNews.26.d
+	picture = GFX_news_event_palestine_declared
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.26.a
+	}
+}
+
+##Event: First Intifada 
+news_event = {
+	id = WorldNews.27
+	title = WorldNews.27.t
+	desc = WorldNews.27.d
+	picture = GFX_news_event_first_intifada
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.27.a
+	}
+}
+
+##Event: Serbian Krajina Independence
+news_event = {
+	id = WorldNews.28
+	title = WorldNews.28.t
+	desc = WorldNews.28.d
+	picture = GFX_news_event_serbian_krajina_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.28.a
+	}
+}
+
+##Event: Slovenian Krajina Independence
+news_event = {
+	id = WorldNews.29
+	title = WorldNews.29.t
+	desc = WorldNews.29.d
+	picture = GFX_news_event_slovenia_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.29.a
+	}
+}
+
+##Event: South African Civil War
+news_event = {
+	id = WorldNews.30
+	title = WorldNews.30.t
+	desc = WorldNews.30.d
+	picture = GFX_news_event_slovenia_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.30.a
+	}
+}
+
+##Event: Srpska Independence
+news_event = {
+	id = WorldNews.31
+	title = WorldNews.31.t
+	desc = WorldNews.31.d
+	picture = GFX_news_event_srpska_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.31.a
+	}
+}
+
+##Event: Death of Hafez (1984)
+news_event = {
+	id = WorldNews.32
+	title = WorldNews.32.t
+	desc = WorldNews.32.d
+	picture = GFX_news_death_of_hafez
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.32.a
+	}
+}
+
+##Event: Something Something Bushra al-Assad
+news_event = {
+	id = WorldNews.33
+	title = WorldNews.33.t
+	desc = WorldNews.33.d
+	picture = GFX_news_bushra_election
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.33.a
+	}
+}
+
+##Event: Something Something Bashar al-Assad
+news_event = {
+	id = WorldNews.34
+	title = WorldNews.34.t
+	desc = WorldNews.34.d
+	picture = GFX_news_bashar_election
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.34.a
+	}
+}
+
+##Event: Something Something Bassel al-Assad
+news_event = {
+	id = WorldNews.35
+	title = WorldNews.35.t
+	desc = WorldNews.35.d
+	picture = GFX_news_bassel_election
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.35.a
+	}
+}
+
+##Event: Reagan Elected :lolhd:
+news_event = {
+	id = WorldNews.36
+	title = WorldNews.36.t
+	desc = WorldNews.36.d
+	picture = GFX_news_event_reagan_election
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.36.a
+	}
+}
+
+##Event: Carter Reelected
+news_event = {
+	id = WorldNews.37
+	title = WorldNews.37.t
+	desc = WorldNews.37.d
+	picture = GFX_news_event_carter_reelection
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.37.a
+	}
+}
+
+##Event: Kennedy Elected
+news_event = {
+	id = WorldNews.38
+	title = WorldNews.38.t
+	desc = WorldNews.38.d
+	picture = GFX_news_event_kennedy_election
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.38.a
+	}
+}
+
+##Event: Bush Elected
+news_event = {
+	id = WorldNews.39
+	title = WorldNews.39.t
+	desc = WorldNews.39.d
+	picture = GFX_news_event_bush_election
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.39.a
+	}
+}
+
+##Event: reagan dies ripbozo
+news_event = {
+	id = WorldNews.40
+	title = WorldNews.40.t
+	desc = WorldNews.40.d
+	picture = GFX_news_assassination_reagan_dead
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.40.a
+	}
+}
+
+##Event: USSR Majlis
+news_event = {
+	id = WorldNews.41
+	title = WorldNews.41.t
+	desc = WorldNews.41.d
+	picture = GFX_news_event_supreme_majlis
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.41.a
+	}
+}
+
+##Event: USSR Usir
+news_event = {
+	id = WorldNews.42
+	title = WorldNews.42.t
+	desc = WorldNews.42.d
+	picture = GFX_news_event_usir
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.42.a
+	}
+}
+
+##Event: Vojvodina Independence
+news_event = {
+	id = WorldNews.43
+	title = WorldNews.43.t
+	desc = WorldNews.43.d
+	picture = GFX_news_event_vojvodina_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.43.a
+	}
+}

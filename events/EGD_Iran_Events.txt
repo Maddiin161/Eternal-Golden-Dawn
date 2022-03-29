@@ -1,7 +1,7 @@
 add_namespace = iran
 
 #TOTAL USA VICTORY
-news_event = {
+country_event = {
 	id = iran.1
 	title = iran.1.t
 	desc = iran.1.d
@@ -16,11 +16,12 @@ news_event = {
 			USA = {
 				add_stability = 0.1
 			}
+			every_country = { news_event = WorldNews.18 }
 		}
 	}	
 }
 #PARTIAL USA VICTORY
-news_event = {
+country_event = {
 	id = iran.2
 	title = iran.1.t
 	desc = iran.2.d
@@ -35,12 +36,13 @@ news_event = {
 			USA = {
 				add_stability = 0.05
 			}
+			every_country = { news_event = WorldNews.19 }
 		}
 	}	
 }
 
 #RIP THE HOSTAGES
-news_event = {
+country_event = {
 	id = iran.6
 	title = iran.6.t
 	desc = iran.6.d
@@ -55,15 +57,16 @@ news_event = {
 			USA = {
 				add_stability = -0.05
 			}
-			news_event = {
+			country_event = {
 				id = iran.7
 				days = 3
 			}
+			every_country = { news_event = WorldNews.20 }
 		}
 	}	
 }
 #American Jets Strike Tehran
-news_event = {
+country_event = {
 	id = iran.7
 	title = iran.7.t
 	desc = iran.7.d
@@ -78,10 +81,11 @@ news_event = {
 			USA = {
 				add_stability = -0.05
 			}
-			news_event = {
+			country_event = {
 				id = iran.8
 				days = 18
 			}
+			every_country = { news_event = WorldNews.21 }
 		}
 	}	
 }

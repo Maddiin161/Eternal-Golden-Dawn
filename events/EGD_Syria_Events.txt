@@ -65,7 +65,7 @@ news_event = {
 }
 
 ##Event: Death of Hafez (1984)
-news_event = {
+country_event = {
 	id = syria.94
 	title = syria.94.t
 	desc = syria.94.d
@@ -76,6 +76,7 @@ news_event = {
 	
 	option = {
 		name = syria.94.a
+		hidden_effect =  { every_country = { news_event = WorldNews.32 } }
 	SYR = {
 			create_country_leader = {
 				name = "Syrian Regional Command" 
@@ -92,7 +93,7 @@ news_event = {
 	}
 }
 
-news_event = {
+country_event = {
 	id = syria.95
 	title = syria.95.t
 	desc = syria.95.d
@@ -103,6 +104,7 @@ news_event = {
 	
 	option = {
 		name = syria.95.a
+		hidden_effect =  { every_country = { news_event = WorldNews.33 } }
 	SYR = {
 			create_country_leader = {
 				name = "Bushra al-Assad" 
@@ -118,7 +120,7 @@ news_event = {
 	}			
 }
 
-news_event = {
+country_event = {
 	id = syria.96
 	title = syria.96.t
 	desc = syria.96.d
@@ -129,6 +131,7 @@ news_event = {
 	
 	option = {
 		name = syria.96.a
+		hidden_effect =  { every_country = { news_event = WorldNews.34 } }
 	SYR = {
 			create_country_leader = {
 				name = "Bashar al-Assad" 
@@ -144,7 +147,7 @@ news_event = {
 	}		
 }
 
-news_event = {
+country_event = {
 	id = syria.97
 	title = syria.97.t
 	desc = syria.97.d
@@ -155,6 +158,7 @@ news_event = {
 	
 	option = {
 		name = syria.97.a
+		hidden_effect =  { every_country = { news_event = WorldNews.35 } }
 	SYR = {
 			create_country_leader = {
 				name = "Bassel al-Assad" 

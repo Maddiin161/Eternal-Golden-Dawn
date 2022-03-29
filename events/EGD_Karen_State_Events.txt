@@ -1,7 +1,7 @@
 add_namespace = karen
 
 ##Event: Karen Clashes
-news_event = {
+country_event = {
 	id = karen.20
 	title = karen.20.t
 	desc = karen.20.d
@@ -12,5 +12,6 @@ news_event = {
 	
 	option = {
 		name = karen.20.a
+		hidden_effect = { every_country = { news_event = WorldNews.22 } }
 	}	
 }

@@ -1,7 +1,7 @@
 add_namespace = montenegro
 
 ##Event: Montenegro Independence  
-news_event = {
+country_event = {
 	id = montenegro.1
 	title = montenegro.1.t
 	desc = montenegro.1.d
@@ -15,5 +15,6 @@ news_event = {
 		YUG = {
 			release = MNT
 		}
+		hidden_effect =  { every_country = { news_event = WorldNews.25 } }
 	}		
 }

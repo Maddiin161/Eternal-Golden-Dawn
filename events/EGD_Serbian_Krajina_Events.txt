@@ -1,7 +1,7 @@
 add_namespace = serbiankrajina
 
 ##Event: Serbian Krajina Independence  
-news_event = {
+country_event = {
 	id = serbiankrajina.1
 	title = serbiankrajina.1.t
 	desc = serbiankrajina.1.d
@@ -19,5 +19,6 @@ news_event = {
 		CRO = {
 			release = KRA
 		}
+		hidden_effect =  { every_country = { news_event = WorldNews.28 } }
 	}
 }

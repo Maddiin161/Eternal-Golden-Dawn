@@ -1,6 +1,6 @@
 add_namespace = foxtrot
 
-news_event = {
+country_event = {
 	id = foxtrot.1
 	title = foxtrot.1.t
 	desc = foxtrot.1.d
@@ -11,5 +11,6 @@ news_event = {
 	
 	option = {
 		name = "Shedding blood for homeland!"
+		hidden_effect = { every_country = { news_event = WorldNews.16 } }
 	}
 }
