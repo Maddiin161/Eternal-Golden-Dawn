@@ -64,7 +64,7 @@ shared_focus = {
 
 shared_focus = {
 	id = IRQ_tying_the_loose_end
-	icon = GFX_goal_unknown
+	icon = GFX_IRQ_tying_the_loose_end
 	cost = 3
 	x = 3
 	y = 1.5
@@ -90,7 +90,7 @@ shared_focus = {
 
 shared_focus = {
 	id = IRQ_aflaq_and_his_word
-	icon = GFX_goal_unknown
+	icon = GFX_IRQ_Aflaq_and_His_Word
 	cost = 3
 	x = 0
 	y = 1.5

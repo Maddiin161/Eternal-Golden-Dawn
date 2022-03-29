@@ -77,11 +77,21 @@ spriteTypes = {
 		name = "GFX_IRQ_Siege_of_Najaf"
 		texturefile = "gfx/interface/goals/IRQ/IRQ_Siege_of_Najaf.dds"
 	}
+	SpriteType = {
+		name = "GFX_IRQ_Aflaq_and_His_Word"
+		texturefile = "gfx/interface/goals/IRQ/IRQ_Aflaq_and_His_Word.dds"
+	}
+	SpriteType = {
+		name = "GFX_IRQ_tying_the_loose_end"
+		texturefile = "gfx/interface/goals/IRQ/IRQ_tying_the_loose_end.dds"
+	}
+	
 	#USA#
-	SpriteType = { 
+	
+	SpriteType = {
 		name = "GFX_USA_State_of_Union_1980"
 		texturefile = "gfx/interface/goals/USA/USA_State_of_Union_1980.dds"
-	}	
+	}
 	SpriteType = { 
 		name = "GFX_USA_authorize_operation_cyclone"
 		texturefile = "gfx/interface/goals/USA/USA_authorize_operation_cyclone.dds"
