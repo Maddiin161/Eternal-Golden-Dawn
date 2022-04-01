@@ -1,0 +1,64 @@
+ideas = {	
+	country = {
+		NWF_Battle_for_Newfoundland_idea = {
+			picture = NWF_Battle_for_Newfoundland_idea
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		NWF_RGL_EUP_Domination_idea = {
+			picture = NWF_RGL_EUP_Domination_idea
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		NWF_Anti_Nationalist_Youth_idea = {
+			picture = NWF_Anti_Nationalist_Youth_idea
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		NWF_Cod_Supply_Shortages_idea = {
+			picture = NWF_Cod_Supply_Shortages_idea
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		NWF_Lack_of_Infrastructure_idea = {
+			picture = NWF_Lack_of_Infrastructure_idea
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+	}
+}

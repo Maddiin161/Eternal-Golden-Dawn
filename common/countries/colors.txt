@@ -1628,3 +1628,7 @@ EAU = {
 	color = rgb { 153 41 45 }
 	color_ui = rgb { 153 41 45 }
 }
+NWF = {
+	color = rgb { 251 53 4 }
+	color_ui = rgb { 251 53 4 }
+}

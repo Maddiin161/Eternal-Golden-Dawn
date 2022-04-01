@@ -7,7 +7,7 @@ state = {
 	state_category = pop1dev1
 
 	history = {
-		owner = NFL
+		owner = NWF
 		set_state_flag = boreal
 		set_state_flag = basic
 		set_state_flag = small
@@ -25,9 +25,9 @@ state = {
 			}
 		}
 		add_core_of = CAN
-		add_core_of = NFL
+		add_core_of = NWF
 		1949.3.31 = {
-			owner = CAN
+			owner = NWF
 		}
 		victory_points = {
 			12505 5
