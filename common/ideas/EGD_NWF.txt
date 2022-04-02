@@ -1,7 +1,7 @@
 ideas = {	
 	country = {
 		NWF_Battle_for_Newfoundland_idea = {
-			picture = NWF_Battle_for_Newfoundland_idea
+			picture = NWF_battle_for_newfoundland
 			allowed = {
 				always = no
 			}
@@ -13,7 +13,7 @@ ideas = {
 			}
 		}
 		NWF_RGL_EUP_Domination_idea = {
-			picture = NWF_RGL_EUP_Domination_idea
+			picture = NWF_rgl_eup_domination
 			allowed = {
 				always = no
 			}
@@ -25,7 +25,7 @@ ideas = {
 			}
 		}
 		NWF_Anti_Nationalist_Youth_idea = {
-			picture = NWF_Anti_Nationalist_Youth_idea
+			picture = NWF_anti_nationalist_youth
 			allowed = {
 				always = no
 			}
@@ -37,7 +37,7 @@ ideas = {
 			}
 		}
 		NWF_Cod_Supply_Shortages_idea = {
-			picture = NWF_Cod_Supply_Shortages_idea
+			picture = NWF_cod_supply_shortages
 			allowed = {
 				always = no
 			}
@@ -49,7 +49,7 @@ ideas = {
 			}
 		}
 		NWF_Lack_of_Infrastructure_idea = {
-			picture = NWF_Lack_of_Infrastructure_idea
+			picture = NWF_poor_infrastructure
 			allowed = {
 				always = no
 			}

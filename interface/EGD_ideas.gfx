@@ -279,6 +279,27 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SYR/SYR_kata_ib_muhammad.dds"
 	}
 	
+	### NWF ###
+	SpriteType = { 
+		name = "GFX_idea_NWF_battle_for_newfoundland"
+		texturefile = "gfx/interface/ideas/NWF/idea_NWF_battle_for_newfoundland.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_NWF_rgl_eup_domination"
+		texturefile = "gfx/interface/ideas/NWF/idea_NWF_rgl_eup_domination.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_NWF_anti_nationalist_youth"
+		texturefile = "gfx/interface/ideas/NWF/idea_NWF_anti_nationalist_youth.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_NWF_cod_supply_shortages"
+		texturefile = "gfx/interface/ideas/NWF/idea_NWF_cod_supply_shortages.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_NWF_poor_infrastructure"
+		texturefile = "gfx/interface/ideas/NWF/idea_NWF_poor_infrastructure.dds"
+	}
 	#### Corruption Levels ####
 
 	SpriteType = { 

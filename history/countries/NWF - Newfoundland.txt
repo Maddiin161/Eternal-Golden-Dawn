@@ -22,13 +22,21 @@ set_popularities = {
 	revolutionary_socialism = 0
 }
 
+###Natspirits
+add_ideas = {
+	NWF_Battle_for_Newfoundland_idea
+	NWF_RGL_EUP_Domination_idea
+	NWF_Anti_Nationalist_Youth_idea
+	NWF_Cod_Supply_Shortages_idea
+	NWF_Lack_of_Infrastructure_idea
+}
 #######################
 # Leaders
 #######################
 create_country_leader = {
 	name = "Tom Hickey"
 	desc = ""
-	picture = ""
+	picture = "Portrait_NWF_Tom_Hickey.dds"
 	expire = "2000.1.1"
 	ideology = authoritarian_democracy_ideology
 	traits = {}
