@@ -16,11 +16,11 @@ state = {
 		add_core_of = BFR
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 0
+			  
 
 			arms_factory = 1
-			industrial_complex = 1
-			agri_industrial_complex = 3
+			  
+			  
 			
 			air_base = 1
 		}

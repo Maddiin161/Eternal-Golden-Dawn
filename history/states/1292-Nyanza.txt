@@ -16,10 +16,10 @@ state = { #NYANza uwu
 		set_state_flag = monstercat_easter_egg
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 1
+			  
 
-			industrial_complex = 1
-			fossil_fuel_powerplant = 1
+			  
+			  
 
 		}
 		add_core_of = KEN

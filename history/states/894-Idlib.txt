@@ -12,9 +12,9 @@ state = {
 			owner = SYR
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 1
+			  
 
-			agri_industrial_complex = 1
+			  
 		}
 		}
 		1958.1.1 = {

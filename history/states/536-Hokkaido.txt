@@ -15,11 +15,11 @@ state = {
 		add_core_of = JAP
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 1
-			agri_industrial_complex = 2
-			water_infrastructure = 1
+			  
+			  
+			  
 
-			industrial_complex = 1
+			  
 
 		}
 		victory_points = {

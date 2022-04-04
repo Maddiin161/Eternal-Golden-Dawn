@@ -11,10 +11,10 @@ state = {
 		add_core_of = MOR
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 1
+			  
 
-			industrial_complex = 1
-			agri_industrial_complex = 1
+			  
+			  
 		}
 		set_variable = { french_influence = 150 }
 		set_variable = { spanish_influence = 0 }

@@ -14,9 +14,9 @@ state = {
 		add_core_of = MEX
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 1
+			  
 
-			agri_industrial_complex = 3
+			  
 		}
 		set_variable = { coal_amount = 0 }
 

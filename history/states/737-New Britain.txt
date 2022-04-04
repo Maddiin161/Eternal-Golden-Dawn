@@ -12,10 +12,10 @@ state = {
 		add_core_of = PNG
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 1
+			  
 
 			air_base = 1
-			industrial_complex = 1
+			  
 			7251 = {
 				naval_base = 3
 

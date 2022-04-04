@@ -17,9 +17,9 @@ state = {
 		}
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 1
+			  
 
-			industrial_complex = 1
+			  
 
 		}
 		1985.1.1 = {

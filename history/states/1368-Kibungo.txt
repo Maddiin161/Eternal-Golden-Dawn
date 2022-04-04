@@ -11,8 +11,8 @@ state = {
 		add_core_of = RWA
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 0
-			agri_industrial_complex = 1
+			  
+			  
 		}
 		victory_points = {
 			14053 5

@@ -10,9 +10,9 @@ state = {
 		set_state_flag = undeveloped
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 0
-			industrial_complex = 1
-			fossil_fuel_powerplant = 1
+			  
+			  
+			  
 		}
 		add_core_of = VIN
 		set_state_flag = HDI3

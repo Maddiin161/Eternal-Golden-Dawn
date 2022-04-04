@@ -20,12 +20,12 @@ state = {
 		}
 		buildings = {
 			infrastructure = 2
-			state_infrastructure = 1
+			  
 
 			air_base = 2
-			industrial_complex = 1
+			  
 			arms_factory = 1
-			fossil_fuel_powerplant = 3
+			  
 		}
 		add_core_of = SOV
 		add_core_of = UKR

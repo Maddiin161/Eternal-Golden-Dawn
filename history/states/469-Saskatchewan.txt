@@ -17,10 +17,10 @@ state = {
 		set_state_flag = developed
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 1
-			water_infrastructure = 1
+			  
+			  
 
-			agri_industrial_complex = 4
+			  
 		}
 		add_core_of = CAN
 		victory_points = {

@@ -13,7 +13,7 @@ state = {
 		victory_points = { 12029 1 }
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 1
+			  
 
 		}
 		set_state_flag = HDI3

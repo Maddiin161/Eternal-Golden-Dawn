@@ -11,13 +11,13 @@ state = {
 		add_core_of = DEN
 		buildings = {
 			infrastructure = 2
-			state_infrastructure = 2
-			water_infrastructure = 1
+			  
+			  
 			
-			agri_industrial_complex = 1
-			office_park = 1
+			  
+			  
 
-			fossil_fuel_powerplant = 1
+			  
 			3325 = {
 				naval_base = 3
 			}

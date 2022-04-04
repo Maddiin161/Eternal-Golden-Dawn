@@ -11,9 +11,9 @@ state = {
 		add_core_of = BRM
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 0
+			  
 			
-			agri_industrial_complex = 1
+			  
 		}
 		victory_points = {
 			1492 5 

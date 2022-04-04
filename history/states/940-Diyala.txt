@@ -11,7 +11,7 @@ state = {
 		set_state_flag = poor
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 1
+			  
 
 
 		}

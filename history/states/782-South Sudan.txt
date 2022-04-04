@@ -15,12 +15,12 @@ state = {
 		add_core_of = SSU
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 0
+			  
 
-			industrial_complex = 1
-			agri_industrial_complex = 1
+			  
+			  
 			
-			fossil_fuel_powerplant = 1
+			  
 		}
 		victory_points = {
 			1953 3

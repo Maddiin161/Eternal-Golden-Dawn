@@ -17,13 +17,13 @@ state = {
 		add_extra_state_shared_building_slots = 4
 		buildings = {
 			infrastructure = 2
-			state_infrastructure = 2
+			  
 
 			industrial_complex = 8
 			arms_factory = 4
-			office_park = 7
+			  
 			
-			fossil_fuel_powerplant = 3
+			  
 			
 			anti_air_building = 2
 			air_base = 8

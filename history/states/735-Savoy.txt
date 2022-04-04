@@ -24,10 +24,10 @@ state = {
 		}
 		buildings = {
 			infrastructure = 3
-			state_infrastructure = 3
+			  
 			
 			industrial_complex = 2
-			agri_industrial_complex = 2
+			  
 			arms_factory = 2
 			air_base = 8
 

@@ -11,7 +11,7 @@ state = {
 		set_state_flag = undeveloped
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 1
+			  
 
 			13021 = {
 				naval_base = 1

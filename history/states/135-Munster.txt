@@ -15,13 +15,13 @@ state = {
 		set_state_flag = developed
 		buildings = {
 			infrastructure = 3
-			state_infrastructure = 2
+			  
 
 			industrial_complex = 3
 			dockyard = 2
-			agri_industrial_complex = 1
+			  
 			
-			fossil_fuel_powerplant = 1
+			  
 			
 			7394 = {
 				naval_base = 9

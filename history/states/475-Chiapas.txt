@@ -14,9 +14,9 @@ state = {
 		set_state_flag = undeveloped
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 1
+			  
 
-			agri_industrial_complex = 1
+			  
 		}
 		add_core_of = MEX
 		set_variable = { coal_amount = 0 }

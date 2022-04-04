@@ -13,7 +13,7 @@ state = {
 		add_claim_by = ISR
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 1
+			  
 
 			4088 = {
 				naval_base = 1

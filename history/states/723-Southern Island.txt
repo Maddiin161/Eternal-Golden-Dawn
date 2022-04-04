@@ -15,9 +15,9 @@ state = {
 		set_state_flag = decent
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 1
+			  
 
-			industrial_complex = 1
+			  
 			air_base = 2
 			2197 = {
 				naval_base = 1
@@ -27,7 +27,7 @@ state = {
 				naval_base = 1
 
 			}
-			fossil_fuel_powerplant = 1
+			  
 
 		}
 		victory_points = {

@@ -19,15 +19,15 @@ state = {
 		}
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 1
+			  
 
 			arms_factory = 2
 			industrial_complex = 3
-			office_park = 1
+			  
 			
 			air_base = 2
 			
-			fossil_fuel_powerplant = 1
+			  
 			4109 = {
 				naval_base = 4
 			}

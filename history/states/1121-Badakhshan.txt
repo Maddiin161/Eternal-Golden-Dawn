@@ -13,7 +13,7 @@ state = {
 		set_state_flag = verypoor
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 0
+			  
 		}
 		victory_points = {
 			3593 1 

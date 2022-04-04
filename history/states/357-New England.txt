@@ -16,11 +16,11 @@ state = {
 		set_state_flag = Progressive_Bastion
 		buildings = {
 			infrastructure = 2
-			state_infrastructure = 2
+			  
 
 			arms_factory = 2
 			industrial_complex = 4
-			office_park = 4
+			  
 			
 			dockyard = 4
 			air_base = 8

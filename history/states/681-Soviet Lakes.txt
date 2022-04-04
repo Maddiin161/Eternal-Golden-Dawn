@@ -16,11 +16,11 @@ state = {
 		set_state_flag = semideveloped
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 0
+			  
 
-			industrial_complex = 1
+			  
 			dockyard = 2
-			office_park = 1
+			  
 			
 			air_base = 1
 			

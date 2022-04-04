@@ -11,7 +11,7 @@ state = {
 		add_core_of = SOM
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 1
+			  
 		}
 		1949.11.1 = {
 			owner = SOM

@@ -17,8 +17,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 0
-			office_park = 1
+			  
+			  
 			air_base = 1
 
 		}

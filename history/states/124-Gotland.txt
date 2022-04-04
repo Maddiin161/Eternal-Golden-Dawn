@@ -19,9 +19,9 @@ state =
 		}
 		buildings = {
 			infrastructure = 2
-			state_infrastructure = 2
+			  
 
-			fossil_fuel_powerplant = 1
+			  
 			408 = {
 				naval_base = 1
 			}

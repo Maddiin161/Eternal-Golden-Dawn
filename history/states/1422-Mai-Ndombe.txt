@@ -13,8 +13,8 @@ state = {
 		add_core_of = DOC
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 0
-			agri_industrial_complex = 1
+			  
+			  
 		}
                 victory_points = {
 		        14867 2

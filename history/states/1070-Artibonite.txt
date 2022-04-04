@@ -14,10 +14,10 @@ state={
 		buildings = {
 			infrastructure = 0
 			
-			industrial_complex = 1
-			agri_industrial_complex = 1
+			  
+			  
 			
-			fossil_fuel_powerplant = 1
+			  
 			
 			13281 = {
 				naval_base = 2

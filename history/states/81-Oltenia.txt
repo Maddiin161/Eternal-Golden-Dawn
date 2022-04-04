@@ -14,12 +14,12 @@ state = {
 		set_state_flag = decent
 		buildings = {
 			infrastructure = 2
-			state_infrastructure = 2
+			  
 
-			industrial_complex = 1
-			agri_industrial_complex = 2
+			  
+			  
 			
-			fossil_fuel_powerplant = 1
+			  
 		}
 		add_core_of = ROM
 		victory_points = { 6652 2 }

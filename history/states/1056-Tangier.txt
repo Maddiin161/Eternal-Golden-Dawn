@@ -13,11 +13,11 @@ state = {
 		victory_points = { 13260 10 }
 		buildings = {
 			infrastructure = 2
-			state_infrastructure = 1
+			  
 			
-			agri_industrial_complex = 1
+			  
 
-			fossil_fuel_powerplant = 1
+			  
 		}
 		set_demilitarized_zone = yes
 		1945.10.11 = {

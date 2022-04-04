@@ -23,11 +23,11 @@ state = {
 
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 0
+			  
 
-			industrial_complex = 1
+			  
 			arms_factory = 1
-			agri_industrial_complex = 1
+			  
 			
 		}
 		set_state_flag = HDI2

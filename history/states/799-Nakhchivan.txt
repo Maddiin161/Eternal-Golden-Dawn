@@ -13,7 +13,7 @@ state = {
 		add_core_of = SOV
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 1
+			  
 
 			air_base = 1
 

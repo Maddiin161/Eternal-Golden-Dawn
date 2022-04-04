@@ -12,7 +12,7 @@ state={
 		add_core_of = CAM
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 0
+			  
 
 		}
 		1968.1.1 = {

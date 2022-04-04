@@ -22,15 +22,15 @@ state = {
 		set_state_flag = wealthy
 		buildings = {
 			infrastructure = 2
-			state_infrastructure = 2
+			  
 
 			industrial_complex = 4
 			dockyard = 2
-			office_park = 2
+			  
 			arms_factory = 3
-			agri_industrial_complex = 2
+			  
 			
-			fossil_fuel_powerplant = 4
+			  
 			
 			radar_station = 1
 			air_base = 6

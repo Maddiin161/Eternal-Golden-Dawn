@@ -43,7 +43,7 @@ state = {
 		}
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 1
+			  
 
 
 		}

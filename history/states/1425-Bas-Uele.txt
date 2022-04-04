@@ -11,9 +11,9 @@ state = {
 		set_state_flag = undeveloped
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 0
+			  
 
-			agri_industrial_complex = 1
+			  
 			
 		}
 

@@ -14,9 +14,9 @@ state = {
 		set_state_flag = undeveloped
 		buildings = {
 			infrastructure = 2
-			state_infrastructure = 1
+			  
 
-			industrial_complex = 1
+			  
 
 		}
 		victory_points = { 746 1 }

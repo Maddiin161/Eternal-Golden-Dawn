@@ -15,7 +15,7 @@ state = {
 		add_core_of = MON
 		add_core_of = MTG		
 		buildings = {
-			state_infrastructure = 0
+			  
 		}
 		set_state_flag = HDI2
 		set_variable = { tourism_infrastructure = 0 }

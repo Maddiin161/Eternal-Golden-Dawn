@@ -17,9 +17,9 @@ state = {
 		}
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 1
+			  
 
-			fossil_fuel_powerplant = 1
+			  
 
 		}
 		add_core_of = SOV

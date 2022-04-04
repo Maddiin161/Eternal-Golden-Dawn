@@ -10,13 +10,13 @@ state = {
 		set_state_flag = undeveloped
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 0
+			  
 
-			industrial_complex = 1
+			  
 			dockyard = 1
-			agri_industrial_complex = 1
+			  
 			
-			fossil_fuel_powerplant = 1
+			  
 			
 			5228 = {
 				naval_base = 2

@@ -16,7 +16,7 @@ state = {
 		add_core_of = DOC
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 1
+			  
 
 			2115 = {
 				naval_base = 1

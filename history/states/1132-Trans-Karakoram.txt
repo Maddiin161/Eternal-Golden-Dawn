@@ -26,7 +26,7 @@ state = {
 		}
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 1
+			  
 		}
 		set_variable = { show_demographics_disabled = 1 }
 	}

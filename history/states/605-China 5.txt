@@ -30,11 +30,11 @@ state={
 		}
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 1
+			  
 			industrial_complex = 2
 			air_base = 2
-			fossil_fuel_powerplant = 2
-			agri_industrial_complex = 2
+			  
+			  
 
 		}
        set_province_name = {

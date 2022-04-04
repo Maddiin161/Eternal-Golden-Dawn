@@ -11,7 +11,7 @@ state = {
 		add_core_of = MZB
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 1
+			  
 
 		}
 		1975.1.1 = {

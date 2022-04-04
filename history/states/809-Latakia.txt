@@ -13,7 +13,7 @@ state = {
 		set_state_flag = semideveloped
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 1
+			  
 		}
 		1946.1.1 = {
 			owner = SYR
@@ -54,7 +54,7 @@ state = {
 				10087 = {
 					naval_base = 4
 				}
-				industrial_complex = 1
+				  
 				arms_factory = 2
 			}
 		}

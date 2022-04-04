@@ -21,7 +21,7 @@ state = {
 		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 1
+			  
 
 			air_base = 1
 			8435 = {

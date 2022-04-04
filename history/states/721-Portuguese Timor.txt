@@ -13,7 +13,7 @@ state = {
 		add_core_of = EMR
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 1
+			  
 
 			12190 = {
 				naval_base = 1

@@ -15,16 +15,16 @@ state = {
 		add_core_of = HOL
 		buildings = {
 			infrastructure = 3
-			state_infrastructure = 3
-			water_infrastructure = 1
+			  
+			  
 			
 			industrial_complex = 2
 			arms_factory = 1
 			dockyard = 1
-			agri_industrial_complex = 2
-			office_park = 2
+			  
+			  
 			
-			fossil_fuel_powerplant = 1
+			  
 			
 			air_base = 4
 			

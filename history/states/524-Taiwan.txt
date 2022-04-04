@@ -17,12 +17,12 @@ state={
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 1
-			water_infrastructure = 1
+			  
+			  
 			arms_factory = 1
 			air_base = 8
-			fossil_fuel_powerplant = 1
-			agri_industrial_complex = 2
+			  
+			  
 
 		}
 		set_state_flag = HDI3

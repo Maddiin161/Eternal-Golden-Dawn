@@ -15,10 +15,10 @@ state = {
 			owner = SYR
 			buildings = {
 				infrastructure = 2
-				state_infrastructure = 1
-				water_infrastructure = 1
+				  
+				  
 				arms_factory = 1
-				agri_industrial_complex = 1
+				  
 			}
 		}
 
@@ -35,7 +35,7 @@ state = {
 		1971.1.1 = {
 			owner = SYR
 			buildings = {
-				industrial_complex = 1
+				  
 			}
 		}
 		victory_points = {

@@ -11,9 +11,9 @@ state = {
 		set_state_flag = preindustrial
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 1
+			  
 
-			industrial_complex = 1
+			  
 			4967 = {
 				naval_base = 1
 

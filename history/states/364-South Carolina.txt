@@ -14,12 +14,12 @@ state = {
 		set_state_flag = decent
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 1
+			  
 
 			industrial_complex = 3
 			arms_factory = 1
 			air_base = 2
-			fossil_fuel_powerplant = 1
+			  
 			7202 = {
 				naval_base = 2
 

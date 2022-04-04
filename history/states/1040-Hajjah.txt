@@ -13,12 +13,12 @@ state = {
 		set_state_flag = poor
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 1
+			  
 			1920 = {
 				naval_base = 1
 			}
 			
-			agri_industrial_complex = 1
+			  
 		}
 		add_core_of = YEM
 		victory_points = {

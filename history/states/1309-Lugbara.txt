@@ -12,9 +12,9 @@ state = {
 		add_core_of = EAU
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 0
+			  
 
-			agri_industrial_complex = 1
+			  
 		}
 
 		victory_points = {

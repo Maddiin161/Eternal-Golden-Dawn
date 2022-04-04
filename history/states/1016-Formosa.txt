@@ -12,7 +12,7 @@ state = {
 		add_core_of = ARG
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 1
+			  
 
 
 		}

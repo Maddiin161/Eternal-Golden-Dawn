@@ -14,9 +14,9 @@ state = {
 
 		buildings = {
 			infrastructure = 0
-			state_infrastructure = 0
-			industrial_complex = 1
-			agri_industrial_complex = 1
+			  
+			  
+			  
 			
 		}
 		victory_points = {
