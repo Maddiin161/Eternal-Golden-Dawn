@@ -217,5 +217,39 @@ scripted_gui = {
 		}
 		properties = {
 			
+		}
+	}
+	### ECONOMY, FOOLS!
+	EGD_GUI_AccessButton_AlphaX2 = {
+		window_name = "EGD_GUI_AccessButton_AlphaX2"
+		context_type = player_context
+		parent_window_token = politics_tab
+		effects = {
+			EGD_GUI_AlphaX2_OpenButton_click = {
+				if = {
+					limit = { NOT = { has_country_flag = EGD_GUI_AlphaX2_Open } }
+					set_country_flag = EGD_GUI_AlphaX2_Open
+				}
+				else_if = {
+					limit = { has_country_flag = EGD_GUI_AlphaX2_Open }
+					clr_country_flag = EGD_GUI_AlphaX2_Open
+				}
+			}
+		}
+		triggers = {
+			gui_alert_visible = {
+				has_country_flag = gui_alert_visible
+			}
+		}
+	}
+	EGD_BRAVO_GUI_Window = {
+		context_type = player_context
+		parent_window_token = "EGD_GUI_AccessButton_AlphaX2"
+		window_name = "EGD_BRAVO_GUI_Window"
+		visible = { 
+			has_country_flag = EGD_GUI_AlphaX2_Open
+		}
+		effects = {
+		}
 	}
 }

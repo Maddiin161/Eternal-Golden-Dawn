@@ -23,6 +23,18 @@ guiTypes = {
 			position = { x=0 y=0 }
 		}
 	}
+	### ECONOMY BELOW, TANGO GOING DARK, ROGER
+	containerWindowType = {
+		name = "EGD_BRAVO_GUI_Window"
+		size = { width = 1063 height = 842 }
+		position = { x = 541 y = 257 }
+		show_sound = open_sub_window
+		background = {
+			name = "BRAVO_BG_X1"
+			spriteType = "GFX_EGD_tiled_window_alpharomeo_border"
+		}
+	}
+	### INSURGENCY BELOW, ROMEO GOING DARK, ROGER
 	containerWindowType = {
 		name = "EGD_ALPHA_GUI_Window"
 		size = { width = 1063 height = 842 }
