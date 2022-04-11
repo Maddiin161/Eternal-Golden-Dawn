@@ -51,6 +51,11 @@ add_ideas = {
 	secular_state
 }
 
+### ECONOMY ###
+### 1979
+set_variable = { EGD_COUNTRY_GDP_GROWTH_PERCENTAGE = 0.03 }
+# set_variable = { EGD_COUNTRY_GDP = 2.000.000.000.000 } # placeholder until i fix how to round these mfs
+
 set_variable = { PER_hostage_tensions = 1 }
 set_variable = { PER_american_willingness = 0 }
 set_variable = { PER_iranian_willingness = 1 }

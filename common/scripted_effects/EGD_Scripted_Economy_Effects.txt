@@ -1,0 +1,6 @@
+EGD_calculate_GDP_new_month = {
+	custom_effect_tooltip = EGD_economy_debug1_tooltip #placeholder for now
+	add_to_variable = { EGD_COUNTRY_GDP_GROWTH_PERCENTAGE = 1 }
+	multiply_temp_variable = { EGD_COUNTRY_GDP_GROWTH_PERCENTAGE = EGD_COUNTRY_GDP }
+	set_variable = { EGD_COUNTRY_NEW_GDP = EGD_COUNTRY_GDP_GROWTH_PERCENTAGE }
+}

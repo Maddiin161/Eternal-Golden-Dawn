@@ -1,5 +1,12 @@
 ####################################leader 1##############################################
 EGD_debug_decisions = {
+    Debug_economy_trolling1  = {
+		complete_effect = {
+			country_event = {
+				id = EGD_debug.1
+			}
+		}
+	}
     Debug_italy_trolling  = {
 		complete_effect = {
 			IMF = {
