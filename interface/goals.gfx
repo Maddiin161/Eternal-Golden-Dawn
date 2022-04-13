@@ -100,4 +100,36 @@ spriteTypes = {
 		name = "GFX_USA_4_more_years"
 		texturefile = "gfx/interface/goals/USA/USA_4_more_years.dds"
 	}
+	SpriteType = { 
+		name = "GFX_USA_address_the_extremism_problem"
+		texturefile = "gfx/interface/goals/USA/USA_address_the_extremism_problem.dds"
+	}
+	SpriteType = { 
+		name = "GFX_USA_anti_inflation_program"
+		texturefile = "gfx/interface/goals/USA/USA_anti_inflation_program.dds"
+	}
+	SpriteType = { 
+		name = "GFX_USA_balance_the_budget_usa"
+		texturefile = "gfx/interface/goals/USA/USA_balance_the_budget_usa.dds"
+	}
+	SpriteType = { 
+		name = "GFX_USA_Condemn_SOV_invasion"
+		texturefile = "gfx/interface/goals/USA/USA_Condemn_SOV_invasion.dds"
+	}
+	SpriteType = { 
+		name = "GFX_USA_Freeze_Iranian_Assets"
+		texturefile = "gfx/interface/goals/USA/USA_FREEZE_FINALfixed.dds"
+	}
+	SpriteType = { 
+		name = "GFX_USA_Operation_Eagle_Claw"
+		texturefile = "gfx/interface/goals/USA/USA_Operation_Eagle_Claw.dds"
+	}
+	SpriteType = { 
+		name = "GFX_USA_peaceful_transition_power"
+		texturefile = "gfx/interface/goals/USA/USA_peaceful_transition_power.dds"
+	}
+	SpriteType = { 
+		name = "GFX_USA_trust_Keynesianism"
+		texturefile = "gfx/interface/goals/USA/USA_trust_Keynesianism.dds"
+	}
 }
