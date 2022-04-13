@@ -125,7 +125,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/USA/USA_Operation_Eagle_Claw.dds"
 	}
 	SpriteType = { 
-		name = "GFX_USA_peaceful_transition_power"
+		name = "GFX_USA_smooth_transition_power"
 		texturefile = "gfx/interface/goals/USA/USA_peaceful_transition_power.dds"
 	}
 	SpriteType = { 
