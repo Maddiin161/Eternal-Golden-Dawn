@@ -1,0 +1,134 @@
+scripted_map_modes = {
+	EGD_GDP_mapmode = {
+		top = {
+			type = country
+
+			color = {
+				FROM = {
+					set_temp_variable = { alpha = 0.8 }
+					if = {
+							limit = {
+								check_variable = {
+									var = THIS.EGD_COUNTRY_GDP
+									value = 999
+									compare = greater_than
+								}
+							}
+							set_temp_variable = { red = 0.1 }
+							set_temp_variable = { green = 0.6 }
+							set_temp_variable = { blue = 0.8 }
+						else_if = {
+							limit = {
+								check_variable = {
+									var = THIS.EGD_COUNTRY_GDP
+									value = 749
+									compare = greater_than
+								}
+							}
+							set_temp_variable = { red = 0.0 }
+							set_temp_variable = { green = 0.8 }
+							set_temp_variable = { blue = 0.4 }
+						}
+						else_if = {
+							limit = {
+								check_variable = {
+									var = THIS.EGD_COUNTRY_GDP
+									value = 499
+									compare = greater_than
+								}
+							}
+							set_temp_variable = { red = 0.0 }
+							set_temp_variable = { green = 1 }
+							set_temp_variable = { blue = 0.4 }
+						}
+						else_if = {
+							limit = {
+								check_variable = {
+									var = THIS.EGD_COUNTRY_GDP
+									value = 249
+									compare = greater_than
+								}
+							}
+							set_temp_variable = { red = 0.2 }
+							set_temp_variable = { green = 0.8 }
+							set_temp_variable = { blue = 0.2 }
+						}
+						else_if = {
+							limit = {
+								check_variable = {
+									var = THIS.EGD_COUNTRY_GDP
+									value = 99
+									compare = greater_than
+								}
+							}
+							set_temp_variable = { red = 0.4 }
+							set_temp_variable = { green = 0.8 }
+							set_temp_variable = { blue = 0.0 }
+						}
+						else_if = {
+							limit = {
+								check_variable = {
+									var = THIS.EGD_COUNTRY_GDP
+									value = 49
+									compare = greater_than
+								}
+							}
+							set_temp_variable = { red = 0.6 }
+							set_temp_variable = { green = 0.6 }
+							set_temp_variable = { blue = 0.0 }
+						}
+						else_if = {
+							limit = {
+								check_variable = {
+									var = THIS.EGD_COUNTRY_GDP
+									value = 49
+									compare = less_than_or_equals
+								}
+							}
+							set_temp_variable = { red = 0.8 }
+							set_temp_variable = { green = 0.4 }
+							set_temp_variable = { blue = 0.0 }
+						}
+						else = {
+							set_temp_variable = { red = 1.2 }
+							set_temp_variable = { green = 0.0 }
+							set_temp_variable = { blue = 0.0 }
+						}
+				}
+			}
+		}
+
+			thickness = yes
+
+			targets = {
+			#	target_array = core_states
+			#	target_array = owned_states
+			#	target_array = controlled_states
+				target_array = global.countries
+			}
+		}
+
+		bottom = { #lower layer of the mapmode
+			type = country
+
+			color = {
+				set_temp_variable = { alpha = 1.0 }
+				set_temp_variable = { thickness = 10.0 }
+				set_temp_variable = { red = 0.0 }
+				set_temp_variable = { green = 0.0 }
+				set_temp_variable = { blue = 0.0 }
+			}
+
+			thickness = no
+
+			targets = {
+				targets = { ROOT }
+			}
+		}
+
+		far_text = country
+		near_text = country
+
+		update_daily = yes
+	}
+}

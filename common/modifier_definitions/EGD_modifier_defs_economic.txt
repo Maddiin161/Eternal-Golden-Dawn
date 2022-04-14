@@ -1,0 +1,125 @@
+# Extra modifiers can be defined here. Although the game itself won't use those, 
+# you can access those modifiers using modifier@modifier_token in state & country scope 
+# or leader_modifier@modifier_token/unit_modifier@modifier_token in unit leader scope
+# modifier_token will be used for tooltip localization
+#WIP
+annual_gdp_growth_factor = {
+	color_type = good
+	value_type = percentage
+	precision = 3
+	category = country
+}
+gdp_growth_modifier = {
+	color_type = good
+	value_type = percentage_in_hundred
+	precision = 3
+	category = country
+}
+deficit_political_power_cost_modifier = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+state_gdp_kept_on_occupation_modifier = {
+	color_type = good
+	precision = 3
+	value_type = percentage
+	category = country 
+}
+debt_to_GDP_ceiling_modifier = {
+	color_type = neutral
+	value_type = percentage
+	precision = 4
+	category = country
+}
+
+debt_effect_on_GDP_growth_modifier = {
+	color_type = bad
+	value_type = percentage	
+	precision = 3
+	category = country
+}
+GDP_to_faction_leader_modifier = {
+	color_type = neutral
+	value_type = percentage
+	precision = 3
+	category = country
+}
+army_cost_modifier = {
+	color_type = bad 
+	value_type = percentage
+	precision = 3
+	category = country 
+}
+
+military_industry_cost_expertise_modifier = {
+	color_type = bad
+	value_type = percentage
+	precision = 3
+	category = country 
+}
+
+military_industry_cost_equipment_modifier = {
+	color_type = bad
+	value_type = percentage
+	precision = 3
+	category = country 
+}
+
+military_industry_cost_modifier = {
+	color_type = bad 
+	value_type = percentage
+	precision = 3
+	category = country 
+}
+
+airforce_cost_modifier = {
+	color_type = bad 
+	value_type = percentage
+	precision = 3
+	category = country 
+}
+
+naval_cost_modifier = {
+	color_type = bad 
+	value_type = percentage
+	precision = 3
+	category = country 
+}
+
+naval_industry_cost_modifier = {
+	color_type = bad 
+	value_type = percentage
+	precision = 3
+	category = country 
+}
+
+research_cost_modifier = {
+	color_type = bad 
+	value_type = percentage
+	precision = 3
+	category = country 
+}
+taxable_population_modifier = {
+	color_type = good
+	value_type = percentage
+	precision = 3
+	category = country
+}
+weekly_gdp_loss_modifier = {
+	color_type = bad
+	value_type = percentage
+	precision = 3
+	category = country
+	postfix = daily #FUCK YOU PDX
+}
+# used to calculate how many poor people are being taxed
+# add to it to tax more poor people
+# subtract from it to tax less poor people 
+poverty_taxation_rate_modifier = {
+	color_type = neutral
+	value_type = percentage
+	precision = 3
+	category = country
+}

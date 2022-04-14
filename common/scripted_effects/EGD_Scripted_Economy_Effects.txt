@@ -4,3 +4,109 @@ EGD_calculate_GDP_new_month = {
 	multiply_temp_variable = { EGD_COUNTRY_GDP_GROWTH_PERCENTAGE = EGD_COUNTRY_GDP }
 	set_variable = { EGD_COUNTRY_NEW_GDP = EGD_COUNTRY_GDP_GROWTH_PERCENTAGE }
 }
+
+
+EGD_startup = {
+	every_country = {
+			if = {
+				limit = {
+					check_variable = { EGD_COUNTRY_GDP > 999 }
+				}
+				add_ideas = superpower
+			}
+			else_if = {
+				limit = {
+					check_variable = { EGD_COUNTRY_GDP > 749 }
+				}
+				add_ideas = rising_superpower
+			}
+			else_if = {
+				limit = {
+					check_variable = { EGD_COUNTRY_GDP > 499 }
+				}
+				add_ideas = powerful_economy
+			}
+			else_if = {
+				limit = {
+					check_variable = { EGD_COUNTRY_GDP > 249 }
+				}
+				add_ideas = medium_economy
+			}
+		else_if = {
+			limit = {
+				check_variable = { EGD_COUNTRY_GDP > 99 }
+			}
+			add_ideas = smaller_economy
+		}
+		else_if = {
+			limit = {
+				check_variable = { EGD_COUNTRY_GDP > 49 }
+				NOT = { has_country_flag = is_smol_country }
+			}
+			add_ideas = poor_economy
+		}
+		else_if = {
+			limit = {
+				check_variable = { EGD_COUNTRY_GDP > 49 }
+				has_country_flag = is_smol_country
+			}
+			add_ideas = very_small_economy
+		}
+		else_if = {
+			limit = {
+				check_variable = { EGD_COUNTRY_GDP < 49 }
+				has_country_flag = is_smol_country
+			}
+			add_ideas = very_very_small_economy
+		}
+		else_if = {
+			limit = {
+				check_variable = { EGD_COUNTRY_GDP < 49 }
+				NOT = { has_country_flag = is_smol_country }
+			}
+			add_ideas = basket_case_economy
+		}
+		else_if = {
+			limit = {
+				check_variable = { EGD_COUNTRY_GDP < 12 }
+				NOT = { has_country_flag = is_smol_country }
+			}
+			add_ideas = warlord_economy
+		}
+	}
+}
+
+EGD_startup_calc = {
+	every_country = {
+		set_variable = { GDP_trillion = var:EGD_COUNTRY_GDP }
+		set_variable = { GDP_million = var:EGD_COUNTRY_GDP }
+		multiply_variable = { GDP_trillion = 0.001 }
+		multiply_variable = { GDP_million = 1000 }
+		multiply_variable = { REAL_GROWTH = 0.01}
+		set_variable = { DEBT_trillion = var:EGD_COUNTRY_DEBT }
+		set_variable = { DEBT_million = var:EGD_COUNTRY_DEBT }
+		multiply_variable = { DEBT_trillion = 0.001 }
+		multiply_variable = { DEBT_million = 1000 }
+	}
+}
+starting_econ_modifier_vars = {
+#WIP
+add_to_variable = {	GDP_growth_modifier = 0	} 
+add_to_variable = {	annual_GDP_growth_factor = 0 }
+add_to_variable = {	deficit_political_power_cost_modifier = 1 }
+add_to_variable = {	debt_to_GDP_ceiling_modifier = 1 }
+add_to_variable = {	debt_effect_on_GDP_growth_modifier = 1 }
+add_to_variable = {	GDP_to_faction_leader_modifier = 0	}
+add_to_variable = {	army_cost_modifier = 1 }
+add_to_variable = {	military_industry_cost_expertise_modifier = 1 }
+add_to_variable = {	military_industry_cost_equipment_modifier = 1 }
+add_to_variable = {	military_industry_cost_modifier = 1	}
+add_to_variable = {	airforce_cost_modifier = 1 }
+add_to_variable = {	naval_cost_modifier = 1	}
+add_to_variable = {	naval_industry_cost_modifier = 1 }
+add_to_variable = {	research_cost_modifier = 1 }
+add_to_variable = {	taxable_population_modifier = 0.5 }
+add_to_variable = {	weekly_GDP_loss_modifier = 0 }
+add_to_variable = {	poverty_taxation_rate_modifier = 0.1 }
+}
+

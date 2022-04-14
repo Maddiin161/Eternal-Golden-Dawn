@@ -1,0 +1,232 @@
+defined_text = {
+	name = GDP_SCRLOC
+	text = {
+		trigger = {
+			check_variable = { THIS.EGD_COUNTRY_GDP < 1 }
+		}
+		localization_key = GDP_million_loc
+	}
+	text = {
+		trigger = {
+			check_variable = { THIS.EGD_COUNTRY_GDP > 9999 }
+		}
+		localization_key = GDP_trillion_loc
+	}
+	text = {
+		localization_key = GDP_billion_loc
+	}
+}
+defined_text = {
+	name = DEBT_SCRLOC
+	text = {
+		trigger = {
+			check_variable = { THIS.EGD_COUNTRY_DEBT < 1 }
+		}
+		localization_key = DEBT_million_loc
+	}
+	text = {
+		trigger = {
+			check_variable = { THIS.EGD_COUNTRY_GDP_DEBT > 999 }
+		}
+		localization_key = DEBT_trillion_loc
+	}
+	text = {
+		localization_key = DEBT_billion_loc
+	}
+}
+defined_text = {
+	name = POS_OR_NEG
+	text = {
+		trigger = {
+			check_variable = { THIS.REAL_GROWTH > 0}
+		}
+		localization_key = POSITIVE_RG
+	}
+	text = {
+		localization_key = NEGATIVE_RG
+	}
+}
+defined_text = {
+	name = SURPLUS_OR_DEFICIT_SCRLOC
+	text = {
+		trigger = {
+			check_variable = { THIS.GDP > THIS.DEBT }
+		}
+		localization_key = SURPLUS
+	}
+	text = {
+		localization_key = DEFICIT
+	}
+}
+defined_text = {
+	name = ECONOMIC_STATUS_COUNTRY_SCRLOC
+	text = {
+		trigger = {
+		THIS = {
+		has_idea = superpower
+		}
+		}
+		localization_key = SUPERPOWER_LOC
+	}
+	text = {
+		trigger = {
+		THIS = {
+		has_idea = rising_superpower
+		}
+		}
+		localization_key = RISING_SUPER_LOC
+	}
+	text = {
+		trigger = {
+		THIS = {
+		has_idea = powerful_economy
+		}
+		}
+		localization_key = POWERFUL_ECON_LOC
+	}
+	text = {
+		trigger = {
+		THIS = {
+		has_idea = medium_economy
+		}
+		}
+		localization_key = MEDIUM_ECON_LOC
+	}
+	text = {
+		trigger = {
+		THIS = {
+		has_idea = smaller_economy
+		}
+		}
+		localization_key = SMALLER_ECON_LOC
+	}
+	text = {
+		trigger = {
+		THIS = {
+		has_idea = poor_economy
+		}
+		}
+		localization_key = POOR_ECON_LOC
+	}
+	text = {
+		trigger = {
+		THIS = {
+		has_idea = very_small_economy
+		}
+		}
+		localization_key = VSMALL_ECON_LOC
+	}
+	text = {
+		trigger = {
+		THIS = {
+		has_idea = very_very_small_economy
+		}
+		}
+		localization_key = VVSMALL_ECON_LOC
+	}
+	text = {
+		trigger = {
+		THIS = {
+		has_idea = basket_case_economy
+		}
+		}
+		localization_key = BASKET_CASE_ECON_LOC
+	}
+	text = {
+		trigger = {
+		THIS = {
+		has_idea = warlord_economy
+		}
+		}
+		localization_key = WARLORD_ECON_LOC
+	}
+	text = {
+		localization_key = somethingwrong
+	}
+}
+defined_text = {
+	name = MODIFIER_ECONOMY_SCRLOC
+	text = {
+		trigger = {
+		THIS = {
+		has_idea = superpower
+		}
+		}
+		localization_key = SUPERPOWER_TOOLTIP
+	}
+	text = {
+		trigger = {
+		THIS = {
+		has_idea = rising_superpower
+		}
+		}
+		localization_key = RISING_SUPER_TOOLTIP
+	}
+	text = {
+		trigger = {
+		THIS = {
+		has_idea = powerful_economy
+		}
+		}
+		localization_key = POWERFUL_ECON_TOOLTIP
+	}
+	text = {
+		trigger = {
+		THIS = {
+		has_idea = medium_economy
+		}
+		}
+		localization_key = MEDIUM_ECON_TOOLTIP
+	}
+	text = {
+		trigger = {
+		THIS = {
+		has_idea = smaller_economy
+		}
+		}
+		localization_key = SMALLER_ECON_TOOLTIP
+	}
+	text = {
+		trigger = {
+		THIS = {
+		has_idea = poor_economy
+		}
+		}
+		localization_key = POOR_ECON_TOOLTIP
+	}
+	text = {
+		trigger = {
+		THIS = {
+		has_idea = very_small_economy
+		}
+		}
+		localization_key = VSMALL_ECON_TOOLTIP
+	}
+	text = {
+		trigger = {
+		THIS = {
+		has_idea = very_very_small_economy
+		}
+		}
+		localization_key = VVSMALL_ECON_TOOLTIP
+	}
+	text = {
+		trigger = {
+		THIS = {
+		has_idea = basket_case_economy
+		}
+		}
+		localization_key = BASKET_CASE_ECON_TOOLTIP
+	}
+	text = {
+		trigger = {
+		THIS = {
+		has_idea = warlord_economy
+		}
+		}
+		localization_key = WARLORD_ECON_TOOLTIP
+	}
+	text = {
+		localization_key = somethingwrong
+	}
+}

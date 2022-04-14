@@ -1,0 +1,19 @@
+defined_text = {
+	name = GDP_SCRLOC_MAPMODE
+	text = {
+		trigger = {
+			check_variable = { THIS.EGD_COUNTRY_GDP < 1 }
+		}
+		localization_key = GDP_million_loc_mapmode
+	}
+	text = {
+		trigger = {
+			check_variable = { THIS.EGD_COUNTRY_GDP > 999 }
+		}
+		localization_key = GDP_trillion_loc_mapmode
+	}
+	text = {
+		localization_key = GDP_billion_loc_mapmode
+	}
+}
+

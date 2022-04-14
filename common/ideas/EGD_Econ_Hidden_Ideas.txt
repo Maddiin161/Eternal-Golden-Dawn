@@ -1,0 +1,242 @@
+ideas = {
+	hidden_ideas = { # ALL IDEAS ARE WIP
+			superpower = {
+			allowed = {
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				monthly_population = -0.4
+				research_speed_factor = 0.1
+				stability_weekly = 0.01
+				opinion_gain_monthly_same_ideology_factor = 0.3
+				send_volunteer_size = 4
+				send_volunteers_tension = -0.1
+				air_volunteer_cap = 250
+				operation_risk = -0.1
+				operation_outcome = 0.2
+				decryption = 2
+				encryption = 2
+			}
+		}
+		
+		rising_superpower = {
+			allowed = {
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				monthly_population = 0.1
+				research_speed_factor = 0.05
+				decryption = 1
+				encryption = 1
+			}
+		}
+		
+		powerful_economy = {
+			allowed = {
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				monthly_population = 0.2
+				research_speed_factor = 0.01
+			}
+		}
+		
+		medium_economy = {
+			allowed = {
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				monthly_population = 0.3
+				research_speed_factor = -0.03
+				decryption = -1
+				encryption = -1
+			}
+		}
+		smaller_economy = {
+			allowed = {
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				monthly_population = 0.5
+				research_speed_factor = -0.06
+				decryption = -1
+				encryption = -1
+			}
+		}
+		poor_economy = {
+			allowed = {
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				monthly_population = 0.8
+				research_speed_factor = -0.12
+				decryption = -2
+				encryption = -2
+			}
+		}
+		basket_case_economy = {
+			allowed = {
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				monthly_population = 1
+				research_speed_factor = -0.20
+				decryption = -3
+				encryption = -3
+			}
+		}
+		warlord_economy = {
+			allowed = {
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				monthly_population = 1.2
+				research_speed_factor = -0.10
+				decryption = -2
+				encryption = -2
+			}
+		}
+		very_very_small_economy = {
+			allowed = {
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				monthly_population = 0.1
+				research_speed_factor = -0.5
+				decryption = -3
+				encryption = -3
+			}
+		}
+		very_small_economy = {
+			allowed = {
+			}
+
+            available = {
+
+            }
+
+            cancel = {
+
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				monthly_population = 0.25
+				research_speed_factor = -0.3
+				decryption = -1
+				encryption = -1
+			}
+		}
+	}	
+}
