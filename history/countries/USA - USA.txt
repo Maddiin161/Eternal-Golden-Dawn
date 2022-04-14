@@ -53,8 +53,13 @@ add_ideas = {
 
 ### ECONOMY ###
 ### 1979
-set_variable = { EGD_COUNTRY_GDP_GROWTH_PERCENTAGE = 0.03 }
-set_variable = { EGD_COUNTRY_GDP = 2000 } 
+set_variable = { EGD_COUNTRY_GDP = 2543 } 
+set_variable = { EGD_COUNTRY_NOMINAL_GDP_GROWTH = 6.15 }
+set_variable = { EGD_COUNTRY_INTEREST_RATE = 11 } 
+set_variable = { EGD_COUNTRY_BASE_INFLATION_RATE = 22 }
+set_variable = { EGD_COUNTRY_BATTALION_UPKEEP_RATE = 0.1 }
+set_variable = { EGD_COUNTRY_BASE_POVERTY_RATE = 11 }
+
 starting_econ_modifier_vars = yes
 EGD_startup_calc = yes
 EGD_startup = yes

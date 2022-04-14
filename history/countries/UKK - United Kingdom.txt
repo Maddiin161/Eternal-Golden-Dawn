@@ -15,6 +15,12 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = no
 }
+
+set_variable = { EGD_COUNTRY_GDP = 422 } 
+starting_econ_modifier_vars = yes
+EGD_startup_calc = yes
+EGD_startup = yes
+
 set_popularities = {
 	transhumanism = 0
 	ultranationalism = 1

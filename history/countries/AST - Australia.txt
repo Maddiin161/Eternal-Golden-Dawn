@@ -21,6 +21,11 @@ set_popularities = {
 	revolutionary_socialism = 0
 }
 	
+set_variable = { EGD_COUNTRY_GDP = 150 } 
+starting_econ_modifier_vars = yes
+EGD_startup_calc = yes
+EGD_startup = yes
+
 set_politics = {
 	ruling_party = social_democracy
 		last_election = "1977.12.10"

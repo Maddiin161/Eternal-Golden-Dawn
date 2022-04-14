@@ -25,6 +25,13 @@ set_politics = {
 		elections_allowed = no
 }
 
+#ECON
+
+set_variable = { EGD_COUNTRY_GDP = 316 } 
+starting_econ_modifier_vars = yes
+EGD_startup_calc = yes
+EGD_startup = yes
+
 ### IDEAS ###
 	
 add_ideas = { 

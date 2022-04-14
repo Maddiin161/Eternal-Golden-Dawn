@@ -33,6 +33,11 @@ create_country_leader = {
 	traits = {}
 }
 
+set_variable = { EGD_COUNTRY_GDP = 164 } 
+starting_econ_modifier_vars = yes
+EGD_startup_calc = yes
+EGD_startup = yes
+
 create_corps_commander = {
 	name = "Luis Farell"
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"

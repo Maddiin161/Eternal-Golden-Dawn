@@ -39,6 +39,12 @@ add_ideas = {
 	monitored_press
 	secular_state
 }
+
+set_variable = { EGD_COUNTRY_GDP = 263 } 
+starting_econ_modifier_vars = yes
+EGD_startup_calc = yes
+EGD_startup = yes
+
 create_country_leader = {
 	name = "Deng Xiaoping"
 	desc = ""
