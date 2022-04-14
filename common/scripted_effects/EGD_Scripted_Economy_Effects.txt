@@ -6,6 +6,19 @@ EGD_calculate_GDP_new_month = {
 }
 
 
+EGD_calculate_GDP_PER_CAPITA = {
+	set_temp_variable = { EGD_GDP_PER_CAPITA_TEMP = EGD_COUNTRY_GDP }
+	divide_temp_variable = { 
+		var = EGD_GDP_PER_CAPITA_TEMP
+		value = max_manpower_k	
+	}
+	multiply_temp_variable = { 
+		var = EGD_GDP_PER_CAPITA_TEMP
+		value = 1000
+	}
+	set_variable = { EGD_GDP_PER_CAPITA = EGD_GDP_PER_CAPITA_TEMP }
+}
+
 EGD_startup = {
 	every_country = {
 			if = {
@@ -87,6 +100,7 @@ EGD_startup_calc = {
 		set_variable = { DEBT_million = var:EGD_COUNTRY_DEBT }
 		multiply_variable = { DEBT_trillion = 0.001 }
 		multiply_variable = { DEBT_million = 1000 }
+		EGD_calculate_GDP_PER_CAPITA = yes
 	}
 }
 starting_econ_modifier_vars = {
