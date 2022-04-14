@@ -34,6 +34,11 @@ add_ideas = {
 	CZE_successful_federalization_idea
 }
 
+set_variable = { EGD_COUNTRY_GDP = 46 } 
+starting_econ_modifier_vars = yes
+EGD_startup_calc = yes
+EGD_startup = yes
+
 create_country_leader = {
 	name = "Gustáv Husák" 
 	desc = "CZE_gustav_husak_desc"

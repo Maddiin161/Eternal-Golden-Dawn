@@ -8,3 +8,4 @@
 # EGD_COUNTRY_INTEREST_RATE = Interest Rate. Increases Growth but also increases inflation. Is a %
 # EGD_COUNTRY_BASE_INFLATION_RATE = Inflation before interest rates decrease it. Is a %
 # EGD_COUNTRY_BATTALION_UPKEEP_RATE = How much it takes to support 1 batallion. Measured in billions of $
+# EGD_COUNTRY_BASE_POVERTY_RATE = Poverty per the country. is a %

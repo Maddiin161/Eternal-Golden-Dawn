@@ -31,6 +31,11 @@ set_popularities = {
 	revolutionary_socialism = 10
 }
 
+set_variable = { EGD_COUNTRY_GDP = 123 } 
+starting_econ_modifier_vars = yes
+EGD_startup_calc = yes
+EGD_startup = yes
+
 create_country_leader = {
 	name = "Ihsan Sabri Caglayangil" 
 	desc = ""
@@ -54,7 +59,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alparslan Türkeþ" 
+	name = "Alparslan Tï¿½rkeï¿½" 
 	desc = ""
 	picture = "Alparslan_Turkes.dds"
 	expire = "1992.3.1"

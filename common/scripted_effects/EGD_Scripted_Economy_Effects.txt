@@ -16,25 +16,25 @@ EGD_startup = {
 			}
 			else_if = {
 				limit = {
-					check_variable = { EGD_COUNTRY_GDP > 749 }
+					check_variable = { EGD_COUNTRY_GDP > 499 }
 				}
 				add_ideas = rising_superpower
 			}
 			else_if = {
 				limit = {
-					check_variable = { EGD_COUNTRY_GDP > 499 }
+					check_variable = { EGD_COUNTRY_GDP > 249 }
 				}
 				add_ideas = powerful_economy
 			}
 			else_if = {
 				limit = {
-					check_variable = { EGD_COUNTRY_GDP > 249 }
+					check_variable = { EGD_COUNTRY_GDP > 99 }
 				}
 				add_ideas = medium_economy
 			}
 		else_if = {
 			limit = {
-				check_variable = { EGD_COUNTRY_GDP > 99 }
+				check_variable = { EGD_COUNTRY_GDP > 49 }
 			}
 			add_ideas = smaller_economy
 		}
@@ -47,21 +47,21 @@ EGD_startup = {
 		}
 		else_if = {
 			limit = {
-				check_variable = { EGD_COUNTRY_GDP > 49 }
+				check_variable = { EGD_COUNTRY_GDP > 24 }
 				has_country_flag = is_smol_country
 			}
 			add_ideas = very_small_economy
 		}
 		else_if = {
 			limit = {
-				check_variable = { EGD_COUNTRY_GDP < 49 }
+				check_variable = { EGD_COUNTRY_GDP < 24 }
 				has_country_flag = is_smol_country
 			}
 			add_ideas = very_very_small_economy
 		}
 		else_if = {
 			limit = {
-				check_variable = { EGD_COUNTRY_GDP < 49 }
+				check_variable = { EGD_COUNTRY_GDP < 24 }
 				NOT = { has_country_flag = is_smol_country }
 			}
 			add_ideas = basket_case_economy

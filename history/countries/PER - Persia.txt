@@ -36,6 +36,12 @@
 		revolutionary_socialism = 5
 	}
 
+	
+set_variable = { EGD_COUNTRY_GDP = 85 } 
+starting_econ_modifier_vars = yes
+EGD_startup_calc = yes
+EGD_startup = yes
+
 	add_ideas = {
 		PER_banisadr_and_hundred_reasons_of_why_we_hate_him_idea
 		PER_brushing_the_peoples_mujahideen_aside_idea

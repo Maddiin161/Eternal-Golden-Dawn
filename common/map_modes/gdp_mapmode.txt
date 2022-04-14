@@ -21,7 +21,7 @@ scripted_map_modes = {
 							limit = {
 								check_variable = {
 									var = THIS.EGD_COUNTRY_GDP
-									value = 749
+									value = 499
 									compare = greater_than
 								}
 							}
@@ -33,7 +33,7 @@ scripted_map_modes = {
 							limit = {
 								check_variable = {
 									var = THIS.EGD_COUNTRY_GDP
-									value = 499
+									value = 249
 									compare = greater_than
 								}
 							}
@@ -45,7 +45,7 @@ scripted_map_modes = {
 							limit = {
 								check_variable = {
 									var = THIS.EGD_COUNTRY_GDP
-									value = 249
+									value = 99
 									compare = greater_than
 								}
 							}
@@ -57,7 +57,7 @@ scripted_map_modes = {
 							limit = {
 								check_variable = {
 									var = THIS.EGD_COUNTRY_GDP
-									value = 99
+									value = 49
 									compare = greater_than
 								}
 							}
@@ -69,7 +69,7 @@ scripted_map_modes = {
 							limit = {
 								check_variable = {
 									var = THIS.EGD_COUNTRY_GDP
-									value = 49
+									value = 24
 									compare = greater_than
 								}
 							}
@@ -81,7 +81,7 @@ scripted_map_modes = {
 							limit = {
 								check_variable = {
 									var = THIS.EGD_COUNTRY_GDP
-									value = 49
+									value = 24
 									compare = less_than_or_equals
 								}
 							}

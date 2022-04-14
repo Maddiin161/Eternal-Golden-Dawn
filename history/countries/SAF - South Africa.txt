@@ -26,6 +26,11 @@ set_politics = {
 	revolutionary_socialism = 10
 }
 
+set_variable = { EGD_COUNTRY_GDP = 56 } 
+starting_econ_modifier_vars = yes
+EGD_startup_calc = yes
+EGD_startup = yes
+
 create_country_leader = {
 	name = "Marais Viljoen"
 	desc = ""

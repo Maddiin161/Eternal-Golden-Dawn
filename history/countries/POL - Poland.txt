@@ -37,6 +37,12 @@ add_ideas = {
 	POL_harsh_repression_idea
 }
 
+set_variable = { EGD_COUNTRY_GDP = 75 } 
+starting_econ_modifier_vars = yes
+EGD_startup_calc = yes
+EGD_startup = yes
+
+
 create_country_leader = {
 	name = "Henryk Jablonski"
 	desc = "POL_Henryk_Jablonski_desc"

@@ -35,6 +35,11 @@ add_ideas = {
 	GRE_recovering_economy_idea
 }
 
+set_variable = { EGD_COUNTRY_GDP = 52 } 
+starting_econ_modifier_vars = yes
+EGD_startup_calc = yes
+EGD_startup = yes
+
 create_country_leader = {
 	name = "Charilaos Florakis" 
 	desc = "GRE_Charilaos_Florakis_desc"

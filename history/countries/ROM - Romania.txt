@@ -32,6 +32,11 @@ add_ideas = {
 	ROM_securiate_idea
 }
 
+set_variable = { EGD_COUNTRY_GDP = 36 } 
+starting_econ_modifier_vars = yes
+EGD_startup_calc = yes
+EGD_startup = yes
+
 create_country_leader = {
 	name = "Nicolae Ceausescu"
 	desc = "ROM_Nicolae_Ceausescu_desc"

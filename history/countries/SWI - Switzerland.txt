@@ -31,6 +31,12 @@ set_popularities = {
 	revolutionary_socialism = 0
 }
 
+set_variable = { EGD_COUNTRY_GDP = 105 } 
+starting_econ_modifier_vars = yes
+EGD_startup_calc = yes
+EGD_startup = yes
+
+
 create_country_leader = {
 	name = "Federal Council"
 	desc = ""
