@@ -34,3 +34,10 @@ create_country_leader = {
 		
 	}
 }
+
+add_ideas = {
+	UAE_Hawk_of_Arabia_idea
+	UAE_British_Investments_idea
+	UAE_Not_Another_Mr_Dill_idea
+	UAE_Threat_of_Iran_idea
+}

@@ -17,14 +17,14 @@
  IRQ_crushing_the_vipers_head:0 "Crushing the Viper's Head"
  IRQ_aflaq_and_his_word:0 "Aflaq and His Word"
 
- IRQ_lion_of_babylon_roars_desc:0 ""
- IRQ_and_iraq_holds_its_breath_desc:0 ""
- IRQ_siege_of_najaf_desc:0 ""
- IRQ_holding_the_arab_banner_desc:0 ""
- IRQ_against_those_who_wish_to_harm_desc:0 ""
- IRQ_tying_the_loose_end_desc:0 ""
- IRQ_crushing_the_vipers_head_desc:0 ""
- IRQ_aflaq_and_his_word_desc:0 ""
+ IRQ_lion_of_babylon_roars_desc:0 "The British ruled Iraq, sucking out its resources and slaughtering its sons, but then the Ba’athists took a stand and freed Iraq, nationalising the banks and oil, modernising the nation at speeds that have never been seen before, and finally, truly bringing it into the 20th Century.\nAnd now with Saddam Hussein as the helmsmen, he and the Iraqi people dream of a nation that will stand above, and never be ravaged by the British, Syrians, Iranians, and even the Americans, ever again."
+ IRQ_and_iraq_holds_its_breath_desc:0 "With the reign of Saddam Hussein just beginning, many wonder what the future holds, luckily for most, this future appears bright. The amazing progress of the economy, healthcare and education attracts people from all over the middle east who seek refuge from the violence that grips it. For many, the sacrifice of rights are worth the security of their children, and a future."
+ IRQ_siege_of_najaf_desc:0 "The Shia of Iraq has long suffered under the Ba’athist regime. Once loyal members of the Ba’athists, they now find themselves systemically oppressed by the Sunni minority that makes up a majority of the government.\nThe protests caused by the oppression have quickly turned into riots following the Islamic revolution in Iran, and the Shias have begun to call for a man named al-Sadr, their “Iraqi Khomeni” to lead a revolution and turn Iraq into an Islamic Republic."
+ IRQ_holding_the_arab_banner_desc:0 "Saddam Hussein is the last man holding the torn Pan-Arab banner in the middle east, and he will not let it fall, no matter how much blood he must wade through with it.\nHe has fought to defend this, through revolutions, and Pan-Arab struggles with Israel, even joining with enemies to participate. Pan-Arabs all across the middle east cheer for his crusade, and his enemies cry for his head. "
+ IRQ_against_those_who_wish_to_harm_desc:0 "Israel, America, The Kurds, The Islamic Republics, they all gnash at Iraq and try to tear down the Pan-Arab flag that Hussein has so firmly planted. \nWe must strike first, harder, and swifter to ensure that they will not."
+ IRQ_tying_the_loose_end_desc:0 "The Ba’athist Party is a varied one, with a varied history, unfortunately that means that there are many members who do not agree with Hussein’s vision of what the future of Iraq should be and push back against his will. This cannot be allowed, especially with the Syrian Branch and their evil plots to overthrow Saddam."
+ IRQ_crushing_the_vipers_head_desc:0 "The Islamic Revolution in Iraq must be a stillborn one. Al-Sadyr has been growing more powerful by the day as important dissident figures pledge loyalty to him, and the whispers of a Islamic Revolution in Iraq turn into shouts.\nSecurity forces and the Mukharabat have been sent out to do the long overdue task of silencing Al-Sadyr and his sister, Amina. "
+ IRQ_aflaq_and_his_word_desc:0 "Ever since the Ba’athist split, Syria has resisted our attempts to unify and will not accept our Ba’athist ideology, despite our best attempts. Hussein has authorised a propaganda campaign in Syria to use Aflaq’s own words to prove to them that their branch is illegitimate and that Iraqi Ba’athism is true. "
  
  #Events#
  iraq.1.t:0 "The situation in the Iraqi Republic"

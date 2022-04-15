@@ -599,3 +599,87 @@ news_event = {
 		name = WorldNews.43.a
 	}
 }
+
+##Event: Iran Awards the Perpetrators
+news_event = {
+	id = WorldNews.44
+	title = WorldNews.44.t
+	desc = WorldNews.44.d
+	picture = GFX_news_event_vojvodina_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.44.a
+	}
+}
+
+##Event: Israel Intervenes in Lebanon
+news_event = {
+	id = WorldNews.45
+	title = WorldNews.45.t
+	desc = WorldNews.45.d
+	picture = GFX_news_event_vojvodina_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.45.a
+	}
+}
+
+##Event: Israeli Intervention Repelled
+news_event = {
+	id = WorldNews.46
+	title = WorldNews.46.t
+	desc = WorldNews.46.d
+	picture = GFX_news_event_vojvodina_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.46.a
+	}
+}
+
+##Event: Israeli Victory
+news_event = {
+	id = WorldNews.47
+	title = WorldNews.47.t
+	desc = WorldNews.47.d
+	picture = GFX_news_event_vojvodina_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.47.a
+	}
+}
+
+##Event: Egypt-Israel peace treaty
+news_event = {
+	id = WorldNews.48
+	title = WorldNews.48.t
+	desc = WorldNews.48.d
+	picture = GFX_news_event_vojvodina_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.48.a
+	}
+}
+
+##Event: Israeli Victory
+news_event = {
+	id = WorldNews.49
+	title = WorldNews.49.t
+	desc = WorldNews.49.d
+	picture = GFX_news_event_vojvodina_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.49.a
+	}
+}

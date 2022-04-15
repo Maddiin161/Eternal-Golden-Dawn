@@ -238,6 +238,7 @@ PER_hostage_crisis_category = {
 						PER_raise_hostage_balance_of_power = yes
 						PER_raise_hostage_american_willingness = yes
 					}
+					every_country = { news_event = WorldNews.44 } }
 				}
 			}
 			ai_will_do = {

@@ -256,6 +256,18 @@ spriteTypes = {
 		name = "GFX_idea_UAE_Falcon_of_Arabia"
 		texturefile = "gfx/interface/ideas/UAE/UAE_Falcon_of_Arabia.dds"
 	}
+	SpriteType = { 
+		name = "GFX_idea_UAE_British_Investments"
+		texturefile = "gfx/interface/ideas/UAE/UAE_Investments.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_UAE_Mr_Dill"
+		texturefile = "gfx/interface/ideas/UAE/UAE_Mr_Dill.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_UAE_Threat_of_Iran"
+		texturefile = "gfx/interface/ideas/UAE/UAE_Threats_from_Iran.dds"
+	}
 	
 	#### SYR ####
 

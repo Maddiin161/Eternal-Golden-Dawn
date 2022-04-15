@@ -1,0 +1,77 @@
+ideas = {	
+		country = {
+
+		UAE_Hawk_of_Arabia_idea = {
+				picture = UAE_Falcon_of_Arabia
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = 0.05
+					political_power_gain = 0.15
+				}
+			}
+		UAE_British_Investments_idea = {
+				picture = UAE_British_Investments
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					consumer_goods_factor = -0.10
+					production_speed_buildings_factor = 0.25
+					political_power_gain = -0.10
+				}
+			}
+		UAE_Not_Another_Mr_Dill_idea = {
+				picture = UAE_Mr_Dill
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = -0.10
+					political_power_gain = -0.15
+				}
+			}
+		UAE_Threat_of_Iran_idea = {
+				picture = UAE_Threat_of_Iran
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					custom_modifier_tooltip = PER_nato_modifier_1
+				}
+			}
+		}
+	}
