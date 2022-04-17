@@ -1,0 +1,17 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				EGD_startup = yes
+				EGD_CALCULATE_GDP = yes
+				force_update_map_mode = { mapmode = EGD_GDP_mapmode }
+			}
+		}
+	}
+	on_monthly = {
+		effect = {
+			calculate_GDP = yes
+			force_update_map_mode = { mapmode = EGD_GDP_mapmode }
+		}
+	}
+}

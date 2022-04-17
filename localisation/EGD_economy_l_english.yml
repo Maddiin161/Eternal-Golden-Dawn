@@ -6,11 +6,11 @@ ECON_SURPLUS_OR_DEFICIT:0 "§YWe are in an economic§! [SURPLUS_OR_DEFICIT_SCRLO
 ECON_REAL_GROWTH:0 "§YOur current Real growth is§! [POS_OR_NEG]§Y,§! §Yat§! [?THIS.REAL_GROWTH|%b]"
 
 GDP_million_loc: "[?THIS.GDP|GDP_million]§7M§!"
-GDP_billion_loc: "[?THIS.GDP|G]§7B§!"
+GDP_billion_loc: "[?THIS.EGD_COUNTRY_GDP|G]§7B§!"
 GDP_trillion_loc: "[?THIS.GDP_trillion|G]§7T§!"
 
 GDP_million_loc_mapmode: "[?FROM.OWNER:GDP_million|G]§7M§!"
-GDP_billion_loc_mapmode: "[?FROM.OWNER:EGD_COUNTRY_GDP|G]§7B§!"
+GDP_billion_loc_mapmode: "[?FROM.controller:EGD_COUNTRY_GDP|Y]§7B§!"
 GDP_trillion_loc_mapmode: "[?FROM.OWNER:GDP_trillion|G]§7T§!"
 
 DEBT_trillion_loc:0 "[?THIS.DEBT_trillion|R]§RT§!"
