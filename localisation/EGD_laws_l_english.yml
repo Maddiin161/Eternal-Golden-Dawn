@@ -5,6 +5,7 @@
  political_advisor:0 "Head of Government"
  mobilization_laws:0 "Mobilization Laws"
  conscription:0 "Conscription"
+ development:0 "Development"
  corruption:0 "Corruption"
  religion:0 "Religious Laws"
  press:0 "Press Laws"
@@ -15,6 +16,13 @@
  health_budget:0 "Health Budget"
  social_budget:0 "Social Budget"
 
+ #### DEVELOPMENT ####
+ 
+ agrarian_nation:0 "Agrarian Nation"
+ industrializing_nation:0 "Industrializing Nation"
+ partially_industrialized_nation:0 "Partially Industrialized Nation"
+ fully_industrialized_nation:0 "Fully Industrialized Nation"
+ 
  #### CORRUPTION ####
 
  paralyzing_corruption:0 "Paralyzing Corruption"

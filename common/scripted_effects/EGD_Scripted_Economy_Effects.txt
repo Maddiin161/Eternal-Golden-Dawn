@@ -7,16 +7,67 @@ EGD_calculate_GDP_new_month = {
 
 
 EGD_calculate_GDP_PER_CAPITA = {
-	set_temp_variable = { EGD_GDP_PER_CAPITA_TEMP = EGD_COUNTRY_GDP }
-	divide_temp_variable = { 
-		var = EGD_GDP_PER_CAPITA_TEMP
-		value = max_manpower_k	
+	set_temp_variable = { actual_core_manpower_k = 0 }
+
+	every_owned_state = {
+		limit = { is_core_of = PREV }
+		add_to_temp_variable = { PREV.actual_core_manpower_k = state_population_k }
 	}
-	multiply_temp_variable = { 
-		var = EGD_GDP_PER_CAPITA_TEMP
-		value = 1000
+
+	set_variable = { EGD_GDP_PER_CAPITA = EGD_COUNTRY_GDP }
+	multiply_variable = { EGD_GDP_PER_CAPITA = 1000 }
+	divide_variable = { EGD_GDP_PER_CAPITA = actual_core_manpower_k }
+	multiply_variable = { EGD_GDP_PER_CAPITA = 1000 }
+	clamp_variable = { var = EGD_GDP_PER_CAPITA min = 0 }
+}
+
+EGD_CALCULATE_GDP = {
+	set_temp_variable = { actual_core_manpower_k = 0 }
+	set_temp_variable = { office_park_total = 0 }
+
+	every_owned_state = {
+		limit = { is_core_of = PREV }
+		add_to_temp_variable = { PREV.actual_core_manpower_k = state_population_k }
+		add_to_variable = { PREV.office_park_total = building_level@offices }
 	}
-	set_variable = { EGD_GDP_PER_CAPITA = EGD_GDP_PER_CAPITA_TEMP }
+			
+
+	set_temp_variable = { temp_civ = num_of_civilian_factories }
+	set_temp_variable = { temp_mil = num_of_military_factories }
+	set_temp_variable = { temp_nav = num_of_naval_factories	}
+	set_temp_variable = { temp_ofc = office_park_total	}
+
+	set_temp_variable = { temp = office_park_total }
+	divide_temp_variable = { temp = 2 }
+	add_to_variable = { country_GDP = temp }
+
+	set_temp_variable = { temp = temp_mil }
+	divide_temp_variable = { temp = 3 }
+	add_to_variable = { country_GDP = temp }
+
+	set_temp_variable = { temp = temp_nav }
+	divide_temp_variable = { temp = 4 }
+	add_to_variable = { country_GDP = temp }
+
+	add_to_variable = { country_GDP = temp_civ }
+
+	add_to_variable = { country_GDP = resource_produced@oil }
+
+	add_to_variable = { country_GDP = resource_produced@aluminium }
+
+	add_to_variable = { country_GDP = resource_produced@rubber }
+
+	add_to_variable = { country_GDP = resource_produced@tungsten }
+
+	add_to_variable = { country_GDP =  resource_produced@steel }
+
+	add_to_variable = { country_GDP = resource_produced@chromium }
+
+	set_variable = { country_GDP_per_capita = country_GDP }
+	multiply_variable = { country_GDP_per_capita = 1000 }
+	divide_variable = { country_GDP_per_capita = actual_core_manpower_k }
+	multiply_variable = { country_GDP_per_capita = 1000 }
+	clamp_variable = { var = country_GDP_per_capita min = 0 }
 }
 
 EGD_startup = {
