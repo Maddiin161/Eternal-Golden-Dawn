@@ -10,7 +10,8 @@ on_actions = {
 	}
 	on_monthly = {
 		effect = {
-			calculate_GDP = yes
+			EGD_CALCULATE_GDP_MONTHLY = yes
+			EGD_calculate_GDP_PER_CAPITA = yes
 			force_update_map_mode = { mapmode = EGD_GDP_mapmode }
 		}
 	}

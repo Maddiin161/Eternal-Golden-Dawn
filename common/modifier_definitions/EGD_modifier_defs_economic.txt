@@ -7,23 +7,30 @@
 #### GDP ####
 gdp_growth_modifier = {
 	color_type = good
-	value_type = percentage_in_hundred
+	value_type = percentage
 	precision = 3
-	category = country
+	category = all
 }
 
 debt_effect_on_gdp_growth_modifier = {
 	color_type = bad
 	value_type = percentage	
 	precision = 3
-	category = country
+	category = all
 }
 
 gdp_effect_on_poverty_reduction_modifier = {
 	color_type = good
 	value_type = percentage	
 	precision = 3
-	category = country
+	category = all
+}
+
+office_park_income_rate = {
+	color_type = good
+	value_type = percentage
+	precision = 0
+	category = all
 }
 #### LAWS COST ####
 
@@ -59,7 +66,7 @@ social_cost_modifier = {
 	color_type = bad
 	value_type = percentage	
 	precision = 3
-	category = country
+	category = all
 }
 
 

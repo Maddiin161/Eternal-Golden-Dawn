@@ -10,6 +10,6 @@ country_event = {
 	major = no
 	option = {
 		name = EGD_debug.1.a
-		EGD_calculate_GDP_new_month = yes
+		EGD_CALCULATE_GDP_MONTHLY = yes
 	}
 }

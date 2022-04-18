@@ -2,10 +2,9 @@
 
 #### ECON VARIABLES ####
 #### BASE VARIABLES- DEFINE THESE IN YOUR HISTORY FILES ####
-
-# EGD_COUNTRY_GDP = GDP. Measured in Billions of $
-# EGD_COUNTRY_NOMINAL_GDP_GROWTH = GDP Growth before all the yucky modifiers are thrown on. Is a %
-# EGD_COUNTRY_INTEREST_RATE = Interest Rate. Increases Growth but also increases inflation. Is a %
-# EGD_COUNTRY_BASE_INFLATION_RATE = Inflation before interest rates decrease it. Is a %
-# EGD_COUNTRY_BATTALION_UPKEEP_RATE = How much it takes to support 1 batallion. Measured in billions of $
-# EGD_COUNTRY_BASE_POVERTY_RATE = Poverty per the country. is a %
+ 
+ 
+EGD_COUNTRY_INFLATION_BASE - This is the inflation rate before all modifiers
+EGD_COUNTRY_INTEREST_RATE - This is the interest rate
+EGD_COUNTRY_GDP_GROWTH - This is your base growth rate before all modifiers
+EGD_COUNTRY_REAL_GROWTH_RATE - Your Actual GDP Growth

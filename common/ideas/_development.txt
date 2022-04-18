@@ -6,7 +6,7 @@ ideas = {
 
 		agrarian_nation = {
 			allowed = {
-				always = no
+				always = yes
 			}
 			removal_cost = -1
 			level = 1
@@ -25,7 +25,7 @@ ideas = {
 		}
 		industrializing_nation = {
 			allowed = {
-				always = no
+				always = yes
 			}
 			removal_cost = -1
 			level = 1
@@ -44,7 +44,7 @@ ideas = {
 		}
 		partially_industrialized_nation = {
 			allowed = {
-				always = no
+				always = yes
 			}
 			removal_cost = -1
 			level = 1
@@ -58,7 +58,7 @@ ideas = {
 		}
 		fully_industrialized_nation = {
 			allowed = {
-				always = no
+				always = yes
 			}
 			removal_cost = -1
 			level = 1

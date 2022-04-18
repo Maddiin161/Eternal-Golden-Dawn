@@ -1,0 +1,13 @@
+﻿l_english:
+ gdp_growth_modifier:0 "GDP Growth"
+ debt_effect_on_gdp_growth_modifier:0 "Debt Effect on GDP Growth"
+ gdp_effect_on_poverty_reduction_modifier:0 "GDP Effect on Poverty Reduction"
+ office_park_income_rate:0 "Office Park Income"
+ education_cost_modifier:0 "Education Cost"
+ military_spending_cost_modifier:0 "Military Spending Cost"
+ crime_fighting_cost_modifier:0 "Internal Security Cost"
+ health_cost_modifier:0 "Healthcare Cost"
+ social_cost_modifier:0 "General Welfare Cost"
+  
+ 
+

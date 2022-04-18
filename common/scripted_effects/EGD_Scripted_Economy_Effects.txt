@@ -1,10 +1,22 @@
-EGD_calculate_GDP_new_month = {
-	custom_effect_tooltip = EGD_economy_debug1_tooltip #placeholder for now
-	add_to_variable = { EGD_COUNTRY_GDP_GROWTH_PERCENTAGE = 1 }
-	multiply_temp_variable = { EGD_COUNTRY_GDP_GROWTH_PERCENTAGE = EGD_COUNTRY_GDP }
-	set_variable = { EGD_COUNTRY_NEW_GDP = EGD_COUNTRY_GDP_GROWTH_PERCENTAGE }
-}
+EGD_CALCULATE_GDP_MONTHLY = {
+	custom_effect_tooltip = EGD_economy_debug1_tooltip
+	EGD_CALCULATE_GDP = yes
+	set_temp_variable = { real_inflation = EGD_COUNTRY_INFLATION_BASE }
+	subtract_from_temp_variable = { real_inflation = EGD_COUNTRY_INTEREST_RATE }
+	
+	set_temp_variable = { gdp_interest_rate_calc = EGD_COUNTRY_INTEREST_RATE }
+	divide_temp_variable = { gdp_interest_rate_calc = 10 }
+	
+	set_temp_variable = { gdp_growth_calc = EGD_COUNTRY_GDP_GROWTH }
+	subtract_from_temp_variable = { gdp_growth_calc = gdp_interest_rate_calc }
+	subtract_from_temp_variable = { gdp_growth_calc = real_inflation }
+	set_variable = { EGD_COUNTRY_REAL_GROWTH_RATE = gdp_growth_calc }
 
+	set_temp_variable = { gdp_real_growth_calc = EGD_COUNTRY_REAL_GROWTH_RATE }
+	add_to_temp_variable = { gdp_real_growth_calc = 1 }
+	multiply_variable = { EGD_COUNTRY_GDP = gdp_real_growth_calc }
+	
+}
 
 EGD_calculate_GDP_PER_CAPITA = {
 	set_temp_variable = { actual_core_manpower_k = 0 }
@@ -13,20 +25,22 @@ EGD_calculate_GDP_PER_CAPITA = {
 		limit = { is_core_of = PREV }
 		add_to_temp_variable = { PREV.actual_core_manpower_k = state_population_k }
 	}
-
+	
 	set_variable = { EGD_GDP_PER_CAPITA = EGD_COUNTRY_GDP }
 	multiply_variable = { EGD_GDP_PER_CAPITA = 1000 }
 	divide_variable = { EGD_GDP_PER_CAPITA = actual_core_manpower_k }
 	multiply_variable = { EGD_GDP_PER_CAPITA = 1000 }
 	clamp_variable = { var = EGD_GDP_PER_CAPITA min = 0 }
+	
 }
-
 EGD_CALCULATE_GDP = {
 	set_temp_variable = { actual_core_manpower_k = 0 }
-
+	set_temp_variable = { office_park_amount = 0 }
+	
 	every_owned_state = {
 		limit = { is_core_of = PREV }
 		add_to_temp_variable = { PREV.actual_core_manpower_k = state_population_k }
+		add_to_temp_variable = { PREV.office_park_amount = building_level@office_park }
 	}
 
 	set_temp_variable = { temp_civ = num_of_civilian_factories }
@@ -34,12 +48,22 @@ EGD_CALCULATE_GDP = {
 
 	set_variable = { EGD_COUNTRY_GDP = temp_civ }
 
-	clamp_temp_variable = { var = temp_civ min = 1 max = 100 }
+	clamp_temp_variable = { var = temp_civ min = 1 max = 1000 }
 
-	set_temp_variable = { temp = temp_mil }
-	divide_temp_variable = { temp = 2 }
+	set_temp_variable = { temp = temp_civ }
+	multiply_temp_variable = { temp = 8 }
 	add_to_variable = { EGD_COUNTRY_GDP = temp }
 
+	set_temp_variable = { temp = temp_mil }
+	multiply_temp_variable = { temp = 4 }
+	add_to_variable = { EGD_COUNTRY_GDP = temp }
+
+	set_temp_variable = { temp = office_park_amount }
+	multiply_temp_variable = { temp = modifier@office_park_income_rate }
+	multiply_temp_variable = { temp = 6 }
+	add_to_variable = { EGD_COUNTRY_GDP = temp }
+
+	
 	set_variable = { EGD_COUNTRY_GDP_PER_CAPITA = EGD_COUNTRY_GDP }
 	multiply_variable = { EGD_COUNTRY_GDP_PER_CAPITA = 1000 }
 	divide_variable = { EGD_COUNTRY_GDP_PER_CAPITA = actual_core_manpower_k }
@@ -131,24 +155,5 @@ EGD_startup_calc = {
 		EGD_calculate_GDP_PER_CAPITA = yes
 	}
 }
-starting_econ_modifier_vars = {
-#WIP
-add_to_variable = {	GDP_growth_modifier = 0	} 
-add_to_variable = {	annual_GDP_growth_factor = 0 }
-add_to_variable = {	deficit_political_power_cost_modifier = 1 }
-add_to_variable = {	debt_to_GDP_ceiling_modifier = 1 }
-add_to_variable = {	debt_effect_on_GDP_growth_modifier = 1 }
-add_to_variable = {	GDP_to_faction_leader_modifier = 0	}
-add_to_variable = {	army_cost_modifier = 1 }
-add_to_variable = {	military_industry_cost_expertise_modifier = 1 }
-add_to_variable = {	military_industry_cost_equipment_modifier = 1 }
-add_to_variable = {	military_industry_cost_modifier = 1	}
-add_to_variable = {	airforce_cost_modifier = 1 }
-add_to_variable = {	naval_cost_modifier = 1	}
-add_to_variable = {	naval_industry_cost_modifier = 1 }
-add_to_variable = {	research_cost_modifier = 1 }
-add_to_variable = {	taxable_population_modifier = 0.5 }
-add_to_variable = {	weekly_GDP_loss_modifier = 0 }
-add_to_variable = {	poverty_taxation_rate_modifier = 0.1 }
-}
+
 
