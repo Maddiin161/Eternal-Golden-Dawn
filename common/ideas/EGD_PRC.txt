@@ -1,0 +1,199 @@
+ideas = {	
+		country = {
+
+		PRC_lingering_effects_of_the_cultural_revolution_idea = {
+				picture = PRC_lingering_effects_of_the_cultural_revolution
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = -0.1
+					political_power_gain = -0.15
+					production_speed_buildings_factor = -0.05
+				}
+			}
+		PRC_power_struggle_deng_controlled_idea = {
+				picture = PRC_power_struggle_deng_controlled
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_speed_industrial_complex_factor = 0.2
+					gdp_growth_modifier = 0.2
+					production_speed_arms_factory_factor = -0.2
+					gdp_effect_on_poverty_reduction_modifier = -0.2
+				}
+			}
+		PRC_power_struggle_deng_leaning_idea = {
+				picture = PRC_power_struggle_deng_leaning
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_speed_industrial_complex_factor = 0.2
+					gdp_growth_modifier = 0.2
+					production_speed_arms_factory_factor = -0.2
+					gdp_effect_on_poverty_reduction_modifier = -0.2
+				}
+			}
+		PRC_power_struggle_hua_leaning_idea = {
+				picture = PRC_power_struggle_hua_leaning
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_speed_industrial_complex_factor = -0.1
+					gdp_growth_modifier = -0.1
+					production_speed_arms_factory_factor = 0.1
+					gdp_effect_on_poverty_reduction_modifier = 0.1
+				}
+			}
+		PRC_power_struggle_hua_controlled_idea = {
+				picture = PRC_power_struggle_hua_controlled
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_speed_industrial_complex_factor = -0.2
+					gdp_growth_modifier = -0.2
+					production_speed_arms_factory_factor = 0.2
+					gdp_effect_on_poverty_reduction_modifier = 0.2
+				}
+			}
+		PRC_vietnamese_stalemate_idea = {
+				picture = PRC_vietnamese_stalemate
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					army_attack_factor = -0.95
+					attrition = 0.25
+					breakthrough_factor = -0.25
+				}
+			}
+		PRC_small_protests_idea = {
+				picture = PRC_small_protests
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					political_power_factor = -0.15
+					local_resources_factor = -0.1
+					production_factory_max_efficiency_factor = -0.1 
+				}
+			}
+		PRC_medium_protests_idea = {
+				picture = PRC_medium_protests
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					political_power_factor = -0.3
+					local_resources_factor = -0.2
+					production_factory_max_efficiency_factor = -0.2
+				}
+			}
+		PRC_large_protests_idea = {
+				picture = PRC_large_protests
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					political_power_factor = -0.45
+					local_resources_factor = -0.3
+					production_factory_max_efficiency_factor = -0.3
+				}
+			}
+		PRC_crippling_protests_idea = {
+				picture = PRC_crippling_protests
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					political_power_factor = -0.6
+					local_resources_factor = -0.5
+					production_factory_max_efficiency_factor = -0.5
+				}
+			}
+		}
+	}

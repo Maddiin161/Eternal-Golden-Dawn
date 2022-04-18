@@ -35,15 +35,15 @@ set_politics = {
 }
 
 add_ideas = {
+	PRC_lingering_effects_of_the_cultural_revolution_idea
+	PRC_power_struggle_deng_leaning_idea
+	PRC_vietnamese_stalemate_idea
+	PRC_small_protests_idea
 	paralyzing_corruption
 	monitored_press
 	secular_state
+	industrializing_nation
 }
-
-set_variable = { EGD_COUNTRY_GDP = 263 } 
-starting_econ_modifier_vars = yes
-EGD_startup_calc = yes
-EGD_startup = yes
 
 create_country_leader = {
 	name = "Deng Xiaoping"

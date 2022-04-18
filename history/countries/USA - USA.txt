@@ -49,6 +49,7 @@ add_ideas = {
 	moderate_corruption
 	free_press
 	secular_state
+	fully_industrialized_nation
 }
 
 ### ECONOMY ###
