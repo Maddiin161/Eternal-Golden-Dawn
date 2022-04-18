@@ -35,6 +35,7 @@ ideas = {
 				removal_cost = -1
 				
 				modifier = {
+					gdp_effect_on_poverty_reduction_modifier = -0.15
 					production_speed_buildings_factor = -0.1
 					consumer_goods_factor = 0.1
 					production_factory_efficiency_gain_factor = -0.1
@@ -96,6 +97,7 @@ ideas = {
 					consumer_goods_factor = 0.10
 					production_speed_industrial_complex_factor = -0.1
 					production_speed_arms_factory_factor = 0.1
+					military_spending_cost_modifier = 0.25
 					research_bonus = {
 						infantry_weapons = 0.1
 					}
@@ -137,6 +139,7 @@ ideas = {
 				removal_cost = -1
 				
 				modifier = {
+					crime_fighting_cost_modifier = -0.1
 					intel_from_operatives_factor = 0.1
 					operation_cost = -0.1
 					enemy_operative_capture_chance_factor = 0.1

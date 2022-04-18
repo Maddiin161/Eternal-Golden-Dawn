@@ -35,6 +35,7 @@ ideas = {
 				removal_cost = -1
 				
 				modifier = {
+					gdp_effect_on_poverty_reduction_modifier = -0.1
 					production_lack_of_resource_penalty_factor = -0.10
 					stability_factor = -0.10
 					production_factory_max_efficiency_factor = -0.1
@@ -57,9 +58,10 @@ ideas = {
 				removal_cost = -1
 				
 				modifier = {
+					crime_fighting_cost_modifier = 0.25
 					compliance_growth_on_our_occupied_states = 0.2
 					required_garrison_factor = 0.2
-					consumer_goods_factor = 0.10
+					consumer_goods_factor = 0.05
 				}
 			}
 		}

@@ -38,21 +38,21 @@ education_cost_modifier = {
 	color_type = bad
 	value_type = percentage	
 	precision = 3
-	category = country
+	category = all
 }
 
 military_spending_cost_modifier = {
 	color_type = bad
 	value_type = percentage	
 	precision = 3
-	category = country
+	category = all
 }
 
 crime_fighting_cost_modifier = {
 	color_type = bad
 	value_type = percentage	
 	precision = 3
-	category = country
+	category = all
 }
 
 health_cost_modifier = {

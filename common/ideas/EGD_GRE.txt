@@ -53,6 +53,7 @@ ideas = {
 				removal_cost = -1
 				
 				modifier = {
+					gdp_growth_modifier = 0.15
 					production_speed_buildings_factor = 0.05
 					repair_speed_industrial_complex_factor = 0.1
 					industrial_capacity_factory = 0.1
