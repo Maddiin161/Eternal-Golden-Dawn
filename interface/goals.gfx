@@ -132,4 +132,12 @@ spriteTypes = {
 		name = "GFX_USA_trust_Keynesianism"
 		texturefile = "gfx/interface/goals/USA/USA_trust_Keynesianism.dds"
 	}
+	SpriteType = { 
+		name = "GFX_focus_USA_enforce_the_carter_doctrine"
+		texturefile = "gfx/interface/goals/USA/USA_enforce_the_carter_doctrine.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_USA_friends_in_baghdad"
+		texturefile = "gfx/interface/goals/USA/USA_friends_in_baghdad.dds"
+	}
 }
