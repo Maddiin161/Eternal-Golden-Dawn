@@ -1,0 +1,79 @@
+ideas = {	
+		country = {
+
+		AUS_scars_of_the_werewolves_idea = {
+				picture = AUS_scars_of_the_werewolves
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = -0.05
+					ultranationalism_drift = 0.01
+					social_conservatism_drift = 0.01
+				}
+			}
+		AUS_the_long_occupation_idea = {
+				picture = AUS_the_long_occupation
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+
+				}
+			}
+		AUS_choked_in_puppet_strings_idea = {
+				picture = AUS_choked_in_puppet_strings
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					political_power_gain = -0.10
+					faction_trade_opinion_factor = 0.10
+					send_volunteer_size = 3
+
+				}
+			}
+		AUS_identityless_nation_idea = {
+				picture = AUS_identityless_nation
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = -0.10
+					war_support_factor = -.10
+				}
+			}
+		}
+	}

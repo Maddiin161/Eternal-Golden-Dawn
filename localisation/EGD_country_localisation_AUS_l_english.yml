@@ -1,0 +1,25 @@
+﻿l_english: 
+
+#### EVENTS ####
+
+#### FOCUSES ####
+
+#### Parties ####
+AUS_market_liberalism_party:0 "FPÖ - L"
+AUS_market_liberalism_party_long:0 "Freedom Party of Austria - Liberal"
+AUS_social_conservatism_party:0 "FPÖ - R"
+AUS_social_conservatism_party_long:0 "Freedom Party of Austria - Right"
+AUS_ultranationalism_party:0 "FPÖ - N"
+AUS_ultranationalism_party_long:0 "Freedom Party of Austria - Nationalist"
+AUS_social_democracy_party:0 "SPÖ-ÖVP"
+AUS_social_democracy_party_long:0 "Socialist Party Austria - People's Party Austria Coalition"
+
+##### IDEAS ####
+AUS_scars_of_the_werewolves_idea:0 "Scars of the Werewolves"
+AUS_scars_of_the_werewolves_idea_desc:0 "In the last days of the Second World War, Austria was a huge stronghold of both the Werwolf and Spinne organizations. Many Nazi officials and members of the NSDAP ended up in West Austria after the end of the war. The supposed "denazification" conducted in the early days of West Austria's existence did not work out at all, and that shows in the present, with the government being full of them and with numerous Neo-Nazi groups often showing their presence."
+AUS_the_long_occupation_idea:0 "The Long Occupation"
+AUS_the_long_occupation_idea_desc:0 "The limbo in which Austria found itself following Europe's division between the major powers resulted in a long-term occupation before the formal establishment of the West and East. Who Must bear the cost of this occupation? Who else but the Austrian people. Such expenses have completely wrecked the economy of the nascent state West Austria is."
+AUS_choked_in_puppet_strings_idea:0 "Choked in Puppet Strings"
+AUS_choked_in_puppet_strings_idea_desc:0 "West Austria is an entity completely dependent on NATO. Her sole existence is owed to CIA funding. Many of West Austria’s politicians are political subjects to Washington. Despite the fact that the stalemate has earned them a favorable position in NATO's sphere, the people are nonetheless dissatisfied and wish for a political climate in which they could truly choose their leaders."
+AUS_identityless_nation_idea:0 "Identityless Nation"
+AUS_identityless_nation_idea_desc:0 "The Austrian West-East split has shown that these new nations lack cultural and historical identities on their own. In contrast to Germany, where the divide has highlighted the diversity of culture and values in different areas of the country, All Austria has ever given to the world was through its unity"

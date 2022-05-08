@@ -179,6 +179,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ADR/idea_ADR_identityless_nation_idea.dds"
 	}
 
+	#### AUS ####
+
+	SpriteType = { 
+		name = "GFX_idea_AUS_choked_in_puppet_strings_idea"
+		texturefile = "gfx/interface/ideas/AUS/idea_AUS_choked_in_puppet_strings.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_AUS_scars_of_the_werewolves_idea"
+		texturefile = "gfx/interface/ideas/AUS/idea_AUS_scars_of_the_werewolves.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_AUS_the_long_occupation_idea"
+		texturefile = "gfx/interface/ideas/AUS/idea_AUS_the_long_occupation.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_idea_AUS_identityless_nation_idea"
+		texturefile = "gfx/interface/ideas/AUS/idea_AUS_identityless_nation.dds"
+	}
+
 	#### BFR ####
 
 	SpriteType = { 
