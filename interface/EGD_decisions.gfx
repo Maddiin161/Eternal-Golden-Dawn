@@ -8,4 +8,8 @@ spriteTypes = {
 		name = "GFX_Louis_im_in_neo_nazi"
 		texturefile = "gfx/interface/decisions/Louis_im_in_neo_nazi.dds"
 	}
+	SpriteType = { 
+		name = "GFX_EGD_Decision_Picture_Iran_Hostages"
+		texturefile = "gfx/interface/decisions/EGD_Decision_Picture_Iran_Hostages.dds"
+	}
  }

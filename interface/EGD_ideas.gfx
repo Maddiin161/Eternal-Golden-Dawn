@@ -364,6 +364,42 @@ spriteTypes = {
 		name = "GFX_idea_negligible_corruption"
 		texturefile = "gfx/interface/Corruption_Levels/idea_negligible_corruption.dds"
 	}
-
-
+    
+	#### PRC ####
+	SpriteType = { 
+		name = "GFX_idea_PRC_lingering_effects_of_the_cultural_revolution"
+		texturefile = "gfx/interface/ideas/PRC/PRC_lingering_effects_of_the_cultural_revolution.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_PRC_power_struggle_deng_controlled"
+		texturefile = "gfx/interface/ideas/PRC/PRC_power_struggle_deng_controlled_idea.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_PRC_power_struggle_deng_leaning"
+		texturefile = "gfx/interface/ideas/PRC/PRC_power_struggle_deng_leaning.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_PRC_power_struggle_hua_leaning"
+		texturefile = "gfx/interface/ideas/PRC/PRC_power_struggle_hua_leaning.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_PRC_power_struggle_hua_controlled"
+		texturefile = "gfx/interface/ideas/PRC/PRC_power_struggle_hua_controlled.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_PRC_vietnamese_stalemate"
+		texturefile = "gfx/interface/ideas/PRC/PRC_vietnamese_stalemate.dds"
+	}		
+	SpriteType = { 
+		name = "GFX_idea_PRC_small_protests"
+		texturefile = "gfx/interface/ideas/PRC/PRC_small_protests.dds"
+	}		
+	SpriteType = { 
+		name = "GFX_idea_PRC_medium_protests"
+		texturefile = "gfx/interface/ideas/PRC/PRC_medium_protests.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_PRC_large_protests"
+		texturefile = "gfx/interface/ideas/PRC/PRC_large_protests.dds"
+	}
  }
