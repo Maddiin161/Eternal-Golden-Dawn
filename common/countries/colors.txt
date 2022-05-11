@@ -331,6 +331,10 @@ ADR = {
 	color = rgb { 207 66 66 }
 	color_ui = rgb { 207 66 66 }
 }
+AUN = {
+	color = rgb { 149 149 149 }
+	color_ui = rgb { 149 149 149 }
+}
 NSN = {
 	color = rgb { 46 46 46 }
 	color_ui = rgb { 46 46 46 }

@@ -1,0 +1,47 @@
+﻿capital = 758
+
+set_politics = {
+	ruling_party = ultranationalism
+	elections_allowed = no
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 60
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 40
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
+}
+
+set_variable = { EGD_COUNTRY_GDP = 52 } 
+starting_econ_modifier_vars = yes
+EGD_startup_calc = yes
+EGD_startup = yes
+
+add_ideas = {
+	AUS_scars_of_the_werewolves_idea
+	AUS_identityless_nation_idea
+	crippling_corruption
+	state_press
+	secular_state
+}
+
+create_country_leader = {
+	name = "Gottfried Küssel" 
+	desc = ""
+	picture = "Gottfried_Küssel.dds"
+	expire = "2003.3.1"
+	ideology = ultranationalism_ideology
+	traits = {
+		
+	}
+}
