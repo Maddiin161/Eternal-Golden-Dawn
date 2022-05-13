@@ -14,6 +14,26 @@ characters = {
 		}
 
 	}
+	AUS_Totally_Not_a_Nazi = {
+	name = "Totally Not a Nazi"
+		portraits={
+			civilian = {
+				small = "GFX_idea_Minister_Not_a_Nazi"
+			}
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = AUS_Totally_Not_a_Nazi_hog
+			allowed = { original_tag = AUS }
+			traits = {
+				fascist_orchestrator
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 
+	}
 
 }

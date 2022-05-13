@@ -1,0 +1,9 @@
+spriteTypes = { 
+	
+	#### DDR ####
+
+	SpriteType = { 
+		name = "GFX_idea_Minister_Not_a_Nazi"
+		texturefile = "gfx/interface/Ministers/AUS/Minister_Not_a_Nazi.dds"
+	}
+ }

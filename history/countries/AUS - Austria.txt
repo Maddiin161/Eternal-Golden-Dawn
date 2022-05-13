@@ -29,6 +29,8 @@ starting_econ_modifier_vars = yes
 EGD_startup_calc = yes
 EGD_startup = yes
 
+recruit_character = AUS_Totally_Not_a_Nazi
+
 add_ideas = {
 	AUS_scars_of_the_werewolves_idea
 	AUS_the_long_occupation_idea
@@ -37,6 +39,9 @@ add_ideas = {
 	crippling_corruption
 	state_press
 	secular_state
+	
+	#Ministers#
+	AUS_Totally_Not_a_Nazi_hog
 }
 
 create_country_leader = {

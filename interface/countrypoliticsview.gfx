@@ -1,5 +1,24 @@
 spriteTypes = {
-	
+	spriteType = {
+		name = "GFX_idea_slot_head_of_government"
+		textureFile = "gfx/interface/Ministers/Generic_Minister_Vacant.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_minister_of_economy"
+		textureFile = "gfx/interface/Ministers/Generic_Minister_Vacant.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_minister_of_defense"
+		textureFile = "gfx/interface/Ministers/Generic_Minister_Vacant.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_minister_of_foreign_affairs"
+		textureFile = "gfx/interface/Ministers/Generic_Minister_Vacant.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_minister_of_internal_affairs"
+		textureFile = "gfx/interface/Ministers/Generic_Minister_Vacant.dds"
+	}
 	#Government in Exile
 
 	spriteType = {

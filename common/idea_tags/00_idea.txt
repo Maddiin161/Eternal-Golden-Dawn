@@ -8,13 +8,23 @@ idea_categories = {
 
 		ledger = hidden
 	}
-
 	country = {
 		type = national_spirit
 		
 		cost = 0
 		removal_cost = -1
 		
+		ledger = hidden
+	}
+	
+	ministers = {
+		character_slot = head_of_government
+		character_slot = minister_of_economy
+		character_slot = minister_of_defense
+		character_slot = minister_of_internal_affairs
+		character_slot = minister_of_foreign_affairs
+		cost = 100
+		removal_cost = -1
 		ledger = hidden
 	}
 	
@@ -29,7 +39,7 @@ idea_categories = {
 
 		ledger = civilian
 	}
-
+	
 	government = {
 		slot = bureaucracy
 		slot = Military_Spending
