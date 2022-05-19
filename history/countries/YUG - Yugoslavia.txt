@@ -64,15 +64,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Milovan Djilas" 
-	desc = "EGD_DJILAS_BIO"
-	picture = "Milovan_Djilas.dds"
-	expire = "2000.1.1"
-	ideology = democratic_socialism
-	traits = {
-		
-	}
-}
+
 
 
