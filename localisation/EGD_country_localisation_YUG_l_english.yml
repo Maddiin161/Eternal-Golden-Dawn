@@ -1,0 +1,24 @@
+﻿l_english: 
+
+#### EVENTS ####
+
+#### FOCUSES ####
+
+#### Parties ####
+YUG_ultranationalism_party:0 "SKJ - R"
+YUG_ultranationalism_party_long:0 "Savez Komunista Jugoslavije - Reakcionari"
+YUG_libertarian_socialist_part:0 "SKJ"
+YUG_libertarian_socialist_part:0 "Savez Komunista Jugoslavije"
+##### IDEAS ####
+YUG_head_of_the_non_aligned_world_idea:0 "Head of the Non Aligned World"
+YUG_head_of_the_non_aligned_world_idea_desc:0 "One of the features of superpower diplomacy, which the world was thrown into with the beginning of the Cold war, is dividing the world into large spheres of influence in which one superpower has power over the other, and into non-aligned sectors.Despite being a socialist country, Yugoslavia decided to be in neither the Soviet nor American power block. Together with many nations, Yugoslavia formed the Non-Aligned Movement, putting Tito as the leader. There, governments try to balance the ever-growing bi-polarization of the world."
+YUG_remembering_maspok_idea:0 "Remembering Maspok"
+YUG_remembering_maspok_idea_desc:0 "Ethnic tensions and nationalism have been on the rise for quite some time now, with one of the largest demonstrations in Yugoslavia,Maspok or the Croatian Spring as foreign news agencies called it, taking place in the Socialist Republic of Croatia 10 years ago still being a hot topic."
+YUG_errors_of_market_socialism_idea:0 "Errors of Market Socialism"
+YUG_errors_of_market_socialism_idea_desc:0 "In terms of the economy, the Market Socialist model may have served Yugoslavia well up until some years ago but now is a time of economic recession, as the state and few private companies haven't been doing as well in the global market, further damaging the annual income."
+YUG_pearl_of_the_adriatic_idea:0 "Pearl of the Adriatic"
+YUG_pearl_of_the_adriatic_idea_desc:0 "While the Yugoslav economy might be lacking in some areas, where it shines is its tourism. Thousands of people from all across Europe travel many miles just to reach the beautiful rocky beaches of the Adriatic sea. Upon their arrival, they are more than happy to spend their money there, which brings enormous revenue to the government's pocket. Despite being immensely lucrative, the tourism economy moves in cycles, as most tourists arrive in Summer. Building the entire economy around such an unreliable source of income might not be the wisest thing to do, especially in such turbulent times."
+
+#### LEADER DESC #### 
+EGD_RANKO_BIO:0 "Rankovic was born in the village of Drazevac near Obrenovac in the Kingdom of Serbia. Born into a poor family, Rankovic lost his father at a young age. He attended primary school in his hometown. He went to Belgrade to seek work and joined the workers' movement. Furthermore, he was also influenced by his colleagues who, at the time when the Communist Party was banned, brought communist literature with them, which Rankovic used to read. At age 15 he joined the union. In 1927 he met his future wife Anda, and a year later he joined the Communist Party of Yugoslavia. Soon he was named Secretary-General of the League of Communists of Youth of Yugoslavia in Belgrade. After becoming a member of the then-illegal Communist Party in 1928, he was sentenced to 6 years in prison. During his incarceration in Sremska Mitrovica and Lepoglava, he remained active in promoting Marxism and Leninism to younger prisoners, and fought to improve the living conditions for political prisoners. After his release from prison, he met Anda Jovanovic again and the two were married shortly thereafter. After completing his compulsory military service, the pair moved to Belgrade in January of 1937. While working as a member of the League of Communists of Serbia during this time, he was promoted to secretary by Tito, a role which he held until 1941.After the war ended, Rankovic gained a huge amount of power becoming Tito's main associate and right-hand man. A man with great ambitions, he now aims to further centralize Yugoslavia."
+EGD_JNA_BIO:0 "The JNA Military Council is an emergency cabinet made up of the top senior leaders in the People's Army. The council of 11 members functions in a democratic way with frequent meetings where decisions are made through a voting process, and is deemed necessary in extreme emergency situations like Martial Law. The council, founded and maintained on military and socialist principles, works in close collaboration with the Armed Forces and is always ready to defend the socialist homeland and safeguard the Yugoslav people’s unity."

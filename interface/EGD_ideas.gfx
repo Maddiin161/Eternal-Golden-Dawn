@@ -402,4 +402,24 @@ spriteTypes = {
 		name = "GFX_idea_PRC_large_protests"
 		texturefile = "gfx/interface/ideas/PRC/PRC_large_protests.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_idea_YUG_head_of_the_non_aligned_world"
+		texturefile = "gfx/interface/ideas/YUG/YUG_head_of_the_non_aligned_world.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_idea_YUG_remembering_maspok"
+		texturefile = "gfx/interface/ideas/YUG/YUG_remembering_maspok.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_idea_YUG_errors_of_market_socialism"
+		texturefile = "gfx/interface/ideas/YUG/YUG_errors_of_market_socialism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_idea_YUG_pearl_of_the_adriatic"
+		texturefile = "gfx/interface/ideas/YUG/YUG_pearl_of_the_adriatic.dds"
+	}
  }

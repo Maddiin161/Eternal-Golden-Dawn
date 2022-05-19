@@ -8,7 +8,7 @@ set_politics = {
 }
 set_popularities = {
 	transhumanism = 0
-	ultranationalism = 0
+	ultranationalism = 5
 	despotism = 0
 	authoritarian_democracy = 0
 	corporate_oligarchy = 0
@@ -16,7 +16,7 @@ set_popularities = {
 	market_liberalism = 0
 	social_liberalism = 0
 	social_democracy = 10
-	libertarian_socialism = 90
+	libertarian_socialism = 85
 	revolutionary_socialism = 0
 }
 
@@ -25,6 +25,13 @@ starting_econ_modifier_vars = yes
 EGD_startup_calc = yes
 EGD_startup = yes
 
+add_ideas = {
+	YUG_head_of_the_non_aligned_world_idea
+	YUG_remembering_maspok_idea
+	YUG_errors_of_market_socialism_idea
+	YUG_pearl_of_the_adriatic_idea
+}
+	
 create_country_leader = {
 	name = "Josip Broz Tito" 
 	desc = ""
@@ -34,4 +41,47 @@ create_country_leader = {
 	traits = {
 		
 	}
+}	
+	create_country_leader = {
+	name = "Aleksandar Rankovic" 
+	desc = "EGD_RANKO_BIO"
+	picture = "Aleksandar_Rankovic.dds"
+	expire = "1981.3.23"
+	ideology = ethnic_nationalism
+	traits = {
+		
+	}
 }
+
+create_country_leader = {
+	name = "JNA Military Council" 
+	desc = "EGD_JNA_BIO"
+	picture = "JNA_Military_Council.dds"
+	expire = "2000.1.1"
+	ideology = military_socialism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Milovan Djilas" 
+	desc = "EGD_DJILAS_BIO"
+	picture = "Milovan_Djilas.dds"
+	expire = "2000.1.1"
+	ideology = democratic_socialism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Presidency of Yugoslavia" 
+	desc = "EGD_PRESIDIUM_BIO"
+	picture = "Presidium.dds"
+	expire = "2000.1.1"
+	ideology = titoism
+	traits = {
+		
+	}
+
