@@ -75,13 +75,4 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Presidency of Yugoslavia" 
-	desc = "EGD_PRESIDIUM_BIO"
-	picture = "Presidium.dds"
-	expire = "2000.1.1"
-	ideology = titoism
-	traits = {
-		
-	}
 
