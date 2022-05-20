@@ -1,0 +1,140 @@
+add_namespace = yugoslavia
+
+##Event: Starting Situation  
+country_event = {
+	id = yugoslavia.1e
+	title = yugoslavia.1e.t
+	desc = yugoslavia.1e.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+	original_tag = YUG
+	date = 1980.1.1
+	}
+	major = yes
+	
+	option = {
+		name = "Onwards!"
+		
+	}
+}
+
+##Event: Great Expectations  
+country_event = {
+	id = yugoslavia.2e
+	title = yugoslavia.2e.t
+	desc = yugoslavia.2e.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+	original_tag = YUG
+	date = 1980.4.4
+	}
+	major = yes
+	
+	option = {
+		name = "A man with great ambitions..."
+		
+	}
+}
+
+##Event: Death of Tito
+country_event = {
+	id = yugoslavia.3e
+	title = yugoslavia.3e.t
+	desc = yugoslavia.3e.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+	original_tag = YUG
+	date = 1980.5.4
+	}
+   	major = yes
+
+	
+	option = {
+		name = "Reast easy, Marshal"
+		YUG = {
+		stability_factor = -0.05	
+        kill_country_leader = yes
+		}
+		create_country_leader = {
+				name = "Presidency of Yugoslavia" 
+				desc = "EGD_PRESIDIUM_BIO"
+				picture = "Presidium.dds"
+				expire = "1992.3.1"
+				ideology = titoism
+				traits = {
+				}
+			}			
+		}
+		hidden_effect =  { every_country = { news_event = WorldNews. } }
+	}
+
+##Event: Lofty Aspirations  
+country_event = {
+	id = yugoslavia.4e
+	title = yugoslavia.4e.t
+	desc = yugoslavia.4e.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+	original_tag = YUG
+	date = 1980.6.15
+	}
+	major = yes
+	
+	option = {
+		name = "Such Incolence!"
+		
+	}
+}
+
+##Event: Reckoning Without the Host  
+country_event = {
+	id = yugoslavia.5e
+	title = yugoslavia.5e.t
+	desc = yugoslavia.5e.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+	original_tag = YUG
+	date = 1980.6.20
+	}
+	major = yes
+	
+	option = {
+		name = "Assembly Concluded."
+		
+	}
+}
+
+##Event: A critical choice 
+country_event = {
+	id = yugoslavia.6e
+	title = yugoslavia.6e.t
+	desc = yugoslavia.6e.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+	original_tag = YUG
+	date = 1980.6.20
+	}
+	major = yes
+	
+	option = {
+		name = "Not worth it anymore."
+		
+	}
+	
+	option = {
+		name = "Let's see what we can do..."
+		
+	}
+}
