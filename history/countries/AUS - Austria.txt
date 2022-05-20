@@ -52,7 +52,7 @@ add_ideas = {
 	AUS_Willfried_Gredler_hof
 }
 
-create_country_leader = {
+create_country_leader = { #####REAL STEGER
 	name = "Norbert Steger" 
 	desc = "AUS_Norbert_Steger_desc"
 	picture = "Norbert_Steger.dds"
@@ -62,7 +62,7 @@ create_country_leader = {
 		
 	}
 }
-create_country_leader = {
+create_country_leader = { ######MARKET LIBERAL FACTION LEADER!!!!
 	name = "Norbert Steger" 
 	desc = "AUS_Norbert_Steger_desc"
 	picture = "Norbert_Steger.dds"
@@ -72,7 +72,7 @@ create_country_leader = {
 		
 	}
 }
-create_country_leader = {
+create_country_leader = { #######FPO - R LEADER
 	name = "Jörg Haider" 
 	desc = ""
 	picture = "Jorg_Haider.dds"
@@ -81,3 +81,24 @@ create_country_leader = {
 	traits = {
 	}
 }
+
+###COSMETIC LEADERS
+create_country_leader = { #######FPO - N LEADER
+	name = "Otto Rösch" 
+	desc = ""
+	picture = "EMPTY"
+	expire = "2003.3.1"
+	ideology = ultranationalism_ideology
+	traits = {
+	}
+}
+create_country_leader = { #######SPO-OVP LEADER
+	name = "Franz Vranitzky" 
+	desc = ""
+	picture = "EMPTY"
+	expire = "2003.3.1"
+	ideology = social_democracy_ideology
+	traits = {
+	}
+}
+

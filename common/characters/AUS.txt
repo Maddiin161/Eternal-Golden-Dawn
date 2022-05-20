@@ -44,6 +44,35 @@ characters = {
 		}
 	}
 
+	AUS_Otto_Rosch2 = {
+		portraits={
+			civilian = {
+				large = "EMPTY" ##Not Electable Leader!
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+	}
+
+	AUS_Franz_Vranitzky = {
+		portraits={
+			civilian = {
+				large = "EMPTY" ##Not Electable Leader!
+			}
+		}
+		country_leader = {
+			ideology = social_democracy
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+	}
+
+
 	##########Ministers##############
 	AUS_Kurt_Waldheim = {
 	name = "Kurt Waldheim"
