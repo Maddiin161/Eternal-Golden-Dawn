@@ -29,7 +29,11 @@ starting_econ_modifier_vars = yes
 EGD_startup_calc = yes
 EGD_startup = yes
 
-recruit_character = AUS_Totally_Not_a_Nazi
+recruit_character = AUS_Kurt_Waldheim
+recruit_character = AUS_Stephan_Koren
+recruit_character = AUS_Friedhelm_Frisch
+recruit_character = AUS_Otto_Rosch
+recruit_character = AUS_Willfried_Gredler
 
 add_ideas = {
 	AUS_scars_of_the_werewolves_idea
@@ -41,16 +45,39 @@ add_ideas = {
 	secular_state
 	
 	#Ministers#
-	AUS_Totally_Not_a_Nazi_hog
+	AUS_Kurt_Waldheim_hog
+	AUS_Stephan_Koren_hoe
+	AUS_Friedhelm_Frisch_hod
+	AUS_Otto_Rosch_hoi
+	AUS_Willfried_Gredler_hof
 }
 
 create_country_leader = {
 	name = "Norbert Steger" 
-	desc = ""
+	desc = "AUS_Norbert_Steger_desc"
 	picture = "Norbert_Steger.dds"
 	expire = "2003.3.1"
 	ideology = authoritarian_democracy_ideology
 	traits = {
 		
+	}
+}
+create_country_leader = {
+	name = "Norbert Steger" 
+	desc = "AUS_Norbert_Steger_desc"
+	picture = "Norbert_Steger.dds"
+	expire = "2003.3.1"
+	ideology = market_liberalism_ideology
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Jörg Haider" 
+	desc = ""
+	picture = "Jorg_Haider.dds"
+	expire = "2003.3.1"
+	ideology = right_wing_populism
+	traits = {
 	}
 }

@@ -14,20 +14,125 @@ characters = {
 		}
 
 	}
-	AUS_Totally_Not_a_Nazi = {
-	name = "Totally Not a Nazi"
+
+		AUS_Norbert_Steger2 = {
 		portraits={
 			civilian = {
-				small = "GFX_idea_Minister_Not_a_Nazi"
+				large = "gfx/leaders/AUS/Norbert_Steger.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_liberalism_ideology
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+
+	}
+
+		AUS_Jorg_Haider = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/AUS/Jorg_Haider.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_populism
+			traits = { }
+			expire = 2003.3.1
+			id=-1
+		}
+	}
+
+	##########Ministers##############
+	AUS_Kurt_Waldheim = {
+	name = "Kurt Waldheim"
+		portraits={
+			civilian = {
+				small = "GFX_idea_Kurt_Waldheim"
 			}
 		}
 		advisor = {
 			slot = head_of_government
-			idea_token = AUS_Totally_Not_a_Nazi_hog
+			idea_token = AUS_Kurt_Waldheim_hog
 			allowed = { original_tag = AUS }
-			traits = {
-				fascist_orchestrator
+			traits = { }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+
+	}
+	AUS_Stephan_Koren = {
+	name = "Stephan Koren"
+		portraits={
+			civilian = {
+				small = "GFX_idea_Stephan_Koren"
 			}
+		}
+		advisor = {
+			slot = minister_of_economy
+			idea_token = AUS_Stephan_Koren_hoe
+			allowed = { original_tag = AUS }
+			traits = { }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+
+	}
+	AUS_Friedhelm_Frisch = {
+	name = "Friedhelm Frischenschlager"
+		portraits={
+			civilian = {
+				small = "GFX_idea_Friedhelm_Frisch"
+			}
+		}
+		advisor = {
+			slot = minister_of_defense
+			idea_token = AUS_Friedhelm_Frisch_hod
+			allowed = { original_tag = AUS }
+			traits = { }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+
+	}
+	AUS_Otto_Rosch = {
+	name = "Otto Rösch"
+		portraits={
+			civilian = {
+				small = "GFX_idea_Otto_Rosch"
+			}
+		}
+		advisor = {
+			slot = minister_of_internal_affairs
+			idea_token = AUS_Otto_Rosch_hoi
+			allowed = { original_tag = AUS }
+			traits = { }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+
+	}
+	AUS_Willfried_Gredler  = {
+	name = "Willfried Gredler"
+		portraits={
+			civilian = {
+				small = "GFX_idea_Willfried_Gredler"
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign_affairs
+			idea_token = AUS_Willfried_Gredler_hof
+			allowed = { original_tag = AUS }
+			traits = { }
 			ledger = civilian
 			cost = -1
 			removal_cost = -1
