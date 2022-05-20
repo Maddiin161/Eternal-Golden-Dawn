@@ -1,6 +1,6 @@
 state = {
 	id = 758
-	name = "STATE_758"
+	name = "Graz"
 
 	history = {
 		owner = ENG
@@ -94,7 +94,7 @@ state = {
 	}
 
 	provinces = {					
-		653 6687 6691 9646 9648 9650 9679 
+		653 9648 9646 
 	}
 	manpower = 970912
 	buildings_max_level_factor = 1.000
