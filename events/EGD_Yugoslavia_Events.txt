@@ -1,10 +1,10 @@
-add_namespace = yugoslavia
+add_namespace = egd_yugoslavia
 
 ##Event: Starting Situation  
 country_event = {
-	id = yugoslavia.1e
-	title = yugoslavia.1e.t
-	desc = yugoslavia.1e.d
+	id = egd_yugoslavia.1
+	title = egd_yugoslavia.1.t
+	desc = egd_yugoslavia.1.d
 	picture = 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -22,9 +22,9 @@ country_event = {
 
 ##Event: Great Expectations  
 country_event = {
-	id = yugoslavia.2e
-	title = yugoslavia.2e.t
-	desc = yugoslavia.2e.d
+	id = egd_yugoslavia.2
+	title = egd_yugoslavia.2.t
+	desc = egd_yugoslavia.2.d
 	picture = 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -42,9 +42,9 @@ country_event = {
 
 ##Event: Death of Tito
 country_event = {
-	id = yugoslavia.3e
-	title = yugoslavia.3e.t
-	desc = yugoslavia.3e.d
+	id = egd_yugoslavia.3
+	title = egd_yugoslavia.3.t
+	desc = egd_yugoslavia.3.d
 	picture = 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -58,7 +58,7 @@ country_event = {
 	option = {
 		name = "Reast easy, Marshal"
 		YUG = {
-		stability_factor = -0.05	
+		add_stability = -0.05	
         kill_country_leader = yes
 		}
 		create_country_leader = {
@@ -76,9 +76,9 @@ country_event = {
 
 ##Event: Lofty Aspirations  
 country_event = {
-	id = yugoslavia.4e
-	title = yugoslavia.4e.t
-	desc = yugoslavia.4e.d
+	id = egd_yugoslavia.4
+	title = egd_yugoslavia.4.t
+	desc = egd_yugoslavia.4.d
 	picture = 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -96,9 +96,9 @@ country_event = {
 
 ##Event: Reckoning Without the Host  
 country_event = {
-	id = yugoslavia.5e
-	title = yugoslavia.5e.t
-	desc = yugoslavia.5e.d
+	id = egd_yugoslavia.5
+	title = egd_yugoslavia.5.t
+	desc = egd_yugoslavia.5.d
 	picture = 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -116,25 +116,153 @@ country_event = {
 
 ##Event: A critical choice 
 country_event = {
-	id = yugoslavia.6e
-	title = yugoslavia.6e.t
-	desc = yugoslavia.6e.d
+	id = egd_yugoslavia.6
+	title = egd_yugoslavia.6.t
+	desc = egd_yugoslavia.6.d
 	picture = 
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
 	original_tag = YUG
-	date = 1980.6.20
+	date = 1980.6.22
 	}
 	major = yes
 	
 	option = {
 		name = "Not worth it anymore."
+		hidden_effect = {
+		country_event = { id = egd_yugoslavia.7 days = 3 }
 		
+	}
 	}
 	
 	option = {
 		name = "Let's see what we can do..."
-		
+		hidden_effect = {
+		country_event = { id = egd_yugoslavia.8 days = 3 }
+	}
 	}
 }
+
+##Event: Giving Up
+country_event = {
+	id = egd_yugoslavia.7
+	title = egd_yugoslavia.7.t
+	desc = egd_yugoslavia.7.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+		name = "At Last"
+		YUG = 
+		retire_ideology_leader = ultranationalism
+		add_popularity = {
+		ideology = libertarian_socialism
+		popularity = 0.05
+		
+		hidden_effect = {
+		country_event = { id = egd_yugoslavia.9 days = 3 }
+		
+	}
+	}
+	}
+}
+
+##Event: Pushing On
+country_event = {
+	id = egd_yugoslavia.8
+	title = egd_yugoslavia.8.t
+	desc = egd_yugoslavia.8.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+		name = "And kneel they will..."
+		hidden_effect = {
+		country_event = { id = egd_yugoslavia.10 days = 3 }
+		
+	}
+	}
+}
+
+##Event: Right man in the right place
+country_event = {
+	id = egd_yugoslavia.9
+	title = egd_yugoslavia.9.t
+	desc = egd_yugoslavia.9.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+		name = "The people love him"
+		YUG = 
+		retire_country_leader = yes
+		create_country_leader = {
+				name = "Milovan Djilas" 
+				desc = "EGD_DJILAS_BIO"
+				picture = "Milovan_Djilas.dds"
+				expire = "1995.4.20"
+				ideology = democratic_socialism
+				traits = {
+				}
+				}
+				set_party_name = { 
+                ideology = libertarian_socialism 
+                long_name = YUG_libertarian_socialism_party_long_1
+                name = YUG_libertarian_socialism_party_1
+                }
+	
+}
+    option = {
+		name = "The constitution is here for a reason..."
+
+}
+}
+
+##Event: Radio Beograd 1
+country_event = {
+	id = egd_yugoslavia.10
+	title = egd_yugoslavia.10.t
+	desc = egd_yugoslavia.10.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+		name = "Fire at will!"
+		set_politics = {
+			ruling_party = ultranationalism
+		hidden_effect = {
+		country_event = { id = egd_yugoslavia.11 days = 3 }
+		
+	}
+	}
+	}
+	option = {
+		name = "Arrest that Lunatic!"
+		set_politics = {
+	    ruling_party = authoritarian_democracy
+        }
+		 add_popularity = {
+         ideology = authoritarian_democracy
+         popularity = 0.12
+         }
+		 
+		  add_popularity = {
+         ideology = ultranationalism
+         popularity = -0.05
+         }
+		 
+		hidden_effect = {
+		country_event = { id = egd_yugoslavia.12 days = 3 }
+	}
+    }
+}
+

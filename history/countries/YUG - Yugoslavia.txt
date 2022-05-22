@@ -10,12 +10,12 @@ set_popularities = {
 	transhumanism = 0
 	ultranationalism = 5
 	despotism = 0
-	authoritarian_democracy = 0
+	authoritarian_democracy = 1
 	corporate_oligarchy = 0
 	social_conservatism = 0
 	market_liberalism = 0
 	social_liberalism = 0
-	social_democracy = 10
+	social_democracy = 9
 	libertarian_socialism = 85
 	revolutionary_socialism = 0
 }
@@ -53,17 +53,15 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "JNA Military Council" 
-	desc = "EGD_JNA_BIO"
+    create_country_leader = {
+    name = "JNA Military Council" 
+    desc = "EGD_JNA_BIO"
 	picture = "JNA_Military_Council.dds"
 	expire = "2000.1.1"
-	ideology = military_socialism
+    ideology = military_junta
 	traits = {
 		
 	}
 }
-
-
 
 
