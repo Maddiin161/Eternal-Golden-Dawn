@@ -52,7 +52,13 @@ ideas = {
 				removal_cost = -1
 				
 				modifier = {
+					industrial_capacity_factory = -0.15
+					production_speed_industrial_complex_factor = -0.3
+					consumer_goods_factor = 0.04
+					production_factory_efficiency_gain_factor = -0.1
 					stability_factor = -0.05
+					
+					
 					
 
 				}
@@ -71,7 +77,8 @@ ideas = {
 				removal_cost = -1
 				
 				modifier = {
-					consumer_goods_factor = 0.05
+					gdp_growth_modifier = 0.1
+					consumer_goods_factor = 0.01
 					
 				}
 			}
