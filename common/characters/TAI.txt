@@ -1,9 +1,9 @@
 characters = {
 
-	TAI_placeholder = {
+	TAI_Thomas_Liao = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/TAI/placeholder.dds"
+				large = "gfx/leaders/TAI/Thomas_Liao.dds"
 			}
 		}
 		country_leader = {

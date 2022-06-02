@@ -1,9 +1,24 @@
 characters = {
 
-	KPA_Kim_Il-Sung = {
+	#KPA_Kim_Il-Sung = {
+	#	portraits={
+	#		civilian = {
+	#			large = "gfx/leaders/KPA/Kim_Il_Sung.dds"
+	#		}
+	#	}
+	#	country_leader = {
+	#		ideology = juche
+	#		traits = { }
+	#		expire = 2003.3.1
+	#		id=-1
+	#	}
+	#
+	#}
+
+	KPA_Hwang_Jang_Yop = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/KPA/Kim_Il_Sung.dds"
+				large = "gfx/leaders/KPA/Hwang_Jang_Yop.dds"
 			}
 		}
 		country_leader = {

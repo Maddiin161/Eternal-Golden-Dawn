@@ -3,7 +3,7 @@ characters = {
 	UGA_Milton_Obote = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/UGA/Milton_Obote.dds"
+				large = "gfx/leaders/UGA/EGD_Milton_Obote_Uganda.dds"
 			}
 		}
 		country_leader = {

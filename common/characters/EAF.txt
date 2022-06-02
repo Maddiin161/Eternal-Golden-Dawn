@@ -3,7 +3,7 @@ characters = {
 	EAF_Julius_Nyerere = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/EAF/Julius_Nyerere.dds"
+				large = "gfx/leaders/EAF/EGD_Nyerere.dds"
 			}
 		}
 		country_leader = {
