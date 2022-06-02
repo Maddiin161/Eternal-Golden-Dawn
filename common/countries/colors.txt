@@ -1636,3 +1636,7 @@ NWF = {
 	color = rgb { 251 53 4 }
 	color_ui = rgb { 251 53 4 }
 }
+KNO = {
+	color = rgb {255 255 255 }
+	color_ui = rgb {255 255 255 }
+}

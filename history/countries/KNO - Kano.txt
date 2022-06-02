@@ -1,5 +1,5 @@
-﻿#########################################################################
-# Biafra
+#########################################################################
+# Kano
 #########################################################################
 capital = 1402
 #######################
@@ -7,12 +7,12 @@ capital = 1402
 
 
 set_popularities = {
-	annihilationism = 0
+	annihilationism = 0 #postwar
 	transhumanism = 0
-	ultranationalism = 0
-	despotism = 0
+	ultranationalism = 90 #to fundamentalism
+	despotism = 10 #Emir Resistance 
 	autocracy = 0
-	authoritarian_democracy = 90
+	authoritarian_democracy = 0
 	corporate_oligarchy = 0
 	social_conservatism = 10
 	market_liberalism = 0
@@ -23,27 +23,19 @@ set_popularities = {
 }
 
 set_politics = {
-	ruling_party = authoritarian_democracy
+	ruling_party = ultranationalism
 		last_election = "1974.4.17"
 		election_frequency = 48
 		elections_allowed = no
 }
 
 create_country_leader = {
-	name = "C. Odumegwu Ojukwu"
+	name = "Mohammad Marwa"
 	desc = ""
-	picture = "Odumegwu_Ojukwu.dds"
+	picture = "Mohammad_Marwa.dds"
 	expire = "1989.1.1"
-	ideology = military_junta
+	ideology = ultranationalism_ideology
 	traits = {
 		#
 	}
 }
-
-add_ideas = {
-		BFR_national_resistance
-
-		#laws
-		war_economy
-		extensive_conscription
-	}

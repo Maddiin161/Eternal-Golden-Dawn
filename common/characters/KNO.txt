@@ -1,0 +1,19 @@
+characters = {
+
+	KNO_Mohammad_Marwa = {
+		portraits={
+			civilian = {
+				large = "gfx/leaders/KNO/Mohammad_Marwa.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_ideology
+			traits = { }
+			expire = 1989.1.1
+			id=-1
+		}
+
+	}
+
+
+}
