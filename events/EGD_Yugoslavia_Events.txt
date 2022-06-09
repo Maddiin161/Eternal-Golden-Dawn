@@ -157,7 +157,7 @@ country_event = {
 	option = {
 		name = "At Last"
 		YUG = 
-		retire_ideology_leader = ultranationalism
+		retire_ideology_leader = autocracy
 		add_popularity = {
 		ideology = libertarian_socialism
 		popularity = 0.05
@@ -238,7 +238,7 @@ country_event = {
 	option = {
 		name = "Fire at will!"
 		set_politics = {
-			ruling_party = ultranationalism
+			ruling_party = autocracy
 		hidden_effect = {
 		country_event = { id = egd_yugoslavia.11 days = 3 }
 		
@@ -256,7 +256,7 @@ country_event = {
          }
 		 
 		  add_popularity = {
-         ideology = ultranationalism
+         ideology = autocracy
          popularity = -0.05
          }
 		 

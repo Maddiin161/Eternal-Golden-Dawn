@@ -8,7 +8,7 @@ set_politics = {
 }
 set_popularities = {
 	transhumanism = 0
-	ultranationalism = 5
+	ultranationalism = 0
 	despotism = 0
 	authoritarian_democracy = 1
 	corporate_oligarchy = 0
@@ -18,6 +18,7 @@ set_popularities = {
 	social_democracy = 9
 	libertarian_socialism = 85
 	revolutionary_socialism = 0
+	autocracy = 5
 }
 
 set_variable = { EGD_COUNTRY_GDP = 69 } 
@@ -47,7 +48,7 @@ create_country_leader = {
 	desc = "EGD_RANKO_BIO"
 	picture = "Aleksandar_Rankovic.dds"
 	expire = "1981.3.23"
-	ideology = ethnic_nationalism
+	ideology = autocracy_ideology
 	traits = {
 		
 	}
