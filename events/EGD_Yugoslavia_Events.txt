@@ -71,7 +71,7 @@ country_event = {
 				}
 			}			
 		}
-		hidden_effect =  { every_country = { news_event = WorldNews. } }
+		hidden_effect =  { every_country = { news_event = WorldNews.50 } }
 	}
 
 ##Event: Lofty Aspirations  
@@ -266,3 +266,35 @@ country_event = {
     }
 }
 
+##Event: Pain,Despair,Terror
+country_event = {
+	id = egd_yugoslavia.11
+	title = egd_yugoslavia.11.t
+	desc = egd_yugoslavia.11.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+		name = "Madness!"
+		add_stability = -0.1
+		add_manpower = -250
+}
+
+##Event: Radio Beograd 2
+country_event = {
+	id = egd_yugoslavia.12
+	title = egd_yugoslavia.12.t
+	desc = egd_yugoslavia.12.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+		name = "Everything is fine..."
+		add_stability = 0.1
+		war_support_factor = -0.15
+		hidden_effect =  { every_country = { news_event = WorldNews.50 } }
+}

@@ -683,3 +683,45 @@ news_event = {
 		name = WorldNews.49.a
 	}
 }
+
+##Event: Tito Dead
+news_event = {
+	id = WorldNews.50
+	title = WorldNews.50.t
+	desc = WorldNews.50.d
+	picture = GFX_news_event_tito_funeral
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.50.a
+	}
+}
+
+##Event: JNA Coup
+news_event = {
+	id = WorldNews.51
+	title = WorldNews.51.t
+	desc = WorldNews.51.d
+	picture = GFX_news_event_JNA_coup
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.51.a
+	}
+}
+
+##Event: Yugoslav Parliament Bombed
+news_event = {
+	id = WorldNews.52
+	title = WorldNews.52.t
+	desc = WorldNews.52.d
+	picture = GFX_news_event_yugoslav_parliament_bombed
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.52.a
+	}
+}
