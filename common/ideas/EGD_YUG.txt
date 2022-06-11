@@ -82,5 +82,30 @@ ideas = {
 					
 				}
 			}
+
+		YUG_the_quiet_war_idea = {
+				picture = YUG_the_quiet_war
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = -0.2
+					war_support_factor = -0.15
+					political_power_gain = -0.1
+					political_power_gain = -0.25
+					army_speed_factor = -0.2
+					army_morale_factor = -0.1
+					coordination_bonus = -0.1
+					
+				}
+			}			
 		}
 	}

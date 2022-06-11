@@ -422,4 +422,9 @@ spriteTypes = {
 		name = "GFX_idea_YUG_pearl_of_the_adriatic"
 		texturefile = "gfx/interface/ideas/YUG/YUG_pearl_of_the_adriatic.dds"
 	}
+
+SpriteType = { 
+		name = "GFX_idea_YUG_the_quiet_war"
+		texturefile = "gfx/interface/ideas/YUG/YUG_the_quiet_war.dds"
+	}
  }

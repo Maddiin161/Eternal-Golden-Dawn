@@ -281,6 +281,7 @@ country_event = {
 		add_stability = -0.1
 		add_manpower = -250
 }
+}
 
 ##Event: Radio Beograd 2
 country_event = {
@@ -298,3 +299,172 @@ country_event = {
 		war_support_factor = -0.15
 		hidden_effect =  { every_country = { news_event = WorldNews.50 } }
 }
+}
+
+
+##Event: The rose protests
+country_event = {
+	id = egd_yugoslavia.13
+	title = egd_yugoslavia.13.t
+	desc = egd_yugoslavia.13.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+	name = "A rose on every coat, in each hand"	
+	add_stability = 0.05
+}
+}
+
+##Event: 3 cheers for the new republic
+country_event = {
+	id = egd_yugoslavia.14
+	title = egd_yugoslavia.14.t
+	desc = egd_yugoslavia.14.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+	name = "Roffte Kosova!"
+	    add_stability = 0.1
+		war_support_factor = 0.15
+		add_popularity = {
+         ideology = libertarian_socialism
+         popularity = 0.15
+         }
+		
+}
+}
+
+##Event: May he be Damned, the Traitor of his Homeland
+country_event = {
+	id = egd_yugoslavia.15
+	title = egd_yugoslavia.15.t
+	desc = egd_yugoslavia.15.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+	name = "Normal day in Pristina"
+		add_stability = -0.02
+		add_political_power = -150
+		
+}
+}
+
+##Event: Back to normal
+country_event = {
+	id = egd_yugoslavia.16
+	title = egd_yugoslavia.16.t
+	desc = egd_yugoslavia.16.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+	name = "Patience..."
+		add_popularity = {
+         ideology = autocracy
+         popularity = 0.15
+         }
+		add_stability = -0.05
+}
+}
+
+##Event: The Last Straw
+country_event = {
+	id = egd_yugoslavia.17
+	title = egd_yugoslavia.17.t
+	desc = egd_yugoslavia.17.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+	name = "Pure Chaos!"
+		add_stability = -0.25
+		war_support_factor = -0.1
+		add_political_power = -250
+		add_manpower = -350
+		
+}
+}
+
+##Event: The Day after the Storm
+country_event = {
+	id = egd_yugoslavia.18
+	title = egd_yugoslavia.18.t
+	desc = egd_yugoslavia.18.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+	name = "Pure Chaos!"	
+	102 = {
+        set_demilitarized_zone = yes
+		}
+	109 = {
+        set_demilitarized_zone = yes
+		}
+	104 = {
+        set_demilitarized_zone = yes
+		}
+		add_stability = -0.1
+		add_political_power = -25
+		add_manpower = -150
+}
+}
+
+##Event: Ending it all
+country_event = {
+	id = egd_yugoslavia.19
+	title = egd_yugoslavia.19.t
+	desc = egd_yugoslavia.19.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+	name = "Thanks for the report, you are dismissed"
+		add_stability = -0.05
+		kill_country_leader = yes
+		set_politics = {
+		ruling_party = authoritarian_democracy
+		
+}
+}
+}
+
+##Event: The Quiet War
+country_event = {
+	id = egd_yugoslavia.20
+	title = egd_yugoslavia.20.t
+	desc = egd_yugoslavia.20.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+	name = "Brotherhood and Unity?"
+		add_political_power = -25
+		remove_ideas = YUG_head_of_the_non_aligned_world_idea
+		remove_ideas = YUG_pearl_of_the_adriatic_idea
+		remove_ideas = YUG_remembering_maspok_idea
+		add_ideas = YUG_the_quiet_war_idea
+		add_manpower = -1500
+}
+}
+
+
