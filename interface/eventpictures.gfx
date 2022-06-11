@@ -375,6 +375,16 @@ spriteType = {
 		texturefile = "gfx/event_pictures/GFX_news_event_yugoslav_parliament_bombed.dds"
 	}	
 	
+spriteType = {
+		name = "GFX_news_event_collapse_yugoslav_leadership"
+		texturefile = "gfx/event_pictures/GFX_news_event_collapse_yugoslav_leadership.dds"
+	}
+	
+spriteType = {
+		name = "GFX_news_event_kosovo_republic"
+		texturefile = "gfx/event_pictures/GFX_news_event_kosovo_republic.dds"
+	}
+	
 }
 
 

@@ -725,3 +725,31 @@ news_event = {
 		name = WorldNews.52.a
 	}
 }
+
+##Event: Collapse of Yugoslav Leadership
+news_event = {
+	id = WorldNews.53
+	title = WorldNews.53.t
+	desc = WorldNews.53.d
+	picture = GFX_news_event_collapse_yugoslav_leadership
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.53.a
+	}
+}
+
+##Event: Collapse of Yugoslav Leadership
+news_event = {
+	id = WorldNews.54
+	title = WorldNews.54.t
+	desc = WorldNews.54.d
+	picture = GFX_news_event_kosovo_republic
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.54.a
+	}
+}
