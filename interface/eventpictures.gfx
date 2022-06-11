@@ -385,6 +385,12 @@ spriteType = {
 		texturefile = "gfx/event_pictures/GFX_news_event_kosovo_republic.dds"
 	}
 	
+	
+spriteType = {
+		name = "GFX_news_event_yugoslav_constitutional_crisis"
+		texturefile = "gfx/event_pictures/GFX_news_event_yugoslav_constitutional_crisis.dds"
+	}
+	
 }
 
 

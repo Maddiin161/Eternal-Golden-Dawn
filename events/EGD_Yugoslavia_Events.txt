@@ -184,7 +184,7 @@ country_event = {
 		name = "And kneel they will..."
 		hidden_effect = {
 		country_event = { id = egd_yugoslavia.10 days = 3 }
-		
+		hidden_effect =  { every_country = { news_event = WorldNews.55 } }
 	}
 	}
 }
@@ -241,7 +241,7 @@ country_event = {
 			ruling_party = autocracy
 		hidden_effect = {
 		country_event = { id = egd_yugoslavia.11 days = 3 }
-		
+		hidden_effect = { every_country = { news_event = WorldNews.52 } }
 	}
 	}
 	}
@@ -297,7 +297,8 @@ country_event = {
 		name = "Everything is fine..."
 		add_stability = 0.1
 		war_support_factor = -0.15
-		hidden_effect =  { every_country = { news_event = WorldNews.50 } }
+		hidden_effect =  { every_country = { news_event = WorldNews.51 } }
+
 }
 }
 
@@ -336,6 +337,7 @@ country_event = {
          ideology = libertarian_socialism
          popularity = 0.15
          }
+		hidden_effect =  { every_country = { news_event = WorldNews.54 } }
 		
 }
 }
@@ -441,7 +443,7 @@ country_event = {
 		kill_country_leader = yes
 		set_politics = {
 		ruling_party = authoritarian_democracy
-		
+		hidden_effect =  { every_country = { news_event = WorldNews.53 } }
 }
 }
 }
