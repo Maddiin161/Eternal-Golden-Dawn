@@ -161,7 +161,7 @@ country_event = {
 		add_popularity = {
 		ideology = libertarian_socialism
 		popularity = 0.05
-		
+		add_stability = 0.05
 		hidden_effect = {
 		country_event = { id = egd_yugoslavia.9 days = 3 }
 		
@@ -217,11 +217,12 @@ country_event = {
                 long_name = YUG_libertarian_socialism_party_long_1
                 name = YUG_libertarian_socialism_party_1
                 }
+				hidden_effect =  { set_country_flag = djilas} 
 	
 }
     option = {
 		name = "The constitution is here for a reason..."
-
+	    hidden_effect =  { set_country_flag = otl} 
 }
 }
 
@@ -311,6 +312,11 @@ country_event = {
 	picture = 
 	is_triggered_only = yes
 	fire_only_once = yes
+	trigger = {
+	original_tag = YUG
+    has_country_flag = otl
+	date = 1981.3.11
+	}
 	major = yes
 	
 	option = {
@@ -327,6 +333,11 @@ country_event = {
 	picture = 
 	is_triggered_only = yes
 	fire_only_once = yes
+	trigger = {
+	original_tag = YUG
+    has_country_flag = djilas
+	date = 1981.3.11
+	}
 	major = yes
 	
 	option = {
@@ -350,6 +361,11 @@ country_event = {
 	picture = 
 	is_triggered_only = yes
 	fire_only_once = yes
+	trigger = {
+	original_tag = YUG
+    has_government = authoritarian_democracy
+	date = 1981.3.11
+	}
 	major = yes
 	
 	option = {
@@ -388,6 +404,11 @@ country_event = {
 	picture = 
 	is_triggered_only = yes
 	fire_only_once = yes
+	trigger = {
+	original_tag = YUG
+    has_government = autocracy
+	date = 1981.3.11
+	}
 	major = yes
 	
 	option = {
@@ -466,7 +487,117 @@ country_event = {
 		remove_ideas = YUG_remembering_maspok_idea
 		add_ideas = YUG_the_quiet_war_idea
 		add_manpower = -1500
+		hidden_effect =  { set_country_flag = quiet_war} }
 }
+
+##Event: QW1
+country_event = {
+	id = egd_yugoslavia.21
+	title = egd_yugoslavia.21.t
+	desc = egd_yugoslavia.21.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = no
+	random = yes
+	trigger = {
+	original_tag = YUG
+    has_country_flag = quiet_war
+	}
+	major = yes
+	
+	option = {
+	name = "Do something!"
+	add_command_power = -0.5
+	add_resistance = 20	
+	set_garrison_strength = -0.1
+}
+}
+
+##Event: QW2
+country_event = {
+	id = egd_yugoslavia.22
+	title = egd_yugoslavia.22.t
+	desc = egd_yugoslavia.22.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = no
+	random = yes
+	trigger = {
+	original_tag = YUG
+    has_country_flag = quiet_war
+	}
+	major = yes
+	
+	option = {
+	name = "The flames leapt up to lick the clouds"
+	add_manpower = -200
+	add_resistance = 15 
+}
+}
+
+##Event: QW3
+country_event = {
+	id = egd_yugoslavia.23
+	title = egd_yugoslavia.23.t
+	desc = egd_yugoslavia.23.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = no
+	random = yes
+	trigger = {
+	original_tag = YUG
+    has_country_flag = quiet_war
+	}
+	major = yes
+	
+	option = {
+	name = "Smell of Gunpowder"
+	add_manpower = -32
+	add_resistance = 10
+}
+}
+
+##Event: QW4
+country_event = {
+	id = egd_yugoslavia.24
+	title = egd_yugoslavia.24.t
+	desc = egd_yugoslavia.24.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = no
+	random = yes
+	trigger = {
+	original_tag = YUG
+    has_country_flag = quiet_war
+	}
+	major = yes
+	
+	option = {
+	name = "We belong to Allah, and to Him shall we return"
+	add_manpower = -12
+	add_resistance = 5
+}
+}
+
+##Event: QW5
+country_event = {
+	id = egd_yugoslavia.25
+	title = egd_yugoslavia.25.t
+	desc = egd_yugoslavia.25.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = no
+	random = yes
+	trigger = {
+	original_tag = YUG
+    has_country_flag = quiet_war
+	}
+	major = yes
+	
+	option = {
+	name = "May their souls rest in peace..."
+	add_manpower = -12
+	add_resistance = 5	
 }
 
 

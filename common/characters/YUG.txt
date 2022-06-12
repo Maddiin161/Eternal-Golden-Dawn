@@ -16,4 +16,93 @@ characters = {
 	}
 
 
+	YUG_Josip_Vrhovec = {
+		name = "Josip Vrhovec"
+		portraits={
+			civilian = {
+				small = "GFX_idea_Minister_Josip_Vrhovec"
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign_affairs
+			idea_token = YUG_Josip_Vrhovec_hog
+			allowed = { original_tag = YUG }
+			traits = {
+			
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+
+	}	
+	
+	YUG_Stane_Dolanc = {
+		name = "Stane Dolanc"
+		portraits={
+			civilian = {
+				small = "GFX_idea_Minister_Stane_Dolanc"
+			}
+		}
+		advisor = {
+			slot = minister_of_internal_affairs
+			idea_token = YUG_Stane_Dolanc_hog
+			allowed = { original_tag = YUG }
+			traits = {
+			
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+
+	}
+	
+	YUG_Nikola_Ljubicic = {
+		name = "Nikola Ljubicic"
+		portraits={
+			civilian = {
+				small = "GFX_idea_Minister_Nikola_Ljubicic"
+			}
+		}
+		advisor = {
+			slot = minister_of_defense
+			idea_token = YUG_Nikola_Ljubicic_hog
+			allowed = { original_tag = YUG }
+			traits = {
+			
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+
+	}
+	
+	YUG_Radoje_Kontic = {
+		name = "Radoje Kontic"
+		portraits={
+			civilian = {
+				small = "GFX_idea_Minister_Radoje_Kontic"
+			}
+		}
+		advisor = {
+			slot = minister_of_economy
+			idea_token = YUG_Radoje_Kontic_hog
+			allowed = { original_tag = YUG }
+			traits = {
+			
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+
+	}
+	
+
 }

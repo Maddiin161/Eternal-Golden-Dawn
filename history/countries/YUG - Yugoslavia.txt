@@ -26,11 +26,24 @@ starting_econ_modifier_vars = yes
 EGD_startup_calc = yes
 EGD_startup = yes
 
+recruit_character = YUG_Josip_Vrhovec
+
 add_ideas = {
 	YUG_head_of_the_non_aligned_world_idea
 	YUG_remembering_maspok_idea
 	YUG_errors_of_market_socialism_idea
 	YUG_pearl_of_the_adriatic_idea
+	moderate_corruption
+	fully_industrialized_nation
+	limited_conscription
+	monitored_press
+	secular_state
+	
+	#Ministers#
+	YUG_Josip_Vrhovec_hog
+	YUG_Josip_Vrhovec_hog
+	YUG_Josip_Vrhovec_hog
+	YUG_Josip_Vrhovec_hog
 }
 	
 create_country_leader = {
