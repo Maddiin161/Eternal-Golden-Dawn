@@ -17,7 +17,7 @@ characters = {
 
 
 	YUG_Josip_Vrhovec = {
-		name = "Josip Vrhovec"
+		name = "EGD_VRHOVEC_NAME"
 		portraits={
 			civilian = {
 				small = "GFX_idea_Minister_Josip_Vrhovec"
@@ -25,12 +25,13 @@ characters = {
 		}
 		advisor = {
 			slot = minister_of_foreign_affairs
-			idea_token = YUG_Josip_Vrhovec_hog
+			idea_token = YUG_Josip_Vrhovec_moe
 			allowed = { original_tag = YUG }
 			traits = {
-			
+			Western_Oriented_Economist
 			}
 			ledger = civilian
+			desc = 	EGD_VRHOVEC_BIO
 			cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
@@ -47,10 +48,10 @@ characters = {
 		}
 		advisor = {
 			slot = minister_of_internal_affairs
-			idea_token = YUG_Stane_Dolanc_hog
+			idea_token = YUG_Stane_Dolanc_moi
 			allowed = { original_tag = YUG }
 			traits = {
-			
+			Corrupt_Absolutist
 			}
 			ledger = civilian
 			cost = -1
@@ -69,10 +70,10 @@ characters = {
 		}
 		advisor = {
 			slot = minister_of_defense
-			idea_token = YUG_Nikola_Ljubicic_hog
+			idea_token = YUG_Nikola_Ljubicic_mod
 			allowed = { original_tag = YUG }
 			traits = {
-			
+			Total_National_Defense_Advocate
 			}
 			ledger = civilian
 			cost = -1
@@ -91,10 +92,10 @@ characters = {
 		}
 		advisor = {
 			slot = minister_of_economy
-			idea_token = YUG_Radoje_Kontic_hog
+			idea_token = YUG_Radoje_Kontic_mec
 			allowed = { original_tag = YUG }
 			traits = {
-			
+			Technocratically_Inclined_Socialist
 			}
 			ledger = civilian
 			cost = -1

@@ -40,10 +40,10 @@ add_ideas = {
 	secular_state
 	
 	#Ministers#
-	YUG_Josip_Vrhovec_hog
-	YUG_Josip_Vrhovec_hog
-	YUG_Josip_Vrhovec_hog
-	YUG_Josip_Vrhovec_hog
+	YUG_Josip_Vrhovec_moe
+	YUG_Stane_Dolanc_moi
+	YUG_Radoje_Kontic_mec
+	YUG_Nikola_Ljubicic_mod
 }
 	
 create_country_leader = {

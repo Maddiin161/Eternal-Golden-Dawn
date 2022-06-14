@@ -1,0 +1,44 @@
+leader_traits = {
+	
+	###Yugoslavia###
+
+#Western-Oriented Economist
+Western_Oriented_Economist = {
+		trade_opinion_factor = 0.05
+		political_power_gain = -0.075
+		production_speed_industrial_complex_factor = 0.25
+		social_liberalism_acceptance = 50
+		market_liberalism_acceptance = 50
+		random = no
+	}
+
+#Total National Defense Advocate
+Total_National_Defense_Advocate = {
+	    army_core_defence_factor = 0.15
+		army_attack_factor = 0.1
+		dig_in_speed_factor = 0.5
+		max_dig_in_factor = 0.5
+		recon_factor_while_entrenched = 0.5
+		random = no
+	}
+
+#Technocratically Inclined Socialist
+Technocratically_Inclined_Socialist = {
+	    drift_defence_factor = 0.1	
+		consumer_goods_factor = -0.02
+		research_speed_factor = 0.5
+		random = no
+	}
+	
+#Corrupt Absolutist
+Corrupt_Absolutist = {
+	    stability_factor = -0.03	 						
+		drift_defence_factor = -0.06							
+		industrial_capacity_factory = -0.6				
+		encryption = -1 								
+		political_power_gain = 0.15
+		intelligence_agency_defense = -0.15
+		random = no
+	}
+	
+}
