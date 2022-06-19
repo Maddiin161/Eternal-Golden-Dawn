@@ -1,0 +1,58 @@
+ideas = {	
+		country = {
+
+		KUW_the_golden_age_idea = {
+				picture = KUW_the_golden_age
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					
+				}
+			}
+		KUW_Boursa_Kuwait_and_Souk_al-Manakh_idea = {
+				picture = KUW_Boursa_Kuwait_and_Souk_al-Manakh
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+
+				}
+			}
+		KUW_bald_eagle_far_from_home_idea = {
+				picture = KUW_bald_eagle_far_from_home
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+				
+				}
+			}
+	
+	}
+	
+}

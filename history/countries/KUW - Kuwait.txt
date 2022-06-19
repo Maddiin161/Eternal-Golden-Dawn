@@ -25,6 +25,12 @@ set_popularities = {
 	libertarian_socialism = 0
 	revolutionary_socialism = 0
 }
+
+add_ideas = {
+KUW_the_golden_age_idea
+KUW_Boursa_Kuwait_and_Souk_al-Manakh_idea
+KUW_bald_eagle_far_from_home_idea
+}
 create_country_leader = {
 	name = "Jaber Al-Ahmad Al-Sabah" 
 	desc = ""

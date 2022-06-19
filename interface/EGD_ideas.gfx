@@ -403,6 +403,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/PRC/PRC_large_protests.dds"
 	}
 	
+	####YUG####
+	
 	SpriteType = { 
 		name = "GFX_idea_YUG_head_of_the_non_aligned_world"
 		texturefile = "gfx/interface/ideas/YUG/YUG_head_of_the_non_aligned_world.dds"
@@ -426,5 +428,22 @@ spriteTypes = {
 SpriteType = { 
 		name = "GFX_idea_YUG_the_quiet_war"
 		texturefile = "gfx/interface/ideas/YUG/YUG_the_quiet_war.dds"
+	}
+	
+	####KUW####
+	
+SpriteType = { 
+		name = "GFX_idea_KUW_the_golden_age"
+		texturefile = "gfx/interface/ideas/KUW/KUW_the_golden_age.dds"
+	}
+	
+SpriteType = { 
+		name = "GFX_idea_KUW_Boursa_Kuwait_and_Souk_al-Manakh"
+		texturefile = "gfx/interface/ideas/KUW/KUW_Boursa_Kuwait_and_Souk_al-Manakh.dds"
+	}
+	
+SpriteType = { 
+		name = "GFX_idea_KUW_bald_eagle_far_from_home"
+		texturefile = "gfx/interface/ideas/KUW/KUW_bald_eagle_far_from_home.dds"
 	}
  }
