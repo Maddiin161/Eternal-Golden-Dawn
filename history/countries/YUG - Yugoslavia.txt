@@ -27,6 +27,7 @@ EGD_startup_calc = yes
 EGD_startup = yes
 
 recruit_character = YUG_Josip_Vrhovec
+recruit_character =	YUG_Nikola_Ljubicic
 
 add_ideas = {
 	YUG_head_of_the_non_aligned_world_idea

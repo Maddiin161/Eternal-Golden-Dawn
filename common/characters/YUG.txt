@@ -62,7 +62,7 @@ characters = {
 	}
 	
 	YUG_Nikola_Ljubicic = {
-		name = "Nikola Ljubicic"
+		name = "EGD_LJUBICIC_NAME"
 		portraits={
 			civilian = {
 				small = "GFX_idea_Minister_Nikola_Ljubicic"
@@ -76,6 +76,7 @@ characters = {
 			Total_National_Defense_Advocate
 			}
 			ledger = civilian
+			desc = 	EGD_LJUBICIC_BIO
 			cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
