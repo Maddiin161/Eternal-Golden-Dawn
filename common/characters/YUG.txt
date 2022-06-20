@@ -40,7 +40,7 @@ characters = {
 	}	
 	
 	YUG_Stane_Dolanc = {
-		name = "Stane Dolanc"
+		name = "EGD_DOLANC_NAME"
 		portraits={
 			civilian = {
 				small = "GFX_idea_Minister_Stane_Dolanc"
@@ -54,6 +54,7 @@ characters = {
 			Corrupt_Absolutist
 			}
 			ledger = civilian
+			desc = EGD_DOLANC_BIO
 			cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
@@ -99,6 +100,30 @@ characters = {
 			Technocratically_Inclined_Socialist
 			}
 			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+
+	}
+	
+	
+	YUG_Vaselin_Djuranovic = {
+		name = "EGD_DJURANOVIC_NAME"
+		portraits={
+			civilian = {
+				small = "GFX_idea_Minister_Vaselin_Djuranovic"
+			}
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = YUG_Vaselin_Djuranovic_hog
+			allowed = { original_tag = YUG }
+			traits = {
+			Pragmatic_Socialist
+			}
+			ledger = civilian
+			desc = EGD_DJURANOVIC_BIO
 			cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }

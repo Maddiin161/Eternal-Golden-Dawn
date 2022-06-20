@@ -28,4 +28,9 @@ spriteTypes = {
 		name = "GFX_idea_Minister_Nikola_Ljubicic"
 		texturefile = "gfx/interface/Ministers/YUG/Minister_Nikola_Ljubicic.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_idea_Minister_Vaselin_Djuranovic"
+		texturefile = "gfx/interface/Ministers/YUG/Minister_Veselin_Djuranovic.dds"
+	}
 }

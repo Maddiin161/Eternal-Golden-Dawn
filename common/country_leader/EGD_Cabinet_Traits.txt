@@ -41,4 +41,11 @@ Corrupt_Absolutist = {
 		random = no
 	}
 	
+#Pragmatic Socialist
+Pragmatic_Socialist = {
+	    stability_factor = 0.02	 																						
+		political_power_gain = 0.15
+		random = no
+	}
+	
 }

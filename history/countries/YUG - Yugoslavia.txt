@@ -28,6 +28,8 @@ EGD_startup = yes
 
 recruit_character = YUG_Josip_Vrhovec
 recruit_character =	YUG_Nikola_Ljubicic
+recruit_character =	YUG_Stane_Dolanc
+recruit_character =	YUG_Vaselin_Djuranovic
 
 add_ideas = {
 	YUG_head_of_the_non_aligned_world_idea
@@ -45,6 +47,7 @@ add_ideas = {
 	YUG_Stane_Dolanc_moi
 	YUG_Radoje_Kontic_mec
 	YUG_Nikola_Ljubicic_mod
+	YUG_Vaselin_Djuranovic_hog
 }
 	
 create_country_leader = {
