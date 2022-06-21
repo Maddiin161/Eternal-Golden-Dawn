@@ -1,5 +1,9 @@
 #reload countrycolors
 #NEW COUNTRY COLOURS
+HSP = {
+	color = rgb {0 0 24}
+	color_ui = rgb {0 0 24}
+}
 WAL = {
 	color = rgb { 230 230 0 }
 	color_ui = rgb { 230 230 0 }
@@ -1640,3 +1644,5 @@ KNO = {
 	color = rgb {255 255 255 }
 	color_ui = rgb {255 255 255 }
 }
+
+
