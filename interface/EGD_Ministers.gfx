@@ -21,7 +21,7 @@ spriteTypes = {
 	
 	SpriteType = { 
 		name = "GFX_idea_Minister_Radoje_Kontic"
-		texturefile = "gfx/interface/Ministers/YUG/Minister_Radoje_Kontic.dds"
+		texturefile = "gfx/interface/Ministers/YUG/Μinister_Radoje_Kontic.dds"
 	}
 	
 	SpriteType = { 

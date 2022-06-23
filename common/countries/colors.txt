@@ -4,6 +4,10 @@ HSP = {
 	color = rgb {0 0 24}
 	color_ui = rgb {0 0 24}
 }
+SJP = {
+	color = rgb {94 70 45}
+	color_ui = rgb {94 70 45}
+}
 WAL = {
 	color = rgb { 230 230 0 }
 	color_ui = rgb { 230 230 0 }

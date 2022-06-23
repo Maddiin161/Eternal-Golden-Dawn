@@ -86,7 +86,7 @@ characters = {
 	}
 	
 	YUG_Radoje_Kontic = {
-		name = "Radoje Kontic"
+		name = "EGD_KONTIC_NAME"
 		portraits={
 			civilian = {
 				small = "GFX_idea_Minister_Radoje_Kontic"
@@ -100,6 +100,7 @@ characters = {
 			Technocratically_Inclined_Socialist
 			}
 			ledger = civilian
+			desc = EGD_KONTIC_BIO
 			cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }

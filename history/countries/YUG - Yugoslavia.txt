@@ -30,6 +30,7 @@ recruit_character = YUG_Josip_Vrhovec
 recruit_character =	YUG_Nikola_Ljubicic
 recruit_character =	YUG_Stane_Dolanc
 recruit_character =	YUG_Vaselin_Djuranovic
+recruit_character =	YUG_Radoje_Kontic
 
 add_ideas = {
 	YUG_head_of_the_non_aligned_world_idea
