@@ -6,43 +6,7 @@ spriteTypes = {
 		name = "GFX_idea_Minister_Not_a_Nazi"
 		texturefile = "gfx/interface/Ministers/AUS/Minister_Not_a_Nazi.dds"
 	}
-    ####AUS####
-	SpriteType = { 
-		name = "GFX_idea_Minister_Willfried_Gredler"
-		texturefile = "gfx/interface/Ministers/AUS/Minister_Wilfried_Gredler.dds"
-	}
-
-	SpriteType = { 
-		name = "GFX_idea_Minister_Stephan_Koren"
-		texturefile = "gfx/interface/Ministers/AUS/Minister_Stephan_Koren.dds"
-	}
-
-	SpriteType = { 
-		name = "GFX_idea_Minister_Otto_Rosch"
-		texturefile = "gfx/interface/Ministers/AUS/Minister_Otto_Rosch.dds"
-	}
-
-	SpriteType = { 
-		name = "GFX_idea_Minister_Otto_Rosch_large"
-		texturefile = "gfx/interface/Ministers/AUS/Minister_Otto_Rosch_large.dds"
-		legacy_lazy_load = no
-	}
-
-	SpriteType = { 
-		name = "GFX_idea_Minister_Friedhelm_Frisch"
-		texturefile = "gfx/interface/Ministers/AUS/Minister_Friedhelm_Frisch.dds"
 	
-	SpriteType = { 
-		name = "GFX_idea_Minister_Kurt_Waldheim"
-		texturefile = "gfx/interface/Ministers/AUS/Minister_Kurt_Waldheim.dds"
-	}
-
-	SpriteType = { 
-		name = "GFX_idea_Minister_Kurt_Waldheim_large"
-		texturefile = "gfx/interface/Ministers/AUS/Minister_Kurt_Waldheim_large.dds"
-		legacy_lazy_load = no
-	}
-
 	####YUG####
 	
 	SpriteType = { 
@@ -51,8 +15,20 @@ spriteTypes = {
 	}
 	
 	SpriteType = { 
+		name = "GFX_idea_Minister_Josip_Vrhovec_large"
+		texturefile = "gfx/interface/Ministers/YUG/Minister_Josip_Vrhovec_large.dds"
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
 		name = "GFX_idea_Minister_Stane_Dolanc"
 		texturefile = "gfx/interface/Ministers/YUG/Minister_Stane_Dolanc.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_idea_Minister_Stane_Dolanc_large"
+		texturefile = "gfx/interface/Ministers/YUG/Minister_Stane_Dolanc_large.dds"
+		legacy_lazy_load = no
 	}
 	
 	SpriteType = { 
@@ -61,12 +37,30 @@ spriteTypes = {
 	}
 	
 	SpriteType = { 
+		name = "GFX_idea_Μinister_Radoje_Kontic_large"
+		texturefile = "gfx/interface/Ministers/YUG/Μinister_Radoje_Kontic_large.dds"
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
 		name = "GFX_idea_Minister_Nikola_Ljubicic"
 		texturefile = "gfx/interface/Ministers/YUG/Minister_Nikola_Ljubicic.dds"
 	}
 	
 	SpriteType = { 
+		name = "GFX_idea_Minister_Nikola_Ljubicic_large"
+		texturefile = "gfx/interface/Ministers/YUG/Minister_Nikola_Ljubicic_large.dds"
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
 		name = "GFX_idea_Minister_Vaselin_Djuranovic"
 		texturefile = "gfx/interface/Ministers/YUG/Minister_Veselin_Djuranovic.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_idea_Minister_Veselin_Djuranovic_large"
+		texturefile = "gfx/interface/Ministers/YUG/Minister_Veselin_Djuranovic_large.dds"
+		legacy_lazy_load = no
 	}
 }
