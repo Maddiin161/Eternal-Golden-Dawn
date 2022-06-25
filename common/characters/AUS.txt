@@ -78,7 +78,7 @@ characters = {
 	name = "Kurt Waldheim"
 		portraits={
 			civilian = {
-				small = "GFX_idea_Kurt_Waldheim"
+				small = "GFX_idea_Minister_Kurt_Waldheim"
 			}
 		}
 		advisor = {
@@ -86,6 +86,7 @@ characters = {
 			idea_token = AUS_Kurt_Waldheim_hog
 			allowed = { original_tag = AUS }
 			traits = { }
+			desc = 	AUS_Kurt_Waldheim_minister_desc
 			ledger = civilian
 			cost = -1
 			removal_cost = -1
@@ -97,7 +98,7 @@ characters = {
 	name = "Stephan Koren"
 		portraits={
 			civilian = {
-				small = "GFX_idea_Stephan_Koren"
+				small = "GFX_idea_Minister_Stephan_Koren"
 			}
 		}
 		advisor = {
@@ -116,7 +117,7 @@ characters = {
 	name = "Friedhelm Frischenschlager"
 		portraits={
 			civilian = {
-				small = "GFX_idea_Friedhelm_Frisch"
+				small = "GFX_idea_Minister_Friedhelm_Frisch"
 			}
 		}
 		advisor = {
@@ -135,7 +136,7 @@ characters = {
 	name = "Otto Rösch"
 		portraits={
 			civilian = {
-				small = "GFX_idea_Otto_Rosch"
+				small = "GFX_idea_Minister_Otto_Rosch"
 			}
 		}
 		advisor = {
@@ -144,6 +145,7 @@ characters = {
 			allowed = { original_tag = AUS }
 			traits = { }
 			ledger = civilian
+			desc = 	AUS_Otto_Rosch_minister_desc
 			cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
@@ -154,7 +156,7 @@ characters = {
 	name = "Willfried Gredler"
 		portraits={
 			civilian = {
-				small = "GFX_idea_Willfried_Gredler"
+				small = "GFX_idea_Minister_Willfried_Gredler"
 			}
 		}
 		advisor = {
