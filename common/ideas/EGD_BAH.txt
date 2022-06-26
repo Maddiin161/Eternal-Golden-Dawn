@@ -1,0 +1,56 @@
+ideas = {	
+	country = {
+
+	BAH_islamic_front_for_liberation_bahrain_idea = {
+			#picture = BAH_islamic_front_for_liberation_bahrain_idea
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+				
+			modifier = {
+					
+			}
+		}
+	BAH_popular_front_for_liberation_bahrain_idea = {
+			#picture = BAH_popular_front_for_liberation_bahrain_idea
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+				
+			modifier = {
+
+			}
+		}
+	BAH_tale_two_cities_idea = {
+			#picture = BAH_tale_two_cities_idea
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+				
+			modifier = {
+				
+			}
+		}
+	}
+}

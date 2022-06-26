@@ -1,0 +1,74 @@
+ideas = {	
+	country = {
+
+	SAU_desert_shocked_idea = {
+			#picture = SAU_desert_shocked_idea
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+				
+			modifier = {
+					
+			}
+		}
+	SAU_righteous_roar_idea = {
+			#picture = SAU_righteous_roar_idea
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+				
+			modifier = {
+
+			}
+		}
+	SAU_custodian_of_two_mosques_idea = {
+			#picture = SAU_custodian_of_two_mosques_idea
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+				
+			modifier = {
+				
+			}
+		}
+	}
+	SAU_and_keeps_flowing_idea = {
+			#picture = SAU_and_keeps_flowing_idea
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+				
+			modifier = {
+				
+			}
+		}	
+	}	
+}

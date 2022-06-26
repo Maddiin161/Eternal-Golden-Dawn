@@ -27,3 +27,9 @@ create_country_leader = {
 	ideology = social_liberalism_ideology
 	traits = {}
 }
+
+add_ideas = {
+	BAH_islamic_front_for_liberation_bahrain_idea
+	BAH_popular_front_for_liberation_bahrain_idea
+	BAH_tale_two_cities_idea
+}

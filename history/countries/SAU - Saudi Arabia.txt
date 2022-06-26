@@ -52,3 +52,10 @@ create_country_leader = {
 	ideology = khomeinism
 	traits = {}
 }
+
+add_ideas = {
+	SAU_desert_shocked_idea
+	SAU_righteous_roar_idea
+	SAU_custodian_of_two_mosques_idea
+	SAU_and_keeps_flowing_idea
+}
