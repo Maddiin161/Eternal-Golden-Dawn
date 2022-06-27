@@ -1,0 +1,302 @@
+
+shared_focus = {
+	id = SYR_lion_of_syria_roars_for_eternity
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 7
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_lion_of_syria_roars_for_eternity"
+	}
+}
+
+shared_focus = {
+	id = SYR_with_assad_we_wake_up_to_a_new_decade
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 0
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_with_assad_we_wake_up_to_a_new_decade"
+	}
+	relative_position_id = SYR_lion_of_syria_roars_for_eternity
+	prerequisite = { focus = SYR_lion_of_syria_roars_for_eternity }
+}
+
+shared_focus = {
+	id = SYR_fruits_of_70s_who_can_forget_the_taste
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -1.5
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_fruits_of_70s_who_can_forget_the_taste"
+	}
+	relative_position_id = SYR_with_assad_we_wake_up_to_a_new_decade
+	prerequisite = { focus = SYR_with_assad_we_wake_up_to_a_new_decade }
+}
+
+shared_focus = {
+	id = SYR_rough_start_trust_the_torch_of_baath
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1.5
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_rough_start_trust_the_torch_of_baath"
+	}
+	relative_position_id = SYR_with_assad_we_wake_up_to_a_new_decade
+	prerequisite = { focus = SYR_with_assad_we_wake_up_to_a_new_decade }
+}
+
+shared_focus = {
+	id = SYR_we_will_not_bow_to_extremism
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1.5
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_we_will_not_bow_to_extremism"
+	}
+	relative_position_id = SYR_fruits_of_70s_who_can_forget_the_taste
+	prerequisite = { focus = SYR_fruits_of_70s_who_can_forget_the_taste }
+	prerequisite = { focus = SYR_rough_start_trust_the_torch_of_baath }
+}
+
+shared_focus = {
+	id = SYR_fulfilling_the_promise
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 0
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_fulfilling_the_promise"
+		load_focus_tree = { tree = SYR_god_is_with_you_syria keep_completed = yes }
+	}
+	relative_position_id = SYR_we_will_not_bow_to_extremism
+	prerequisite = { focus = SYR_we_will_not_bow_to_extremism }
+}
+
+shared_focus = {
+	id = SYR_god_is_with_you_syria
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 7
+	y = 8
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_god_is_with_you_syria"
+	}
+}
+
+shared_focus = {
+	id = SYR_aqyol_district
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 0
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_aqyol_district"
+	}
+	relative_position_id = SYR_god_is_with_you_syria
+	prerequisite = { focus = SYR_god_is_with_you_syria }
+}
+
+shared_focus = {
+	id = SYR_masharqah_district
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -5
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_masharqah_district"
+	}
+	relative_position_id = SYR_god_is_with_you_syria
+	prerequisite = { focus = SYR_god_is_with_you_syria }
+}
+
+shared_focus = {
+	id = SYR_bustan_alqaser_district
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 5
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_bustan_alqaser_district"
+	}
+	relative_position_id = SYR_god_is_with_you_syria
+	prerequisite = { focus = SYR_god_is_with_you_syria }
+}
+
+shared_focus = {
+	id = SYR_saraya_addifa
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 2
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_sary_addif"
+	}
+	relative_position_id = SYR_masharqah_district
+	prerequisite = { focus = SYR_masharqah_district }
+}
+
+shared_focus = {
+	id = SYR_special_problems_special_solutions
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -2
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_special_problems_special_solutions"
+	}
+	relative_position_id = SYR_masharqah_district
+	prerequisite = { focus = SYR_masharqah_district }
+}
+
+shared_focus = {
+	id = SYR_importance_of_the_local_peacekeeping_militias
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 0
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_importance_of_the_local_peacekeeping_militias"
+	}
+	relative_position_id = SYR_saraya_addifa
+	prerequisite = { focus = SYR_saraya_addifa }
+}
+
+shared_focus = {
+	id = SYR_watch_hananu
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -2
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_watch_hananu"
+	}
+	relative_position_id = SYR_importance_of_the_local_peacekeeping_militias
+	prerequisite = { focus = SYR_importance_of_the_local_peacekeeping_militias }
+	prerequisite = { focus = SYR_eyes_on_all_thoughts }
+}
+
+shared_focus = {
+	id = SYR_eyes_on_all_thoughts
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 0
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_eyes_on_all_thoughts"
+	}
+	relative_position_id = SYR_special_problems_special_solutions
+	prerequisite = { focus = SYR_special_problems_special_solutions }
+}
+
+shared_focus = {
+	id = SYR_third_armored_division
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -2
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_third_armored_division"
+	}
+	relative_position_id = SYR_bustan_alqaser_district
+	prerequisite = { focus = SYR_bustan_alqaser_district }
+}
+
+shared_focus = {
+	id = SYR_streets_are_the_veins
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 2
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_streets_are_the_veins"
+	}
+	relative_position_id = SYR_bustan_alqaser_district
+	prerequisite = { focus = SYR_bustan_alqaser_district }
+}
+
+shared_focus = {
+	id = SYR_maim_the_extremism
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 0
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_maim_the_extremism"
+	}
+	relative_position_id = SYR_streets_are_the_veins
+	prerequisite = { focus = SYR_streets_are_the_veins }
+}
+
+shared_focus = {
+	id = SYR_trials_with_syrian_spice
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 0
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_trials_with_syrian_spice"
+	}
+	relative_position_id = SYR_third_armored_division
+	prerequisite = { focus = SYR_third_armored_division }
+}
+
+shared_focus = {
+	id = SYR_speak_their_own_language
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -2
+	y = 1.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_speak_their_own_language"
+	}
+	relative_position_id = SYR_maim_the_extremism
+	prerequisite = { focus = SYR_maim_the_extremism }
+	prerequisite = { focus = SYR_trials_with_syrian_spice }
+}
+
+shared_focus = {
+	id = SYR_the_citadel
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_the_citadel"
+	}
+	relative_position_id = SYR_aqyol_district
+	prerequisite = { focus = SYR_aqyol_district }
+}
+
+shared_focus = {
+	id = SYR_send_them_to_tadmor
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 0
+	y = 2.5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_send_them_to_tadmor"
+	}
+	relative_position_id = SYR_the_citadel
+	prerequisite = { focus = SYR_the_citadel }
+}
+
+shared_focus = {
+	id = SYR_all_is_necessary
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 5
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SYR_all_is_necessary"
+	}
+	relative_position_id = SYR_watch_hananu
+	prerequisite = { focus = SYR_watch_hananu }
+	prerequisite = { focus = SYR_speak_their_own_language }
+	prerequisite = { focus = SYR_send_them_to_tadmor }
+}
+

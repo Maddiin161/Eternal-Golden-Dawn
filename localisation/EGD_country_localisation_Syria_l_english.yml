@@ -22,34 +22,52 @@ syr.100.a:0 "'Fucking Americans.'"
 
 #### FOCUSES ####
 
-SYR_long_live_the_arab_baath:0 "Long Live the Arab Ba'ath!"
-SYR_long_live_the_arab_baath_desc:0 "placeholder"
-SYR_the_syrian_arab_armed_forces:0 "The Syrian Arab Armed Forces"
-SYR_the_syrian_arab_armed_forces_desc:0 "placeholder"
-SYR_modernize_the_syrian_arab_army:0 "Modernize the Syrian Arab Army"
-SYR_modernize_the_syrian_arab_army_desc:0 "placeholder"
-SYR_the_syrian_arab_air_force:0 "The Syrian Arab Air Force"
-SYR_the_syrian_arab_air_force_desc:0 "placeholder"
-SYR_the_syrian_arab_navy:0 "The Syrian Arab Navy"
-SYR_the_syrian_arab_navy_desc:0 "placeholder"
-SYR_prodigal_son:0 "Prodigal Son"
-SYR_prodigal_son_desc:0 "placeholder"
-SYR_old_face_new_change:0 "Old Face, New Change"
-SYR_old_face_new_change_desc:0 "placeholder"
-SYR_sibling_rivalry:0 "Sibling Rivalry"
-SYR_sibling_rivalry_desc:0 "placeholder"
-SYR_the_old_guard:0 "The Old Guard"
-SYR_the_old_guard_desc:0 "placeholder"
-SYR_a_level_hand:0 "A Level Hand"
-SYR_a_level_hand_desc:0 "placeholder"
-SYR_an_unlikely_choice:0 "An Unlikely Choice"
-SYR_an_unlikely_choice_desc:0 "placeholder"
-SYR_guardians_of_the_homeland:0 "Guardians of the Homeland"
-SYR_guardians_of_the_homeland_desc:0 "placeholder"
-SYR_struggles_in_damascus:0 "Struggles in Damascus"
-SYR_struggles_in_damascus_desc:0 "placeholder"
-SYR_death_has_taken_away_from_syria_a_leader:0 "Death Has Taken Away from Syria a Leader..."
-SYR_death_has_taken_away_from_syria_a_leader_desc:0 "placeholdre"
+SYR_lion_of_syria_roars_for_eternity:0 "Lion of Syria Roars For Eternity"
+SYR_lion_of_syria_roars_for_eternity_desc:0 "New triumphs await the Syrian people in the coming decade. With faith in the Ba'ath party's torch that guides us, we will relive the prosperity that came with the elimination of the Zionist forces back in 1973, overcome our current troubles, and build a truly free Syria! All foes flee as the Lion of the Middle East stands eternal!"
+SYR_with_assad_we_wake_up_to_a_new_decade:0 "With Assad, We Wake Up to a New Decade!"
+SYR_with_assad_we_wake_up_to_a_new_decade_desc:0 "The stagnant state of our economy is no secret. After the economic boom that accompanied our victory in the Yom Kippur War came a period of severe economic decline. Thankfully, a huge step forward for our economy is on the horizon as the implementation of the Infitah,the openness of our market to the West and the revival of the private sector in Syria, is well under way."
+SYR_fruits_of_70s_who_can_forget_the_taste:0 "Fruits of 70s, Who Can Forget the Taste?"
+SYR_fruits_of_70s_who_can_forget_the_taste_desc:0 "Despite the class disparities, the economic model introduced by Hafez al-Assad was beneficial to Syria's economic status in the previous decade and has since held up quite well. A mix of Free-Market and Socialist policies, inspired by the Chinese as well as the Soviets,the Assad model owes its efficiency to its flexibility."
+SYR_rough_start_trust_the_torch_of_baath:0 "Rough Start, Trust the Torch of Ba'ath"
+SYR_rough_start_trust_the_torch_of_baath_desc:0 "Big expenditures by the state have led to a rise of inflation and a growing external debt.Although Assad is no stranger to challenges,this time extreme measures have to be taken. Trust to the Party and Assad and inflation will not be a problem for long!"
+SYR_we_will_not_bow_to_extremism:0 "We Will Not Bow to Extremism!"
+SYR_we_will_not_bow_to_extremism_desc:0 "The Armed Islamic Opposition has bothered the Syrian people for 5 years now. Killings by Radical Islamists are frequent than ever before and it's not only Syrians that are targeted. A Soviet envoy was just assassinated by the Sunni Muslim Brotherhood. Syria must uphold secular ideals and eradicate extremists. We will not bow to them!"
+SYR_fulfilling_the_promise:0 "Fulfilling the Promise"
+SYR_fulfilling_the_promise_desc:0 "The Extremists of Muslim Brotherhood have seized the business district of Aleppo. Strikes, rioting, and street violence are commonplace in the opposition's stronghold. The chaos must be put to a stop. We must send a message to the Syrian people and the World.In order to strike at the heart of the Extremists countrywide, The Armed Forces will handle the situation. Resistance will be powerful, thus we must be merciless!"
+SYR_god_is_with_you_syria:0 "God is With You, Syria!"
+SYR_god_is_with_you_syria_desc:0 "Urban warfare in the streets of Aleppo is hell. The popular support for the Extremists inside the city is higher than expected and the daily riots often escalate in bombings and firefights.The three districts of Aleppo where rifles and bombs never rest are Masharqah, Aqyol, and Bustan al-Qaser. We must strike hard on these Extremist strongholds.God is with us! For Assad!"
+SYR_aqyol_district:0 "Aqyol District"
+SYR_aqyol_district_desc:0
+SYR_masharqah_district:0 "Masharqah District"
+SYR_masharqah_district_desc:0 "The Masharqah district in the West of the city of Aleppo is the place our patrols fear the most. A nightmare. Every house, every corner, every window is an extremist’s lair.Eyes,hundreds of eyes peering from places you cannot even fathom,Barrels of rifles aimed at you from cracks you cannot even see. We’ll kill a thousand every day if we must, as long as we rid the District of Muslim Brother vermin."
+SYR_bustan_alqaser_district:0 "Bustan al-Qaser District"
+SYR_bustan_alqaser_district_desc:0
+SYR_saraya_addifa:0 "Saraya ad-Difa"
+SYR_saraya_addifa_desc:0 "Hafiz al-Assad’s brother, Rifaat, the Commander of the infamous Defense Companies has brought his skilled fighters to Aleppo. Their involvement in operations within the city is strongly encouraged and preferred over that of the regular military, since the Defense Companies have proved to be significantly more efficient in urban warfare owing to their modern equipment, small size, sheer will, and loyalty to Assad."
+SYR_special_problems_special_solutions:0 "Special Problems, Special Solutions"
+SYR_special_problems_special_solutions_desc:0 "Syria’s finest! Hashem Mualla's Special Forces have more expertise in Urban combat than anybody else in the Middle East. Brave as lions and bloodthirsty as hyenas they’ll find way through narrow streets and houses to exterminate extremist scum. Everyone is a suspect, they cannot hide forever!"
+SYR_importance_of_the_local_peacekeeping_militias:0 "Importance of the Local Peace-Keeping Militias"
+SYR_importance_of_the_local_peacekeeping_militias_desc:0
+SYR_watch_hananu:0 "Watch, Hananu!"
+SYR_watch_hananu_desc:0
+SYR_eyes_on_all_thoughts:0 "Eyes on all Thoughts"
+SYR_eyes_on_all_thoughts_desc:0 " Thorough searches must be undertaken on every residence to maintain order in Masharqah. Surprisingly, popular support is strong, thus no one can be trusted. Raid, interrogate, execute. We cannot afford to give extremists opportunities to outsmart us!"
+SYR_third_armored_division:0 "Third Armored Division"
+SYR_third_armored_division_desc:0
+SYR_streets_are_the_veins:0 "Streets are the Veins"
+SYR_streets_are_the_veins_desc:0
+SYR_maim_the_extremism:0 "Maim the Extremism"
+SYR_maim_the_extremism_desc:0
+SYR_trials_with_syrian_spice:0 "Trials... With Syrian Spice"
+SYR_trials_with_syrian_spice_desc:0
+SYR_speak_their_own_language:0 "Speak Their Own Language"
+SYR_speak_their_own_language_desc:0
+SYR_the_citadel:0 "the Citadel"
+SYR_the_citadel_desc:0
+SYR_send_them_to_tadmor:0 "Send Them to Tadmor"
+SYR_send_them_to_tadmor_desc:0
+SYR_all_is_necessary:0 "All is Necessary"
+SYR_all_is_necessary_desc:0
 
 ##### IDEAS ####
 
