@@ -1,0 +1,172 @@
+focus_tree = {
+    id = persian_focus
+	country = {
+		factor = 0
+		modifier = {
+		    add = 10
+			tag = PER
+		}
+	}
+	default = no
+	
+	focus = {
+	    id = PER_Ready_For_The_Arrival
+		icon = GFX_goal_unknown
+		x = 5
+		y = 0
+		ai_will_do {
+		    factor = 1
+		}
+		cost = 3
+		completion_reward = {
+		    add_political_power = 120
+		}
+    }
+	focus = {
+	    id = PER_Pasdaran_Enghelab
+		icon = GFX_goal_unknown
+		x = 5
+		y = 1
+		ai_will_do {
+		    factor = 1
+		}
+		cost = 3
+		completion_reward = {
+		    add_political_power = 120
+		}
+		prerequisite = {
+		    focus = PER_Ready_For_The_Arrival
+		}
+    }
+	focus = {
+	    id = PER_We_Shall_Verily_Take_Revenge
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		ai_will_do {
+		    factor = 1
+		}
+		cost = 3
+		completion_reward = {
+		    add_political_power = 120
+		}
+		prerequisite = {
+		    focus = PER_Ready_For_The_Arrival
+		}
+    }
+	focus = {
+	    id = PER_Khalkhalis_Gallows
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		ai_will_do {
+		    factor = 1
+		}
+		cost = 3
+		completion_reward = {
+		    add_political_power = 120
+		}
+		prerequisite = {
+		    focus = PER_We_Shall_Verily_Take_Revenge
+		}
+    }
+	focus = {
+	    id = PER_Lullabies_for_the_Righteous
+		icon = GFX_goal_unknown
+		x = 0
+		y = 3
+		ai_will_do {
+		    factor = 1
+		}
+		cost = 3
+		completion_reward = {
+		    add_political_power = 120
+		}
+		prerequisite = {
+		    focus = PER_Khalkhalis_Gallows
+		}
+    }
+	focus = {
+	    id = PER_To_Scare_the_Tyrants
+		icon = GFX_goal_unknown
+		x = 0
+		y = 4
+		ai_will_do {
+		    factor = 1
+		}
+		cost = 3
+		completion_reward = {
+		    add_political_power = 120
+		}
+		prerequisite = {
+		    focus = PER_Lullabies_for_the_Righteous
+		}
+    }
+	focus = {
+	    id = PER_Holy_Men_Are_Coming_from_the_East
+		icon = GFX_goal_unknown
+		x = 5
+		y = 2
+		ai_will_do {
+		    factor = 1
+		}
+		cost = 3
+		completion_reward = {
+		    add_political_power = 120
+		}
+		prerequisite = {
+		    focus = PER_Pasdaran_Enghelab
+		}
+    }
+	focus = {
+	    id = PER_In_the_Path_of_Liberation
+		icon = GFX_goal_unknown
+		x = 5
+		y = 3
+		ai_will_do {
+		    factor = 1
+		}
+		cost = 3
+		completion_reward = {
+		    add_political_power = 120
+		}
+		prerequisite = {
+		    focus = PER_Holy_Men_Are_Coming_from_the_East
+		}
+    }
+	focus = {
+	    id = PER_To_Liberate_al_Aqsa
+		icon = GFX_goal_unknown
+		x = 5
+		y = 4
+		ai_will_do {
+		    factor = 1
+		}
+		cost = 3
+		completion_reward = {
+		    add_political_power = 120
+		}
+		prerequisite = {
+		    focus = PER_In_the_Path_of_Liberation
+		}
+    }
+	focus = {
+	    id = PER_Preparing_for_A_Hot_Summer
+		icon = GFX_goal_unknown
+		x = 4
+		y = 5
+		ai_will_do {
+		    factor = 1
+		}
+		cost = 3
+		completion_reward = {
+		    add_political_power = 120
+		}
+		prerequisite = {
+		    focus = PER_To_Liberate_al_Aqsa
+		}
+		prerequisite = {
+		    focus = PER_To_Scare_the_Tyrants
+		}
+    }
+}
