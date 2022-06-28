@@ -32,17 +32,6 @@ spriteTypes = {
 	}
 	
 	SpriteType = { 
-		name = "GFX_idea_Minister_Radoje_Kontic"
-		texturefile = "gfx/interface/Ministers/YUG/Μinister_Radoje_Kontic.dds"
-	}
-	
-	SpriteType = { 
-		name = "GFX_idea_Μinister_Radoje_Kontic_large"
-		texturefile = "gfx/interface/Ministers/YUG/Μinister_Radoje_Kontic_large.dds"
-		legacy_lazy_load = no
-	}
-	
-	SpriteType = { 
 		name = "GFX_idea_Minister_Nikola_Ljubicic"
 		texturefile = "gfx/interface/Ministers/YUG/Minister_Nikola_Ljubicic.dds"
 	}
@@ -61,6 +50,17 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_idea_Minister_Veselin_Djuranovic_large"
 		texturefile = "gfx/interface/Ministers/YUG/Minister_Veselin_Djuranovic_large.dds"
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "GFX_idea_Minister_Radoje_Kontic"
+		texturefile = "gfx/interface/Ministers/YUG/Μinister_Radoje_Kontic.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_idea_Μinister_Radoje_Kontic_large"
+		texturefile = "gfx/interface/Ministers/YUG/Μinister_Radoje_Kontic_large.dds"
 		legacy_lazy_load = no
 	}
 }
