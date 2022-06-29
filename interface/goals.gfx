@@ -140,4 +140,12 @@ spriteTypes = {
 		name = "GFX_focus_USA_friends_in_baghdad"
 		texturefile = "gfx/interface/goals/USA/USA_friends_in_baghdad.dds"
 	}
+	SpriteType = { 
+		name = "GFX_PER_Forming_Muqwimat_e_Eslami"
+		texturefile = "gfx/interface/goals/PER/GFX_PER_Forming_Muqwimat_e_Eslami.dds"
+	}
+	SpriteType = { 
+		name = "GFX_PER_ASHOOB"
+		texturefile = "gfx/interface/goals/PER/GFX_PER_ASHOOB.dds"
+	}
 }
