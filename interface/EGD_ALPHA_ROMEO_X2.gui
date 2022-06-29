@@ -110,21 +110,25 @@ guiTypes = {
 			name = "ARX2_COUNTER_TERRORISM"
 			spriteType = "GFX_ARX2_COUNTER_TERRORISM"
 			position = { x=30 y=35 }
+			pdx_tooltip = "ROMEO1_CT"
 		}
 		iconType = {
 			name = "ARX2_FOREIGN_SUBVERSION"
 			spriteType = "GFX_ARX2_FOREIGN_SUBVERSION"
 			position = { x=217 y=35 }
+			pdx_tooltip = "ROMEO1_SBV"
 		}
 		iconType = {
 			name = "ARX2_PROPAGANDA"
 			spriteType = "GFX_ARX2_PROPAGANDA"
 			position = { x=217 y=200 }
+			pdx_tooltip = "ROMEO1_PRO"
 		}
 		iconType = {
 			name = "ARX2_DISSIDENT_GROUPS"
 			spriteType = "GFX_ARX2_DISSIDENT_GROUPS"
 			position = { x=30 y=190 }
+			pdx_tooltip = "ROMEO1_DG"
 		}
 		buttonType = {
 			name = "EGD_GUI_ROMEO1_HOWMUCH_CT"
@@ -164,14 +168,21 @@ guiTypes = {
 			name = "Background"
 			spriteType = "GFX_EGD_tiled_window_alpharomeo_border"
 		}
-		instantTextBoxType = {
-			name = "FOXTROT_SQUAD_5"
-			position = { x = 70 y = 25 }
-			font = "IBM_EGA_22_outline"
-			text = [GetHello]
-			format = left
-			maxWidth = 520
-			alwaystransparent = yes
+		buttonType = {
+			name = "EGD_GUI_INSURGENT_NEIGHBOURS"
+			spriteType = "GFX_ARX2_UNITS"
+			position = { x=15 y=25 }
+			clicksound = click_ok
+			oversound = ui_menu_over
+			pdx_tooltip = "BETA_NEIGHBOUR"
+		}
+		buttonType = {
+			name = "EGD_GUI_INSURGENT_DOMESTIC"
+			spriteType = "GFX_ARX2_UNITS"
+			position = { x=310 y=25 }
+			clicksound = click_ok
+			oversound = ui_menu_over
+			pdx_tooltip = "BETA_DOMESTIC"
 		}
 	}
 }

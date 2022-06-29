@@ -1,49 +1,12 @@
-# leader 1
-
-CAT_leader_1 = {
-
-    icon = generic_research
-    visible = {
-	 has_country_flag = DEC_leader_1
-}
-}
-
-# leader 2
-
-CAT_leader_2 = {
-
-    icon = generic_research
-    visible = {
-	 has_country_flag = DEC_leader_2
-}
-}
-
-# leader 3
-
-CAT_leader_3 = {
-
-    icon = generic_research
-    visible = {
-	 has_country_flag = DEC_leader_3
-}
-}
-
-# leader 4 
-
-CAT_leader_4 = {
-
-    icon = generic_research
-    visible = {
-	 has_country_flag = DEC_leader_4
-}
-}
-
-# leader 5
-
-CAT_leader_5 = {
-
-    icon = generic_research
-    visible = {
-	 has_country_flag = DEC_leader_5
-}
-}
+#SYR_insurgents_category = {
+#	icon = PER_hostage_crisis_category_icon  
+#	picture = GFX_decision_cat_PER_hostage_crisis
+#	visible_when_empty = yes
+#	priority = 1
+#	visible = {
+#		always = yes
+#	}
+#	allowed = {
+#		original_tag = SYR
+#	}
+#}

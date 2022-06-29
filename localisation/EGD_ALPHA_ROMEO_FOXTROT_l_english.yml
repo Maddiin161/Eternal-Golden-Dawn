@@ -4,3 +4,10 @@ TEST1:0 "[ROOT.GetFlag]"
 
 foxtrot.1.t:0 "ROGER"
 foxtrot.1.d:0 "[GetHello]"
+
+ROMEO1_CT:0 "This is counter terrorism. The boxes below determines how much focus will be granted towards this branch of our special operations' strategical planning.\n\nCounter-terrorism affects our focus on urban and rural insurgents, anti-government activity and anything we consider as 'terrorism'."
+ROMEO1_SBV:0 "This is foreign subversion. The boxes below determines how much focus will be granted towards this branch of our special operations' strategical planning.\n\nForeign subversion affects our focus on activities within our border committed by foreign powers; whether be economical, political or something more sinister."
+ROMEO1_PRO:0 "This is propaganda. The boxes below determines how much focus will be granted towards this branch of our special operations' strategical planning.\n\nPropaganda affects our party popularity and support towards it. More popular our governing rule is, more likely people will support us. More people support us and less political dissidentship we'll see."
+ROMEO1_DG:0 "This is dissident groups. The boxes below determines how much focus will be granted towards this branch of our special operations' strategical planning.\n\nFocusing on dissident groups affects our party popularity and stability of the country as a whole. Less people are open about their opposition to our rule means we'll see less activity towards removing our rule."
+BETA_NEIGHBOUR:0 "Matthew 22:39\n\nThis button highlights your neighbouring countries on the map. You can click on the buttons on the highlighted states to focus on said state in your neighbouring country. Afterwards, you will get a certain operations you can take regarding that state and country."
+BETA_DOMESTIC:0 "John 14:27\n\nThis button highlights your own states on the map. For the time being, it only shows which states are available to do operations in. Upon clicking the button on the highlighted state, you will have certain available operations in the state that you can take."
