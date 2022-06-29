@@ -41,7 +41,7 @@ SYR_aqyol_district_desc:0
 SYR_masharqah_district:0 "Masharqah District"
 SYR_masharqah_district_desc:0 "The Masharqah district in the West of the city of Aleppo is the place our patrols fear the most. A nightmare. Every house, every corner, every window is an extremist’s lair.Eyes,hundreds of eyes peering from places you cannot even fathom,Barrels of rifles aimed at you from cracks you cannot even see. We’ll kill a thousand every day if we must, as long as we rid the District of Muslim Brother vermin."
 SYR_bustan_alqaser_district:0 "Bustan al-Qaser District"
-SYR_bustan_alqaser_district_desc:0
+SYR_bustan_alqaser_district_desc:0 "The Bustan al-Qaser district in the South-West, not that far from Masharqah, has become the main base of operations for the extremists. The streets and squares are full of barricades. Our vehicles constantly get attacked, and our forces have difficulty navigating the area in and around the district. Extreme measures must be taken. Lethal force is encouraged to be used."
 SYR_saraya_addifa:0 "Saraya ad-Difa"
 SYR_saraya_addifa_desc:0 "Hafiz al-Assad’s brother, Rifaat, the Commander of the infamous Defense Companies has brought his skilled fighters to Aleppo. Their involvement in operations within the city is strongly encouraged and preferred over that of the regular military, since the Defense Companies have proved to be significantly more efficient in urban warfare owing to their modern equipment, small size, sheer will, and loyalty to Assad."
 SYR_special_problems_special_solutions:0 "Special Problems, Special Solutions"
@@ -53,15 +53,15 @@ SYR_watch_hananu_desc:0
 SYR_eyes_on_all_thoughts:0 "Eyes on all Thoughts"
 SYR_eyes_on_all_thoughts_desc:0 " Thorough searches must be undertaken on every residence to maintain order in Masharqah. Surprisingly, popular support is strong, thus no one can be trusted. Raid, interrogate, execute. We cannot afford to give extremists opportunities to outsmart us!"
 SYR_third_armored_division:0 "Third Armored Division"
-SYR_third_armored_division_desc:0
+SYR_third_armored_division_desc:0 "The barriers and pipe bombs have proved effective against our lighter vehicles, but let’s see if they can handle the rumble of our heavy tanks. Destroy their houses, burn the neighborhoods to ruins, crush them to death. That’s what the Third Armored stands for!"
 SYR_streets_are_the_veins:0 "Streets are the Veins"
-SYR_streets_are_the_veins_desc:0
+SYR_streets_are_the_veins_desc:0 "The spots of the highest importance for the control of the district are obviously the streets. If the streets are under our control, then the rest is a morning walk. Our infantry squads fight doorstep to doorstep battles with the insurgents day and night for the control of the streets. It is time for the finishing blow!"
 SYR_maim_the_extremism:0 "Maim the Extremism"
-SYR_maim_the_extremism_desc:0
+SYR_maim_the_extremism_desc:0 "Should the streets be controlled by us, the extremists will have to remain hidden and resort to smaller-scale surprise attacks. Now is our chance to close the net house by house and cut off the district. Burn the rats inside their burrows!"
 SYR_trials_with_syrian_spice:0 "Trials... With Syrian Spice"
-SYR_trials_with_syrian_spice_desc:0
+SYR_trials_with_syrian_spice_desc:0 "The Islamic Brotherhood has a huge following, and we simply don’t have the time to trial every single criminal extremist or any of their supporters in a court, as they are caught by the hundreds daily. Lightning trials are authorized. The punishment for high treason: Death."
 SYR_speak_their_own_language:0 "Speak Their Own Language"
-SYR_speak_their_own_language_desc:0
+SYR_speak_their_own_language_desc:0 "Enough men and equipment have been lost in the attempt to pacify Bustan al-Qaser. We are left with no other choice but to conduct artillery barrages.The elevated terrain in the west is the optimal location for the batteries. Shelling will continue until the insurgents either surrender or suffer complete annihilation!"
 SYR_the_citadel:0 "the Citadel"
 SYR_the_citadel_desc:0
 SYR_send_them_to_tadmor:0 "Send Them to Tadmor"
