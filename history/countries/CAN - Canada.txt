@@ -28,6 +28,14 @@ starting_econ_modifier_vars = yes
 EGD_startup_calc = yes
 EGD_startup = yes
 
+add_ideas = {
+	CAN_last_days_of_trudeaumania_idea
+	CAN_quebecois_nationalism_idea
+	CAN_western_alienation_idea
+	CAN_canadian_dissilussionment_idea
+	CAN_constitutional_hope_idea
+}
+	
 #######################
 # Leaders
 #######################

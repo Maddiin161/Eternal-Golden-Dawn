@@ -1,0 +1,69 @@
+ideas = {	
+		country = {
+		CAN_last_days_of_trudeaumania_idea = {
+				picture = CAN_last_days_of_trudeaumania_idea
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+			}
+		CAN_quebecois_nationalism_idea = {
+				picture = CAN_quebecois_nationalism
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+			}
+		CAN_western_alienation_idea = {
+				picture = CAN_western_alienation
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+			}	
+		CAN_canadian_dissilussionment_idea = {
+				picture = CAN_canadian_dissilussionment
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+			}	
+		CAN_constitutional_hope_idea = {
+				picture = CAN_constitutional_hope
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+			}			
+		}
+	}
