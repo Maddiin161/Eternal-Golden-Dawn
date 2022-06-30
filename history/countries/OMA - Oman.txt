@@ -27,9 +27,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Said bin Taimur" 
+	name = "Shihab bin Tariq al-Said" 
 	desc = ""
-	picture = "Said_bin_Taimur.dds"
+	picture = "Said_I.dds"
 	expire = "2003.3.1"
 	ideology = monarchism
 	traits = {
