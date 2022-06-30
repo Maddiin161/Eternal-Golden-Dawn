@@ -6,7 +6,11 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = no
 }
-
+add_ideas = {
+	BAH_islamic_front_for_liberation_bahrain_idea
+	BAH_popular_front_for_liberation_bahrain_idea
+	BAH_tale_two_cities_idea
+}
 set_popularities = {
 	annihilationism = 0
 	transhumanism = 0
