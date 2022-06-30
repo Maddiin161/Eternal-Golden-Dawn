@@ -1,24 +1,26 @@
-#SYR_insurgents_category = {
-#	SYR_test_decision = {
-#		icon = generic_industry
-#		available = {
-#			is_ai = no
-#		}
-#		visible = {
-#			is_debug = yes
-#		}
-#		fire_only_once = no
-#		cost = 0
-#		on_map_mode = map_and_decisions_view
-#		complete_effect = {
-#			highlight_states = {
-#				highlight_state_targets = {
-#					state = 454
-#					state = 781
-#				}
-#				highlight_color_while_active = 1
-#				highlight_color_before_active = 1
-#			}
-#		}
-#	}
-#}
+SYR_insurgents_category = {
+	SYR_test_decision = {
+		icon = generic_industry
+		activation = {
+			always = yes
+		}
+		available = {
+			always = yes
+		}
+		visible = {
+			is_debug = yes
+		}
+		fire_only_once = no
+		cost = 0
+		days_mission_timeout = 500
+		highlight_states = {
+			highlight_state_targets = {
+				state = 781
+			}
+			highlight_color_while_active = 1
+		}
+		on_map_mode = map_and_decisions_view
+		complete_effect = {
+		}
+	}
+}

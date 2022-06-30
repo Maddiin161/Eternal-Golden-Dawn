@@ -1,12 +1,12 @@
-#SYR_insurgents_category = {
-#	icon = PER_hostage_crisis_category_icon  
-#	picture = GFX_decision_cat_PER_hostage_crisis
-#	visible_when_empty = yes
-#	priority = 1
-#	visible = {
-#		always = yes
-#	}
-#	allowed = {
-#		original_tag = SYR
-#	}
-#}
+SYR_insurgents_category = {
+	icon = PER_hostage_crisis_category_icon  
+	picture = GFX_decision_cat_PER_hostage_crisis
+	visible_when_empty = yes
+	priority = 1
+	visible = {
+		always = yes
+	}
+	allowed = {
+		original_tag = SYR
+	}
+}
