@@ -153,6 +153,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/PER/GFX_PER_Ready_For_The_Arrival.dds"
 	}
 	SpriteType = { 
+		name = "GFX_SYR_Assad_New_Decade"
+		texturefile = "gfx/interface/goals/SYR/SYR_Assad_New_Decade.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SYR_Fruits_70s"
+		texturefile = "gfx/interface/goals/SYR/SYR_Fruits_70s.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SYR_Lion_of_Syria"
+		texturefile = "gfx/interface/goals/SYR/SYR_Lion_of_Syria.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SYR_Send_Them_to_Tadmor"
+		texturefile = "gfx/interface/goals/SYR/SYR_Send_Them_to_Tadmor.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SYR_Streets_are_the_Veins"
+		texturefile = "gfx/interface/goals/SYR/SYR_Streets_are_the_Veins.dds"
+	}
+	SpriteType = { 
 		name = "GFX_SYR_3rd_armored_division"
 		texturefile = "gfx/interface/goals/SYR/SYR_3rd_armored_division.dds"
 	}
