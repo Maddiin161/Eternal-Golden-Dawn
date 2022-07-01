@@ -152,4 +152,8 @@ spriteTypes = {
 		name = "GFX_PER_Ready_For_The_Arrival"
 		texturefile = "gfx/interface/goals/PER/GFX_PER_Ready_For_The_Arrival.dds"
 	}
+	SpriteType = { 
+		name = "GFX_SYR_3rd_armored_division"
+		texturefile = "gfx/interface/goals/SYR/SYR_3rd_armored_division.dds"
+	}
 }
