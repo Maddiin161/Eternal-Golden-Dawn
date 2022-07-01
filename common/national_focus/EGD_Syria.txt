@@ -1,7 +1,7 @@
 focus_tree = {
 	id = SYR_Intro
 	country = {
-		factor = 0
+		factor = 100
 		modifier = {
 			add = 100
 			tag = SYR
