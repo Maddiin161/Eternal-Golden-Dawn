@@ -2,7 +2,7 @@ ideas = {
 		country = {
 
 		KUW_the_golden_age_idea = {
-				#picture = KUW_the_golden_age
+				picture = KUW_the_golden_age
 
 				allowed = {
 					always = no
@@ -19,7 +19,7 @@ ideas = {
 				}
 			}
 		KUW_Boursa_Kuwait_and_Souk_al-Manakh_idea = {
-				#picture = KUW_Boursa_Kuwait_and_Souk_al-Manakh
+				picture = KUW_Boursa_Kuwait_and_Souk_al-Manakh
 
 				allowed = {
 					always = no
@@ -36,7 +36,7 @@ ideas = {
 				}
 			}
 		KUW_bald_eagle_far_from_home_idea = {
-				#picture = KUW_bald_eagle_far_from_home
+				picture = KUW_bald_eagle_far_from_home
 
 				allowed = {
 					always = no

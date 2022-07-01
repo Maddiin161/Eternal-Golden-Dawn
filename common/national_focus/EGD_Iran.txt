@@ -11,7 +11,7 @@ focus_tree = {
 	
 	focus = {
 	    id = PER_Ready_For_The_Arrival
-		icon = GFX_goal_unknown
+		icon = GFX_PER_Ready_For_The_Arrival
 		x = 12
 		y = 0
 		ai_will_do {

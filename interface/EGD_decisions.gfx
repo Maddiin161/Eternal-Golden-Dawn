@@ -12,4 +12,4 @@ spriteTypes = {
 		name = "GFX_EGD_Decision_Picture_Iran_Hostages"
 		texturefile = "gfx/interface/decisions/EGD_Decision_Picture_Iran_Hostages.dds"
 	}
- }
+}

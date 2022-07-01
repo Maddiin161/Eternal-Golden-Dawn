@@ -1,7 +1,7 @@
 
 shared_focus = {
 	id = SYR_lion_of_syria_roars_for_eternity
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_SYR_Lion_of_Syria
 	cost = 2
 	x = 16
 	y = 0
