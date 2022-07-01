@@ -50,7 +50,6 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 	original_tag = YUG
-	date = 1980.5.4
 	}
    	major = yes
 
@@ -84,7 +83,6 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 	original_tag = YUG
-	date = 1980.6.15
 	}
 	major = yes
 	

@@ -740,7 +740,7 @@ news_event = {
 	}
 }
 
-##Event: Collapse of Yugoslav Leadership
+##Event: kosovo
 news_event = {
 	id = WorldNews.54
 	title = WorldNews.54.t
