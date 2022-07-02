@@ -93,5 +93,81 @@ ideas = {
 					custom_modifier_tooltip = PER_nato_modifier_1
 				}
 			}
+		PER_country_felt_in_chaos = {
+				picture = PER_oppressed_above_the_arrogant
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = -0.2
+					war_support_factor = -0.1
+				}
+			}
+			PER_shahist_executaions = {
+				picture = PER_oppressed_above_the_arrogant
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_weekly_factor = 0.2
+					political_power_factor = -0.3
+				}
+			}
+			PER_sepah_pasdaran = {
+				picture = PER_oppressed_above_the_arrogant
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					attack_bonus_against_cores = 0.05
+					army_core_defence_factor = 0.05
+					war_support_weekly_factor = 0.002
+					islamism_drift = 0.05
+				}
+			}
 		}
+	PER_preparing_for_the_inevitable = {
+				picture = PER_hostage_crisis_tense
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					weekly_manpower = 350
+			        army_core_defence_factor = -0.02
+					attack_bonus_against_cores = -0.02
+					independent_socialist_drift = 0.03
+				}
+			}
 	}
