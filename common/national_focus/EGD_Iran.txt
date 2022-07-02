@@ -19,7 +19,7 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-		    add_political_power = 120
+		    add_political_power = 100
 		}
     }
 	focus = {
@@ -32,7 +32,7 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-		    add_political_power = 120
+		     add_ideas = PER_sepah_pasdaran
 		}
 		prerequisite = {
 		    focus = PER_Ready_For_The_Arrival
@@ -64,7 +64,11 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-		    add_political_power = 120
+		    add_political_power = 20
+			country_event = {
+            id = iran.8
+            days = 18
+        } 
 		}
 		prerequisite = {
 		    focus = PER_We_Shall_Verily_Take_Revenge
@@ -160,7 +164,8 @@ focus_tree = {
 		}
 		cost = 1
 		completion_reward = {
-		    add_political_power = 120
+		    add_political_power = -50
+			add_timed_idea = { idea = PER_preparing_for_the_inevitable days = 200 }
 		}
 		prerequisite = {
 		    focus = PER_To_Liberate_al_Aqsa
@@ -323,7 +328,10 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 120
+		    add_stability = -0.25
+			add_war_support = 0.07
+			add_political_power = -100
+			add_timed_idea = { idea = PER_country_felt_in_chaos days = 90 }
 		}
 		prerequisite = {
 		    focus = PER_The_True_Guardians_of_the_Revolution
@@ -409,7 +417,8 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 120
+		    create_faction = Axis_of_Resistance
+			add_political_power = 120
 		}
 		prerequisite = {
 		    focus = PER_Looking_Outside
