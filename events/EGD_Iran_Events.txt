@@ -78,14 +78,25 @@ country_event = {
 	option = {
 		name = iran.6.a
 		hidden_effect = {
-			USA = {
-				add_stability = -0.05
-			}
+			              
 			country_event = {
 				id = iran.8
-				days = 18
+				days = 15
 			}
-			every_country = { news_event = WorldNews.21 }
 		}
 	}	
+}
+#Focus Events
+country_event = {
+	id = iran.8
+	title = iran.8.t
+	desc = iran.8.d
+	picture = GFX_news_event_shah
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+	add_ideas = PER_shahist_executaions
+    }
 }
