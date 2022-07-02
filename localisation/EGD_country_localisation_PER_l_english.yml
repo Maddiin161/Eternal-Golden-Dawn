@@ -18,7 +18,14 @@ PER_hostage_crisis_tense_idea:0 "Hostage Crisis - §RTense§!"
 PER_hostage_crisis_tense_idea_desc:0 "Since the 4th of November 1979, 52 American diplomats are being held hostage in their embassy in Tehran by The Muslim Student Followers of the Imam's Line, a group loyal to the revolutionary government. The Americans insist that the revolutionary government provides support to the hostage takers and therefore contributes to the endangerment of American citizens' lives. This has sparked an ongoing crisis between Khomeini's government and Carter's Administration in the US."
 PER_oppressed_above_the_arrogant_idea:0 "Oppressed, Above the Arrogant"
 PER_oppressed_above_the_arrogant_idea_desc:0 "With the era of an Iran enslaved by western powers gone forever, the revolutionary leadership strives for a nation that is self-sufficient and independent for all time. Their objectives correspond with those of many free nations, particularly China. With blessings from Beijing Khomeini may be able to make Iran's transition quicker."
-
+PER_country_felt_in_chaos:0 "Country Felt In Chaos"
+PER_country_felt_in_chaos_desc:0 "Ashoob Dar Hame Ja Khahad Bood."
+PER_shahist_executaions:0 "Shahist Executaions"
+PER_shahist_executaions_desc:0 "ssss"
+PER_sepah_pasdaran:0 "Sepah-e-Pasdaran"
+PER_sepah_pasdaran_desc:0 "Sepahe Pasdarane Enghelabe Eslami"
+PER_preparing_for_the_inevitable:0 "Preparing for The Inevitable"
+PER_preparing_for_the_inevitable_desc:0 "..."
 #### TOOLTIPS ####
 
 PER_nato_modifier_1:0 "Our Current Relations with the West are - §RVery Bad§!"
@@ -195,3 +202,7 @@ PER_Open_the_Doors_of_Khaybar:0 "Open the Doors of Khaybar!"
 PER_Open_the_Doors_of_Khaybar_desc:0 "..."
 PER_Doors_of_Khaybar_Open_Once_Again:0 "Doors of Khaybar, Open Once Again!"
 PER_Doors_of_Khaybar_Open_Once_Again_desc:0 "..."
+
+#### HEZBOLLAH IS HERE ####
+
+Axis_of_Resistance:0 "Axis of Resistance"
