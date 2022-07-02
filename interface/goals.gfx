@@ -176,4 +176,8 @@ spriteTypes = {
 		name = "GFX_SYR_3rd_armored_division"
 		texturefile = "gfx/interface/goals/SYR/SYR_3rd_armored_division.dds"
 	}
+	SpriteType = { 
+		name = "GFX_IRQ_And_Iraq_Holds_Its_Breath"
+		texturefile = "gfx/interface/goals/IRQ/IRQ_And_Iraq_Holds_Its_Breath.dds"
+	}
 }

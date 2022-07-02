@@ -1,0 +1,76 @@
+ideas = {	
+	country = {
+		IRQ_cult_of_saddam_idea = {
+			picture = IRQ_cult_of_saddam
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.3
+			}
+		}
+		IRQ_tensions_with_tehran_idea = {
+			picture = IRQ_tensions_with_tehran
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_defence_factor = 0.05
+				army_org = 5
+				war_support_weekly = 0.010
+			}
+		}
+		IRQ_banner_of_liberation_idea = {
+			picture = IRQ_banner_of_liberation
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.5
+			}
+		}
+		IRQ_shining_jewel_idea = {
+			picture = IRQ_shining_jewel
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_oil_factor = 0.015
+				repair_speed_arms_factory_factor = 0.2
+				industry_free_repair_factor = 0.2
+			}
+		}
+		IRQ_sadr_uprisings_idea = {
+			picture = IRQ_sadr_uprisings
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_weekly = -0.05
+				war_support_factor = -0.10
+				islamis_drift = 0.01
+			}
+		}
+	}
+}

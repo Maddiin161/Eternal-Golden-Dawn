@@ -446,4 +446,45 @@ SpriteType = {
 		name = "GFX_idea_KUW_bald_eagle_far_from_home"
 		texturefile = "gfx/interface/ideas/KUW/KUW_bald_eagle_far_from_home.dds"
 	}
- }
+
+	####OMA####
+	
+SpriteType = { 
+		name = "GFX_idea_OMA_fisabilsultan"
+		texturefile = "gfx/interface/ideas/OMA/OMA_fisabilsultan.dds"
+	}
+	
+SpriteType = { 
+		name = "GFX_idea_OMA_the_right_from_wrong"
+		texturefile = "gfx/interface/ideas/OMA/OMA_the_right_from_wrong.dds"
+	}
+	
+SpriteType = { 
+		name = "GFX_idea_OMA_khanjar"
+		texturefile = "gfx/interface/ideas/OMA/OMA_khanjar.dds"
+	}
+	####IRQ###
+	
+SpriteType = { 
+		name = "GFX_idea_IRQ_tensions_with_tehran"
+		texturefile = "gfx/interface/ideas/IRQ/IRQ_tensions_with_tehran.dds"
+	}
+	
+SpriteType = { 
+		name = "GFX_idea_IRQ_shining_jewel"
+		texturefile = "gfx/interface/ideas/IRQ/IRQ_shining_jewel.dds"
+	}
+	
+SpriteType = { 
+		name = "GFX_idea_IRQ_sadr_uprisings"
+		texturefile = "gfx/interface/ideas/IRQ/IRQ_sadr_uprisings.dds"
+	}
+SpriteType = { 
+		name = "GFX_idea_IRQ_banner_of_liberation"
+		texturefile = "gfx/interface/ideas/IRQ/IRQ_banner_of_liberation.dds"
+	}
+SpriteType = { 
+		name = "GFX_idea_IRQ_cult_of_saddam"
+		texturefile = "gfx/interface/ideas/IRQ/IRQ_cult_of_saddam.dds"
+	}
+}

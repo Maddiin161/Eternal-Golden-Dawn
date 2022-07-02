@@ -34,3 +34,16 @@
  iraq.60.t:0 "Iraqi Army Purchases Mi-25 Stock"
  iraq.60.d:0 ""
  iraq.60.a:0 "A Hind-D? What's a Russian gunship doing here?"
+ 
+ ### IDEAS ###
+ IRQ_cult_of_saddam_idea:0 "Cult of Saddam"
+ IRQ_cult_of_saddam_idea_desc:0 "Saddam Hussein's rule over Iraq is absolute. In order to manipulate the Iraqi population into compliance, the engines of propaganda have been running non-stop since Hussein's ascendence. But there's a lid on how much people can be deceived and Saddam's propaganda apparatus is reaching that limit.\n\nTo remain in power, Saddam will match the anticipations he set on himself, like the man he is."
+ IRQ_tensions_with_tehran_idea:0 "Tensions with Tehran"
+ IRQ_tensions_with_tehran_idea_desc:0 "The tensions between Iraq and Iran have never been so disastrous. Iran's ambitions of becoming the vanguard of Shia Muslims have clearly been shown to us and to world, when the Iranian leadership became the supplier of arms to the Shia protests. That, combined with the decisive political and diplomatic differences of both countries, suggests that a conflict is inevitable."
+ IRQ_banner_of_liberation_idea:0 "the Banner of Arab Liberation"
+ IRQ_banner_of_liberation_idea_desc:0 "Nasser's vision to unify the Arab people has not yet come true. The effort of most nations in the Middle East to achieve pan-Arabism has been either abandoned or failed.\n\nYet, despite being surrounded by nations hostile to Nasser's dream, in Baghdad, the Nasserist banner still stands. Iraq marches forward with the flag of the Arab people!"
+ IRQ_shining_jewel_idea:0 "Shining Jewel"
+ IRQ_shining_jewel_idea_desc:0 "Amongst the severe poverty of the Middle East, Iraq's economy stands as a shining example for other Arab countries. Providing both good -and free- healthcare and education for its people, while also having one of the fastest-growing economies in the world with a staggering 1325% GDP increase in just ten years, it is no wonder that many people consider this to be the golden age of Iraq."
+ IRQ_sadr_uprisings_idea:0 "Sadr Uprisings"
+ IRQ_sadr_uprisings_idea_desc:0 "Since 1977, Iraq has been plagued by the Sadr uprisings. They were set off like a stick of dynamite, with the spark being the arrest of Ayatollah Muhammad Baqir al-Sadr. His powerful movement that opposed the Ba’athist rule has since only grown in size and so have the protests.\n\nEven after three years, Saddam's administration has been attempting to stamp out the fire of the protests, though unsuccessfully."
+ 
