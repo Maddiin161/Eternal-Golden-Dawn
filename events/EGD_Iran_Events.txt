@@ -88,15 +88,39 @@ country_event = {
 }
 #Focus Events
 country_event = {
-	id = iran.8
-	title = iran.8.t
-	desc = iran.8.d
-	picture = GFX_news_event_shah
-	is_triggered_only = yes
-	fire_only_once = yes
-	major = no
-	
-	option = {
-	add_ideas = PER_shahist_executaions
+    id = iran.8
+    title = iran.8.t
+    desc = iran.8.desc
+
+    is_triggered_only = yes
+
+    option = {
+        name = my_event.1.a
+        add_political_power = 100
     }
+}
+country_event = {
+    id = iran.9
+    title = iran.9.t
+    desc = iran.9.desc
+
+    is_triggered_only = yes
+
+    option = {
+        name = my_event.1.a
+        war_support_factor = 0.025
+    }
+}
+country_event = {
+    id = iran.10
+    title = iran.10.t
+    desc = iran.10.desc
+
+    is_triggered_only = yes
+
+    option = {
+        name = my_event.1.a
+        add_political_power = 100
+    }
+}
 }
