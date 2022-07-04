@@ -30,7 +30,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Anwar_Sadat.dds"
 	expire = "1982.1.1"
-	ideology = market_liberalism
+	ideology = market_liberalism_ideology
 	traits = {}
 }
 
