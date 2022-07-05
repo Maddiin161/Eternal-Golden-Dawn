@@ -1,6 +1,6 @@
 USA_hostage_crisis_category = {
 		icon = PER_hostage_crisis_category_icon  
-		picture = GFX_decision_cat_PER_hostage_crisis
+		picture = GFX_EGD_Decision_Picture_Iran_Hostages
 		visible_when_empty = yes
 		priority = 4
 
