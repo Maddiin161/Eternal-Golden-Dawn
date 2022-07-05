@@ -10,7 +10,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 	original_tag = YUG
-	date = 1980.1.1
+	date > 1980.1.1
 	}
 	major = yes
 	
@@ -25,12 +25,12 @@ country_event = {
 	id = egd_yugoslavia.2
 	title = egd_yugoslavia.2.t
 	desc = egd_yugoslavia.2.d
-	picture = 
+	picture = GFX_event_yugoslavintro #place holder
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
 	original_tag = YUG
-	date = 1980.4.4
+	date > 1980.4.4
 	}
 	major = yes
 	
@@ -69,10 +69,9 @@ country_event = {
 				traits = {
 				}
 			}			
-		}
 		hidden_effect =  { every_country = { news_event = WorldNews.50 } }
 	}
-
+}
 ##Event: Lofty Aspirations  
 country_event = {
 	id = egd_yugoslavia.4
@@ -97,12 +96,12 @@ country_event = {
 	id = egd_yugoslavia.5
 	title = egd_yugoslavia.5.t
 	desc = egd_yugoslavia.5.d
-	picture = 
+	picture = GFX_event_aspirations #placeholder
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
 	original_tag = YUG
-	date = 1980.6.20
+	date > 1980.6.20
 	}
 	major = yes
 	
@@ -117,12 +116,12 @@ country_event = {
 	id = egd_yugoslavia.6
 	title = egd_yugoslavia.6.t
 	desc = egd_yugoslavia.6.d
-	picture = 
+	picture = GFX_event_aspirations #placeholder
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
 	original_tag = YUG
-	date = 1980.6.22
+	date > 1980.6.22
 	}
 	major = yes
 	
@@ -130,15 +129,14 @@ country_event = {
 		name = "Not worth it anymore."
 		hidden_effect = {
 		country_event = { id = egd_yugoslavia.7 days = 3 }
-		
-	}
+	    }
 	}
 	
 	option = {
 		name = "Let's see what we can do..."
 		hidden_effect = {
 		country_event = { id = egd_yugoslavia.8 days = 3 }
-	}
+	    }
 	}
 }
 
@@ -147,18 +145,19 @@ country_event = {
 	id = egd_yugoslavia.7
 	title = egd_yugoslavia.7.t
 	desc = egd_yugoslavia.7.d
-	picture = 
+	picture = GFX_event_aspirations #placeholder
 	is_triggered_only = yes
 	fire_only_once = yes
 	major = yes
 	
 	option = {
 		name = "At Last"
-		YUG = 
+		YUG = {
 		retire_ideology_leader = autocracy
 		add_popularity = {
 		ideology = libertarian_socialism
 		popularity = 0.05
+		}
 		add_stability = 0.05
 		hidden_effect = {
 		country_event = { id = egd_yugoslavia.9 days = 3 }
@@ -173,7 +172,7 @@ country_event = {
 	id = egd_yugoslavia.8
 	title = egd_yugoslavia.8.t
 	desc = egd_yugoslavia.8.d
-	picture = 
+	picture = GFX_event_aspirations #placeholder
 	is_triggered_only = yes
 	fire_only_once = yes
 	major = yes
@@ -199,7 +198,7 @@ country_event = {
 	
 	option = {
 		name = "The people love him"
-		YUG = 
+		YUG = {
 		retire_country_leader = yes
 		create_country_leader = {
 				name = "Milovan Djilas" 
@@ -217,7 +216,9 @@ country_event = {
                 }
 				hidden_effect =  { set_country_flag = djilas} 
 	
-}
+        }
+	}
+
     option = {
 		name = "The constitution is here for a reason..."
 	    hidden_effect =  { set_country_flag = otl} 
@@ -238,12 +239,11 @@ country_event = {
 		name = "Fire at will!"
 		set_politics = {
 			ruling_party = autocracy
-		hidden_effect = {
-		country_event = { id = egd_yugoslavia.11 days = 3 }
+		}
+		hidden_effect = { country_event = { id = egd_yugoslavia.11 days = 3 } }
 		hidden_effect = { every_country = { news_event = WorldNews.52 } }
-	}
-	}
-	}
+	    }
+
 	option = {
 		name = "Arrest that Lunatic!"
 		set_politics = {
@@ -287,7 +287,7 @@ country_event = {
 	id = egd_yugoslavia.12
 	title = egd_yugoslavia.12.t
 	desc = egd_yugoslavia.12.d
-	picture = 
+	picture = GFX_event_aspirations #placeholder
 	is_triggered_only = yes
 	fire_only_once = yes
 	major = yes
@@ -295,7 +295,7 @@ country_event = {
 	option = {
 		name = "Everything is fine..."
 		add_stability = 0.1
-		war_support_factor = -0.15
+		add_war_support	 = -0.15
 		hidden_effect =  { every_country = { news_event = WorldNews.51 } }
 
 }
@@ -307,13 +307,13 @@ country_event = {
 	id = egd_yugoslavia.13
 	title = egd_yugoslavia.13.t
 	desc = egd_yugoslavia.13.d
-	picture = 
+	picture = GFX_event_aspirations #placeholder
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
 	original_tag = YUG
     has_country_flag = otl
-	date = 1981.3.11
+	date > 1981.3.11
 	}
 	major = yes
 	
@@ -328,20 +328,20 @@ country_event = {
 	id = egd_yugoslavia.14
 	title = egd_yugoslavia.14.t
 	desc = egd_yugoslavia.14.d
-	picture = 
+	picture = GFX_event_aspirations #placeholder
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
 	original_tag = YUG
     has_country_flag = djilas
-	date = 1981.3.11
+	date > 1981.3.11
 	}
 	major = yes
 	
 	option = {
 	name = "Roffte Kosova!"
 	    add_stability = 0.1
-		war_support_factor = 0.15
+		add_war_support = 0.15
 		add_popularity = {
          ideology = libertarian_socialism
          popularity = 0.15
@@ -356,13 +356,13 @@ country_event = {
 	id = egd_yugoslavia.15
 	title = egd_yugoslavia.15.t
 	desc = egd_yugoslavia.15.d
-	picture = 
+	picture = GFX_event_aspirations #placeholder
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
 	original_tag = YUG
     has_government = authoritarian_democracy
-	date = 1981.3.11
+	date > 1981.3.11
 	}
 	major = yes
 	
@@ -379,7 +379,7 @@ country_event = {
 	id = egd_yugoslavia.16
 	title = egd_yugoslavia.16.t
 	desc = egd_yugoslavia.16.d
-	picture = 
+	picture = GFX_event_aspirations #placeholder 
 	is_triggered_only = yes
 	fire_only_once = yes
 	major = yes
@@ -399,20 +399,20 @@ country_event = {
 	id = egd_yugoslavia.17
 	title = egd_yugoslavia.17.t
 	desc = egd_yugoslavia.17.d
-	picture = 
+	picture = GFX_event_aspirations #placeholder
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
 	original_tag = YUG
     has_government = autocracy
-	date = 1981.3.11
+	date > 1981.3.11
 	}
 	major = yes
 	
 	option = {
 	name = "Pure Chaos!"
 		add_stability = -0.25
-		war_support_factor = -0.1
+		add_war_support = -0.1
 		add_political_power = -250
 		add_manpower = -350
 		
@@ -424,7 +424,7 @@ country_event = {
 	id = egd_yugoslavia.18
 	title = egd_yugoslavia.18.t
 	desc = egd_yugoslavia.18.d
-	picture = 
+	picture = GFX_event_aspirations #placeholder
 	is_triggered_only = yes
 	fire_only_once = yes
 	major = yes
@@ -451,7 +451,7 @@ country_event = {
 	id = egd_yugoslavia.19
 	title = egd_yugoslavia.19.t
 	desc = egd_yugoslavia.19.d
-	picture = 
+	picture = GFX_event_aspirations #placeholder
 	is_triggered_only = yes
 	fire_only_once = yes
 	major = yes
@@ -462,10 +462,11 @@ country_event = {
 		kill_country_leader = yes
 		set_politics = {
 		ruling_party = authoritarian_democracy
+		}
 		hidden_effect =  { every_country = { news_event = WorldNews.53 } }
 }
 }
-}
+
 
 ##Event: The Quiet War
 country_event = {
@@ -493,21 +494,23 @@ country_event = {
 	id = egd_yugoslavia.21
 	title = egd_yugoslavia.21.t
 	desc = egd_yugoslavia.21.d
-	picture = 
+	picture = GFX_event_aspirations #placeholder
 	is_triggered_only = yes
 	fire_only_once = no
-	random = yes
-	trigger = {
-	original_tag = YUG
-    has_country_flag = quiet_war
-	}
+	# random = yes (?)
+	#trigger = {
+	#original_tag = YUG
+    #has_country_flag = quiet_war
+	#}	
 	major = yes
 	
 	option = {
 	name = "Do something!"
 	add_command_power = -0.5
+    random_owned_state = {
 	add_resistance = 20	
 	set_garrison_strength = -0.1
+	}
 }
 }
 
@@ -516,20 +519,20 @@ country_event = {
 	id = egd_yugoslavia.22
 	title = egd_yugoslavia.22.t
 	desc = egd_yugoslavia.22.d
-	picture = 
+	picture = GFX_event_aspirations #placeholder
 	is_triggered_only = yes
 	fire_only_once = no
-	random = yes
-	trigger = {
-	original_tag = YUG
-    has_country_flag = quiet_war
-	}
+	#random = yes
+	#trigger = {
+	#original_tag = YUG
+    #has_country_flag = quiet_war
+	#}
 	major = yes
 	
 	option = {
 	name = "The flames leapt up to lick the clouds"
 	add_manpower = -200
-	add_resistance = 15 
+	random_owned_state = {add_resistance = 15}
 }
 }
 
@@ -538,20 +541,20 @@ country_event = {
 	id = egd_yugoslavia.23
 	title = egd_yugoslavia.23.t
 	desc = egd_yugoslavia.23.d
-	picture = 
+	picture = GFX_event_aspirations #placeholder
 	is_triggered_only = yes
 	fire_only_once = no
-	random = yes
-	trigger = {
-	original_tag = YUG
-    has_country_flag = quiet_war
-	}
+	#random = yes
+	#trigger = {
+	#original_tag = YUG
+    #has_country_flag = quiet_war
+	#}
 	major = yes
 	
 	option = {
 	name = "Smell of Gunpowder"
 	add_manpower = -32
-	add_resistance = 10
+	random_owned_state = { add_resistance = 10 }
 }
 }
 
@@ -560,20 +563,20 @@ country_event = {
 	id = egd_yugoslavia.24
 	title = egd_yugoslavia.24.t
 	desc = egd_yugoslavia.24.d
-	picture = 
+	picture = GFX_event_aspirations #placeholder
 	is_triggered_only = yes
 	fire_only_once = no
-	random = yes
-	trigger = {
-	original_tag = YUG
-    has_country_flag = quiet_war
-	}
+	#random = yes
+	#trigger = {
+	#original_tag = YUG
+    #has_country_flag = quiet_war
+	#}
 	major = yes
 	
 	option = {
 	name = "We belong to Allah, and to Him shall we return"
 	add_manpower = -12
-	add_resistance = 5
+	random_owned_state = { add_resistance = 5 }
 }
 }
 
@@ -582,20 +585,20 @@ country_event = {
 	id = egd_yugoslavia.25
 	title = egd_yugoslavia.25.t
 	desc = egd_yugoslavia.25.d
-	picture = 
+	picture = GFX_event_aspirations #placeholder
 	is_triggered_only = yes
 	fire_only_once = no
-	random = yes
-	trigger = {
-	original_tag = YUG
-    has_country_flag = quiet_war
-	}
+	#random = yes
+	#trigger = {
+	#original_tag = YUG
+   # has_country_flag = quiet_war
+	#}
 	major = yes
 	
 	option = {
 	name = "May their souls rest in peace..."
 	add_manpower = -12
-	add_resistance = 5	
+	random_owned_state = { add_resistance = 5 }
+    }
 }
-
 

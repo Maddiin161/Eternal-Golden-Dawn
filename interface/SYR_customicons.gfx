@@ -305,16 +305,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_the_old_guard-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_the_old_guard-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_the_old_guard-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_the_old_guard-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_the_old_guard-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_the_old_guard-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_the_old_guard-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_the_old_guard-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -326,7 +326,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_the_old_guard-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_the_old_guard-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -343,16 +343,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_a_level_hand-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_a_level_hand-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_a_level_hand-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_a_level_hand-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_a_level_hand-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_a_level_hand-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_a_level_hand-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_a_level_hand-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -364,7 +364,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_a_level_hand-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_a_level_hand-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -381,13 +381,13 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_an_unlikely_choice-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_an_unlikely_choice-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_an_unlikely_choice-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_an_unlikely_choice-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_an_unlikely_choice-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_an_unlikely_choice-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/GFX_SYR_an_unlikely_choice-445.dds"
@@ -402,7 +402,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_an_unlikely_choice-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_an_unlikely_choice-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -419,16 +419,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_guardians_of_the_homeland-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_guardians_of_the_homeland-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_guardians_of_the_homeland-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_guardians_of_the_homeland-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_guardians_of_the_homeland-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_guardians_of_the_homeland-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_guardians_of_the_homeland-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_guardians_of_the_homeland-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -440,7 +440,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_guardians_of_the_homeland-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_guardians_of_the_homeland-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -457,16 +457,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_struggles_in_damascus-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_struggles_in_damascus-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_struggles_in_damascus-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_struggles_in_damascus-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_struggles_in_damascus-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_struggles_in_damascus-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_struggles_in_damascus-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_struggles_in_damascus-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -478,7 +478,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_struggles_in_damascus-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_struggles_in_damascus-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -495,16 +495,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_death_has_taken_away_from_syria_a_leader-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_death_has_taken_away_from_syria_a_leader-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_death_has_taken_away_from_syria_a_leader-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_death_has_taken_away_from_syria_a_leader-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_death_has_taken_away_from_syria_a_leader-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_death_has_taken_away_from_syria_a_leader-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_death_has_taken_away_from_syria_a_leader-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_death_has_taken_away_from_syria_a_leader-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -516,7 +516,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_death_has_taken_away_from_syria_a_leader-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_death_has_taken_away_from_syria_a_leader-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -533,16 +533,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_farming_production-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_farming_production-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_farming_production-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_farming_production-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_farming_production-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_farming_production-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_farming_production-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_farming_production-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -554,7 +554,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_farming_production-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_farming_production-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -571,16 +571,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_petroleum_from_rmelan-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_petroleum_from_rmelan-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_petroleum_from_rmelan-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_petroleum_from_rmelan-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_petroleum_from_rmelan-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_petroleum_from_rmelan-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_petroleum_from_rmelan-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_petroleum_from_rmelan-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -592,7 +592,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_petroleum_from_rmelan-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_petroleum_from_rmelan-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -606,57 +606,57 @@ spriteTypes = {	##Icon For:
 		legacy_lazy_load = no
 	}
 
-	##Icon For: 
-	SpriteType = { 
-		name = "GFX_SYR_continue_nationalization-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_continue_nationalization-445.dds"
-	}
-
+	##Icon For: (Doesnt seem to exist)
+	#SpriteType = { 
+	#	name = "GFX_SYR_continue_nationalization-445"
+	#	texturefile = "gfx/interface/goals/SYR/GFX_SYR_continue_nationalization-445.dds"
+	#}
+    #
 	##Icon Shine For: 
-	SpriteType = { 
-		name = "GFX_SYR_continue_nationalization-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_continue_nationalization-445.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_continue_nationalization-445.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = -90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_continue_nationalization-445.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = 90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
+	#SpriteType = { 
+	#	name = "GFX_SYR_continue_nationalization-445_shine"
+	#	texturefile = "gfx/interface/goals/SYR/GFX_SYR_continue_nationalization-445.dds"
+	#	effectFile = "gfx/FX/buttonstate.lua"
+	#	animation = {
+	#		animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_continue_nationalization-445.dds"
+	#		animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+	#		animationrotation = -90.0
+	#		animationlooping = no
+	#		animationtime = 0.75
+	#		animationdelay = 0
+	#		animationblendmode = "add"
+	#		animationtype = "scrolling"
+	#		animationrotationoffset = { x = 0.0 y = 0.0 }
+	#		animationtexturescale = { x = 1.0 y = 1.0 } 
+	#	}
+	#	animation = {
+	#		animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_continue_nationalization-445.dds"
+	#		animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+	#		animationrotation = 90.0
+	#		animationlooping = no
+	#		animationtime = 0.75
+	#		animationdelay = 0
+	#		animationblendmode = "add"
+	#		animationtype = "scrolling"
+	#		animationrotationoffset = { x = 0.0 y = 0.0 }
+	#		animationtexturescale = { x = 1.0 y = 1.0 } 
+	#	}
+	#	legacy_lazy_load = no
+	#}
 
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_cotton_from_homs-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_cotton_from_homs-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_cotton_from_homs-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_cotton_from_homs-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_cotton_from_homs-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_cotton_from_homs-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_cotton_from_homs-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_cotton_from_homs-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -668,7 +668,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_cotton_from_homs-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_cotton_from_homs-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -685,16 +685,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_coastline_protection-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_coastline_protection-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_coastline_protection-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_coastline_protection-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_coastline_protection-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_coastline_protection-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_coastline_protection-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_coastline_protection-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -706,7 +706,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_coastline_protection-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_coastline_protection-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -723,16 +723,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_ground_organization-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_ground_organization-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_ground_organization-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_ground_organization-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_ground_organization-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_ground_organization-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_ground_organization-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_ground_organization-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -744,7 +744,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_ground_organization-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_ground_organization-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -761,16 +761,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_weapons_for_a_new_age-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_weapons_for_a_new_age-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_weapons_for_a_new_age-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_weapons_for_a_new_age-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_weapons_for_a_new_age-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_weapons_for_a_new_age-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_weapons_for_a_new_age-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_weapons_for_a_new_age-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -782,7 +782,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_weapons_for_a_new_age-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_weapons_for_a_new_age-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -799,16 +799,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_gunships_from_russia-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_gunships_from_russia-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_gunships_from_russia-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_gunships_from_russia-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_gunships_from_russia-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_gunships_from_russia-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_gunships_from_russia-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_gunships_from_russia-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -820,7 +820,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_gunships_from_russia-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_gunships_from_russia-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -837,16 +837,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_eagles_in_the_sky-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_eagles_in_the_sky-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_eagles_in_the_sky-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_eagles_in_the_sky-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_eagles_in_the_sky-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_eagles_in_the_sky-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_eagles_in_the_sky-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_eagles_in_the_sky-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -858,7 +858,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_eagles_in_the_sky-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_eagles_in_the_sky-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -875,16 +875,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_suppress_the_campaign_of_terror-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_suppress_the_campaign_of_terror-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_suppress_the_campaign_of_terror-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_suppress_the_campaign_of_terror-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_suppress_the_campaign_of_terror-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_suppress_the_campaign_of_terror-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_suppress_the_campaign_of_terror-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_suppress_the_campaign_of_terror-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -896,7 +896,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_suppress_the_campaign_of_terror-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_suppress_the_campaign_of_terror-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -913,16 +913,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_3_weeks_in_hama-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_3_weeks_in_hama-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_3_weeks_in_hama-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_3_weeks_in_hama-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_3_weeks_in_hama-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_3_weeks_in_hama-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_3_weeks_in_hama-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_3_weeks_in_hama-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -934,7 +934,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_3_weeks_in_hama-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_3_weeks_in_hama-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -949,56 +949,56 @@ spriteTypes = {	##Icon For:
 	}
 
 	##Icon For: 
-	SpriteType = { 
-		name = "GFX_SYR_industrialization_efforts-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_industrialization_efforts-445.dds"
-	}
-
-	##Icon Shine For: 
-	SpriteType = { 
-		name = "GFX_SYR_industrialization_efforts-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_industrialization_efforts-445.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_industrialization_efforts-445.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = -90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_industrialization_efforts-445.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = 90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
+	#SpriteType = { 
+	#	name = "GFX_SYR_industrialization_efforts-445"
+	#	texturefile = "gfx/interface/goals/SYR/GFX_SYR_industrialization_efforts-445.dds"
+	#}
+#
+	##Icon Shine For: (doesnt exist?)
+	#SpriteType = { 
+	#	name = "GFX_SYR_industrialization_efforts-445_shine"
+	#	texturefile = "gfx/interface/goals/SYR/GFX_SYR_industrialization_efforts-445.dds"
+	#	effectFile = "gfx/FX/buttonstate.lua"
+	#	animation = {
+	#		animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_industrialization_efforts-445.dds"
+	#		animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+	##		animationrotation = -90.0
+	#		animationlooping = no
+	#		animationtime = 0.75
+	#		animationdelay = 0
+	##		animationblendmode = "add"
+	#		animationtype = "scrolling"
+	#		animationrotationoffset = { x = 0.0 y = 0.0 }
+	#		animationtexturescale = { x = 1.0 y = 1.0 } 
+	#	}
+	#	animation = {
+	#		animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_industrialization_efforts-445.dds"
+	#		animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+	#		animationrotation = 90.0
+	##		animationlooping = no
+	#		animationtime = 0.75
+	#		animationdelay = 0
+	#		animationblendmode = "add"
+	#		animationtype = "scrolling"
+	#		animationrotationoffset = { x = 0.0 y = 0.0 }
+	#		animationtexturescale = { x = 1.0 y = 1.0 } 
+	#	}
+	#	legacy_lazy_load = no
+	#}
 
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_a_modern_power-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_a_modern_power-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_a_modern_power-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_a_modern_power-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_a_modern_power-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_a_modern_power-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_a_modern_power-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_a_modern_power-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1010,7 +1010,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_a_modern_power-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_a_modern_power-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1027,16 +1027,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_zionist_threat_in_lebanon-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_zionist_threat_in_lebanon-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_zionist_threat_in_lebanon-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_zionist_threat_in_lebanon-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_zionist_threat_in_lebanon-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_zionist_threat_in_lebanon-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_zionist_threat_in_lebanon-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_zionist_threat_in_lebanon-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1048,7 +1048,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_zionist_threat_in_lebanon-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_zionist_threat_in_lebanon-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1065,16 +1065,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_a_new_syria-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_a_new_syria-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_a_new_syria-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_a_new_syria-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_a_new_syria-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_a_new_syria-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_a_new_syria-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_a_new_syria-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1086,7 +1086,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_a_new_syria-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_a_new_syria-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1103,16 +1103,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_the_islamist_threat-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_the_islamist_threat-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_the_islamist_threat-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_the_islamist_threat-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_the_islamist_threat-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_the_islamist_threat-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_the_islamist_threat-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_the_islamist_threat-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1124,7 +1124,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_the_islamist_threat-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_the_islamist_threat-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1141,16 +1141,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_reaffirm_the_baath_reaffirm_the_alawites-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_reaffirm_the_baath_reaffirm_the_alawites-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_reaffirm_the_baath_reaffirm_the_alawites-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_reaffirm_the_baath_reaffirm_the_alawites-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_reaffirm_the_baath_reaffirm_the_alawites-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_reaffirm_the_baath_reaffirm_the_alawites-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_reaffirm_the_baath_reaffirm_the_alawites-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_reaffirm_the_baath_reaffirm_the_alawites-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1162,7 +1162,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_reaffirm_the_baath_reaffirm_the_alawites-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_reaffirm_the_baath_reaffirm_the_alawites-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1179,16 +1179,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_pick_up_the_slack_quickly-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_pick_up_the_slack_quickly-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_pick_up_the_slack_quickly-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_pick_up_the_slack_quickly-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_pick_up_the_slack_quickly-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_pick_up_the_slack_quickly-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_pick_up_the_slack_quickly-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_pick_up_the_slack_quickly-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1200,7 +1200,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_pick_up_the_slack_quickly-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_pick_up_the_slack_quickly-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1217,16 +1217,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_continue_his_legacy-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_continue_his_legacy-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_continue_his_legacy-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_continue_his_legacy-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_continue_his_legacy-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_continue_his_legacy-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_continue_his_legacy-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_continue_his_legacy-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1238,7 +1238,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_continue_his_legacy-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_continue_his_legacy-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1255,16 +1255,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_digging_ourselves_out-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_digging_ourselves_out-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_digging_ourselves_out-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_digging_ourselves_out-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_digging_ourselves_out-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_digging_ourselves_out-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_digging_ourselves_out-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_digging_ourselves_out-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1276,7 +1276,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_digging_ourselves_out-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_digging_ourselves_out-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1293,16 +1293,16 @@ spriteTypes = {	##Icon For:
 	##Icon For: 
 	SpriteType = { 
 		name = "GFX_SYR_an_agrarian_power-445"
-		texturefile = "gfx/interface/goals/GFX_SYR_an_agrarian_power-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_an_agrarian_power-445.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_SYR_an_agrarian_power-445_shine"
-		texturefile = "gfx/interface/goals/GFX_SYR_an_agrarian_power-445.dds"
+		texturefile = "gfx/interface/goals/SYR/GFX_SYR_an_agrarian_power-445.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_an_agrarian_power-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_an_agrarian_power-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1314,7 +1314,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_SYR_an_agrarian_power-445.dds"
+			animationmaskfile = "gfx/interface/goals/SYR/GFX_SYR_an_agrarian_power-445.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
