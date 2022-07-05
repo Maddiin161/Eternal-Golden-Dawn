@@ -1,0 +1,54 @@
+ideas = {	
+	country = {
+		OMA_fisabilsultan_idea = {
+			picture = OMA_fisabilsultan
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				custom_modifier_tooltip = OMA_fisabilsultan_modifier
+				OMA_Fisabilsultan_relation_modifier = {
+					valid_relation_trigger = {
+						FROM = {
+							OR = {
+								has_government = revolutionary_socialism
+								has_government = libertarian_socialism
+							}
+						}
+					}
+				}
+			}
+		}
+		OMA_the_right_from_wrong_idea = {
+			picture = OMA_the_right_from_wrong
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.5
+				custom_modifier_tooltip = OMA_dmz_muscat
+			}
+		}
+		OMA_khanjar_idea = {
+			picture = OMA_khanjar
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_core_defence_factor = 0.5
+			}
+		}
+	}
+}

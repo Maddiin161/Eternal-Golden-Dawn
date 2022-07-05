@@ -6,7 +6,13 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = no
 }
-
+add_ideas = {
+	IRQ_cult_of_saddam_idea
+	IRQ_tensions_with_tehran_idea
+	IRQ_banner_of_liberation_idea
+	IRQ_shining_jewel_idea
+	IRQ_sadr_uprisings_idea
+}
 set_popularities = {
 	annihilationism = 0
 	transhumanism = 0

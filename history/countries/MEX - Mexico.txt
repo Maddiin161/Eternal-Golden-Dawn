@@ -1,7 +1,7 @@
 ﻿capital = 277
 
 set_politics = {
-	ruling_party = social_conservatism
+	ruling_party = authoritarian_democracy
 	last_election = "1962.3.2"
 	election_frequency = 36
 	elections_allowed = no

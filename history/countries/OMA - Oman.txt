@@ -6,7 +6,11 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
+add_ideas = {
+	OMA_fisabilsultan_idea
+	OMA_the_right_from_wrong_idea
+	OMA_khanjar_idea
+}
  set_popularities = {
 	annihilationism = 0
 	transhumanism = 0

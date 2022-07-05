@@ -12,7 +12,7 @@ shared_focus = {
 
 shared_focus = {
 	id = IRQ_and_iraq_holds_its_breath
-	icon = GFX_goal_unknown
+	icon = GFX_IRQ_And_Iraq_Holds_Its_Breath
 	cost = 3
 	x = 0
 	y = 1.5
