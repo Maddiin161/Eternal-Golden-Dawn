@@ -1,14 +1,16 @@
 ﻿capital = 294
 
-set_cosmetic_tag = OMA_SUL
-
 set_politics = {
 	ruling_party = despotism
 	last_election = "1970.7.23"
 	election_frequency = 48
 	elections_allowed = no
 }
-
+add_ideas = {
+	OMA_fisabilsultan_idea
+	OMA_the_right_from_wrong_idea
+	OMA_khanjar_idea
+}
  set_popularities = {
 	annihilationism = 0
 	transhumanism = 0
@@ -29,7 +31,7 @@ set_politics = {
 create_country_leader = {
 	name = "Shihab bin Tariq al-Said" 
 	desc = ""
-	picture = "Said_I.dds"
+	picture = "Shihab_I.dds"
 	expire = "2003.3.1"
 	ideology = monarchism
 	traits = {

@@ -636,7 +636,7 @@ spriteTypes = {
 		
 		# Cuba
 		
-		SpriteType = { 
+	SpriteType = { 
 		name = "GFX_CUB_the_final_revolution_shine"
 		texturefile = "gfx/interface/goals/GFX_CUB_the_final_revolution.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -698,7 +698,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
-SpriteType = { 
+	SpriteType = { 
 		name = "GFX_CUB_el_observa_shine"
 		texturefile = "gfx/interface/goals/GFX_CUB_el_observa.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -729,7 +729,7 @@ SpriteType = {
 		legacy_lazy_load = no
 	}
 
-SpriteType = { 
+	SpriteType = { 
 		name = "GFX_CUB_sharpen_our_sickles_shine"
 		texturefile = "gfx/interface/goals/GFX_CUB_sharpen_our_sickles.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -758,10 +758,8 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		legacy_lazy_load = no
-	}
-	
-
-SpriteType = { 
+	}	
+	SpriteType = { 
 		name = "GFX_CUB_secure_nuclear_weapons_shine"
 		texturefile = "gfx/interface/goals/GFX_CUB_secure_nuclear_weapons.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -791,8 +789,7 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-	
-SpriteType = { 
+	SpriteType = { 
 		name = "GFX_CUB_retake_guantanamo_shine"
 		texturefile = "gfx/interface/goals/GFX_CUB_retake_guantanamo.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -821,9 +818,9 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		legacy_lazy_load = no
-	}	
+	}
 	SpriteType = {
-		name = "GFX_PER_ASHOOB"
+		name = "GFX_PER_ASHOOB_shine"
 		texturefile = "gfx/interface/goals/PER/GFX_PER_ASHOOB.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -838,10 +835,24 @@ SpriteType = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/PER/GFX_PER_ASHOOB.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
 	SpriteType = {
-			name = "GFX_PER_Forming_Muqwimat_e_Eslami"
+			name = "GFX_PER_Forming_Muqwimat_e_Eslami_shine"
 			texturefile = "gfx/interface/goals/PER/GFX_PER_Forming_Muqwimat_e_Eslami.dds"
-					effectFile = "gfx/FX/buttonstate.lua"
+			effectFile = "gfx/FX/buttonstate.lua"
 			animation = {
 				animationmaskfile = "gfx/interface/goals/PER/GFX_PER_Forming_Muqwimat_e_Eslami.dds"
 				animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
@@ -854,154 +865,258 @@ SpriteType = {
 				animationrotationoffset = { x = 0.0 y = 0.0 }
 				animationtexturescale = { x = 1.0 y = 1.0 } 
 			}
+			animation = {
+				animationmaskfile = "gfx/interface/goals/PER/GFX_PER_Forming_Muqwimat_e_Eslami.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+				animationrotation = 90.0
+				animationlooping = no
+				animationtime = 0.75
+				animationdelay = 0
+				animationblendmode = "add"
+				animationtype = "scrolling"
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
 	}
-SpriteType = { 
-		name = "GFX_SYR_Assad_New_Decade_shine"
-		texturefile = "gfx/interface/goals/SYR/SYR_Assad_New_Decade.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SYR/SYR_Assad_New_Decade.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = -90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SYR/SYR_Assad_New_Decade.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = 90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
+	SpriteType = {
+			name = "GFX_PER_Ready_For_The_Arrival_shine"
+			texturefile = "gfx/interface/goals/PER/GFX_PER_Ready_For_The_Arrival.dds"
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/PER/GFX_PER_Ready_For_The_Arrival.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+				animationrotation = -90.0
+				animationlooping = no
+				animationtime = 0.75
+				animationdelay = 0
+				animationblendmode = "add"       
+				animationtype = "scrolling"
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			animation = {
+				animationmaskfile = "gfx/interface/goals/PER/GFX_PER_Ready_For_The_Arrival.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+				animationrotation = 90.0
+				animationlooping = no
+				animationtime = 0.75
+				animationdelay = 0
+				animationblendmode = "add"
+				animationtype = "scrolling"
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
 	}
-SpriteType = { 
-		name = "GFX_SYR_Fruits_70s_shine"
-		texturefile = "gfx/interface/goals/SYR/SYR_Fruits_70s.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SYR/SYR_Fruits_70s.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = -90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
+	SpriteType = { 
+			name = "GFX_SYR_3rd_armored_division_shine"
+			texturefile = "gfx/interface/goals/SYR/SYR_3rd_armored_division.dds"
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SYR/SYR_3rd_armored_division.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+				animationrotation = -90.0
+				animationlooping = no
+				animationtime = 0.75
+				animationdelay = 0
+				animationblendmode = "add"
+				animationtype = "scrolling"
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SYR/SYR_3rd_armored_division.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+				animationrotation = 90.0
+				animationlooping = no
+				animationtime = 0.75
+				animationdelay = 0
+				animationblendmode = "add"
+				animationtype = "scrolling"
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
 		}
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SYR/SYR_Fruits_70s.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = 90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
+	SpriteType = {
+			name = "GFX_SYR_Assad_New_Decade_shine"
+			texturefile = "gfx/interface/goals/SYR/SYR_Assad_New_Decade.dds"
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SYR/SYR_Assad_New_Decade.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+				animationrotation = -90.0
+				animationlooping = no
+				animationtime = 0.75
+				animationdelay = 0
+				animationblendmode = "add"
+				animationtype = "scrolling"
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SYR/SYR_Assad_New_Decade.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+				animationrotation = 90.0
+				animationlooping = no
+				animationtime = 0.75
+				animationdelay = 0
+				animationblendmode = "add"
+				animationtype = "scrolling"
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
 		}
-		legacy_lazy_load = no
-	}
-SpriteType = { 
-		name = "GFX_SYR_Lion_of_Syria_shine"
-		texturefile = "gfx/interface/goals/SYR/SYR_Lion_of_Syria.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SYR/SYR_Lion_of_Syria.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = -90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
+	SpriteType = { 
+			name = "GFX_SYR_Fruits_70s_shine"
+			texturefile = "gfx/interface/goals/SYR/SYR_Fruits_70s.dds"
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SYR/SYR_Fruits_70s.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+				animationrotation = -90.0
+				animationlooping = no
+				animationtime = 0.75
+				animationdelay = 0
+				animationblendmode = "add"
+				animationtype = "scrolling"
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SYR/SYR_Fruits_70s.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+				animationrotation = 90.0
+				animationlooping = no
+				animationtime = 0.75
+				animationdelay = 0
+				animationblendmode = "add"
+				animationtype = "scrolling"
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
 		}
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SYR/SYR_Lion_of_Syria.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = 90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
+	SpriteType = { 
+			name = "GFX_SYR_Lion_of_Syria_shine"
+			texturefile = "gfx/interface/goals/SYR/SYR_Lion_of_Syria.dds"
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SYR/SYR_Lion_of_Syria.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+				animationrotation = -90.0
+				animationlooping = no
+				animationtime = 0.75
+				animationdelay = 0
+				animationblendmode = "add"
+				animationtype = "scrolling"
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SYR/SYR_Lion_of_Syria.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+				animationrotation = 90.0
+				animationlooping = no
+				animationtime = 0.75
+				animationdelay = 0
+				animationblendmode = "add"
+				animationtype = "scrolling"
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
 		}
-		legacy_lazy_load = no
-	}
-SpriteType = { 
-		name = "GFX_SYR_Send_Them_to_Tadmor_shine"
-		texturefile = "gfx/interface/goals/SYR/SYR_Send_Them_to_Tadmor.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SYR/SYR_Send_Them_to_Tadmor.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = -90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
+	SpriteType = { 
+			name = "GFX_SYR_Send_Them_to_Tadmor_shine"
+			texturefile = "gfx/interface/goals/SYR/SYR_Send_Them_to_Tadmor.dds"
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SYR/SYR_Send_Them_to_Tadmor.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+				animationrotation = -90.0
+				animationlooping = no
+				animationtime = 0.75
+				animationdelay = 0
+				animationblendmode = "add"
+				animationtype = "scrolling"
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SYR/SYR_Send_Them_to_Tadmor.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+				animationrotation = 90.0
+				animationlooping = no
+				animationtime = 0.75
+				animationdelay = 0
+				animationblendmode = "add"
+				animationtype = "scrolling"
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
 		}
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SYR/SYR_Send_Them_to_Tadmor.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = 90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
+	SpriteType = { 
+			name = "GFX_SYR_Streets_are_the_Veins_shine"
+			texturefile = "gfx/interface/goals/SYR/SYR_Streets_are_the_Veins.dds"
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SYR/SYR_Streets_are_the_Veins.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+				animationrotation = -90.0
+				animationlooping = no
+				animationtime = 0.75
+				animationdelay = 0
+				animationblendmode = "add"
+				animationtype = "scrolling"
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SYR/SYR_Streets_are_the_Veins.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+				animationrotation = 90.0
+				animationlooping = no
+				animationtime = 0.75
+				animationdelay = 0
+				animationblendmode = "add"
+				animationtype = "scrolling"
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
 		}
-		legacy_lazy_load = no
-	}
-SpriteType = { 
-		name = "GFX_SYR_Streets_are_the_Veins_shine"
-		texturefile = "gfx/interface/goals/SYR/SYR_Streets_are_the_Veins.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SYR/SYR_Streets_are_the_Veins.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = -90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
+	SpriteType = { 
+			name = "GFX_IRQ_And_Iraq_Holds_Its_Breath_shine"
+			texturefile = "gfx/interface/goals/IRQ/IRQ_And_Iraq_Holds_Its_Breath.dds"
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/IRQ/IRQ_And_Iraq_Holds_Its_Breath.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+				animationrotation = -90.0
+				animationlooping = no
+				animationtime = 0.75
+				animationdelay = 0
+				animationblendmode = "add"
+				animationtype = "scrolling"
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			animation = {
+				animationmaskfile = "gfx/interface/goals/IRQ/IRQ_And_Iraq_Holds_Its_Breath.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+				animationrotation = 90.0
+				animationlooping = no
+				animationtime = 0.75
+				animationdelay = 0
+				animationblendmode = "add"
+				animationtype = "scrolling"
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
 		}
-		animation = {
-			animationmaskfile = "gfx/interface/goals/SYR/SYR_Streets_are_the_Veins.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-			animationrotation = 90.0
-			animationlooping = no
-			animationtime = 0.75
-			animationdelay = 0
-			animationblendmode = "add"
-			animationtype = "scrolling"
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
+}

@@ -1,0 +1,67 @@
+EGD_debug_yugo_decisions = {	
+
+		Debug_Yugoslavia_tito_ded  = {
+		complete_effect = {
+			country_event = {
+				id = egd_yugoslavia.3
+			}
+		}
+	}
+	
+	Debug_Yugoslavia_crisis  = {
+		complete_effect = {
+			country_event = {
+				id = egd_yugoslavia.4
+			}
+		}
+	}
+	
+		Debug_Yugoslavia_crisis_news  = {
+		complete_effect = {
+			country_event = {
+				id = WorldNews.55
+			}
+		}
+	}
+	
+		Debug_Yugoslavia_djilas  = {
+		complete_effect = {
+			country_event = {
+				id = egd_yugoslavia.9
+			}
+		}
+	}
+		
+		Debug_Yugoslavia_ranko_or_jna  = {
+		complete_effect = {
+			country_event = {
+				id = egd_yugoslavia.10
+			}
+		}
+	}
+	
+	Debug_Yugoslavia_ranko_ded_sad  = {
+		complete_effect = {
+			country_event = {
+				id = egd_yugoslavia.19
+			}
+		}
+	}
+	
+	
+	Debug_Yugoslavia_Quiet_War  = {
+		complete_effect = {
+			country_event = {
+				id = egd_yugoslavia.20
+			}
+		}
+	}
+	
+	Debug_Yugoslavia_Quiet_War_news  = {
+		complete_effect = {
+			country_event = {
+				id = WorldNews.53
+			}
+		}
+	}
+}

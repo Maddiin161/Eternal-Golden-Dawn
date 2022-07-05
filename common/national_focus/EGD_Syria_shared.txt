@@ -1,9 +1,9 @@
 
 shared_focus = {
 	id = SYR_lion_of_syria_roars_for_eternity
-	icon = GFX_generic_suspend_constitution
+	icon = GFX_SYR_Lion_of_Syria
 	cost = 2
-	x = 7
+	x = 16
 	y = 0
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus SYR_lion_of_syria_roars_for_eternity"
@@ -71,7 +71,8 @@ shared_focus = {
 	y = 1.5
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus SYR_fulfilling_the_promise"
-		load_focus_tree = { tree = SYR_god_is_with_you_syria keep_completed = yes }
+        mark_focus_tree_layout_dirty = yes
+        add_country_flag = SYR_i_love_syria_so_much
 	}
 	relative_position_id = SYR_we_will_not_bow_to_extremism
 	prerequisite = { focus = SYR_we_will_not_bow_to_extremism }
@@ -81,8 +82,11 @@ shared_focus = {
 	id = SYR_god_is_with_you_syria
 	icon = GFX_generic_suspend_constitution
 	cost = 2
-	x = 7
-	y = 8
+	x = 16
+	y = 5
+	allow_branch = {
+        has_country_flag = SYR_i_love_syria_so_much
+	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus SYR_god_is_with_you_syria"
 	}

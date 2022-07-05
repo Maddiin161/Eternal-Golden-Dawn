@@ -355,8 +355,7 @@ spriteType = {
 spriteType = {
 		name = "GFX_news_event_yugoslav_wars_start"
 		texturefile = "gfx/event_pictures/GFX_news_event_yugoslav_wars_start.dds"
-	}	
-
+	}
 
 spriteType = {
 		name = "GFX_news_event_tito_funeral"
@@ -384,14 +383,38 @@ spriteType = {
 		name = "GFX_news_event_kosovo_republic"
 		texturefile = "gfx/event_pictures/GFX_news_event_kosovo_republic.dds"
 	}
-	
-	
 spriteType = {
 		name = "GFX_news_event_yugoslav_constitutional_crisis"
 		texturefile = "gfx/event_pictures/GFX_news_event_yugoslav_constitutional_crisis.dds"
 	}
-	
+spriteType = {
+		name = "GFX_event_paindespair"
+		texturefile = "gfx/event_pictures/GFX_event_paindespair.dds"
+	}
+spriteType = {
+		name = "GFX_event_radiober"
+		texturefile = "gfx/event_pictures/GFX_event_radiober.dds"
+	}
+spriteType = {
+		name = "GFX_event_aspirations"
+		texturefile = "gfx/event_pictures/GFX_event_aspirations.dds"
+	}
+spriteType = {
+		name = "GFX_event_yugoslavintro"
+		texturefile = "gfx/event_pictures/GFX_event_yugoslavintro.dds"
+	}
+spriteType = {
+		name = "GFX_event_titodeath"
+		texturefile = "gfx/event_pictures/GFX_event_titodeath.dds"
+	}
+spriteType = {
+		name = "GFX_event_rightman"
+		texturefile = "gfx/event_pictures/GFX_event_rightman.dds"
+	}
+spriteType = {
+		name = "GFX_event_quietman"
+		texturefile = "gfx/event_pictures/GFX_event_quietman.dds"
+	}
 }
-
 
 # END

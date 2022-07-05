@@ -1,0 +1,8 @@
+EGD_debug_yugo_decisions = {
+    picture = GFX_Louis_im_in_neo_nazi
+    icon = generic_research
+    visible = {
+        is_debug = yes
+    }
+    visible_when_empty = yes
+}

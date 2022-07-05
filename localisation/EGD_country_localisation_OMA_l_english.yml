@@ -1,0 +1,24 @@
+﻿l_english:
+
+#### Parties ####
+#### LEADER DESC ####
+
+
+#### IDEAS ####
+OMA_fisabilsultan_idea:0 "Fisabil al Sultan"
+OMA_fisabilsultan_idea_desc:0 "Established right after Qaboos was assassinated by Dhofari extremists during a concert, Fisabil al Sultan is a special operations group composed of Oman's finest warriors with one and only goal; to protect the Sultan's glory with their lives. No matter how difficult or dangerous their mission, the Fisabil al Sultan are prepared to carry it out with efficiency and self-neglect that is unmatched in the entirety of theMiddle East."
+OMA_the_right_from_wrong_idea:0 "Whose to Judge; the Right from Wrong?"
+OMA_the_right_from_wrong_idea_desc:0 "Despite previous Sultanic attempts to end his rule, Imam Ghalib al-Hinai continues his struggle to see the Imamate of Oman triumph over the damned Sultanate and live up to Ghalib's name, which means victor. While this struggle is fierce, it's conclusion can only mean a form of liberation for Oman; whether that liberation comes at the hands of Sultan Shihab: who wishes for Oman to be a power of its own on which superpowers must rely rather than control; or by the power of the Imam: who will expel all forms of imperialism from Oman, so that this nation may stand up in its independence. Either way, the goal remains the same—how it will be achieved is the true matter on the table."
+OMA_khanjar_idea:0 "Khanjar"
+OMA_khanjar_idea_desc:0 "If every house in America has a rifle hidden in it, each and every man in Oman owns a khanjar, ready to strike. Should the enemy invade our lands they'll be met with thousands of blades and the unbreakable spirit of the people. No enemy shall set foot in this land; whether be Ghalib's radicals, communists in the Yemen, petrodollar monarchs all around us or the Iranian radicals. Oman will stand firmly as the last bastion against extremism in the Arab world, for the Arab world!"
+
+#### TOOLTIPS ####
+OMA_dmz_muscat:0 "\n§RAs long as we have the threat of Ghalib, Omani desert will be demilitarized.§!"
+OMA_fisabilsultan_modifier:0 "§R-100 relations with every socialist country on earth.§!"
+#### DECISIONS ####
+
+##### SCRIPTED LOC ####
+
+#### EVENTS ####
+
+#### FOCUSES ####
