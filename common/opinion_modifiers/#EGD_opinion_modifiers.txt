@@ -1,0 +1,12 @@
+opinion_modifiers = {
+	####Greece####
+		
+	Mediterranian_Friendship_Pact = {
+		value = 60
+	}
+	
+	Trade_Associates = {
+		trade = yes
+		value = 60
+	}
+}

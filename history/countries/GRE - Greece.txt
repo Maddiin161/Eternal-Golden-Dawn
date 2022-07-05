@@ -24,8 +24,8 @@ set_politics = {
 	social_conservatism = 0
 	market_liberalism = 0
 	social_liberalism = 0
-	social_democracy = 0
-	libertarian_socialism = 30
+	social_democracy = 15
+	libertarian_socialism = 15
 	revolutionary_socialism = 70
 }
 
@@ -44,7 +44,7 @@ create_country_leader = {
 	name = "Charilaos Florakis" 
 	desc = "GRE_Charilaos_Florakis_desc"
 	picture = "Charilaos_Florakis.dds"
-	expire = "2003.3.1"
+	expire = "2005.5.22"
 	ideology = marxism_leninism
 	traits = {
 		
@@ -55,8 +55,30 @@ create_country_leader = {
 	name = "Andreas Papandreou" 
 	desc = ""
 	picture = "Andreas_Papandreou.dds"
-	expire = "2003.3.1"
-	ideology = left_wing_nationalism
+	expire = "1996.6.23"
+	ideology = social_democracy_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ilias Iliou" 
+	desc = ""
+	picture = "Hlias_Hliou.dds"
+	expire = "1985.1.25"
+	ideology = democratic_socialism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Alexandros Natsinas" 
+	desc = ""
+	picture = "Alexandros_Natsinas.dds"
+	expire = "1997.3.1"
+	ideology = neoconservatism
 	traits = {
 		
 	}

@@ -1,5 +1,13 @@
 ﻿l_english:
+#### OPINION MODIFIERS ####
+Mediterranian_Trade_Pact:0 "Mediterranian Trade Pact Member"
+Trade_Associates:0 "Trade Associates"
 
+#### EVENTS ####
+egd_greece.1.t:0 "1981 Elections"
+egd_greece.1.d:0 "election something something"
+egd_greece.2.t:0 "Gaddafi Papandreou Meeting"
+egd_greece.2.d:0 "alliance something something"
 #### Parties ####
 GRE_revolutionary_socialism_party:0 "KKE"
 GRE_revolutionary_socialism_party_long:0 "Communist Party of Greece"

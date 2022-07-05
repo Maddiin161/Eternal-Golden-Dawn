@@ -1,0 +1,66 @@
+add_namespace = egd_greece
+
+##Event: 1981 Elections  
+country_event = {
+	id = egd_greece.1
+	title = egd_greece.1.t
+	desc = egd_greece.1.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = "Long live the people's liberator!"
+		add_stability = 0.05
+		add_political_power = 150
+}
+	option = {
+		name = "National Independence! People's Sovereignty! Social Liberation!"
+		add_political_power = 100
+		set_politics = {
+			ruling_party = social_democracy
+		}
+		 add_popularity = {
+         ideology = social_democracy
+         popularity = 0.20
+    }
+	
+}
+	option = {
+		name = "Forwards, for a democratic Greece!"	
+		add_political_power = 100
+		set_politics = {
+			ruling_party = libertarian_socialism
+			}
+			add_popularity = {
+         ideology = libertarian_socialism
+         popularity = 0.20
+         }
+		
+	}
+
+}
+	
+##Event: Papandreou Gaddafi Meeting  
+country_event = {
+	id = egd_greece.2
+	title = egd_greece.2.t
+	desc = egd_greece.2.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+	original_tag = GRE
+	}
+	major = yes
+	
+	option = {
+		name = "Long live the people's friendship!"
+		add_opinion_modifier = { target = LBA modifier = Mediterranian_Friendship_Pact }
+		add_opinion_modifier = { target = LBA modifier = Trade_Associates }
+		hidden_effect =  { LBA = { add_opinion_modifier = { target = GRE modifier = Mediterranian_Friendship_Pact } } }
+		hidden_effect =  { LBA = { add_opinion_modifier = { add_opinion_modifier = { target = LBA modifier = Trade_Associates } } } }
+	}
+}
+
