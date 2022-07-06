@@ -16,8 +16,8 @@ ideas = {
 				
 				modifier = {
 					crime_fighting_cost_modifier = 0.1
-					social_conservative_drift  = 0.02
-					independent_socialist_drift = 0.03
+					social_conservatism_drift  = 0.02
+					#independent_socialist_drift = 0.03
 					stability_factor = -0.1
 				}
 			}

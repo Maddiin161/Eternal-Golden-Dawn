@@ -107,9 +107,7 @@ PER_hostage_crisis_category = {
 				
 			}
 			visible = {
-				 limit = {
    					check_variable = { PER_hostage_tensions = 2 }
-  				}	
 			}
 			fire_only_once = yes
 			cost = 100
@@ -134,9 +132,7 @@ PER_hostage_crisis_category = {
 				
 			}
 			visible = {
-				 limit = {
-   					check_variable = { PER_hostage_tensions = 2 }
-  				}	
+   					check_variable = { PER_hostage_tensions = 2 }	
 			}
 			fire_only_once = yes
 			cost = 100
@@ -161,9 +157,7 @@ PER_hostage_crisis_category = {
 				
 			}
 			visible = {
-				 limit = {
    					check_variable = { PER_hostage_tensions = 2 }
-  				}	
 			}
 			fire_only_once = yes
 			cost = 50
@@ -240,7 +234,6 @@ PER_hostage_crisis_category = {
 					}
 					every_country = { news_event = WorldNews.44 } }
 				}
-			}
 			ai_will_do = {
 				factor = 5
 			}
