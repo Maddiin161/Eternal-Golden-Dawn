@@ -141,7 +141,6 @@ autonomous_occupation = {
 				limit = { occupation_law = martial_law_occupation }
 				set_temp_variable = { resistance_limit = 35 }
 			}
-			resistance < autonomous_occupation # if we are under base resistance try to build compliance instead
 			add = 500
 		}
 	}
@@ -318,92 +317,6 @@ martial_law_occupation = {
 	}
 }
 
-forced_labor_occupation = {
-	icon = 8
-	sound_effect = "Martial_Law_Interface_Forced_Labor_Occupation"
-	
-	state_modifier = {
-		resistance_target 					= -0.40
-		compliance_gain 					= -0.08
-		resistance_damage_to_garrison 		= 0.3
-		required_garrison_factor 			= 0.50		
-		local_resources 					= 0.40
-		local_factories 					= 0.05
-		repair_speed_infrastructure_factor 	= 0.25
-		
-		custom_modifier_tooltip = "resource_sabotage_decrease_tooltip"
-	}
-	
-	ai_will_do = {
-		# enabled if has damaged infra
-		# gets higher score if more are damaged
-		# even more prio at war
-		base = 0
-		
-		modifier = {
-			set_temp_variable = { requirement_limit = 1.5 }
-			if = {
-				limit = { occupation_law = forced_labor_occupation }
-				set_temp_variable = { requirement_limit = 1.3 }
-			}
-			check_variable = { garrison_min_support_ratio < requirement_limit }
-			factor = 0
-		}
-		
-		modifier = {
-			set_temp_variable = { num_damaged = damaged_building_level@infrastructure }
-		
-			check_variable = { num_damaged > 0 }
-			clamp_temp_variable = { var = num_damaged max = 8 }
-			multiply_temp_variable = { num_damaged = 80 }
-			add_to_temp_variable = { num_damaged = 200 }
-			FROM = {
-				has_war = yes
-				add_to_temp_variable = { num_damaged = 100 }
-			}
-			add = num_damaged
-		}
-		
-		modifier = {
-			# if compliance is high enough, we are getting good enough resoruces already
-			compliance < 40
-			
-			# if we are desiring a resource produced here
-			set_temp_variable = { releveant_resources = 0 }
-			
-			set_temp_variable = { t = resource@oil }
-			multiply_temp_variable = { t = ai_desire_oil }
-			add_to_temp_variable = { releveant_resources = t }
-			
-			set_temp_variable = { t = resource@aluminium }
-			multiply_temp_variable = { t = ai_desire_aluminium }
-			add_to_temp_variable = { releveant_resources = t }
-			
-			set_temp_variable = { t = resource@rubber }
-			multiply_temp_variable = { t = ai_desire_rubber }
-			add_to_temp_variable = { releveant_resources = t }
-			
-			set_temp_variable = { t = resource@tungsten }
-			multiply_temp_variable = { t = ai_desire_tungsten }
-			add_to_temp_variable = { releveant_resources = t }
-			
-			set_temp_variable = { t = resource@steel }
-			multiply_temp_variable = { t = ai_desire_steel }
-			add_to_temp_variable = { releveant_resources = t }
-			
-			set_temp_variable = { t = resource@chromium }
-			multiply_temp_variable = { t = ai_desire_chromium }
-			add_to_temp_variable = { releveant_resources = t }
-			
-			check_variable = { releveant_resources > 0 }
-			clamp_temp_variable = { var = releveant_resources max = 40 }
-			divide_temp_variable = { releveant_resources = 40 }
-			multiply_temp_variable = { releveant_resources = 200 }
-			add_to_temp_variable = { releveant_resources = 100 }
-			add = releveant_resources
-		}
-	}
-}
 
 harsh_quotas_occupation = {
 	icon = 9
@@ -421,7 +334,7 @@ harsh_quotas_occupation = {
 		repair_speed_arms_factory_factor = 0.25
 		repair_speed_industrial_complex_factor = 0.25
 		
-		custom_modifier_tooltip = "factory_sabotage_decrease_tooltip"
+		#custom_modifier_tooltip = "factory_sabotage_decrease_tooltip" vanilla loc not found
 	}
 	
 	ai_will_do = {
@@ -485,31 +398,5 @@ brutally_oppressive_occupation = {
 			
 			add = 1000
 		}
-	}
-}
-
-reconciliation = {
-	icon = 12
-	sound_effect = "Martial_Law_Interface_Autonomous_Occupation_Unique_DEM"
-	
-	visible = {
-		original_tag = TUR
-		has_dlc = "Battle for the Bosporus"
-		OR = {
-			has_completed_focus = TUR_a_common_destiny_for_all_of_turkey
-			has_completed_focus = TUR_permit_regional_elections
-		}
-		FROM = { original_tag = KUR }
-	}
-	
-	state_modifier = {
-		compliance_gain 				= 0.03
-		required_garrison_factor 		= -0.5
-		resistance_damage_to_garrison 	= -0.3
-		resistance_decay 				= 0.5
-	}
-	
-	ai_will_do = {
-		base = 200
 	}
 }

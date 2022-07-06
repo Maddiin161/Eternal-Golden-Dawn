@@ -52,9 +52,6 @@ autonomy_state = {
 		modifier = {
 			add = 5
 			has_dlc = "Man the Guns"
-			FROM = {
-				has_government = democratic 
-			}
 		}
 	}
 
