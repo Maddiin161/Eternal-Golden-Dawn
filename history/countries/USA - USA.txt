@@ -15,7 +15,7 @@
 
 capital = 1200
 
-oob = "USA_1949"
+set_oob = "USA_1949"
 
 
 set_popularities = {

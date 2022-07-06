@@ -21,7 +21,7 @@ set_popularities = {
 	social_democracy = 15
 	libertarian_socialism = 0
 	revolutionary_socialism = 1
-}
+}	
 
 set_variable = { EGD_COUNTRY_GDP = 238 } 
 starting_econ_modifier_vars = yes
@@ -44,6 +44,6 @@ create_country_leader = {
 	desc = ""
 	picture = "Pierre_Trudeau.dds"
 	expire = "2000.1.1"
-	ideology = social_liberalism
+	ideology = social_liberalism_ideology
 	traits = {}
 }

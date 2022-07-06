@@ -122,7 +122,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="pol_power"
-			position = { x= 120 y = 9§§ }
+			position = { x= 120 y = 9 }
 			font = "hoi_18mbs"
 			text = "999"
 			format = center
@@ -796,6 +796,15 @@ guiTypes = {
 					clicksound = click_close
 					oversound = ui_menu_over
 				}
+				#buttonType = { (works)
+				#	name = "officer_corp_button"
+				#	position = { x = 293 y = 0 }
+				#	quadTextureSprite ="GFX_ledger_button"
+				#	Orientation = "UPPER_LEFT"
+				#	shortcut = "shift+e"
+				#	clicksound = click_close
+				#	oversound = ui_menu_over
+				#}
 			}
 			
 			buttonType = {

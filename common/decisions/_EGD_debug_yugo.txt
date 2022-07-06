@@ -18,7 +18,7 @@ EGD_debug_yugo_decisions = {
 	
 		Debug_Yugoslavia_crisis_news  = {
 		complete_effect = {
-			country_event = {
+			news_event = {
 				id = WorldNews.55
 			}
 		}
@@ -59,7 +59,7 @@ EGD_debug_yugo_decisions = {
 	
 	Debug_Yugoslavia_Quiet_War_news  = {
 		complete_effect = {
-			country_event = {
+			news_event = {
 				id = WorldNews.53
 			}
 		}
