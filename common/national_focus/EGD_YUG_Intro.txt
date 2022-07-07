@@ -1,0 +1,148 @@
+focus_tree = {
+	id = yugintro #Yugoslavia Intro tree
+	continuous_focus_position = { x = 0 y = 1000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = YUG
+		}
+	}
+	focus = {
+		id = YUG_Zivi_duh_Slavenski
+		icon = 
+		x = 10
+		y = 0
+		cost = 2
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = YUG_Preparing_for_the_inevitable
+		icon = 
+		relative_position_id = YUG_Zivi_duh_Slavenski
+		x = 0
+		y = 1
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = YUG_Zivi_duh_Slavenski
+		}
+		ai_will_do = {
+			factor = 15
+		}
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = YUG_fortune_favors_the_bold
+		icon = 
+		relative_position_id = YUG_Preparing_for_the_inevitable
+		x = 0
+		y = 2
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = YUG_Preparing_for_the_inevitable
+		}
+		ai_will_do = {
+			factor = 15
+		}
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = YUG_section_74
+		icon = 
+		relative_position_id = YUG_fortune_favors_the_bold
+		x = 0
+		y = 3
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = YUG_fortune_favors_the_bold
+		}
+		ai_will_do = {
+			factor = 15
+		}
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = YUG_assembling_the_presidency
+		icon = 
+		relative_position_id = YUG_section_74
+		x = 0
+		y = 4
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = YUG_section_74
+		}
+		ai_will_do = {
+			factor = 15
+		}
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = YUG_Druze_Tito
+		icon = 
+		relative_position_id = YUG_assembling_the_presidency
+		x = 8
+		y = 0
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { 
+		}
+		bypass = { 
+		hidden_trigger = {
+        has_country_flag = tito_dead} 
+		}
+		ai_will_do = {
+			factor = 15
+		}
+		available = { 
+		hidden_trigger = {
+        has_country_flag = tito_dead}
+		}
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = YUG_memory_eternal
+		icon = 
+		relative_position_id = YUG_Druze_Tito
+		x = 8
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = YUG_Druze_Tito
+		}
+		ai_will_do = {
+			factor = 15
+		}
+		completion_reward = {
+		news_event = WorldNews.50
+		
+		}
+	}
+	
+}
