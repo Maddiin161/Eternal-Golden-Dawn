@@ -1,0 +1,448 @@
+focus_tree = {
+	id = Austria1
+	continuous_focus_position = { x = 0 y = 1000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AUS
+		}
+	}
+	focus = {
+		id = AUS_peters_weisenthal_affair
+		icon = GFX_peters_weisenthal_affair
+		x = 13
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_address_the_debts
+		icon = GFX_AUS_address_the_debts
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = 0
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_peters_weisenthal_affair
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_stegers_way
+		icon = GFX_AUS_stegers_way
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = 0
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_address_the_debts
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_new_austria
+		icon = GFX_AUS_new_austria
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = 0
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_stegers_way
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_the_other_way
+		icon = GFX_AUS_the_other_way
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = 2
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_address_the_debts
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_mercenary_army
+		icon = GFX_AUS_mercenary_army
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = 2
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_the_other_way
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_vienna_calling
+		icon = GFX_AUS_vienna_calling
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = 0
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_new_austria
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_london_calling
+		icon = GFX_AUS_london_calling
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = 0
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_vienna_calling
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_arrive_in_france
+		icon = GFX_AUS_arrive_in_france
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = 0
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_london_calling
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_austrians_in_the_whitehouse
+		icon = GFX_AUS_austrians_in_the_whitehouse
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = 0
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_arrive_in_france
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_raumverteidigung 
+		icon = GFX_AUS_raumverteidigung
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = 3.5
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_new_austria
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_nationalism_patriotism 
+		icon = GFX_AUS_nationalism_patriotism
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = 2
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_raumverteidigung 
+			focus = AUS_mercenary_army
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_better_dead_then_red 
+		icon = GFX_AUS_better_dead_then_red
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = 2
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_nationalism_patriotism 
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_prepare_for_the_worst
+		icon = GFX_AUS_prepare_for_the_worst
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = 5
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_raumverteidigung 
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_pray_for_the_best
+		icon = GFX_AUS_pray_for_the_best
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = 5
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_prepare_for_the_worst
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_fortress_austria
+		icon = GFX_AUS_fortress_austria
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = 3.5
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_better_dead_then_red
+			focus = AUS_pray_for_the_best
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_austrians_in_the_pentagon
+		icon = GFX_AUS_austrians_in_the_pentagon
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = 2
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_fortress_austria
+			focus = AUS_austrians_in_the_whitehouse
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_keep_our_promises
+		icon = GFX_AUS_keep_our_promises
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = -3.5
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_new_austria
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_we_need_unity
+		icon = GFX_AUS_keep_our_promises
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = -5
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_keep_our_promises
+		}
+		mutually_exclusive = {
+			focus = AUS_cleaning_out_the_basement_nazis
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_maintain_the_status_quo
+		icon = GFX_AUS_maintain_the_status_quo
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = -5
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_keep_our_promises
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_appease_spo
+		icon = GFX_AUS_appease_spo
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = -5
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_maintain_the_status_quo
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_cleaning_out_the_basement_nazis
+		icon = GFX_AUS_cleaning_out_the_basement_nazis
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = -2
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_keep_our_promises
+		}
+		mutually_exclusive = {
+			focus = AUS_we_need_unity
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_reinforce_the_victim_myth
+		icon = GFX_AUS_reinforce_the_victim_myth
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = -2
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_move_on_the_nationalists
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = AUS_move_on_the_nationalists
+		icon = GFX_AUS_move_on_the_nationalists
+		relative_position_id = AUS_peters_weisenthal_affair
+		x = -2
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AUS_cleaning_out_the_basement_nazis
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		completion_reward = {
+		
+		}
+	}
+}
