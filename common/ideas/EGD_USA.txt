@@ -94,7 +94,7 @@ ideas = {
 				
 				modifier = {
 					gdp_growth_modifier = -0.12
-					war_support = -0.10
+					war_support_factor = -0.10
 					stability_factor = -0.10
 					production_factory_max_efficiency_factor = -0.15
 				}
@@ -115,9 +115,9 @@ ideas = {
 				modifier = {
 					party_popularity_stability_factor = -0.3
 					revolutionary_socialism_drift = 0.01 
-					independent_socialism_drift = 0.01 
+					#independent_socialism_drift = 0.01 
 					ultranationalism_drift = 0.01 
-					annihilationism _drift = 0.01 
+					annihilationism_drift = 0.01 
 				}
 			}
 		}

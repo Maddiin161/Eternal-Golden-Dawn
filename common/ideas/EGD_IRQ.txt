@@ -69,7 +69,7 @@ ideas = {
 			modifier = {
 				stability_weekly = -0.05
 				war_support_factor = -0.10
-				islamis_drift = 0.01
+				islamism_drift = 0.01
 			}
 		}
 	}

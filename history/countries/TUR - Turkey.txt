@@ -4,7 +4,7 @@
 	capital = 49
 	set_stability = 0.5
 	set_war_support = 0.5
-	oob = "TUR_1933"
+	set_oob = "TUR_1933"
 	add_to_variable = {
 		money = 40
 	}
@@ -59,7 +59,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alparslan T�rke�" 
+	name = "Alparslan Turkes" 
 	desc = ""
 	picture = "Alparslan_Turkes.dds"
 	expire = "1992.3.1"

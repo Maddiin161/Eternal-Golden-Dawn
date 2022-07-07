@@ -37,7 +37,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "close_button"
-			position = { x = 860 y = 490 }
+			position = { x = 485 y = 310 }
 			quadTextureSprite ="GFX_closebutton"
 			buttonFont = "hoi_16mbs"
 			shortcut = "ESCAPE"			
@@ -82,7 +82,7 @@ guiTypes = {
 			spriteType = "GFX_world_tension_select"
 			buttonFont = "hoi_16mbs"
 			clicksound = click_default
-			position = { x = 705 y = 490 }
+			position = { x = 400 y = 400 }
 			text = WORLD_TENSION_WARS
 			pdx_tooltip = SHOW_WARS
 		}
@@ -240,3 +240,4 @@ guiTypes = {
 		}
 
 	}
+}

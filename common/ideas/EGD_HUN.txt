@@ -35,9 +35,9 @@ ideas = {
 				removal_cost = -1
 				
 				modifier = {
-					independent_socialist_drift = 0.03
+					#independent_socialist_drift = 0.03
 					stability_factor = 0.15
-					market_liberal_acceptance = 50
+					market_liberalism_acceptance = 50
 				}
 			}
 		}

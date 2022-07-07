@@ -27,7 +27,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Yitzhak_Shamir.dds"
 	expire = "1992.3.1"
-	ideology = social_conservatism_ideology`
+	ideology = social_conservatism_ideology
 	traits = {
 		
 	}

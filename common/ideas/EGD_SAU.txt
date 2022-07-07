@@ -52,7 +52,6 @@ ideas = {
 				
 			}
 		}
-	}
 	SAU_and_keeps_flowing_idea = {
 			#picture = SAU_and_keeps_flowing_idea
 

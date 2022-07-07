@@ -17,7 +17,7 @@ ideas = {
 				modifier = {
 					education_cost_modifier = 0.3
 					research_speed_factor = -0.15
-					revolutionary_socialist_drift = 0.01
+					revolutionary_socialism_drift = 0.01
 					production_factory_max_efficiency_factor = -0.1
 				}
 			}
@@ -56,7 +56,7 @@ ideas = {
 				
 				modifier = {
 					stability_factor = -0.15
-					war_support_factor = -.10
+					war_support_factor = -0.10
 				}
 			}
 		}
