@@ -51,7 +51,15 @@ egd_yugoslavia.24.t:0 "Mosque Bombed"
 egd_yugoslavia.24.d:0 "A powerful explosion tore through a crowded mosque somewhere in Bosnia, during Friday prayers, reportedly killing and injuring dozens of worshipers and triggering outbreaks of violence that left added to the toll. Reports suggest that the bombs were placed by serb paramilitaries targeting muslims in the area."
 egd_yugoslavia.25.t:0 "Church Bombed"
 egd_yugoslavia.25.d:0 "A powerful explosion tore through a crowded Church somewhere in Bosnia, during Sunday prayers, reportedly killing and injuring dozens of worshipers and triggering outbreaks of violence that left added to the toll. Reports suggest that the bombs were placed by muslim paramilitaries targeting orthodox christians in the area."
+
 #### FOCUSES ####
+YUG_Zivi_duh_Slavenski:0 "Zivi, Zivi duh Slavenski!"
+YUG_Preparing_for_the_inevitable:0 "Preparing for the inevitable"
+YUG_fortune_favors_the_bold:0 "Fortune favors the bold"
+YUG_section_74:0 "Section 74"
+YUG_assembling_the_presidency:0 "Assembling the Presidency"
+YUG_Druze_Tito:0 "Druze Tito mi ti se kunemo!"
+YUG_memory_eternal:0 "Memory Eternal"
 
 #### Parties ####
 
@@ -81,3 +89,4 @@ EGD_DJURANOVIC_NAME:0 "Vaselin Djuranovic\nPragmatic Socialist"
 EGD_DJURANOVIC_BIO:0 "§f\n\n\n\n\n\n\n £GFX_idea_Minister_Veselin_Djuranovic_large \n\n\n\n\n\n\n\n--------------\n§fDjuranovic was born on May 17, 1925 in the village of Donji Martinici near Danilovgrad, Montenegro. He became a member of the League of Communist Youth of Yugoslavia in 1941. At the beginning of May 1943, together with a group of Partisans, he was arrested and interned in the prison camp Zabjelo, near Podgorica. He was released in September 1943, after the capitulation of Italy, and the disbandment of the camp. He reunited with the party organization and became the secretary of the Skojevo organization in his village, and in October of the same year he became a member of the SKOJ Municipal Committee and president of the Municipal Board of Anti-Fascist Youth. Not only that, but he joined the Communist Party of Yugoslavia in 1944.  After the liberation of Yugoslavia, he performed various party and political duties, first in Montenegro and then in the federation, becoming President of the Federal Executive Council in 1977."
 EGD_KONTIC_NAME:0 "Radoje Kontic\nTechnocratically Inclined Socialist"
 EGD_KONTIC_BIO:0 "§f\n\n\n\n\n\n\n £GFX_idea_Μinister_Radoje_Kontic_large \n\n\n\n\n\n\n\n--------------\n§fKontic was born in the Montenegrin town of Niksic in 1937. Like many other technocrats from the second generation of Yugoslav communists, he entered political waters by previously serving as the director of a state company. In this particular case, Kontic was the director and functionary of the Niksic Ironworks in the late 1960s and during the 1970s. In the summer of 1978, he became a member of the Executive Council of SR Montenegro, after which he completely devoted himself to politics."
+
