@@ -3,6 +3,7 @@ EGD_debug_yugo_decisions = {
     icon = generic_research
     visible = {
         is_debug = yes
+        is_ai = no
     }
     visible_when_empty = yes
 }

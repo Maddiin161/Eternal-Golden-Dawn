@@ -59,7 +59,7 @@ country_event = {
 		add_opinion_modifier = { target = LBA modifier = Mediterranian_Friendship_Pact }
 		add_opinion_modifier = { target = LBA modifier = Trade_Associates }
 		hidden_effect =  { LBA = { add_opinion_modifier = { target = GRE modifier = Mediterranian_Friendship_Pact } } }
-		hidden_effect =  { LBA = { add_opinion_modifier = { add_opinion_modifier = { target = LBA modifier = Trade_Associates } } } }
+		hidden_effect =  { LBA = { add_opinion_modifier = { target = LBA modifier = Trade_Associates } } } 
 	}
 }
 

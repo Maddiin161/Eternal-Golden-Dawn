@@ -86,7 +86,7 @@ PER_hostage_crisis_category = {
 		selectable_mission = no               
 		days_mission_timeout = 400             
 		timeout_effect = {                      
-			news_event = {
+            country_event = {
 				id = iran.6
 				days = 1
 			} 

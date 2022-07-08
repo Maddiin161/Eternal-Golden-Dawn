@@ -235,14 +235,14 @@ EGD_debug_decisions = {
 	}
 	Debug_spawn_dust  = {
 		complete_effect = {
-			country_event = {
+			news_event = {
 				id = super.3
 			}
 		}
 	}
 	Debug_The_Long_March_bros  = {
 		complete_effect = {
-			country_event = {
+			news_event = {
 				id = super.7
 			}
 		}

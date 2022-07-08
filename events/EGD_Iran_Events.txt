@@ -108,9 +108,10 @@ country_event = {
 
     option = {
         name = my_event.1.a
-        war_support_factor = 0.025
+        add_war_support = 0.02
     }
 }
+
 country_event = {
     id = iran.10
     title = iran.10.t
@@ -122,5 +123,4 @@ country_event = {
         name = my_event.1.a
         add_political_power = 100
     }
-}
 }

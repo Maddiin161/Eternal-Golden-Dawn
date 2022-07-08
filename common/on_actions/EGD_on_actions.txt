@@ -1,7 +1,6 @@
 on_startup = {
 	effect = {
-		PER = {
-			
-		}
+		EGD_startup_calc = yes
+        EGD_startup = yes
 	}
 }			
