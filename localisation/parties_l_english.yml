@@ -1157,7 +1157,7 @@
  ALB_communist_party_long:0 "Partia e Punës e Shqipërisë"
 
  BUL_fascist_party:0 "UBNL"
- BUL_fascist_party_long:0 "The Union of Bulgarian National Legions"
+ BUL_fascist_party_long:0 "The Union of Bulgarian National Legions
  BUL_authoritarian_party:0 "Loyalists"
  BUL_authoritarian_party_long:0 "Tsar Boris loyalists"
  BUL_democratic_party:0 "DP"
@@ -1297,8 +1297,8 @@
  CYP_despotism_party_long:0 ""
  CYP_authoritarian_democracy_party:0 ""
  CYP_authoritarian_democracy_party_long:0 ""
- CYP_autocracy_party:0 ""
- CYP_autocracy_party_long:0 ""
+ CYP_autocracy_party:0 "Regime of the Colonels"
+ CYP_autocracy_party_long:0 "Regime of the Colonels"
  CYP_corporate_oligarchy_party:0 ""
  CYP_corporate_oligarchy_party_long:0 ""
  CYP_social_conservatism_party:0 "DISY"
@@ -1313,6 +1313,9 @@
  CYP_libertarian_socialism_party_long:0 "New Internationalist Left"
  CYP_revolutionary_socialism_party:0 "AKEL"
  CYP_revolutionary_socialism_party_long:0 "Progressive Party of Working People"
+ 
+ CYC_revolutionary_socialism_party:0 "AKEL"
+ CYC_revolutionary_socialism_party_long:0 "Progressive Party of Working People"
  
  NCY_annihilationism_party:0 ""
  NCY_annihilationism_party_long:0 ""
@@ -2138,7 +2141,7 @@
  CHL_ultranationalism_party:0 "FNPL"
  CHL_ultranationalism_party_long:0 "Homeland and Freedom Nationalist Front"
  CHL_despotism_party:0 ""
- CHL_despotism_party_long:0 ""
+ CHL_despotism_party_long:0 ""0
  CHL_islamism_party:0 "Chilean Mujihadeen"
  CHL_islamism_party_long:0 "Chilean Mujihadeen" 
  CHL_authoritarian_democracy_party:0 ""
@@ -2186,7 +2189,7 @@
  COL_social_democracy_party_long:0 "Patriotic Union"
  COL_libertarian_socialism_party:0 "M-19"
  COL_libertarian_socialism_party_long:0 "19th of April Movement"
- COL_revolutionary_socialism_party:0 "FARC-EP"
+ COL_revolutionary_socialism_party:0 "FARC–EP"
  COL_revolutionary_socialism_party_long:0 "Revolutionary Armed Forces of Colombia—People's Army"
 
  COS_fascist_party:0 "FCR"
@@ -2587,7 +2590,7 @@
  UAR_social_democracy_party:0 "ASU"
  UAR_social_democracy_party_long:0 "Arab Socialist Union"
  UAR_libertarian_socialism_party:0 "ASBP"
- UAR_libertarian_socialism_party_long:0 "Arab Socialist Ba'ath Party"
+ UAR_libertarian_socialism_party_long:0 "Arab Socialist Baʽath Party"
  UAR_revolutionary_socialism_party:0 "PACP"
  UAR_revolutionary_socialism_party_long:0 "Pan-Arab Communist Party"
 

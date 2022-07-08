@@ -13,34 +13,45 @@ set_convoys = 4
 
 
 set_popularities = {
-	annihilationism = 0
+	annihilationism = 5
 	transhumanism = 0
-	ultranationalism = 0
-	despotism = 0
-	autocracy = 0
-	authoritarian_democracy = 0
+	ultranationalism = 5
+	despotism = 15
+	autocracy = 60
+	authoritarian_democracy = 15
 	corporate_oligarchy = 0
-	social_conservatism = 30
-	market_liberalism = 50
+	social_conservatism = 0
+	market_liberalism = 0
 	social_liberalism = 0
-	social_democracy = 10
+	social_democracy = 0
 	libertarian_socialism = 0
-	revolutionary_socialism = 10
+	revolutionary_socialism = 0
 }
 
 set_politics = {
-	ruling_party = market_liberalism
+	ruling_party = autocracy
 	last_election = "1978.2.1"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Spyros Kyprianou" 
+	name = "Georgios Papadopoulos" 
 	desc = ""
-	picture = "Spyros_Kyprianou.dds"
-	expire = "1992.3.1"
-	ideology = market_liberalism_ideology
+	picture = "Georgios_Papadopoulos.dds"
+	expire = "1999.3.1"
+	ideology = autocracy_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Alastor" 
+	desc = ""
+	picture = "Alastor.dds"
+	expire = "2005.3.1"
+	ideology = annihilationism_ideology
 	traits = {
 		
 	}

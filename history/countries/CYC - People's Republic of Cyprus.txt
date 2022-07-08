@@ -1,0 +1,47 @@
+capital = 183
+
+#TECH CULTURE#
+set_country_flag = tech_gfx_western
+set_country_flag = tech_alignment_western
+
+#TECH/OOBS
+oob = "CYP_1949"
+add_ideas = {
+}
+
+set_convoys = 4
+
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 10
+	libertarian_socialism = 10
+	revolutionary_socialism = 90
+}
+
+set_politics = {
+	ruling_party = revolutionary_socialism
+	last_election = "1978.2.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Placeholder" 
+	desc = ""
+	picture = ""
+	expire = "1999.3.1"
+	ideology = marxism_leninism
+	traits = {
+		
+	}
+}

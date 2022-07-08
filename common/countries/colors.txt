@@ -1,5 +1,9 @@
 #reload countrycolors
 #NEW COUNTRY COLOURS
+CYC = {
+	color = rgb {255 51 51}
+	color_ui = rgb {255 51 51}
+}
 HSP = {
 	color = rgb {0 0 24}
 	color_ui = rgb {0 0 24}
@@ -1041,8 +1045,8 @@ PAK = {
 	color_ui = rgb { 0 100 0 }
 }
 CYP = {
-	color = rgb { 230 230 230 }
-	color_ui = rgb { 230 230 230 }
+	color = rgb { 153 187 255 }
+	color_ui = rgb { 153 187 255 }
 }
 NCY = {
 	color = rgb { 200 100 165 } 

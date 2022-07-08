@@ -376,3 +376,4 @@ NWF = "countries/Newfoundland.txt"
 KNO = "countries/Kano.txt"
 HSP = "countries/Croatian Party of Rights"
 SJP = "countries/Croatian Special Police"
+CYC = "countries/People's Republic of Cyprus
