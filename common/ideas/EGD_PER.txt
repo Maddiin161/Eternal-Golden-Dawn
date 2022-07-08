@@ -1,4 +1,4 @@
-ideas = {	
+ideas = {
 		country = {
 
 		PER_banisadr_and_hundred_reasons_of_why_we_hate_him_idea = {
@@ -126,7 +126,7 @@ ideas = {
 				
 				modifier = {
 					stability_weekly_factor = 0.002
-					political_power_factor = -0.25
+					political_power_factor = -0.30
 				}
 			}
 			PER_sepah_pasdaran = {
@@ -166,7 +166,7 @@ ideas = {
 					weekly_manpower = 350
 			        army_core_defence_factor = -0.02
 					attack_bonus_against_cores = -0.02
-					#independent_socialist_drift = 0.03
+					independent_socialist_drift = -0.03
 				}
 			}
 			PER_we_will_avenge_our_revenge = {
@@ -184,14 +184,106 @@ ideas = {
 				
 				targeted_modifier = {
 				tag = USA
-				attack_bonus_against = 0.10
-				defense_bonus_against = 0.10
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
 			    }
                 targeted_modifier = {
 				tag = SOV
-				attack_bonus_against = 0.10
-				defense_bonus_against = 0.10
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
 			    }
 				}
+			PER_the_army_of_the_people = {
+				picture = PER_oppressed_above_the_arrogant
+				
+                allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					weekly_manpower = 400
+			        recruitable_population_factor = 0.025
+					war_support_weekly_factor = 0.002
+				}
+			}
+			PER_the_comitte = {
+				picture = PER_oppressed_above_the_arrogant
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_weekly_factor = 0.003
+					stability_factor = 0.05
+				}
+			}
+			PER_guardians_of_the_revolution = {
+				picture = PER_oppressed_above_the_arrogant
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					army_morale_factor = 0.05
+					defence = 0.05
+					army_org_factor = 0.1
+				}
+			}
+			PER_brush_them_out = {
+				picture = PER_oppressed_above_the_arrogant
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					socialist_drift = -0.01
+					islamism_drift = 0.01
+					stability_factor = 0.05
+					stability_weekly_factor = 0.002
+				}
+			}
+			PER_new_phase_of_executions = {
+				picture = PER_oppressed_above_the_arrogant
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					political_power_gain = -0.25
+					islamism_drift = 0.01
+					stability_factor = -0.05
+					stability_weekly_factor = -0.0025
+				}
+			}
 			}
 }
