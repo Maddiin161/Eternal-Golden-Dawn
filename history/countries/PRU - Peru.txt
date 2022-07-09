@@ -26,8 +26,8 @@ set_politics = {
 
 create_country_leader = {
 	name = "Francisco Morales-Bermúdez" 
-	desc = "Francisco_Morales_Bermudez_Cerruti.dds"
-	picture = ".dds"
+	desc = ""
+	picture = "Francisco_Morales_Bermudez_Cerruti.dds"
 	expire = "2003.3.1"
 	ideology = military_dictatorship
 	traits = {
