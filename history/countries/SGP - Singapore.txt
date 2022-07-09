@@ -29,7 +29,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Lee_Kuan_Yew.dds"
 	expire = "1992.3.1"
-	ideology = authoritarian_democracy
+	ideology = authoritarian_democracy_ideology
 	traits = {
 		
 	}
