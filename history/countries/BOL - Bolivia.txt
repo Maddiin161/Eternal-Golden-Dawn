@@ -26,7 +26,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Luis García Meza" 
-	desc = "Luis_Garcia_Meza"
+	desc = "Luis_Garcia_Meza.dds"
 	picture = ".dds"
 	expire = "2003.3.1"
 	ideology = military_dictatorship
