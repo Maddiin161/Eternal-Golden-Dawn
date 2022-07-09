@@ -13,6 +13,7 @@ category = { ### THIS USES SOUND EFFECTS, NOT SOUND
 		yugoslav_wars_bigevent
 		1982_recession_bigevent
 		australia_hegemony_bigevent
+		afghan_war_bigevent
 	}
  	compressor = {
 		enabled = yes

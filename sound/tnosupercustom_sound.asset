@@ -69,3 +69,9 @@ sound = {
 	file = "customsound/egd_se_custom_australia_hegemony.wav" ## location of the sound file
 	always_load = no
 }
+
+sound = {
+	name = "afghan_war_bigevent_sound" #name you're using for the sound
+	file = "customsound/egd_se_custom_afghan_war.wav" ## location of the sound file
+	always_load = no
+}

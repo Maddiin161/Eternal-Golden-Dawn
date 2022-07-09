@@ -1,0 +1,43 @@
+﻿#capital = 267
+
+#oob = "FOS_1980"
+
+set_popularities = {
+	annihilationism = 1
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 0
+	autocracy = 5
+	authoritarian_democracy = 5
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 30
+	revolutionary_socialism = 60
+}
+	
+set_politics = {
+	ruling_party = revolutionary_socialism
+		last_election = "1978.4.28"
+		election_frequency = 48
+		elections_allowed = no
+}
+
+set_variable = { EGD_COUNTRY_GDP = 0 }
+starting_econ_modifier_vars = yes
+EGD_startup_calc = yes
+EGD_startup = yes
+
+create_country_leader = {
+	name = "Yuri Tukharinov"
+	desc = ""
+	picture = ""
+	expire = "1987.1.1"
+	ideology = marxism_leninism
+	traits = {
+		#
+	}
+}

@@ -299,7 +299,32 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
             quadTextureSprite ="closebutton_16"
             clicksound = click_scroll
         }
-	}		
+	}
+
+	containerWindowType = {
+		name = "EGD_SG_big_event_frame_afghan_war_custom"
+		size = { width = 220 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+		show_sound = afghan_war_bigevent ### SOUND EFFECT GOES HERE, MAKE SURE YOU'RE USING SOUND #EFFECT AND NOT SOUND!!!!!
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_superevent_custom_afghan_war"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+            name = "Super_Event_Close"
+            position = { x = 337 y = 441 }
+            quadTextureSprite ="closebutton_16"
+            clicksound = click_scroll
+        }
+	}
 
 	containerWindowType = {
 		name = "EGD_SG_big_event_frame_iran_victory_custom"

@@ -185,7 +185,20 @@ scripted_gui = {
 		window_name = "EGD_SG_big_event_frame_iran_victory_custom"
 
 		visible = {
-			has_country_flag = big_event_custom_latin_wars
+			has_country_flag = big_event_custom_latin_wars #??? who made this
+		}
+	}
+	EGD_SG_big_event_frame_afghan_war_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "EGD_SG_big_event_frame_afghan_war_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_soviet_afghan_war
+		}
+		effects = {
+			Super_Event_Close_click = {
+				clr_country_flag = big_event_custom_soviet_afghan_war ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
 		}
 	}
 }

@@ -65,4 +65,8 @@ spriteType = { #START OF 1ST SPRITE
 		textureFile = "gfx//superevent_pictures//GFX_superevent_custom_australia_hegemony.dds"
 	} # END OF 1ST SPRITE		
 
+spriteType = { #START OF 1ST SPRITE
+		name = "GFX_superevent_custom_afghan_war"
+		textureFile = "gfx//superevent_pictures//GFX_superevent_custom_afghan_war.dds"
+	} # END OF 1ST SPRITE		
 }
