@@ -2,6 +2,7 @@
 state = {
 	id = 488
 	name = "STATE_488"
+	local_supplies=0.0
 	resources = {
 		oil = 230.000
 	}

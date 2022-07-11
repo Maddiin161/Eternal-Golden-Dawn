@@ -2,6 +2,7 @@
 state = {
 	id = 490
 	name = "STATE_490"
+	local_supplies=0.0
 
 	history = {
 		owner = ECU

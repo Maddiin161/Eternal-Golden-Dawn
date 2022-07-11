@@ -1,6 +1,7 @@
 state = {
 	id = 257
 	name = "STATE_257" # Tambov
+	local_supplies=0.0
 	manpower = 810341	
 	
 	state_category = pop1dev2

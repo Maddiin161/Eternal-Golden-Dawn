@@ -1,6 +1,7 @@
 state = {
 	id = 133
 	name = "STATE_133" # Lanark
+	local_supplies=0.0
 	manpower = 2242857	
 	
 	state_category = pop2dev2

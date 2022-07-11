@@ -1,6 +1,7 @@
 state = {
 	id = 441
 	name = "STATE_441"
+	local_supplies=0.0
 
 	history = {
 		#owner = RAJ #changed to KAS to clear error from log

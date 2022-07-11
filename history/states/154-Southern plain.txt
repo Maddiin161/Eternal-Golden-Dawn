@@ -2,7 +2,7 @@
 state={
 	id=154
 	name="STATE_154"
-
+	local_supplies=0.0
 	history={
 		owner = HUN
 		set_state_flag = temperate

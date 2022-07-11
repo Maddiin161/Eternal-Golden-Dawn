@@ -1,6 +1,7 @@
 state = {
 	id = 228
 	name = "STATE_228" # Voroshilovgrad
+	local_supplies=0.0
 	manpower = 2047281	
 	state_category = pop2dev1
 	resources = {

@@ -2,6 +2,7 @@ state =
 {
 	id = 270
 	name = "STATE_270"
+	local_supplies=0.0
 	manpower = 40
 	state_category = wasteland
 	

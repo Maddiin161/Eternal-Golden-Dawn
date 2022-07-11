@@ -2,6 +2,7 @@
 state={
 	id=498
 	name="STATE_498"
+	local_supplies=0.0
 	resources={
 		tungsten=38.000
 		oil=4.000
