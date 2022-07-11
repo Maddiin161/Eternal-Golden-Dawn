@@ -19,18 +19,9 @@ state = {
 		victory_points = {
 			9346 10 
 		}
-		victory_points = {
-			395 2 
-		}
 		buildings = {
 			infrastructure = 2
-			  
-
 			industrial_complex = 2
-			  
-			
-			  
-			
 			air_base = 6
 		}
 		add_core_of = POL
@@ -86,7 +77,7 @@ state = {
 		set_variable = { ReligionOther = 0 }
 
 		1960.1.1 = {
-			add_manpower = 191956‬
+			add_manpower = 191956
 		}
 		1973.1.1 = {
 			add_manpower = 97872

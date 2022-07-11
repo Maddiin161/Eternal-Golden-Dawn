@@ -22,14 +22,6 @@ state = {
 		}
 		buildings = {
 			infrastructure = 2
-			  
-			  
-
-			  
-
-			  
-			
-
 		}
 		add_core_of = POL
 		add_core_of = WGR
@@ -89,10 +81,10 @@ state = {
 			9387 2
 		}
 		1960.1.1 = {
-			add_manpower = 228589‬
+			add_manpower = 228589
 		}
 		1973.1.1 = {
-			add_manpower = 140461‬
+			add_manpower = 140461
 		}
 
 	}

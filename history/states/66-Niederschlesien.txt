@@ -87,10 +87,10 @@ state = {
 		set_variable = { ReligionOther = 0 }
 
 		1960.1.1 = {
-			add_manpower = 802304‬
+			add_manpower = 802304
 		}
 		1973.1.1 = {
-			add_manpower = 264383‬
+			add_manpower = 264383
 		}
 	}
 

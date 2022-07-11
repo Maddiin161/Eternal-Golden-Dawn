@@ -78,17 +78,15 @@ state = {
 		set_variable = { ReligionOther = 0 }
 
 		1960.1.1 = {
-			add_manpower = 292321‬
+			add_manpower = 292321
 		}
 		1973.1.1 = {
-			add_manpower = 244986‬
+			add_manpower = 244986
 		}
 	}
 
 	provinces = {
-		362 389 3380 9263 11316 11343 15619
-		6402
-		3351
+		362 389 3380 9263 11316 11343 15619 6402 3351
 	}
 	manpower = 930448
 	buildings_max_level_factor = 1.000

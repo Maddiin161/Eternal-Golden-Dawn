@@ -11,9 +11,6 @@ state = {
 		victory_points = {
 			6558 5 
 		}
-		victory_points = {
-			243 3 
-		}
 		buildings = {
 			infrastructure = 2
 			  
@@ -77,16 +74,15 @@ state = {
 		set_variable = { ReligionOther = 0 }
 
 		1960.1.1 = {
-			add_manpower = 295701‬
+			add_manpower = 295701
 		}
 		1973.1.1 = {
-			add_manpower = 261978‬
+			add_manpower = 261978
 		}
 	}
 
 	provinces = {
-		17 388 3460 3532 6462 6558 9439 9470 9532 11558 
-		444 3510 3283
+		17 388 3460 3532 6462 6558 9439 9470 9532 11558 444 3510 3283
 	}
 	manpower = 2105189
 	buildings_max_level_factor = 1.000

@@ -76,10 +76,10 @@ state = {
 		}
 
 		1960.1.1 = {
-			add_manpower = 552561‬
+			add_manpower = 552561
 		}
 		1973.1.1 = {
-			add_manpower = 423003‬
+			add_manpower = 423003
 		}
 	}
 
