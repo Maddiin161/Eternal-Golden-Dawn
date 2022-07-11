@@ -1,6 +1,7 @@
 state = {
 	id = 25
 	name = "STATE_25"
+	local_supplies=0.0
 	resources = {
 		steel = 7.000
 		tungsten = 12

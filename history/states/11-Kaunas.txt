@@ -1,7 +1,7 @@
 state = {
 	id = 11
 	name = "STATE_11"
-
+	local_supplies=0.0
 	history = {
 		owner = SOV
 		set_state_flag = temperate
