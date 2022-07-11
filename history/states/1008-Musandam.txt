@@ -1,6 +1,7 @@
 state = {
 	id = 1008
 	name = "STATE_1008"
+	local_supplies=0.000
 	history = {
 		owner = OMA
 		set_state_flag = desert

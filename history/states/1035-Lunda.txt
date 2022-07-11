@@ -1,6 +1,7 @@
 state = {
 	id = 1035
 	name = "STATE_1035"
+	local_supplies=0.000
 	history = {
 		owner = POR
 		set_state_flag = temperate

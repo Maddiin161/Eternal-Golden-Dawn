@@ -1,6 +1,7 @@
 state={
 	id=1526
 	name="STATE_1526"
+	local_supplies=0.000
 	history = {
 		owner = ECU
 		set_state_flag = tropical

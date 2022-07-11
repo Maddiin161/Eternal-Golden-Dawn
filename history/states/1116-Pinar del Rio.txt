@@ -1,6 +1,7 @@
 state = {
 	id = 1116
 	name = "STATE_1116"
+	local_supplies=0.000
 	history = {
 		owner = CUB
 		set_state_flag = tropical

@@ -1,6 +1,7 @@
 state={
 	id=1548
 	name="STATE_1548"
+	local_supplies=0.000
 	history={
 		owner = TIB
 		set_state_flag = mountains

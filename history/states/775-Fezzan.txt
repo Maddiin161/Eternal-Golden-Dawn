@@ -2,6 +2,7 @@
 state={
 	id=775
 	name="STATE_775"
+	local_supplies=0.000
 
 	history={
 		owner = FRA

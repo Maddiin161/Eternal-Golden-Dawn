@@ -2,6 +2,7 @@
 state={
 	id=1299
 	name="STATE_1299"
+	local_supplies=0.000
 
 	history={
 		owner = JOR

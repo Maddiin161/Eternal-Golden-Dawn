@@ -1,6 +1,7 @@
 state={
 	id=1513
 	name="STATE_1513"
+	local_supplies=0.000
 	history={
 		owner = PAN
 		set_state_flag = tropical

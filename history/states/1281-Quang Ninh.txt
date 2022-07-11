@@ -1,6 +1,7 @@
 state={
 	id=1281
 	name="STATE_1281"
+	local_supplies=0.000
 	history={
 		owner = FRA
 		set_state_flag = tropical

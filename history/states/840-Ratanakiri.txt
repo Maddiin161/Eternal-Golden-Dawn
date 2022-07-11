@@ -2,6 +2,7 @@
 state={
 	id=840
 	name="STATE_840"
+	local_supplies=0.000
 
 	history={
 		owner = CAM

@@ -2,6 +2,7 @@
 state={
 	id=841
 	name="STATE_841"
+	local_supplies=0.000
 
 	history={
 		owner = LOS

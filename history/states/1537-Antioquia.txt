@@ -1,6 +1,7 @@
 state={
 	id=1537
 	name="STATE_1537"
+	local_supplies=0.000
 	history={
 		owner = COL
 		set_state_flag = tropical

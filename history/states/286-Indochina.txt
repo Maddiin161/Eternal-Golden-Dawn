@@ -2,7 +2,7 @@
 state={
 	id=286
 	name="STATE_286"
-	local_supplies=0.0
+	local_supplies=0.000
 
 	history={
 		owner = VIE

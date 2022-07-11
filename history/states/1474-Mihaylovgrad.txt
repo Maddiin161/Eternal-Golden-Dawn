@@ -1,6 +1,7 @@
 state={
 	id=1474
 	name="STATE_1474"
+	local_supplies=0.000
 	history={
 		owner = BUL
 		victory_points = {

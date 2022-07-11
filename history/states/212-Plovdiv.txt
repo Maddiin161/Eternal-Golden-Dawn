@@ -2,7 +2,7 @@
 state={
 	id=212
 	name="STATE_212"
-	local_supplies=0.0
+	local_supplies=0.000
 
 	history={
 		owner = BUL

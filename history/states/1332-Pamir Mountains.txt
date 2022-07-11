@@ -2,6 +2,7 @@
 state={
 	id=1332
 	name="STATE_1332" # Pamir Mountains
+	local_supplies=0.000
 	manpower = 1
 	
 	state_category = wasteland

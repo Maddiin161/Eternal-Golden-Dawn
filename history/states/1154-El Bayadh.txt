@@ -1,6 +1,7 @@
 state = {
 	id = 1154
 	name = "STATE_1154"
+	local_supplies=0.000
 	history = {
 		owner = FRA
 		set_state_flag = desertlush

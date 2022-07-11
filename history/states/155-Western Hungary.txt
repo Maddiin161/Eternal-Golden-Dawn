@@ -2,7 +2,7 @@
 state={
 	id=155
 	name="STATE_155"
-	local_supplies=0.0
+	local_supplies=0.000
 	resources={
 		oil=3.000
 	}

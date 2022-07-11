@@ -1,6 +1,7 @@
 state={
 	id=1518
 	name="STATE_1518"
+	local_supplies=0.000
 	history = {
 		owner = NIC
 		set_state_flag = tropical

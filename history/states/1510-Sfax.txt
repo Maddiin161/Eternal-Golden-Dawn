@@ -1,6 +1,7 @@
 state={
 	id=1510
 	name="STATE_1510"
+	local_supplies=0.000
 	history = {
 		owner = TUN
 		set_state_flag = tropical

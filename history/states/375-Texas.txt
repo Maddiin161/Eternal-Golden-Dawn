@@ -2,7 +2,7 @@
 state = {
 	id = 375
 	name = "STATE_375"
-	local_supplies=0.0
+	local_supplies=0.000
 	manpower = 7711200
 	buildings_max_level_factor=2.000
 	

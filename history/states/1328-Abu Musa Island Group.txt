@@ -1,6 +1,7 @@
 state={
 	id=1328
 	name="STATE_1328"
+	local_supplies=0.000
 	history={
 		owner = PER
 		set_state_flag = tropical

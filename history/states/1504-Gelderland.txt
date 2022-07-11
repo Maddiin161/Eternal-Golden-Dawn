@@ -1,6 +1,7 @@
 state={
 	id=1504
 	name="STATE_1504"
+	local_supplies=0.000
 	history = {
 		owner = HOL
 		set_state_flag = temperate

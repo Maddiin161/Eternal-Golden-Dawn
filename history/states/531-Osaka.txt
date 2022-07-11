@@ -1,6 +1,7 @@
 state = {
 	id = 531
 	name = "STATE_531" # Kansai
+	local_supplies=0.000
 	manpower = 14419156
 	state_category = pop15dev2
 	resources = {

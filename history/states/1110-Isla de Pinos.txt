@@ -1,6 +1,7 @@
 state = {
 	id = 1110
 	name = "STATE_1110"
+	local_supplies=0.000
 	history = {
 		set_state_flag = tropical
 		set_state_flag = basic

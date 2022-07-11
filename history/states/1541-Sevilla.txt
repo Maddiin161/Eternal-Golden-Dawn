@@ -1,6 +1,7 @@
 state={
 	id=1541
 	name="STATE_1541"
+	local_supplies=0.000
 	history={
 		owner = SPR
 		set_state_flag = tropical

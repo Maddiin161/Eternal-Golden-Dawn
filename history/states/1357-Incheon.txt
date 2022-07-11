@@ -1,6 +1,7 @@
 state = {
 	id = 1357
 	name = "STATE_1357"
+	local_supplies=0.000
 	resources = {
 	}
 	history = {

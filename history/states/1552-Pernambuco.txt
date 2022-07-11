@@ -1,6 +1,7 @@
 state={
 	id=1552
 	name="STATE_1552"
+	local_supplies=0.000
 	history={
 		owner = BRA
 		set_state_flag = tropical

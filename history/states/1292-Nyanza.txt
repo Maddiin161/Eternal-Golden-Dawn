@@ -1,6 +1,7 @@
 state = { #NYANza uwu
 	id = 1292
 	name = "STATE_1292"
+	local_supplies=0.000
 	resources = {
 		aluminium = 9.000
 		tungsten = 3.000

@@ -1,6 +1,7 @@
 state = {
 	id = 654
 	name = "STATE_654" # Gorno-Altaysk
+	local_supplies=0.000
 	manpower = 139554	
 	
 	state_category = pop1dev1

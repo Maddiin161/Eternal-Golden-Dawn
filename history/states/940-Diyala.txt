@@ -2,6 +2,7 @@
 state = {
 	id = 940
 	name = "STATE_940"
+	local_supplies=0.000
 
 	history = {
 		owner = IRQ

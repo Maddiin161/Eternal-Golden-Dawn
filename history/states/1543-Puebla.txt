@@ -1,6 +1,7 @@
 state={
 	id=1543
 	name="STATE_1543"
+	local_supplies=0.000
 	history={
 		owner = MEX
 		set_state_flag = mountains

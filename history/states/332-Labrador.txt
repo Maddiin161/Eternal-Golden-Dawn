@@ -2,7 +2,7 @@
 state = {
 	id = 332
 	name = "STATE_332"
-	local_supplies=0.0
+	local_supplies=0.000
 	history = {
 		owner = NFL
 		set_state_flag = boreal

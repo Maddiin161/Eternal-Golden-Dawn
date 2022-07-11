@@ -1,6 +1,7 @@
 state = {
 	id = 1025
 	name = "STATE_1025"
+	local_supplies=0.000
 	history = {
 		owner = PRU
 		set_state_flag = mountains

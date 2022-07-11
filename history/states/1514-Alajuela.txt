@@ -1,6 +1,7 @@
 state={
 	id=1514
 	name="STATE_1514"
+	local_supplies=0.000
 	history={
 		owner = COS
 		set_state_flag = tropical

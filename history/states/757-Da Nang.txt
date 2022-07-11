@@ -2,6 +2,7 @@
 state={
 	id=757
 	name="STATE_757"
+	local_supplies=0.000
 	resources={
 		oil=8.000
 		steel=25.000

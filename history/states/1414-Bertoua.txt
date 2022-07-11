@@ -2,6 +2,7 @@
 state={
 	id=1414
 	name="STATE_1414"
+	local_supplies=0.000
 
 	history={
 		owner = CMR

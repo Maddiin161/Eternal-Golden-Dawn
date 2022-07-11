@@ -1,7 +1,7 @@
 state = {
 	id = 1
 	name = "STATE_1" # Corsica
-	local_supplies=0.0
+	local_supplies=0.000
 
 	provinces = {
 		3838 9851 11804 

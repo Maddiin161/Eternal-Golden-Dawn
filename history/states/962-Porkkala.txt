@@ -1,6 +1,7 @@
 state = {
 	id = 962
 	name = "STATE_962"
+	local_supplies=0.000
 	history = {
 		owner = SOV
 		set_state_flag = boreal

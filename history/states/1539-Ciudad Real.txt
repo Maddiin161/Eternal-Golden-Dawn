@@ -1,6 +1,7 @@
 state={
 	id=1539
 	name="STATE_1539"
+	local_supplies=0.000
 	history={
 		owner = SPR
 		set_state_flag = temperate

@@ -1,6 +1,7 @@
 state={
 	id=1556
 	name="STATE_1556"
+	local_supplies=0.000
 	history={
 		owner = PRC
 		set_state_flag = temperate

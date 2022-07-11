@@ -1,6 +1,7 @@
 state = {
 	id=1258
 	name="STATE_1258"
+	local_supplies=0.000
 
 	history={
 		owner = ICE

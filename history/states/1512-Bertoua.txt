@@ -1,6 +1,7 @@
 state={
 	id=1512
 	name="STATE_1512"
+	local_supplies=0.000
 	history={
 		owner = CMR
 		set_state_flag = tropical

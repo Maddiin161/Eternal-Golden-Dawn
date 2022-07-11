@@ -1,6 +1,7 @@
 state = {
 	id = 1091
 	name = "STATE_1091" # Maule
+	local_supplies=0.000
 
 	history = {
 		owner = CHL

@@ -1,6 +1,7 @@
 state={
 	id=1524
 	name="STATE_1524"
+	local_supplies=0.000
 	history = {
 		owner = DOM
 		set_state_flag = tropical

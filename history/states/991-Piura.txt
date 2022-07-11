@@ -2,6 +2,7 @@
 state={
 	id=991
 	name="STATE_991"
+	local_supplies=0.000
 
 	history={
 		owner = PRU

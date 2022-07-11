@@ -1,6 +1,7 @@
 state = {
 	id = 653
 	name = "STATE_653"
+	local_supplies=0.000
 	resources = {
 		aluminium = 31.000
 	}

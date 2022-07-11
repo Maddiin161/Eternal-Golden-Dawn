@@ -2,6 +2,7 @@
 state={
 	id=891
 	name="STATE_891"
+	local_supplies=0.000
 
 	history={
 		owner = MEX

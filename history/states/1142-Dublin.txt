@@ -1,6 +1,7 @@
 state = {
 	id = 1142
 	name = "STATE_1142"
+	local_supplies=0.000
 
 	history = {
 		owner = IRE

@@ -1,6 +1,7 @@
 state = {
 	id = 889
 	name = "STATE_889"
+	local_supplies=0.000
 	history = {
 		owner = USA
 		set_state_flag = tropical

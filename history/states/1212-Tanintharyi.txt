@@ -1,6 +1,7 @@
 state = {
 	id = 1212
 	name = "STATE_1212"
+	local_supplies=0.000
 
 	history = {
 		owner = BRM

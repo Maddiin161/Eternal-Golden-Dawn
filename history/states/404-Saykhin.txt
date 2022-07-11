@@ -1,7 +1,7 @@
 state = {
 	id = 404
 	name = "STATE_404"
-	local_supplies=0.0
+	local_supplies=0.000
 	resources = {
 		oil = 16.000
 		steel = 4.000

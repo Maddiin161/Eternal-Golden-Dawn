@@ -2,6 +2,7 @@
 state={
 	id=605
 	name="STATE_605"
+	local_supplies=0.000
 	resources={
 		steel=62.000
 		tungsten=31.000

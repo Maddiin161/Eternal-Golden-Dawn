@@ -1,6 +1,7 @@
 state = {
 	id = 1084
 	name = "STATE_1084"
+	local_supplies=0.000
 
 	history = {
 		owner = ETH

@@ -1,6 +1,7 @@
 state = {
 	id = 1162
 	name = "STATE_1162"
+	local_supplies=0.000
 	history = {
 		owner = HOL
 		set_state_flag = tropical

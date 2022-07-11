@@ -1,6 +1,7 @@
 state={
 	id=1546
 	name="STATE_1546"
+	local_supplies=0.000
 	history={
 		owner = MEX
 		set_state_flag = desertlush

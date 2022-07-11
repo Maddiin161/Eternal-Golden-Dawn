@@ -1,6 +1,7 @@
 state = {
 	id = 929
 	name = "STATE_929"
+	local_supplies=0.000
 	history = {
 		owner = SPR
 		set_state_flag = desert

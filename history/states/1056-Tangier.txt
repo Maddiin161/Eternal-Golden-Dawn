@@ -1,6 +1,7 @@
 state = {
 	id = 1056
 	name = "STATE_1056"
+	local_supplies=0.000
 	history = {
 		owner = SPR
 		set_state_flag = temperate

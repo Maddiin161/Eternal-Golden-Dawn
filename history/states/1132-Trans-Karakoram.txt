@@ -1,6 +1,7 @@
 state = {
 	id = 1132
 	name = "STATE_1132"
+	local_supplies=0.000
 
 	history = {
 		victory_points = {

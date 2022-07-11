@@ -1,7 +1,7 @@
-state =
-{
+state = {
 	id = 630
 	name = "STATE_630"
+	local_supplies=0.000
 	manpower = 69
 	state_category = enclave
 

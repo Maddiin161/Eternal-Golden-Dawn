@@ -1,6 +1,7 @@
 state = {
 	id = 859
 	name = "STATE_859"
+	local_supplies=0.000
 	history = {
 		owner = USA
 		set_state_flag = mountains

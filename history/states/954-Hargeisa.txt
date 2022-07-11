@@ -1,6 +1,7 @@
 state = {
 	id = 954
 	name = "STATE_954"
+	local_supplies=0.000
 
 	history = {
 		owner = SML

@@ -1,7 +1,7 @@
 state = {
 	id = 1023
 	name = "STATE_1023"
-
+	local_supplies=0.000
 	history = {
 		owner = DEN
 		set_state_flag = boreal

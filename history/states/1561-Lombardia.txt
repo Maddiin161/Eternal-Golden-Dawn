@@ -1,6 +1,7 @@
 state = {
 	id = 1561
 	name = "Lombardia"
+	local_supplies=0.000
 
 	history = {
 		owner = ITA

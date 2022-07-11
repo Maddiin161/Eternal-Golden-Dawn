@@ -1,6 +1,7 @@
 state={
 	id=1509
 	name="STATE_1509"
+	local_supplies=0.000
 	history = {
 		owner = TUN
 		set_state_flag = desert

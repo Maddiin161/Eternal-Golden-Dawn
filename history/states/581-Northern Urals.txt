@@ -1,6 +1,7 @@
 state = {
 	id = 581
 	name = "STATE_581"
+	local_supplies=0.000
 	history = {
 		owner = ZAM
 		set_state_flag = temperate

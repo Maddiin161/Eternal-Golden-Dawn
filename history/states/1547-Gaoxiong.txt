@@ -1,6 +1,7 @@
 state={
 	id=1547
 	name="STATE_1547"
+	local_supplies=0.000
 	history={
 		owner = TAI
 		set_state_flag = temperate

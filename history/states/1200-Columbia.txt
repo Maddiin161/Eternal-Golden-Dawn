@@ -1,6 +1,7 @@
 state = {
 	id = 1200
 	name = "STATE_1200"
+	local_supplies=0.000
 	history = {
 		owner = USA
 		set_state_flag = temperate

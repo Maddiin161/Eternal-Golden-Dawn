@@ -1,6 +1,7 @@
 state = {
 	id = 1247
 	name = "STATE_1247"
+		local_supplies=0.000
 	
 	history = {
 		owner = ROM

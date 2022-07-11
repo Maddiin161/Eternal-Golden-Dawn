@@ -2,6 +2,7 @@
 state={
 	id=904
 	name="STATE_904"
+	local_supplies=0.000
 
 	history={
 		owner = NOR

@@ -2,6 +2,7 @@
 state={
 	id=787
 	name="STATE_787"
+	local_supplies=0.000
 
 	history={
 		owner = CPB

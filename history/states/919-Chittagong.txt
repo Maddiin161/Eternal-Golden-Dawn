@@ -2,6 +2,7 @@
 state={
 	id=919
 	name="STATE_919"
+	local_supplies=0.000
 
 	history={
 		owner = RAJ

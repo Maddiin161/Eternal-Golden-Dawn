@@ -2,7 +2,7 @@
 state = {
 	id = 842
 	name = "STATE_842"
-
+	local_supplies=0.000
 	history = {
 		#owner = HOL #changed to INS to clear error from log at new game start
 		owner = INS
