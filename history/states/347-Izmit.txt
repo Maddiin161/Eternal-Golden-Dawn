@@ -31,7 +31,7 @@ state = {
 			arms_factory = 1
 			
 			  
-			steel_factory = 1
+			#steel_factory = 1
 			dockyard = 1
 			904 = {
 				naval_base = 2

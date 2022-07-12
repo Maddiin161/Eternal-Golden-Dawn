@@ -2,8 +2,6 @@ state = {
 	id = 1418
     name = "STATE_1418"
 	local_supplies=0.000
-	resources = {
-	}
 	history = {
 		owner = RCG
 		set_state_flag = tropical

@@ -2,8 +2,6 @@ state={
 	id=1389
 	name="STATE_1389"
 	local_supplies=0.000
-	resources = {
-	}
 	history={
 		owner = SEN
 		set_state_flag = tropical

@@ -2,8 +2,6 @@ state = {
 	id = 1358
 	name = "STATE_1358"
 	local_supplies=0.000
-	resources = {
-	}
 	history = {
 		owner = KOR
 		set_state_flag = temperate

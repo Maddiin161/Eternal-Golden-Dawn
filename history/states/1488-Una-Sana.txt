@@ -3,9 +3,6 @@ state = {
 	id = 1488
 	name = "STATE_1488"
 	local_supplies=0.000
-	resources = {
-	}
-
 	history = {
 		owner = YUG
 		set_state_flag = mountains

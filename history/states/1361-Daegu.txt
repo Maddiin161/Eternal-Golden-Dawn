@@ -2,8 +2,6 @@ state = {
 	id = 1361
 	name = "STATE_1361"
 	local_supplies=0.000
-	resources = {
-	}
 	history = {
 		owner = TIB
 		set_state_flag = mountains

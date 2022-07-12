@@ -1,6 +1,6 @@
 state = {
 	id = 1564
-	name = "Toscana"
+	name = "STATE_1564"
 	local_supplies=0.000
 
 	history = {

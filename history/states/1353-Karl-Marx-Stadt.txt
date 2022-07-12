@@ -2,8 +2,6 @@ state = {
 	id = 1353
 	name = "STATE_1353"
 	local_supplies=0.000
-	resources = {
-	}
 	history = {
 		owner = DDR
 		set_state_flag = temperate

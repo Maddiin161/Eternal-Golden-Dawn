@@ -3,8 +3,6 @@ state = {
 	id = 1408
 	name = "STATE_1408"
 	local_supplies=0.000
-	resources = {
-	}
 	history = {
 		owner = RCG
 		set_state_flag = desert

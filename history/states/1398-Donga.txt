@@ -2,9 +2,7 @@
 state = {
 	id = 1398
 	name = "STATE_1398"
-	local_supplies=0.000	
-	resources = {
-	}
+	local_supplies=0.000
 	history = {
 		owner = SEN
 		set_state_flag = temperate

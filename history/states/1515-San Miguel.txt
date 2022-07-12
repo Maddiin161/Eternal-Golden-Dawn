@@ -2,9 +2,6 @@ state = {
 	id = 1515
 	name = "STATE_1515"
 	local_supplies=0.000
-	
-	resources = {
-	}
 	history = {
 		owner = ELS
 		set_state_flag = tropical

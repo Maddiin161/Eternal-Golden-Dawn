@@ -2,8 +2,6 @@ state = {
 	id = 1383
 	name = "STATE_1383"
 	local_supplies=0.000
-	resources = {
-	}
 	history = {
 		owner = SEN
 		set_state_flag = desert

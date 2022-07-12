@@ -2,9 +2,6 @@ state = {
 	id = 1393
 	name = "STATE_1393"
 	local_supplies=0.000
-	resources = {
-
-	}
 	history = {
 		owner = GHA
 		set_state_flag = temperate

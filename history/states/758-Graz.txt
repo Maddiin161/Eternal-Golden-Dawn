@@ -1,6 +1,6 @@
 state = {
 	id = 758
-	name = "Graz"
+	name = "STATE_758"
 	local_supplies=0.000
 
 	history = {

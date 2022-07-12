@@ -2,9 +2,7 @@ state = {
 	id = 1321
 	name = "STATE_1321"
 	local_supplies=0.000
-	manpower = 577005	
-	resources = {
-	}
+	manpower = 577005
 	history = {
 		owner = GUA
 		set_state_flag = tropical

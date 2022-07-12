@@ -1,49 +1,38 @@
 state = {
-	id = 39
-	name = "Trentino"
+	id = 335
+	name = "STATE_335"
 	local_supplies=0.000
-	resources = {
-		aluminium = 22.000
-	}
 
 	history = {
-		owner = ITA
-		set_state_flag = mountains
+		owner = INO
+		set_state_flag = tropical
 		set_state_flag = lakes
-		set_state_flag = small
-		set_state_flag = decent
-		victory_points = {
-			11598 5 
-		}
+		set_state_flag = nominal
+		set_state_flag = semideveloped
+		add_core_of = INO
 		buildings = {
-			infrastructure = 2
+			infrastructure = 0
 			  
-			
-			  
-			  
-			
-			  
+
+
 		}
-		add_core_of = ITA
-		add_core_of = AUS
-		set_state_flag = HDI4
+		set_state_flag = HDI3
 		set_variable = { tourism_infrastructure = 0 }
 		
 		#1st is majority. Up to 3 minorities below. First is Majority, Next 3 are minorities, largest to smallest
-		add_to_array = { culture = 139 } 	
-		add_to_array = { culture = 146 } 
+		add_to_array = { culture = 67 } 		
 
 		##RELIGIONS##
 		#Note: These don't need to add up to anything, simple ratios will do
 		#Christian#
-		set_variable = { ReligionChristianityCatholic = 96 }
+		set_variable = { ReligionChristianityCatholic = 0 }
 		set_variable = { ReligionChristianityProtestant = 4 }
 		set_variable = { ReligionChristianityOrthodox = 0 }
 		set_variable = { ReligionChristianityOriental = 0 }
 		#Judaic#
 		set_variable = { ReligionJudaism = 0 }
 		#Islamic#
-		set_variable = { ReligionIslamSunni = 0 }
+		set_variable = { ReligionIslamSunni = 96 }
 		set_variable = { ReligionIslamShia = 0 }
 		set_variable = { ReligionIslamIbadi = 0 }
 		#Buddhism#
@@ -74,27 +63,27 @@ state = {
 		set_variable = { ReligionMessianic = 0 }
 		set_variable = { ReligionOther = 0 }
 		1960.1.1 = {
-			add_manpower = 61555
+			add_manpower = 2408204
 		}
 		1973.1.1 = {	
-			add_manpower = 80883		
-			set_state_category = pop1dev3	
+			add_manpower = 4821253		
+			set_state_category = pop15dev2
 		}
 		1980.1.1 = {
-			add_manpower = 29898
+			add_manpower = 3068672
 
 		}
 		1991.1.1 = {
-			add_manpower = 5632
-			set_state_category = pop1dev4
+			add_manpower = 4920455
+			set_state_category = pop20dev2
 		}
 
-	}					
+	}
 
 	provinces = {
-		6631 9598 11598 
+		1413 4390 7223 7642 12277 12293 
 	}
-	manpower = 830203
+	manpower = 9198516				
 	buildings_max_level_factor = 1.000
-	state_category = pop1dev2
+	state_category = pop10dev1
 }

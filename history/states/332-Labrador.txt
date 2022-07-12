@@ -4,7 +4,7 @@ state = {
 	name = "STATE_332"
 	local_supplies=0.000
 	history = {
-		owner = NFL
+		owner = NWF
 		set_state_flag = boreal
 		set_state_flag = freshwatersea
 		set_state_flag = medium
@@ -15,7 +15,7 @@ state = {
 
 		}
 		add_core_of = CAN
-		add_core_of = NFL
+		add_core_of = NWF
 		add_core_of = QBC
 		1949.3.31 = {
 			owner = CAN

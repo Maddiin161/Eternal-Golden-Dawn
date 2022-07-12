@@ -5,9 +5,6 @@ state = {
 	manpower = 18549
 	
 	state_category = pop1
-
-	resources = {
-	}
 	
 	history = {
 		owner = KUW

@@ -2,8 +2,6 @@ state = {
 	id = 855
 	name = "STATE_855"
 	local_supplies=0.000
-	resources = {
-	}
 
 	history = {
 		owner = INS
