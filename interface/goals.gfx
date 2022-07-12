@@ -8,52 +8,52 @@ spriteTypes = {
 
 	SpriteType = { 
 		name = "GFX_CUB_the_final_revolution"
-		texturefile = "gfx/interface/goals/CUB/CUB_the_final_revolution.dds"
+		texturefile = "gfx/interface/goals/GFX_CUB_the_final_revolution.dds"
 	}
 	
 	SpriteType = { 
 		name = "GFX_CUB_meet_with_soviet_arms_dealers"
-		texturefile = "gfx/interface/goals/CUB/CUB_meet_with_soviet_arms_dealers.dds"
+		texturefile = "gfx/interface/goals/GFX_CUB_meet_with_soviet_arms_dealers.dds"
 	}	
 	
 	SpriteType = { 
 		name = "GFX_CUB_el_observa"
-		texturefile = "gfx/interface/goals/CUB/CUB_el_observa.dds"
+		texturefile = "gfx/interface/goals/GFX_CUB_el_observa.dds"
 	}	
 
 	SpriteType = { 
 		name = "GFX_CUB_sharpen_our_sickles"
-		texturefile = "gfx/interface/goals/CUB/CUB_sharpen_our_sickles.dds"
+		texturefile = "gfx/interface/goals/GFX_CUB_sharpen_our_sickles.dds"
 	}	
 
 	SpriteType = { 
 		name = "GFX_CUB_secure_nuclear_weapons"
-		texturefile = "gfx/interface/goals/CUB/CUB_secure_nuclear_weapons.dds"
+		texturefile = "gfx/interface/goals/GFX_CUB_secure_nuclear_weapons.dds"
 	}		
 
 	SpriteType = { 
 		name = "GFX_CUB_hold_the_eagle_hostage"
-		texturefile = "gfx/interface/goals/CUB/CUB_hold_the_eagle_hostage.dds"
+		texturefile = "gfx/interface/goals/GFX_CUB_hold_the_eagle_hostage.dds"
 	}
 
 	SpriteType = { 
 		name = "GFX_CUB_retake_guantanamo"
-		texturefile = "gfx/interface/goals/CUB/CUB_retake_guantanamo.dds"
+		texturefile = "gfx/interface/goals/GFX_CUB_retake_guantanamo.dds"
 	}
 	
 	SpriteType = { 
 		name = "GFX_CUB_revolucion_de_las_americas"
-		texturefile = "gfx/interface/goals/CUB/CUB_revolucion_de_las_americas.dds"
+		texturefile = "gfx/interface/goals/GFX_CUB_revolucion_de_las_americas.dds"
 	}
 
 	SpriteType = { 
 		name = "GFX_CUB_contacts_in_angola"
-		texturefile = "gfx/interface/goals/CUB/CUB_contacts_in_angola.dds"
+		texturefile = "gfx/interface/goals/GFX_CUB_contacts_in_angola.dds"
 	}
 	
 	SpriteType = { 
 		name = "GFX_CUB_guerillas_of_the_world_unite"
-		texturefile = "gfx/interface/goals/CUB/CUB_guerillas_of_the_world_unite.dds"
+		texturefile = "gfx/interface/goals/GFX_CUB_guerillas_of_the_world_unite.dds"
 	}	
 	
 	#Iraq#
@@ -179,5 +179,9 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_IRQ_And_Iraq_Holds_Its_Breath"
 		texturefile = "gfx/interface/goals/IRQ/IRQ_And_Iraq_Holds_Its_Breath.dds"
+	}
+	SpriteType = { 
+		name = "GFX_PER_Munafiqin_Khalq_e_Iran"
+		texturefile = "gfx/interface/goals/PER/GFX_PER_Munafiqin_Khalq_e_Iran.dds"
 	}
 }

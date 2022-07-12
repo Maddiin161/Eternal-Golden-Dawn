@@ -638,10 +638,10 @@ spriteTypes = {
 		
 	SpriteType = { 
 		name = "GFX_CUB_the_final_revolution_shine"
-		texturefile = "gfx/interface/goals/CUB/CUB_the_final_revolution.dds"
+		texturefile = "gfx/interface/goals/GFX_CUB_the_final_revolution.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CUB/CUB_the_final_revolution.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_CUB_the_final_revolution.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -653,7 +653,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CUB/CUB_the_final_revolution.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_CUB_the_final_revolution.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -669,10 +669,10 @@ spriteTypes = {
 	
 	SpriteType = { 
 		name = "GFX_CUB_meet_with_soviet_arms_dealers_shine"
-		texturefile = "gfx/interface/goals/CUB/CUB_meet_with_soviet_arms_dealers.dds"
+		texturefile = "gfx/interface/goals/GFX_CUB_meet_with_soviet_arms_dealers.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CUB/CUB_meet_with_soviet_arms_dealers.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_CUB_meet_with_soviet_arms_dealers.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -684,7 +684,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CUB/CUB_meet_with_soviet_arms_dealers.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_CUB_meet_with_soviet_arms_dealers.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -700,10 +700,10 @@ spriteTypes = {
 	
 	SpriteType = { 
 		name = "GFX_CUB_el_observa_shine"
-		texturefile = "gfx/interface/goals/CUB/CUB_el_observa.dds"
+		texturefile = "gfx/interface/goals/GFX_CUB_el_observa.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CUB/CUB_el_observa.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_CUB_el_observa.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -715,7 +715,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CUB/CUB_el_observa.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_CUB_el_observa.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -731,10 +731,10 @@ spriteTypes = {
 
 	SpriteType = { 
 		name = "GFX_CUB_sharpen_our_sickles_shine"
-		texturefile = "gfx/interface/goals/CUB/CUB_sharpen_our_sickles.dds"
+		texturefile = "gfx/interface/goals/GFX_CUB_sharpen_our_sickles.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CUB/CUB_sharpen_our_sickles.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_CUB_sharpen_our_sickles.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -746,7 +746,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CUB/CUB_sharpen_our_sickles.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_CUB_sharpen_our_sickles.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -761,10 +761,10 @@ spriteTypes = {
 	}	
 	SpriteType = { 
 		name = "GFX_CUB_secure_nuclear_weapons_shine"
-		texturefile = "gfx/interface/goals/CUB/CUB_secure_nuclear_weapons.dds"
+		texturefile = "gfx/interface/goals/GFX_CUB_secure_nuclear_weapons.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CUB/CUB_secure_nuclear_weapons.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_CUB_secure_nuclear_weapons.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -776,7 +776,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CUB/CUB_secure_nuclear_weapons.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_CUB_secure_nuclear_weapons.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -791,10 +791,10 @@ spriteTypes = {
 	}
 	SpriteType = { 
 		name = "GFX_CUB_retake_guantanamo_shine"
-		texturefile = "gfx/interface/goals/CUB/CUB_retake_guantanamo.dds"
+		texturefile = "gfx/interface/goals/GFX_CUB_retake_guantanamo.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CUB/CUB_retake_guantanamo.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_CUB_retake_guantanamo.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -806,7 +806,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CUB/CUB_retake_guantanamo.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_CUB_retake_guantanamo.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1090,6 +1090,36 @@ spriteTypes = {
 			legacy_lazy_load = no
 		}
 	SpriteType = { 
+			name = "GFX_PER_Munafiqin_Khalq_e_Iran"
+			texturefile = "gfx/interface/goals/PER/GFX_PER_Munafiqin_Khalq_e_Iran.dds"
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/PER/GFX_PER_Munafiqin_Khalq_e_Iran.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+				animationrotation = -90.0
+				animationlooping = no
+				animationtime = 0.75
+				animationdelay = 0
+				animationblendmode = "add"
+				animationtype = "scrolling"
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			animation = {
+				animationmaskfile = "gfx/interface/goals/PER/GFX_PER_Munafiqin_Khalq_e_Iran.dds"
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+				animationrotation = 90.0
+				animationlooping = no
+				animationtime = 0.75
+				animationdelay = 0
+				animationblendmode = "add"
+				animationtype = "scrolling"
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+		}
+    SpriteType = { 
 			name = "GFX_IRQ_And_Iraq_Holds_Its_Breath_shine"
 			texturefile = "gfx/interface/goals/IRQ/IRQ_And_Iraq_Holds_Its_Breath.dds"
 			effectFile = "gfx/FX/buttonstate.lua"
