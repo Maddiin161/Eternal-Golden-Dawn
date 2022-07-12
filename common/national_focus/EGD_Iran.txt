@@ -205,8 +205,41 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 120
-		}
+		266 = {
+		    damage_building = {
+			type = infrastructure
+			damage = 1
+		    }
+			damage_building = {
+			type = industrial_complex
+			damage = 1
+		    }
+			damage_building = {
+			type = arms_factory
+			damage = 1
+		    }
+			}
+		412 = {
+		    damage_building = {
+			type = infrastructure
+			damage = 1
+		    }
+			damage_building = {
+			type = industrial_complex
+			damage = 1
+		    }
+		    }
+		416 = {
+		    damage_building = {
+			type = infrastructure
+			damage = 1
+		    }
+			damage_building = {
+			type = industrial_complex
+			damage = 1
+		    }
+		    }
+			}
 		prerequisite = {
 		    focus = PER_Preparing_for_A_Hot_Summer
 		}
@@ -221,7 +254,10 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 120
+			add_timed_idea = {
+           idea = PER_new_phase_of_executions
+           days = 90
+            }
 		}
 		prerequisite = {
 		    focus = PER_Street_Clashes
@@ -237,7 +273,10 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 120
+		   add_timed_idea = {
+           idea = PER_brush_them_out
+           days = 120
+            }
 		}
 		prerequisite = {
 		    focus = PER_Arrest_and_Executions
@@ -253,7 +292,38 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 120
+		    add_ideas = PER_the_comitte
+			if = {
+                limit = { has_template = "Komite Militias" }
+                capital_scope = {
+                    create_unit = {
+                        division = "name=\"Komite Militias\" division_template = \"Komite Militias\" start_experience_factor = 0.2"
+                        owner = PER
+                        count = 5
+                    }
+                }
+            }
+            else = {
+                division_template = {
+                    name = "Komite Militias"
+                    regiments = {
+                       Cavalry = { x = 0 y = 0 }
+                       Cavalry = { x = 0 y = 1 }
+                       Cavalry = { x = 0 y = 2 }
+                       Cavalry = { x = 0 y = 3 }
+                       Cavalry = { x = 1 y = 0 }
+                       Cavalry = { x = 1 y = 1 }
+                    }
+                    priority = 0
+                }
+                capital_scope = {
+                    create_unit = {
+                        division = "name=\"Komite Militias\" division_template = \"Komite Militias\" start_experience_factor = 0.2"
+                        owner = PER
+                        count = 5
+                        }
+                    }
+                }
 		}
 		prerequisite = {
 		    focus = PER_Preparing_for_A_Hot_Summer
@@ -269,7 +339,11 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 120
+		    add_war_support = 0.05
+			add_popularity = {
+            ideology = islamism
+            popularity = 0.05
+         }
 		}
 		prerequisite = {
 		    focus = PER_Expand_the_Islamic_Revolution_Comittee
@@ -285,7 +359,8 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 120
+		    add_political_power = 30
+			add_stability = 0.15
 		}
 		prerequisite = {
 		    focus = PER_Take_Control_of_The_Streets
@@ -301,8 +376,41 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 120
-		}
+		add_war_support = 0.035
+		if = {
+                limit = { has_template = "Pasdaran Corps" }
+                capital_scope = {
+                    create_unit = {
+                        division = "name=\"Pasdaran Corps\" division_template = \"Pasdaran Corps\" start_experience_factor = 1.0"
+                        owner = PER
+                        count = 5
+                    }
+                }
+            }
+            else = {
+                division_template = {
+                    name = "Pasdaran Corps"
+                    regiments = {
+                       Cavalry = { x = 0 y = 0 }
+                       Cavalry = { x = 0 y = 1 }
+                       Cavalry = { x = 0 y = 2 }
+                       Cavalry = { x = 0 y = 3 }
+                       Cavalry = { x = 1 y = 0 }
+                       Cavalry = { x = 1 y = 1 }
+                       Cavalry = { x = 1 y = 2 }
+                       Cavalry = { x = 1 y = 3 }
+                    }
+                    priority = 2
+                }
+                capital_scope = {
+                    create_unit = {
+                        division = "name=\"Pasdaran Corps\" division_template = \"Pasdaran Corps\" start_experience_factor = 1.0"
+                        owner = PER
+                        count = 5
+                        }
+                    }
+                }
+			}
 		prerequisite = {
 		    focus = PER_Preparing_for_A_Hot_Summer
 		}
@@ -317,7 +425,8 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 120
+		    add_ideas = { PER_the_army_of_the_people }
+			add_manpower = 35000
 		}
 		prerequisite = {
 		    focus = PER_Expanding_the_IRGC
@@ -333,7 +442,7 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 120
+		     add_ideas = PER_guardians_of_the_revolution
 		}
 		prerequisite = {
 		    focus = PER_Arm_the_Basiji_Forces
@@ -343,7 +452,7 @@ focus_tree = {
 	    id = PER_ASHOOB
 		icon = GFX_PER_ASHOOB
 		x = 11
-		y = 9
+		y = 12
 		ai_will_do {
 		    factor = 1
 		}
@@ -352,7 +461,63 @@ focus_tree = {
 		    add_stability = -0.25
 			add_war_support = 0.07
 			add_political_power = -100
-			add_timed_idea = { idea = PER_country_felt_in_chaos days = 90 }
+			add_ideas = {PER_country_felt_in_chaos }
+		}
+		prerequisite = {
+		    focus = PER_Munafiqin_e_Khalq_e_Iran
+		}
+    }
+	focus = {
+	    id = PER_Munafiqin_e_Khalq_e_Iran
+		icon = GFX_goal_unknown
+		x = 11
+		y = 10
+		ai_will_do {
+		    factor = 1
+		}
+		cost = 3
+		completion_reward = {
+		    add_political_power = -50
+			country_event = {
+            id = iran.12
+            days = 0
+        } 
+		}
+		prerequisite = {
+		    focus = PER_MEK_Political_Shift
+		}
+    }
+	focus = {
+	    id = PER_Begining_of_the_Street_War
+		icon = GFX_goal_unknown
+		x = 11
+		y = 11
+		ai_will_do {
+		    factor = 1
+		}
+		cost = 3
+		completion_reward = {
+		    add_stability = -0.25
+		}
+		prerequisite = {
+		    focus = PER_MEK_Political_Shift
+		}
+    }
+	focus = {
+	    id = PER_MEK_Political_Shift
+		icon = GFX_goal_unknown
+		x = 11
+		y = 9
+		ai_will_do {
+		    factor = 1
+		}
+		cost = 3
+		completion_reward = {
+		    add_war_support = -0.1
+			add_popularity = {
+            ideology = independent_socialism
+            popularity = 0.1
+            }
 		}
 		prerequisite = {
 		    focus = PER_The_True_Guardians_of_the_Revolution
@@ -362,54 +527,6 @@ focus_tree = {
 		}	
 		prerequisite = {
 		    focus = PER_Hunt_Down_the_Top_Leaders_of_MEK
-		}
-    }
-	focus = {
-	    id = PER_Beginning_of_Street_Battles
-		icon = GFX_goal_unknown
-		x = 11
-		y = 10
-		ai_will_do {
-		    factor = 1
-		}
-		cost = 3
-		completion_reward = {
-		    add_political_power = 120
-		}
-		prerequisite = {
-		    focus = PER_ASHOOB
-		}
-    }
-	focus = {
-	    id = PER_War_with_Munafiqin_e_Eslam
-		icon = GFX_goal_unknown
-		x = 11
-		y = 11
-		ai_will_do {
-		    factor = 1
-		}
-		cost = 3
-		completion_reward = {
-		    add_political_power = 120
-		}
-		prerequisite = {
-		    focus = PER_Beginning_of_Street_Battles
-		}
-    }
-	focus = {
-	    id = PER_Munafiqin_e_Khalq_e_Iran
-		icon = GFX_goal_unknown
-		x = 11
-		y = 12
-		ai_will_do {
-		    factor = 1
-		}
-		cost = 3
-		completion_reward = {
-		    add_political_power = 120
-		}
-		prerequisite = {
-		    focus = PER_War_with_Munafiqin_e_Eslam
 		}
     }
 	focus = {
