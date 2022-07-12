@@ -42,18 +42,6 @@ buildings = {
 		value = 5
 		infrastructure_construction_effect = yes
 	}
-	
-	
-	office_park = {
-		show_on_map = 6
-		base_cost = 10800
-		general_production = 1
-		icon_frame = 1
-		max_level = 20
-		shares_slots = yes
-		value = 5
-		infrastructure_construction_effect = yes
-	}
 
 	air_base = {
 		show_on_map = 1
