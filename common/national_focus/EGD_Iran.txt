@@ -471,7 +471,7 @@ focus_tree = {
 	    id = PER_Munafiqin_e_Khalq_e_Iran
 		icon = GFX_PER_Munafiqin_Khalq_e_Iran
 		x = 11
-		y = 10
+		y = 11
 		ai_will_do {
 		    factor = 1
 		}
@@ -484,20 +484,20 @@ focus_tree = {
         } 
 		}
 		prerequisite = {
-		    focus = PER_MEK_Political_Shift
+		    focus = PER_Begining_of_the_Street_War
 		}
     }
 	focus = {
 	    id = PER_Begining_of_the_Street_War
 		icon = GFX_goal_unknown
 		x = 11
-		y = 11
+		y = 10
 		ai_will_do {
 		    factor = 1
 		}
 		cost = 3
 		completion_reward = {
-		    add_stability = -0.25
+		    add_stability = -0.1
 		}
 		prerequisite = {
 		    focus = PER_MEK_Political_Shift
@@ -515,7 +515,7 @@ focus_tree = {
 		completion_reward = {
 		    add_war_support = -0.1
 			add_popularity = {
-            ideology = independent_socialism
+            ideology = revolutionary_socialism
             popularity = 0.1
             }
 		}
