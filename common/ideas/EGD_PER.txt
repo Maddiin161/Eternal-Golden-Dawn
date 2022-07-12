@@ -109,6 +109,8 @@ ideas = {
 				modifier = {
 					stability_factor = -0.2
 					war_support_factor = -0.1
+					stability_weekly = -0.003
+					political_power_factor = -0.25
 				}
 			}
 			PER_shahist_executaions = {
