@@ -59,5 +59,26 @@ ideas = {
 					industrial_capacity_factory = 0.1
 				}
 			}
+			
+		GRE_in_the_watchlists_idea = {
+				picture = GRE_in_the_watchlists
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+				stability_factor = -0.02
+				political_power_gain = -0.05
+				drift_defence_factor = -0.03
+				foreign_subversive_activites = 0.15
+				}
+			}
 		}
 	}

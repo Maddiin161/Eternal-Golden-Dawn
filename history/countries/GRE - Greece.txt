@@ -33,6 +33,7 @@ add_ideas = {
 	GRE_democratic_experiment_idea
 	GRE_fresh_socialism_idea
 	GRE_recovering_economy_idea
+	GRE_in_the_watchlists_idea
 }
 
 set_variable = { EGD_COUNTRY_GDP = 52 } 

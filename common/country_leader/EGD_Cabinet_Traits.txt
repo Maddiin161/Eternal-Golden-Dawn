@@ -18,7 +18,6 @@ Total_National_Defense_Advocate = {
 		army_core_attack_factor = 0.1
 		dig_in_speed_factor = 0.15
 		max_dig_in_factor = 0.15
-		#recon_factor_while_entrenched = 0.2 replace
 		random = no
 	}
 
@@ -33,8 +32,8 @@ Technocratically_Inclined_Socialist = {
 #Corrupt Absolutist
 Corrupt_Absolutist = {
 	    stability_factor = -0.03	 						
-		drift_defence_factor = -0.06							
-		industrial_capacity_factory = -0.6				
+		drift_defence_factor = -0.01							
+		industrial_capacity_factory = -0.02			
 		encryption = -1 								
 		political_power_gain = 0.15
 		intelligence_agency_defense = -0.15
