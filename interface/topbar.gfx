@@ -93,7 +93,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_map_modes_bg"
-		texturefile = "gfx//interface//mapmode//mapmode_main_bg.dds"
+		texturefile = "gfx//interface//mapmode//map_modes_bg.dds"
 	}
 	
 	spriteType = {
