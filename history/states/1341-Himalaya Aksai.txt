@@ -5,6 +5,7 @@ state={
 	local_supplies=0.000
 	manpower = 1
 	
+	impassable = yes
 	state_category = wasteland
 	history={
 		set_state_flag = mountains
