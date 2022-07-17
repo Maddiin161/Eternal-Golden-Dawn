@@ -3,7 +3,7 @@ characters = {
 	EZO_Shoji_Yuki = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/EZO/Shoji_Yuki.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {
@@ -18,7 +18,7 @@ characters = {
 	EZO_Ryu_Ohta = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/EZO/Ryu_Ohta.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {
