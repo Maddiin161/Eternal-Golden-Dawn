@@ -26,6 +26,8 @@ on_actions = {
                     min = 1
                     max = 4
                 }
+                load_oob = generic_template
+
             }
         }
     }

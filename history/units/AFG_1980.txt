@@ -7,13 +7,13 @@
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-		motorized_infantry = { x = 1 y = 0 }
-		motorized_infantry = { x = 1 y = 1 }
-		motorized_infantry = { x = 1 y = 2 }
-		motorized_infantry = { x = 2 y = 0 }
-		motorized_infantry = { x = 2 y = 1 }
-		motorized_infantry = { x = 2 y = 2 }
-		light_armor = { x = 3 y = 0 }
+		#motorized_infantry = { x = 1 y = 0 }
+		#motorized_infantry = { x = 1 y = 1 }
+		#motorized_infantry = { x = 1 y = 2 }
+		#motorized_infantry = { x = 2 y = 0 }
+		#motorized_infantry = { x = 2 y = 1 }
+		#motorized_infantry = { x = 2 y = 2 }
+		#light_armor = { x = 3 y = 0 }
 	}
 	priority = 1
 }
@@ -23,12 +23,13 @@ division_template = {
 	division_names_group = AFG_GAR_01
 
 	regiments = {
-		militia = { x = 0 y = 0 }
-		militia = { x = 0 y = 1 }
-		militia = { x = 0 y = 2 }
-		militia = { x = 1 y = 0 }
-		militia = { x = 1 y = 1 }
-		militia = { x = 1 y = 2 }
+		infantry = { x = 0 y = 0 }
+		#militia = { x = 0 y = 0 }
+		#militia = { x = 0 y = 1 }
+		#militia = { x = 0 y = 2 }
+		#militia = { x = 1 y = 0 }
+		#militia = { x = 1 y = 1 }
+		#militia = { x = 1 y = 2 }
 	}
 	priority = 0
 }
