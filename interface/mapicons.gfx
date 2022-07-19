@@ -24,6 +24,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_onmap_training_icon"
+		texturefile = "gfx/interface/onmap_in_training_icon.dds"
+	}
+
+	spriteType = {
 		name = "GFX_onmap_air_action_icon"
 		texturefile = "gfx/interface/onmap_air_action_icon.dds"
 		noOfFrames = 4
