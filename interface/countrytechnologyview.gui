@@ -39,6 +39,7 @@ guiTypes = {
 		hide_animation_type = accelerated
 		animation_time = 300	
 		size = { width=550 height=100%% }
+		margin = { top = 0 bottom = -5 }
 		
 		#hide_sound = menu_close_window
 		show_sound = menu_open_window
@@ -52,9 +53,9 @@ guiTypes = {
 		iconType ={
 			name ="production_header_bg"
 			spriteType = "GFX_header_bg"
-			position = { x= 5 y = 07 }
+			position = { x= 5 y = 7 }
 			Orientation = "UPPER_LEFT"
-		}
+		}		
 		
 		instantTextboxType = {
 			name = "research_title"
@@ -71,18 +72,25 @@ guiTypes = {
 		containerWindowType = {
 			name ="research_slots"
 			position = { x=0 y=165 }
-			size = { width=550 height=100%% }
+			size = { width=550 height=-5 }
 			verticalScrollbar = "right_vertical_slider"
-			margin = { top = 0 bottom = 13 }
+			scroll_wheel_factor = 40
+			smooth_scrolling = yes
+			margin = { top = 13 bottom = 13 }
 			
 			background = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window2_1b_border"
 			}
 
+			background = {
+				name = "Background"		
+				quadTextureSprite ="GFX_tiled_generic_overlay_bg1"
+			}
+			
 			gridboxType = {
 				name = "research_slots_grid"
-				position = { x = 15 y=20 }
+				position = { x = 15 y=10 }
 				size = { width = -20 height = 100%% }
 				slotsize = { width = 500 height = 100 }
 				format = "UPPER_LEFT"
@@ -94,7 +102,7 @@ guiTypes = {
 			name = "research_win_top"
 			position = { x = 1 y = 44 }
 			size = { width = 100% height = 80% }
-			
+
 			background = {
 				name = "Background"
 				spriteType ="GFX_research_top_win"
@@ -139,18 +147,18 @@ guiTypes = {
 				max_slots_horizontal = 1
 				max_slots_vertical = 8
 			}
-		}
+		}				
 	
 		containerWindowType = {
 			name = "research_win_bottom"
-			position = { x = 1 y = -87 }
-			size = { width = 546 height = 87 }
+			position = { x = 1 y = 0 }
+			size = { width = 546 height = 20 }
 			Orientation = LOWER_LEFT			
 			
-		#	background = {
-		#		name = "Background"
-		#		quadTextureSprite ="GFX_production_win_bottom"
-		#	}
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_production_win_bottom"
+			}
 		}
 
 				
@@ -163,7 +171,7 @@ guiTypes = {
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_close
 			pdx_tooltip = "CLOSE"
-		}
+		}		
 	}
 	
 	containerWindowType = {
@@ -193,7 +201,7 @@ guiTypes = {
 	
 		iconType = {
 			name = "technology"
-			position = { x=282 y=49 }
+			position = { x=252 y=49 }
 			spriteType = "GFX_research_folder_strip"
 			centerposition = yes
 			alwaystransparent = yes
@@ -201,14 +209,14 @@ guiTypes = {
 		
 		iconType = {
 			name = "equipment"
-			position = { x = 358 y = 27 }
-			spriteType = "GFX_sub_tech_strip_w_bg"
+			position = { x = 328 y = 27 }
+			spriteType = "GFX_land_equipment_role_icons"
 			frame = 1
 		}
 		
 		iconType = {
 			name = "carrier_fighter"
-			position = { x = 379 y = 31 }
+			position = { x = 349 y = 31 }
 			spriteType = "GFX_airwing_carrier_icon"
 		}
 	
@@ -248,13 +256,13 @@ guiTypes = {
 		iconType = {
 			name = "research_progressbar_frame_icon"
 			spriteType = "GFX_research_progressbar_frame"
-			position = { x=62 y=79 }
-		}
+			position = { x=62 y=79 }		
+		}		
 		
 		iconType = {
 			name = "research_progressbar"
 			spriteType = "Gfx_research_progressbar"
-			position = { x=65 y=81 }
-		}
+			position = { x=65 y=81 }		
+		}	
 	}
 }
