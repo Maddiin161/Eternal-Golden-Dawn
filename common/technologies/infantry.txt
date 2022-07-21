@@ -14,11 +14,11 @@ technologies = {
 	@1970 = 4
 	@1980 = 8
 	@1981 = 10
-	@1982 = 14
+	@1982 = 12
 	@1985 = 16
 	@1988 = 20
-	@1990 = 22
-	@1992 = 24
+	@1990 = 24
+	@1992 = 26
 
 	infantry_weapons = {
 
@@ -379,7 +379,7 @@ paratroopers = {
 	start_year = 1936
 	folder = {
 		name = infantry_folder
-		position = { x = 1 y = @1936 }
+		position = { x = 0 y = @1936 }
 	}
 	
 	on_research_complete_limit = {
@@ -438,7 +438,7 @@ paratroopers2 = {
 	start_year = 1939
 	folder = {
 		name = infantry_folder
-		position = { x = 1 y = @1939 }
+		position = { x = 0 y = @1939 }
 	}
 	
 	categories = {
@@ -476,7 +476,7 @@ paratroopers3 = {
 	start_year = 1943
 	folder = {
 		name = infantry_folder
-		position = { x = 1 y = @1943 }
+		position = { x = 0 y = @1943 }
 	}
 	
 	categories = {
@@ -652,7 +652,7 @@ tech_mountaineers = {
 	start_year = 1936
 	folder = {
 		name = infantry_folder
-		position = { x = 3 y = @1936 }
+		position = { x = 4 y = @1936 }
 	}
 	
 	categories = {
@@ -684,7 +684,7 @@ tech_mountaineers2 = {
 	start_year = 1939
 	folder = {
 		name = infantry_folder
-		position = { x = 3 y = @1939 }
+		position = { x = 4 y = @1939 }
 	}
 	
 	categories = {
@@ -706,7 +706,7 @@ tech_mountaineers3 = {
 	start_year = 1943
 	folder = {
 		name = infantry_folder
-		position = { x = 3 y = @1943 }
+		position = { x = 4 y = @1943 }
 	}
 	
 	categories = {
@@ -778,6 +778,237 @@ improved_sf_training = {
 	
 	ai_will_do = {
 		factor = 0.7
+	}
+}
+
+### MOTORIZED
+
+motorised_infantry = {
+
+	enable_subunits = {
+		motorized
+	}
+
+	enable_equipments = {
+		motorized_equipment_1
+	}
+
+	#enable_equipment_modules = {
+	#	tank_wheeled_suspension
+	#}
+
+	on_research_complete = {
+		hidden_effect = {
+			load_oob = "unlock_motorized"
+		}			
+		custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+	}
+	
+	path = {
+		leads_to_tech = motorised_infantry_imp1
+		research_cost_coeff = 1
+	}
+
+	#path = {
+		#leads_to_tech = armored_car1
+		#research_cost_coeff = 1
+	#}
+
+	research_cost = 1
+	
+	start_year = 1960
+	
+	folder = {
+		name = infantry_folder
+		position = { x = 2 y = @1960 }
+	}
+	
+	categories = {
+		motorized_equipment
+		infantry_tech
+	}
+	
+	ai_will_do = {
+		factor = 1
+
+	}
+}
+
+motorised_infantry_imp1 = {
+
+	enable_equipments = {
+		motorized_equipment_2
+	}
+	
+	path = {
+		leads_to_tech = motorised_infantry_imp2
+	    research_cost_coeff = 1
+	}
+
+	path = {
+		leads_to_tech = engine_mot_imp1
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1
+	
+	start_year = 1980
+	
+	folder = {
+		name = infantry_folder
+		position = { x = 2 y = @1980 }
+	}
+	
+	categories = {
+		motorized_equipment
+		infantry_tech
+	}
+	
+	ai_will_do = {
+		factor = 1
+
+	}
+}
+
+engine_mot_imp1 = {
+
+	motorized = {
+		soft_attack = 0.05
+		hard_attack = 0.05
+	}
+
+	research_cost = 1.5
+	start_year = 1982
+	
+	folder = {
+		name = infantry_folder
+		position = { x = 4 y = 12 }
+	}
+	
+	categories = {
+		infantry_weapons
+	}
+	
+	ai_will_do = {
+		factor = 1
+
+	}
+}
+
+motorised_infantry_imp2 = {
+
+	enable_equipments = {
+		motorized_equipment_3
+	}
+	
+	path = {
+		leads_to_tech = motorised_infantry_imp3
+		research_cost_coeff = 1
+	}
+
+	path = {
+		leads_to_tech = engine_mot_imp2 
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1
+	
+	start_year = 1985
+	
+	folder = {
+		name = infantry_folder
+		position = { x = 2 y = @1985 }
+	}
+	
+	categories = {
+		motorized_equipment
+		infantry_tech
+	}
+	
+	ai_will_do = {
+		factor = 1
+
+	}
+}
+
+engine_mot_imp2 = {
+
+	motorized = {
+		soft_attack = 0.05
+		hard_attack = 0.05
+	}
+
+	research_cost = 1.5
+	start_year = 1988
+	
+	folder = {
+		name = infantry_folder
+		position = { x = 4 y = 20 }
+	}
+	
+	categories = {
+		infantry_weapons
+	}
+	
+	ai_will_do = {
+		factor = 1
+
+	}
+}
+
+motorised_infantry_imp3 = {
+
+	enable_equipments = {
+		motorized_equipment_4
+	}
+	
+	path = {
+		leads_to_tech = engine_mot_imp3
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1
+	
+	start_year = 1990
+	
+	folder = {
+		name = infantry_folder
+		position = { x = 2 y = 24 }
+	}
+	
+	categories = {
+		motorized_equipment
+		infantry_tech
+	}
+	
+	ai_will_do = {
+		factor = 1
+
+	}
+}
+
+engine_mot_imp3 = {
+
+	motorized = {
+		soft_attack = 0.05
+		hard_attack = 0.05
+	}
+
+	research_cost = 1.5
+	start_year = 1992
+	
+	folder = {
+		name = infantry_folder
+		position = { x = 4 y = 28 }
+	}
+	
+	categories = {
+		infantry_weapons
+	}
+	
+	ai_will_do = {
+		factor = 1
+
 	}
 }
 
