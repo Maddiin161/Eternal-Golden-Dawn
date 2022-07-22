@@ -553,10 +553,14 @@ focus_tree = {
 		ai_will_do {
 		    factor = 1
 		}
-		cost = 3
+		cost = 4
 		completion_reward = {
 		    create_faction = Axis_of_Resistance
-			add_political_power = 120
+			add_political_power = 30
+			country_event = {
+            id = iran.13
+            days = 0
+		}
 		}
 		prerequisite = {
 		    focus = PER_Looking_Outside
@@ -575,7 +579,11 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 120
+		    add_political_power = 35
+	        add_opinion_modifier = {
+        target = LEB
+        modifier = offered_support
+            }
 		}
 		prerequisite = {
 		    focus = PER_Forming_Muqwimat_e_Eslami
@@ -591,7 +599,12 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 120
+		LEB = {
+		    add_manpower = 2500
+		    add_political_power = 100
+			add_war_support = 0.05
+			add_stability= 0.1
+		}
 		}
 		prerequisite = {
 		    focus = PER_Our_First_Step
@@ -607,7 +620,16 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 120
+		    send_equipment = {
+            equipment = infantry_equipment
+            amount = 2500
+            target = LEB
+        }
+		send_equipment = {
+            equipment = support_equipment
+            amount = 500
+            target = LEB
+        }
 		}
 		prerequisite = {
 		    focus = PER_Support_Our_Shia_Brothers
@@ -892,7 +914,7 @@ focus_tree = {
     }
 	focus = {
 	    id = PER_New_Threats_in_The_West
-		icon = GFX_goal_unknown
+		icon = GFX_PER_New_Threats_In_The_West
 		x = 5
 		y = 1
 		ai_will_do {
