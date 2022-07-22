@@ -147,4 +147,16 @@ country_event = {
         add_political_power = 100
     }
 }
+country_event = {
+    id = iran.13
+    title = iran.13.t
+    desc = iran.13.desc
+
+    is_triggered_only = yes
+
+    option = {
+        name = my_event.1.a
+        add_political_power = 10
+    }
+}
 }
