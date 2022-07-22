@@ -184,4 +184,8 @@ spriteTypes = {
 		name = "GFX_PER_Munafiqin_Khalq_e_Iran"
 		texturefile = "gfx/interface/goals/PER/GFX_PER_Munafiqin_Khalq_e_Iran.dds"
 	}
+	SpriteType = { 
+		name = "GFX_PER_New_Threats_In_The_West"
+		texturefile = "gfx/interface/goals/PER/GFX_PER_New_Threats_In_The_West.dds"
+	}
 }
