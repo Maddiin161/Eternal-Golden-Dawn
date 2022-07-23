@@ -163,7 +163,7 @@ technologies = {
 
 		research_cost = 1.5
 
-		start_year = 1991
+		start_year = 1992
 
 		folder = {
 			name = infantry_folder
@@ -252,7 +252,7 @@ technologies = {
 		#}
 
 		research_cost = 1.5
-		start_year = 1983
+		start_year = 1984
 		
 		folder = {
 			name = infantry_folder
@@ -312,7 +312,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1988
+		start_year = 1990
 		
 		folder = {
 			name = infantry_folder
@@ -342,7 +342,7 @@ technologies = {
 		#}
 
 		research_cost = 1.5
-		start_year = 1990
+		start_year = 1988
 		
 		folder = {
 			name = infantry_folder
@@ -376,7 +376,7 @@ paratroopers = {
 	}
 
 	research_cost = 2
-	start_year = 1936
+	start_year = 1982
 	folder = {
 		name = infantry_folder
 		position = { x = 0 y = @1936 }
@@ -435,7 +435,7 @@ paratroopers2 = {
 	}
 
 	research_cost = 1.5
-	start_year = 1939
+	start_year = 1984
 	folder = {
 		name = infantry_folder
 		position = { x = 0 y = @1939 }
@@ -473,7 +473,7 @@ paratroopers3 = {
 	
 
 	research_cost = 2.0
-	start_year = 1943
+	start_year = 1988
 	folder = {
 		name = infantry_folder
 		position = { x = 0 y = @1943 }
@@ -527,7 +527,7 @@ marines = {
 	}
 
 	research_cost = 2
-	start_year = 1936
+	start_year = 1982
 	folder = {
 		name = infantry_folder
 		position = { x = 2 y = @1936 }
@@ -568,7 +568,7 @@ marines2 = {
 	}
 
 	research_cost = 1.5
-	start_year = 1939
+	start_year = 1984
 	folder = {
 		name = infantry_folder
 		position = { x = 2 y = @1939 }
@@ -600,7 +600,7 @@ marines3 = {
 	}
 
 	research_cost = 2.0
-	start_year = 1943
+	start_year = 1988
 	folder = {
 		name = infantry_folder
 		position = { x = 2 y = @1943 }
@@ -649,7 +649,7 @@ tech_mountaineers = {
 	}
 
 	research_cost = 2
-	start_year = 1936
+	start_year = 1982
 	folder = {
 		name = infantry_folder
 		position = { x = 4 y = @1936 }
@@ -681,7 +681,7 @@ tech_mountaineers2 = {
 	}
 
 	research_cost = 1.5
-	start_year = 1939
+	start_year = 1984
 	folder = {
 		name = infantry_folder
 		position = { x = 4 y = @1939 }
@@ -703,7 +703,7 @@ tech_mountaineers3 = {
 	}
 
 	research_cost = 2.0
-	start_year = 1943
+	start_year = 1988
 	folder = {
 		name = infantry_folder
 		position = { x = 4 y = @1943 }
@@ -764,7 +764,7 @@ improved_sf_training = {
 	}
 
 	research_cost = 2
-	start_year = 1982
+	start_year = 1986
 	folder = {
 		name = infantry_folder
 		position = { x = 2 y = 10 }
@@ -816,7 +816,7 @@ motorised_infantry = {
 
 	research_cost = 1
 	
-	start_year = 1960
+	start_year = 1980
 	
 	folder = {
 		name = infantry_folder
@@ -939,7 +939,7 @@ engine_mot_imp2 = {
 	}
 
 	research_cost = 1.5
-	start_year = 1988
+	start_year = 1989
 	
 	folder = {
 		name = infantry_folder
@@ -969,7 +969,7 @@ motorised_infantry_imp3 = {
 
 	research_cost = 1
 	
-	start_year = 1990
+	start_year = 1992
 	
 	folder = {
 		name = infantry_folder
@@ -995,7 +995,7 @@ engine_mot_imp3 = {
 	}
 
 	research_cost = 1.5
-	start_year = 1992
+	start_year = 1994
 	
 	folder = {
 		name = infantry_folder
