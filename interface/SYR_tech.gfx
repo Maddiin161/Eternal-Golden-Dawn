@@ -1,7 +1,7 @@
 spriteTypes = {
 
 	SpriteType = {
-		name = "GFX_SYR_motorized_equipment_1_medium"
+		name = "GFX_SYR_motorised_infantry_medium"
 		texturefile = "gfx/interface/technologies/SYR_mot_1.dds"
 	}
 

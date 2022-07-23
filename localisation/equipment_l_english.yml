@@ -1,5 +1,11 @@
 ﻿l_english: 
- SOV_motorized_equipment_1:0 "Ural-4320"
+ #motorized
+ SOV_motorized_equipment_1:0 "Ural-355M"
+ SOV_motorized_equipment_2:0 "Ural-375D"
+ SOV_motorized_equipment_3:0 "Ural-4320"
+ SOV_motorized_equipment_4:0 "Ural-355M"
+
+
  SOV_mechanized_equipment_1:0 "BTR 60"
  SOV_mechanized_equipment_1_short:0 "BTR 60"
  SOV_mechanized_equipment_2:0 "BTR 70"

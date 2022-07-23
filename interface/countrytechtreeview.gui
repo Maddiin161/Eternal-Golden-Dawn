@@ -3493,7 +3493,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=91 y=50 }
+			position = { x=120 y=64 }
 			spriteType = "GFX_technology_medium"
 			centerposition = yes
 			alwaystransparent = yes
