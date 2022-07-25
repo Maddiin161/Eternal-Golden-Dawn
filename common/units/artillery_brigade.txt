@@ -79,7 +79,7 @@ sub_units = {
 		map_icon_category = infantry
 		priority = 1198
 		ai_priority = 100
-		active = yes
+		active = no
 		
 		type = {
 			motorized
@@ -223,7 +223,7 @@ sub_units = {
 		map_icon_category = infantry
 		priority = 1199
 		ai_priority = 100
-		active = yes
+		active = no
 		
 		type = {
 			motorized

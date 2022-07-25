@@ -740,10 +740,10 @@ tech_special_forces = {
 	
 
 	research_cost = 2
-	start_year = 1938
+	start_year = 1980
 	folder = {
 		name = infantry_folder
-		position = { x = 2 y = @0 }
+		position = { x = 2 y = 0 }
 	}
 	
 	categories = {
