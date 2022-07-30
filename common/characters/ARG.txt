@@ -3,7 +3,7 @@ characters = {
 	ARG_Jorge_Rafael_Videla = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/ARG/Jorje_Rafael_Videla.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

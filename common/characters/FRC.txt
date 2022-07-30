@@ -22,7 +22,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = liberation_theology
+			ideology = theocracy
 			traits = { }
 			expire = 2003.3.1
 			id=-1

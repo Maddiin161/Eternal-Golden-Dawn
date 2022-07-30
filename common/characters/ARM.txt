@@ -3,7 +3,7 @@ characters = {
 	ARM_Karen_Demirchyan = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/ARM/Karen_Demirchyan.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {
@@ -18,7 +18,7 @@ characters = {
 	ARM_Levon_Ter-Petrosyan = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/ARM/Levon_TerPetrosyan.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

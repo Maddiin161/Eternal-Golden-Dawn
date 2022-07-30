@@ -3,7 +3,7 @@ characters = {
 	ACE_Hasan_Tiro = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/ACE/Hasan_Tiro.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

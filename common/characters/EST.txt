@@ -3,7 +3,7 @@ characters = {
 	EST_Vazgen_Manukyan = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/EST/Vazgen_Manukyan.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

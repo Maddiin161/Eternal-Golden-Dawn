@@ -3,7 +3,7 @@ characters = {
 	CSD_placeholder = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/CSD/placeholder.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

@@ -3,7 +3,7 @@ characters = {
 	ENG_Margaret_Thatcher = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/ENG/P_S_C_Margarat_Thatcher.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

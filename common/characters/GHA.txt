@@ -3,7 +3,7 @@ characters = {
 	GHA_Jerry_Rawlings = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/GHA/Jerry_Rawlings.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

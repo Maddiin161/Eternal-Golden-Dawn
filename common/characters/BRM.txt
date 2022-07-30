@@ -48,7 +48,7 @@ characters = {
 	BRM_Aung_Shwe = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/BRM/Aung_Shwe.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

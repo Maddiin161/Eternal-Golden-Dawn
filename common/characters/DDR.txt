@@ -3,7 +3,7 @@ characters = {
 	DDR_Erich_Honecker = {
 		portraits={
 			civilian = {
-				large = gfx/leaders/TAG/Erich_Honecker.dds
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {
@@ -62,7 +62,7 @@ characters = {
 	DDR_Horst_Brünner = {
 		portraits={
 			army = {
-				large = "gfx/leaders/DDR/Horst_Brunner.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 			army = {
 				small = "GFX_idea_Horst_Brunner"

@@ -3,7 +3,7 @@ characters = {
 	EQU_Supreme_Military_Council = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/EQU/P_A_D_Supreme_Military_Council.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

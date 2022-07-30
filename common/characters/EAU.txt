@@ -3,7 +3,7 @@ characters = {
 	EAU_Milton_Obote = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/EAU/EGD_Milton_Obote.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

@@ -18,7 +18,7 @@ characters = {
 	ANG_Iko_Carreira = {
 		portraits={
 			army = {
-				large = "gfx/leaders/ANG/MPLA_Iko_Carreira.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 			army = {
 				small = "GFX_idea_Iko_Correira"
@@ -40,7 +40,7 @@ characters = {
 	ANG_Lucio_Lara = {
 		portraits={
 			army = {
-				large = "gfx/leaders/ANG/MPLA_Lucio_Lara.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 			army = {
 				small = "GFX_idea_Lucio_Lara"
@@ -62,7 +62,7 @@ characters = {
 	ANG_Tonha_Pedale = {
 		portraits={
 			army = {
-				large = "gfx/leaders/ANG/MPLA_Pedro_Maria_Tonha_Pedale.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 			army = {
 				small = "GFX_idea_Pedro_Maria_Tonha_Pedale"

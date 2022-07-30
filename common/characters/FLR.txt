@@ -33,7 +33,7 @@ characters = {
 	FLR_Revolutionary_People's_Committee_of_Florida = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/FLR/PRC_Florida.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

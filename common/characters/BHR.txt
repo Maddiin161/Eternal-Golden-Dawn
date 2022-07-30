@@ -18,7 +18,7 @@ characters = {
 	BHR_Isa_bin_Salman_Al_Khalifa = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/BHR/Isa_Khalifa.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

@@ -3,7 +3,7 @@ characters = {
 	BAH_Lyndon_Pindling = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/BAH/Lyndon_Pindling.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

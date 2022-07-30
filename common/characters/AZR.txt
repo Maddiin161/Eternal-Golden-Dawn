@@ -3,7 +3,7 @@ characters = {
 	AZR_Ayaz_Mutallibov = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/AZR/Ayez_Mutallibov.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

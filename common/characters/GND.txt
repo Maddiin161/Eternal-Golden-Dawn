@@ -3,7 +3,7 @@ characters = {
 	GND_Maurice_Bishop = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/GND/Maurice_Bishop.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

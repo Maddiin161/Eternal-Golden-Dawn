@@ -3,7 +3,7 @@ characters = {
 	IDL_Rafis_Kashapov = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/IDL/Kafis_Rashapov.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

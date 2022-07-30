@@ -3,7 +3,7 @@ characters = {
 	DAG_Magomedali_Magomedov = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/DAG/Magomedali_Magomedov.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {
@@ -18,7 +18,7 @@ characters = {
 	DAG_Ibn_al-Khattab = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/DAG/Ibn_alKhattab.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

@@ -18,7 +18,7 @@ characters = {
 	BAL_Sher_Mohammad_Marri = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/BAL/Sher_Mohammad_Marri.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

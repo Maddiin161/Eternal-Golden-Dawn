@@ -3,7 +3,7 @@ characters = {
 	HOK_Tung_Chee_Hwa = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/HOK/Tung_Chee_Hwa.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

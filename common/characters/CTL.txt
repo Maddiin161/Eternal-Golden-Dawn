@@ -3,7 +3,7 @@ characters = {
 	CTL_Heribert_Barrera = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/CTL/Heribert_Barrera.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

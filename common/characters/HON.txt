@@ -3,7 +3,7 @@ characters = {
 	HON_Policarpo_Paz_García = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/HON/Policarpo_Paz_García.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

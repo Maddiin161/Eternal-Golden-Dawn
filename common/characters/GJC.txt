@@ -3,7 +3,7 @@ characters = {
 	GJC_Miguel_Ángel_Félix_Gallardo = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/GJC/Miguel_Angel_Felix_Gallardo.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

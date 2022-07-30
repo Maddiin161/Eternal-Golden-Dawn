@@ -18,7 +18,7 @@ characters = {
 	CPB_Yebaw_Tin_Yee = {
 		portraits={
 			army = {
-				large = "gfx/leaders/CPB/Yebow_Tin_Yee.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 			army = {
 				small = "GFX_idea_Yebow_Tin_Yee"
@@ -40,7 +40,7 @@ characters = {
 	CPB_Yebaw_Khin_Maung_Gyi = {
 		portraits={
 			army = {
-				large = "gfx/leaders/ANG/Yebaw_Khin_Maung_Gyi.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 			army = {
 				small = "GFX_idea_Yebaw_Khin_Maung_Gyi"

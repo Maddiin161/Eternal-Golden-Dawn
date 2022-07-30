@@ -3,7 +3,7 @@ characters = {
 	AND_Antonio_Jesús_Ruiz = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/AND/Antonio_Ruiz.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

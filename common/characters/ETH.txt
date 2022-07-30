@@ -3,7 +3,7 @@ characters = {
 	ETH_Mengitsu_Haile_Mariam = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/ETH/Mengitsu_Haile_Mariam.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {

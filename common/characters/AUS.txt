@@ -47,7 +47,7 @@ characters = {
 	AUS_Otto_Rosch2 = {
 		portraits={
 			civilian = {
-				large = "EMPTY" ##Not Electable Leader!
+				large = "gfx/leaders/leader_unknown.dds" ##Not Electable Leader!
 			}
 		}
 		country_leader = {
@@ -61,11 +61,11 @@ characters = {
 	AUS_Franz_Vranitzky = {
 		portraits={
 			civilian = {
-				large = "EMPTY" ##Not Electable Leader!
+				large = "gfx/leaders/leader_unknown.dds" ##Not Electable Leader!
 			}
 		}
 		country_leader = {
-			ideology = social_democracy
+			ideology = social_democracy_ideology
 			traits = { }
 			expire = 2003.3.1
 			id=-1

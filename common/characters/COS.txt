@@ -3,7 +3,7 @@ characters = {
 	COS_Rodrigo_Carazo_Odio = {
 		portraits={
 			civilian = {
-				large = "gfx/leaders/COS/Rodrigo_Carazo_Odio.dds"
+				large = "gfx/leaders/leader_unknown.dds"
 			}
 		}
 		country_leader = {
