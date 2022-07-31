@@ -13,17 +13,7 @@ state = {
 		add_core_of = EAU
 		buildings = {
 			infrastructure = 0
-			  
-
-			  
 		}
-		victory_points = {
-			8223 5 
-		}
-		victory_points = {
-			13862 5 
-		}
-
 		set_state_flag = HDI2
 		set_variable = { tourism_infrastructure = 0 }
 		
@@ -91,7 +81,7 @@ state = {
 	}
 	
 	provinces = {					
-		8223 13862 13863
+		13863
 	}
 	manpower = 295415	
 	buildings_max_level_factor = 1.000

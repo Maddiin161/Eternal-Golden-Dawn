@@ -31,9 +31,6 @@ state = {
 		victory_points = {
 			13856 5
 		}
-		victory_points = {
-			3854 5
-		}
 		set_state_flag = HDI2
 		set_variable = { tourism_infrastructure = 0 }
 		
@@ -102,7 +99,7 @@ state = {
 	}
 
 	provinces = {				
-		3854 12989 13858 13856
+		12989 13858 13856 
 	}
 	manpower = 1498598	
 	buildings_max_level_factor = 1.000

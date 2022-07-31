@@ -16,9 +16,6 @@ state = {
 			owner = BRD
 			remove_core_of = RWA
 		}
-		victory_points = {
-			14046 5
-		}
 		buildings = {
 			infrastructure = 0
 			  
@@ -94,7 +91,6 @@ state = {
         14042
         14050
         14047
-		14046
 	}
 	manpower = 1064345	
 	buildings_max_level_factor = 1.000

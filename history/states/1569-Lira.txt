@@ -1,6 +1,6 @@
 state = {
-	id = 1306
-	name = "STATE_1306"
+	id = 1569
+	name = "STATE_1569"
 	local_supplies=0.000
 	
 	history = {
@@ -18,16 +18,13 @@ state = {
 			  
 		}
 		victory_points = {
-			12929 5
-		}
-		victory_points = {
-			13859 5
-		}
-		victory_points = {
 			13860 5
 		}
 		victory_points = {
 			13861 5
+		}
+		victory_points = {
+			13862 5 
 		}
 		set_state_flag = HDI2
 		set_variable = { tourism_infrastructure = 0 }
@@ -98,7 +95,7 @@ state = {
 	}
 	
 	provinces = {
-		12929 13859
+		13861 13860 13862
 	}
 	manpower = 1277340					
 	buildings_max_level_factor = 1.000
