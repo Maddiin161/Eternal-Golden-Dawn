@@ -1,0 +1,72 @@
+add_namespace = kre
+
+##Event: Civil War
+country_event = {
+	id = kre.1
+	title = kre.1.t
+	desc = kre.1.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = "Traitors, all of them!"
+		KRE = {
+			transfer_state = 985
+			add_state_core = 985
+			transfer_state = 1571
+			add_state_core = 1571
+			add_state_core = 741
+			declare_war_on = {
+				target = KHM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CAM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KMP
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = PRK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SRK
+				type = annex_everything
+			}
+		}
+	}
+	option = {
+		name = "Freedom or Death!"
+		KRE = { change_tag_from = KHM }
+		KRE = {
+			transfer_state = 985
+			add_state_core = 985
+			transfer_state = 1571
+			add_state_core = 1571
+			add_state_core = 741
+			declare_war_on = {
+				target = KHM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CAM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KMP
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = PRK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SRK
+				type = annex_everything
+			}
+		}
+	}
+}

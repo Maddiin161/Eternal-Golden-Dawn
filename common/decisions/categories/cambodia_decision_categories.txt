@@ -1,0 +1,15 @@
+cambodian_civil_war_unity = {
+	priority = 9
+	icon = GFX_category_icon
+	
+	allowed = {
+			OR = {
+				has_idea = cambodia_civil_war_unity_1
+			}
+	}
+	visible = {
+		OR = {
+				has_idea = cambodia_civil_war_unity_1
+		}
+	}
+}

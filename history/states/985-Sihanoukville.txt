@@ -4,7 +4,7 @@ state = {
 	local_supplies=0.000
 
 	history={
-		owner = CAM
+		owner = KHM
 		set_state_flag = tropical
 		set_state_flag = lakes
 		set_state_flag = nominal
@@ -14,28 +14,8 @@ state = {
 			  
 			  
 			arms_factory = 1
-			7404 = {
-				naval_base = 3
-
-			}
-
 		}
-		add_core_of = CAM
-		1973.1.1 = {
-			add_core_of = KMP
-
-		}
-		1975.1.1 = {
-			owner = KMP
-			remove_core_of = CAM
-
-		}
-		1993.1.1 = {
-			owner = CAM
-			add_core_of = CAM
-			remove_core_of = KMP
-
-		}
+		add_core_of = KHM
 		victory_points = {
 			13717 5 
 		}
@@ -44,9 +24,6 @@ state = {
 		}
 		victory_points = {
 			13716 1
-		}
-		victory_points = {
-			4359 1
 		}
 		set_variable = { coal_amount = 0 }
 
@@ -100,7 +77,7 @@ state = {
 
 
 		1960.1.1 = {
-			add_manpower = 163569			
+			add_manpower = 173569			
 			set_state_category = pop1dev2
 		}
 		1973.1.1 = {
@@ -116,9 +93,9 @@ state = {
 	}		
 
 	provinces={
-		4359 7404 7432 10289 13716 13717 
+		7432 13716 13717 
 	}
-	manpower=562213	
+	manpower=162213	
 	buildings_max_level_factor=1.000
 	state_category=pop1dev1
 }

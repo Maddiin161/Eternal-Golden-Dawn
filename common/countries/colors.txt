@@ -1,5 +1,25 @@
-#reload countrycolors
+#reload countrycolors 
 #NEW COUNTRY COLOURS
+KRE = {
+	color = rgb { 136 161 204 }
+	color_ui = rgb { 136 161 204 }
+}
+SRK = {
+	color = rgb { 212 182 12 }
+	color_ui = rgb { 212 182 12 }
+}
+PRK = {
+	color = rgb { 3 46 161 }
+	color_ui = rgb { 3 46 161 }
+}
+KHM = {
+	color = rgb { 0 42 162 }
+	color_ui = rgb { 0 42 162 }
+}
+CAM = {
+	color = rgb { 0 102 0 }
+	color_ui = rgb { 0 102 0 }
+}
 CYC = {
 	color = rgb {255 51 51}
 	color_ui = rgb {255 51 51}
@@ -921,8 +941,8 @@ HMO = {
 	color_ui = rgb { 83 112 143 }
 }
 KMP = {
-	color = rgb { 189 45 64 }
-	color_ui = rgb { 189 45 64 }
+	color = rgb { 0 51 0 }
+	color_ui = rgb { 0 51 0 }
 }
 GXC = {
 	color = rgb { 71 113 97 }

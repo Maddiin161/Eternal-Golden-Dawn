@@ -1,0 +1,95 @@
+cambodian_civil_war_unity = {	
+	
+	cambodia_civil_war_unity_degrading_KHM = {		
+
+		icon = GFX_decision_icon_default		
+		days_mission_timeout = 30	
+		is_good = no		
+		
+		available = {		
+			num_of_controlled_states = 9
+		}
+		
+		fire_only_once = no		
+
+		visible = {		
+			has_idea = cambodia_civil_war_unity_1		
+		}
+
+		timeout_effect = {		
+			country_event = {
+				id = kre.1
+			}
+		}
+		
+		complete_effect = {
+		
+		}
+
+		ai_will_do = {	
+			factor = 0
+		}
+	}
+
+	cambodia_civil_war_unity_degrading_KMP = {		
+
+		icon = GFX_decision_icon_default		
+		days_mission_timeout = 30	
+		is_good = no		
+		
+		available = {		
+			num_of_controlled_states = 9
+		}
+		
+		fire_only_once = no		
+
+		visible = {		
+			has_idea = cambodia_civil_war_unity_1		
+		}
+
+		timeout_effect = {		
+			country_event = {
+				id = prk.1
+			}
+		}
+		
+		complete_effect = {
+		
+		}
+
+		ai_will_do = {	
+			factor = 0
+		}
+	}
+
+	cambodia_civil_war_unity_degrading_CAM = {		
+
+		icon = GFX_decision_icon_default		
+		days_mission_timeout = 30	
+		is_good = no		
+		
+		available = {		
+			num_of_controlled_states = 9
+		}
+		
+		fire_only_once = no		
+
+		visible = {		
+			has_idea = cambodia_civil_war_unity_1		
+		}
+
+		timeout_effect = {		
+			country_event = {
+				id = cam.1
+			}
+		}
+		
+		complete_effect = {
+		
+		}
+
+		ai_will_do = {	
+			factor = 0
+		}
+	}
+}

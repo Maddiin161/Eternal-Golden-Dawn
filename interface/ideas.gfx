@@ -8,4 +8,9 @@ spriteTypes = {
 		noOfFrames = 15		
 	}
 	
+	SpriteType = {
+		name = "GFX_idea_cambodia_civil_war_unity_1"
+		texturefile = "gfx/interface/ideas/idea_cambodia_civil_war_unity_1.dds"	
+	}
+	
 }	
