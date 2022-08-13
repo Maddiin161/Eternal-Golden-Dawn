@@ -361,3 +361,141 @@ PER_hostage_crisis_category = {
 			}
 		}
 }
+
+PER_a_new_front_category = {
+		PER_support_from_the_people_huge = {
+		icon = generic_industry
+		available = {
+				
+		}
+		fire_only_once = no
+		cost = 25
+	    days_re_enable = 15
+		
+		visible = {
+			has_completed_focus = PER_Support_Our_Shia_Brothers
+	    }
+
+	   remove_effect = {
+        add_manpower = -2500
+        LEB = { add_manpower = 2500 } 
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	PER_support_from_the_people_medium = {
+		icon = generic_industry
+		available = {
+				
+		}
+		fire_only_once = no
+		cost = 25
+	    days_re_enable = 15
+		
+		visible = {
+			has_completed_focus = PER_Support_Our_Shia_Brothers
+	    }
+
+	   remove_effect = {
+        add_manpower = -1000
+        LEB = { add_manpower = 1000 } 
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	PER_support_from_the_people_low = {
+		icon = generic_industry
+		available = {
+				
+		}
+		fire_only_once = no
+		cost = 25
+	    days_re_enable = 15
+		
+		visible = {
+			has_completed_focus = PER_Support_Our_Shia_Brothers
+	    }
+
+	   remove_effect = {
+        add_manpower = -500
+        LEB = { add_manpower = 500 } 
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	PER_Be_Pa_Khizid_huge= {
+		icon = generic_industry
+		available = {
+				
+		}
+		fire_only_once = no
+		cost = 25
+	    days_re_enable = 15
+		
+		visible = {
+			has_completed_focus = PER_Arming_the_Amal_Militias
+	    }
+
+	   remove_effect = {
+        send_equipment = {
+        equipment = infantry_equipment
+        amount = 2500
+        target = LEB
+		}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	PER_Be_Pa_Khizid_medium= {
+		icon = generic_industry
+		available = {
+				
+		}
+		fire_only_once = no
+		cost = 25
+	    days_re_enable = 15
+		
+		visible = {
+			has_completed_focus = PER_Arming_the_Amal_Militias
+	    }
+
+	   remove_effect = {
+        send_equipment = {
+        equipment = infantry_equipment
+        amount = 1000
+        target = LEB
+		}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	PER_Be_Pa_Khizid_low= {
+		icon = generic_industry
+		available = {
+				
+		}
+		fire_only_once = no
+		cost = 25
+	    days_re_enable = 15
+		
+		visible = {
+			has_completed_focus = PER_Arming_the_Amal_Militias
+	    }
+
+	   remove_effect = {
+        send_equipment = {
+        equipment = infantry_equipment
+        amount = 500
+        target = LEB
+		}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+}
