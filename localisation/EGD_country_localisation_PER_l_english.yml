@@ -48,6 +48,8 @@ PER_lower_hostage_balance_of_power_tooltip:0 "The Balance of Power will shift in
 PER_release_hostages_unconditionally_tooltip:0 "While this ends the crisis, §Rthe backlash against our government could be catastrophic§!"
 PER_execute_hostages_tooltip:0 "While this ends the crisis, §Rthe United States will not take this lightly§!"
 PER_hostage_crisis:0 "The Hostage Crisis is §ROngoing§!"
+11_PER_tt:0 "We Will be able to help the Amal Movement with this focus!"
+12_PER_tt:0 "We can send guns and equipments with this focus to lebanon!"
 
 
 
