@@ -5,7 +5,7 @@ state={
 	local_supplies=0.000
 
 	history={
-		owner = CAM
+		owner = KHM
 		set_state_flag = tropical
 		set_state_flag = riverlarge
 		set_state_flag = small
@@ -15,26 +15,9 @@ state={
 		}
 		buildings = {
 			infrastructure = 1
-			  
-			  
-
+			
 		}
-		add_core_of = CAM
-		1968.1.1 = {
-			add_core_of = KMP
-
-		}
-		1975.1.1 = {
-			owner = KMP
-			remove_core_of = CAM
-
-		}
-		1993.1.1 = {
-			owner = CAM
-			add_core_of = CAM
-			remove_core_of = KMP
-
-		}
+		add_core_of = KHM
 		set_variable = { coal_amount = 0 }
 
 		set_state_flag = HDI3
@@ -105,7 +88,7 @@ state={
 	}
 
 	provinces={
-		7376 10317 12260 13718 13719 13720 
+		7376 10317 
 	}
 	manpower=1688465	
 	buildings_max_level_factor=1.000

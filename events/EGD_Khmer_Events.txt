@@ -1,0 +1,148 @@
+add_namespace = khm
+
+##Event: Civil War
+country_event = {
+	id = khm.1
+	title = khm.1.t
+	desc = khm.1.d
+	trigger = {
+		tag = KHM
+	}
+	mean_time_to_happen = {
+		days = 150
+	}
+	is_triggered_only = no
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = "Kill The Tracherous Scum!"
+		add_ideas = cambodia_civil_war_unity_1
+		activate_mission = cambodia_civil_war_unity_degrading_KHM
+		CAM = {
+			transfer_state = 840
+			add_state_core = 840
+			transfer_state = 1572
+			add_state_core = 1572
+			transfer_state = 1573
+			add_state_core = 1573
+			transfer_state = 1574
+			add_state_core = 1574
+			declare_war_on = {
+				target = KHM
+				type = annex_everything
+			}
+			add_ideas = cambodia_civil_war_unity_1
+			activate_mission = cambodia_civil_war_unity_degrading_CAM
+		}
+		KMP = {
+			transfer_state = 984
+			add_state_core = 984
+			transfer_state = 1575
+			add_state_core = 1575
+			transfer_state = 1576
+			add_state_core = 1576
+			declare_war_on = {
+				target = KHM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CAM
+				type = annex_everything
+			}
+			add_ideas = cambodia_civil_war_unity_1
+			activate_mission = cambodia_civil_war_unity_degrading_KMP
+		}
+	}
+	option = {
+		name = "For The Revolution, Comrades!"
+		add_ideas = cambodia_civil_war_unity_1
+		activate_mission = cambodia_civil_war_unity_degrading_KHM
+		CAM = { change_tag_from = KHM }
+		CAM = {
+			transfer_state = 840
+			add_state_core = 840
+			transfer_state = 1572
+			add_state_core = 1572
+			transfer_state = 1573
+			add_state_core = 1573
+			transfer_state = 1574
+			add_state_core = 1574
+			declare_war_on = {
+				target = KHM
+				type = annex_everything
+			}
+			add_ideas = cambodia_civil_war_unity_1
+			activate_mission = cambodia_civil_war_unity_degrading_CAM
+		}
+		KMP = {
+			transfer_state = 984
+			add_state_core = 984
+			transfer_state = 1575
+			add_state_core = 1575
+			transfer_state = 1576
+			add_state_core = 1576
+			declare_war_on = {
+				target = KHM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CAM
+				type = annex_everything
+			}
+			add_ideas = cambodia_civil_war_unity_1
+			activate_mission = cambodia_civil_war_unity_degrading_KMP
+		}
+	}
+	option = {
+		name = "Khmêr Krâhâm Will Triumph!"
+		add_ideas = cambodia_civil_war_unity_1
+		activate_mission = cambodia_civil_war_unity_degrading_KHM
+		KMP = { change_tag_from = KHM }
+		CAM = {
+			transfer_state = 840
+			add_state_core = 840
+			transfer_state = 1572
+			add_state_core = 1572
+			transfer_state = 1573
+			add_state_core = 1573
+			transfer_state = 1574
+			add_state_core = 1574
+			declare_war_on = {
+				target = KHM
+				type = annex_everything
+			}
+			add_ideas = cambodia_civil_war_unity_1
+			activate_mission = cambodia_civil_war_unity_degrading_CAM
+		}
+		KMP = {
+			transfer_state = 984
+			add_state_core = 984
+			transfer_state = 1575
+			add_state_core = 1575
+			transfer_state = 1576
+			add_state_core = 1576
+			declare_war_on = {
+				target = KHM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CAM
+				type = annex_everything
+			}
+			add_ideas = cambodia_civil_war_unity_1
+			activate_mission = cambodia_civil_war_unity_degrading_KMP
+		}
+	}
+}
+
+country_event = {
+	id = khm.2
+	title = khm.2.t
+	desc = khm.2.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = "test"
+	}
+}

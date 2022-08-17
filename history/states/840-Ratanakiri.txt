@@ -5,31 +5,15 @@ state={
 	local_supplies=0.000
 
 	history={
-		owner = CAM
+		owner = KHM
 		set_state_flag = tropical
 		set_state_flag = riverlarge
 		set_state_flag = nominal
 		set_state_flag = poor
-		add_core_of = CAM
+		add_core_of = KHM
 		buildings = {
 			infrastructure = 0
 			  
-
-		}
-		1968.1.1 = {
-			owner = KMP
-			add_core_of = KMP
-
-		}
-		1975.1.1 = {
-			remove_core_of = CAM
-
-		}
-		1993.1.1 = {
-			owner = CAM
-			add_core_of = CAM
-			remove_core_of = KMP
-
 		}
 		victory_points = {
 			7645 4
@@ -101,7 +85,7 @@ state={
 	}
 
 	provinces={
-		1620 4330 4596 7645 10204 12150 12167 
+		1620 4596 7645 12167 
 	}
 	manpower=452291		
 	buildings_max_level_factor=1.000

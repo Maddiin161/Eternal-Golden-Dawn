@@ -1,0 +1,70 @@
+add_namespace = prk
+
+##Event: Civil War
+country_event = {
+	id = prk.1
+	title = prk.1.t
+	desc = prk.1.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = "Prepare the killing fields!"
+		PRK = {
+			add_state_core = 984
+			transfer_state = 1575
+			add_state_core = 1575
+			add_state_core = 1576
+			declare_war_on = {
+				target = KHM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CAM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KMP
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KRE
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SRK
+				type = annex_everything
+			}
+		}
+	}
+	option = {
+		name = "We have to destroy the monster we've created!"
+		PRK = { change_tag_from = KMP }
+		PRK = {
+			add_state_core = 984
+			transfer_state = 1575
+			add_state_core = 1575
+			add_state_core = 1576
+			declare_war_on = {
+				target = KHM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CAM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KMP
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KRE
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SRK
+				type = annex_everything
+			}
+		}
+	}
+}

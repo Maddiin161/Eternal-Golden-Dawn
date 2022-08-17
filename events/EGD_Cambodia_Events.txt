@@ -1,0 +1,74 @@
+add_namespace = cam
+
+##Event: Civil War
+country_event = {
+	id = cam.1
+	title = cam.1.t
+	desc = cam.1.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = "For King and Country!"
+		SRK = {
+			transfer_state = 840
+			add_state_core = 840
+			add_state_core = 1572
+			transfer_state = 1573
+			add_state_core = 1573
+			add_state_core = 1574
+			declare_war_on = {
+				target = KHM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CAM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KMP
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KRE
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = PRK
+				type = annex_everything
+			}
+		}
+	}
+	option = {
+		name = "Workers of Kampuchea, unite!"
+		SRK = { change_tag_from = CAM }
+		SRK = {
+			transfer_state = 840
+			add_state_core = 840
+			add_state_core = 1572
+			transfer_state = 1573
+			add_state_core = 1573
+			add_state_core = 1574
+			declare_war_on = {
+				target = KHM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CAM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KMP
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KRE
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = PRK
+				type = annex_everything
+			}
+		}
+	}
+}

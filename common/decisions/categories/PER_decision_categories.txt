@@ -10,3 +10,17 @@ PER_hostage_crisis_category = {
 		original_tag = PER
 	}
 }
+PER_a_new_front_category = {
+    icon = political_actions
+
+    priority = 10
+
+    allowed = {
+        original_tag = PER
+    }
+
+    visible = {
+        original_tag = PER
+        has_country_flag = PER_shiism_shines_again
+    }
+}
