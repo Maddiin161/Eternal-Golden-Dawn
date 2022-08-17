@@ -583,3 +583,29 @@ operative_nationality_operation = {
 	operation_outcome = 0.1
 	operation_cost = -0.1
 }
+
+#EGD Modifiers that currently does nothing#
+#reason for air detection is to make the modifiers valid, yet at the same time dont do much#
+water_modifier_shipping_channel = {
+	air_detection = 0.05
+}
+
+water_modifier_whale_infestation = {
+	air_detection = 0.05
+}
+
+water_modifier_arctic_waters = {
+	air_detection = 0.05
+}
+
+water_modifier_dense_thermal_layers = {
+	air_detection = 0.05
+}
+
+water_modifier_posadist_dolphin_infestation = { #j..jesse
+	air_detection = 0.05
+}
+
+weather_unpredictable_storms = {
+	air_detection = 0.05
+}
