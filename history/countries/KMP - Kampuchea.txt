@@ -4,9 +4,6 @@ oob = "CAM_1936"
 
 set_research_slots = 3
 
-# Starting tech
-# clone of France
-
 set_politics = {
 	ruling_party = revolutionary_socialism
 	last_election = "1979.1.7"
@@ -15,6 +12,7 @@ set_politics = {
 }
 
 set_popularities = {
+	annihilationism = 50
 	transhumanism = 0
 	ultranationalism = 0
 	despotism = 0
@@ -24,20 +22,18 @@ set_popularities = {
 	market_liberalism = 0
 	social_liberalism = 0
 	social_democracy = 0
-	libertarian_socialism = 5
-	revolutionary_socialism = 95
+	libertarian_socialism = 0
+	revolutionary_socialism = 50
 }
 
 create_country_leader = {
 	name = "Pol Pot" 
-	desc = ""
+	desc = "KMP_pol_pot_desc"
 	picture = "pol_pot.dds"
 	expire = "1991.3.1"
-	ideology = marxism_leninism
+	ideology = marxism_leninism_maoism
 	traits = {
 		
 	}
 }
-
-#couldnt find anything historical on fascist
 

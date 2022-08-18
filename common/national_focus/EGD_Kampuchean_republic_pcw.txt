@@ -1,0 +1,222 @@
+focus_tree = {
+	id = kampuchean_republic_pcw
+	continuous_focus_position = { x = 0 y = 1250 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KRE
+		}
+	}
+
+	focus = {
+		id = KRE_draft_new_constitution
+		icon = GFX_PRV_god_will_relieve_our_grief-445
+		x = 4
+		y = 0
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 3 }
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = KRE_invite_the_opposition
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KRE_draft_new_constitution }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KRE_enshrine_liberal_principles
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 4
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KRE_draft_new_constitution }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KRE_gain_international_recognition
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 7
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KRE_draft_new_constitution }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KRE_heal_the_wounds
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 4
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KRE_invite_the_opposition }
+		prerequisite = { focus = KRE_enshrine_liberal_principles }
+		prerequisite = { focus = KRE_gain_international_recognition }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KRE_ask_for_international_aid
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KRE_heal_the_wounds }
+		mutually_exclusive = { focus = KRE_ask_for_nato_aid }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KRE_create_cooperatives_set_quotas
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KRE_ask_for_international_aid focus = KRE_ask_for_nato_aid }
+		mutually_exclusive = { focus = KRE_tax_relief_for_family_farms }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KRE_family_solidarity_allowance
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KRE_create_cooperatives_set_quotas focus = KRE_tax_relief_for_family_farms }
+		mutually_exclusive = { focus = KRE_tax_relief_for_businessmen }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KRE_balanced_trade_focus
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KRE_family_solidarity_allowance focus = KRE_tax_relief_for_businessmen }
+		mutually_exclusive = { focus = KRE_cut_tariffs }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KRE_protect_resources_by_law
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KRE_balanced_trade_focus focus = KRE_cut_tariffs }
+		mutually_exclusive = { focus = KRE_begin_privatisation }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KRE_ask_for_nato_aid
+		icon = GFX_KHM_el_observa-445
+		x = 5
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KRE_heal_the_wounds }
+		mutually_exclusive = { focus = KRE_ask_for_international_aid }
+	}
+
+	focus = {
+		id = KRE_tax_relief_for_family_farms
+		icon = GFX_KHM_el_observa-445
+		x = 5
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KRE_ask_for_nato_aid focus = KRE_ask_for_international_aid }
+		mutually_exclusive = { focus = KRE_create_cooperatives_set_quotas }
+	}
+
+	focus = {
+		id = KRE_tax_relief_for_businessmen
+		icon = GFX_KHM_el_observa-445
+		x = 5
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KRE_tax_relief_for_family_farms focus = KRE_create_cooperatives_set_quotas }
+		mutually_exclusive = { focus = KRE_family_solidarity_allowance }
+	}
+
+	focus = {
+		id = KRE_cut_tariffs
+		icon = GFX_KHM_el_observa-445
+		x = 5
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KRE_tax_relief_for_businessmen focus = KRE_family_solidarity_allowance }
+		mutually_exclusive = { focus = KRE_balanced_trade_focus }
+	}
+
+	focus = {
+		id = KRE_begin_privatisation
+		icon = GFX_KHM_el_observa-445
+		x = 5
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KRE_cut_tariffs focus = KRE_balanced_trade_focus }
+		mutually_exclusive = { focus = KRE_protect_resources_by_law }
+	}
+
+	focus = {
+		id = KRE_hold_the_election
+		icon = GFX_KHM_el_observa-445
+		x = 4
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KRE_begin_privatisation focus = KRE_protect_resources_by_law }
+	}
+}

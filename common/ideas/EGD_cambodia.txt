@@ -1,5 +1,5 @@
 ideas = {	
-		country = {
+	country = {
 
 		cambodia_civil_war_unity_1 = {
 				picture = cambodia_civil_war_unity_1
@@ -20,6 +20,149 @@ ideas = {
 					revolutionary_socialism_drift = 0.01
 					production_factory_max_efficiency_factor = -0.1
 				}
-			}
 		}
+		
+		candlelight_beehive_balanced = {
+				picture = cambodia_candlelight_beehive_balanced
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				#modifier = {
+				#}
+		}
+		
+		candlelight_dominant_1 = {
+				picture = cambodia_candlelight_dominant
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					education_cost_modifier = 0.3
+					research_speed_factor = -0.15
+					revolutionary_socialism_drift = 0.01
+					production_factory_max_efficiency_factor = -0.1
+				}
+		}
+		
+		candlelight_dominant_2 = {
+				picture = cambodia_candlelight_dominant
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					education_cost_modifier = 0.3
+					research_speed_factor = -0.15
+					revolutionary_socialism_drift = 0.01
+					production_factory_max_efficiency_factor = -0.1
+				}
+		}
+		
+		candlelight_dominant_3 = {
+				picture = cambodia_candlelight_dominant
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					education_cost_modifier = 0.3
+					research_speed_factor = -0.15
+					revolutionary_socialism_drift = 0.01
+					production_factory_max_efficiency_factor = -0.1
+				}
+		}
+		
+		beehive_dominant_1 = {
+				picture = cambodia_beehive_dominant
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					education_cost_modifier = 0.3
+					research_speed_factor = -0.15
+					revolutionary_socialism_drift = 0.01
+					production_factory_max_efficiency_factor = -0.1
+				}
+		}
+		
+		beehive_dominant_2 = {
+				picture = cambodia_beehive_dominant
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					education_cost_modifier = 0.3
+					research_speed_factor = -0.15
+					revolutionary_socialism_drift = 0.01
+					production_factory_max_efficiency_factor = -0.1
+				}
+		}
+		
+		beehive_dominant_3 = {
+				picture = cambodia_beehive_dominant
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					education_cost_modifier = 0.3
+					research_speed_factor = -0.15
+					revolutionary_socialism_drift = 0.01
+					production_factory_max_efficiency_factor = -0.1
+				}
+		}
+	}
 }

@@ -13,4 +13,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_cambodia_civil_war_unity_1.dds"	
 	}
 	
+	SpriteType = {
+		name = "GFX_idea_cambodia_candlelight_beehive_balanced"
+		texturefile = "gfx/interface/ideas/idea_cambodia_candlelight_beehive_balanced.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_cambodia_beehive_dominant"
+		texturefile = "gfx/interface/ideas/idea_idea_cambodia_beehive_dominant.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_cambodia_candlelight_dominant"
+		texturefile = "gfx/interface/ideas/idea_cambodia_candlelight_dominant.dds"	
+	}
+	
 }	

@@ -1,0 +1,168 @@
+add_namespace = kre
+
+##Event: Civil War
+country_event = {
+	id = kre.1
+	title = kre.1.t
+	desc = kre.1.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = "Traitors, all of them!"
+		remove_ideas = cambodia_civil_war_unity_1
+		KRE = {
+			transfer_state = 985
+			add_state_core = 985
+			transfer_state = 1571
+			add_state_core = 1571
+			add_state_core = 741
+			add_state_core = 840
+			add_state_core = 984
+			add_state_core = 1572
+			add_state_core = 1573
+			add_state_core = 1574
+			add_state_core = 1575
+			add_state_core = 1576
+			declare_war_on = {
+				target = KHM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CAM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KMP
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = PRK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SRK
+				type = annex_everything
+			}
+		}
+	}
+	option = {
+		name = "Freedom or Death!"
+		remove_ideas = cambodia_civil_war_unity_1
+		KRE = { change_tag_from = KHM }
+		KRE = {
+			transfer_state = 985
+			add_state_core = 985
+			transfer_state = 1571
+			add_state_core = 1571
+			add_state_core = 741
+			add_state_core = 840
+			add_state_core = 984
+			add_state_core = 1572
+			add_state_core = 1573
+			add_state_core = 1574
+			add_state_core = 1575
+			add_state_core = 1576
+			declare_war_on = {
+				target = KHM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CAM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KMP
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = PRK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SRK
+				type = annex_everything
+			}
+			load_focus_tree = kampuchean_republic_pcw
+		}
+	}
+}
+
+country_event = {
+	id = kre.2
+	title = kre.2.t
+	desc = kre.2.d
+	trigger = {
+		AND = {
+			tag = KRE
+			num_of_controlled_states = 9
+			has_war = no
+		}
+	}
+	is_triggered_only = no
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = "test"
+			KHM = {
+				remove_state_core = 741
+				remove_state_core = 840
+				remove_state_core = 984
+				remove_state_core = 985
+				remove_state_core = 1571
+				remove_state_core = 1572
+				remove_state_core = 1573
+				remove_state_core = 1574
+				remove_state_core = 1575
+				remove_state_core = 1576
+			}
+			PRK = {
+				remove_state_core = 741
+				remove_state_core = 840
+				remove_state_core = 984
+				remove_state_core = 985
+				remove_state_core = 1571
+				remove_state_core = 1572
+				remove_state_core = 1573
+				remove_state_core = 1574
+				remove_state_core = 1575
+				remove_state_core = 1576
+			}
+			SRK = {
+				remove_state_core = 741
+				remove_state_core = 840
+				remove_state_core = 984
+				remove_state_core = 985
+				remove_state_core = 1571
+				remove_state_core = 1572
+				remove_state_core = 1573
+				remove_state_core = 1574
+				remove_state_core = 1575
+				remove_state_core = 1576
+			}
+			CAM = {
+				remove_state_core = 741
+				remove_state_core = 840
+				remove_state_core = 984
+				remove_state_core = 985
+				remove_state_core = 1571
+				remove_state_core = 1572
+				remove_state_core = 1573
+				remove_state_core = 1574
+				remove_state_core = 1575
+				remove_state_core = 1576
+			}
+			KMP = {
+				remove_state_core = 741
+				remove_state_core = 840
+				remove_state_core = 984
+				remove_state_core = 985
+				remove_state_core = 1571
+				remove_state_core = 1572
+				remove_state_core = 1573
+				remove_state_core = 1574
+				remove_state_core = 1575
+				remove_state_core = 1576
+			}
+	}
+}

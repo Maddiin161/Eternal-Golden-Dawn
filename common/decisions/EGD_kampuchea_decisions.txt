@@ -1,6 +1,6 @@
-cambodian_civil_war_unity_CAM = {
+cambodian_civil_war_unity_KMP = {	
 
-	cambodia_civil_war_unity_degrading_CAM = {		
+	cambodia_civil_war_unity_degrading_KMP = {		
 
 		icon = GFX_decision_icon_default		
 		days_mission_timeout = 90	
@@ -10,16 +10,16 @@ cambodian_civil_war_unity_CAM = {
 			num_of_controlled_states = 9
 		}
 		
-		fire_only_once = yes
+		fire_only_once = yes	
 
 		visible = {		
 			has_idea = cambodia_civil_war_unity_1	
-			tag = CAM	
+			tag = KMP	
 		}
 
 		timeout_effect = {		
 			country_event = {
-				id = cam.1
+				id = prk.1
 			}
 		}
 		

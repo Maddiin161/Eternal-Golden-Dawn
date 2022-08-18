@@ -1,0 +1,567 @@
+focus_tree = {
+	id = khmer_republic_cw
+	continuous_focus_position = { x = 0 y = 1000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 0
+			tag = KHM
+		}
+	}
+
+	focus = {
+		id = KHM_increase_conscription_i
+		icon = GFX_PRV_god_will_relieve_our_grief-445
+		x = 1
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 3 }
+		mutually_exclusive = { focus = KHM_decrease_conscription_i }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = -20
+			}
+			add_manpower = 60000
+		}
+	}
+
+	focus = {
+		id = KHM_increase_conscription_ii
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_increase_conscription_i }
+		mutually_exclusive = { focus = KHM_decrease_conscription_ii }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = -20
+			}
+			add_manpower = 60000
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_increase_conscription_iii
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_increase_conscription_ii }
+		mutually_exclusive = { focus = KHM_decrease_conscription_iii }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = -20
+			}
+			add_manpower = 60000
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_decrease_conscription_i
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		mutually_exclusive = { focus = KHM_increase_conscription_i }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = 60
+			}
+			add_manpower = -15000
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_decrease_conscription_ii
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_decrease_conscription_i }
+		mutually_exclusive = { focus = KHM_increase_conscription_ii }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = 60
+			}	
+			add_manpower = -15000
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_decrease_conscription_iii
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_decrease_conscription_ii }
+		mutually_exclusive = { focus = KHM_increase_conscription_iii }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = 60
+			}	
+			add_manpower = -15000
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_increase_foreign_aid_i
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 6
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		mutually_exclusive = { focus = KHM_decrease_foreign_aid_i }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = -20
+			}	
+			add_equipment_to_stockpile = {
+				type = infantry_weapons_3 
+				amount = 3000
+				producer = USA
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment_1
+				amount = 300
+				producer = USA
+			}
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_increase_foreign_aid_ii
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 6
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_increase_foreign_aid_i }
+		mutually_exclusive = { focus = KHM_decrease_foreign_aid_ii }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = -20
+			}	
+			add_equipment_to_stockpile = {
+				type = infantry_weapons_3 
+				amount = 3000
+				producer = USA
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment_1
+				amount = 300
+				producer = USA
+			}
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_increase_foreign_aid_iii
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 6
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_increase_foreign_aid_ii }
+		mutually_exclusive = { focus = KHM_decrease_foreign_aid_iii }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = -20
+			}	
+			add_equipment_to_stockpile = {
+				type = infantry_weapons_3 
+				amount = 3000
+				producer = USA
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment_1
+				amount = 300
+				producer = USA
+			}
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_decrease_foreign_aid_i
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 8
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		mutually_exclusive = { focus = KHM_increase_foreign_aid_i }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = 60
+			}	
+			add_equipment_to_stockpile = {
+				type = infantry_weapons_3 
+				amount = 1000
+				producer = USA
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment_1
+				amount = 30
+				producer = USA
+			}
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_decrease_foreign_aid_ii
+		icon = GFX_KHM_el_observa-445
+		x = 8
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_decrease_foreign_aid_i }
+		mutually_exclusive = { focus = KHM_increase_foreign_aid_ii }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = 60
+			}	
+			add_equipment_to_stockpile = {
+				type = infantry_weapons_3 
+				amount = 1000
+				producer = USA
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment_1
+				amount = 30
+				producer = USA
+			}
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_decrease_foreign_aid_iii
+		icon = GFX_KHM_el_observa-445
+		x = 8
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_decrease_foreign_aid_ii }
+		mutually_exclusive = { focus = KHM_increase_foreign_aid_iii }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = 60
+			}	
+			add_equipment_to_stockpile = {
+				type = infantry_weapons_3 
+				amount = 1000
+				producer = USA
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment_1
+				amount = 30
+				producer = USA
+			}
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_increase_production_i
+		icon = GFX_KHM_el_observa-445
+		x = 11
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = KHM_decrease_production_i }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = -20
+			}	
+			add_offsite_building = { type = arms_factory level = 2 }
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_increase_production_ii
+		icon = GFX_KHM_el_observa-445
+		x = 11
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_increase_production_i }
+		mutually_exclusive = { focus = KHM_decrease_production_ii }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = -20
+			}	
+			add_offsite_building = { type = arms_factory level = 2 }
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_increase_production_iii
+		icon = GFX_KHM_el_observa-445
+		x = 11
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_increase_production_ii }
+		mutually_exclusive = { focus = KHM_decrease_production_iii }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = -20
+			}	
+			add_offsite_building = { type = arms_factory level = 2 }
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_decrease_production_i
+		icon = GFX_KHM_el_observa-445
+		x = 13
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = KHM_increase_production_i }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = 40
+			}	
+			add_offsite_building = { type = arms_factory level = 1 }
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_decrease_production_ii
+		icon = GFX_KHM_el_observa-445
+		x = 13
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_decrease_production_i }
+		mutually_exclusive = { focus = KHM_increase_production_ii }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = 40
+			}	
+			add_offsite_building = { type = arms_factory level = 1 }
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_decrease_production_iii
+		icon = GFX_KHM_el_observa-445
+		x = 13
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_decrease_production_ii }
+		mutually_exclusive = { focus = KHM_increase_production_iii }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = 40
+			}	
+			add_offsite_building = { type = arms_factory level = 1 }
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_start_purges_i
+		icon = GFX_KHM_el_observa-445
+		x = 16
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = KHM_placate_the_party_i }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = -20
+			}	
+			add_stability = 0.1
+			add_war_support = 0.1
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_start_purges_ii
+		icon = GFX_KHM_el_observa-445
+		x = 16
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_start_purges_i }
+		mutually_exclusive = { focus = KHM_placate_the_party_ii }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = -20
+			}	
+			add_stability = 0.1
+			add_war_support = 0.1
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_start_purges_iii
+		icon = GFX_KHM_el_observa-445
+		x = 16
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_start_purges_ii }
+		mutually_exclusive = { focus = KHM_placate_the_party_iii }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = -20
+			}	
+			add_stability = 0.1
+			add_war_support = 0.1
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_placate_the_party_i
+		icon = GFX_KHM_el_observa-445
+		x = 18
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = KHM_start_purges_i }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = 60
+			}	
+			add_stability = 0.03
+			add_war_support = -0.03
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_placate_the_party_ii
+		icon = GFX_KHM_el_observa-445
+		x = 18
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_placate_the_party_i }
+		mutually_exclusive = { focus = KHM_start_purges_ii }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = 60
+			}	
+			add_stability = 0.03
+			add_war_support = -0.03
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_placate_the_party_iii
+		icon = GFX_KHM_el_observa-445
+		x = 18
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_placate_the_party_ii }
+		mutually_exclusive = { focus = KHM_start_purges_iii }
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = cambodia_civil_war_unity_degrading_KHM 
+				days = 60
+			}	
+			add_stability = 0.03
+			add_war_support = -0.03
+		}
+		ai_will_do = { factor = 3 }
+	}
+}

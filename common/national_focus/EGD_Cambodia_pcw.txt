@@ -1,0 +1,308 @@
+focus_tree = {
+	id = cambodia_pcw
+	continuous_focus_position = { x = 0 y = 1250 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CAM
+		}
+	}
+
+	focus = {
+		id = CAM_the_king_returns
+		icon = GFX_PRV_god_will_relieve_our_grief-445
+		x = 5
+		y = 0
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 3 }
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = CAM_royal_amnesty
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CAM_the_king_returns }
+		mutually_exclusive = { focus = CAM_punish_the_wicked }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = CAM_pardon_the_experts
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CAM_royal_amnesty }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = CAM_offer_amnesty_for_surrender
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CAM_pardon_the_experts }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = CAM_offer_second_chances
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CAM_offer_amnesty_for_surrender }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = CAM_punish_the_wicked
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CAM_the_king_returns }
+		mutually_exclusive = { focus = CAM_royal_amnesty }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = CAM_root_out_lon_nol_loyalists
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CAM_punish_the_wicked }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = CAM_hunt_down_the_khmer_rouge
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CAM_root_out_lon_nol_loyalists }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = CAM_show_trial_for_traitors
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CAM_hunt_down_the_khmer_rouge }
+		ai_will_do = { factor = 3 }
+	}
+	
+	focus = {
+		id = CAM_repay_our_allies
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 5
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CAM_the_king_returns }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = CAM_tell_the_vietnamese_were_allies
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 5
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CAM_repay_our_allies }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = CAM_tell_the_chinese_were_not_enemies
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 5
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CAM_tell_the_vietnamese_were_allies }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = CAM_tell_the_us_to_fuck_off
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 5
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CAM_tell_the_chinese_were_not_enemies }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = CAM_restore_democracy
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 7
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CAM_the_king_returns }
+		mutually_exclusive = { focus = CAM_buddhist_socialism }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = CAM_permit_limited_opposition
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 7
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CAM_restore_democracy }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = CAM_journalists_credo
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 7
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CAM_permit_limited_opposition }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = CAM_transform_funcinpec_into_a_party
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 7
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CAM_journalists_credo }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = CAM_buddhist_socialism
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 9
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CAM_the_king_returns }
+		mutually_exclusive = { focus = CAM_restore_democracy }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = CAM_legalise_token_opposition
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 9
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CAM_buddhist_socialism }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = CAM_journalists_guidelines
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 9
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CAM_legalise_token_opposition }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = CAM_restore_sangkum
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 9
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CAM_journalists_guidelines }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = CAM_all_hail_king_sihanouk
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 5
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CAM_offer_second_chances }
+		prerequisite = { focus = CAM_show_trial_for_traitors }
+		prerequisite = { focus = CAM_tell_the_us_to_fuck_off }
+		prerequisite = { focus = CAM_transform_funcinpec_into_a_party }
+		prerequisite = { focus = CAM_restore_sangkum }
+		ai_will_do = { factor = 3 }
+	}
+}

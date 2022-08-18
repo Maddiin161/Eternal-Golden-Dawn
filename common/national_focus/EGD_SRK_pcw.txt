@@ -1,0 +1,251 @@
+focus_tree = {
+	id = srk_pcw
+	continuous_focus_position = { x = 0 y = 1250 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SRK
+		}
+	}
+
+	focus = {
+		id = SRK_move_the_government
+		icon = GFX_PRV_god_will_relieve_our_grief-445
+		x = 4
+		y = 0
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 3 }
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = SRK_visit_from_hanoi
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SRK_move_the_government }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = SRK_rebuild_our_army
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SRK_visit_from_hanoi }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = SRK_legalise_viet_cong_presence
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SRK_rebuild_our_army }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = SRK_pay_our_dues
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SRK_legalise_viet_cong_presence }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = SRK_visit_from_moscow
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SRK_move_the_government }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = SRK_soviet_aid
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SRK_visit_from_moscow }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = SRK_soviet_trade
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SRK_soviet_aid }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = SRK_our_role_in_comecon
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SRK_soviet_trade }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = SRK_phase_out_war_communism
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 5
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SRK_move_the_government }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = SRK_begin_collectivisation
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 5
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SRK_phase_out_war_communism }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = SRK_restart_the_factories
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 5
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SRK_begin_collectivisation }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = SRK_prepare_the_first_5_year_plan
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 5
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SRK_restart_the_factories }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = SRK_enemies_of_the_people
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 7
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SRK_move_the_government }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = SRK_sideline_sihanouks_reactionaries
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 7
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SRK_enemies_of_the_people }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = SRK_purge_khmer_rouge
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 7
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SRK_sideline_sihanouks_reactionaries }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = SRK_hunt_down_remaining_neo_khmers
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 7
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SRK_purge_khmer_rouge }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = SRK_proclaim_socialist_republic
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 4
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SRK_pay_our_dues }
+		prerequisite = { focus = SRK_our_role_in_comecon }
+		prerequisite = { focus = SRK_prepare_the_first_5_year_plan }
+		prerequisite = { focus = SRK_hunt_down_remaining_neo_khmers }
+		ai_will_do = { factor = 3 }
+	}
+}

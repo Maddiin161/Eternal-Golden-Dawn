@@ -24,13 +24,13 @@ set_popularities = {
 	market_liberalism = 0
 	social_liberalism = 0
 	social_democracy = 0
-	libertarian_socialism = 5
-	revolutionary_socialism = 95
+	libertarian_socialism = 12
+	revolutionary_socialism = 88
 }
 
 create_country_leader = {
 	name = "Hun Sen" 
-	desc = ""
+	desc = "SRK_hun_sen_desc"
 	picture = "Hun_Sen.dds"
 	expire = "1991.3.1"
 	ideology = marxism_leninism

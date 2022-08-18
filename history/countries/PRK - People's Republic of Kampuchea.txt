@@ -24,13 +24,13 @@ set_popularities = {
 	market_liberalism = 0
 	social_liberalism = 0
 	social_democracy = 0
-	libertarian_socialism = 5
-	revolutionary_socialism = 95
+	libertarian_socialism = 0
+	revolutionary_socialism = 100
 }
 
 create_country_leader = {
 	name = "Khieu Samphan" 
-	desc = ""
+	desc = "PRK_khieu_samphan_desc"
 	picture = "Khieu_Samphan.dds"
 	expire = "1991.3.1"
 	ideology = maoism

@@ -16,28 +16,41 @@ set_politics = {
 
 set_popularities = {
 	transhumanism = 0
-	ultranationalism = 0
+	ultranationalism = 5
 	despotism = 0
 	authoritarian_democracy = 0
 	corporate_oligarchy = 0
 	social_conservatism = 0
-	market_liberalism = 0
-	social_liberalism = 0
-	social_democracy = 0
-	libertarian_socialism = 5
-	revolutionary_socialism = 95
+	market_liberalism = 8
+	social_liberalism = 42
+	social_democracy = 41
+	libertarian_socialism = 0
+	revolutionary_socialism = 4
+}
+
+add_ideas = {
+	candlelight_beehive_balanced
 }
 
 create_country_leader = {
 	name = "Sam Rainsy" 
-	desc = ""
+	desc = "KRE_sam_rainsy_desc"
 	picture = "sam_rainsy.dds"
 	expire = "1991.3.1"
-	ideology = neoliberalism
+	ideology = neo_liberalism
 	traits = {
 		
 	}
 }
 
-#couldnt find anything historical on fascist
+create_country_leader = {
+	name = "Mam Sonando" 
+	desc = "KRE_mam_sonando_desc"
+	picture = "mam_sonando.dds"
+	expire = "1991.3.1"
+	ideology = social_democracy_ideology
+	traits = {
+		
+	}
+}
 

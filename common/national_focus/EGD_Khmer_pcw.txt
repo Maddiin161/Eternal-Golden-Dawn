@@ -1,0 +1,190 @@
+focus_tree = {
+	id = khmer_pcw
+	continuous_focus_position = { x = 0 y = 1250 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KHM
+		}
+	}
+
+	focus = {
+		id = KHM_hunt_down_the_remnants
+		icon = GFX_PRV_god_will_relieve_our_grief-445
+		x = 3
+		y = 0
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 3 }
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = KHM_thank_our_allies
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_hunt_down_the_remnants }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_resources_for_weapons
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_thank_our_allies }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_privatise_non_military_factories
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_resources_for_weapons }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_ask_for_a_nato_base
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_privatise_non_military_factories }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_find_the_guilty
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_ask_for_a_nato_base }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_the_vietnamese
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_find_the_guilty }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_the_chams
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_the_vietnamese }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_the_tai
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_the_chams }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_and_rebuild
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 5
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_hunt_down_the_remnants }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_wartime_labour_laws
+		icon = GFX_KHM_el_observa-445
+		x = 5
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_and_rebuild }
+	}
+
+	focus = {
+		id = KHM_tax_breaks_for_the_oligarchs
+		icon = GFX_KHM_el_observa-445
+		x = 5
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_wartime_labour_laws }
+	}
+
+	focus = {
+		id = KHM_suspend_the_constitution
+		icon = GFX_KHM_el_observa-445
+		x = 5
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_tax_breaks_for_the_oligarchs }
+	}
+
+	focus = {
+		id = KHM_rebirth_of_neo_khmerism
+		icon = GFX_KHM_el_observa-445
+		x = 3
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_ask_for_a_nato_base }
+		prerequisite = { focus = KHM_the_tai }
+		prerequisite = { focus = KHM_suspend_the_constitution }
+	}
+}

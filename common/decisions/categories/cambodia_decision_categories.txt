@@ -1,15 +1,38 @@
-cambodian_civil_war_unity = {
+cambodian_civil_war_unity_KHM = {
 	priority = 9
 	icon = GFX_category_icon
 	
-	allowed = {
-			OR = {
-				has_idea = cambodia_civil_war_unity_1
-			}
-	}
-	visible = {
-		OR = {
-				has_idea = cambodia_civil_war_unity_1
+	allowed = { 
+		AND = {
+			has_idea = cambodia_civil_war_unity_1
+			original_tag = KHM
 		}
 	}
+	visible = { has_idea = cambodia_civil_war_unity_1 }
+}
+
+cambodian_civil_war_unity_KMP = {
+	priority = 9
+	icon = GFX_category_icon
+	
+	allowed = { 
+		AND = {
+			has_idea = cambodia_civil_war_unity_1
+			original_tag = KMP
+		}
+	}
+	visible = { has_idea = cambodia_civil_war_unity_1 }
+}
+
+cambodian_civil_war_unity_CAM = {
+	priority = 9
+	icon = GFX_category_icon
+	
+	allowed = { 
+		AND = {
+			has_idea = cambodia_civil_war_unity_1
+			original_tag = CAM
+		}
+	}
+	visible = { has_idea = cambodia_civil_war_unity_1 }
 }

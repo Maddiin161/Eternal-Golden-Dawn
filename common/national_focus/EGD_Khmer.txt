@@ -1,0 +1,313 @@
+focus_tree = {
+	id = khmer_republic
+	continuous_focus_position = { x = 0 y = 1000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 0
+			tag = KHM
+		}
+	}
+
+	focus = {
+		id = KHM_prepare_the_northern_march
+		icon = GFX_PRV_god_will_relieve_our_grief-445
+		x = 6
+		y = 0
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 3 }
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = KHM_prepare_the_military
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 2
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_prepare_the_northern_march }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_focus_on_quantity
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_prepare_the_military }
+		mutually_exclusive = { focus = KHM_focus_on_quality }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_increase_conscprition
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_focus_on_quantity }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_deploy_militias
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_increase_conscprition }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_commissar_in_every_battalion
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_deploy_militias }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_focus_on_quality
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_prepare_the_military }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_hire_montagnards
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_focus_on_quality }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_modernise_equipment
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_hire_montagnards }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_focus_on_propaganda
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KHM_modernise_equipment }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KHM_prepare_the_economy
+		icon = GFX_KHM_el_observa-445
+		x = 6
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_prepare_the_northern_march }
+	}
+
+	focus = {
+		id = KHM_electricity_to_the_industry
+		icon = GFX_KHM_el_observa-445
+		x = 6
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_prepare_the_economy }
+	}
+
+	focus = {
+		id = KHM_raise_farming_quotas
+		icon = GFX_KHM_el_observa-445
+		x = 6
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_electricity_to_the_industry }
+	}
+
+	focus = {
+		id = KHM_totaleinsatz_for_subversives
+		icon = GFX_KHM_el_observa-445
+		x = 6
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_raise_farming_quotas }
+	}
+
+	focus = {
+		id = KHM_16_hour_workdays
+		icon = GFX_KHM_el_observa-445
+		x = 6
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_totaleinsatz_for_subversives }
+	}
+
+	focus = {
+		id = KHM_prepare_our_allies
+		icon = GFX_KHM_el_observa-445
+		x = 10
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_prepare_the_northern_march }
+	}
+
+	focus = {
+		id = KHM_our_NATO_allies
+		icon = GFX_KHM_el_observa-445
+		x = 9
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_prepare_our_allies }
+		mutually_exclusive = { focus = KHM_our_Asian_allies }
+	}
+
+	focus = {
+		id = KHM_mission_to_Washington
+		icon = GFX_KHM_el_observa-445
+		x = 9
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_our_NATO_allies }
+	}
+
+	focus = {
+		id = KHM_mission_to_Paris
+		icon = GFX_KHM_el_observa-445
+		x = 9
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_mission_to_Washington }
+	}
+
+	focus = {
+		id = KHM_NATO_expeditionary_forces
+		icon = GFX_KHM_el_observa-445
+		x = 9
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_mission_to_Paris }
+	}
+
+	focus = {
+		id = KHM_our_Asian_allies
+		icon = GFX_KHM_el_observa-445
+		x = 11
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_prepare_our_allies }
+	}
+
+	focus = {
+		id = KHM_mission_to_Tokio
+		icon = GFX_KHM_el_observa-445
+		x = 11
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_our_Asian_allies }
+	}
+
+	focus = {
+		id = KHM_mission_to_Saigon
+		icon = GFX_KHM_el_observa-445
+		x = 11
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_mission_to_Tokio }
+	}
+
+	focus = {
+		id = KHM_mission_to_Seoul
+		icon = GFX_KHM_el_observa-445
+		x = 11
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_mission_to_Saigon }
+	}
+
+	focus = {
+		id = KHM_launch_the_northern_march
+		icon = GFX_KHM_el_observa-445
+		x = 6
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KHM_commissar_in_every_battalion focus = KHM_focus_on_propaganda }
+		prerequisite = { focus = KHM_16_hour_workdays }
+		prerequisite = { focus = KHM_mission_to_Seoul focus = KHM_NATO_expeditionary_forces }
+	}
+}

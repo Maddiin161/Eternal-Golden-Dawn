@@ -16,21 +16,21 @@ set_politics = {
 
 set_popularities = {
 	transhumanism = 0
-	ultranationalism = 0
+	ultranationalism = 31
 	despotism = 0
 	authoritarian_democracy = 0
 	corporate_oligarchy = 0
 	social_conservatism = 0
-	market_liberalism = 0
-	social_liberalism = 0
-	social_democracy = 0
-	libertarian_socialism = 5
-	revolutionary_socialism = 95
+	market_liberalism = 4
+	social_liberalism = 43
+	social_democracy = 22
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
 }
 
 create_country_leader = {
 	name = "Lon Nol" 
-	desc = ""
+	desc = "KHM_lon_nol_desc"
 	picture = "lon_nol.dds"
 	expire = "1991.3.1"
 	ideology = ethnic_nationalism

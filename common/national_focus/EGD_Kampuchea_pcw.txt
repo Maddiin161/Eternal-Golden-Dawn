@@ -1,0 +1,251 @@
+focus_tree = {
+	id = kampuchea_pcw
+	continuous_focus_position = { x = 0 y = 1250 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KMP
+		}
+	}
+
+	focus = {
+		id = KMP_evacuate_the_cities
+		icon = GFX_PRV_god_will_relieve_our_grief-445
+		x = 4
+		y = 0
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 3 }
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = KMP_establish_the_communities
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KMP_evacuate_the_cities }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KMP_close_hospitals
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KMP_establish_the_communities }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KMP_close_factories
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KMP_close_hospitals }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KMP_if_we_have_rice_we_have_everything
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 1
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KMP_close_factories }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KMP_reform_the_financial_system
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KMP_evacuate_the_cities }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KMP_ban_banking
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KMP_reform_the_financial_system }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KMP_ban_finance
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KMP_ban_banking }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KMP_ban_currency
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 3
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KMP_ban_finance }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KMP_our_place_in_the_world
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 5
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KMP_evacuate_the_cities }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KMP_mission_to_beijing
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 5
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KMP_our_place_in_the_world }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KMP_mission_to_bucurest
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 5
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KMP_mission_to_beijing }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KMP_mission_to_pyongyang
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 5
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KMP_mission_to_bucurest }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KMP_find_the_enemies
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 7
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KMP_evacuate_the_cities }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KMP_the_wealthy
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 7
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KMP_find_the_enemies }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KMP_the_educated
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 7
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KMP_the_wealthy }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KMP_the_foreign
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 7
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KMP_the_educated }
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = KMP_proclaim_year_zero
+		icon = GFX_CUB_meet_with_soviet_arms_dealers-445
+		x = 4
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KMP_if_we_have_rice_we_have_everything }
+		prerequisite = { focus = KMP_ban_currency }
+		prerequisite = { focus = KMP_mission_to_pyongyang }
+		prerequisite = { focus = KMP_the_foreign }
+		ai_will_do = { factor = 3 }
+	}
+}
