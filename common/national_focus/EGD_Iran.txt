@@ -307,12 +307,12 @@ focus_tree = {
                 division_template = {
                     name = "Komite Militias"
                     regiments = {
-                       Cavalry = { x = 0 y = 0 }
-                       Cavalry = { x = 0 y = 1 }
-                       Cavalry = { x = 0 y = 2 }
-                       Cavalry = { x = 0 y = 3 }
-                       Cavalry = { x = 1 y = 0 }
-                       Cavalry = { x = 1 y = 1 }
+                       Infantry = { x = 0 y = 0 }
+                       Infantry = { x = 0 y = 1 }
+                       Infantry = { x = 0 y = 2 }
+                       Infantry = { x = 0 y = 3 }
+                       Infantry = { x = 1 y = 0 }
+                       Infantry = { x = 1 y = 1 }
                     }
                     priority = 0
                 }
@@ -579,11 +579,13 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 35
-	        add_opinion_modifier = {
-        target = LEB
+		LEB = {
+		add_opinion_modifier = {
+        target = PER
         modifier = offered_support
             }
+			}
+		    add_political_power = 35
 		}
 		prerequisite = {
 		    focus = PER_Forming_Muqwimat_e_Eslami
@@ -722,7 +724,16 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 120
+		PRC = {
+		    add_opinion_modifier = {
+        target = PER
+        modifier = large_increase
+            }
+		}
+		add_opinion_modifier = {
+        target = PRC
+        modifier = large_increase
+        }
 		}
 		prerequisite = {
 		    focus = PER_Finding_New_Allies
@@ -741,7 +752,10 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 120
+		    give_military_access = PRC
+			PRC = {
+			give_military_access = PER
+			}
 		}
 		prerequisite = {
 		    focus = PER_Our_Ancient_Friends
@@ -757,7 +771,15 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 120
+		    add_opinion_modifier = {
+            target = PRC
+            modifier = offered_support
+            }
+			add_tech_bonus = {
+            bonus = 0.5
+            uses = 1
+            category = rockets
+        }
 		}
 		prerequisite = {
 		    focus = PER_Military_Cooperation
@@ -774,6 +796,12 @@ focus_tree = {
 		cost = 3
 		completion_reward = {
 		    add_political_power = 120
+	    PRC = {
+			add_opinion_modifier = {
+            target = PER
+            modifier = Recognized_Us
+            }
+	        }
 		}
 		prerequisite = {
 		    focus = PER_Importation_of_Missile_Science_from_China
@@ -789,7 +817,11 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 120
+		    add_political_power = 50
+			PRC = { 
+			give_guarantee = PER
+			}
+			give_guarantee = PRC
 		}
 		prerequisite = {
 		    focus = PER_Recognize_PRC_in_UN
