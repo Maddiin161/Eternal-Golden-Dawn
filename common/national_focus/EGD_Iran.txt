@@ -838,6 +838,9 @@ focus_tree = {
 		cost = 3
 		completion_reward = {
 		    add_political_power = 120
+		news_event = {
+        id = iran.15
+        }
 		}
 		prerequisite = {
 		    focus = PER_Finding_New_Allies

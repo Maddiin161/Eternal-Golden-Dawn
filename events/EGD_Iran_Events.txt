@@ -159,4 +159,32 @@ country_event = {
         add_political_power = 10
     }
 }
+news_event = {
+    id = iran.15
+    title = {
+        text = iran.15.t
+    }
+    desc = {
+        text = iran.15.d
+    }
+    
+    picture = GFX_news_event_hostages_return
+	
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = iran.15.a
+        hidden_effect = { PER = {
+		add_opinion_modifier = {
+        target = SOV
+        modifier = offered_support
+		} }
+        SOV = {
+		add_opinion_modifier = {
+        target = PER
+        modifier = offered_support
+            }}
+    }
+}
 }
