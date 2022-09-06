@@ -1,0 +1,707 @@
+ideas = {	
+	country = {
+
+		pcd_alignment_centre = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = 0.0125
+					production_factory_max_efficiency_factor = 0.0125
+				}
+		}
+
+		pcd_alignment_left_1 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = 0.025
+				}
+		}
+
+		pcd_alignment_left_2 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = 0.025
+				}
+		}
+
+		pcd_alignment_left_3 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = 0.025
+				}
+		}
+
+		pcd_alignment_left_4 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = 0.025
+				}
+		}
+
+		pcd_alignment_left_5 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = 0.025
+				}
+		}
+
+		pcd_alignment_left_6 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = 0.025
+				}
+		}
+
+		pcd_alignment_left_7 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = 0.05
+					production_factory_max_efficiency_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_left_8 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = 0.05
+					production_factory_max_efficiency_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_left_9 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = 0.05
+					production_factory_max_efficiency_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_left_10 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = 0.05
+					production_factory_max_efficiency_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_left_11 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = 0.05
+					production_factory_max_efficiency_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_left_12 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = 0.05
+					production_factory_max_efficiency_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_left_13 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = 0.1
+					production_factory_max_efficiency_factor = -0.025
+					production_speed_buildings_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_left_14 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = 0.1
+					production_factory_max_efficiency_factor = -0.025
+					production_speed_buildings_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_left_15 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = 0.1
+					production_factory_max_efficiency_factor = -0.025
+					production_speed_buildings_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_left_16 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = 0.1
+					production_factory_max_efficiency_factor = -0.025
+					production_speed_buildings_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_left_17 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = 0.1
+					production_factory_max_efficiency_factor = -0.025
+					production_speed_buildings_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_left_18 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = 0.1
+					production_factory_max_efficiency_factor = -0.025
+					production_speed_buildings_factor = -0.0125
+				}
+		}
+	
+		pcd_alignment_right_1 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_factory_max_efficiency_factor = 0.025
+				}
+		}
+
+		pcd_alignment_right_2 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_factory_max_efficiency_factor = 0.025
+				}
+		}
+
+		pcd_alignment_right_3 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_factory_max_efficiency_factor = 0.025
+				}
+		}
+
+		pcd_alignment_right_4 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_factory_max_efficiency_factor = 0.025
+				}
+		}
+
+		pcd_alignment_right_5 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_factory_max_efficiency_factor = 0.025
+				}
+		}
+
+		pcd_alignment_right_6 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_factory_max_efficiency_factor = 0.025
+				}
+		}
+
+		pcd_alignment_right_7 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_factory_max_efficiency_factor = 0.05
+					stability_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_right_8 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_factory_max_efficiency_factor = 0.05
+					stability_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_right_9 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_factory_max_efficiency_factor = 0.05
+					stability_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_right_10 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_factory_max_efficiency_factor = 0.05
+					stability_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_right_11 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_factory_max_efficiency_factor = 0.05
+					stability_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_right_12 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_factory_max_efficiency_factor = 0.05
+					stability_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_right_13 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_factory_max_efficiency_factor = 0.1
+					stability_factor = -0.025
+					political_power_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_right_14 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_factory_max_efficiency_factor = 0.1
+					stability_factor = -0.025
+					political_power_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_right_15 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_factory_max_efficiency_factor = 0.1
+					stability_factor = -0.025
+					political_power_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_right_16 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_factory_max_efficiency_factor = 0.1
+					stability_factor = -0.025
+					political_power_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_right_17 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_factory_max_efficiency_factor = 0.1
+					stability_factor = -0.025
+					political_power_factor = -0.0125
+				}
+		}
+
+		pcd_alignment_right_18 = {
+				picture = ELS_pdc_green
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {
+					production_factory_max_efficiency_factor = 0.1
+					stability_factor = -0.025
+					political_power_factor = -0.0125
+				}
+		}
+	}
+}

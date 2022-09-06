@@ -493,4 +493,11 @@ SpriteType = {
 		name = "GFX_idea_IRQ_cult_of_saddam"
 		texturefile = "gfx/interface/ideas/IRQ/IRQ_cult_of_saddam.dds"
 	}
+
+	####El Salvador####
+
+SpriteType = { 
+		name = "GFX_idea_ELS_pdc_green"
+		texturefile = "gfx/interface/ideas/ELS/idea_ELS_pdc_green.dds"
+	}
 }

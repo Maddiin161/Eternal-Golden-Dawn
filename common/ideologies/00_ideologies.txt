@@ -200,8 +200,6 @@ ideologies = {
 		types = {
 			market_liberalism_ideology = {
 			}
-			christian_demorcracy = {
-			}
 			populism = {
 			}				
 		}
@@ -245,6 +243,8 @@ ideologies = {
 			neoconservatism = {
 			}
 			right_wing_populism = {
+			}
+			christian_demorcracy = {
 			}
 		}
 		dynamic_faction_names = {
