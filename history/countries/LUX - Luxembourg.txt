@@ -5,7 +5,7 @@
 	capital = 126
 	
 set_politics = {
-	ruling_party = market_liberalism
+	ruling_party = social_conservatism
 	last_election = "1979.6.10"
 	election_frequency = 36
 	elections_allowed = yes
@@ -20,8 +20,8 @@ set_popularities = {
 	autocracy = 0
 	authoritarian_democracy = 0
 	corporate_oligarchy = 0
-	social_conservatism = 0
-	market_liberalism = 60
+	social_conservatism = 60
+	market_liberalism = 0
 	social_liberalism = 0
 	social_democracy = 40
 	libertarian_socialism = 0
