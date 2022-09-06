@@ -175,16 +175,48 @@ news_event = {
     
     option = {
         name = iran.15.a
-        hidden_effect = { PER = {
+        }
+    }
+	
+	country_event = {
+    id = iran.16
+    title = iran.16.t
+    desc = iran.16.desc
+
+    is_triggered_only = yes
+
+    option = {
+	    news_event = {
+        id = iran.15
+        }
+        name = iran.16.a
+        add_political_power = 10
 		add_opinion_modifier = {
         target = SOV
         modifier = offered_support
-		} }
-        SOV = {
+		}
+		SOV = {
 		add_opinion_modifier = {
         target = PER
-        modifier = offered_support
-            }}
+        modifier = offered_support }
+		}
+		add_popularity = {
+            ideology = revolutionary_socialism
+            popularity = 0.05
+        }
     }
-}
+	}
+	country_event = {
+    id = iran.17
+    title = iran.17.t
+    desc = iran.17.desc
+
+    is_triggered_only = yes
+
+    option = {
+        name = iran.17
+		give_military_access = SOV
+		SOV = { give_military_access = PER } 
+		add_war_support = -0.10
+    }
 }

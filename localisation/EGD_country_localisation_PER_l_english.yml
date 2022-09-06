@@ -50,7 +50,7 @@ PER_execute_hostages_tooltip:0 "While this ends the crisis, §Rthe United States
 PER_hostage_crisis:0 "The Hostage Crisis is §ROngoing§!"
 11_PER_tt:0 "We Will be able to help the Amal Movement with this focus!"
 12_PER_tt:0 "We can send guns and equipments with this focus to lebanon!"
-
+13_PER_tt:0 "§R The Consequenses of This focus will be very dangerous for our regime.§."
 
 
 #### DECISIONS ####
@@ -124,6 +124,11 @@ iran.13.t:0 "A new Islamic Front"
 iran.13.d:0 "hezbollah"
 iran.13.a:0 "."
 iran.15.t:0 "Iran reopens Diplomatic Channels with the Soviet Union"
+iran.15.d:0 "..."
+iran.15.a:0 "It seems that Our Comrades and Ayatollahs are very friendly for themselves!"
+iran.17.t:0 "A matter of Time"
+iran.17.d:0 "Im sick of this Shit
+iran.17.a:0 "The sickle and the moon...huh?"
 #### FOCUSES ####
 
 PER_Ready_For_The_Arrival:0 "Ready for The Arrival"

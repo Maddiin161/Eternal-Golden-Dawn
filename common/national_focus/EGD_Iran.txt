@@ -837,10 +837,11 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 120
-		news_event = {
-        id = iran.15
-        }
+		    add_political_power = 30
+			country_event = {
+            id = iran.16
+            days = 0
+        } 
 		}
 		prerequisite = {
 		    focus = PER_Finding_New_Allies
@@ -859,7 +860,9 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 120
+		    country_event = {
+        id = iran.17
+	        }
 		}
 		prerequisite = {
 		    focus = PER_Look_to_the_East
@@ -876,6 +879,10 @@ focus_tree = {
 		cost = 3
 		completion_reward = {
 		    add_political_power = 120
+			SOV = { 
+			give_guarantee = PER
+			}
+			give_guarantee = SOV
 		}
 		prerequisite = {
 		    focus = PER_Soviet_Delegations_for_Imam
@@ -891,7 +898,7 @@ focus_tree = {
 		}
 		cost = 3
 		completion_reward = {
-		    add_political_power = 120
+		custom_effect_tooltip = 13_PER_tt
 		}
 		prerequisite = {
 		    focus = PER_Solidarity_Against_Western_Imperialism
