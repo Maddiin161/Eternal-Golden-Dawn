@@ -1,0 +1,73 @@
+﻿capital = 314
+
+oob = "ELS_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	early_fighter = 1
+}
+
+add_ideas = pcd_alignment_centre
+
+set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 5
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 20
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 60
+	market_liberalism = 0
+	social_liberalism = 0
+	social_democracy = 0
+	libertarian_socialism = 0
+	revolutionary_socialism = 20
+}
+
+set_politics = {
+	ruling_party = social_conservatism
+	last_election = "1977.1.31"
+	election_frequency = 120
+	elections_allowed = yes
+}
+
+
+create_country_leader = {
+	name = "José Napoleón Duarte" 
+	desc = "jose_napoleon_duarte_desc"
+	picture = "duarte.dds"
+	expire = "2003.3.1"
+	ideology = christian_demorcracy
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Cayetano Carpio" 
+	desc = "cayetano_carpio_salvador_desc"
+	picture = "carpio_salvador.dds"
+	expire = "2003.3.1"
+	ideology = neo_guevarism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Roberto D'Aubuisson" 
+	desc = "roberto_daubuisson_salvador_desc"
+	picture = "daubuisson_salvador.dds"
+	expire = "2003.3.1"
+	ideology = neo_fascism
+	traits = {
+		
+	}
+}

@@ -37,6 +37,8 @@
  CRO_BIG_DEF:0 "The Republic of Greater Croatia" 
  BOS_FED:0 "Federation of Bosnia and Herzegovina"
  BOS_FED_DEF:0 "The Federation of Bosnia and Herzegovina" 
+ KRE_kingdom:0 "Kingdom of Kampuchea"
+ KRE_kingdom_DEF:0 "the Kingdom of Kampuchea"
  
  # Annihilationist Tags
  LIV_HEV:0 "Kingdom of the Living Heaven"
