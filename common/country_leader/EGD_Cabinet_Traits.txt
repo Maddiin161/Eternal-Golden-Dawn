@@ -46,5 +46,44 @@ Pragmatic_Socialist = {
 		political_power_gain = 0.15
 		random = no
 	}
-	
+
+    ###Iran###
+
+#Royal Aviator 
+royal_aviator = {
+    stability_factor = 0.02
+	air_ace_bonuses_factor = 0.05
+	air_attack_factor = 0.05
+	}
+#Leftist Imamist
+leftist_imamist = {
+		trade_opinion_factor = 0.05
+		political_power_gain = 0.01
+		social_democracy_acceptance = 50
+		social_liberalism_acceptance = 50
+		random = no
+	}
+#Non Partisan Cleric
+non_partisan_cleric = {
+        party_popularity_stability_factor = 0.05
+		political_power_gain = -0.025
+        islamism_drift = 0.01
+		random = no
+	}
+#Master of Western Economics
+master_of_western_economics = {
+        production_speed_industrial_complex_factor = 0.10
+		political_power_gain = 0.025
+		market_liberalism_acceptance = 50
+		random = no
+	}
+#Suspicious President
+suspicious_president = {					
+		drift_defence_factor = -0.05							
+		industrial_capacity_factory = -0.02			
+		encryption = -1 								
+		political_power_gain = -0.15
+		intelligence_agency_defense = -0.20
+		random = no
+	}
 }

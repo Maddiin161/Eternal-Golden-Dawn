@@ -27,7 +27,7 @@ characters = {
 			idea_token = PER_Mir_Hossein_Musavi_for
 			allowed = { original_tag = PER }
 			traits = {
-			Western_Oriented_Economist
+			leftist_imamist
 			}
 			ledger = civilian
 			desc = 	EGD_MIR_HOSSEIN_MUSAVI_BIO
@@ -50,7 +50,7 @@ characters = {
 			idea_token = PER_Mommahd_Reza_Mahdavi_Kani_for
 			allowed = { original_tag = PER }
 			traits = {
-			Corrupt_Absolutist
+			non_partisan_cleric
 			}
 			ledger = civilian
 			desc = PER_MOHAMMAD_REZA_MAHDAVI_KANI_BIO
@@ -60,6 +60,73 @@ characters = {
 		}
 
 	}
-    
+	
+	PER_Javad_Fakoori = {
+		name = "JAVAD_FAKOORI_NAME"
+		portraits={
+			civilian = {
+				small = "GFX_idea_Minister_Mohammad_Reza_Mahdavi_Kani"
+			}
+		}
+		advisor = {
+			slot = minister_of_defense
+			idea_token = Javad_Fakoori_for
+			allowed = { original_tag = PER }
+			traits = {
+			royal_aviator
+			}
+			ledger = civilian
+			desc = JAVAD_FAKOORI_BIO
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 
+	}
+    
+PER_Abol_Hassan_Bani_Sadr = {
+		name = "ABOL_HASSAN_BANI_SADR_NAME"
+		portraits={
+			civilian = {
+				small = "GFX_idea_Minister_Abol_Hassan_Bani_Sadr"
+			}
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = Abol_Hassan_Bani_Sadr_for
+			allowed = { original_tag = PER }
+			traits = {
+			suspicious_president
+			}
+			ledger = civilian
+			desc = ABOL_HASSAN_BANI_SADR_BIO
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+
+	}
+	
+	PER_Hossein_Namazi = {
+		name = "Hossein_Namazi_NAME"
+		portraits={
+			civilian = {
+				small = "GFX_idea_Minister_Abol_Hassan_Bani_Sadr"
+			}
+		}
+		advisor = {
+			slot = minister_of_economy
+			idea_token = Hossein_Namazi_for
+			allowed = { original_tag = PER }
+			traits = {
+			master_of_western_economics
+			}
+			ledger = civilian
+			desc = HOSSEIN_NAMAZI_BIO
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+
+	}
 }

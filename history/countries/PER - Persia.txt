@@ -44,7 +44,9 @@ EGD_startup = yes
 
 recruit_character = PER_Mir_Hossein_Musavi
 recruit_character = PER_Mohammad_Reza_Mahdavi_Kani
-
+recruit_character = PER_Javad_Fakoori
+recruit_character = PER_Abol_Hassan_Bani_Sadr
+recruit_character = PER_Hossein_Namazi
 	add_ideas = {
 		PER_banisadr_and_hundred_reasons_of_why_we_hate_him_idea
 		PER_brushing_the_peoples_mujahideen_aside_idea
@@ -55,6 +57,9 @@ recruit_character = PER_Mohammad_Reza_Mahdavi_Kani
 		#Ministers#
 		PER_Mir_Hossein_Musavi_for
 		PER_Mommahd_Reza_Mahdavi_Kani_for
+		Javad_Fakoori_for
+		Abol_Hassan_Bani_Sadr_for
+		Hossein_Namazi_for
 	}
 
 	set_variable = { PER_hostage_tensions = 1 }
