@@ -15,5 +15,51 @@ characters = {
 
 	}
 
+    PER_Mir_Hossein_Musavi = {
+		name = "EGD_MIR_HOSSEIN_MUSAVI_NAME"
+		portraits={
+			civilian = {
+				small = "GFX_idea_Minister_Josip_Vrhovec"
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign_affairs
+			idea_token = PER_Mir_Hossein_Musavi_for
+			allowed = { original_tag = PER }
+			traits = {
+			Western_Oriented_Economist
+			}
+			ledger = civilian
+			desc = 	EGD_MIR_HOSSEIN_MUSAVI_BIO
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+
+	}
+	
+	PER_Mohammad_Reza_Mahdavi_Kani = {
+		name = "PER_MOHAMMAD_REZA_MAHDAVI_KANI_NAME"
+		portraits={
+			civilian = {
+				small = "GFX_idea_Minister_Mohammad_Reza_Mahdavi_Kani"
+			}
+		}
+		advisor = {
+			slot = minister_of_internal_affairs
+			idea_token = PER_Mommahd_Reza_Mahdavi_Kani_for
+			allowed = { original_tag = PER }
+			traits = {
+			Corrupt_Absolutist
+			}
+			ledger = civilian
+			desc = PER_MOHAMMAD_REZA_MAHDAVI_KANI_BIO
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+
+	}
+    
 
 }

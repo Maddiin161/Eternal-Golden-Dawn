@@ -240,3 +240,10 @@ PER_Begining_of_the_Street_War_desc:0 "FUCK."
 #### HEZBOLLAH IS HERE ####
 
 Axis_of_Resistance:0 "Axis of Resistance"
+
+
+
+
+#### LEADER DESC ####
+EGD_MIR_HOSSEIN_MUSAVI_NAME:0 "Mir Hossein Musavi\nLeftist Imamist"
+PER_MOHAMMAD_REZA_MAHDAVI_KANI_NAME:0 "Mohammad Reza Mahdavi Kani\nNon Partisan Cleric"

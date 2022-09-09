@@ -42,12 +42,19 @@ starting_econ_modifier_vars = yes
 EGD_startup_calc = yes
 EGD_startup = yes
 
+recruit_character = PER_Mir_Hossein_Musavi
+recruit_character = PER_Mohammad_Reza_Mahdavi_Kani
+
 	add_ideas = {
 		PER_banisadr_and_hundred_reasons_of_why_we_hate_him_idea
 		PER_brushing_the_peoples_mujahideen_aside_idea
 		PER_consolidating_the_revolution_idea
 		PER_hostage_crisis_tense_idea
 		PER_oppressed_above_the_arrogant_idea
+		
+		#Ministers#
+		PER_Mir_Hossein_Musavi_for
+		PER_Mommahd_Reza_Mahdavi_Kani_for
 	}
 
 	set_variable = { PER_hostage_tensions = 1 }
