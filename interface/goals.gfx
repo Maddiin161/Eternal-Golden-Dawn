@@ -188,4 +188,8 @@ spriteTypes = {
 		name = "GFX_PER_New_Threats_In_The_West"
 		texturefile = "gfx/interface/goals/PER/GFX_PER_New_Threats_In_The_West.dds"
 	}
+	SpriteType = { 
+		name = "GFX_PER_Expand_the_Islamic_Revolution_Comittee"
+		texturefile = "gfx/interface/goals/PER/GFX_PER_Expand_the_Islamic_Revolution_Comittee.dds"
+	}
 }
