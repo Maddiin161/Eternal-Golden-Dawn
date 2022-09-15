@@ -1,0 +1,23 @@
+ideas = {	
+		country = {
+
+		MEX_ghost_of_echeverria = {
+				picture = MEX_ghost_of_echeverria
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+				modifier = {			
+					political_power_gain = -0.25
+					party_popularity_stability_factor = 0.1
+				}
+			}
+		}
+	}

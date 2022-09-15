@@ -500,4 +500,11 @@ SpriteType = {
 		name = "GFX_idea_ELS_pdc_green"
 		texturefile = "gfx/interface/ideas/ELS/idea_ELS_pdc_green.dds"
 	}
+	
+	####Mexico####
+
+SpriteType = { 
+		name = "GFX_idea_MEX_ghost_of_echeverria"
+		texturefile = "gfx/interface/ideas/MEX/idea_MEX_ghost_of_echeverria.dds"
+	}
 }

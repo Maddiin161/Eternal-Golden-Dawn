@@ -33,6 +33,8 @@ create_country_leader = {
 	traits = {}
 }
 
+add_ideas = MEX_ghost_of_echeverria
+
 set_variable = { EGD_COUNTRY_GDP = 164 } 
 starting_econ_modifier_vars = yes
 EGD_startup_calc = yes
