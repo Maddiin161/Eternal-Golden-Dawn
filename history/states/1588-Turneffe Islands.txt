@@ -10,6 +10,7 @@ state={
 		set_state_flag = lakes
 		set_state_flag = small
 		set_state_flag = undeveloped
+		set_demilitarized_zone = yes
 		add_core_of = BLZ
 		buildings = {
 			infrastructure = 0
@@ -82,7 +83,7 @@ state={
 		}
 	}			
 	state_category = pop1
-	manpower=14
+	manpower=21
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
