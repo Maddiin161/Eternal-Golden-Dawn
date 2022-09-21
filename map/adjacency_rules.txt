@@ -731,8 +731,44 @@ adjacency_rule =
 	required_provinces = { 1889 13253 }
 	
 	icon = 2919
-	offset = { -3 0 -2 }
+	offset = { -3 0 -2 }	
 	
+}
 
+adjacency_rule =
+{
+	name = "SAN_PEDRO"
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
 	
+	required_provinces = { 15970 15971 }
+	
+	icon = 15970
+	offset = { 4 0 8 }
 }

@@ -137,4 +137,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13014;15063;sea;9072;-1;-1;-1;-1;;Cape Verde
 13014;15064;sea;9072;-1;-1;-1;-1;;Cape Verde
 15065;15067;sea;9072;-1;-1;-1;-1;;Cape Verde
+15970;15971;sea;-1;-1;-1;-1;-1;;San Pedro
 -1;-1;;-1;-1;-1;-1;-1;-1
