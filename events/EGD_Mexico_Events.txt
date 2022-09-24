@@ -1,0 +1,51 @@
+add_namespace = mexico
+
+##test - president selection
+country_event = {
+	id = mexico.1
+	title = mexico.1.t
+	desc = mexico.1.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = "Cuauhtémoc Cárdenas"
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Cuauhtémoc Cárdenas"
+			desc = "POLITICS_CARDENAS_JR_DESC"
+			picture = "cuauhtemoc_cardenas_mexico.dds"
+			expire = "2005.1.1"
+			ideology = authoritarian_democracy_ideology
+			traits = { }
+		}
+	}
+
+	option = {
+		name = "Paniagua"
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Javier García Paniagua"
+			desc = "POLITICS_PANIAGUA_DESC"
+			picture = "javier_garcia_paniagua.dds"
+			expire = "2005.1.1"
+			ideology = authoritarian_democracy_ideology
+			traits = { }
+		}
+	}
+
+	option = {
+		name = "de la Madrid"
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Miguel de la Madrid"
+			desc = "POLITICS_DE_LA_MADRID_DESC"
+			picture = "miguel_de_la_madrid.dds"
+			expire = "2005.1.1"
+			ideology = authoritarian_democracy_ideology
+			traits = { }
+		}
+	}
+}
