@@ -49,3 +49,114 @@ country_event = {
 		}
 	}
 }
+
+#test - civil war
+country_event = {
+	id = mexico.2
+	title = mexico.2.t
+	desc = mexico.2.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = "1st stage"
+		GCA = {
+			transfer_state = 479
+			add_state_core = 479
+		}
+		GJC = {
+			transfer_state = 478
+			add_state_core = 478
+		}
+		ZAP = {
+			transfer_state = 475
+			add_state_core = 475
+		}
+		MAG = {
+			transfer_state = 476
+			add_state_core = 476
+		}
+		SYN = {
+			transfer_state = 1545
+			add_state_core = 1545
+		}
+		PNM = {
+			transfer_state = 1058
+			add_state_core = 1058
+		}
+	}
+
+	option = {
+		name = "2nd stage"
+		PCM = {
+			transfer_state = 475
+			add_state_core = 475
+			transfer_state = 476
+			add_state_core = 476
+			transfer_state = 485
+			add_state_core = 485
+			transfer_state = 877
+			add_state_core = 877
+			transfer_state = 474
+			add_state_core = 474
+		}
+		PDM = {
+			transfer_state = 1058
+			add_state_core = 1058
+			transfer_state = 478
+			add_state_core = 478
+			transfer_state = 1545
+			add_state_core = 1545
+			transfer_state = 1542
+			add_state_core = 1542
+			transfer_state = 481
+			add_state_core = 481
+		}
+	}
+
+	option = {
+		name = "3rd stage"
+		PRD = {
+			transfer_state = 475
+			add_state_core = 475
+			transfer_state = 476
+			add_state_core = 476
+			transfer_state = 485
+			add_state_core = 485
+			transfer_state = 877
+			add_state_core = 877
+			transfer_state = 474
+			add_state_core = 474
+			transfer_state = 477
+			add_state_core = 477
+			transfer_state = 1543
+			add_state_core = 1543
+			transfer_state = 1544
+			add_state_core = 1544
+			transfer_state = 1005
+			add_state_core = 1005
+		}
+		PAM = {
+			transfer_state = 1058
+			add_state_core = 1058
+			transfer_state = 478
+			add_state_core = 478
+			transfer_state = 1545
+			add_state_core = 1545
+			transfer_state = 1542
+			add_state_core = 1542
+			transfer_state = 481
+			add_state_core = 481
+			transfer_state = 1546
+			add_state_core = 1546
+			transfer_state = 891
+			add_state_core = 891
+			transfer_state = 479
+			add_state_core = 479
+			transfer_state = 876
+			add_state_core = 876
+		}
+	}
+}

@@ -3,7 +3,7 @@
 oob = "TAL_1949"
 
  set_popularities = {
-	transhumanism = 0
+	transhumanism = 20
 	ultranationalism = 0
 	despotism = 0
 	authoritarian_democracy = 0
@@ -12,8 +12,8 @@ oob = "TAL_1949"
 	market_liberalism = 0
 	social_liberalism = 0
 	social_democracy = 0
-	libertarian_socialism = 90
-	revolutionary_socialism = 10
+	libertarian_socialism = 80
+	revolutionary_socialism = 0
 }
 	
 set_politics = {
@@ -24,9 +24,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Subcomandante Marcos"
+	name = "Tomás Cruz Lorenzo"
 	desc = ""
-	picture = "subcomandante_marcos_ezln.dds"
+	picture = "tomas_cruz_lorenzo_magonist.dds"
 	expire = "1987.1.1"
 	ideology = neozapatismo
 	traits = {

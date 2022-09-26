@@ -12,8 +12,8 @@ oob = "TAL_1949"
 	market_liberalism = 0
 	social_liberalism = 0
 	social_democracy = 0
-	libertarian_socialism = 90
-	revolutionary_socialism = 10
+	libertarian_socialism = 51
+	revolutionary_socialism = 49
 }
 	
 set_politics = {
@@ -24,11 +24,11 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Subcomandante Marcos"
+	name = "Arnoldo Martínez Verdugo"
 	desc = ""
-	picture = "subcomandante_marcos_ezln.dds"
+	picture = "Arnoldo_Martinez_Verdugo.dds"
 	expire = "1987.1.1"
-	ideology = neozapatismo
+	ideology = eurocommunism
 	traits = {
 		#
 	}

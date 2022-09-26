@@ -25,9 +25,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Miguel Ángel Félix Gallardo"
+	name = "Adolfo Constanzo"
 	desc = ""
-	picture = "miguel_angel_felix_gallardo_jalisco.dds"
+	picture = "adolfo_constanzo_gulf.dds"
 	expire = "1981.1.1"
 	ideology = drug_cartel
 	traits = {}

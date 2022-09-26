@@ -6,29 +6,29 @@ oob = "TAL_1949"
 	transhumanism = 0
 	ultranationalism = 0
 	despotism = 0
-	authoritarian_democracy = 0
-	corporate_oligarchy = 0
-	social_conservatism = 0
+	authoritarian_democracy = 10
+	corporate_oligarchy = 10
+	social_conservatism = 80
 	market_liberalism = 0
 	social_liberalism = 0
 	social_democracy = 0
-	libertarian_socialism = 90
-	revolutionary_socialism = 10
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
 }
 	
 set_politics = {
-	ruling_party = libertarian_socialism
+	ruling_party = social_conservatism
 		last_election = "1994.1.1"
 		election_frequency = 48
 		elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Subcomandante Marcos"
+	name = "Pablo Emilio Madero"
 	desc = ""
-	picture = "subcomandante_marcos_ezln.dds"
+	picture = "pablo_emilio_madero_pan.dds"
 	expire = "1987.1.1"
-	ideology = neozapatismo
+	ideology = neoconservatism
 	traits = {
 		#
 	}

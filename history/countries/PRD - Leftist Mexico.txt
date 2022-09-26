@@ -10,25 +10,25 @@ oob = "TAL_1949"
 	corporate_oligarchy = 0
 	social_conservatism = 0
 	market_liberalism = 0
-	social_liberalism = 0
-	social_democracy = 0
-	libertarian_socialism = 90
+	social_liberalism = 10
+	social_democracy = 50
+	libertarian_socialism = 30
 	revolutionary_socialism = 10
 }
 	
 set_politics = {
-	ruling_party = libertarian_socialism
+	ruling_party = social_democracy
 		last_election = "1994.1.1"
 		election_frequency = 48
 		elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Subcomandante Marcos"
+	name = "Heberto Castillo"
 	desc = ""
-	picture = "subcomandante_marcos_ezln.dds"
+	picture = "heberto_castillo_pps.dds"
 	expire = "1987.1.1"
-	ideology = neozapatismo
+	ideology = left_wing_populism
 	traits = {
 		#
 	}

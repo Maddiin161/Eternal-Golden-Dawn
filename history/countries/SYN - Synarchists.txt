@@ -4,31 +4,31 @@ oob = "TAL_1949"
 
  set_popularities = {
 	transhumanism = 0
-	ultranationalism = 0
-	despotism = 0
+	ultranationalism = 75
+	despotism = 25
 	authoritarian_democracy = 0
 	corporate_oligarchy = 0
 	social_conservatism = 0
 	market_liberalism = 0
 	social_liberalism = 0
 	social_democracy = 0
-	libertarian_socialism = 90
-	revolutionary_socialism = 10
+	libertarian_socialism = 100
+	revolutionary_socialism = 0
 }
 	
 set_politics = {
-	ruling_party = libertarian_socialism
+	ruling_party = ultranationalism 
 		last_election = "1994.1.1"
 		election_frequency = 48
 		elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Subcomandante Marcos"
+	name = "Salvador Abascal"
 	desc = ""
-	picture = "subcomandante_marcos_ezln.dds"
+	picture = "salvador_abascal_syn.dds"
 	expire = "1987.1.1"
-	ideology = neozapatismo
+	ideology = neo_fascism
 	traits = {
 		#
 	}
