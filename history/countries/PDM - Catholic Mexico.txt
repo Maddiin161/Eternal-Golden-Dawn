@@ -12,7 +12,7 @@ oob = "TAL_1949"
 	market_liberalism = 0
 	social_liberalism = 0
 	social_democracy = 0
-	libertarian_socialism = 100
+	libertarian_socialism = 0
 	revolutionary_socialism = 0
 }
 	
