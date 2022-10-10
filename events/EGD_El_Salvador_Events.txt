@@ -1,0 +1,33 @@
+add_namespace = salvador
+
+##test - elections
+country_event = {
+	id = salvador.1
+	title = salvador.1.t
+	desc = salvador.1.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = "PDC"
+			set_politics = {
+				ruling_party = social_conservatism
+			}
+	}
+
+	option = {
+		name = "FMLN"
+			set_politics = {
+				ruling_party = revolutionary_socialism
+			}
+	}
+
+	option = {
+		name = "ARENA"
+			set_politics = {
+				ruling_party = ultranationalism
+			}
+	}
+}

@@ -23,12 +23,12 @@ set_popularities = {
 	autocracy = 0
 	authoritarian_democracy = 0
 	corporate_oligarchy = 0
-	social_conservatism = 60
+	social_conservatism = 45
 	market_liberalism = 0
 	social_liberalism = 0
 	social_democracy = 0
 	libertarian_socialism = 0
-	revolutionary_socialism = 20
+	revolutionary_socialism = 35
 }
 
 set_politics = {
