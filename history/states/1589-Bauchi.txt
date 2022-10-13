@@ -1,0 +1,24 @@
+state={
+	id=1589
+	name="STATE_1589"
+	history = {
+		owner = NGA
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = medium
+		set_state_flag = abjectpoor
+		add_core_of = NGA
+		buildings = {
+			  
+
+			  
+		}
+	}
+	state_category = pop2
+	provinces={
+		4938 14383 14400 14401 14415 14390
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
