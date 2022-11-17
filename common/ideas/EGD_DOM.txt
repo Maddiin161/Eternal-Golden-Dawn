@@ -1,0 +1,529 @@
+ideas = {	
+	country = {
+
+		prd_prsc_1 = {
+				picture = DOM_prd_prsc
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				 
+		}
+
+		prd_prsc_2 = {
+				picture = DOM_prd_prsc
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		prd_prsc_3 = {
+				picture = DOM_prd_prsc
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		prd_prsc_4 = {
+				picture = DOM_prd_prsc
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		prd_prsc_5 = {
+				picture = DOM_prd_prsc
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		prd_prsc_6 = {
+				picture = DOM_prd_prsc
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		prd_prsc_7 = {
+				picture = DOM_prd_prsc
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		prd_prsc_8 = {
+				picture = DOM_prd_prsc
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		prd_prsc_9 = {
+				picture = DOM_prd_prsc
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		prd_prsc_10 = {
+				picture = DOM_prd_prsc
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+		
+		prd_pld_1 = {
+				picture = DOM_prd_pld
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		prd_pld_2 = {
+				picture = DOM_prd_pld
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		prd_pld_3 = {
+				picture = DOM_prd_pld
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		prd_pld_4 = {
+				picture = DOM_prd_pld
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		prd_pld_5 = {
+				picture = DOM_prd_pld
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		prd_pld_6 = {
+				picture = DOM_prd_pld
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		prd_pld_7 = {
+				picture = DOM_prd_pld
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		prd_pld_8 = {
+				picture = DOM_prd_pld
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		prd_pld_9 = {
+				picture = DOM_prd_pld
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		prd_pld_10 = {
+				picture = DOM_prd_pld
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+		
+		pld_prsc_1 = {
+				picture = DOM_pld_prsc
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		pld_prsc_2 = {
+				picture = DOM_pld_prsc
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		pld_prsc_3 = {
+				picture = DOM_pld_prsc
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		pld_prsc_4 = {
+				picture = DOM_pld_prsc
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		pld_prsc_5 = {
+				picture = DOM_pld_prsc
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		pld_prsc_6 = {
+				picture = DOM_pld_prsc
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		pld_prsc_7 = {
+				picture = DOM_pld_prsc
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		pld_prsc_8 = {
+				picture = DOM_pld_prsc
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		pld_prsc_9 = {
+				picture = DOM_pld_prsc
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+
+		pld_prsc_10 = {
+				picture = DOM_pld_prsc
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+		
+		majority_government_DOM = {
+				picture = majority_government
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+		
+		minority_government_DOM = {
+				picture = minority_government
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+		
+		pld_prd_coalition = {
+				picture = pld_prd_coalition
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+		
+		prsc_pld_coalition = {
+				picture = prsc_pld_coalition
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+		
+		prsc_prd_coalition = {
+				picture = prsc_prd_coalition
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				removal_cost = -1
+				
+		}
+	}
+}

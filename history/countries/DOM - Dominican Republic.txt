@@ -1,0 +1,43 @@
+﻿capital = 312
+
+set_politics = {
+	ruling_party = social_liberalism
+	last_election = "1978.5.2"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+ set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 0
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 25
+	market_liberalism = 0
+	social_liberalism = 35
+	social_democracy = 40
+	libertarian_socialism = 0
+	revolutionary_socialism = 0
+}
+
+add_ideas = {
+	prd_prsc_5
+	prd_pld_1
+	pld_prsc_1
+	prsc_prd_coalition
+}
+
+create_country_leader = {
+	name = "Antonio Guzmán Fernández" 
+	desc = ""
+	picture = "antonio_guzman_fernandez.dds"
+	expire = "2003.3.1"
+	ideology = progress_liberalism
+	traits = {
+		
+	}
+}

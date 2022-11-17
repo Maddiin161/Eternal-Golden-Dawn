@@ -1,0 +1,37 @@
+DOM_show_laws_category = {
+	congratulate_lula = {
+			icon = generic_industry
+			available = {
+				is_ai = no
+			}
+			visible = {
+				is_debug = yes
+			}
+			fire_only_once = no
+			cost = 0
+		
+			complete_effect = {
+				country_event = {
+					id = dominica.1
+				}
+				set_country_flag = {
+					flag = PRD_medium_support
+					days = 30
+					value = 1
+				}
+				set_country_flag = {
+					flag = PRSC_medium_support
+					days = 30
+					value = 1
+				}
+				set_country_flag = {
+					flag = PLD_medium_support
+					days = 30
+					value = 1
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+}

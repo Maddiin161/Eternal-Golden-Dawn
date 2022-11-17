@@ -1,0 +1,1042 @@
+#Add to scripted triggers if more levels of hyper inflation is added
+# CHI_hyper_inflation_clear_all = {
+#	remove_ideas = {
+#		CHI_hyper_inflation_1
+#		CHI_hyper_inflation_2
+#		CHI_hyper_inflation_3
+#		CHI_hyper_inflation_4
+#		CHI_hyper_inflation_5
+#	}
+#}
+
+### PRD x PRSC
+
+#Important to put HIGHEST first
+DOM_prd_prsc_level_up = {
+	# level 10 not relevant. Cannot go above.
+	custom_effect_tooltip = DOM_prd_prsc_level_up_egd
+	if = {
+		limit = { has_idea = prd_prsc_9 }
+		swap_ideas = {
+			remove_idea = prd_prsc_9
+			add_idea = prd_prsc_10
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_8 }
+		swap_ideas = {
+			remove_idea = prd_prsc_8
+			add_idea = prd_prsc_9
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_7 }
+		swap_ideas = {
+			remove_idea = prd_prsc_7
+			add_idea = prd_prsc_8
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_6 }
+		swap_ideas = {
+			remove_idea = prd_prsc_6
+			add_idea = prd_prsc_7
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_5 }
+		swap_ideas = {
+			remove_idea = prd_prsc_5
+			add_idea = prd_prsc_6
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_4 }
+		swap_ideas = {
+			remove_idea = prd_prsc_4
+			add_idea = prd_prsc_5
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_3 }
+		swap_ideas = {
+			remove_idea = prd_prsc_3
+			add_idea = prd_prsc_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_2 }
+		swap_ideas = {
+			remove_idea = prd_prsc_2
+			add_idea = prd_prsc_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_1 }
+		swap_ideas = {
+			remove_idea = prd_prsc_1
+			add_idea = prd_prsc_2
+		}
+	}
+}
+
+#Important to put LOWEST first
+DOM_prd_prsc_level_down = {
+custom_effect_tooltip = DOM_prd_prsc_level_up_egd
+	if = {
+		limit = { has_idea = prd_prsc_2 }
+		swap_ideas = {
+			remove_idea = prd_prsc_2
+			add_idea = prd_prsc_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_3 }
+		swap_ideas = {
+			remove_idea = prd_prsc_3
+			add_idea = prd_prsc_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_4 }
+		swap_ideas = {
+			remove_idea = prd_prsc_4
+			add_idea = prd_prsc_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_5 }
+		swap_ideas = {
+			remove_idea = prd_prsc_5
+			add_idea = prd_prsc_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_6 }
+		swap_ideas = {
+			remove_idea = prd_prsc_6
+			add_idea = prd_prsc_5
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_7 }
+		swap_ideas = {
+			remove_idea = prd_prsc_7
+			add_idea = prd_prsc_6
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_8 }
+		swap_ideas = {
+			remove_idea = prd_prsc_8
+			add_idea = prd_prsc_7
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_9 }
+		swap_ideas = {
+			remove_idea = prd_prsc_9
+			add_idea = prd_prsc_8
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_10 }
+		swap_ideas = {
+			remove_idea = prd_prsc_10
+			add_idea = prd_prsc_9
+		}
+	}
+}
+
+#Important to put HIGHEST first
+DOM_prd_prsc_major_level_up = {
+	# level 10 not relevant. Cannot go above.
+	custom_effect_tooltip = DOM_prd_prsc_major_level_up_egd
+	if = {
+		limit = { has_idea = prd_prsc_9 }
+		swap_ideas = {
+			remove_idea = prd_prsc_9
+			add_idea = prd_prsc_10
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_8 }
+		swap_ideas = {
+			remove_idea = prd_prsc_8
+			add_idea = prd_prsc_10
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_7 }
+		swap_ideas = {
+			remove_idea = prd_prsc_7
+			add_idea = prd_prsc_10
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_6 }
+		swap_ideas = {
+			remove_idea = prd_prsc_6
+			add_idea = prd_prsc_9
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_5 }
+		swap_ideas = {
+			remove_idea = prd_prsc_5
+			add_idea = prd_prsc_8
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_4 }
+		swap_ideas = {
+			remove_idea = prd_prsc_4
+			add_idea = prd_prsc_7
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_3 }
+		swap_ideas = {
+			remove_idea = prd_prsc_3
+			add_idea = prd_prsc_6
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_2 }
+		swap_ideas = {
+			remove_idea = prd_prsc_2
+			add_idea = prd_prsc_5
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_1 }
+		swap_ideas = {
+			remove_idea = prd_prsc_1
+			add_idea = prd_prsc_4
+		}
+	}
+}
+
+#Important to put LOWEST first
+DOM_prd_prsc_major_level_down = {
+custom_effect_tooltip = DOM_prd_prsc_major_level_down_egd
+	if = {
+		limit = { has_idea = prd_prsc_2 }
+		swap_ideas = {
+			remove_idea = prd_prsc_2
+			add_idea = prd_prsc_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_3 }
+		swap_ideas = {
+			remove_idea = prd_prsc_3
+			add_idea = prd_prsc_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_4 }
+		swap_ideas = {
+			remove_idea = prd_prsc_4
+			add_idea = prd_prsc_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_5 }
+		swap_ideas = {
+			remove_idea = prd_prsc_5
+			add_idea = prd_prsc_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_6 }
+		swap_ideas = {
+			remove_idea = prd_prsc_6
+			add_idea = prd_prsc_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_7 }
+		swap_ideas = {
+			remove_idea = prd_prsc_7
+			add_idea = prd_prsc_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_8 }
+		swap_ideas = {
+			remove_idea = prd_prsc_8
+			add_idea = prd_prsc_5
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_9 }
+		swap_ideas = {
+			remove_idea = prd_prsc_9
+			add_idea = prd_prsc_6
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_10 }
+		swap_ideas = {
+			remove_idea = prd_prsc_10
+			add_idea = prd_prsc_7
+		}
+	}
+}
+
+#Important to put LOWEST first
+DOM_prd_prsc_dealbreaker_level_down = {
+custom_effect_tooltip = DOM_prd_prsc_dealbreaker_level_down_egd
+	if = {
+		limit = { has_idea = prd_prsc_2 }
+		swap_ideas = {
+			remove_idea = prd_prsc_2
+			add_idea = prd_prsc_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_3 }
+		swap_ideas = {
+			remove_idea = prd_prsc_3
+			add_idea = prd_prsc_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_4 }
+		swap_ideas = {
+			remove_idea = prd_prsc_4
+			add_idea = prd_prsc_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_5 }
+		swap_ideas = {
+			remove_idea = prd_prsc_5
+			add_idea = prd_prsc_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_6 }
+		swap_ideas = {
+			remove_idea = prd_prsc_6
+			add_idea = prd_prsc_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_7 }
+		swap_ideas = {
+			remove_idea = prd_prsc_7
+			add_idea = prd_prsc_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_8 }
+		swap_ideas = {
+			remove_idea = prd_prsc_8
+			add_idea = prd_prsc_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_9 }
+		swap_ideas = {
+			remove_idea = prd_prsc_9
+			add_idea = prd_prsc_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_prsc_10 }
+		swap_ideas = {
+			remove_idea = prd_prsc_10
+			add_idea = prd_prsc_4
+		}
+	}
+}
+
+### PRD x PLD
+
+#Important to put HIGHEST first
+DOM_prd_pld_level_up = {
+	# level 10 not relevant. Cannot go above.
+	custom_effect_tooltip = DOM_prd_pld_level_up_egd
+	if = {
+		limit = { has_idea = prd_pld_9 }
+		swap_ideas = {
+			remove_idea = prd_pld_9
+			add_idea = prd_pld_10
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_8 }
+		swap_ideas = {
+			remove_idea = prd_pld_8
+			add_idea = prd_pld_9
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_7 }
+		swap_ideas = {
+			remove_idea = prd_pld_7
+			add_idea = prd_pld_8
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_6 }
+		swap_ideas = {
+			remove_idea = prd_pld_6
+			add_idea = prd_pld_7
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_5 }
+		swap_ideas = {
+			remove_idea = prd_pld_5
+			add_idea = prd_pld_6
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_4 }
+		swap_ideas = {
+			remove_idea = prd_pld_4
+			add_idea = prd_pld_5
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_3 }
+		swap_ideas = {
+			remove_idea = prd_pld_3
+			add_idea = prd_pld_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_2 }
+		swap_ideas = {
+			remove_idea = prd_pld_2
+			add_idea = prd_pld_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_1 }
+		swap_ideas = {
+			remove_idea = prd_pld_1
+			add_idea = prd_pld_2
+		}
+	}
+}
+
+#Important to put LOWEST first
+DOM_prd_pld_level_down = {
+custom_effect_tooltip = DOM_prd_pld_level_down_egd
+	if = {
+		limit = { has_idea = prd_pld_2 }
+		swap_ideas = {
+			remove_idea = prd_pld_2
+			add_idea = prd_pld_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_3 }
+		swap_ideas = {
+			remove_idea = prd_pld_3
+			add_idea = prd_pld_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_4 }
+		swap_ideas = {
+			remove_idea = prd_pld_4
+			add_idea = prd_pld_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_5 }
+		swap_ideas = {
+			remove_idea = prd_pld_5
+			add_idea = prd_pld_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_6 }
+		swap_ideas = {
+			remove_idea = prd_pld_6
+			add_idea = prd_pld_5
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_7 }
+		swap_ideas = {
+			remove_idea = prd_pld_7
+			add_idea = prd_pld_6
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_8 }
+		swap_ideas = {
+			remove_idea = prd_pld_8
+			add_idea = prd_pld_7
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_9 }
+		swap_ideas = {
+			remove_idea = prd_pld_9
+			add_idea = prd_pld_8
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_10 }
+		swap_ideas = {
+			remove_idea = prd_pld_10
+			add_idea = prd_pld_9
+		}
+	}
+}
+
+#Important to put HIGHEST first
+DOM_prd_pld_major_level_up = {
+	# level 10 not relevant. Cannot go above.
+	custom_effect_tooltip = DOM_prd_pld_major_level_up_egd
+	if = {
+		limit = { has_idea = prd_pld_9 }
+		swap_ideas = {
+			remove_idea = prd_pld_9
+			add_idea = prd_pld_10
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_8 }
+		swap_ideas = {
+			remove_idea = prd_pld_8
+			add_idea = prd_pld_10
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_7 }
+		swap_ideas = {
+			remove_idea = prd_pld_7
+			add_idea = prd_pld_10
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_6 }
+		swap_ideas = {
+			remove_idea = prd_pld_6
+			add_idea = prd_pld_9
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_5 }
+		swap_ideas = {
+			remove_idea = prd_pld_5
+			add_idea = prd_pld_8
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_4 }
+		swap_ideas = {
+			remove_idea = prd_pld_4
+			add_idea = prd_pld_7
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_3 }
+		swap_ideas = {
+			remove_idea = prd_pld_3
+			add_idea = prd_pld_6
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_2 }
+		swap_ideas = {
+			remove_idea = prd_pld_2
+			add_idea = prd_pld_5
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_1 }
+		swap_ideas = {
+			remove_idea = prd_pld_1
+			add_idea = prd_pld_4
+		}
+	}
+}
+
+#Important to put LOWEST first
+DOM_prd_pld_major_level_down = {
+custom_effect_tooltip = DOM_prd_pld_major_level_down_egd
+	if = {
+		limit = { has_idea = prd_pld_2 }
+		swap_ideas = {
+			remove_idea = prd_pld_2
+			add_idea = prd_pld_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_3 }
+		swap_ideas = {
+			remove_idea = prd_pld_3
+			add_idea = prd_pld_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_4 }
+		swap_ideas = {
+			remove_idea = prd_pld_4
+			add_idea = prd_pld_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_5 }
+		swap_ideas = {
+			remove_idea = prd_pld_5
+			add_idea = prd_pld_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_6 }
+		swap_ideas = {
+			remove_idea = prd_pld_6
+			add_idea = prd_pld_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_7 }
+		swap_ideas = {
+			remove_idea = prd_pld_7
+			add_idea = prd_pld_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_8 }
+		swap_ideas = {
+			remove_idea = prd_pld_8
+			add_idea = prd_pld_5
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_9 }
+		swap_ideas = {
+			remove_idea = prd_pld_9
+			add_idea = prd_pld_6
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_10 }
+		swap_ideas = {
+			remove_idea = prd_pld_10
+			add_idea = prd_pld_7
+		}
+	}
+}
+
+#Important to put LOWEST first
+DOM_prd_pld_dealbreaker_level_down = {
+custom_effect_tooltip = DOM_prd_pld_dealbreaker_level_down_egd
+	if = {
+		limit = { has_idea = prd_pld_2 }
+		swap_ideas = {
+			remove_idea = prd_pld_2
+			add_idea = prd_pld_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_3 }
+		swap_ideas = {
+			remove_idea = prd_pld_3
+			add_idea = prd_pld_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_4 }
+		swap_ideas = {
+			remove_idea = prd_pld_4
+			add_idea = prd_pld_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_5 }
+		swap_ideas = {
+			remove_idea = prd_pld_5
+			add_idea = prd_pld_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_6 }
+		swap_ideas = {
+			remove_idea = prd_pld_6
+			add_idea = prd_pld_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_7 }
+		swap_ideas = {
+			remove_idea = prd_pld_7
+			add_idea = prd_pld_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_8 }
+		swap_ideas = {
+			remove_idea = prd_pld_8
+			add_idea = prd_pld_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_9 }
+		swap_ideas = {
+			remove_idea = prd_pld_9
+			add_idea = prd_pld_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = prd_pld_10 }
+		swap_ideas = {
+			remove_idea = prd_pld_10
+			add_idea = prd_pld_4
+		}
+	}
+}
+
+### PLD x PRSC
+
+#Important to put HIGHEST first
+DOM_pld_prsc_level_up = {
+	# level 10 not relevant. Cannot go above.
+	custom_effect_tooltip = DOM_pld_prsc_level_up_egd
+	if = {
+		limit = { has_idea = pld_prsc_9 }
+		swap_ideas = {
+			remove_idea = pld_prsc_9
+			add_idea = pld_prsc_10
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_8 }
+		swap_ideas = {
+			remove_idea = pld_prsc_8
+			add_idea = pld_prsc_9
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_7 }
+		swap_ideas = {
+			remove_idea = pld_prsc_7
+			add_idea = pld_prsc_8
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_6 }
+		swap_ideas = {
+			remove_idea = pld_prsc_6
+			add_idea = pld_prsc_7
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_5 }
+		swap_ideas = {
+			remove_idea = pld_prsc_5
+			add_idea = pld_prsc_6
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_4 }
+		swap_ideas = {
+			remove_idea = pld_prsc_4
+			add_idea = pld_prsc_5
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_3 }
+		swap_ideas = {
+			remove_idea = pld_prsc_3
+			add_idea = pld_prsc_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_2 }
+		swap_ideas = {
+			remove_idea = pld_prsc_2
+			add_idea = pld_prsc_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_1 }
+		swap_ideas = {
+			remove_idea = pld_prsc_1
+			add_idea = pld_prsc_2
+		}
+	}
+}
+
+#Important to put LOWEST first
+DOM_pld_prsc_level_down = {
+custom_effect_tooltip = DOM_pld_prsc_level_down_egd
+	if = {
+		limit = { has_idea = pld_prsc_2 }
+		swap_ideas = {
+			remove_idea = pld_prsc_2
+			add_idea = pld_prsc_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_3 }
+		swap_ideas = {
+			remove_idea = pld_prsc_3
+			add_idea = pld_prsc_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_4 }
+		swap_ideas = {
+			remove_idea = pld_prsc_4
+			add_idea = pld_prsc_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_5 }
+		swap_ideas = {
+			remove_idea = pld_prsc_5
+			add_idea = pld_prsc_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_6 }
+		swap_ideas = {
+			remove_idea = pld_prsc_6
+			add_idea = pld_prsc_5
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_7 }
+		swap_ideas = {
+			remove_idea = pld_prsc_7
+			add_idea = pld_prsc_6
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_8 }
+		swap_ideas = {
+			remove_idea = pld_prsc_8
+			add_idea = pld_prsc_7
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_9 }
+		swap_ideas = {
+			remove_idea = pld_prsc_9
+			add_idea = pld_prsc_8
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_10 }
+		swap_ideas = {
+			remove_idea = pld_prsc_10
+			add_idea = pld_prsc_9
+		}
+	}
+}
+
+#Important to put HIGHEST first
+DOM_pld_prsc_major_level_up = {
+	# level 10 not relevant. Cannot go above.
+	custom_effect_tooltip = DOM_pld_prsc_major_level_up_egd
+	if = {
+		limit = { has_idea = pld_prsc_9 }
+		swap_ideas = {
+			remove_idea = pld_prsc_9
+			add_idea = pld_prsc_10
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_8 }
+		swap_ideas = {
+			remove_idea = pld_prsc_8
+			add_idea = pld_prsc_10
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_7 }
+		swap_ideas = {
+			remove_idea = pld_prsc_7
+			add_idea = pld_prsc_10
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_6 }
+		swap_ideas = {
+			remove_idea = pld_prsc_6
+			add_idea = pld_prsc_9
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_5 }
+		swap_ideas = {
+			remove_idea = pld_prsc_5
+			add_idea = pld_prsc_8
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_4 }
+		swap_ideas = {
+			remove_idea = pld_prsc_4
+			add_idea = pld_prsc_7
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_3 }
+		swap_ideas = {
+			remove_idea = pld_prsc_3
+			add_idea = pld_prsc_6
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_2 }
+		swap_ideas = {
+			remove_idea = pld_prsc_2
+			add_idea = pld_prsc_5
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_1 }
+		swap_ideas = {
+			remove_idea = pld_prsc_1
+			add_idea = pld_prsc_4
+		}
+	}
+}
+
+#Important to put LOWEST first
+DOM_pld_prsc_major_level_down = {
+custom_effect_tooltip = DOM_pld_prsc_major_level_down_egd
+	if = {
+		limit = { has_idea = pld_prsc_2 }
+		swap_ideas = {
+			remove_idea = pld_prsc_2
+			add_idea = pld_prsc_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_3 }
+		swap_ideas = {
+			remove_idea = pld_prsc_3
+			add_idea = pld_prsc_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_4 }
+		swap_ideas = {
+			remove_idea = pld_prsc_4
+			add_idea = pld_prsc_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_5 }
+		swap_ideas = {
+			remove_idea = pld_prsc_5
+			add_idea = pld_prsc_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_6 }
+		swap_ideas = {
+			remove_idea = pld_prsc_6
+			add_idea = pld_prsc_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_7 }
+		swap_ideas = {
+			remove_idea = pld_prsc_7
+			add_idea = pld_prsc_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_8 }
+		swap_ideas = {
+			remove_idea = pld_prsc_8
+			add_idea = pld_prsc_5
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_9 }
+		swap_ideas = {
+			remove_idea = pld_prsc_9
+			add_idea = pld_prsc_6
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_10 }
+		swap_ideas = {
+			remove_idea = pld_prsc_10
+			add_idea = pld_prsc_7
+		}
+	}
+}
+
+#Important to put LOWEST first
+DOM_pld_prsc_dealbreaker_level_down = {
+custom_effect_tooltip = DOM_pld_prsc_dealbreaker_level_down_egd
+	if = {
+		limit = { has_idea = pld_prsc_2 }
+		swap_ideas = {
+			remove_idea = pld_prsc_2
+			add_idea = pld_prsc_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_3 }
+		swap_ideas = {
+			remove_idea = pld_prsc_3
+			add_idea = pld_prsc_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_4 }
+		swap_ideas = {
+			remove_idea = pld_prsc_4
+			add_idea = pld_prsc_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_5 }
+		swap_ideas = {
+			remove_idea = pld_prsc_5
+			add_idea = pld_prsc_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_6 }
+		swap_ideas = {
+			remove_idea = pld_prsc_6
+			add_idea = pld_prsc_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_7 }
+		swap_ideas = {
+			remove_idea = pld_prsc_7
+			add_idea = pld_prsc_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_8 }
+		swap_ideas = {
+			remove_idea = pld_prsc_8
+			add_idea = pld_prsc_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_9 }
+		swap_ideas = {
+			remove_idea = pld_prsc_9
+			add_idea = pld_prsc_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = pld_prsc_10 }
+		swap_ideas = {
+			remove_idea = pld_prsc_10
+			add_idea = pld_prsc_4
+		}
+	}
+}

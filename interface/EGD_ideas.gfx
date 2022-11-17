@@ -507,4 +507,44 @@ SpriteType = {
 		name = "GFX_idea_MEX_ghost_of_echeverria"
 		texturefile = "gfx/interface/ideas/MEX/idea_MEX_ghost_of_echeverria.dds"
 	}
+	
+	####Dominican Republic####
+	
+SpriteType = { 
+		name = "GFX_idea_DOM_prd_prsc"
+		texturefile = "gfx/interface/ideas/DOM/idea_DOM_prd_prsc.dds"
+	}
+	
+SpriteType = { 
+		name = "GFX_idea_DOM_prd_pld"
+		texturefile = "gfx/interface/ideas/DOM/idea_DOM_prd_pld.dds"
+	}
+	
+SpriteType = { 
+		name = "GFX_idea_DOM_pld_prsc"
+		texturefile = "gfx/interface/ideas/DOM/idea_DOM_pld_prsc.dds"
+	}
+SpriteType = { 
+		name = "GFX_idea_majority_government"
+		texturefile = "gfx/interface/ideas/DOM/majority_government.dds"
+	}
+
+SpriteType = { 
+		name = "GFX_idea_minority_government"
+		texturefile = "gfx/interface/ideas/DOM/minority_government.dds"
+	}
+	
+SpriteType = { 
+		name = "GFX_idea_pld_prd_coalition"
+		texturefile = "gfx/interface/ideas/DOM/pld_prd_coalition.dds"
+	}
+	
+SpriteType = { 
+		name = "GFX_idea_prsc_pld_coalition"
+		texturefile = "gfx/interface/ideas/DOM/prsc_pld_coalition.dds"
+	}
+SpriteType = { 
+		name = "GFX_idea_prsc_prd_coalition"
+		texturefile = "gfx/interface/ideas/DOM/prsc_prd_coalition.dds"
+	}
 }

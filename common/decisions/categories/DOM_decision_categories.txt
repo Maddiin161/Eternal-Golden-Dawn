@@ -1,0 +1,12 @@
+DOM_hostage_crisis_category = {
+	icon = PER_hostage_crisis_category_icon  
+	picture = GFX_EGD_Decision_Picture_Iran_Hostages
+	visible_when_empty = yes
+	priority = 10
+	visible = {
+		always = yes
+	}
+	allowed = {
+		original_tag = DOM
+	}
+}

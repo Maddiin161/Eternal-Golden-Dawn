@@ -1,0 +1,2771 @@
+add_namespace = dominica
+
+## Passing laws event chain - PRD rules
+country_event = {
+	id = dominica.1
+	title = "Government presents a bill"
+	desc = dominica.1.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "Majority"
+			trigger = {
+				has_idea = majority_government_DOM
+			}
+		country_event = {
+			id = dominica.2
+		}
+	}
+	
+	option = {
+		name = "No majority"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_government = social_liberal
+					has_idea = minority_government_DOM 
+					has_idea = pld_prd_coalition
+					has_idea = prsc_pld_coalition
+					has_idea = prsc_prd_coalition
+				}
+			}
+		country_event = {
+			id = dominica.3
+		}
+	}
+	
+	option = {
+		name = "No majority"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_government = social_democracy
+					has_idea = minority_government_DOM 
+					has_idea = pld_prd_coalition
+					has_idea = prsc_pld_coalition
+					has_idea = prsc_prd_coalition
+				}
+			}
+		country_event = {
+			id = dominica.16
+		}
+	}
+	
+	option = {
+		name = "No majority"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_government = social_conservatism
+					has_idea = minority_government_DOM 
+					has_idea = pld_prd_coalition
+					has_idea = prsc_pld_coalition
+					has_idea = prsc_prd_coalition
+				}
+			}
+		country_event = {
+			id = dominica.22
+		}
+	}
+}
+
+country_event = {
+	id = dominica.2
+	title = "Bill passes!"
+	desc = dominica.2.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "Penis"
+	}
+}
+
+country_event = {
+	id = dominica.3
+	title = "Parties deliberate"
+	desc = dominica.3.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "No majority"
+		country_event = {
+			id = dominica.6
+		}
+	}
+}
+
+### PRD deliberation
+
+country_event = {
+	id = dominica.4
+	title = "PRD votes against the proposal"
+	desc = dominica.4.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "PRSC agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PRSC_low_support
+					AND = { has_idea = prd_prsc_7 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_8 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_9 has_idea = prsc_prd_coalition }
+					has_idea = prd_prsc_10
+				}
+			}
+		country_event = {
+			id = dominica.8
+		}
+		set_country_flag = PRD_rejected_bill
+	}
+	
+	option = {
+		name = "PRSC agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PRSC_medium_support
+					AND = { has_idea = prd_prsc_5 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_6 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_7 has_idea = prsc_prd_coalition }
+					has_idea = prd_prsc_8
+					has_idea = prd_prsc_9
+					has_idea = prd_prsc_10
+				}
+			}
+		country_event = {
+			id = dominica.8
+		}
+		set_country_flag = PRD_rejected_bill
+	}
+	
+	option = {
+		name = "PRSC agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PRSC_high_support
+					has_idea = prd_prsc_3
+					has_idea = prd_prsc_4
+					has_idea = prd_prsc_5
+					has_idea = prd_prsc_6
+					has_idea = prd_prsc_7
+					has_idea = prd_prsc_8
+					has_idea = prd_prsc_9
+					has_idea = prd_prsc_10
+				}
+			}
+		country_event = {
+			id = dominica.8
+		}
+		set_country_flag = PRD_rejected_bill
+	}
+	option = {
+		name = "PRSC refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRSC_low_support
+						has_idea = prd_prsc_1
+						has_idea = prd_prsc_2
+						has_idea = prd_prsc_3
+						has_idea = prd_prsc_4
+						has_idea = prd_prsc_5
+						has_idea = prd_prsc_6
+						AND = { has_idea = prd_prsc_7 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_8 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_9 NOT = { has_idea = prsc_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.7
+		}
+		set_country_flag = PRD_rejected_bill
+	}
+	
+	option = {
+		name = "PRSC refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRSC_medium_support
+						has_idea = prd_prsc_1
+						has_idea = prd_prsc_2
+						has_idea = prd_prsc_3
+						has_idea = prd_prsc_4
+						AND = { has_idea = prd_prsc_5 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_6 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_7 NOT = { has_idea = prsc_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.7
+		}
+		set_country_flag = PRD_rejected_bill
+	}
+	
+	option = {
+		name = "PRSC refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRSC_high_support
+						has_idea = prd_prsc_1
+						has_idea = prd_prsc_2
+				}
+			}
+		country_event = {
+			id = dominica.7
+		}
+		set_country_flag = PRD_rejected_bill
+	}
+}
+
+country_event = {
+	id = dominica.5
+	title = "PRD votes for the proposal"
+	desc = dominica.5.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+
+	option = {
+		name = "PRSC agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PRSC_low_support
+					AND = { has_idea = prd_prsc_7 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_8 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_9 has_idea = prsc_prd_coalition }
+					has_idea = prd_prsc_10
+				}
+			}
+		country_event = {
+			id = dominica.8
+		}
+		set_country_flag = PRD_supported_bill
+	}
+	
+	option = {
+		name = "PRSC agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PRSC_medium_support
+					AND = { has_idea = prd_prsc_5 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_6 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_7 has_idea = prsc_prd_coalition }
+					has_idea = prd_prsc_8
+					has_idea = prd_prsc_9
+					has_idea = prd_prsc_10
+				}
+			}
+		country_event = {
+			id = dominica.8
+		}
+		set_country_flag = PRD_supported_bill
+	}
+	
+	option = {
+		name = "PRSC agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PRSC_high_support
+					has_idea = prd_prsc_3
+					has_idea = prd_prsc_4
+					has_idea = prd_prsc_5
+					has_idea = prd_prsc_6
+					has_idea = prd_prsc_7
+					has_idea = prd_prsc_8
+					has_idea = prd_prsc_9
+					has_idea = prd_prsc_10
+				}
+			}
+		country_event = {
+			id = dominica.8
+		}
+		set_country_flag = PRD_supported_bill
+	}
+	option = {
+		name = "PRSC refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRSC_low_support
+						has_idea = prd_prsc_1
+						has_idea = prd_prsc_2
+						has_idea = prd_prsc_3
+						has_idea = prd_prsc_4
+						has_idea = prd_prsc_5
+						has_idea = prd_prsc_6
+						AND = { has_idea = prd_prsc_7 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_8 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_9 NOT = { has_idea = prsc_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.7
+		}
+		set_country_flag = PRD_supported_bill
+	}
+	
+	option = {
+		name = "PRSC refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRSC_medium_support
+						has_idea = prd_prsc_1
+						has_idea = prd_prsc_2
+						has_idea = prd_prsc_3
+						has_idea = prd_prsc_4
+						AND = { has_idea = prd_prsc_5 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_6 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_7 NOT = { has_idea = prsc_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.7
+		}
+		set_country_flag = PRD_supported_bill
+	}
+	
+	option = {
+		name = "PRSC refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRSC_high_support
+						has_idea = prd_prsc_1
+						has_idea = prd_prsc_2
+				}
+			}
+		country_event = {
+			id = dominica.7
+		}
+		set_country_flag = PRD_supported_bill
+	}
+}
+
+country_event = {
+	id = dominica.6
+	title = "PRD is the ruling party"
+	desc = dominica.6.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "PRSC agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PRSC_low_support
+					AND = { has_idea = prd_prsc_7 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_8 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_9 has_idea = prsc_prd_coalition }
+					has_idea = prd_prsc_10
+				}
+			}
+		country_event = {
+			id = dominica.8
+		}
+		set_country_flag = PRD_supported_bill
+	}
+	
+	option = {
+		name = "PRSC agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PRSC_medium_support
+					AND = { has_idea = prd_prsc_5 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_6 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_7 has_idea = prsc_prd_coalition }
+					has_idea = prd_prsc_8
+					has_idea = prd_prsc_9
+					has_idea = prd_prsc_10
+				}
+			}
+		country_event = {
+			id = dominica.8
+		}
+		set_country_flag = PRD_supported_bill
+	}
+	
+	option = {
+		name = "PRSC agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PRSC_high_support
+					has_idea = prd_prsc_3
+					has_idea = prd_prsc_4
+					has_idea = prd_prsc_5
+					has_idea = prd_prsc_6
+					has_idea = prd_prsc_7
+					has_idea = prd_prsc_8
+					has_idea = prd_prsc_9
+					has_idea = prd_prsc_10
+				}
+			}
+		country_event = {
+			id = dominica.8
+		}
+		set_country_flag = PRD_supported_bill
+	}
+	option = {
+		name = "PRSC refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRSC_low_support
+						has_idea = prd_prsc_1
+						has_idea = prd_prsc_2
+						has_idea = prd_prsc_3
+						has_idea = prd_prsc_4
+						has_idea = prd_prsc_5
+						has_idea = prd_prsc_6
+						AND = { has_idea = prd_prsc_7 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_8 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_9 NOT = { has_idea = prsc_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.7
+		}
+		set_country_flag = PRD_supported_bill
+	}
+	
+	option = {
+		name = "PRSC refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRSC_medium_support
+						has_idea = prd_prsc_1
+						has_idea = prd_prsc_2
+						has_idea = prd_prsc_3
+						has_idea = prd_prsc_4
+						AND = { has_idea = prd_prsc_5 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_6 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_7 NOT = { has_idea = prsc_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.7
+		}
+		set_country_flag = PRD_supported_bill
+	}
+	
+	option = {
+		name = "PRSC refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRSC_high_support
+						has_idea = prd_prsc_1
+						has_idea = prd_prsc_2
+				}
+			}
+		country_event = {
+			id = dominica.7
+		}
+		set_country_flag = PRD_supported_bill
+	}
+}
+
+### PRSC deliberation
+
+country_event = {
+	id = dominica.7
+	title = "PRSC votes against the proposal"
+	desc = dominica.7.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_low_support
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_8 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_9 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.11
+		}
+		set_country_flag = PRSC_rejected_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_medium_support
+					AND = { has_idea = prd_PLD_5 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_6 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.11
+		}
+		set_country_flag = PRSC_rejected_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_high_support
+					has_idea = prd_PLD_3
+					has_idea = prd_PLD_4
+					has_idea = prd_PLD_5
+					has_idea = prd_PLD_6
+					has_idea = prd_PLD_7
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.11
+		}
+		set_country_flag = PRSC_rejected_bill
+	}
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_low_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						has_idea = prd_PLD_5
+						has_idea = prd_PLD_6
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_8 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_9 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.10
+		}
+		set_country_flag = PRSC_rejected_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_medium_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						AND = { has_idea = prd_PLD_5 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_6 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.10
+		}
+		set_country_flag = PRSC_rejected_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_high_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+				}
+			}
+		country_event = {
+			id = dominica.10
+		}
+		set_country_flag = PRSC_rejected_bill
+	}
+}
+
+country_event = {
+	id = dominica.8
+	title = "PRSC votes for the proposal"
+	desc = dominica.8.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_low_support
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_8 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_9 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.11
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_medium_support
+					AND = { has_idea = prd_PLD_5 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_6 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.11
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_high_support
+					has_idea = prd_PLD_3
+					has_idea = prd_PLD_4
+					has_idea = prd_PLD_5
+					has_idea = prd_PLD_6
+					has_idea = prd_PLD_7
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.11
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_low_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						has_idea = prd_PLD_5
+						has_idea = prd_PLD_6
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_8 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_9 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.10
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_medium_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						AND = { has_idea = prd_PLD_5 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_6 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.10
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_high_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+				}
+			}
+		country_event = {
+			id = dominica.10
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+}
+
+country_event = {
+	id = dominica.9
+	title = "PRSC is the ruling party"
+	desc = dominica.9.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_low_support
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_8 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_9 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.11
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_medium_support
+					AND = { has_idea = prd_PLD_5 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_6 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.11
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_high_support
+					has_idea = prd_PLD_3
+					has_idea = prd_PLD_4
+					has_idea = prd_PLD_5
+					has_idea = prd_PLD_6
+					has_idea = prd_PLD_7
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.11
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_low_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						has_idea = prd_PLD_5
+						has_idea = prd_PLD_6
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_8 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_9 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.10
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_medium_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						AND = { has_idea = prd_PLD_5 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_6 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.10
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_high_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+				}
+			}
+		country_event = {
+			id = dominica.10
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+}
+
+### PLD deliberation
+
+country_event = {
+	id = dominica.10
+	title = "PLD votes against the proposal"
+	desc = dominica.10.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_low_support
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_8 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_9 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_rejected_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_medium_support
+					AND = { has_idea = prd_PLD_5 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_6 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_rejected_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_high_support
+					has_idea = prd_PLD_3
+					has_idea = prd_PLD_4
+					has_idea = prd_PLD_5
+					has_idea = prd_PLD_6
+					has_idea = prd_PLD_7
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_rejected_bill
+	}
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_low_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						has_idea = prd_PLD_5
+						has_idea = prd_PLD_6
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_8 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_9 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_rejected_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_medium_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						AND = { has_idea = prd_PLD_5 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_6 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_rejected_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_high_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_rejected_bill
+	}
+}
+
+country_event = {
+	id = dominica.11
+	title = "PLD votes for the proposal"
+	desc = dominica.11.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_low_support
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_8 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_9 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_supported_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_medium_support
+					AND = { has_idea = prd_PLD_5 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_6 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_supported_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_high_support
+					has_idea = prd_PLD_3
+					has_idea = prd_PLD_4
+					has_idea = prd_PLD_5
+					has_idea = prd_PLD_6
+					has_idea = prd_PLD_7
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_supported_bill
+	}
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_low_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						has_idea = prd_PLD_5
+						has_idea = prd_PLD_6
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_8 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_9 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_supported_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_medium_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						AND = { has_idea = prd_PLD_5 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_6 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_supported_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_high_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_supported_bill
+	}
+}
+
+country_event = {
+	id = dominica.12
+	title = "PLD is the ruling party"
+	desc = dominica.12.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_low_support
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_8 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_9 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_supported_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_medium_support
+					AND = { has_idea = prd_PLD_5 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_6 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_supported_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_high_support
+					has_idea = prd_PLD_3
+					has_idea = prd_PLD_4
+					has_idea = prd_PLD_5
+					has_idea = prd_PLD_6
+					has_idea = prd_PLD_7
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_supported_bill
+	}
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_low_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						has_idea = prd_PLD_5
+						has_idea = prd_PLD_6
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_8 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_9 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_supported_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_medium_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						AND = { has_idea = prd_PLD_5 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_6 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_supported_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_high_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_supported_bill
+	}
+}
+
+### Results
+
+country_event = {
+	id = dominica.13
+	title = "Vote held"
+	desc = dominica.13.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "Bill passes"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRD_supported_bill
+						has_country_flag = PRSC_supported_bill
+						has_country_flag = PLD_supported_bill
+				}
+			}
+		country_event = {
+			id = dominica.14
+		}
+	}
+	
+	option = {
+		name = "Bill rejected"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRD_rejected_bill
+						has_country_flag = PRSC_rejected_bill
+						has_country_flag = PLD_rejected_bill
+				}
+			}
+		country_event = {
+			id = dominica.15
+		}
+	}
+}
+
+country_event = {
+	id = dominica.14
+	title = "Bill passes"
+	desc = dominica.14.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "Bill passes yo"
+	}
+}
+
+country_event = {
+	id = dominica.15
+	title = "Bill rejected"
+	desc = dominica.15.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "It didn't work"
+	}
+}
+
+### PLD majority
+
+country_event = {
+	id = dominica.16
+	title = "Parties deliberate"
+	desc = dominica.16.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "prd agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = prd_low_support
+					AND = { has_idea = prd_pld_7 has_idea = prd_prd_coalition }
+					AND = { has_idea = prd_pld_8 has_idea = prd_prd_coalition }
+					AND = { has_idea = prd_pld_9 has_idea = prd_prd_coalition }
+					has_idea = prd_pld_10
+				}
+			}
+		country_event = {
+			id = dominica.18
+		}
+	}
+	
+	option = {
+		name = "prd agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = prd_medium_support
+					AND = { has_idea = prd_pld_5 has_idea = prd_prd_coalition }
+					AND = { has_idea = prd_pld_6 has_idea = prd_prd_coalition }
+					AND = { has_idea = prd_pld_7 has_idea = prd_prd_coalition }
+					has_idea = prd_pld_8
+					has_idea = prd_pld_9
+					has_idea = prd_pld_10
+				}
+			}
+		country_event = {
+			id = dominica.18
+		}
+	}
+	
+	option = {
+		name = "prd agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = prd_high_support
+					has_idea = prd_pld_3
+					has_idea = prd_pld_4
+					has_idea = prd_pld_5
+					has_idea = prd_pld_6
+					has_idea = prd_pld_7
+					has_idea = prd_pld_8
+					has_idea = prd_pld_9
+					has_idea = prd_pld_10
+				}
+			}
+		country_event = {
+			id = dominica.18
+		}
+	}
+	option = {
+		name = "prd refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = prd_low_support
+						has_idea = prd_pld_1
+						has_idea = prd_pld_2
+						has_idea = prd_pld_3
+						has_idea = prd_pld_4
+						has_idea = prd_pld_5
+						has_idea = prd_pld_6
+						AND = { has_idea = prd_pld_7 NOT = { has_idea = prd_pld_coalition } }
+						AND = { has_idea = prd_pld_8 NOT = { has_idea = prd_pld_coalition } }
+						AND = { has_idea = prd_pld_9 NOT = { has_idea = prd_pld_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.17
+		}
+	}
+	
+	option = {
+		name = "prd refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = prd_medium_support
+						has_idea = prd_pld_1
+						has_idea = prd_pld_2
+						has_idea = prd_pld_3
+						has_idea = prd_pld_4
+						AND = { has_idea = prd_pld_5 NOT = { has_idea = prd_pld_coalition } }
+						AND = { has_idea = prd_pld_6 NOT = { has_idea = prd_pld_coalition } }
+						AND = { has_idea = prd_pld_7 NOT = { has_idea = prd_pld_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.17
+		}
+	}
+	
+	option = {
+		name = "prd refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = prd_high_support
+						has_idea = prd_pld_1
+						has_idea = prd_pld_2
+				}
+			}
+		country_event = {
+			id = dominica.17
+		}
+	}
+}
+
+
+country_event = {
+	id = dominica.17
+	title = "PRD votes against the proposal"
+	desc = dominica.17.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "PRSC agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PRSC_low_support
+					AND = { has_idea = prd_prsc_7 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_8 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_9 has_idea = prsc_prd_coalition }
+					has_idea = prd_prsc_10
+				}
+			}
+		country_event = {
+			id = dominica.20
+		}
+		set_country_flag = PRD_rejected_bill
+	}
+	
+	option = {
+		name = "PRSC agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PRSC_medium_support
+					AND = { has_idea = prd_prsc_5 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_6 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_7 has_idea = prsc_prd_coalition }
+					has_idea = prd_prsc_8
+					has_idea = prd_prsc_9
+					has_idea = prd_prsc_10
+				}
+			}
+		country_event = {
+			id = dominica.20
+		}
+		set_country_flag = PRD_rejected_bill
+	}
+	
+	option = {
+		name = "PRSC agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PRSC_high_support
+					has_idea = prd_prsc_3
+					has_idea = prd_prsc_4
+					has_idea = prd_prsc_5
+					has_idea = prd_prsc_6
+					has_idea = prd_prsc_7
+					has_idea = prd_prsc_8
+					has_idea = prd_prsc_9
+					has_idea = prd_prsc_10
+				}
+			}
+		country_event = {
+			id = dominica.20
+		}
+		set_country_flag = PRD_rejected_bill
+	}
+	option = {
+		name = "PRSC refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRSC_low_support
+						has_idea = prd_prsc_1
+						has_idea = prd_prsc_2
+						has_idea = prd_prsc_3
+						has_idea = prd_prsc_4
+						has_idea = prd_prsc_5
+						has_idea = prd_prsc_6
+						AND = { has_idea = prd_prsc_7 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_8 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_9 NOT = { has_idea = prsc_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.19
+		}
+		set_country_flag = PRD_rejected_bill
+	}
+	
+	option = {
+		name = "PRSC refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRSC_medium_support
+						has_idea = prd_prsc_1
+						has_idea = prd_prsc_2
+						has_idea = prd_prsc_3
+						has_idea = prd_prsc_4
+						AND = { has_idea = prd_prsc_5 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_6 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_7 NOT = { has_idea = prsc_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.19
+		}
+		set_country_flag = PRD_rejected_bill
+	}
+	
+	option = {
+		name = "PRSC refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRSC_high_support
+						has_idea = prd_prsc_1
+						has_idea = prd_prsc_2
+				}
+			}
+		country_event = {
+			id = dominica.19
+		}
+		set_country_flag = PRD_rejected_bill
+	}
+}
+
+country_event = {
+	id = dominica.18
+	title = "PRD votes for the proposal"
+	desc = dominica.18.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+
+	option = {
+		name = "PRSC agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PRSC_low_support
+					AND = { has_idea = prd_prsc_7 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_8 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_9 has_idea = prsc_prd_coalition }
+					has_idea = prd_prsc_10
+				}
+			}
+		country_event = {
+			id = dominica.20
+		}
+		set_country_flag = PRD_supported_bill
+	}
+	
+	option = {
+		name = "PRSC agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PRSC_medium_support
+					AND = { has_idea = prd_prsc_5 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_6 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_7 has_idea = prsc_prd_coalition }
+					has_idea = prd_prsc_8
+					has_idea = prd_prsc_9
+					has_idea = prd_prsc_10
+				}
+			}
+		country_event = {
+			id = dominica.20
+		}
+		set_country_flag = PRD_supported_bill
+	}
+	
+	option = {
+		name = "PRSC agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PRSC_high_support
+					has_idea = prd_prsc_3
+					has_idea = prd_prsc_4
+					has_idea = prd_prsc_5
+					has_idea = prd_prsc_6
+					has_idea = prd_prsc_7
+					has_idea = prd_prsc_8
+					has_idea = prd_prsc_9
+					has_idea = prd_prsc_10
+				}
+			}
+		country_event = {
+			id = dominica.20
+		}
+		set_country_flag = PRD_supported_bill
+	}
+	option = {
+		name = "PRSC refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRSC_low_support
+						has_idea = prd_prsc_1
+						has_idea = prd_prsc_2
+						has_idea = prd_prsc_3
+						has_idea = prd_prsc_4
+						has_idea = prd_prsc_5
+						has_idea = prd_prsc_6
+						AND = { has_idea = prd_prsc_7 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_8 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_9 NOT = { has_idea = prsc_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.19
+		}
+		set_country_flag = PRD_supported_bill
+	}
+	
+	option = {
+		name = "PRSC refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRSC_medium_support
+						has_idea = prd_prsc_1
+						has_idea = prd_prsc_2
+						has_idea = prd_prsc_3
+						has_idea = prd_prsc_4
+						AND = { has_idea = prd_prsc_5 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_6 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_7 NOT = { has_idea = prsc_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.19
+		}
+		set_country_flag = PRD_supported_bill
+	}
+	
+	option = {
+		name = "PRSC refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRSC_high_support
+						has_idea = prd_prsc_1
+						has_idea = prd_prsc_2
+				}
+			}
+		country_event = {
+			id = dominica.19
+		}
+		set_country_flag = PRD_supported_bill
+	}
+}
+
+country_event = {
+	id = dominica.19
+	title = "PRSC votes against the proposal"
+	desc = dominica.7.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_low_support
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_8 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_9 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.21
+		}
+		set_country_flag = PRSC_rejected_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_medium_support
+					AND = { has_idea = prd_PLD_5 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_6 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.21
+		}
+		set_country_flag = PRSC_rejected_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_high_support
+					has_idea = prd_PLD_3
+					has_idea = prd_PLD_4
+					has_idea = prd_PLD_5
+					has_idea = prd_PLD_6
+					has_idea = prd_PLD_7
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.21
+		}
+		set_country_flag = PRSC_rejected_bill
+	}
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_low_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						has_idea = prd_PLD_5
+						has_idea = prd_PLD_6
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_8 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_9 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.21
+		}
+		set_country_flag = PRSC_rejected_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_medium_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						AND = { has_idea = prd_PLD_5 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_6 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.21
+		}
+		set_country_flag = PRSC_rejected_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_high_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+				}
+			}
+		country_event = {
+			id = dominica.21
+		}
+		set_country_flag = PRSC_rejected_bill
+	}
+}
+
+country_event = {
+	id = dominica.20
+	title = "PRSC votes for the proposal"
+	desc = dominica.8.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_low_support
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_8 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_9 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.21
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_medium_support
+					AND = { has_idea = prd_PLD_5 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_6 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.21
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_high_support
+					has_idea = prd_PLD_3
+					has_idea = prd_PLD_4
+					has_idea = prd_PLD_5
+					has_idea = prd_PLD_6
+					has_idea = prd_PLD_7
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.21
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_low_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						has_idea = prd_PLD_5
+						has_idea = prd_PLD_6
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_8 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_9 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.21
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_medium_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						AND = { has_idea = prd_PLD_5 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_6 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.21
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_high_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+				}
+			}
+		country_event = {
+			id = dominica.21
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+}
+
+country_event = {
+	id = dominica.21
+	title = "PLD is the ruling party"
+	desc = dominica.12.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "PLD agrees"
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_supported_bill
+	}
+}
+
+### PRSC majority
+
+country_event = {
+	id = dominica.22
+	title = "Parties deliberate"
+	desc = dominica.22.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "prd agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = prd_low_support
+					AND = { has_idea = prd_pld_7 has_idea = prd_prd_coalition }
+					AND = { has_idea = prd_pld_8 has_idea = prd_prd_coalition }
+					AND = { has_idea = prd_pld_9 has_idea = prd_prd_coalition }
+					has_idea = prd_pld_10
+				}
+			}
+		country_event = {
+			id = dominica.24
+		}
+	}
+	
+	option = {
+		name = "prd agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = prd_medium_support
+					AND = { has_idea = prd_pld_5 has_idea = prd_prd_coalition }
+					AND = { has_idea = prd_pld_6 has_idea = prd_prd_coalition }
+					AND = { has_idea = prd_pld_7 has_idea = prd_prd_coalition }
+					has_idea = prd_pld_8
+					has_idea = prd_pld_9
+					has_idea = prd_pld_10
+				}
+			}
+		country_event = {
+			id = dominica.24
+		}
+	}
+	
+	option = {
+		name = "prd agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = prd_high_support
+					has_idea = prd_pld_3
+					has_idea = prd_pld_4
+					has_idea = prd_pld_5
+					has_idea = prd_pld_6
+					has_idea = prd_pld_7
+					has_idea = prd_pld_8
+					has_idea = prd_pld_9
+					has_idea = prd_pld_10
+				}
+			}
+		country_event = {
+			id = dominica.24
+		}
+	}
+	option = {
+		name = "prd refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = prd_low_support
+						has_idea = prd_pld_1
+						has_idea = prd_pld_2
+						has_idea = prd_pld_3
+						has_idea = prd_pld_4
+						has_idea = prd_pld_5
+						has_idea = prd_pld_6
+						AND = { has_idea = prd_pld_7 NOT = { has_idea = prd_pld_coalition } }
+						AND = { has_idea = prd_pld_8 NOT = { has_idea = prd_pld_coalition } }
+						AND = { has_idea = prd_pld_9 NOT = { has_idea = prd_pld_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.23
+		}
+	}
+	
+	option = {
+		name = "prd refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = prd_medium_support
+						has_idea = prd_pld_1
+						has_idea = prd_pld_2
+						has_idea = prd_pld_3
+						has_idea = prd_pld_4
+						AND = { has_idea = prd_pld_5 NOT = { has_idea = prd_pld_coalition } }
+						AND = { has_idea = prd_pld_6 NOT = { has_idea = prd_pld_coalition } }
+						AND = { has_idea = prd_pld_7 NOT = { has_idea = prd_pld_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.23
+		}
+	}
+	
+	option = {
+		name = "prd refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = prd_high_support
+						has_idea = prd_pld_1
+						has_idea = prd_pld_2
+				}
+			}
+		country_event = {
+			id = dominica.23
+		}
+	}
+}
+
+country_event = {
+	id = dominica.23
+	title = "PRD votes against the proposal"
+	desc = dominica.23.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "PRSC agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PRSC_low_support
+					AND = { has_idea = prd_prsc_7 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_8 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_9 has_idea = prsc_prd_coalition }
+					has_idea = prd_prsc_10
+				}
+			}
+		country_event = {
+			id = dominica.25
+		}
+		set_country_flag = PRD_rejected_bill
+	}
+	
+	option = {
+		name = "PRSC agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PRSC_medium_support
+					AND = { has_idea = prd_prsc_5 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_6 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_7 has_idea = prsc_prd_coalition }
+					has_idea = prd_prsc_8
+					has_idea = prd_prsc_9
+					has_idea = prd_prsc_10
+				}
+			}
+		country_event = {
+			id = dominica.25
+		}
+		set_country_flag = PRD_rejected_bill
+	}
+	
+	option = {
+		name = "PRSC agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PRSC_high_support
+					has_idea = prd_prsc_3
+					has_idea = prd_prsc_4
+					has_idea = prd_prsc_5
+					has_idea = prd_prsc_6
+					has_idea = prd_prsc_7
+					has_idea = prd_prsc_8
+					has_idea = prd_prsc_9
+					has_idea = prd_prsc_10
+				}
+			}
+		country_event = {
+			id = dominica.25
+		}
+		set_country_flag = PRD_rejected_bill
+	}
+	option = {
+		name = "PRSC refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRSC_low_support
+						has_idea = prd_prsc_1
+						has_idea = prd_prsc_2
+						has_idea = prd_prsc_3
+						has_idea = prd_prsc_4
+						has_idea = prd_prsc_5
+						has_idea = prd_prsc_6
+						AND = { has_idea = prd_prsc_7 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_8 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_9 NOT = { has_idea = prsc_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.25
+		}
+		set_country_flag = PRD_rejected_bill
+	}
+	
+	option = {
+		name = "PRSC refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRSC_medium_support
+						has_idea = prd_prsc_1
+						has_idea = prd_prsc_2
+						has_idea = prd_prsc_3
+						has_idea = prd_prsc_4
+						AND = { has_idea = prd_prsc_5 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_6 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_7 NOT = { has_idea = prsc_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.25
+		}
+		set_country_flag = PRD_rejected_bill
+	}
+	
+	option = {
+		name = "PRSC refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRSC_high_support
+						has_idea = prd_prsc_1
+						has_idea = prd_prsc_2
+				}
+			}
+		country_event = {
+			id = dominica.25
+		}
+		set_country_flag = PRD_rejected_bill
+	}
+}
+
+country_event = {
+	id = dominica.24
+	title = "PRD votes for the proposal"
+	desc = dominica.24.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+
+	option = {
+		name = "PRSC agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PRSC_low_support
+					AND = { has_idea = prd_prsc_7 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_8 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_9 has_idea = prsc_prd_coalition }
+					has_idea = prd_prsc_10
+				}
+			}
+		country_event = {
+			id = dominica.25
+		}
+		set_country_flag = PRD_supported_bill
+	}
+	
+	option = {
+		name = "PRSC agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PRSC_medium_support
+					AND = { has_idea = prd_prsc_5 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_6 has_idea = prsc_prd_coalition }
+					AND = { has_idea = prd_prsc_7 has_idea = prsc_prd_coalition }
+					has_idea = prd_prsc_8
+					has_idea = prd_prsc_9
+					has_idea = prd_prsc_10
+				}
+			}
+		country_event = {
+			id = dominica.25
+		}
+		set_country_flag = PRD_supported_bill
+	}
+	
+	option = {
+		name = "PRSC agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PRSC_high_support
+					has_idea = prd_prsc_3
+					has_idea = prd_prsc_4
+					has_idea = prd_prsc_5
+					has_idea = prd_prsc_6
+					has_idea = prd_prsc_7
+					has_idea = prd_prsc_8
+					has_idea = prd_prsc_9
+					has_idea = prd_prsc_10
+				}
+			}
+		country_event = {
+			id = dominica.25
+		}
+		set_country_flag = PRD_supported_bill
+	}
+	option = {
+		name = "PRSC refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRSC_low_support
+						has_idea = prd_prsc_1
+						has_idea = prd_prsc_2
+						has_idea = prd_prsc_3
+						has_idea = prd_prsc_4
+						has_idea = prd_prsc_5
+						has_idea = prd_prsc_6
+						AND = { has_idea = prd_prsc_7 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_8 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_9 NOT = { has_idea = prsc_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.25
+		}
+		set_country_flag = PRD_supported_bill
+	}
+	
+	option = {
+		name = "PRSC refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRSC_medium_support
+						has_idea = prd_prsc_1
+						has_idea = prd_prsc_2
+						has_idea = prd_prsc_3
+						has_idea = prd_prsc_4
+						AND = { has_idea = prd_prsc_5 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_6 NOT = { has_idea = prsc_prd_coalition } }
+						AND = { has_idea = prd_prsc_7 NOT = { has_idea = prsc_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.25
+		}
+		set_country_flag = PRD_supported_bill
+	}
+	
+	option = {
+		name = "PRSC refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PRSC_high_support
+						has_idea = prd_prsc_1
+						has_idea = prd_prsc_2
+				}
+			}
+		country_event = {
+			id = dominica.25
+		}
+		set_country_flag = PRD_supported_bill
+	}
+}
+
+country_event = {
+	id = dominica.25
+	title = "PRSC is the ruling party"
+	desc = dominica.25.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_low_support
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_8 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_9 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.27
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_medium_support
+					AND = { has_idea = prd_PLD_5 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_6 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.27
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_high_support
+					has_idea = prd_PLD_3
+					has_idea = prd_PLD_4
+					has_idea = prd_PLD_5
+					has_idea = prd_PLD_6
+					has_idea = prd_PLD_7
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.27
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_low_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						has_idea = prd_PLD_5
+						has_idea = prd_PLD_6
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_8 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_9 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.26
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_medium_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						AND = { has_idea = prd_PLD_5 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_6 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.26
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_high_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+				}
+			}
+		country_event = {
+			id = dominica.26
+		}
+		set_country_flag = PRSC_supported_bill
+	}
+}
+
+country_event = {
+	id = dominica.26
+	title = "PLD votes against the proposal"
+	desc = dominica.26.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_low_support
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_8 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_9 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_rejected_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_medium_support
+					AND = { has_idea = prd_PLD_5 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_6 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_rejected_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_high_support
+					has_idea = prd_PLD_3
+					has_idea = prd_PLD_4
+					has_idea = prd_PLD_5
+					has_idea = prd_PLD_6
+					has_idea = prd_PLD_7
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_rejected_bill
+	}
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_low_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						has_idea = prd_PLD_5
+						has_idea = prd_PLD_6
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_8 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_9 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_rejected_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_medium_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						AND = { has_idea = prd_PLD_5 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_6 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_rejected_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_high_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_rejected_bill
+	}
+}
+
+country_event = {
+	id = dominica.27
+	title = "PLD votes for the proposal"
+	desc = dominica.27.d
+	picture = GFX_news_event_macedonia_independence
+	is_triggered_only = yes
+	fire_only_once = no
+	major = no
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_low_support
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_8 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_9 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_supported_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_medium_support
+					AND = { has_idea = prd_PLD_5 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_6 has_idea = PLD_prd_coalition }
+					AND = { has_idea = prd_PLD_7 has_idea = PLD_prd_coalition }
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_supported_bill
+	}
+	
+	option = {
+		name = "PLD agrees"
+			trigger = {
+				count_triggers = {
+					amount = 2
+					has_country_flag = PLD_high_support
+					has_idea = prd_PLD_3
+					has_idea = prd_PLD_4
+					has_idea = prd_PLD_5
+					has_idea = prd_PLD_6
+					has_idea = prd_PLD_7
+					has_idea = prd_PLD_8
+					has_idea = prd_PLD_9
+					has_idea = prd_PLD_10
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_supported_bill
+	}
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_low_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						has_idea = prd_PLD_5
+						has_idea = prd_PLD_6
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_8 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_9 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_supported_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_medium_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+						has_idea = prd_PLD_3
+						has_idea = prd_PLD_4
+						AND = { has_idea = prd_PLD_5 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_6 NOT = { has_idea = PLD_prd_coalition } }
+						AND = { has_idea = prd_PLD_7 NOT = { has_idea = PLD_prd_coalition } }
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_supported_bill
+	}
+	
+	option = {
+		name = "PLD refuses"
+			trigger = {
+				count_triggers = {
+					amount = 2
+						has_country_flag = PLD_high_support
+						has_idea = prd_PLD_1
+						has_idea = prd_PLD_2
+				}
+			}
+		country_event = {
+			id = dominica.13
+		}
+		set_country_flag = PLD_supported_bill
+	}
+}
