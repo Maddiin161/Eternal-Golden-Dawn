@@ -1,0 +1,366 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "antarctica_gui_window"
+		position = { x = 0 y = 0}	
+		size = { width = 960 height= 840 }
+		orientation = center
+		origo = center
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_antarctica_gui_window_background"
+		}
+
+		buttonType ={
+			name ="close_button"
+			spriteType = "GFX_antarctica_gui_close_button"
+			position = { x= -33 y = 6 }
+			Orientation = "UPPER_RIGHT"
+		}	
+		
+		buttonType ={
+			name ="build_research_station"
+			spriteType = "GFX_antarctica_gui_build_research_station"
+			position = { x= 25 y = 105 }
+			Orientation = "UPPER_LEFT"
+		}	
+		
+		iconType ={
+			name ="civilian_research"
+			spriteType = "GFX_antarctica_gui_civilian_research"
+			position = { x= 25 y = 105 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="build_military_base"
+			spriteType = "GFX_antarctica_gui_build_military_base"
+			position = { x= 589 y = 105 }
+			Orientation = "UPPER_LEFT"
+		}	
+		
+		iconType ={
+			name ="military_research"
+			spriteType = "GFX_antarctica_gui_military_research"
+			position = { x= 589 y = 105 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="increase_funding_civilian"
+			spriteType = "GFX_antarctica_gui_increase_funding_button"
+			position = { x= 26 y = 305 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="decrease_funding_civilian"
+			spriteType = "GFX_antarctica_gui_decrease_funding_button"
+			position = { x= 267 y = 305 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="improve_biology"
+			spriteType = "GFX_antarctica_gui_improve_biology"
+			position = { x= 26 y = 354 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="cut_biology"
+			spriteType = "GFX_antarctica_gui_cut_biology"
+			position = { x= 267 y = 354 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="improve_aerology"
+			spriteType = "GFX_antarctica_gui_improve_aerology"
+			position = { x= 26 y = 403 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="cut_aerology"
+			spriteType = "GFX_antarctica_gui_cut_aerology"
+			position = { x= 267 y = 403 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="improve_geology"
+			spriteType = "GFX_antarctica_gui_improve_geology"
+			position = { x= 26 y = 452 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="cut_geology"
+			spriteType = "GFX_antarctica_gui_cut_geology"
+			position = { x= 267 y = 452 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="improve_oceanography"
+			spriteType = "GFX_antarctica_gui_improve_oceanology"
+			position = { x= 26 y = 501 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="cut_oceanography"
+			spriteType = "GFX_antarctica_gui_cut_oceanography"
+			position = { x= 267 y = 501 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="increase_coal_mining"
+			spriteType = "GFX_antarctica_gui_increase_coal_mining"
+			position = { x= 26 y = 550 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="decrease_coal_mining"
+			spriteType = "GFX_antarctica_gui_decrease_coal_mining"
+			position = { x= 267 y = 550 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="increase_conservation"
+			spriteType = "GFX_antarctica_gui_increase_conservation"
+			position = { x= 26 y = 599 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="decrease_conservation"
+			spriteType = "GFX_antarctica_gui_decrease_conservation"
+			position = { x= 267 y = 599 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="increase_oil_drilling"
+			spriteType = "GFX_antarctica_gui_increase_oil_drilling"
+			position = { x= 26 y = 648 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="decrease_oil_drilling"
+			spriteType = "GFX_antarctica_gui_decrease_oil_drilling"
+			position = { x= 267 y = 648 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="increase_metal_mining"
+			spriteType = "GFX_antarctica_gui_increase_metal_mining"
+			position = { x= 26 y = 697 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="decrease_metal_mining"
+			spriteType = "GFX_antarctica_gui_decrease_metal_mining"
+			position = { x= 267 y = 697 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="increase_whaling"
+			spriteType = "GFX_antarctica_gui_increase_whaling"
+			position = { x= 26 y = 746 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="decrease_whaling"
+			spriteType = "GFX_antarctica_gui_decrease_whaling"
+			position = { x= 267 y = 746 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="increase_tourism"
+			spriteType = "GFX_antarctica_gui_increase_tourism"
+			position = { x= 26 y = 795 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="decrease_tourism"
+			spriteType = "GFX_antarctica_gui_decrease_tourism"
+			position = { x= 267 y = 795 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType ={
+			name ="increase_funding_military"
+			spriteType = "GFX_antarctica_gui_increase_funding_button"
+			position = { x= 505 y = 305 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="decrease_funding_military"
+			spriteType = "GFX_antarctica_gui_decrease_funding_button"
+			position = { x= 746 y = 305 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="increase_land_training"
+			spriteType = "GFX_antarctica_gui_increase_land_training"
+			position = { x= 505 y = 354 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="decrease_land_training"
+			spriteType = "GFX_antarctica_gui_decrease_land_training"
+			position = { x= 746 y = 354 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="increase_air_training"
+			spriteType = "GFX_antarctica_gui_increase_air_training"
+			position = { x= 505 y = 403 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="decrease_air_training"
+			spriteType = "GFX_antarctica_gui_decrease_air_training"
+			position = { x= 746 y = 403 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="increase_naval_training"
+			spriteType = "GFX_antarctica_gui_increase_naval_training"
+			position = { x= 505 y = 452 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="decrease_naval_training"
+			spriteType = "GFX_antarctica_gui_decrease_naval_training"
+			position = { x= 746 y = 452 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="expand_war_games"
+			spriteType = "GFX_antarctica_gui_expand_war_games"
+			position = { x= 505 y = 501 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="scale_down_war_games"
+			spriteType = "GFX_antarctica_gui_scale_down_war_games"
+			position = { x= 746 y = 501 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="increase_mech_testing"
+			spriteType = "GFX_antarctica_gui_increase_mech_testing"
+			position = { x= 505 y = 550 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="decrease_mech_testing"
+			spriteType = "GFX_antarctica_gui_decrease_mech_testing"
+			position = { x= 746 y = 550 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="increase_rocket_testing"
+			spriteType = "GFX_antarctica_gui_increase_rocket_testing"
+			position = { x= 505 y = 599 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="decrease_rocket_testing"
+			spriteType = "GFX_antarctica_gui_decrease_rocket_testing"
+			position = { x= 746 y = 599 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="increase_tank_testing"
+			spriteType = "GFX_antarctica_gui_increase_tank_testing"
+			position = { x= 505 y = 648 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="decrease_tank_testing"
+			spriteType = "GFX_antarctica_gui_decrease_tank_testing"
+			position = { x= 746 y = 648 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="increase_gun_testing"
+			spriteType = "GFX_antarctica_gui_decrease_gun_testing"
+			position = { x= 505 y = 697 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="decrease_gun_testing"
+			spriteType = "GFX_antarctica_gui_decrease_gun_testing"
+			position = { x= 746 y = 697 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="increase_wmd_testing"
+			spriteType = "GFX_antarctica_gui_increase_wmd_testing"
+			position = { x= 505 y = 746 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="decrease_wmd_testing"
+			spriteType = "GFX_antarctica_gui_decrease_wmd_testing"
+			position = { x= 746 y = 746 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="test_nuclear_weapon"
+			spriteType = "GFX_antarctica_gui_test_nuclear_weapon"
+			position = { x= 625 y = 795 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		#instantTextboxType = {
+		#	name = "political_title"
+		#	position = { x = 45 y = 8 }
+		#	font = "hoi_36header"
+		#	borderSize = {x = 0 y = 0}
+		#	text = "POLITICAL_POLITICAL"
+		#	maxWidth = 400
+		#	maxHeight = 20
+		#	fixedsize = yes
+		#}
+	}
+}

@@ -1,0 +1,192 @@
+scripted_gui = {
+  antarctica_gui = {
+    window_name = "antarctica_gui_window"
+    context_type = player_context
+
+    visible = {
+		has_country_flag = open_antarctica_gui
+    }
+
+    effects = {
+		close_button_click = {
+			clr_country_flag = open_antarctica_gui
+		}
+		build_research_station_click = {
+			set_country_flag = built_research_station_antarctica
+		}
+		build_military_base_click = {
+			set_country_flag = built_military_base_antarctica
+		}
+    }
+
+    triggers = {
+		build_research_station_visible = {
+			NOT = {
+				has_country_flag = built_research_station_antarctica
+			}
+		}
+		build_rmilitary_base_visible = {
+			NOT = {
+				has_country_flag = built_military_base_antarctica
+			}
+		}
+		civilian_research_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		increase_funding_civilian_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		decrease_funding_civilian_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		improve_biology_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		cut_biology_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		improve_aerology_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		cut_aerology_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		improve_geology_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		cut_geology_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		improve_oceanography_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		cut_oceanography_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		increase_coal_mining_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		decrease_coal_mining_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		increase_conservation_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		decrease_conservation_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		increase_oil_drilling_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		decrease_oil_drilling_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		increase_metal_mining_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		decrease_metal_mining_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		increase_whaling_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		decrease_whaling_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		increase_tourism_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		decrease_tourism_visible = {
+			has_country_flag = built_research_station_antarctica
+		}
+		military_research_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+		increase_funding_military_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+		decrease_funding_military_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+		increase_land_training_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+		decrease_land_training_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+		increase_air_training_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+		decrease_air_training_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+		increase_naval_training_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+		decrease_naval_training_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+		expand_war_games_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+		scale_down_war_games_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+		increase_mech_testing_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+		decrease_mech_testing_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+		increase_rocket_testing_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+		decrease_rocket_testing_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+		increase_tank_testing_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+		decrease_tank_testing_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+		increase_gun_testing_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+		decrease_gun_testing_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+		increase_wmd_testing_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+		decrease_wmd_testing_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+		test_nuclear_weapon_visible = {
+			has_country_flag = built_military_base_antarctica
+		}
+    }
+
+    dynamic_lists = {
+	}
+
+    properties = {
+    }
+
+    ai_enabled = {
+		always = no
+    }
+
+    ai_test_interval = 290  # The higher, the long it takes the ai to do actions
+	ai_test_variance = 0.5
+
+    ai_check = {
+    }
+
+    ai_check_scope = {
+    }
+
+    ai_weights = {
+    }
+  }
+}

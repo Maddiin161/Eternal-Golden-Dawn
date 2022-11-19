@@ -1,0 +1,10 @@
+antarctica_gui = {
+	icon = generic_political_actions
+	priority = 50
+	allowed = {
+		always = yes 
+	}
+	visible = {
+		has_country_flag = claims_antarctica
+	}
+}

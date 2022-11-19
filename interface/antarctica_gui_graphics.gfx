@@ -1,0 +1,199 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_antarctica_gui_window_background"
+		textureFile = "/gfx/interface/antarctica/antarctica_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_close_button"
+		textureFile = "/gfx/interface/closebutton_small.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_build_military_base"
+		textureFile = "/gfx/interface/antarctica/build_military_base.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_build_research_station"
+		textureFile = "/gfx/interface/antarctica/build_research_station.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_civilian_research"
+		textureFile = "/gfx/interface/antarctica/civilian_research.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_military_research"
+		textureFile = "/gfx/interface/antarctica/military_research.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_increase_funding_button"
+		textureFile = "/gfx/interface/antarctica/increase_funding_button.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_decrease_funding_button"
+		textureFile = "/gfx/interface/antarctica/decrease_funding_button.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_improve_biology"
+		textureFile = "/gfx/interface/antarctica/improve_biology.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_cut_biology"
+		textureFile = "/gfx/interface/antarctica/cut_biology.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_cut_aerology"
+		textureFile = "/gfx/interface/antarctica/cut_aerology.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_improve_aerology"
+		textureFile = "/gfx/interface/antarctica/improve_aerology.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_cut_geology"
+		textureFile = "/gfx/interface/antarctica/cut_geology.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_cut_oceanography"
+		textureFile = "/gfx/interface/antarctica/cut_oceanography.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_decrease_air_training"
+		textureFile = "/gfx/interface/antarctica/decrease_air_training.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_decrease_coal_mining"
+		textureFile = "/gfx/interface/antarctica/decrease_coal_mining.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_decrease_conservation"
+		textureFile = "/gfx/interface/antarctica/decrease_conservation.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_decrease_gun_testing"
+		textureFile = "/gfx/interface/antarctica/decrease_gun_testing.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_decrease_land_training"
+		textureFile = "/gfx/interface/antarctica/decrease_land_training.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_decrease_mech_testing"
+		textureFile = "/gfx/interface/antarctica/decrease_mech_testing.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_decrease_metal_mining"
+		textureFile = "/gfx/interface/antarctica/decrease_metal_mining.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_decrease_naval_training"
+		textureFile = "/gfx/interface/antarctica/decrease_naval_training.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_decrease_oil_drilling"
+		textureFile = "/gfx/interface/antarctica/decrease_oil_drilling.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_increase_oil_drilling"
+		textureFile = "/gfx/interface/antarctica/increase_oil_drilling.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_decrease_tank_testing"
+		textureFile = "/gfx/interface/antarctica/decrease_tank_testing.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_decrease_tourism"
+		textureFile = "/gfx/interface/antarctica/decrease_tourism.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_decrease_weapon_testing"
+		textureFile = "/gfx/interface/antarctica/decrease_weapon_testing.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_decrease_whaling"
+		textureFile = "/gfx/interface/antarctica/decrease_whaling.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_decrease_wmd_testing"
+		textureFile = "/gfx/interface/antarctica/decrease_wmd_testing.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_expand_war_games"
+		textureFile = "/gfx/interface/antarctica/expand_war_games.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_improve_geology"
+		textureFile = "/gfx/interface/antarctica/improve_geology.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_improve_oceanology"
+		textureFile = "/gfx/interface/antarctica/improve_oceanology.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_increase_air_training"
+		textureFile = "/gfx/interface/antarctica/increase_air_training.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_increase_coal_mining"
+		textureFile = "/gfx/interface/antarctica/increase_coal_mining.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_increase_conservation"
+		textureFile = "/gfx/interface/antarctica/increase_conservation.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_increase_gun_testing"
+		textureFile = "/gfx/interface/antarctica/increase_gun_testing.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_increase_land_training"
+		textureFile = "/gfx/interface/antarctica/increase_land_training.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_increase_mech_testing"
+		textureFile = "/gfx/interface/antarctica/increase_mech_testing.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_increase_metal_mining"
+		textureFile = "/gfx/interface/antarctica/increase_metal_mining.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_increase_naval_training"
+		textureFile = "/gfx/interface/antarctica/increase_naval_training.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_increase_naval_training"
+		textureFile = "/gfx/interface/antarctica/increase_naval_training.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_increase_rocket_testing"
+		textureFile = "/gfx/interface/antarctica/increase_rocket_testing.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_decrease_rocket_testing"
+		textureFile = "/gfx/interface/antarctica/decrease_rocket_testing.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_increase_tank_testing"
+		textureFile = "/gfx/interface/antarctica/increase_tank_testing.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_increase_tourism"
+		textureFile = "/gfx/interface/antarctica/increase_tourism.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_increase_whaling"
+		textureFile = "/gfx/interface/antarctica/increase_whaling.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_increase_wmd_testing"
+		textureFile = "/gfx/interface/antarctica/increase_wmd_testing.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_scale_down_war_games"
+		textureFile = "/gfx/interface/antarctica/scale_down_war_games.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_gui_test_nuclear_weapon"
+		textureFile = "/gfx/interface/antarctica/test_nuclear_weapon.dds"
+	}
+}
