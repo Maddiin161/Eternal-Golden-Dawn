@@ -13,6 +13,8 @@ add_ideas = {
 	IRQ_shining_jewel_idea
 	IRQ_sadr_uprisings_idea
 }
+recruit_character = IRQ_Izzat_al_Douri
+
 set_popularities = {
 	annihilationism = 0
 	transhumanism = 0
