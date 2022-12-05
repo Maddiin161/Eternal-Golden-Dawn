@@ -110,6 +110,40 @@ characters = {
 		}
 
 	}
+	IRQ_Izzat_al_Douri = {
+		name = IRQ_Izzat_al_Douri  #Izzat Ibrahim al-Douri
+		portraits = {
+			civilian = {
+				large = "gfx/interface/ministers/IRQ/Izzat_Ibrahim_Al_Douri_Minister.dds"
+				small = "GFX_idea_IRQ_Ibrahim_al_Douri"
+			}
+			army = {
+				large = "gfx/leaders/IRQ/Izzat_Ibrahim_Al_Douri_General.dds"
+				small = "GFX_idea_IRQ_Ibrahim_al_Douri"
+			}
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = IRQ_Izzat_al_Douri_hog
+			allowed = { tag = IRQ }
+			traits = {
+				head_of_government
+			}
+			ledger = civilian
+			desc = EGD_IRQ_AL_DOURI_DESC
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+		field_marshal = {
+			traits = { commando }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id=0
+		}
 
-
+	}
 }
