@@ -19,7 +19,7 @@ characters = {
 		name = "EGD_MIR_HOSSEIN_MUSAVI_NAME"
 		portraits={
 			civilian = {
-				small = "GFX_idea_Minister_Josip_Vrhovec"
+				small = "GFX_idea_Minister_Mir_Hossein_Musavi"
 			}
 		}
 		advisor = {

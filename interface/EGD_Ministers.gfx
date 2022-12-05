@@ -71,4 +71,8 @@ spriteTypes = {
 		name = "GFX_idea_Minister_Abol_Hassan_Bani_Sadr"
 		texturefile = "gfx/interface/ministers/PER/Minister_Abdolhassan_Banisadr.dds"
 	}
+	SpriteType = { 
+		name = "GFX_idea_Minister_Mir_Hossein_Musavi"
+		texturefile = "gfx/interface/ministers/PER/Minister_Mir_Hossein_Musavi.dds"
+	}
 }
