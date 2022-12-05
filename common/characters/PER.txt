@@ -65,7 +65,7 @@ characters = {
 		name = "JAVAD_FAKOORI_NAME"
 		portraits={
 			civilian = {
-				small = "GFX_idea_Minister_Mohammad_Reza_Mahdavi_Kani"
+				small = "GFX_idea_Minister_Javad_Fakouri"
 			}
 		}
 		advisor = {
@@ -111,7 +111,7 @@ PER_Abol_Hassan_Bani_Sadr = {
 		name = "Hossein_Namazi_NAME"
 		portraits={
 			civilian = {
-				small = "GFX_idea_Minister_Abol_Hassan_Bani_Sadr"
+				small = "GFX_idea_Minister_Hossein_Namazi"
 			}
 		}
 		advisor = {
@@ -126,6 +126,28 @@ PER_Abol_Hassan_Bani_Sadr = {
 			cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+		}
+
+	}
+	
+	PER_Hossein_Alayi = {
+		portraits={
+			army = {
+				large = "gfx/leaders/IRQ/Hussein_Kamel.dds"
+			}
+			army = {
+				small = "GFX_idea_Hussein_Kamel"
+			}
+			
+		}
+		corps_commander = {
+			traits = { politically_connected }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=0
 		}
 
 	}

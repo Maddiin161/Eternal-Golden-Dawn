@@ -63,6 +63,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/Ministers/YUG/Μinister_Radoje_Kontic_large.dds"
 		legacy_lazy_load = no
 	}
+	
+	#PER
+	
 	SpriteType = { 
 		name = "GFX_idea_Minister_Mohammad_Reza_Mahdavi_Kani"
 		texturefile = "gfx/interface/ministers/PER/Minister_Mohammad_Reza_Mahdavi_Kani.dds"
@@ -74,5 +77,13 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_idea_Minister_Mir_Hossein_Musavi"
 		texturefile = "gfx/interface/ministers/PER/Minister_Mir_Hossein_Musavi.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_Minister_Javad_Fakouri"
+		texturefile = "gfx/interface/ministers/PER/Minister_Javad_Fakouri.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_Minister_Hossein_Namazi"
+		texturefile = "gfx/interface/ministers/PER/Minister_Hossein_Namazi.dds"
 	}
 }
