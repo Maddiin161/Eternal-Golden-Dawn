@@ -16,7 +16,7 @@ state={
 	}
 	state_category = pop2
 	provinces={
-		4938 14383 14400 14401 14415 14390
+		4938 14383 14400 14401 14415 14418 14390
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

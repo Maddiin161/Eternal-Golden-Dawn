@@ -16,45 +16,6 @@ state = {
 			  
 			  
 		}
-		victory_points = {
-			13411 4
-		}
-		victory_points = {
-			13933 4
-		}
-		victory_points = {
-			14377 4
-		}
-		victory_points = {
-			14372 20
-		}
-		victory_points = {
-			14376 4
-		}
-		victory_points = {
-			14385 4
-		}
-		victory_points = {
-			12817 4
-		}
-		victory_points = {
-			14382 4
-		}
-		victory_points = {
-			14371 4
-		}
-		victory_points = {
-			14365 4
-		}
-		victory_points = {
-			13405 4
-		}
-		victory_points = {
-			14360 4
-		}
-		victory_points = {
-			14348 4
-		}
 		set_state_flag = HDI2
 		set_variable = { tourism_infrastructure = 0 }
 		
@@ -123,33 +84,12 @@ state = {
 
 	}
 
-	provinces = {				
-		14348
-		14341
+	provinces = {
 		14360
 		13405
-		14370
-		14382
-		14385
-		14388
-		13935
-		14409
-		14396
-		13411
-		14386
-		14397
-		14392
-		14367
-		13933
-		1932
-        14377
-        14364
-        14369
-        12817
-        14372
-        14376
-        14371
-        14365
+		14364
+		14369
+		12817
 	}
 	manpower = 2610791	
 	buildings_max_level_factor = 1.000
