@@ -15,20 +15,16 @@ state = {
 			owner = NGA
 		}
 		buildings = {
-			infrastructure = 0
-			  
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
 			
-			  
 		}
+
 		victory_points = {
-			7978 1
+			2050 15
 		}
-		victory_points = {
-			14632 1
-		}
-		victory_points = {
-			12860 1
-		}
+
 		set_state_flag = HDI2
 		set_variable = { tourism_infrastructure = 0 }
 		
@@ -96,9 +92,7 @@ state = {
 	}
 
 	provinces = {			
-		7978 12860 
-		14632
-		14619
+		2050
 	}
 	manpower = 861473		
 	buildings_max_level_factor = 1.000

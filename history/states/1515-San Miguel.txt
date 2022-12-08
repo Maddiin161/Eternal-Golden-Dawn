@@ -81,7 +81,7 @@ state = {
 
 	}
 	provinces = {
-		13093 15785 15784 
+		13093 15785 
 	}
 	manpower = 457305				
 	state_category = pop1dev1
