@@ -28,6 +28,39 @@ set_popularities = {
 	revolutionary_socialism = 0
 }
 
+set_variable = {
+	var = nkp_deputies
+	value = 0
+}
+set_variable = {
+	var = sv_deputies
+	value = 4
+}
+set_variable = {
+	var = ap_deputies
+	value = 77
+}
+set_variable = {
+	var = lkp_deputies
+	value = 49
+}
+set_variable = {
+	var = frp_deputies
+	value = 2
+}
+set_variable = {
+	var = krf_deputies
+	value = 14
+}
+set_variable = {
+	var = sp_deputies
+	value = 9
+}
+set_variable = {
+	var = nf_deputies
+	value = 0
+}
+
 set_variable = { EGD_COUNTRY_GDP = 52 } 
 starting_econ_modifier_vars = yes
 EGD_startup_calc = yes
