@@ -1,0 +1,26 @@
+belize_gui = {
+	belize_gui_open = {
+
+		icon = generic_industry
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			tag = BLZ
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			set_country_flag = open_belize_gui
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

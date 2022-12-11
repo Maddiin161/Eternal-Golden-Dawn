@@ -1,0 +1,359 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_belize_bg"
+		textureFile = "/gfx/interface/belize/belize_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_parties_bg"
+		textureFile = "/gfx/interface/belize/parties_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_popularities_button"
+		textureFile = "/gfx/interface/belize/popularities_button.dds"
+	}
+	spriteType = {
+		name = "GFX_albert"
+		textureFile = "/gfx/interface/belize/albert.dds"
+	}
+	spriteType = {
+		name = "GFX_albert_bpp"
+		textureFile = "/gfx/interface/belize/albert_bpp.dds"
+	}
+	spriteType = {
+		name = "GFX_albert_pa"
+		textureFile = "/gfx/interface/belize/albert_pa.dds"
+	}
+	spriteType = {
+		name = "GFX_albert_pup"
+		textureFile = "/gfx/interface/belize/albert_pup.dds"
+	}
+	spriteType = {
+		name = "GFX_albert_udp"
+		textureFile = "/gfx/interface/belize/albert_udp.dds"
+	}
+	spriteType = {
+		name = "GFX_ambergris_caye"
+		textureFile = "/gfx/interface/belize/ambergris_caye.dds"
+	}
+	spriteType = {
+		name = "GFX_ambergris_caye_bpp"
+		textureFile = "/gfx/interface/belize/ambergris_caye_bpp.dds"
+	}
+	spriteType = {
+		name = "GFX_ambergris_caye_pa"
+		textureFile = "/gfx/interface/belize/ambergris_caye_pa.dds"
+	}
+	spriteType = {
+		name = "GFX_ambergris_caye_pup"
+		textureFile = "/gfx/interface/belize/ambergris_caye_pup.dds"
+	}
+	spriteType = {
+		name = "GFX_ambergris_caye_udp"
+		textureFile = "/gfx/interface/belize/ambergris_caye_udp.dds"
+	}
+	spriteType = {
+		name = "GFX_belize"
+		textureFile = "/gfx/interface/belize/belize.dds"
+	}
+	spriteType = {
+		name = "GFX_belize_bpp"
+		textureFile = "/gfx/interface/belize/belize_bpp.dds"
+	}
+	spriteType = {
+		name = "GFX_belize_pa"
+		textureFile = "/gfx/interface/belize/belize_pa.dds"
+	}
+	spriteType = {
+		name = "GFX_belize_pup"
+		textureFile = "/gfx/interface/belize/belize_pup.dds"
+	}
+	spriteType = {
+		name = "GFX_belize_udp"
+		textureFile = "/gfx/interface/belize/belize_udp.dds"
+	}
+	spriteType = {
+		name = "GFX_caribbean_shores"
+		textureFile = "/gfx/interface/belize/caribbean_shores.dds"
+	}
+	spriteType = {
+		name = "GFX_caribbean_shores_bpp"
+		textureFile = "/gfx/interface/belize/caribbean_shores_bpp.dds"
+	}
+	spriteType = {
+		name = "GFX_caribbean_shores_pa"
+		textureFile = "/gfx/interface/belize/caribbean_shores_pa.dds"
+	}
+	spriteType = {
+		name = "GFX_caribbean_shores_pup"
+		textureFile = "/gfx/interface/belize/caribbean_shores_pup.dds"
+	}
+	spriteType = {
+		name = "GFX_caribbean_shores_udp"
+		textureFile = "/gfx/interface/belize/caribbean_shores_udp.dds"
+	}
+	spriteType = {
+		name = "GFX_cayo"
+		textureFile = "/gfx/interface/belize/cayo.dds"
+	}
+	spriteType = {
+		name = "GFX_cayo_bpp"
+		textureFile = "/gfx/interface/belize/cayo_bpp.dds"
+	}
+	spriteType = {
+		name = "GFX_cayo_pa"
+		textureFile = "/gfx/interface/belize/cayo_pa.dds"
+	}
+	spriteType = {
+		name = "GFX_cayo_pup"
+		textureFile = "/gfx/interface/belize/cayo_pup.dds"
+	}
+	spriteType = {
+		name = "GFX_cayo_udp"
+		textureFile = "/gfx/interface/belize/cayo_udp.dds"
+	}
+	spriteType = {
+		name = "GFX_corozal"
+		textureFile = "/gfx/interface/belize/corozal.dds"
+	}
+	spriteType = {
+		name = "GFX_corozal_bpp"
+		textureFile = "/gfx/interface/belize/corozal_bpp.dds"
+	}
+	spriteType = {
+		name = "GFX_corozal_pa"
+		textureFile = "/gfx/interface/belize/corozal_pa.dds"
+	}
+	spriteType = {
+		name = "GFX_corozal_pup"
+		textureFile = "/gfx/interface/belize/corozal_pup.dds"
+	}
+	spriteType = {
+		name = "GFX_corozal_udp"
+		textureFile = "/gfx/interface/belize/corozal_udp.dds"
+	}
+	spriteType = {
+		name = "GFX_freetown"
+		textureFile = "/gfx/interface/belize/freetown.dds"
+	}
+	spriteType = {
+		name = "GFX_freetown_bpp"
+		textureFile = "/gfx/interface/belize/freetown_bpp.dds"
+	}
+	spriteType = {
+		name = "GFX_freetown_pa"
+		textureFile = "/gfx/interface/belize/freetown_pa.dds"
+	}
+	spriteType = {
+		name = "GFX_freetown_pup"
+		textureFile = "/gfx/interface/belize/freetown_pup.dds"
+	}
+	spriteType = {
+		name = "GFX_freetown_udp"
+		textureFile = "/gfx/interface/belize/freetown_udp.dds"
+	}
+	spriteType = {
+		name = "GFX_lake_independence"
+		textureFile = "/gfx/interface/belize/lake_independence.dds"
+	}
+	spriteType = {
+		name = "GFX_lake_independence_bpp"
+		textureFile = "/gfx/interface/belize/lake_independence_bpp.dds"
+	}
+	spriteType = {
+		name = "GFX_lake_independence_pa"
+		textureFile = "/gfx/interface/belize/lake_independence_pa.dds"
+	}
+	spriteType = {
+		name = "GFX_lake_independence_pup"
+		textureFile = "/gfx/interface/belize/lake_independence_pup.dds"
+	}
+	spriteType = {
+		name = "GFX_lake_independence_udp"
+		textureFile = "/gfx/interface/belize/lake_independence_udp.dds"
+	}
+	spriteType = {
+		name = "GFX_lake_independence"
+		textureFile = "/gfx/interface/belize/lake_independence.dds"
+	}
+	spriteType = {
+		name = "GFX_lake_independence_bpp"
+		textureFile = "/gfx/interface/belize/lake_independence_bpp.dds"
+	}
+	spriteType = {
+		name = "GFX_lake_independence_pa"
+		textureFile = "/gfx/interface/belize/lake_independence_pa.dds"
+	}
+	spriteType = {
+		name = "GFX_lake_independence_pup"
+		textureFile = "/gfx/interface/belize/lake_independence_pup.dds"
+	}
+	spriteType = {
+		name = "GFX_lake_independence_udp"
+		textureFile = "/gfx/interface/belize/lake_independence_udp.dds"
+	}
+	spriteType = {
+		name = "GFX_orange_walk"
+		textureFile = "/gfx/interface/belize/orange_walk.dds"
+	}
+	spriteType = {
+		name = "GFX_orange_walk_bpp"
+		textureFile = "/gfx/interface/belize/orange_walk_bpp.dds"
+	}
+	spriteType = {
+		name = "GFX_orange_walk_pa"
+		textureFile = "/gfx/interface/belize/orange_walk_pa.dds"
+	}
+	spriteType = {
+		name = "GFX_orange_walk_pup"
+		textureFile = "/gfx/interface/belize/orange_walk_pup.dds"
+	}
+	spriteType = {
+		name = "GFX_orange_walk_udp"
+		textureFile = "/gfx/interface/belize/orange_walk_udp.dds"
+	}
+	spriteType = {
+		name = "GFX_port_george"
+		textureFile = "/gfx/interface/belize/port_george.dds"
+	}
+	spriteType = {
+		name = "GFX_port_george_bpp"
+		textureFile = "/gfx/interface/belize/port_george_bpp.dds"
+	}
+	spriteType = {
+		name = "GFX_port_george_pa"
+		textureFile = "/gfx/interface/belize/port_george_pa.dds"
+	}
+	spriteType = {
+		name = "GFX_port_george_pup"
+		textureFile = "/gfx/interface/belize/port_george_pup.dds"
+	}
+	spriteType = {
+		name = "GFX_port_george_udp"
+		textureFile = "/gfx/interface/belize/port_george_udp.dds"
+	}
+	spriteType = {
+		name = "GFX_port_loyola"
+		textureFile = "/gfx/interface/belize/port_loyola.dds"
+	}
+	spriteType = {
+		name = "GFX_port_loyola_bpp"
+		textureFile = "/gfx/interface/belize/port_loyola_bpp.dds"
+	}
+	spriteType = {
+		name = "GFX_port_loyola_pa"
+		textureFile = "/gfx/interface/belize/port_loyola_pa.dds"
+	}
+	spriteType = {
+		name = "GFX_port_loyola_pup"
+		textureFile = "/gfx/interface/belize/port_loyola_pup.dds"
+	}
+	spriteType = {
+		name = "GFX_port_loyola_udp"
+		textureFile = "/gfx/interface/belize/port_loyola_udp.dds"
+	}
+	spriteType = {
+		name = "GFX_stan_creek"
+		textureFile = "/gfx/interface/belize/stan_creek.dds"
+	}
+	spriteType = {
+		name = "GFX_stan_creek_bpp"
+		textureFile = "/gfx/interface/belize/stan_creek_bpp.dds"
+	}
+	spriteType = {
+		name = "GFX_stan_creek_pa"
+		textureFile = "/gfx/interface/belize/stan_creek_pa.dds"
+	}
+	spriteType = {
+		name = "GFX_stan_creek_pup"
+		textureFile = "/gfx/interface/belize/stan_creek_pup.dds"
+	}
+	spriteType = {
+		name = "GFX_stan_creek_udp"
+		textureFile = "/gfx/interface/belize/stan_creek_udp.dds"
+	}
+	spriteType = {
+		name = "GFX_toledo"
+		textureFile = "/gfx/interface/belize/toledo.dds"
+	}
+	spriteType = {
+		name = "GFX_toledo_bpp"
+		textureFile = "/gfx/interface/belize/toledo_bpp.dds"
+	}
+	spriteType = {
+		name = "GFX_toledo_pa"
+		textureFile = "/gfx/interface/belize/toledo_pa.dds"
+	}
+	spriteType = {
+		name = "GFX_toledo_pup"
+		textureFile = "/gfx/interface/belize/toledo_pup.dds"
+	}
+	spriteType = {
+		name = "GFX_toledo_udp"
+		textureFile = "/gfx/interface/belize/toledo_udp.dds"
+	}
+	spriteType = {
+		name = "GFX_seats_bg"
+		textureFile = "/gfx/interface/belize/seats_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_minus_button"
+		textureFile = "/gfx/interface/belize/minus_button.dds"
+	}
+	spriteType = {
+		name = "GFX_plus_button"
+		textureFile = "/gfx/interface/belize/plus_button.dds"
+	}
+	spriteType = {
+		name = "GFX_albert_icon"
+		textureFile = "/gfx/interface/belize/albert_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_ambergris_caye_icon"
+		textureFile = "/gfx/interface/belize/ambergris_caye_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_belize_icon"
+		textureFile = "/gfx/interface/belize/belize_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_caribbean_shores_icon"
+		textureFile = "/gfx/interface/belize/caribbean_shores_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_cayo_icon"
+		textureFile = "/gfx/interface/belize/cayo_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_corozal_icon"
+		textureFile = "/gfx/interface/belize/corozal_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_freetown_icon"
+		textureFile = "/gfx/interface/belize/freetown_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_lake_independence_icon"
+		textureFile = "/gfx/interface/belize/lake_independence_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_orange_walk_icon"
+		textureFile = "/gfx/interface/belize/orange_walk_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_port_george_icon"
+		textureFile = "/gfx/interface/belize/port_george_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_port_loyola_icon"
+		textureFile = "/gfx/interface/belize/port_loyola_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_stann_creek_icon"
+		textureFile = "/gfx/interface/belize/stann_creek_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_toledo_icon"
+		textureFile = "/gfx/interface/belize/toledo_icon.dds"
+	}
+}

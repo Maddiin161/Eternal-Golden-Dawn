@@ -1,0 +1,713 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "belize_gui_window"
+		position = { x = 0 y = 0}	
+		size = { width = 1200 height= 830 }
+		orientation = center
+		origo = center
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_belize_bg"
+		}
+		
+		buttonType ={
+			name ="close_button"
+			spriteType = "GFX_antarctica_gui_close_button"
+			position = { x= -33 y = 6 }
+			Orientation = "UPPER_RIGHT"
+		}
+
+		iconType ={
+			name ="parties_bg"
+			spriteType = "GFX_parties_bg"
+			position = { x= 803 y = 310 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType ={
+			name ="popularities_bg"
+			spriteType = "GFX_popularities_button"
+			position = { x= 877 y = 643 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType ={
+			name ="seats_bg"
+			spriteType = "GFX_seats_bg"
+			position = { x= 623 y = 6 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="corozal_bpp"
+			spriteType = "GFX_corozal_bpp"
+			position = { x= 204 y = 13 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="corozal_pup"
+			spriteType = "GFX_corozal_bpp"
+			position = { x= 204 y = 13 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="corozal_udp"
+			spriteType = "GFX_corozal_bpp"
+			position = { x= 204 y = 13 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="corozal_pa"
+			spriteType = "GFX_corozal_bpp"
+			position = { x= 204 y = 13 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="orange_walk_bpp"
+			spriteType = "GFX_orange_walk_bpp"
+			position = { x= 43 y = 92 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="orange_walk_pup"
+			spriteType = "GFX_orange_walk_bpp"
+			position = { x= 43 y = 92 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="orange_walk_udp"
+			spriteType = "GFX_orange_walk_bpp"
+			position = { x= 43 y = 92 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="orange_walk_pa"
+			spriteType = "GFX_orange_walk_bpp"
+			position = { x= 43 y = 92 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="cayo_bpp"
+			spriteType = "GFX_cayo_bpp"
+			position = { x= 31 y = 323 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="cayo_pup"
+			spriteType = "GFX_cayo_bpp"
+			position = { x= 31 y = 323 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="cayo_udp"
+			spriteType = "GFX_cayo_bpp"
+			position = { x= 31 y = 323 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="cayo_pa"
+			spriteType = "GFX_cayo_bpp"
+			position = { x= 31 y = 323 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="toledo_bpp"
+			spriteType = "GFX_toledo_bpp"
+			position = { x= 20 y = 568 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="toledo_pup"
+			spriteType = "GFX_toledo_bpp"
+			position = { x= 20 y = 568 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="toledo_udp"
+			spriteType = "GFX_toledo_bpp"
+			position = { x= 20 y = 568 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="toledo_pa"
+			spriteType = "GFX_toledo_bpp"
+			position = { x= 20 y = 568 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="stann_creek_bpp"
+			spriteType = "GFX_stan_creek_bpp"
+			position = { x= 150 y = 437 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="stann_creek_pup"
+			spriteType = "GFX_stan_creek_bpp"
+			position = { x= 150 y = 437 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="stann_creek_udp"
+			spriteType = "GFX_stan_creek_bpp"
+			position = { x= 150 y = 437 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="stann_creek_pa"
+			spriteType = "GFX_stan_creek_bpp"
+			position = { x= 150 y = 437 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="belize_bpp"
+			spriteType = "GFX_belize_bpp"
+			position = { x= 190 y = 177 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="belize_pup"
+			spriteType = "GFX_belize_bpp"
+			position = { x= 190 y = 177 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="belize_udp"
+			spriteType = "GFX_belize_bpp"
+			position = { x= 190 y = 177 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="belize_pa"
+			spriteType = "GFX_belize_bpp"
+			position = { x= 190 y = 177 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="port_loyola_bpp"
+			spriteType = "GFX_port_loyola_bpp"
+			position = { x= 420 y = 597 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="port_loyola_pup"
+			spriteType = "GFX_port_loyola_bpp"
+			position = { x= 420 y = 597 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="port_loyola_udp"
+			spriteType = "GFX_port_loyola_bpp"
+			position = { x= 420 y = 597 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="port_loyola_pa"
+			spriteType = "GFX_port_loyola_bpp"
+			position = { x= 420 y = 597 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="lake_independence_bpp"
+			spriteType = "GFX_lake_independence_bpp"
+			position = { x= 479 y = 558 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="lake_independence_pup"
+			spriteType = "GFX_lake_independence_bpp"
+			position = { x= 479 y = 558 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="lake_independence_udp"
+			spriteType = "GFX_lake_independence_bpp"
+			position = { x= 479 y = 558 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="lake_independence_pa"
+			spriteType = "GFX_lake_independence_bpp"
+			position = { x= 479 y = 558 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="freetown_bpp"
+			spriteType = "GFX_freetown_bpp"
+			position = { x= 386 y = 348 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="freetown_pup"
+			spriteType = "GFX_freetown_bpp"
+			position = { x= 386 y = 348 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="freetown_udp"
+			spriteType = "GFX_freetown_bpp"
+			position = { x= 386 y = 348 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="freetown_pa"
+			spriteType = "GFX_freetown_bpp"
+			position = { x= 386 y = 348 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="caribbean_shores_bpp"
+			spriteType = "GFX_caribbean_shores_bpp"
+			position = { x= 650 y = 510 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="caribbean_shores_pup"
+			spriteType = "GFX_caribbean_shores_bpp"
+			position = { x= 650 y = 510 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="caribbean_shores_udp"
+			spriteType = "GFX_caribbean_shores_bpp"
+			position = { x= 650 y = 510 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="caribbean_shores_pa"
+			spriteType = "GFX_caribbean_shores_bpp"
+			position = { x= 650 y = 510 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="ambergris_caye_bpp"
+			spriteType = "GFX_ambergris_caye_bpp"
+			position = { x= 390 y = 113 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="ambergris_caye_pup"
+			spriteType = "GFX_ambergris_caye_bpp"
+			position = { x= 390 y = 113 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="ambergris_caye_udp"
+			spriteType = "GFX_ambergris_caye_bpp"
+			position = { x= 390 y = 113 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="ambergris_caye_pa"
+			spriteType = "GFX_ambergris_caye_bpp"
+			position = { x= 390 y = 113 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="albert_bpp"
+			spriteType = "GFX_albert_bpp"
+			position = { x= 634 y = 578 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="albert_pup"
+			spriteType = "GFX_albert_bpp"
+			position = { x= 634 y = 578 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="albert_udp"
+			spriteType = "GFX_albert_bpp"
+			position = { x= 634 y = 578 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="albert_pa"
+			spriteType = "GFX_albert_bpp"
+			position = { x= 634 y = 578 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="port_george_bpp"
+			spriteType = "GFX_port_george_bpp"
+			position = { x= 732 y = 580 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="port_george_pup"
+			spriteType = "GFX_port_george_bpp"
+			position = { x= 732 y = 580 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="port_george_udp"
+			spriteType = "GFX_port_george_bpp"
+			position = { x= 732 y = 580 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="port_george_pa"
+			spriteType = "GFX_port_george_bpp"
+			position = { x= 732 y = 580 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="plus_button_bpp"
+			spriteType = "GFX_plus_button"
+			position = { x= 894 y = 645 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="plus_button_pup"
+			spriteType = "GFX_plus_button"
+			position = { x= 958 y = 645 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="plus_button_udp"
+			spriteType = "GFX_plus_button"
+			position = { x= 1022 y = 645 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="plus_button_pa"
+			spriteType = "GFX_plus_button"
+			position = { x= 1088 y = 645 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="minus_button_bpp"
+			spriteType = "GFX_minus_button"
+			position = { x= 894 y = 701 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="minus_button_pup"
+			spriteType = "GFX_minus_button"
+			position = { x= 958 y = 701 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="minus_button_udp"
+			spriteType = "GFX_minus_button"
+			position = { x= 1022 y = 701 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType ={
+			name ="minus_button_pa"
+			spriteType = "GFX_minus_button"
+			position = { x= 1088 y = 701 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType ={
+			name ="albert_icon"
+			spriteType = "GFX_albert_icon"
+			position = { x= 803 y = 136 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType ={
+			name ="ambergris_caye_icon"
+			spriteType = "GFX_ambergris_caye_icon"
+			position = { x= 803 y = 136 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType ={
+			name ="belize_icon"
+			spriteType = "GFX_belize_icon"
+			position = { x= 803 y = 136 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType ={
+			name ="caribbean_shores_icon"
+			spriteType = "GFX_caribbean_shores_icon"
+			position = { x= 803 y = 136 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType ={
+			name ="cayo_icon"
+			spriteType = "GFX_cayo_icon"
+			position = { x= 803 y = 136 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType ={
+			name ="corozal_icon"
+			spriteType = "GFX_corozal_icon"
+			position = { x= 803 y = 136 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType ={
+			name ="freetown_icon"
+			spriteType = "GFX_freetown_icon"
+			position = { x= 803 y = 136 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType ={
+			name ="lake_independence_icon"
+			spriteType = "GFX_lake_independence_icon"
+			position = { x= 803 y = 136 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType ={
+			name ="orange_walk_icon"
+			spriteType = "GFX_orange_walk_icon"
+			position = { x= 803 y = 136 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType ={
+			name ="port_george_icon"
+			spriteType = "GFX_port_george_icon"
+			position = { x= 803 y = 136 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType ={
+			name ="port_loyola_icon"
+			spriteType = "GFX_port_loyola_icon"
+			position = { x= 803 y = 136 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType ={
+			name ="stann_creek_icon"
+			spriteType = "GFX_stann_creek_icon"
+			position = { x= 803 y = 136 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType ={
+			name ="toledo_icon"
+			spriteType = "GFX_toledo_icon"
+			position = { x= 803 y = 136 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextboxType = {
+			name = "albert_popularities"
+			position = { x = 1130 y = 316 }
+			font = "IBM_EGA_22_outline"
+			borderSize = {x = 0 y = 0}
+			text = "albert_popularities"
+			maxWidth = 901
+			maxHeight = 401
+			fixedsize = yes
+		}
+		
+		instantTextboxType = {
+			name = "ambergris_caye_popularities"
+			position = { x = 1130 y = 316 }
+			font = "IBM_EGA_22_outline"
+			borderSize = {x = 0 y = 0}
+			text = "ambergris_caye_popularities"
+			maxWidth = 901
+			maxHeight = 401
+			fixedsize = yes
+		}
+		
+		instantTextboxType = {
+			name = "belize_popularities"
+			position = { x = 1130 y = 316 }
+			font = "IBM_EGA_22_outline"
+			borderSize = {x = 0 y = 0}
+			text = "belize_popularities"
+			maxWidth = 901
+			maxHeight = 401
+			fixedsize = yes
+		}
+		
+		instantTextboxType = {
+			name = "caribbean_shores_popularities"
+			position = { x = 1130 y = 316 }
+			font = "IBM_EGA_22_outline"
+			borderSize = {x = 0 y = 0}
+			text = "caribbean_shores_popularities"
+			maxWidth = 901
+			maxHeight = 401
+			fixedsize = yes
+		}
+		
+		instantTextboxType = {
+			name = "cayo_popularities"
+			position = { x = 1130 y = 316 }
+			font = "IBM_EGA_22_outline"
+			borderSize = {x = 0 y = 0}
+			text = "cayo_popularities"
+			maxWidth = 901
+			maxHeight = 401
+			fixedsize = yes
+		}
+		
+		instantTextboxType = {
+			name = "corozal_popularities"
+			position = { x = 1130 y = 316 }
+			font = "IBM_EGA_22_outline"
+			borderSize = {x = 0 y = 0}
+			text = "corozal_popularities"
+			maxWidth = 901
+			maxHeight = 401
+			fixedsize = yes
+		}
+		
+		instantTextboxType = {
+			name = "freetown_popularities"
+			position = { x = 1130 y = 316 }
+			font = "IBM_EGA_22_outline"
+			borderSize = {x = 0 y = 0}
+			text = "freetown_popularities"
+			maxWidth = 901
+			maxHeight = 401
+			fixedsize = yes
+		}
+		
+		instantTextboxType = {
+			name = "lake_independence_popularities"
+			position = { x = 1130 y = 316 }
+			font = "IBM_EGA_22_outline"
+			borderSize = {x = 0 y = 0}
+			text = "lake_independence_popularities"
+			maxWidth = 901
+			maxHeight = 401
+			fixedsize = yes
+		}
+		
+		instantTextboxType = {
+			name = "orange_walk_popularities"
+			position = { x = 1130 y = 316 }
+			font = "IBM_EGA_22_outline"
+			borderSize = {x = 0 y = 0}
+			text = "orange_walk_popularities"
+			maxWidth = 901
+			maxHeight = 401
+			fixedsize = yes
+		}
+		
+		instantTextboxType = {
+			name = "port_george_popularities"
+			position = { x = 1130 y = 316 }
+			font = "IBM_EGA_22_outline"
+			borderSize = {x = 0 y = 0}
+			text = "port_george_popularities"
+			maxWidth = 901
+			maxHeight = 401
+			fixedsize = yes
+		}
+		
+		instantTextboxType = {
+			name = "port_loyola_popularities"
+			position = { x = 1130 y = 316 }
+			font = "IBM_EGA_22_outline"
+			borderSize = {x = 0 y = 0}
+			text = "port_loyola_popularities"
+			maxWidth = 901
+			maxHeight = 401
+			fixedsize = yes
+		}
+		
+		instantTextboxType = {
+			name = "stann_creek_popularities"
+			position = { x = 1130 y = 316 }
+			font = "IBM_EGA_22_outline"
+			borderSize = {x = 0 y = 0}
+			text = "stann_creek_popularities"
+			maxWidth = 901
+			maxHeight = 401
+			fixedsize = yes
+		}
+		
+		instantTextboxType = {
+			name = "toledo_popularities"
+			position = { x = 1130 y = 316 }
+			font = "IBM_EGA_22_outline"
+			borderSize = {x = 0 y = 0}
+			text = "toledo_popularities"
+			maxWidth = 901
+			maxHeight = 401
+			fixedsize = yes
+		}
+		
+		instantTextboxType = {
+			name = "belize_deputies_counted"
+			position = { x = 760 y = 12 }
+			font = "IBM_EGA_22_outline"
+			borderSize = {x = 0 y = 0}
+			text = "belize_deputies_counted"
+			maxWidth = 901
+			maxHeight = 401
+			fixedsize = yes
+		}
+	}
+}

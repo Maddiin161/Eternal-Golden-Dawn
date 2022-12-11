@@ -9,8 +9,20 @@
 ##### IDEAS ####
 
 ##### MECHANICS ####
- albert_popularities:0 "[?albert_bpp_support]\n\n[?albert_pup_support]\n\n[?albert_udp_support]\n\n[?albert_pa_support]"
-
+ albert_popularities:0 "[?albert_bpp_support|§G0]\n\n\n[?albert_pup_support|§B0]\n\n\n[?albert_udp_support|§R0]\n\n\n[?albert_pa_support|§C0]"
+ ambergris_caye_popularities:0 "[?ambergris_caye_bpp_support|§G0]\n\n\n[?ambergris_caye_pup_support|§B0]\n\n\n[?ambergris_caye_udp_support|§R0]\n\n\n[?ambergris_caye_pa_support|§C0]"
+ belize_popularities:0 "[?belize_bpp_support|§G0]\n\n\n[?belize_pup_support|§B0]\n\n\n[?belize_udp_support|§R0]\n\n\n[?belize_pa_support|§C0]"
+ caribbean_shores_popularities:0 "[?caribbean_shores_bpp_support|§G0]\n\n\n[?caribbean_shores_pup_support|§B0]\n\n\n[?caribbean_shores_udp_support|§R0]\n\n\n[?caribbean_shores_pa_support|§C0]"
+ cayo_popularities:0 "[?cayo_bpp_support|§G0]\n\n\n[?cayo_pup_support|§B0]\n\n\n[?cayo_udp_support|§R0]\n\n\n[?cayo_pa_support|§C0]"
+ corozal_popularities:0 "[?corozal_bpp_support|§G0]\n\n\n[?corozal_pup_support|§B0]\n\n\n[?corozal_udp_support|§R0]\n\n\n[?corozal_pa_support|§C0]"
+ freetown_popularities:0 "[?freetown_bpp_support|§G0]\n\n\n[?freetown_pup_support|§B0]\n\n\n[?freetown_udp_support|§R0]\n\n\n[?freetown_pa_support|§C0]"
+ lake_independence_popularities:0 "[?lake_independence_bpp_support|§G0]\n\n\n[?lake_independence_pup_support|§B0]\n\n\n[?lake_independence_udp_support|§R0]\n\n\n[?lake_independence_pa_support|§C0]"
+ orange_walk_popularities:0 "[?orange_walk_bpp_support|§G0]\n\n\n[?orange_walk_pup_support|§B0]\n\n\n[?orange_walk_udp_support|§R0]\n\n\n[?orange_walk_pa_support|§C0]"
+ port_george_popularities:0 "[?port_george_bpp_support|§G0]\n\n\n[?port_george_pup_support|§B0]\n\n\n[?port_george_udp_support|§R0]\n\n\n[?port_george_pa_support|§C0]"
+ port_loyola_popularities:0 "[?port_loyola_bpp_support|§G0]\n\n\n[?port_loyola_pup_support|§B0]\n\n\n[?port_loyola_udp_support|§R0]\n\n\n[?port_loyola_pa_support|§C0]"
+ stann_creek_popularities:0 "[?stann_creek_bpp_support|§G0]\n\n\n[?stann_creek_pup_support|§B0]\n\n\n[?stann_creek_udp_support|§R0]\n\n\n[?stann_creek_pa_support|§C0]"
+ toledo_popularities:0 "[?toledo_bpp_support|§G0]\n\n\n[?toledo_pup_support|§B0]\n\n\n[?toledo_udp_support|§R0]\n\n\n[?toledo_pa_support|§C0]"
+ belize_deputies_counted:0 "[?bpp_deputies|§G0]\n\n\n[?pup_deputies|§B0]\n\n\n[?udp_deputies|§R0]\n\n\n[?pa_deputies|§C0]"
 #### LEADER DESC ####
 
 
