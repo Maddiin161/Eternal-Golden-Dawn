@@ -5,12 +5,15 @@ state={
 		15975
 	}
 	history = {
-		owner = FRA
-		add_core_of = FRA
+		owner = MOC
+		add_core_of = MOC
 		buildings = {
 			infrastructure = 4
 
 			  
+		}
+		victory_points = {
+			15975 1 
 		}
 	}
 	state_category = pop2

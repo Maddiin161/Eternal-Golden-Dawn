@@ -5,12 +5,15 @@ state={
 		15974
 	}
 	history = {
-		owner = SPR
-		add_core_of = SPR	
+		owner = ANO
+		add_core_of = ANO
 		buildings = {
 			infrastructure = 3
 
 			  
+		}
+		victory_points = {
+			15974 1
 		}
 	}
 	state_category = pop2

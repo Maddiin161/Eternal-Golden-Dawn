@@ -5,12 +5,15 @@ state={
 		15973
 	}
 	history = {
-		owner = SWI
-		add_core_of = SWI
+		owner = LIC
+		add_core_of = LIC
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
 
 			  
+		}
+		victory_points = {
+			15973 1 
 		}
 	}
 	state_category = pop2
