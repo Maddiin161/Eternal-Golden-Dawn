@@ -1,0 +1,43 @@
+add_namespace = italy
+
+country_event = {
+	id = italy.1
+	title = "Years of lead"
+	desc = "The last decades that have hit Italy have been nothing short of a disaster for almost everyone in the peninsula. In fact, political tensions have never been higher. The feeble face of Democracy in Italy is shattering. Though many try to deny it, it is impossible to not feel the cold, stinging breath of Political instability breathing down their neck."
+	picture = GFX_event_ayatollahs_letter
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = "Avanti!"
+	}
+}
+
+country_event = {
+	id = italy.2
+	title = italy.2.t
+	desc = "The tension is palpable. Many rioters have turned to violence, whilst others loot the streets. It is quite possibly the most traitorous period in recent Italian history. There is very little anyone can do to make the situation better. Many that were initially weary at the state of the country now cannot deny the sheer situation it has ended up in."
+	picture = GFX_news_event_supreme_majlis
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = "Worrying…"
+	}
+}
+
+country_event = {
+	id = italy.3
+	title = italy.3.t
+	desc = "Chaos has erupted in the streets of Milan and Rome. The Italian peninsula is waging a campaign of self-destruction, capable of tearing down all that the republic has created. Very much relevant political extremists in Italy have become even more dangerous, with Almirante and Berlinguer being the “top dogs” of their respective ideologies. All hope seems lost for a united Italy, will it survive trough this harsh decade?"
+	picture = GFX_news_event_usir
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = "Gotta add bottom text here"
+	}
+}
