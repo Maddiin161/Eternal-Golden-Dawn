@@ -388,6 +388,10 @@ spriteType = {
 		texturefile = "gfx/event_pictures/GFX_news_event_yugoslav_constitutional_crisis.dds"
 	}
 spriteType = {
+		name = "GFX_news_event_anchluss_of_gijon"
+		texturefile = "gfx/event_pictures/GFX_news_event_anchluss_gijon.dds"
+	}
+spriteType = {
 		name = "GFX_event_paindespair"
 		texturefile = "gfx/event_pictures/GFX_event_paindespair.dds"
 	}

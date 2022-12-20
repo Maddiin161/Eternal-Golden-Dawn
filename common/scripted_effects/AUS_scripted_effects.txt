@@ -1,0 +1,49 @@
+AUS_increase_right = {
+	custom_effect_tooltip = e
+	add_to_variable = {
+		var = AUS_fpo_struggle_variable
+		value = 1
+	}
+	clamp_variable = {
+		var = AUS_fpo_struggle_variable
+		min = -5
+		max = 5
+	}
+}
+AUS_increase_liberal = {
+	custom_effect_tooltip = e
+	add_to_variable = {
+		var = AUS_fpo_struggle_variable
+		value = -1
+	}
+	clamp_variable = {
+		var = AUS_fpo_struggle_variable
+		min = -5
+		max = 5
+	}
+}
+AUS_raise_tension = {
+	custom_effect_tooltip = e
+	add_to_variable = {
+		var = AUS_FPO_tension_variable
+		value = 1
+	}
+	clamp_variable = {
+		var = AUS_FPO_tension_variable
+		min = 0
+		max = 5
+	}
+}
+AUS_lower_tension = {
+	custom_effect_tooltip = e
+	add_to_variable = {
+		var = AUS_FPO_tension_variable
+		value = -1
+	}
+	clamp_variable = {
+		var = AUS_FPO_tension_variable
+		min = 0
+		max = 5
+	}
+}
+

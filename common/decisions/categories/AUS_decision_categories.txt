@@ -1,0 +1,26 @@
+AUS_fpo_struggle_category = {
+	icon = AUS_fpo_struggle_icon
+    picture = GFX_Louis_im_in_neo_nazi
+	visible_when_empty = yes
+	priority = 10
+	visible = {
+		has_flag = AUS_fpo_struggle_flag
+	}
+	allowed = {
+		original_tag = AUS
+	}
+}
+
+AUS_west_war_category = {
+	icon = AUS_fpo_struggle_icon
+    picture = GFX_Louis_im_in_neo_nazi
+	visible_when_empty = yes
+	priority = 9
+	visible = {
+		has_flag = AUS_east_austria_exists
+	}
+	allowed = {
+		original_tag = AUS
+    }
+}
+
