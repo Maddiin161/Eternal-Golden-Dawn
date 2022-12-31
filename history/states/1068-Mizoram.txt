@@ -5,7 +5,7 @@ state = {
 	local_supplies=0.000
 
 	history = {
-		owner = MIZ
+		owner = RAJ
 		set_state_flag = mountains
 		set_state_flag = river
 		set_state_flag = micro
@@ -16,7 +16,6 @@ state = {
 
 		}
 		add_core_of = RAJ
-		add_core_of = MIZ
 		set_variable = { coal_amount = 0 }
 
 		set_state_flag = HDI2
