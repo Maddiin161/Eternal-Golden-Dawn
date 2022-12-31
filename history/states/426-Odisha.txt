@@ -9,9 +9,8 @@ state = {
 	}
 
 	history = {
-		owner = NAX
+		owner = RAJ
 		add_core_of = RAJ
-		add_core_of = NAX
 		set_state_flag = temperate
 		set_state_flag = riverlarge
 		set_state_flag = large
