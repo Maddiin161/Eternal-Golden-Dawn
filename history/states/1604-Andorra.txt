@@ -1,0 +1,23 @@
+state={
+	id=1604
+	name="STATE_1604"
+	provinces={
+		15974
+	}
+	history = {
+		owner = ANO
+		add_core_of = ANO
+		buildings = {
+			infrastructure = 3
+
+			  
+		}
+		victory_points = {
+			15974 1
+		}
+	}
+	state_category = pop2
+	manpower=33404
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

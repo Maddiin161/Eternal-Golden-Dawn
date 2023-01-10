@@ -1,0 +1,158 @@
+scripted_gui = {
+  NOR_gui = {
+    window_name = "nor_gui_window"
+    context_type = player_context
+
+    visible = {
+		has_country_flag = open_norway_gui
+    }
+
+    effects = {
+		close_button_click = {
+			clr_country_flag = open_norway_gui
+		}
+		nkp_click = {
+			set_country_flag = nkp_clicked
+		}
+		nkp_clicked_click = {
+			clr_country_flag = nkp_clicked
+		}
+		sv_click = {
+			set_country_flag = sv_clicked
+		}
+		sv_clicked_click = {
+			clr_country_flag = sv_clicked
+		}
+		ap_click = {
+			set_country_flag = ap_clicked
+		}
+		ap_clicked_click = {
+			clr_country_flag = ap_clicked
+		}
+		lkp_click = {
+			set_country_flag = lkp_clicked
+		}
+		lkp_clicked_click = {
+			clr_country_flag = lkp_clicked
+		}
+		frp_click = {
+			set_country_flag = frp_clicked
+		}
+		frp_clicked_click = {
+			clr_country_flag = frp_clicked
+		}
+		krf_click = {
+			set_country_flag = krf_clicked
+		}
+		krf_clicked_click = {
+			clr_country_flag = krf_clicked
+		}
+		sp_click = {
+			set_country_flag = sp_clicked
+		}
+		sp_clicked_click = {
+			clr_country_flag = sp_clicked
+		}
+		nf_click = {
+			set_country_flag = nf_clicked
+		}
+		nf_clicked_click = {
+			clr_country_flag = nf_clicked
+		}
+    }
+
+    triggers = {
+	#	build_research_station_visible = {
+	#		NOT = {
+	#			has_country_flag = built_research_station_antarctica
+	#		}
+	#	}
+		nkp_clicked_visible = {
+			has_country_flag = nkp_clicked
+		}
+		sv_clicked_visible = {
+			has_country_flag = sv_clicked
+		}
+		ap_clicked_visible = {
+			has_country_flag = ap_clicked
+		}
+		lkp_clicked_visible = {
+			has_country_flag = lkp_clicked
+		}
+		frp_clicked_visible = {
+			has_country_flag = frp_clicked
+		}
+		krf_clicked_visible = {
+			has_country_flag = krf_clicked
+		}
+		sp_clicked_visible = {
+			has_country_flag = sp_clicked
+		}
+		nf_clicked_visible = {
+			has_country_flag = nf_clicked
+		}
+		nkp_visible = {
+			NOT = {
+				has_country_flag = nkp_clicked
+			}
+		}
+		sv_visible = {
+			NOT = {
+				has_country_flag = sv_clicked
+			}
+		}
+		ap_visible = {
+			NOT = {
+				has_country_flag = ap_clicked
+			}
+		}
+		lkp_visible = {
+			NOT = {
+				has_country_flag = lkp_clicked
+			}
+		}
+		frp_visible = {
+			NOT = {
+				has_country_flag = frp_clicked
+			}
+		}
+		krf_visible = {
+			NOT = {
+				has_country_flag = krf_clicked
+			}
+		}
+		sp_visible = {
+			NOT = {
+				has_country_flag = sp_clicked
+			}
+		}
+		nf_visible = {
+			NOT = {
+				has_country_flag = nf_clicked
+			}
+		}
+    }
+
+    dynamic_lists = {
+	}
+
+    properties = {
+    }
+
+    ai_enabled = {
+		always = no
+    }
+
+    ai_test_interval = 290  # The higher, the long it takes the ai to do actions
+	ai_test_variance = 0.5
+
+    ai_check = {
+    }
+
+    ai_check_scope = {
+    }
+
+    ai_weights = {
+    }
+  }
+}

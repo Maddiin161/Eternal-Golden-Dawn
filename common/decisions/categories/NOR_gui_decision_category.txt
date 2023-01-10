@@ -1,0 +1,10 @@
+norway_gui = {
+	icon = generic_political_actions
+	priority = 50
+	allowed = {
+		always = yes 
+	}
+	visible = {
+		tag = NOR
+	}
+}

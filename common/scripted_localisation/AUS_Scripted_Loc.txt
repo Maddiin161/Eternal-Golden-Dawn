@@ -1,0 +1,111 @@
+defined_text = {
+	name = aus_fpo_struggle_loc
+	text = {
+		trigger = {
+			check_variable = { AUS_fpo_struggle_variable = 5 }
+		}
+		localization_key = AUS_struggle_right_domination
+	}
+	text = {
+		trigger = {
+			check_variable = { AUS_fpo_struggle_variable = 4 }
+		}
+		localization_key = AUS_struggle_right_controlled
+	}
+	text = {
+		trigger = {
+			check_variable = { AUS_fpo_struggle_variable = 3 }
+		}
+		localization_key = AUS_struggle_right_majority
+	}
+	text = {
+		trigger = {
+			check_variable = { AUS_fpo_struggle_variable = 2 }
+		}
+		localization_key = AUS_struggle_right_influential
+	}
+	text = {
+		trigger = {
+			check_variable = { AUS_fpo_struggle_variable = 1 }
+		}
+		localization_key = AUS_struggle_right_tilt
+	}
+	text = {
+		trigger = {
+			check_variable = { AUS_fpo_struggle_variable = 0 }
+		}
+		localization_key = AUS_struggle_neutral
+###LIBTARD ZONE
+	}
+	text = {
+		trigger = {
+			check_variable = { AUS_fpo_struggle_variable = -5 }
+		}
+		localization_key = AUS_struggle_liberal_domination
+	}
+	text = {
+		trigger = {
+			check_variable = { AUS_fpo_struggle_variable = -4 }
+		}
+		localization_key = AUS_struggle_liberal_controlled
+	}
+	text = {
+		trigger = {
+			check_variable = { AUS_fpo_struggle_variable = -3 }
+		}
+		localization_key = AUS_struggle_liberal_majority
+	}
+	text = {
+		trigger = {
+			check_variable = { AUS_fpo_struggle_variable = -2 }
+		}
+		localization_key = AUS_struggle_liberal_influential
+	}
+	text = {
+		trigger = {
+			check_variable = { AUS_fpo_struggle_variable = -1 }
+		}
+		localization_key = AUS_struggle_liberal_tilt
+	}
+}
+
+defined_text = {
+	name = AUS_fpo_struggle_tension_loc
+	text = {
+		trigger = {
+			check_variable = { AUS_fpo_tension_variable = 0 }
+		}
+		localization_key = AUS_struggle_united
+	}
+	text = {
+		trigger = {
+			check_variable = { AUS_fpo_tension_variable  = 1 }
+		}
+		localization_key = AUS_struggle_minor
+	}
+	text = {
+		trigger = {
+			check_variable = { AUS_fpo_tension_variable  = 2 }
+		}
+		localization_key = AUS_struggle_disagreement
+	}
+	text = {
+		trigger = {
+			check_variable = { AUS_fpo_tension_variable = 3 }
+		}
+		localization_key = AUS_struggle_factionalism
+	}
+	text = {
+		trigger = {
+			check_variable = { AUS_fpo_tension_variable  = 4 }
+		}
+		localization_key = AUS_struggle_fighting
+	}
+	text = {
+		trigger = {
+			check_variable = { AUS_fpo_tension_variable  = 5 }
+		}
+		localization_key = AUS_struggle_collapsing
+	}
+}
+

@@ -1,0 +1,23 @@
+state={
+	id=1606
+	name="STATE_1606"
+	provinces={
+		15975
+	}
+	history = {
+		owner = MOC
+		add_core_of = MOC
+		buildings = {
+			infrastructure = 4
+
+			  
+		}
+		victory_points = {
+			15975 1 
+		}
+	}
+	state_category = pop2
+	manpower=33404
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

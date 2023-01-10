@@ -9,13 +9,12 @@ state={
 	}
 
 	history={
-		owner = ULF
+		owner = RAJ
 		set_state_flag = mountains
 		set_state_flag = riverlarge
 		set_state_flag = nominal
 		set_state_flag = verypoor
 		add_core_of = RAJ
-		add_core_of = ULF
 		
 		victory_points = {
 			12366 10 

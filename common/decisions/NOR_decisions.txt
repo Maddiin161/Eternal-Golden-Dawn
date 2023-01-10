@@ -1,0 +1,26 @@
+norway_gui = {
+	norway_gui_open = {
+
+		icon = generic_industry
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			tag = NOR
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			set_country_flag = open_norway_gui
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

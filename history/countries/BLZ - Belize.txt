@@ -1,0 +1,296 @@
+﻿############################################
+# Belize
+############################################
+
+	capital = 311
+	
+set_politics = {
+	ruling_party = social_democracy
+	last_election = "1956.1.7"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	annihilationism = 0
+	transhumanism = 0
+	ultranationalism = 15
+	despotism = 0
+	islamism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	corporate_oligarchy = 0
+	social_conservatism = 0
+	market_liberalism = 25
+	social_liberalism = 0
+	social_democracy = 35
+	libertarian_socialism = 25
+	revolutionary_socialism = 0
+}
+
+#add_ideas = {
+#	BUL_zhikov_era_idea
+#}
+
+set_variable = {
+	var = albert_bpp_support
+	value = 0
+}
+set_variable = {
+	var = albert_pup_support
+	value = 15
+}
+set_variable = {
+	var = albert_udp_support
+	value = 48
+}
+set_variable = {
+	var = albert_pa_support
+	value = 37
+}
+
+set_variable = {
+	var = ambergris_caye_bpp_support
+	value = 26
+}
+set_variable = {
+	var = ambergris_caye_pup_support
+	value = 60
+}
+set_variable = {
+	var = ambergris_caye_udp_support
+	value = 14
+}
+set_variable = {
+	var = ambergris_caye_pa_support
+	value = 0
+}
+
+set_variable = {
+	var = belize_bpp_support
+	value = 11
+}
+set_variable = {
+	var = belize_pup_support
+	value = 56
+}
+set_variable = {
+	var = belize_udp_support
+	value = 33
+}
+set_variable = {
+	var = belize_pa_support
+	value = 0
+}
+
+set_variable = {
+	var = caribbean_shores_bpp_support
+	value = 12
+}
+set_variable = {
+	var = caribbean_shores_pup_support
+	value = 45
+}
+set_variable = {
+	var = caribbean_shores_udp_support
+	value = 43
+}
+set_variable = {
+	var = caribbean_shores_pa_support
+	value = 0
+}
+
+set_variable = {
+	var = cayo_bpp_support
+	value = 1
+}
+set_variable = {
+	var = cayo_pup_support
+	value = 58
+}
+set_variable = {
+	var = cayo_udp_support
+	value = 2
+}
+set_variable = {
+	var = cayo_pa_support
+	value = 39
+}
+
+set_variable = {
+	var = corozal_bpp_support
+	value = 11
+}
+set_variable = {
+	var = corozal_pup_support
+	value = 67
+}
+set_variable = {
+	var = corozal_udp_support
+	value = 22
+}
+set_variable = {
+	var = corozal_pa_support
+	value = 0
+}
+
+set_variable = {
+	var = freetown_bpp_support
+	value = 19
+}
+set_variable = {
+	var = freetown_pup_support
+	value = 67
+}
+set_variable = {
+	var = freetown_udp_support
+	value = 14
+}
+set_variable = {
+	var = freetown_pa_support
+	value = 0
+}
+
+set_variable = {
+	var = lake_independence_bpp_support
+	value = 34
+}
+set_variable = {
+	var = lake_independence_pup_support
+	value = 31
+}
+set_variable = {
+	var = lake_independence_udp_support
+	value = 35
+}
+set_variable = {
+	var = lake_independence_pa_support
+	value = 0
+}
+
+set_variable = {
+	var = orange_walk_bpp_support
+	value = 9
+}
+set_variable = {
+	var = orange_walk_pup_support
+	value = 52
+}
+set_variable = {
+	var = orange_walk_udp_support
+	value = 1
+}
+set_variable = {
+	var = orange_walk_pa_support
+	value = 38
+}
+
+set_variable = {
+	var = port_george_bpp_support
+	value = 0
+}
+set_variable = {
+	var = port_george_pup_support
+	value = 74
+}
+set_variable = {
+	var = port_george_udp_support
+	value = 25
+}
+set_variable = {
+	var = port_george_pa_support
+	value = 1
+}
+
+set_variable = {
+	var = port_loyola_bpp_support
+	value = 41
+}
+set_variable = {
+	var = port_loyola_pup_support
+	value = 10
+}
+set_variable = {
+	var = port_loyola_udp_support
+	value = 49
+}
+set_variable = {
+	var = port_loyola_pa_support
+	value = 0
+}
+
+set_variable = {
+	var = stann_creek_bpp_support
+	value = 47
+}
+set_variable = {
+	var = stann_creek_pup_support
+	value = 49
+}
+set_variable = {
+	var = stann_creek_udp_support
+	value = 4
+}
+set_variable = {
+	var = stann_creek_pa_support
+	value = 0
+}
+
+set_variable = {
+	var = toledo_bpp_support
+	value = 38
+}
+set_variable = {
+	var = toledo_pup_support
+	value = 8
+}
+set_variable = {
+	var = toledo_udp_support
+	value = 6
+}
+set_variable = {
+	var = toledo_pa_support
+	value = 48
+}
+
+set_variable = {
+	var = bpp_deputies
+	value = 0
+}
+set_variable = {
+	var = pup_deputies
+	value = 9
+}
+set_variable = {
+	var = udp_deputies
+	value = 3
+}
+set_variable = {
+	var = pa_deputies
+	value = 1
+}
+
+set_country_flag = albert_seat_udp
+set_country_flag = ambergris_caye_seat_pup
+set_country_flag = belize_seat_pup
+set_country_flag = caribbean_shores_seat_pup
+set_country_flag = cayo_seat_pup
+set_country_flag = corozal_seat_pup
+set_country_flag = freetown_seat_pup
+set_country_flag = lake_independence_seat_udp
+set_country_flag = orange_walk_seat_pup
+set_country_flag = port_george_seat_pup
+set_country_flag = port_loyola_seat_udp
+set_country_flag = stann_creek_seat_pup
+set_country_flag = toledo_seat_pa
+
+create_country_leader = {
+	name = "Todor Zhivkov" 
+	desc = "ROM_Todor_Zhikov_desc"
+	picture = "Todor_Zhivkov.dds"
+	expire = "1992.3.1"
+	ideology = marxism_leninism
+	traits = {
+		
+	}
+}

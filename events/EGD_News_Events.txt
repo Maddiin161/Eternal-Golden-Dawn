@@ -767,3 +767,17 @@ news_event = {
 		name = WorldNews.55.a
 	}
 }
+
+##Event: Anchluss of Gijon
+news_event = {
+	id = WorldNews.56
+	title = WorldNews.56.t
+	desc = WorldNews.56.d
+	picture = GFX_news_event_anchluss_of_gijon
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.56.a
+	}
+}

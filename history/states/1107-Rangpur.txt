@@ -9,22 +9,14 @@ state = {
 		set_state_flag = riverlarge
 		set_state_flag = small
 		set_state_flag = poor
-		1947.1.1 = {
-			owner = PAK
 
-		}
-		1971.1.1 = {
-			owner = BAN
-			remove_core_of = PAK
-
-		}
 		buildings = {
 			infrastructure = 1
 			  
 
 
 		}
-		add_core_of = PAK
+		add_core_of = RAJ
 		add_core_of = BAN
 		set_state_flag = HDI2
 		set_variable = { tourism_infrastructure = 0 }

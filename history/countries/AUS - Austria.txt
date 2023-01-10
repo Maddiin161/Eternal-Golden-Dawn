@@ -24,6 +24,8 @@ set_politics = {
 	revolutionary_socialism = 0
 }
 
+set_country_flag = AUS_east_austria_exists
+set_country_flag = AUS_fpo_struggle_flag
 set_variable = { EGD_COUNTRY_GDP = 52 } 
 starting_econ_modifier_vars = yes
 EGD_startup_calc = yes

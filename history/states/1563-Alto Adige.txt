@@ -1,6 +1,6 @@
 state = {
 	id = 1563
-	name = "Alto Adige"
+	name = "STATE_1563"
 	local_supplies=0.000
 	resources = {
 		aluminium = 22.000
@@ -21,8 +21,8 @@ state = {
 			
 			  
 		}
+		add_core_of = SOU
 		add_core_of = ITA
-		add_core_of = AUS
 		set_state_flag = HDI4
 		set_variable = { tourism_infrastructure = 0 }
 		

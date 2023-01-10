@@ -1,0 +1,1075 @@
+scripted_gui = {
+  BLZ_gui = {
+    window_name = "belize_gui_window"
+    context_type = player_context
+
+    visible = {
+		has_country_flag = open_belize_gui
+    }
+
+    effects = {
+		close_button_click = {
+			clr_country_flag = open_belize_gui
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		corozal_bpp_click = {
+			set_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		corozal_pup_click = {
+			set_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		corozal_udp_click = {
+			set_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		corozal_pa_click = {
+			set_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		albert_bpp_click = {
+			clr_country_flag = clicked_corozal
+			set_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		albert_pup_click = {
+			clr_country_flag = clicked_corozal
+			set_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		albert_udp_click = {
+			clr_country_flag = clicked_corozal
+			set_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		albert_pa_click = {
+			clr_country_flag = clicked_corozal
+			set_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		ambergris_caye_bpp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			set_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		ambergris_caye_pup_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			set_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		ambergris_caye_udp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			set_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		ambergris_caye_pa_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			set_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		belize_bpp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			set_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		belize_pup_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			set_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		belize_udp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			set_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		belize_pa_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			set_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		caribbean_shores_bpp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			set_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		caribbean_shores_pup_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			set_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		caribbean_shores_udp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			set_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		caribbean_shores_pa_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			set_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		cayo_bpp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			set_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		cayo_pup_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			set_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		cayo_udp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			set_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		cayo_pa_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			set_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		freetown_bpp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			set_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		freetown_pup_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			set_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		freetown_udp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			set_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		freetown_pa_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			set_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		lake_independence_bpp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			set_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		lake_independence_pup_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			set_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		lake_independence_udp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			set_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		lake_independence_pa_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			set_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		orange_walk_bpp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			set_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		orange_walk_pup_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			set_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		orange_walk_udp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			set_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		orange_walk_pa_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			set_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		port_george_bpp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			set_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		port_george_pup_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			set_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		port_george_udp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			set_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		port_george_pa_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			set_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		port_loyola_bpp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			set_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		port_loyola_pup_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			set_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		port_loyola_udp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			set_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		port_loyola_pa_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			set_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		stann_creek_bpp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			set_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		stann_creek_pup_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			set_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		stann_creek_udp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			set_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		stann_creek_pa_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			set_country_flag = clicked_stann_creek
+			clr_country_flag = clicked_toledo
+		}
+		toledo_bpp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			set_country_flag = clicked_toledo
+		}
+		toledo_pup_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			set_country_flag = clicked_toledo
+		}
+		toledo_udp_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			set_country_flag = clicked_toledo
+		}
+		toledo_pa_click = {
+			clr_country_flag = clicked_corozal
+			clr_country_flag = clicked_albert
+			clr_country_flag = clicked_ambergris_caye
+			clr_country_flag = clicked_belize
+			clr_country_flag = clicked_caribbean_shores
+			clr_country_flag = clicked_cayo
+			clr_country_flag = clicked_freetown
+			clr_country_flag = clicked_lake_independence
+			clr_country_flag = clicked_orange_walk
+			clr_country_flag = clicked_port_george
+			clr_country_flag = clicked_port_loyola
+			clr_country_flag = clicked_stann_creek
+			set_country_flag = clicked_toledo
+		}
+    }
+
+    triggers = {
+	#	build_research_station_visible = {
+	#		NOT = {
+	#			has_country_flag = built_research_station_antarctica
+	#		}
+	#	}
+		albert_icon_visible = {
+			has_country_flag = clicked_albert
+		}
+		ambergris_caye_icon_visible = {
+			has_country_flag = clicked_ambergris_caye
+		}
+		belize_icon_visible = {
+			has_country_flag = clicked_belize
+		}
+		caribbean_shores_icon_visible = {
+			has_country_flag = clicked_caribbean_shores
+		}
+		cayo_icon_visible = {
+			has_country_flag = clicked_cayo
+		}
+		corozal_icon_visible = {
+			has_country_flag = clicked_corozal
+		}
+		freetown_icon_visible = {
+			has_country_flag = clicked_freetown
+		}
+		lake_independence_icon_visible = {
+			has_country_flag = clicked_lake_independence
+		}
+		orange_walk_icon_visible = {
+			has_country_flag = clicked_orange_walk
+		}
+		port_george_icon_visible = {
+			has_country_flag = clicked_port_george
+		}
+		port_loyola_icon_visible = {
+			has_country_flag = clicked_port_loyola
+		}
+		stann_creek_icon_visible = {
+			has_country_flag = clicked_stann_creek
+		}
+		toledo_icon_visible = {
+			has_country_flag = clicked_toledo
+		}
+		corozal_bpp_visible = {
+			has_country_flag = corozal_seat_bpp
+		}
+		corozal_pup_visible = {
+			has_country_flag = corozal_seat_pup
+		}
+		corozal_udp_visible = {
+			has_country_flag = corozal_seat_udp
+		}
+		corozal_pa_visible = {
+			has_country_flag = corozal_seat_pa
+		}
+		albert_bpp_visible = {
+			has_country_flag = albert_seat_bpp
+		}
+		albert_pup_visible = {
+			has_country_flag = albert_seat_pup
+		}
+		albert_udp_visible = {
+			has_country_flag = albert_seat_udp
+		}
+		albert_pa_visible = {
+			has_country_flag = albert_seat_pa
+		}
+		ambergris_caye_bpp_visible = {
+			has_country_flag = ambergris_caye_seat_bpp
+		}
+		ambergris_caye_pup_visible = {
+			has_country_flag = ambergris_caye_seat_pup
+		}
+		ambergris_caye_udp_visible = {
+			has_country_flag = ambergris_caye_seat_udp
+		}
+		ambergris_caye_pa_visible = {
+			has_country_flag = ambergris_caye_seat_pa
+		}
+		belize_bpp_visible = {
+			has_country_flag = belize_seat_bpp
+		}
+		belize_pup_visible = {
+			has_country_flag = belize_seat_pup
+		}
+		belize_udp_visible = {
+			has_country_flag = belize_seat_udp
+		}
+		belize_pa_visible = {
+			has_country_flag = belize_seat_pa
+		}
+		caribbean_shores_bpp_visible = {
+			has_country_flag = caribbean_shores_seat_bpp
+		}
+		caribbean_shores_pup_visible = {
+			has_country_flag = caribbean_shores_seat_pup
+		}
+		caribbean_shores_udp_visible = {
+			has_country_flag = caribbean_shores_seat_udp
+		}
+		caribbean_shores_pa_visible = {
+			has_country_flag = caribbean_shores_seat_pa
+		}
+		cayo_bpp_visible = {
+			has_country_flag = cayo_seat_bpp
+		}
+		cayo_pup_visible = {
+			has_country_flag = cayo_seat_pup
+		}
+		cayo_udp_visible = {
+			has_country_flag = cayo_seat_udp
+		}
+		cayo_pa_visible = {
+			has_country_flag = cayo_seat_pa
+		}
+		freetown_bpp_visible = {
+			has_country_flag = freetown_seat_bpp
+		}
+		freetown_pup_visible = {
+			has_country_flag = freetown_seat_pup
+		}
+		freetown_udp_visible = {
+			has_country_flag = freetown_seat_udp
+		}
+		freetown_pa_visible = {
+			has_country_flag = freetown_seat_pa
+		}
+		lake_independence_bpp_visible = {
+			has_country_flag = lake_independence_seat_bpp
+		}
+		lake_independence_pup_visible = {
+			has_country_flag = lake_independence_seat_pup
+		}
+		lake_independence_udp_visible = {
+			has_country_flag = lake_independence_seat_udp
+		}
+		lake_independence_pa_visible = {
+			has_country_flag = lake_independence_seat_pa
+		}
+		orange_walk_bpp_visible = {
+			has_country_flag = orange_walk_seat_bpp
+		}
+		orange_walk_pup_visible = {
+			has_country_flag = orange_walk_seat_pup
+		}
+		orange_walk_udp_visible = {
+			has_country_flag = orange_walk_seat_udp
+		}
+		orange_walk_pa_visible = {
+			has_country_flag = orange_walk_seat_bpp
+		}
+		port_george_bpp_visible = {
+			has_country_flag = port_george_seat_bpp
+		}
+		port_george_pup_visible = {
+			has_country_flag = port_george_seat_pup
+		}
+		port_george_udp_visible = {
+			has_country_flag = port_george_seat_udp
+		}
+		port_george_pa_visible = {
+			has_country_flag = port_george_seat_pa
+		}
+		port_loyola_bpp_visible = {
+			has_country_flag = port_loyola_seat_bpp
+		}
+		port_loyola_pup_visible = {
+			has_country_flag = port_loyola_seat_pup
+		}
+		port_loyola_udp_visible = {
+			has_country_flag = port_loyola_seat_udp
+		}
+		port_loyola_pa_visible = {
+			has_country_flag = port_loyola_seat_pa
+		}
+		stann_creek_bpp_visible = {
+			has_country_flag = stann_creek_seat_bpp
+		}
+		stann_creek_pup_visible = {
+			has_country_flag = stann_creek_seat_pup
+		}
+		stann_creek_udp_visible = {
+			has_country_flag = stann_creek_seat_udp
+		}
+		stann_creek_pa_visible = {
+			has_country_flag = stann_creek_seat_pa
+		}
+		toledo_bpp_visible = {
+			has_country_flag = toledo_seat_bpp
+		}
+		toledo_pup_visible = {
+			has_country_flag = toledo_seat_pup
+		}
+		toledo_udp_visible = {
+			has_country_flag = toledo_seat_udp
+		}
+		toledo_pa_visible = {
+			has_country_flag = toledo_seat_pa
+		}
+		
+		
+		albert_popularities_visible = {
+			has_country_flag = clicked_albert
+		}
+		ambergris_caye_popularities_visible = {
+			has_country_flag = clicked_ambergris_caye
+		}
+		belize_popularities_visible = {
+			has_country_flag = clicked_belize
+		}
+		caribbean_shores_popularities_visible = {
+			has_country_flag = clicked_caribbean_shores
+		}
+		cayo_popularities_visible = {
+			has_country_flag = clicked_cayo
+		}
+		corozal_popularities_visible = {
+			has_country_flag = clicked_corozal
+		}
+		freetown_popularities_visible = {
+			has_country_flag = clicked_freetown
+		}
+		lake_independence_popularities_visible = {
+			has_country_flag = clicked_lake_independence
+		}
+		orange_walk_popularities_visible = {
+			has_country_flag = clicked_orange_walk
+		}
+		port_george_popularities_visible = {
+			has_country_flag = clicked_port_george
+		}
+		port_loyola_popularities_visible = {
+			has_country_flag = clicked_port_loyola
+		}
+		stann_creek_popularities_visible = {
+			has_country_flag = clicked_stann_creek
+		}
+		toledo_popularities_visible = {
+			has_country_flag = clicked_toledo
+		}
+    }
+
+    dynamic_lists = {
+	}
+
+    properties = {
+    }
+
+    ai_enabled = {
+		always = no
+    }
+
+    ai_test_interval = 290  # The higher, the long it takes the ai to do actions
+	ai_test_variance = 0.5
+
+    ai_check = {
+    }
+
+    ai_check_scope = {
+    }
+
+    ai_weights = {
+    }
+  }
+}

@@ -15971,3 +15971,14 @@
 15970;9;180;200;land;true;jungle;3
 15971;9;180;210;land;true;jungle;3
 15972;9;180;220;land;true;jungle;3
+15973;69;160;160;land;false;mountain;1
+15974;69;160;170;land;false;mountain;1
+15975;69;160;180;land;true;urban;1
+15976;69;160;190;land;false;plains;1
+15977;69;160;200;land;false;hills;1
+15978;69;160;210;land;true;urban;1
+15979;69;160;220;land;false;plains;2
+15980;69;160;230;land;false;plains;2
+15981;69;160;240;land;false;plains;2
+15982;69;160;250;land;false;plains;2
+15983;69;160;255;land;false;plains;2
