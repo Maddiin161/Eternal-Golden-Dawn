@@ -498,4 +498,5 @@ PER_a_new_front_category = {
 			factor = 5
 		}
 	}
+	PER_call_for_aid = { 
 }

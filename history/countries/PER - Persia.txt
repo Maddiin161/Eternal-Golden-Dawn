@@ -53,6 +53,11 @@ recruit_character = PER_Hossein_Namazi
 		PER_consolidating_the_revolution_idea
 		PER_hostage_crisis_tense_idea
 		PER_oppressed_above_the_arrogant_idea
+		partially_industrialized_nation
+		moderate_corruption
+		extensive_conscription
+		theocratic_state
+		monitored_press
 		
 		#Ministers#
 		PER_Mir_Hossein_Musavi_for

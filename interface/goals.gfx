@@ -192,4 +192,8 @@ spriteTypes = {
 		name = "GFX_PER_Expand_the_Islamic_Revolution_Comittee"
 		texturefile = "gfx/interface/goals/PER/GFX_PER_Expand_the_Islamic_Revolution_Comittee.dds"
 	}
+	SpriteType = { 
+		name = "GFX_PER_Doors_of_Khaybar_Open_Once_Again"
+		texturefile = "gfx/interface/goals/PER/GFX_PER_Doors_of_Khaybar_Open_Once_Again.dds"
+	}
 }

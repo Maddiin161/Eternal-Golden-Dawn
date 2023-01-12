@@ -246,7 +246,12 @@ Axis_of_Resistance:0 "Axis of Resistance"
 
 #### LEADER DESC ####
 EGD_MIR_HOSSEIN_MUSAVI_NAME:0 "Mir Hossein Musavi\nLeftist Imamist"
+EGD_MIR_HOSSEIN_MUSAVI_desc:0 ""
 PER_MOHAMMAD_REZA_MAHDAVI_KANI_NAME:0 "Mohammad Reza Mahdavi Kani\nNon Partisan Cleric"
+PER_MOHAMMAD_REZA_MAHDAVI_KANI_desc:0 ""
 JAVAD_FAKOORI_NAME:0 "Javad Fakoori\nRoyal Aviator"
+JAVAD_FAKOORI_desc:0 ""
 ABOL_HASSAN_BANI_SADR_NAME:0 "Abol Hassan Bani Sadr\nSuspicious President"
+ABOL_HASSAN_BANI_SADR_desc:0 ""
 Hossein_Namazi_NAME:0 "Hossein Namazi\nMaster of Western Economics"
+Hossein_Namazi_desc:0 ""

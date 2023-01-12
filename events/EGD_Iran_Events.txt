@@ -220,3 +220,56 @@ news_event = {
 		add_war_support = -0.10
     }
 }
+
+country_event = { # Iran asks for military aid
+    id = iran.18
+    title = iran.18.t
+    desc = iran.18.d
+    picture = GFX_kossher
+    is_triggered_only = yes
+
+
+    option = {    # Accept
+        name = iran.18.a
+        PER = { 
+            country_event = {
+                id = iran.2
+                days = 0
+            }
+        }
+    }
+    option = {    # Decline
+        name = iran.1.b
+        PER = { 
+            country_event = {
+                id = iran.3
+                days = 0
+            }
+        }
+    }
+}
+country_event = { # China Accepts!
+    id = iran.2
+    title = iran.2.t
+    desc = iran.2.d
+    picture = GFX_kossher
+    is_triggered_only = yes
+
+
+    option = {    
+        name = iran.2.a
+        set_country_flag = china_accept_aid_to_iran
+    }
+}
+country_event = { # China Declines!
+    id = iran.19
+    title = iran.19.t
+    desc = iran.19.d
+    picture = GFX_kossher
+    is_triggered_only = yes
+
+
+    option = {    
+        name = iran.3.a
+    }
+}
