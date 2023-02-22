@@ -1,6 +1,6 @@
 ﻿capital = 1001
 
-oob = "WES_1949"
+#oob = "WES_1949"
 
 set_politics = {
 	ruling_party = libertarian_socialism

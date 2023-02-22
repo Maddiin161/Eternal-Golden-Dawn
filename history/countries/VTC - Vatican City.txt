@@ -1,6 +1,6 @@
 ﻿capital = 992
 
-oob = "VTC_1949"
+#oob = "VTC_1949"
 
 set_convoys = 10
 

@@ -1,6 +1,6 @@
 ﻿	capital = 786 #Hanoi
 
-	oob = "VIN_1933"
+#	oob = "VIN_1933"
 
 	set_research_slots = 3
 

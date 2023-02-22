@@ -1,6 +1,6 @@
 ﻿capital = 1488
 
-oob = "CRO_2000"
+#oob = "CRO_2000"
 
 set_politics = {
 	ruling_party = islamism

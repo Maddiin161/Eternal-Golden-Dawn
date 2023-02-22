@@ -6,7 +6,7 @@ set_stability = 0.2
 
 set_war_support = 65
 
-oob = "NAX_1980"
+#oob = "NAX_1980"
 
 set_politics = {
 	ruling_party = revolutionary_socialism

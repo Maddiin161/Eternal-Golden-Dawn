@@ -6,7 +6,7 @@ set_country_flag = tech_alignment_western
 
 #TECH/OOBS
 
-oob = "MRT_1949"
+#oob = "MRT_1949"
 
 add_ideas = {
 #	eth_rampant_slavery_0

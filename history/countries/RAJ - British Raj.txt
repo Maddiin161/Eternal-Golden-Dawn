@@ -26,10 +26,851 @@ starting_econ_modifier_vars = yes
 EGD_startup_calc = yes
 EGD_startup = yes
 
+set_variable = {
+	var = communist_bloc_deputies
+	value = 4
+}
+set_variable = {
+	var = cpim_deputies
+	value = 37
+}
+set_variable = {
+	var = cpi_deputies
+	value = 19
+}
+set_variable = {
+	var = bahujan_deputies
+	value = 18
+}
+set_variable = {
+	var = bsp_deputies
+	value = 31
+}
+set_variable = {
+	var = gandhist_deputies
+	value = 17
+}
+set_variable = {
+	var = inc_deputies
+	value = 219
+}
+set_variable = {
+	var = integral_humanist_bloc_deputies
+	value = 21
+}
+set_variable = {
+	var = bjp_deputies
+	value = 92
+}
+set_variable = {
+	var = hindutva_bloc_deputies
+	value = 1
+}
+set_variable = {
+	var = ss_deputies
+	value = 26
+}
+set_variable = {
+	var = muslim_bloc_deputies
+	value = 46
+}
+set_variable = {
+	var = sikh_bloc_deputies
+	value = 6
+}
+set_variable = {
+	var = separatist_bloc_deputies
+	value = 13
+}
+
+set_variable = {
+	var = total_number_of_deputies_india
+	value = 550
+}
+
+set_variable = {
+	var = communist_bloc_states
+	value = 0
+}
+set_variable = {
+	var = cpim_states
+	value = 0
+}
+set_variable = {
+	var = cpi_states
+	value = 0
+}
+set_variable = {
+	var = bahujan_states
+	value = 0
+}
+set_variable = {
+	var = bsp_states
+	value = 0
+}
+set_variable = {
+	var = gandhist_states
+	value = 0
+}
+set_variable = {
+	var = inc_states
+	value = 0
+}
+set_variable = {
+	var = integral_humanist_bloc_states
+	value = 0
+}
+set_variable = {
+	var = bjp_states
+	value = 0
+}
+set_variable = {
+	var = hindutva_bloc_states
+	value = 0
+}
+set_variable = {
+	var = ss_states
+	value = 0
+}
+set_variable = {
+	var = muslim_bloc_states
+	value = 0
+}
+set_variable = {
+	var = sikh_bloc_states
+	value = 0
+}
+set_variable = {
+	var = separatist_bloc_states
+	value = 0
+}
+
+set_variable = {
+	var = total_number_of_states_india
+	value = 28
+}
+
+### Deputies
+
+# Haryana
+
+set_variable = {
+	var = haryana_seats_inc
+	value = 5
+}
+
+set_variable = {
+	var = haryana_seats_bjp
+	value = 1
+}
+
+set_variable = {
+	var = haryana_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = haryana_seats_cpi
+	value = 0
+}
+
+set_variable = {
+	var = haryana_seats_cpim
+	value = 0
+}
+
+set_variable = {
+	var = haryana_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = haryana_seats_ld
+	value = 4
+}
+
+set_variable = {
+	var = haryana_seats_rpi
+	value = 0
+}
+
+set_variable = {
+	var = haryana_seats_hvp
+	value = 0
+}
+
+set_variable = {
+	var = haryana_seats_suci
+	value = 0
+}
+
+set_variable = {
+	var = haryana_seats_sad
+	value = 0
+}
+
+set_variable = {
+	var = haryana_seats_inc_pred
+	value = 4
+}
+
+set_variable = {
+	var = haryana_seats_bjp_pred
+	value = 1
+}
+
+set_variable = {
+	var = haryana_seats_bsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = haryana_seats_cpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = haryana_seats_cpim_pred
+	value = 0
+}
+
+set_variable = {
+	var = haryana_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = haryana_seats_ld_pred
+	value = 5
+}
+
+set_variable = {
+	var = haryana_seats_rpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = haryana_seats_hvp_pred
+	value = 0
+}
+
+set_variable = {
+	var = haryana_seats_suci_pred
+	value = 0
+}
+
+set_variable = {
+	var = haryana_seats_sad_pred
+	value = 0
+}
+
+# Tamil Nadu
+
+set_variable = {
+	var = tamil_nadu_seats_inc
+	value = 7
+}
+
+set_variable = {
+	var = tamil_nadu_seats_bjp
+	value = 0
+}
+
+set_variable = {
+	var = tamil_nadu_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = tamil_nadu_seats_cpi
+	value = 1
+}
+
+set_variable = {
+	var = tamil_nadu_seats_cpim
+	value = 1
+}
+
+set_variable = {
+	var = tamil_nadu_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = tamil_nadu_seats_admk
+	value = 14
+}
+
+set_variable = {
+	var = tamil_nadu_seats_dmk
+	value = 12
+}
+
+set_variable = {
+	var = tamil_nadu_seats_pmk
+	value = 0
+}
+
+set_variable = {
+	var = tamil_nadu_seats_ntk
+	value = 1
+}
+
+set_variable = {
+	var = tamil_nadu_seats_mdmk
+	value = 0
+}
+
+set_variable = {
+	var = tamil_nadu_seats_vck
+	value = 0
+}
+
+set_variable = {
+	var = tamil_nadu_seats_knk
+	value = 0
+}
+
+set_variable = {
+	var = tamil_nadu_seats_aifb ###AIFB in Tamil Nadu is COMMUNIST
+	value = 4
+}
+
+set_variable = {
+	var = tamil_nadu_seats_inc_pred
+	value = 4
+}
+
+set_variable = {
+	var = tamil_nadu_seats_bjp_pred
+	value = 0
+}
+
+set_variable = {
+	var = tamil_nadu_seats_bsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = tamil_nadu_seats_cpi_pred
+	value = 2
+}
+
+set_variable = {
+	var = tamil_nadu_seats_cpim_pred
+	value = 1
+}
+
+set_variable = {
+	var = tamil_nadu_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = tamil_nadu_seats_admk_pred
+	value = 15
+}
+
+set_variable = {
+	var = tamil_nadu_seats_dmk_pred
+	value = 14
+}
+
+set_variable = {
+	var = tamil_nadu_seats_pmk_pred
+	value = 0
+}
+
+set_variable = {
+	var = tamil_nadu_seats_ntk_pred
+	value = 0
+}
+
+set_variable = {
+	var = tamil_nadu_seats_mdmk_pred
+	value = 0
+}
+
+set_variable = {
+	var = tamil_nadu_seats_vck_pred
+	value = 0
+}
+
+set_variable = {
+	var = tamil_nadu_seats_knk_pred
+	value = 0
+}
+
+set_variable = {
+	var = tamil_nadu_seats_aifb_pred ###AIFB in Tamil Nadu is COMMUNIST
+	value = 4
+}
+
+# Punjab
+
+set_variable = {
+	var = punjab_seats_inc
+	value = 6
+}
+
+set_variable = {
+	var = punjab_seats_bjp
+	value = 0
+}
+
+set_variable = {
+	var = punjab_seats_bsp
+	value = 1
+}
+
+set_variable = {
+	var = punjab_seats_cpi
+	value = 1
+}
+
+set_variable = {
+	var = punjab_seats_cpim
+	value = 0
+}
+
+set_variable = {
+	var = punjab_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = punjab_seats_sad
+	value = 5
+}
+
+set_variable = {
+	var = punjab_seats_sada
+	value = 0
+}
+
+set_variable = {
+	var = punjab_seats_ipf
+	value = 0
+}
+
+set_variable = {
+	var = punjab_seats_inc_pred
+	value = 4
+}
+
+set_variable = {
+	var = punjab_seats_bjp_pred
+	value = 0
+}
+
+set_variable = {
+	var = punjab_seats_bsp_pred
+	value = 2
+}
+
+set_variable = {
+	var = punjab_seats_cpi_pred
+	value = 1
+}
+
+set_variable = {
+	var = punjab_seats_cpim_pred
+	value = 0
+}
+
+set_variable = {
+	var = punjab_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = punjab_seats_sad_pred
+	value = 6
+}
+
+set_variable = {
+	var = punjab_seats_sada_pred
+	value = 0
+}
+
+set_variable = {
+	var = punjab_seats_ipf_pred
+	value = 0
+}
+
+# Kerala
+
+set_variable = {
+	var = kerala_seats_inc
+	value = 12
+}
+
+set_variable = {
+	var = kerala_seats_bjp
+	value = 0
+}
+
+set_variable = {
+	var = kerala_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = kerala_seats_cpi
+	value = 1
+}
+
+set_variable = {
+	var = kerala_seats_cpim
+	value = 5
+}
+
+set_variable = {
+	var = kerala_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = kerala_seats_iuml
+	value = 2
+}
+
+set_variable = {
+	var = kerala_seats_kc
+	value = 0
+}
+
+set_variable = {
+	var = kerala_seats_rjd
+	value = 0
+}
+
+set_variable = {
+	var = kerala_seats_rsp
+	value = 0
+}
+
+set_variable = {
+	var = kerala_seats_inc_pred
+	value = 4
+}
+
+set_variable = {
+	var = kerala_seats_bjp_pred
+	value = 0
+}
+
+set_variable = {
+	var = kerala_seats_bsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = kerala_seats_cpi_pred
+	value = 4
+}
+
+set_variable = {
+	var = kerala_seats_cpim_pred
+	value = 11
+}
+
+set_variable = {
+	var = kerala_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = kerala_seats_iuml_pred
+	value = 1
+}
+
+set_variable = {
+	var = kerala_seats_kc_pred
+	value = 0
+}
+
+set_variable = {
+	var = kerala_seats_rjd_pred
+	value = 0
+}
+
+set_variable = {
+	var = kerala_seats_rsp_pred
+	value = 0
+}
+
+# Karnataka
+
+set_variable = {
+	var = karnataka_seats_inc
+	value = 21
+}
+
+set_variable = {
+	var = karnataka_seats_bjp
+	value = 3
+}
+
+set_variable = {
+	var = karnataka_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = karnataka_seats_cpi
+	value = 2
+}
+
+set_variable = {
+	var = karnataka_seats_cpim
+	value = 1
+}
+
+set_variable = {
+	var = karnataka_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = karnataka_seats_admk
+	value = 0
+}
+
+set_variable = {
+	var = karnataka_seats_rpi
+	value = 1
+}
+
+set_variable = {
+	var = karnataka_seats_iuml
+	value = 0
+}
+
+set_variable = {
+	var = karnataka_seats_inc_pred
+	value = 19
+}
+
+set_variable = {
+	var = karnataka_seats_bjp_pred
+	value = 5
+}
+
+set_variable = {
+	var = karnataka_seats_bsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = karnataka_seats_cpi_pred
+	value = 1
+}
+
+set_variable = {
+	var = karnataka_seats_cpim_pred
+	value = 1
+}
+
+set_variable = {
+	var = karnataka_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = karnataka_seats_admk_pred
+	value = 0
+}
+
+set_variable = {
+	var = karnataka_seats_rpi_pred
+	value = 2
+}
+
+set_variable = {
+	var = karnataka_seats_iuml_pred
+	value = 0
+}
+
+# Andhra Pradesh ### controlled by TDP
+
+set_variable = {
+	var = andhra_pradesh_seats_inc
+	value = 11
+}
+
+set_variable = {
+	var = andhra_pradesh_seats_bjp
+	value = 0
+}
+
+set_variable = {
+	var = andhra_pradesh_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = andhra_pradesh_seats_cpi
+	value = 0
+}
+
+set_variable = {
+	var = andhra_pradesh_seats_cpim
+	value = 2
+}
+
+set_variable = {
+	var = andhra_pradesh_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = andhra_pradesh_seats_tdp ###integral humanist bloc
+	value = 11
+}
+
+set_variable = {
+	var = andhra_pradesh_seats_admk
+	value = 0
+}
+
+set_variable = {
+	var = andhra_pradesh_seats_dmk
+	value = 0
+}
+
+set_variable = {
+	var = andhra_pradesh_seats_mim
+	value = 1
+}
+
+set_variable = {
+	var = andhra_pradesh_seats_inc_pred
+	value = 12
+}
+
+set_variable = {
+	var = andhra_pradesh_seats_bjp_pred
+	value = 0
+}
+
+set_variable = {
+	var = andhra_pradesh_seats_bsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = andhra_pradesh_seats_cpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = andhra_pradesh_seats_cpim_pred
+	value = 1
+}
+
+set_variable = {
+	var = andhra_pradesh_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = andhra_pradesh_seats_tdp_pred
+	value = 11
+}                              
+
+set_variable = {               
+	var = andhra_pradesh_seats_admk_pred
+	value = 0
+}                              
+
+set_variable = {               
+	var = andhra_pradesh_seats_dmk_pred
+	value = 0
+}                              
+
+set_variable = {               
+	var = andhra_pradesh_seats_mim_pred
+	value = 1
+}
+
+# Odisha
+
+set_variable = {
+	var = odisha_seats_inc
+	value = 12
+}
+
+set_variable = {
+	var = odisha_seats_bjp
+	value = 1
+}
+
+set_variable = {
+	var = odisha_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = odisha_seats_cpi
+	value = 4
+}
+
+set_variable = {
+	var = odisha_seats_cpim
+	value = 0
+}
+
+set_variable = {
+	var = odisha_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = odisha_seats_suci
+	value = 0
+}
+
+set_variable = {
+	var = odisha_seats_inc_pred
+	value = 11
+}
+
+set_variable = {
+	var = odisha_seats_bjp_pred
+	value = 1
+}
+
+set_variable = {
+	var = odisha_seats_bsp_pred
+	value = 1
+}
+
+set_variable = {
+	var = odisha_seats_cpi_pred
+	value = 4
+}
+
+set_variable = {
+	var = odisha_seats_cpim_pred
+	value = 0
+}
+
+set_variable = {
+	var = odisha_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = odisha_seats_suci_pred
+	value = 0
+}
+
+
 create_country_leader = {
-	name = "Charan Singh"
+	name = "Siddavanahalli Nijalingappa"
 	desc = ""
-	picture = "Charan_Singh.dds"
+	picture = "s_nijalingappa.dds"
 	expire = "1987.1.1"
 	ideology = social_democracy_ideology
 	traits = {

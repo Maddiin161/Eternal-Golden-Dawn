@@ -1,6 +1,6 @@
 ﻿capital = 1195
 
-oob = "UNT_1949"
+#oob = "UNT_1949"
 
 set_politics = {
 	ruling_party = social_conservatism

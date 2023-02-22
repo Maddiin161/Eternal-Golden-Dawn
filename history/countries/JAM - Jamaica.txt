@@ -1,6 +1,6 @@
 ﻿capital = 689
 
-oob = "JAM_1949"
+#oob = "JAM_1949"
 
 set_convoys = 2
 

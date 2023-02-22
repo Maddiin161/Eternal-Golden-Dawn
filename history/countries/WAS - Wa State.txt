@@ -1,6 +1,6 @@
 ﻿capital = 788
 
-oob = "WAS_1980"
+#oob = "WAS_1980"
 
 
 set_politics = {

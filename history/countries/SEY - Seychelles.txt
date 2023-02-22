@@ -1,6 +1,6 @@
 ﻿capital = 709
 
-oob = "SEY_1980"
+#oob = "SEY_1980"
 
 set_convoys = 1
 

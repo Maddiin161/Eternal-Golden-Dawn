@@ -1,4 +1,4 @@
-﻿oob = "ROM_1933"
+﻿#oob = "ROM_1933"
 	
 capital = 46
 

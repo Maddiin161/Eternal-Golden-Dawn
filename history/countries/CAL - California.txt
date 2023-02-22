@@ -1,6 +1,6 @@
 ﻿capital = 378
 
-oob = "CAL_1949"
+#oob = "CAL_1949"
 
 set_convoys = 10
 

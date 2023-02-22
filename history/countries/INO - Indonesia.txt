@@ -1,6 +1,6 @@
 ﻿capital = 833
 
-oob = "INO_1949"
+#oob = "INO_1949"
 
 set_research_slots = 3
 set_politics = {

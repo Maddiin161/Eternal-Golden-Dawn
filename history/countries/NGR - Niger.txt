@@ -1,6 +1,6 @@
 ﻿capital = 765
 
-oob = "NGR_1949"
+#oob = "NGR_1949"
 
 set_convoys = 0
 

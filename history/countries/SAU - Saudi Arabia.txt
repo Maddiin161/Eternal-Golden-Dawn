@@ -2,7 +2,7 @@
 # Saudi Arabia - 1933
 #################################################
 	capital = 292
-	oob = "SAU_1933"
+#	oob = "SAU_1933"
 	
 set_politics = {
 	ruling_party = despotism

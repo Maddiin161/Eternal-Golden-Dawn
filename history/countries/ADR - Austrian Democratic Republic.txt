@@ -1,6 +1,6 @@
 ﻿capital = 152
 
-oob = "ADR_1949"
+#oob = "ADR_1949"
 
 set_politics = {
 	ruling_party = revolutionary_socialism

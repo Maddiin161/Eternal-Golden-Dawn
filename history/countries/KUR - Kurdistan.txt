@@ -1,6 +1,6 @@
 ﻿capital = 938
 
-oob = "KUR_1949"
+#oob = "KUR_1949"
 
 set_politics = {
 	ruling_party = social_conservatism

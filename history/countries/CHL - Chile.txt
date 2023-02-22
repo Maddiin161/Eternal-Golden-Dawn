@@ -1,6 +1,6 @@
 ﻿capital = 279
 
-oob = "CHL_1980"
+#oob = "CHL_1980"
 	
 set_politics = {
 	ruling_party = libertarian_socialism

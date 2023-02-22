@@ -1,6 +1,6 @@
 ﻿capital = 1506
 
-oob = "ABK_1949"
+#oob = "ABK_1949"
 
 set_politics = {
 	ruling_party = social_liberalism

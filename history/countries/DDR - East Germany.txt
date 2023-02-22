@@ -1,6 +1,6 @@
 ﻿capital = 744
 
-oob = "DDR_1980"
+#oob = "DDR_1980"
 
 ### POLITICS ###
 set_popularities = {

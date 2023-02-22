@@ -6,7 +6,7 @@ set_country_flag = tech_alignment_eastern
 
 #TECH/OOBS
 
-oob = "MLI_1949"
+#oob = "MLI_1949"
 
 add_ideas = {
 }

@@ -3,7 +3,7 @@
 set_stability = 0.4
 set_war_support = 0.3
 
-oob = "PRC_1933"
+#oob = "PRC_1933"
 set_research_slots = 3
 	
 1963.1.1 = {

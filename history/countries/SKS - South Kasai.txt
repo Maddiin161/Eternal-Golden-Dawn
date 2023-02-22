@@ -1,6 +1,6 @@
 ﻿capital = 1207
 
-oob = "SKS_1949"
+#oob = "SKS_1949"
 
 set_popularities = {
 	annihilationism = 0

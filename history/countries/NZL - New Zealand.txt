@@ -1,13 +1,13 @@
 ﻿capital = 284
 
 set_politics = {
-	ruling_party = social_conservatism
-	last_election = "1979.5.6"
-	election_frequency = 48
-	elections_allowed = no
+	ruling_party = social_democracy
+	last_election = "1978.5.6"
+	election_frequency = 36
+	elections_allowed = yes
 }
 
- set_popularities = {
+set_popularities = {
 	annihilationism = 0
 	transhumanism = 0
 	ultranationalism = 0
@@ -16,20 +16,66 @@ set_politics = {
 	autocracy = 0
 	authoritarian_democracy = 0
 	corporate_oligarchy = 0
-	social_conservatism = 50
+	social_conservatism = 49
 	market_liberalism = 0
 	social_liberalism = 0
-	social_democracy = 50
+	social_democracy = 51
 	libertarian_socialism = 0
 	revolutionary_socialism = 0
 }
 
+set_country_flag = party_1_in_government
+set_country_flag = party_2_in_opposition
+
+set_variable = {
+	var = nz_party_1_seats
+	value = 72
+}
+
+set_variable = {
+	var = nz_party_2_seats
+	value = 48
+}
+
 create_country_leader = {
-	name = "" 
+	name = "Roger Douglas" 
 	desc = ""
-	picture = ".dds"
+	picture = "roger_douglas.dds"
 	expire = "2003.3.1"
-	ideology = 
+	ideology = third_way_socdem
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Robert Muldoon" 
+	desc = ""
+	picture = "robert_muldoon.dds"
+	expire = "2003.3.1"
+	ideology = right_wing_populism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Jim Anderton" 
+	desc = ""
+	picture = "jim_anderton.dds"
+	expire = "2003.3.1"
+	ideology = social_democracy_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Bruce Beetham" 
+	desc = ""
+	picture = "bruce_beetham.dds"
+	expire = "2003.3.1"
+	ideology = social_credit
 	traits = {
 		
 	}

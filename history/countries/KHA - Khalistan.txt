@@ -1,6 +1,6 @@
 ﻿capital = 440
 
-oob = "KHA_1949"
+#oob = "KHA_1949"
 
 set_politics = {
 	ruling_party = despotism

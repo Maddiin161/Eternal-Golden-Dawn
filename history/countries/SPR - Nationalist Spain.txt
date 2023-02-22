@@ -1,6 +1,6 @@
 ﻿capital = 41
 
-oob = "SPA_1936"
+#oob = "SPA_1936"
 
 set_politics = {
 	ruling_party = authoritarian_democracy

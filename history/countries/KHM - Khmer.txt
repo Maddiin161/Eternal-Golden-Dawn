@@ -1,7 +1,5 @@
 ﻿capital = 741 #Phnom Penh NOT on the map as VP!
 
-oob = "CAM_1936"
-
 set_research_slots = 3
 
 # Starting tech

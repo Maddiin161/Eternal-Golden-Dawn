@@ -1,6 +1,6 @@
 ﻿capital = 554
 
-oob = "SYR_1980"
+#oob = "SYR_1980"
 
 set_research_slots = 2
 set_convoys = 100

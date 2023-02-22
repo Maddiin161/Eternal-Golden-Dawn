@@ -3,7 +3,7 @@
 #################################
 capital = 271
 set_convoys = 5
-oob = "ETH_1933"
+#oob = "ETH_1933"
 	
 set_politics = {
 	ruling_party = authoritarian_democracy

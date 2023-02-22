@@ -1,6 +1,6 @@
 capital = 3
 
-oob = "SWI_1980"
+#oob = "SWI_1980"
 
 set_research_slots = 3
 

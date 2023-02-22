@@ -20,7 +20,10 @@ state = {
 		}
 		
 		victory_points = {
-			7374 3 
+			7374 1
+		}
+		victory_points = {
+			4386 3 
 		}
 
 		add_core_of = NEP

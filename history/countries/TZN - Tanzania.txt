@@ -1,6 +1,6 @@
 ﻿capital = 546
 
-oob = "TZN_1949"
+#oob = "TZN_1949"
 
 set_politics = {
 	ruling_party = social_democracy

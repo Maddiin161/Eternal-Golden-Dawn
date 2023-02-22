@@ -1,6 +1,6 @@
 ﻿capital = 386
 
-oob = "CSD_1949"
+#oob = "CSD_1949"
 set_convoys = 10
 
 	set_popularities = { 

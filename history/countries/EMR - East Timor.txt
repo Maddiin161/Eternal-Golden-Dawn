@@ -1,6 +1,6 @@
 ﻿capital = 934
 
-oob = "ABK_1949"
+#oob = "ABK_1949"
 
 set_convoys = 10
 

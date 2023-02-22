@@ -1,7 +1,5 @@
 ﻿capital = 1324
 
-oob = "TAL_1949"
-
  set_popularities = {
 	transhumanism = 0
 	ultranationalism = 0

@@ -5,7 +5,7 @@ set_country_flag = tech_gfx_african
 set_country_flag = tech_alignment_eastern
 
 
-oob = "COG_1949"
+#oob = "COG_1949"
 
 add_ideas = {
 }

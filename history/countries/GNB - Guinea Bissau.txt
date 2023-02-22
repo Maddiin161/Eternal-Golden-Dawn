@@ -7,8 +7,6 @@ add_ideas = {
 #	GNB_Francisco_Mendes_mil
 }
 
-oob = "GNB_1962"
-
 set_politics = {	
 	ruling_party = socialist
 	last_election = "1931.1.1"

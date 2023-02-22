@@ -4,7 +4,7 @@
 set_country_flag = tech_gfx_african
 set_country_flag = tech_alignment_western
 
-oob = "ZIM_1980"
+#oob = "ZIM_1980"
 
 set_research_slots = 1
 

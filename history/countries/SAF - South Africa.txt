@@ -1,6 +1,6 @@
 ﻿capital = 1233
 
-oob = "SAF_1949"
+#oob = "SAF_1949"
 
 set_politics = {
 	ruling_party = authoritarian_democracy

@@ -1,6 +1,6 @@
 ﻿capital = 458
 
-oob = "COG_1936"
+#oob = "COG_1936"
 
 # Starting tech
 
