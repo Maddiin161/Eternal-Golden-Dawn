@@ -1,7 +1,5 @@
 ﻿capital = 267
 
-oob = "AFG_1980"
-
 set_popularities = {
 	annihilationism = 1
 	transhumanism = 0
@@ -18,7 +16,9 @@ set_popularities = {
 	libertarian_socialism = 0
 	revolutionary_socialism = 30
 }
-	
+
+#oob = "AFG_1980"
+
 set_politics = {
 	ruling_party = revolutionary_socialism
 		last_election = "1978.4.28"
