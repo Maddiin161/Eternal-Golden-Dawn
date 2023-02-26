@@ -1,8 +1,8 @@
 ﻿capital = 323
 
-create_faction = kathmandu_pact
-add_to_faction = SKK
-add_to_faction = BHU
+#create_faction = kathmandu_pact
+#add_to_faction = SKK
+#add_to_faction = BHU
 
 set_politics = {
 	ruling_party = despotism
@@ -11,7 +11,11 @@ set_politics = {
 	elections_allowed = no
 }
 
- set_popularities = {
+add_ideas = {
+	NEP_panchayat
+}
+
+set_popularities = {
 	annihilationism = 0
 	transhumanism = 0
 	ultranationalism = 0
@@ -30,10 +34,21 @@ set_politics = {
 
 create_country_leader = {
 	name = "Birendra Bir Bikram Shah"
-	desc = ""
+	desc = "desc_birendra"
 	picture = "Birendra_Bir_Bikram_Shah.dds"
 	expire = "2001.1.1"
 	ideology = monarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Surya Bahadur Thapa"
+	desc = "desc_bahadur_thapa"
+	picture = "surya_bahadur_thapa.dds"
+	expire = "2001.1.1"
+	ideology = national_conservatism
 	traits = {
 		#
 	}

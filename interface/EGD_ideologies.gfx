@@ -34,7 +34,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_neo_guevarism"
 		texturefile = "gfx/interface/ideologies/neo_guevarism.dds"
-	} 
+	}
+	spriteType = {
+		name = "GFX_ideology_marxism_leninism_maoism_prachanda"
+		texturefile = "gfx/interface/ideologies/marxism_leninism_maoism_prachanda.dds"
+	}
 # ind soc
 
 	spriteType = {

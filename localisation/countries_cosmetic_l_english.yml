@@ -39,6 +39,10 @@
  BOS_FED_DEF:0 "The Federation of Bosnia and Herzegovina" 
  KRE_kingdom:0 "Kingdom of Kampuchea"
  KRE_kingdom_DEF:0 "the Kingdom of Kampuchea"
+ JAA_juche:0 "People's Democratic Republic of Nepal"
+ JAA_juche_DEF:0 "the People's Democratic Republic of Nepal"
+ JAA_communists_won:0 "People's Republic of Nepal"
+ JAA_communists_won_DEF:0 "the People's Republic of Nepal"
  
  # Annihilationist Tags
  LIV_HEV:0 "Kingdom of the Living Heaven"

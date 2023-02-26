@@ -1,3 +1,7 @@
+JAA = "countries/Jana Andolan.txt"
+ANO = "countries/Andorra.txt"
+LAD = "countries/Ladinia.txt"
+SOU = "countries/South Tyrol.txt"
 PAM = "countries/PAN Mexico.txt"
 PDM = "countries/Catholic Mexico.txt"
 PNM = "countries/Nazi Mexico.txt"

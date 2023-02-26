@@ -28,4 +28,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_cambodia_candlelight_dominant.dds"	
 	}
 	
+	SpriteType = {
+		name = "GFX_idea_idea_panchayat"
+		texturefile = "gfx/interface/ideas/NEP/idea_panchayat.dds"	
+	}
+	
 }	

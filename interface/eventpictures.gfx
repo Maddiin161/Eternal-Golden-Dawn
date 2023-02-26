@@ -197,6 +197,28 @@ spriteType = {
 		texturefile = "gfx/event_pictures/GFX_news_event_montenegro_independence.dds"
 	}	
 	
+# Nepal
+
+spriteType = {
+		name = "GFX_event_nepal_riots_begin"
+		texturefile = "gfx/event_pictures/GFX_event_nepal_riots_begin.dds"
+	}	
+
+spriteType = {
+		name = "GFX_event_nepal_negotiations_start"
+		texturefile = "gfx/event_pictures/GFX_event_nepal_negotiations_start.dds"
+	}	
+
+spriteType = {
+		name = "GFX_event_nepal_negotiations_succeed"
+		texturefile = "gfx/event_pictures/GFX_event_nepal_negotiations_succeed.dds"
+	}	
+
+spriteType = {
+		name = "gfx_event_nepal_civil_war_begins"
+		texturefile = "gfx/event_pictures/gfx_event_nepal_civil_war_begins.dds"
+	}
+	
 # Slovenia
 
 spriteType = {
@@ -386,10 +408,6 @@ spriteType = {
 spriteType = {
 		name = "GFX_news_event_yugoslav_constitutional_crisis"
 		texturefile = "gfx/event_pictures/GFX_news_event_yugoslav_constitutional_crisis.dds"
-	}
-spriteType = {
-		name = "GFX_news_event_anchluss_of_gijon"
-		texturefile = "gfx/event_pictures/GFX_news_event_anchluss_gijon.dds"
 	}
 spriteType = {
 		name = "GFX_event_paindespair"

@@ -813,12 +813,12 @@ set_variable = {
 
 set_variable = {
 	var = odisha_seats_cpi
-	value = 4
+	value = 5
 }
 
 set_variable = {
 	var = odisha_seats_cpim
-	value = 0
+	value = 3
 }
 
 set_variable = {
@@ -848,12 +848,12 @@ set_variable = {
 
 set_variable = {
 	var = odisha_seats_cpi_pred
-	value = 4
+	value = 5
 }
 
 set_variable = {
 	var = odisha_seats_cpim_pred
-	value = 0
+	value = 3
 }
 
 set_variable = {
@@ -863,6 +863,220 @@ set_variable = {
 
 set_variable = {
 	var = odisha_seats_suci_pred
+	value = 0
+}
+
+# Telangana
+
+set_variable = {
+	var = telangana_seats_inc
+	value = 1
+}
+
+set_variable = {
+	var = telangana_seats_bjp
+	value = 0
+}
+
+set_variable = {
+	var = telangana_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = telangana_seats_cpi
+	value = 2
+}
+
+set_variable = {
+	var = telangana_seats_cpim
+	value = 1
+}
+
+set_variable = {
+	var = telangana_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = telangana_seats_iuml
+	value = 2
+}
+
+set_variable = {
+	var = telangana_seats_brs ###Gandhist bloc
+	value = 8
+}
+
+set_variable = {
+	var = telangana_seats_tdp ###Integral Humanist bloc
+	value = 2
+}
+
+set_variable = {
+	var = telangana_seats_mim
+	value = 0
+}
+
+set_variable = {
+	var = telangana_seats_cpiml
+	value = 0
+}
+
+set_variable = {
+	var = telangana_seats_ld
+	value = 0
+}
+
+set_variable = {
+	var = telangana_seats_aifb ###AIFB in Telangana is HINDUTVA
+	value = 1
+}
+
+set_variable = {
+	var = telangana_seats_inc_pred
+	value = 1
+}
+
+set_variable = {
+	var = telangana_seats_bjp_pred
+	value = 0
+}
+
+set_variable = {
+	var = telangana_seats_bsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = telangana_seats_cpi_pred
+	value = 1
+}
+
+set_variable = {
+	var = telangana_seats_cpim_pred
+	value = 1
+}
+
+set_variable = {
+	var = telangana_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = telangana_seats_iuml_pred
+	value = 2
+}
+
+set_variable = {
+	var = telangana_seats_brs_pred
+	value = 10
+}
+
+set_variable = {
+	var = telangana_seats_tdp_pred
+	value = 0
+}
+
+set_variable = {
+	var = telangana_seats_mim_pred
+	value = 0
+}
+
+set_variable = {
+	var = telangana_seats_cpiml_pred
+	value = 0
+}
+
+set_variable = {
+	var = telangana_seats_ld_pred
+	value = 0
+}
+
+set_variable = {
+	var = telangana_seats_aifb_pred ###AIFB in Telangana is HINDUTVA
+	value = 2
+}
+
+# Goa
+
+set_variable = {
+	var = goa_seats_inc
+	value = 0
+}
+
+set_variable = {
+	var = goa_seats_bjp
+	value = 0
+}
+
+set_variable = {
+	var = goa_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = goa_seats_cpi
+	value = 0
+}
+
+set_variable = {
+	var = goa_seats_cpim
+	value = 0
+}
+
+set_variable = {
+	var = goa_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = goa_seats_mgp #Integral Humanist bloc
+	value = 2
+}
+
+set_variable = {
+	var = goa_seats_samajwadi_party 
+	value = 0
+}
+
+set_variable = {
+	var = goa_seats_inc_pred
+	value = 0
+}
+
+set_variable = {
+	var = goa_seats_bjp_pred
+	value = 0
+}
+
+set_variable = {
+	var = goa_seats_bsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = goa_seats_cpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = goa_seats_cpim_pred
+	value = 0
+}
+
+set_variable = {
+	var = goa_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = goa_seats_mgp_pred #Integral Humanist bloc
+	value = 2
+}
+
+set_variable = {
+	var = goa_seats_samajwadi_party_pred
 	value = 0
 }
 

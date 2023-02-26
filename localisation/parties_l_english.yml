@@ -79,7 +79,7 @@
  marxism_leninism_maoism_desc:0 "§RMarxism–Leninism–Maoism§! "
  
  marxism_leninism_maoism_prachanda:0 "Marxism–Leninism–Maoism–Prachanda Path"
- marxism_leninism_maoism_prachanda_desc:0 "§RMarxism–Leninism–Maoism–Prachanda Path§! is the political ideology developed by Vladimir Lenin that prompted the Russian Revolution of 1917. The core ideological features of Marxism-Leninism include the belief that a revolutionary proletarian class would not emerge automatically from capitalism. Instead, there is the need for a revolutionary vanguard party to lead the working class in the violent overthrow of capitalism, to be followed by a dictatorship of the proletariat as the first stage of moving toward communism. Marxism-Leninism also maintains that workers in the most advanced capitalist countries had not opted for revolution because capitalism had moved to a new stage through the exportation of capital to colonies. Marxism-Leninism, therefore, saw the developing world as the front-line in the struggle against imperialism. "
+ marxism_leninism_maoism_prachanda_desc:0 "§RMarxism-Leninism-Maoism-Prachanda Path§! is the political ideology developed by the Nepali revolutionary Prachanda as a development of traditional Maoist ideology and Gonzalo Thought. It posits Prachanda as the 6th great Marxist thinker, after Marx, Lenin, Stalin, Mao and Gonzalo, and advocates revolution as the only way to achieve true socialism, opposing class collaboration. Additionally, it claims that Marx' writings are not to be taken literally, and progress towards Communism has to be adjusted in each country - specifically by making the peasantry the primary revolutionary vanguard, as advocated by Mao and Mariátegui. Additionally, in countries with substantially lower populations than China or the USSR, it claims that People's War tactics are impossible, instead embracing the Gonzalo tactics of the Shining Path of rural resistance. Finally, it rejects the dogma that the most developed world is to be the leader of Communist revolution, instead claiming the First World to be corrupted and its proletariat "bribed", making the Third World the ideal place for a revolution."
  
  stalinism:0 "Stalinism"
  stalinism_desc:0 "§RStalinism§! is the name given to describe the policies of Soviet leader Joseph Stalin developed during his time as Premier of the USSR. Stalinism supports mass industrialization, centralized leadership, centralized intelligence agency, and “socialism in one country.” Stalinists are opposed heavily by Trotskyists for their more extreme version of communism."
@@ -114,7 +114,7 @@
  baathism_desc:0 "§RBa'athism§! is a form of independent socialism developed by Michel Aflaq in the late 1950s that seeks to establish a pan-Arab socialist state through the use of a vanguard party. Ba'athism promotes a renaissance of Arab culture, values and society as well as the creation of a one-party, socialist state. As such, Ba'athism supports socialist economics and public ownership over the commanding heights of the economy, but opposes confiscatory policies with regard to private property."
 
  left_wing_nationalism:0 "Left-Wing Nationalism"
- left_wing_nationalism_desc:0 "Left-Wing Nationalism\n§RLeft-Wing Nationalism§! is a fusing of leftist economic and frequently social organization with nationalist rhetoric and policies. Typically seen in the context of anti-colonial and national liberation movements, Left-Wing Nationalism distinguishes itself from other types of socialism by a heavy focus on national identity and sovereignty." 
+ left_wing_nationalism_desc:0 "§RLeft-Wing Nationalism§! is a fusing of leftist economic and frequently social organization with nationalist rhetoric and policies. Typically seen in the context of anti-colonial and national liberation movements, Left-Wing Nationalism distinguishes itself from other types of socialism by a heavy focus on national identity and sovereignty." 
 
 # Social Democracy Ideologies
 
@@ -145,6 +145,9 @@
 
  military_dictatorship:0 "Military Dictatorship"
  military_dictatorship_desc:0 "A §gMilitary Dictatorship§! is a form of governance when a country's military has completely taken over the apparatus of the state to maintain stability. Military dictatorships are common in countries that are extremely unstable such that martial law is required. Following the period after the coup d'état that typically places the junta in power, the ruling body will declare a state of martial law, after which the commander-in-chief, usually the president of the said country, takes full control over the country as a dictator. In other countries where their president is disliked, the highest-ranking officer will take control."
+
+ national_conservatism:0 "National Conservatism"
+ national_conservatism_desc:0 "§gNational Conservatism§! is a mixture of Social Conservatism with Nationalism, usually positioning it on the far-right of Social Conservative ideologies. Putting emphasis on national values, social order and opposition to foreign influences, National Conservatives generally view their cultures as decaying and rotting under modern influences, and advocate reimposing old values onto the population as a way to prevent further downfall, and possibly even restore the nation to its imagined golden era."
 
 # Islamism
 

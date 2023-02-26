@@ -1,0 +1,157 @@
+add_namespace = nep
+
+country_event = {
+	id = nep.1
+	title = "Unrest in Nepal, government flees"
+	desc = nep.1.d
+	picture = GFX_event_nepal_riots_begin
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = "Will peace prevail?"
+		JAA = {
+			transfer_state = 323
+			add_state_core = 323
+			add_state_core = 1024
+		}
+	}
+	option = {
+		name = "The King's gotta listen"
+		JAA = {
+			transfer_state = 323
+			add_state_core = 323
+			add_state_core = 1024
+		}
+		JAA = {
+			change_tag_from = NEP
+		}
+	}
+}
+
+country_event = {
+	id = nep.2
+	title = "United Left Front negotiates with the government"
+	desc = nep.2.d
+	picture = GFX_event_nepal_negotiations_start
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = "Let's hope for peace"
+	}
+}
+
+country_event = {
+	id = nep.3
+	title = "Negotiations fail, shots heard accross Nepal"
+	desc = nep.3.d
+	picture = gfx_event_nepal_civil_war_begins
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = "Monarchies never meshed well communists"
+		JAA = {
+			declare_war_on = {
+				target = NEP
+				type = annex_everything
+			}
+		}
+	}
+}
+
+country_event = {
+	id = nep.4
+	title = "Demands accepted, general election called"
+	desc = nep.4.d
+	picture = GFX_event_nepal_negotiations_succeed
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = "Miracle of democracy, or delaying the inevitable?"
+	}
+}
+
+country_event = {
+	id = nep.5
+	title = "Test event"
+	desc = "Cock'n'balls, this gives cosmetics"
+	picture = GFX_event_nepal_negotiations_succeed
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = "Gib Juche"
+		set_cosmetic_tag = JAA_juche
+	}
+	option = {
+		name = "Gib Republic"
+		set_cosmetic_tag = JAA_communists_won
+	}
+	option = {
+		name = "Gib Bhattarai"
+		set_cosmetic_tag = JAA_communists_won
+		set_politics = {
+			ruling_party = libertarian_socialism
+			}
+		create_country_leader = {
+			name = "Krishna Prasad Bhattarai"
+			desc = "desc_bhattarai"
+			picture = "krishna_prasad_bhattarai_front.dds"
+			expire = "2001.1.1"
+			ideology = left_wing_nationalism
+			traits = {
+				#
+			}
+		}
+	}
+	option = {
+		name = "Gib Bhandari"
+		set_cosmetic_tag = JAA_communists_won
+		create_country_leader = {
+			name = "Madan Kumar Bhandari"
+			desc = "desc_bhandari"
+			picture = "madan_bhandari_front.dds"
+			expire = "2001.1.1"
+			ideology = marxism_leninism
+			traits = {
+				#
+			}
+		}
+	}
+	option = {
+		name = "Gib Prachanda"
+		set_cosmetic_tag = JAA_communists_won
+		create_country_leader = {
+			name = "Prachanda"
+			desc = "desc_prachanda"
+			picture = "Pushpa_Kamal_Dahal.dds"
+			expire = "2001.1.1"
+			ideology = marxism_leninism_maoism_prachanda
+			traits = {
+				#
+			}
+		}
+	}
+	option = {
+		name = "Gib Juche"
+		set_cosmetic_tag = JAA_juche
+		create_country_leader = {
+			name = "Narayan Man Bijukchhe"
+			desc = "desc_bijukchhe"
+			picture = "narayan_man_bijukchhe_juche.dds"
+			expire = "2001.1.1"
+			ideology = juche
+			traits = {
+				#
+			}
+		}
+	}
+}
