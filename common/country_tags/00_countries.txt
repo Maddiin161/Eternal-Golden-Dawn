@@ -1,3 +1,5 @@
+FTW = "countries/Fatetown.txt"
+STE = "countries/Stelland.txt"
 JAA = "countries/Jana Andolan.txt"
 ANO = "countries/Andorra.txt"
 LAD = "countries/Ladinia.txt"

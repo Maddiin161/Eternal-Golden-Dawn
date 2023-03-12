@@ -8439,6 +8439,16 @@
  SJP_autocracy:0 "Croatian Special Police Units"
  SJP_autocracy_DEF:0 "the Croatian Special Police Units"
  
+ # Stelland
+ 
+ STE:0 "Stelland"
+ STE_DEF:0 "Stelland"
+ 
+ # Fatetown
+ 
+ FTW:0 "Fatetown"
+ FTW_DEF:0 "Fatetown"
+ 
  # South Tyrol
  SOU:0 "South Tyrol"
  SOU_DEF:0 "South Tyrol

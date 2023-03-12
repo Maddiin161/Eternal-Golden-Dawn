@@ -28,39 +28,39 @@ EGD_startup = yes
 
 set_variable = {
 	var = communist_bloc_deputies
-	value = 4
+	value = 16
 }
 set_variable = {
 	var = cpim_deputies
-	value = 37
+	value = 57
 }
 set_variable = {
 	var = cpi_deputies
-	value = 19
+	value = 22
 }
 set_variable = {
 	var = bahujan_deputies
-	value = 18
+	value = 47
 }
 set_variable = {
 	var = bsp_deputies
-	value = 31
+	value = 48
 }
 set_variable = {
 	var = gandhist_deputies
-	value = 17
+	value = 27
 }
 set_variable = {
 	var = inc_deputies
-	value = 219
+	value = 184
 }
 set_variable = {
 	var = integral_humanist_bloc_deputies
-	value = 21
+	value = 49
 }
 set_variable = {
 	var = bjp_deputies
-	value = 92
+	value = 48
 }
 set_variable = {
 	var = hindutva_bloc_deputies
@@ -68,24 +68,24 @@ set_variable = {
 }
 set_variable = {
 	var = ss_deputies
-	value = 26
+	value = 21
 }
 set_variable = {
 	var = muslim_bloc_deputies
-	value = 46
+	value = 19
 }
 set_variable = {
 	var = sikh_bloc_deputies
-	value = 6
+	value = 5
 }
 set_variable = {
 	var = separatist_bloc_deputies
-	value = 13
+	value = 16
 }
 
 set_variable = {
 	var = total_number_of_deputies_india
-	value = 550
+	value = 560
 }
 
 set_variable = {
@@ -94,7 +94,7 @@ set_variable = {
 }
 set_variable = {
 	var = cpim_states
-	value = 0
+	value = 3
 }
 set_variable = {
 	var = cpi_states
@@ -102,27 +102,27 @@ set_variable = {
 }
 set_variable = {
 	var = bahujan_states
-	value = 0
+	value = 2
 }
 set_variable = {
 	var = bsp_states
-	value = 0
+	value = 1
 }
 set_variable = {
 	var = gandhist_states
-	value = 0
+	value = 3
 }
 set_variable = {
 	var = inc_states
-	value = 0
+	value = 13
 }
 set_variable = {
 	var = integral_humanist_bloc_states
-	value = 0
+	value = 3
 }
 set_variable = {
 	var = bjp_states
-	value = 0
+	value = 2
 }
 set_variable = {
 	var = hindutva_bloc_states
@@ -130,7 +130,7 @@ set_variable = {
 }
 set_variable = {
 	var = ss_states
-	value = 0
+	value = 1
 }
 set_variable = {
 	var = muslim_bloc_states
@@ -149,6 +149,35 @@ set_variable = {
 	var = total_number_of_states_india
 	value = 28
 }
+
+set_country_flag = haryana_controlled_by_inc
+set_country_flag = kerala_controlled_by_inc
+set_country_flag = tamil_nadu_controlled_by_bahujan
+set_country_flag = karnataka_controlled_by_inc
+set_country_flag = goa_controlled_by_humanist
+set_country_flag = andhra_pradesh_controlled_by_humanist
+set_country_flag = telangana_controlled_by_gandhist
+set_country_flag = maharashtra_controlled_by_ss
+set_country_flag = madhya_pradesh_controlled_by_bjp
+set_country_flag = gujarat_controlled_by_inc
+set_country_flag = rajasthan_controlled_by_bjp
+set_country_flag = chhattisgarh_controlled_by_inc
+set_country_flag = odisha_controlled_by_inc
+set_country_flag = uttar_pradesh_controlled_by_bsp
+set_country_flag = punjab_controlled_by_inc
+set_country_flag = himachal_pradesh_controlled_by_inc
+set_country_flag = kashmir_controlled_by_gandhist
+set_country_flag = bihar_controlled_by_inc
+set_country_flag = west_bengal_controlled_by_cpim
+set_country_flag = east_bengal_controlled_by_bahujan
+set_country_flag = north_bengal_controlled_by_cpim
+set_country_flag = meghalaya_controlled_by_inc
+set_country_flag = tripura_controlled_by_cpim
+set_country_flag = assam_controlled_by_inc
+set_country_flag = arunachal_pradesh_controlled_by_inc
+set_country_flag = nagaland_controlled_by_humanist
+set_country_flag = manipur_controlled_by_inc
+set_country_flag = mizoram_controlled_by_controlled_by_gandhist
 
 ### Deputies
 
@@ -1079,6 +1108,2166 @@ set_variable = {
 	var = goa_seats_samajwadi_party_pred
 	value = 0
 }
+
+# Maharashtra
+
+set_variable = {
+	var = maharashtra_seats_inc
+	value = 1
+}
+
+set_variable = {
+	var = maharashtra_seats_bjp
+	value = 3
+}
+
+set_variable = {
+	var = maharashtra_seats_bsp
+	value = 8
+}
+
+set_variable = {
+	var = maharashtra_seats_cpi
+	value = 0
+}
+
+set_variable = {
+	var = maharashtra_seats_cpim
+	value = 5
+}
+
+set_variable = {
+	var = maharashtra_seats_ss
+	value = 19
+}
+
+set_variable = {
+	var = maharashtra_seats_iuml
+	value = 1
+}
+
+set_variable = {
+	var = maharashtra_seats_swatantra_party
+	value = 0
+}
+
+set_variable = {
+	var = maharashtra_seats_rpi
+	value = 4
+}
+
+set_variable = {
+	var = maharashtra_seats_pwpi
+	value = 7
+}
+
+set_variable = {
+	var = maharashtra_seats_bpi
+	value = 0
+}
+
+set_variable = {
+	var = maharashtra_seats_sbp
+	value = 0
+}
+
+set_variable = {
+	var = maharashtra_seats_ld
+	value = 0
+}
+
+set_variable = {
+	var = maharashtra_seats_aifb ###AIFB in Tamil Nadu is HINDUTVA
+	value = 0
+}
+
+set_variable = {
+	var = maharashtra_seats_inc_pred
+	value = 2
+}
+
+set_variable = {
+	var = maharashtra_seats_bjp_pred
+	value = 2
+}
+
+set_variable = {
+	var = maharashtra_seats_bsp_pred
+	value = 8
+}
+
+set_variable = {
+	var = maharashtra_seats_cpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = maharashtra_seats_cpim_pred
+	value = 4
+}
+
+set_variable = {
+	var = maharashtra_seats_ss_pred
+	value = 19
+}
+
+set_variable = {
+	var = maharashtra_seats_iuml_pred
+	value = 1
+}
+
+set_variable = {
+	var = maharashtra_seats_swatantra_party_pred
+	value = 0
+}
+
+set_variable = {
+	var = maharashtra_seats_rpi_pred
+	value = 4
+}
+
+set_variable = {
+	var = maharashtra_seats_pwpi_pred
+	value = 8
+}
+
+set_variable = {
+	var = maharashtra_seats_bpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = maharashtra_seats_sbp_pred
+	value = 0
+}
+
+set_variable = {
+	var = maharashtra_seats_ld_pred
+	value = 0
+}
+
+set_variable = {
+	var = maharashtra_seats_aifb_pred ###AIFB in Tamil Nadu is HINDUTVA
+	value = 0
+}
+
+# Gujarat
+
+set_variable = {
+	var = gujarat_seats_inc
+	value = 23
+}
+
+set_variable = {
+	var = gujarat_seats_bjp
+	value = 2
+}
+
+set_variable = {
+	var = gujarat_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = gujarat_seats_cpi
+	value = 0
+}
+
+set_variable = {
+	var = gujarat_seats_cpim
+	value = 0
+}
+
+set_variable = {
+	var = gujarat_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = gujarat_seats_socialist_party
+	value = 0
+}
+
+set_variable = {
+	var = gujarat_seats_samajwadi_party 
+	value = 1
+}
+
+set_variable = {
+	var = gujarat_seats_inc_pred
+	value = 22
+}
+
+set_variable = {
+	var = gujarat_seats_bjp_pred
+	value = 2
+}
+
+set_variable = {
+	var = gujarat_seats_bsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = gujarat_seats_cpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = gujarat_seats_cpim_pred
+	value = 0
+}
+
+set_variable = {
+	var = gujarat_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = gujarat_seats_socialist_party_pred
+	value = 0
+}
+
+set_variable = {
+	var = gujarat_seats_samajwadi_party_pred
+	value = 2
+}
+
+# Rajasthan
+
+set_variable = {
+	var = rajasthan_seats_inc
+	value = 6
+}
+
+set_variable = {
+	var = rajasthan_seats_bjp
+	value = 9
+}
+
+set_variable = {
+	var = rajasthan_seats_bsp
+	value = 8
+}
+
+set_variable = {
+	var = rajasthan_seats_cpi
+	value = 0
+}
+
+set_variable = {
+	var = rajasthan_seats_cpim
+	value = 1
+}
+
+set_variable = {
+	var = rajasthan_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = rajasthan_seats_iuml
+	value = 0
+}
+
+set_variable = {
+	var = rajasthan_seats_rpi
+	value = 0
+}
+
+set_variable = {
+	var = rajasthan_seats_abrrp
+	value = 0
+}
+
+set_variable = {
+	var = rajasthan_seats_ld
+	value = 1
+}
+
+set_variable = {
+	var = rajasthan_seats_inc_pred
+	value = 7
+}
+
+set_variable = {
+	var = rajasthan_seats_bjp_pred
+	value = 8
+}
+
+set_variable = {
+	var = rajasthan_seats_bsp_pred
+	value = 8
+}
+
+set_variable = {
+	var = rajasthan_seats_cpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = rajasthan_seats_cpim_pred
+	value = 1
+}
+
+set_variable = {
+	var = rajasthan_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = rajasthan_seats_iuml_pred
+	value = 0
+}
+
+set_variable = {          
+	var = rajasthan_seats_rpi_pred
+	value = 0
+}
+
+set_variable = {          
+	var = rajasthan_seats_abrrp_pred
+	value = 0
+}
+
+set_variable = {          
+	var = rajasthan_seats_ld_pred
+	value = 1
+}
+
+# Madhya Pradesh
+
+set_variable = {
+	var = madhya_pradesh_seats_inc
+	value = 7
+}
+
+set_variable = {
+	var = madhya_pradesh_seats_bjp
+	value = 10
+}
+
+set_variable = {
+	var = madhya_pradesh_seats_bsp
+	value = 9
+}
+
+set_variable = {
+	var = madhya_pradesh_seats_cpi
+	value = 1
+}
+
+set_variable = {
+	var = madhya_pradesh_seats_cpim
+	value = 0
+}
+
+set_variable = {
+	var = madhya_pradesh_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = madhya_pradesh_seats_ggp
+	value = 0
+}
+
+set_variable = {
+	var = madhya_pradesh_seats_rpi
+	value = 1
+}
+
+set_variable = {
+	var = madhya_pradesh_seats_samajwadi_party
+	value = 1
+}
+
+set_variable = {
+	var = madhya_pradesh_seats_abp
+	value = 0
+}
+
+set_variable = {
+	var = madhya_pradesh_seats_inc_pred
+	value = 10
+}
+
+set_variable = {
+	var = madhya_pradesh_seats_bjp_pred
+	value = 8
+}
+
+set_variable = {
+	var = madhya_pradesh_seats_bsp_pred
+	value = 9
+}
+
+set_variable = {
+	var = madhya_pradesh_seats_cpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = madhya_pradesh_seats_cpim_pred
+	value = 0
+}
+
+set_variable = {
+	var = madhya_pradesh_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = madhya_pradesh_seats_ggp_pred
+	value = 0
+}
+
+set_variable = {
+	var = madhya_pradesh_seats_rpi_pred
+	value = 1
+}
+
+set_variable = {
+	var = madhya_pradesh_seats_samajwadi_party_pred
+	value = 1
+}
+
+set_variable = {
+	var = madhya_pradesh_seats_abp_pred
+	value = 0
+}
+
+# Kashmir
+
+set_variable = {
+	var = kashmir_seats_inc
+	value = 0
+}
+
+set_variable = {
+	var = kashmir_seats_bjp
+	value = 0
+}
+
+set_variable = {
+	var = kashmir_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = kashmir_seats_cpi
+	value = 0
+}
+
+set_variable = {
+	var = kashmir_seats_cpim
+	value = 0
+}
+
+set_variable = {
+	var = kashmir_seats_ss
+	value = 1
+}
+
+set_variable = {
+	var = kashmir_seats_jknc #gandhist
+	value = 4
+}
+
+set_variable = {
+	var = kashmir_seats_jkal
+	value = 0
+}
+
+set_variable = {
+	var = kashmir_seats_jknpp
+	value = 0
+}
+
+set_variable = {
+	var = kashmir_seats_jkpc
+	value = 0
+}
+
+set_variable = {
+	var = kashmir_seats_jik
+	value = 0
+}
+
+set_variable = {
+	var = kashmir_seats_inc_pred
+	value = 0
+}
+
+set_variable = {
+	var = kashmir_seats_bjp_pred
+	value = 0
+}
+
+set_variable = {
+	var = kashmir_seats_bsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = kashmir_seats_cpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = kashmir_seats_cpim_pred
+	value = 0
+}
+
+set_variable = {
+	var = kashmir_seats_ss_pred
+	value = 1
+}
+
+set_variable = {
+	var = kashmir_seats_jknc_pred
+	value = 4
+}
+
+set_variable = {
+	var = kashmir_seats_jkal_pred
+	value = 0
+}
+
+set_variable = {
+	var = kashmir_seats_jknpp_pred
+	value = 0
+}
+
+set_variable = {
+	var = kashmir_seats_jkpc_pred
+	value = 0
+}
+
+set_variable = {
+	var = kashmir_seats_jik_pred
+	value = 0
+}
+
+# Himachal Pradesh
+
+set_variable = {
+	var = himachal_pradesh_seats_inc
+	value = 4
+}
+
+set_variable = {
+	var = himachal_pradesh_seats_bjp
+	value = 0
+}
+
+set_variable = {
+	var = himachal_pradesh_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = himachal_pradesh_seats_cpi
+	value = 0
+}
+
+set_variable = {
+	var = himachal_pradesh_seats_cpim
+	value = 0
+}
+
+set_variable = {
+	var = himachal_pradesh_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = himachal_pradesh_seats_ld
+	value = 0
+}
+
+set_variable = {
+	var = himachal_pradesh_seats_hvc
+	value = 0
+}
+
+set_variable = {
+	var = himachal_pradesh_seats_inc_pred
+	value = 3
+}
+
+set_variable = {
+	var = himachal_pradesh_seats_bjp_pred
+	value = 1
+}
+
+set_variable = {
+	var = himachal_pradesh_seats_bsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = himachal_pradesh_seats_cpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = himachal_pradesh_seats_cpim_pred
+	value = 0
+}
+
+set_variable = {
+	var = himachal_pradesh_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = himachal_pradesh_seats_ld_pred
+	value = 0
+}
+
+set_variable = {
+	var = himachal_pradesh_seats_hvc_pred
+	value = 0
+}
+
+# Chhattisgarh
+
+set_variable = {
+	var = chhattisgarh_seats_inc
+	value = 8
+}
+
+set_variable = {
+	var = chhattisgarh_seats_bjp
+	value = 2
+}
+
+set_variable = {
+	var = chhattisgarh_seats_bsp
+	value = 1
+}
+
+set_variable = {
+	var = chhattisgarh_seats_cpi
+	value = 0
+}
+
+set_variable = {
+	var = chhattisgarh_seats_cpim
+	value = 0
+}
+
+set_variable = {
+	var = chhattisgarh_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = chhattisgarh_seats_ggp
+	value = 0
+}
+
+set_variable = {
+	var = chhattisgarh_seats_cmm
+	value = 0
+}
+
+set_variable = {
+	var = chhattisgarh_seats_inc_pred
+	value = 7
+}
+
+set_variable = {
+	var = chhattisgarh_seats_bjp_pred
+	value = 2
+}
+
+set_variable = {
+	var = chhattisgarh_seats_bsp_pred
+	value = 2
+}
+
+set_variable = {
+	var = chhattisgarh_seats_cpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = chhattisgarh_seats_cpim_pred
+	value = 0
+}
+
+set_variable = {
+	var = chhattisgarh_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = chhattisgarh_seats_ggp_pred
+	value = 0
+}
+
+set_variable = {
+	var = chhattisgarh_seats_cmm_pred
+	value = 0
+}
+
+# Uttar Pradesh
+
+set_variable = {
+	var = uttar_pradesh_seats_inc
+	value = 9
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_bjp
+	value = 17
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_bsp
+	value = 21
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_cpi
+	value = 2
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_cpim
+	value = 0
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_ld
+	value = 18
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_rpi
+	value = 0
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_rsp
+	value = 0
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_samajwadi_party
+	value = 13
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_dp
+	value = 0
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_ukd
+	value = 0
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_samata_party
+	value = 0
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_aifb
+	value = 0
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_inc_pred
+	value = 8
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_bjp_pred
+	value = 16
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_bsp_pred
+	value = 22
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_cpi_pred
+	value = 2
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_cpim_pred
+	value = 0
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_ld_pred
+	value = 12
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_rpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_rsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_samajwadi_party_pred
+	value = 20
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_dp_pred
+	value = 0
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_ukd_pred
+	value = 0
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_samata_party_pred
+	value = 0
+}
+
+set_variable = {
+	var = uttar_pradesh_seats_aifb_pred
+	value = 0
+}
+
+# Bihar
+
+set_variable = {
+	var = bihar_seats_inc
+	value = 34
+}
+
+set_variable = {
+	var = bihar_seats_bjp
+	value = 0
+}
+
+set_variable = {
+	var = bihar_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = bihar_seats_cpi
+	value = 2
+}
+
+set_variable = {
+	var = bihar_seats_cpim
+	value = 1
+}
+
+set_variable = {
+	var = bihar_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = bihar_seats_ld
+	value = 2
+}
+
+set_variable = {
+	var = bihar_seats_rpi
+	value = 0
+}
+
+set_variable = {
+	var = bihar_seats_ipf
+	value = 0
+}
+
+set_variable = {
+	var = bihar_seats_samajwadi_party
+	value = 0
+}
+
+set_variable = {
+	var = bihar_seats_suci
+	value = 1
+}
+
+set_variable = {
+	var = bihar_seats_jmm
+	value = 0
+}
+
+set_variable = {
+	var = bihar_seats_mcc
+	value = 0
+}
+
+set_variable = {
+	var = bihar_seats_aifb
+	value = 0
+}
+
+set_variable = {
+	var = bihar_seats_inc_pred
+	value = 33
+}
+
+set_variable = {
+	var = bihar_seats_bjp_pred
+	value = 0
+}
+
+set_variable = {
+	var = bihar_seats_bsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = bihar_seats_cpi_pred
+	value = 2
+}
+
+set_variable = {
+	var = bihar_seats_cpim_pred
+	value = 2
+}
+
+set_variable = {
+	var = bihar_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = bihar_seats_ld_pred
+	value = 1
+}
+
+set_variable = {
+	var = bihar_seats_rpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = bihar_seats_ipf_pred
+	value = 0
+}
+
+set_variable = {
+	var = bihar_seats_samajwadi_party_pred
+	value = 0
+}
+
+set_variable = {
+	var = bihar_seats_suci_pred
+	value = 2
+}
+
+set_variable = {
+	var = bihar_seats_jmm_pred
+	value = 0
+}
+
+set_variable = {
+	var = bihar_seats_mcc_pred
+	value = 0
+}
+
+set_variable = {
+	var = bihar_seats_aifb_pred
+	value = 0
+}
+
+# West Bengal 
+
+set_variable = {
+	var = west_bengal_seats_inc
+	value = 2
+}
+
+set_variable = {
+	var = west_bengal_seats_bjp
+	value = 0
+}
+
+set_variable = {
+	var = west_bengal_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = west_bengal_seats_cpi
+	value = 1
+}
+
+set_variable = {
+	var = west_bengal_seats_cpim
+	value = 31
+}
+
+set_variable = {
+	var = west_bengal_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = west_bengal_seats_iuml
+	value = 4
+}
+
+set_variable = {
+	var = west_bengal_seats_al
+	value = 1
+}
+
+set_variable = {
+	var = west_bengal_seats_bnp
+	value = 0
+}
+
+set_variable = {
+	var = west_bengal_seats_bml
+	value = 0
+}
+
+set_variable = {
+	var = west_bengal_seats_suci
+	value = 1
+}
+
+set_variable = {
+	var = west_bengal_seats_ld
+	value = 0
+}
+
+set_variable = {
+	var = west_bengal_seats_gnlf
+	value = 0
+}
+
+set_variable = {
+	var = west_bengal_seats_aifb #COMMUNIST
+	value = 2
+}
+
+set_variable = {
+	var = west_bengal_seats_inc_pred
+	value = 0
+}
+
+set_variable = {
+	var = west_bengal_seats_bjp_pred
+	value = 0
+}
+
+set_variable = {
+	var = west_bengal_seats_bsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = west_bengal_seats_cpi_pred
+	value = 3
+}
+
+set_variable = {
+	var = west_bengal_seats_cpim_pred
+	value = 34
+}
+
+set_variable = {
+	var = west_bengal_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = west_bengal_seats_iuml_pred
+	value = 1
+}
+
+set_variable = {
+	var = west_bengal_seats_al_pred
+	value = 0
+}
+
+set_variable = {
+	var = west_bengal_seats_bnp_pred
+	value = 0
+}
+
+set_variable = {
+	var = west_bengal_seats_bml_pred
+	value = 0
+}
+
+set_variable = {
+	var = west_bengal_seats_suci_pred
+	value = 1
+}
+
+set_variable = {
+	var = west_bengal_seats_ld_pred
+	value = 0
+}
+
+set_variable = {
+	var = west_bengal_seats_gnlf_pred
+	value = 0
+}
+
+set_variable = {
+	var = west_bengal_seats_aifb_pred
+	value = 3
+}
+
+# North Bengal ### HAS 11 SEATS
+
+set_variable = {
+	var = north_bengal_seats_inc
+	value = 1
+}
+
+set_variable = {
+	var = north_bengal_seats_bjp
+	value = 0
+}
+
+set_variable = {
+	var = north_bengal_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = north_bengal_seats_cpi
+	value = 0
+}
+
+set_variable = {
+	var = north_bengal_seats_cpim
+	value = 4
+}
+
+set_variable = {
+	var = north_bengal_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = north_bengal_seats_iuml
+	value = 3
+}
+
+set_variable = {
+	var = north_bengal_seats_al
+	value = 2
+}
+
+set_variable = {
+	var = north_bengal_seats_bnp
+	value = 1
+}
+
+set_variable = {
+	var = north_bengal_seats_bml
+	value = 0
+}
+
+set_variable = {
+	var = north_bengal_seats_suci
+	value = 0
+}
+
+set_variable = {
+	var = north_bengal_seats_ld
+	value = 0
+}
+
+set_variable = {
+	var = north_bengal_seats_aifb #HINDUTVA
+	value = 0
+}
+
+set_variable = {
+	var = north_bengal_seats_inc_pred
+	value = 1
+}
+
+set_variable = {
+	var = north_bengal_seats_bjp_pred
+	value = 0
+}
+
+set_variable = {
+	var = north_bengal_seats_bsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = north_bengal_seats_cpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = north_bengal_seats_cpim_pred
+	value = 5
+}
+
+set_variable = {
+	var = north_bengal_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = north_bengal_seats_iuml_pred
+	value = 3
+}
+
+set_variable = {
+	var = north_bengal_seats_al_pred
+	value = 2
+}
+
+set_variable = {
+	var = north_bengal_seats_bnp_pred
+	value = 0
+}
+
+set_variable = {
+	var = north_bengal_seats_bml_pred
+	value = 0
+}
+
+set_variable = {
+	var = north_bengal_seats_suci_pred
+	value = 0
+}
+
+set_variable = {
+	var = north_bengal_seats_ld_pred
+	value = 0
+}
+
+set_variable = {
+	var = north_bengal_seats_aifb_pred ###AIFB in North Bengal is BAHUJAN
+	value = 0
+}
+
+# East Bengal ### HAS 39 SEATS
+
+set_variable = {
+	var = east_bengal_seats_inc
+	value = 0
+}
+
+set_variable = {
+	var = east_bengal_seats_bjp
+	value = 0
+}
+
+set_variable = {
+	var = east_bengal_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = east_bengal_seats_cpi #Real-life Communist Party of Bangladesh
+	value = 1
+}
+
+set_variable = {
+	var = east_bengal_seats_cpim #Real-life Workers Party of Bangladesh
+	value = 2
+}
+
+set_variable = {
+	var = east_bengal_seats_ss
+	value = 1
+}
+
+set_variable = {
+	var = east_bengal_seats_iuml
+	value = 6
+}
+
+set_variable = {
+	var = east_bengal_seats_al
+	value = 15
+}
+
+set_variable = {
+	var = east_bengal_seats_bnp
+	value = 14
+}
+
+set_variable = {
+	var = east_bengal_seats_bml
+	value = 0
+}
+
+set_variable = {
+	var = east_bengal_seats_suci #Real-life Socialist Party of Bangladesh
+	value = 0
+}
+
+set_variable = {
+	var = east_bengal_seats_ld
+	value = 0
+}
+
+set_variable = {
+	var = east_bengal_seats_aifb #HINDUTVA
+	value = 0
+}
+
+set_variable = {
+	var = east_bengal_seats_inc_pred
+	value = 0
+}
+
+set_variable = {
+	var = east_bengal_seats_bjp_pred
+	value = 0
+}
+
+set_variable = {
+	var = east_bengal_seats_bsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = east_bengal_seats_cpi_pred
+	value = 1
+}
+
+set_variable = {
+	var = east_bengal_seats_cpim_pred
+	value = 3
+}
+
+set_variable = {
+	var = east_bengal_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = east_bengal_seats_iuml_pred
+	value = 8
+}
+
+set_variable = {
+	var = east_bengal_seats_al_pred
+	value = 15
+}
+
+set_variable = {
+	var = east_bengal_seats_bnp_pred
+	value = 11
+}
+
+set_variable = {
+	var = east_bengal_seats_bml_pred
+	value = 0
+}
+
+set_variable = {
+	var = east_bengal_seats_suci_pred
+	value = 1
+}
+
+set_variable = {
+	var = east_bengal_seats_ld_pred
+	value = 0
+}
+
+set_variable = {
+	var = east_bengal_seats_aifb_pred #HINDUTVA
+	value = 0
+}
+
+# Tripura
+
+set_variable = {
+	var = tripura_seats_inc
+	value = 0
+}
+
+set_variable = {
+	var = tripura_seats_bjp
+	value = 0
+}
+
+set_variable = {
+	var = tripura_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = tripura_seats_cpi
+	value = 0
+}
+
+set_variable = {
+	var = tripura_seats_cpim
+	value = 2
+}
+
+set_variable = {
+	var = tripura_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = tripura_seats_ab
+	value = 0
+}
+
+set_variable = {
+	var = tripura_seats_tujs
+	value = 0
+}
+
+set_variable = {
+	var = tripura_seats_rsp
+	value = 0
+}
+
+set_variable = {
+	var = tripura_seats_aifb
+	value = 0
+}
+
+set_variable = {
+	var = tripura_seats_inc_pred
+	value = 0
+}
+
+set_variable = {
+	var = tripura_seats_bjp_pred
+	value = 0
+}
+
+set_variable = {
+	var = tripura_seats_bsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = tripura_seats_cpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = tripura_seats_cpim_pred
+	value = 2
+}
+
+set_variable = {
+	var = tripura_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = tripura_seats_ab_pred
+	value = 0
+}
+
+set_variable = {
+	var = tripura_seats_tujs_pred
+	value = 0
+}
+
+set_variable = {
+	var = tripura_seats_rsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = tripura_seats_aifb_pred
+	value = 0
+}
+
+# Assam
+
+set_variable = {
+	var = assam_seats_inc
+	value = 11
+}
+
+set_variable = {
+	var = assam_seats_bjp
+	value = 0
+}
+
+set_variable = {
+	var = assam_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = assam_seats_cpi 
+	value = 1
+}
+
+set_variable = {
+	var = assam_seats_cpim
+	value = 0
+}
+
+set_variable = {
+	var = assam_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = assam_seats_asdc
+	value = 0
+}
+
+set_variable = {
+	var = assam_seats_umfa
+	value = 0
+}
+
+set_variable = {
+	var = assam_seats_rsp
+	value = 0
+}
+
+set_variable = {
+	var = assam_seats_rcpi
+	value = 1
+}
+
+set_variable = {
+	var = assam_seats_suci 
+	value = 0
+}
+
+set_variable = {
+	var = assam_seats_ptca
+	value = 1
+}
+
+set_variable = {
+	var = assam_seats_abgl
+	value = 0
+}
+
+set_variable = {
+	var = assam_seats_aifb #INTEGRAL HUMANIST
+	value = 0
+}
+
+set_variable = {
+	var = assam_seats_inc_pred
+	value = 10
+}
+
+set_variable = {
+	var = assam_seats_bjp_pred
+	value = 0
+}
+
+set_variable = {
+	var = assam_seats_bsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = assam_seats_cpi_pred
+	value = 2
+}
+
+set_variable = {
+	var = assam_seats_cpim_pred
+	value = 0
+}
+
+set_variable = {
+	var = assam_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = assam_seats_asdc_pred
+	value = 0
+}
+
+set_variable = {
+	var = assam_seats_umfa_pred
+	value = 0
+}
+
+set_variable = {
+	var = assam_seats_rsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = assam_seats_rcpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = assam_seats_suci_pred
+	value = 0
+}
+
+set_variable = {
+	var = assam_seats_ptca_pred # Gandhist
+	value = 2
+}
+
+set_variable = {
+	var = assam_seats_abgl_pred
+	value = 0
+}
+
+set_variable = {
+	var = assam_seats_aifb_pred #INTEGRAL HUMANIST
+	value = 0
+}
+
+# Meghalaya ### Ruled by INC
+
+set_variable = {
+	var = meghalaya_seats_inc
+	value = 1
+}
+
+set_variable = {
+	var = meghalaya_seats_bjp
+	value = 0
+}
+
+set_variable = {
+	var = meghalaya_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = meghalaya_seats_cpi
+	value = 0
+}
+
+set_variable = {
+	var = meghalaya_seats_cpim
+	value = 0
+}
+
+set_variable = {
+	var = meghalaya_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = meghalaya_seats_aphlc
+	value = 1
+}
+
+set_variable = {
+	var = meghalaya_seats_hpu
+	value = 0
+}
+
+set_variable = {
+	var = meghalaya_seats_hspdp
+	value = 0
+}
+
+set_variable = {
+	var = meghalaya_seats_pdic
+	value = 0
+}
+
+set_variable = {
+	var = meghalaya_seats_inc_pred
+	value = 1
+}
+
+set_variable = {
+	var = meghalaya_seats_bjp_pred
+	value = 0
+}
+
+set_variable = {
+	var = meghalaya_seats_bsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = meghalaya_seats_cpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = meghalaya_seats_cpim_pred
+	value = 0
+}
+
+set_variable = {
+	var = meghalaya_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = meghalaya_seats_aphlc_pred
+	value = 1
+}
+
+set_variable = {
+	var = meghalaya_seats_hpu_pred
+	value = 0
+}
+
+set_variable = {
+	var = meghalaya_seats_hspdp_pred
+	value = 0
+}
+
+set_variable = {
+	var = meghalaya_seats_pdic_pred
+	value = 0
+}
+
+# Arunachal Pradesh ### Led by INC
+
+set_variable = {
+	var = arunachal_pradesh_seats_inc
+	value = 1
+}
+
+set_variable = {
+	var = arunachal_pradesh_seats_bjp
+	value = 0
+}
+
+set_variable = {
+	var = arunachal_pradesh_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = arunachal_pradesh_seats_cpi
+	value = 0
+}
+
+set_variable = {
+	var = arunachal_pradesh_seats_cpim
+	value = 0
+}
+
+set_variable = {
+	var = arunachal_pradesh_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = arunachal_pradesh_seats_ppa #Integral Humanist
+	value = 1
+}
+
+set_variable = {
+	var = arunachal_pradesh_seats_abp
+	value = 0
+}
+
+set_variable = {
+	var = arunachal_pradesh_seats_inc_pred
+	value = 1
+}
+
+set_variable = {
+	var = arunachal_pradesh_seats_bjp_pred
+	value = 0
+}
+
+set_variable = {
+	var = arunachal_pradesh_seats_bsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = arunachal_pradesh_seats_cpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = arunachal_pradesh_seats_cpim_pred
+	value = 0
+}
+
+set_variable = {
+	var = arunachal_pradesh_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = arunachal_pradesh_seats_ppa_pred #Integral Humanist
+	value = 1
+}
+
+set_variable = {
+	var = arunachal_pradesh_seats_abp_pred
+	value = 0
+}
+
+# Nagaland ### controlled by NNDP
+
+set_variable = {
+	var = nagaland_seats_inc
+	value = 1
+}
+
+set_variable = {
+	var = nagaland_seats_bjp
+	value = 0
+}
+
+set_variable = {
+	var = nagaland_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = nagaland_seats_cpi
+	value = 0
+}
+
+set_variable = {
+	var = nagaland_seats_cpim
+	value = 0
+}
+
+set_variable = {
+	var = nagaland_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = nagaland_seats_nndp #Integral Humanist
+	value = 1
+}
+
+set_variable = {
+	var = nagaland_seats_npp #Gandhist
+	value = 0
+}
+
+set_variable = {
+	var = nagaland_seats_npc #Bahujan
+	value = 0
+}
+
+set_variable = {
+	var = nagaland_seats_inc_pred
+	value = 1
+}
+
+set_variable = {
+	var = nagaland_seats_bjp_pred
+	value = 0
+}
+
+set_variable = {
+	var = nagaland_seats_bsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = nagaland_seats_cpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = nagaland_seats_cpim_pred
+	value = 0
+}
+
+set_variable = {
+	var = nagaland_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = nagaland_seats_nndp_pred
+	value = 1
+}
+
+set_variable = {
+	var = nagaland_seats_npp_pred
+	value = 0
+}
+
+set_variable = {
+	var = nagaland_seats_npc_pred
+	value = 0
+}
+
+# Manipur ### Led by INC
+
+set_variable = {
+	var = manipur_seats_inc
+	value = 1
+}
+
+set_variable = {
+	var = manipur_seats_bjp
+	value = 0
+}
+
+set_variable = {
+	var = manipur_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = manipur_seats_cpi 
+	value = 0
+}
+
+set_variable = {
+	var = manipur_seats_cpim
+	value = 0
+}
+
+set_variable = {
+	var = manipur_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = manipur_seats_mpp #Integral Humanist
+	value = 1
+}
+
+set_variable = {
+	var = manipur_seats_kna
+	value = 0
+}
+
+set_variable = {
+	var = manipur_seats_npc
+	value = 0
+}
+
+set_variable = {
+	var = manipur_seats_fpm
+	value = 0
+}
+
+set_variable = {
+	var = manipur_seats_ld 
+	value = 0
+}
+
+set_variable = {
+	var = manipur_seats_inc_pred
+	value = 1
+}
+
+set_variable = {
+	var = manipur_seats_bjp_pred
+	value = 0
+}
+
+set_variable = {
+	var = manipur_seats_bsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = manipur_seats_cpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = manipur_seats_cpim_pred
+	value = 0
+}
+
+set_variable = {
+	var = manipur_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = manipur_seats_mpp_pred
+	value = 1
+}
+
+set_variable = {
+	var = manipur_seats_kna_pred
+	value = 0
+}
+
+set_variable = {
+	var = manipur_seats_npc_pred
+	value = 0
+}
+
+set_variable = {
+	var = manipur_seats_fpm_pred
+	value = 0
+}
+
+set_variable = {
+	var = manipur_seats_ld_pred
+	value = 0
+}
+
+# Mizoran
+
+set_variable = {
+	var = mizoram_seats_inc
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_bjp
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_bsp
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_cpi
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_cpim
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_ss
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_mpc #Gandhist
+	value = 1
+}
+
+set_variable = {
+	var = mizoram_seats_mnf #Bahujan
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_mnfn
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_samata_party
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_hpc
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_eu
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_aifb #HINDUTVA
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_inc_pred
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_bjp_pred
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_bsp_pred
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_cpi_pred
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_cpim_pred
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_ss_pred
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_mpc_pred 
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_mnf_pred
+	value = 1
+}
+
+set_variable = {
+	var = mizoram_seats_mnfn_pred
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_samata_party_pred
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_hpc_pred
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_eu_pred
+	value = 0
+}
+
+set_variable = {
+	var = mizoram_seats_aifb_pred #HINDUTVA
+	value = 0
+}
+
+
 
 
 create_country_leader = {

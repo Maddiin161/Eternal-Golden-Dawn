@@ -1,5 +1,13 @@
 #reload countrycolors 
 #NEW COUNTRY COLOURS 
+FTW = {
+	color = rgb { 0  188  228 }
+	color_ui = rgb { 0  188  228 }
+}
+STE = {
+	color = rgb { 0  153  0 }
+	color_ui = rgb { 0  153  0 }
+}
 JAA = {
 	color = rgb { 206  17  38 }
 	color_ui = rgb { 206  17  38 }

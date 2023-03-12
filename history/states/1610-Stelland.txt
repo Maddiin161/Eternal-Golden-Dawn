@@ -1,0 +1,27 @@
+state={
+	id=1610
+	name="STATE_1610"
+	history={
+		owner = STE
+		set_state_flag = mountains
+		set_state_flag = river
+		set_state_flag = small
+		set_state_flag = poor
+		buildings = {
+			infrastructure = 0
+			arms_factory = 1
+
+		}
+		add_core_of = STE
+		victory_points = {
+			14143 5
+		}
+	}
+	provinces={
+		2094 14143 15985
+	}
+	manpower=2146614
+	buildings_max_level_factor=1.000
+	state_category=pop2
+	local_supplies=0.000
+}
