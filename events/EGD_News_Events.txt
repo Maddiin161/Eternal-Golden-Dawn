@@ -781,3 +781,78 @@ news_event = {
 		name = WorldNews.56.a
 	}
 }
+
+##Event: Brazel is gone
+news_event = {
+	id = WorldNews.57
+	title = WorldNews.57.t
+	desc = WorldNews.57.d
+	picture = GFX_news_event_brazel_leaves
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.57.a
+	}
+}
+
+##Event: Union falls in 1981
+news_event = {
+	id = WorldNews.58
+	title = WorldNews.58.t
+	desc = WorldNews.58.d
+	picture = GFX_news_event_strauss_falls
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.58.a
+	}
+}
+
+##Event: Union Breaks in 1982
+news_event = {
+	id = WorldNews.59
+	title = WorldNews.59.t
+	desc = WorldNews.59.d
+	picture = GFX_news_event_union_breaks
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.59.a
+	} 
+}
+
+##Event: Ramstein burns at the 31. August 1981
+news_event = {
+	id = WorldNews.60
+	title = WorldNews.60.t
+	desc = WorldNews.60.d
+	picture = GFX_news_event_ramstein_burns
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = WorldNews.60.a
+		trigger = {
+			NOT = {
+				TAG = WGR
+			}
+		}
+	} 
+	option = {
+		name = WorldNews.60.b 
+		trigger = {
+			TAG = WGR
+		}
+	}
+}
+
+
+
+
+
+
+
+
