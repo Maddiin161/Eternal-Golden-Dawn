@@ -14,14 +14,19 @@ set_politics = {
 	despotism = 0
 	islamism = 0
 	autocracy = 0
-	authoritarian_democracy = 0
+	authoritarian_democracy = 1
 	corporate_oligarchy = 0
 	social_conservatism = 20
-	market_liberalism = 20
-	social_liberalism = 20
+	market_liberalism = 18
+	social_liberalism = 19
 	social_democracy = 40
-	libertarian_socialism = 0
-	revolutionary_socialism = 0
+	libertarian_socialism = 1
+	revolutionary_socialism = 1
+}
+
+add_ideas = { 
+	WGR_eternal_autumn_idea
+	WGR_strauss_shadow_idea
 }
 
 set_variable = { EGD_COUNTRY_GDP = 486 } 
