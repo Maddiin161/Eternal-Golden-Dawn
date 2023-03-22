@@ -1,0 +1,45 @@
+ideas = {
+	country = {
+			
+		WGR_eternal_autumn_idea = {
+			picture = WGR_eternal_german_autumn
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+				
+			modifier = { 
+				revolutionary_socialism_drift = 0.01 
+				party_popularity_stability_factor = -0.3
+				gdp_growth_modifier = -0.15
+				crime_fighting_cost_modifier = 0.25
+				required_garrison_factor = 0.2 
+			}
+		}
+		
+		WGR_strauss_shadow_idea = {
+			picture = WGR_shadow_franz_strauss
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+				
+			modifier = {
+				political_power_cost = 0.1
+				social_conservatism_drift = 0.05
+			}
+		}
+	}
+}		
