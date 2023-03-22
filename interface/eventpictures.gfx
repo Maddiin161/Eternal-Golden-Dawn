@@ -437,6 +437,44 @@ spriteType = {
 		name = "GFX_event_quietman"
 		texturefile = "gfx/event_pictures/GFX_event_quietman.dds"
 	}
+spriteType = {
+		name = "GFX_news_event_brazel_leaves"
+		texturefile = "gfx/event_pictures/GFX_news_event_brazel_leaves.dds"
+	}	
+spriteType = {
+		name = "GFX_news_event_strauss_falls"
+		texturefile = "gfx/event_pictures/GFX_news_event_strauss_falls.dds"
+	}		
+spriteType = {
+		name = "GFX_news_event_union_breaks"
+		texturefile = "gfx/event_pictures/GFX_news_event_union_breaks.dds"
+	}	
+spriteType = {
+		name = "GFX_news_event_raf_hostage_crisis_failure"
+		texturefile = "gfx/event_pictures/GFX_news_event_raf_hostage_crisis_failure.dds"
+	}	
+spriteType = {
+		name = "GFX_news_event_ramstein_burns"
+		texturefile = "gfx/event_pictures/GFX_news_event_ramstein_burns.dds"
+	}	
+spriteType = {
+		name = "GFX_news_event_brazel_reforms"
+		texturefile = "gfx/event_pictures/GFX_news_event_brazel_reforms.dds"
+	}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 # END
