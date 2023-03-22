@@ -1,5 +1,17 @@
 spriteTypes = { 
 	
+	#### WGR ####
+	
+	SpriteType = { 
+		name = "GFX_idea_WGR_shadow_franz_strauss"
+		texturefile = "gfx/interface/ideas/WGR/WGR_shadow_franz_strauss.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_idea_WGR_eternal_german_autumn"
+		texturefile = "gfx/interface/ideas/WGR/WGR_eternal_german_autumn.dds"
+	}
+	
 	#### DDR ####
 
 	SpriteType = { 
